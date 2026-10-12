@@ -18,3 +18,9 @@ Chờ 8 subagent Cổng 2 -> cập nhật bảng Cổng 0 -> Cổng 3 -> dừng 
 ## Lỗi / lưu ý
 - Repo public: ho-so/de-cuong-goc.docx và NQ 57 đã nằm sẵn trên nhánh từ commit trước (6167125, 32b865a). Cần người dùng quyết định (xóa khỏi lịch sử hoặc chuyển repo private).
 - Container ephemeral: file chỉ lưu cục bộ có thể mất khi phiên kết thúc.
+
+## Cập nhật Cổng 2
+- research-grants: XONG (g2-research-grants.md, local-only vì trích đề cương; repo public). 2 NGHIÊM TRỌNG, 9 ĐÁNG SỬA, 3 CHỈNH NHẸ + 3 lỗi thiết kế chờ duyệt. Đã đọc 16 file skill.
+- Chạy ở luồng chính (V7): review-paper-checks (agent A,B,C), review-pap (agent 1-6), review-paper (agent 1-8) đang chạy; cần Phase 3 hợp nhất. academic-paper-reviewer chưa bắt đầu.
+- Chờ: sciwrite, paper-writing red-team, peer-review.
+- Các báo cáo có trích đề cương được loại khỏi git cục bộ (.git/info/exclude), KHÔNG push (V5).
