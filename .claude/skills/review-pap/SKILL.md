@@ -3,7 +3,6 @@ name: review-pap
 description: Run a 6-agent pre-submission review of a pre-analysis plan (PAP) for a specified registration target or journal
 argument-hint: [optional: TARGET] [optional: path/to/pap.tex]
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent
-disable-model-invocation: true
 ---
 
 You are coordinating a rigorous pre-submission review of a pre-analysis plan (PAP). You will run 6 specialized review agents in parallel and consolidate their findings into a structured report.

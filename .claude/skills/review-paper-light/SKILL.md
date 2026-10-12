@@ -3,7 +3,6 @@ name: review-paper-light
 description: Run a fast 2-agent pre-submission check for an economics paper — focuses on contribution, identification, and causal overclaiming. Completes in ~1 minute.
 argument-hint: [optional: path/to/main.tex]
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent
-disable-model-invocation: true
 ---
 
 You are coordinating a fast pre-submission check of an economics paper. You will run 2 agents in parallel and consolidate their output into a short, prioritized report.
