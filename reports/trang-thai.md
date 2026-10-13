@@ -24,3 +24,11 @@ Chờ 8 subagent Cổng 2 -> cập nhật bảng Cổng 0 -> Cổng 3 -> dừng 
 - Chạy ở luồng chính (V7): review-paper-checks (agent A,B,C), review-pap (agent 1-6), review-paper (agent 1-8) đang chạy; cần Phase 3 hợp nhất. academic-paper-reviewer chưa bắt đầu.
 - Chờ: sciwrite, paper-writing red-team, peer-review.
 - Các báo cáo có trích đề cương được loại khỏi git cục bộ (.git/info/exclude), KHÔNG push (V5).
+
+## Phiên 2026-10-13 — DỪNG theo S4 (Cổng 1 kiểm tra lại không qua)
+- Phiên mới khởi động trên nhánh claude/upbeat-hopper-eqlt83 (không có .claude/skills/); đã checkout claude/quirky-ritchie-evnzw5 sau khi phiên bắt đầu, nên 14 skill trong repo KHÔNG được đăng ký với công cụ Skill.
+- Luồng chính, lỗi nguyên văn: `Unknown skill: review-paper-light`; `Unknown skill: peer-review`; `Unknown skill: manuscript-writing-review`; `Unknown skill: academic-paper-reviewer`.
+- Subagent (V7): cùng lỗi `Unknown skill: ...` cho review-paper-light, peer-review, manuscript-writing-review. Không đọc SKILL.md để làm thay.
+- Báo cáo local-only của phiên trước (g2-research-grants.md, 4 skill còn lại) KHÔNG còn: container cũ đã bị thu hồi.
+- Bước 4a vẫn chặn: ho-so/ chưa có Quyết định 1193; NQ 57 là bản scan không có lớp chữ.
+- Việc tiếp theo: mở phiên mới với nhánh khởi động là claude/quirky-ritchie-evnzw5 -> kiểm tra lại Cổng 1 -> chạy lại toàn bộ Cổng 2.
