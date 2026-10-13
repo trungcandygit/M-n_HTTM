@@ -32,3 +32,9 @@ Chờ 8 subagent Cổng 2 -> cập nhật bảng Cổng 0 -> Cổng 3 -> dừng 
 - Báo cáo local-only của phiên trước (g2-research-grants.md, 4 skill còn lại) KHÔNG còn: container cũ đã bị thu hồi.
 - Bước 4a vẫn chặn: ho-so/ chưa có Quyết định 1193; NQ 57 là bản scan không có lớp chữ.
 - Việc tiếp theo: mở phiên mới với nhánh khởi động là claude/quirky-ritchie-evnzw5 -> kiểm tra lại Cổng 1 -> chạy lại toàn bộ Cổng 2.
+
+## Phiên 2026-10-13 (lần 2) — nhánh khởi động đúng
+- Cổng 1: ĐẠT 14/14 (chi tiết ở kiem-toan-skill.md). Repo vẫn PUBLIC (kiểm tra qua GitHub API).
+- Quyết định V5: chỉ ho-so/ và outputs/ bị cấm push. reports/ được push (V5 không phủ; bản đề cương gốc đã nằm sẵn trên nhánh public). Ghi vào danh sách chờ duyệt.
+- Bước 4a: vẫn thiếu Quyết định 1193 trong ho-so/ -> sẽ DỪNG sau Cổng 3.
+- Đang làm: Cổng 2. Bản văn bản/LaTeX tạm của đề cương ở scratchpad (không commit).
