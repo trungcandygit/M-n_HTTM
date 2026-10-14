@@ -34,3 +34,8 @@ Gọi bằng công cụ Skill ở luồng chính, đối số "CỔNG 1 — CH�
 | academic-pipeline | nạp được | ARS_AUDIT_ARTIFACT_GATE (gửi ra model ngoài) → không bật |
 
 Kết luận Cổng 1: ĐẠT 14/14.
+
+## Bổ sung shared/ và scripts/ cho academic-paper-reviewer (2026-10-14, người dùng chọn phương án 1)
+- Nguồn: github.com/Imbad0202/academic-research-skills, commit d1e51716e53fc371727ea6164dd709fc8ea28c97 (cùng commit đã ghim ở Cổng 0). Chép nguyên vẹn `shared/` (155 file) và `scripts/` (632 file) vào `.claude/ars/`, giữ hai thư mục ngang cấp vì các script tìm `shared/` theo `scripts/../shared`.
+- SHA-256 của shared/contracts/reviewer/full.json = e9712090d2469fea15a37b8e22d4e137afbcb2bf38d5789939c5df56738ef7af, khớp giá trị ghim trong review_panel_provenance.py. `check_sprint_contract.py full.json` → OK (Schema 13.2), có 3 cảnh báo SC-12 chỉ để thông tin.
+- S5: chỉ chạy 6 script (check_sprint_contract, check_phase_conformance, check_panel_synthesis, recompute_receipts, review_panel_provenance, check_acronyms). Một subagent đã đọc trọn từng dòng cả 6 script: không truy cập mạng, không gọi subprocess, không đọc biến môi trường, không có eval/exec; chỉ ghi ra đường dẫn do người chạy truyền vào. Kết luận SAFE. Đã kiểm tra: schema không có $ref trỏ ra URL ngoài; trong scripts/ không có file trùng tên module chuẩn. Mọi script đều chạy bằng `python3 -I`. Các script còn lại không chạy.
