@@ -12,7 +12,7 @@
 | scientific-writing | (cùng repo) | (cùng commit) | 31 | Có | CHƯA |
 | citation-management | (cùng repo) | (cùng commit) | 21 | Có | CHƯA |
 | paper-writing (paper-writing-skill) | SNL-UCSB/paper-writing-skill | 676f8520bba54208eb4fe1d41620e365d9af6a24 | 34 | Có | CÓ — 27 file nội dung (subagent red-team; không chạy `setup`; `examples/project_context.md` mà SKILL.md trỏ tới không tồn tại) |
-| academic-paper-reviewer | Imbad0202/academic-research-skills | d1e51716e53fc371727ea6164dd709fc8ea28c97 | 28 | Có | ĐÃ ĐỌC (SKILL.md, agents, references, templates dùng cho full) — dừng ở bước 1 (thiếu shared/ và scripts/); đã đọc SKILL.md + sprint_contract_protocol.md |
+| academic-paper-reviewer | Imbad0202/academic-research-skills | d1e51716e53fc371727ea6164dd709fc8ea28c97 | 28 | Có | ĐÃ ĐỌC (SKILL.md, agents, references, templates dùng cho full); lần chạy 13/10 dừng vì thiếu shared/ và scripts/, đã khắc phục ngày 14/10 |
 | academic-paper | (cùng repo) | (cùng commit) | 63 | Có | CHƯA |
 | deep-research | (cùng repo) | (cùng commit) | 53 | Có | CHƯA |
 | academic-pipeline | (cùng repo) | (cùng commit) | 30 | Có | CHƯA |
