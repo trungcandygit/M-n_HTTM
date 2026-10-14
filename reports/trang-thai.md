@@ -38,3 +38,19 @@ Chờ 8 subagent Cổng 2 -> cập nhật bảng Cổng 0 -> Cổng 3 -> dừng 
 - Quyết định V5: chỉ ho-so/ và outputs/ bị cấm push. reports/ được push (V5 không phủ; bản đề cương gốc đã nằm sẵn trên nhánh public). Ghi vào danh sách chờ duyệt.
 - Bước 4a: vẫn thiếu Quyết định 1193 trong ho-so/ -> sẽ DỪNG sau Cổng 3.
 - Đang làm: Cổng 2. Bản văn bản/LaTeX tạm của đề cương ở scratchpad (không commit).
+
+## Cập nhật 2026-10-14 — DỪNG theo S4 tại Cổng 2
+| Cổng/bước | Trạng thái |
+|---|---|
+| Cổng 1 | ĐẠT 14/14 |
+| Cổng 2 | KHÔNG QUA: 7/8 báo cáo xong (g2-review-paper, g2-review-paper-checks, g2-review-pap, g2-peer-review, g2-research-grants, g2-sciwrite, g2-paper-writing-redteam). academic-paper-reviewer dừng ở bước 1: thiếu shared/contracts/reviewer/full.json và scripts/ (xem g2-academic-paper-reviewer.md, có lỗi nguyên văn) |
+| Cổng 3 | CHƯA (chặn bởi Cổng 2) |
+| Bước 4 | CHẶN: ho-so/ thiếu QĐ 1193/QĐ-UBND; NQ 57 là bản scan không có lớp chữ |
+| Vòng 1–3 | CHƯA |
+
+Ghi chú: ngày 2026-10-13, subagent sciwrite, paper-writing và peer-review bị ngắt do giới hạn phiên API (HTTP 429). Ngày 2026-10-14 đã chạy tiếp từ đúng chỗ dừng (sciwrite đã ghi xong báo cáo trước khi bị ngắt; peer-review làm nốt bước lint; paper-writing làm nốt phần red-team).
+
+Việc tiếp theo khi người dùng quyết:
+(1) Chọn cách xử lý academic-paper-reviewer (khuyến nghị: chép shared/ và scripts/ từ commit d1e51716, đọc từng script trước khi chạy, rồi chạy lại Cổng 2 cho riêng skill này).
+(2) Đặt QĐ 1193 (bản có lớp chữ nếu được) vào ho-so/; NQ 57 cần bản có lớp chữ, hoặc cho phép OCR cục bộ.
+Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) → Bước 4 → Vòng 1. Không chạy lại 7 báo cáo đã xong.
