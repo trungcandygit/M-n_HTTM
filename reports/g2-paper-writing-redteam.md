@@ -59,12 +59,12 @@ Cách chạy: (a) grep dòng trực tiếp (`g.sh`, lọc dòng 155–1160) cho 
 | M8 câu dựng thế rỗng | `điểm mấu chốt`, `điểm khác biệt là`, `ý tưởng chính/cốt lõi` | 0 | — | Sạch |
 | M9 ẩn dụ trang trí | `chìa khóa`, `bức tranh`, `đòn bẩy`, `cầu nối`, `nền móng`, `trụ cột`, `đóng băng`, `lan truyền`, `dồn trọng số` | 6 (5 câu) | L332–334 "đặt nền móng cho lý thuyết triển vọng… tổng hợp hai trụ cột của tài chính hành vi" | "đóng băng", "lan truyền", "dồn trọng số" là cách nói của nguồn (IMF, Vu và cộng sự, Michaud) → giữ. "nền móng", "trụ cột" → MINOR |
 | M10 động từ thổi phồng | `mở ra`, `có tiềm năng`, `góp phần`, `hứa hẹn`, `sẵn sàng` | 0 | — | Sạch |
-| M11 bị động | `\bđược\b\|\bbị\b\|\bbởi\b\|do mô hình` | 26 (25 câu) | L681 "Đề tài coi H~1~ được ủng hộ khi…"; L305 "chưa thể bị loại"; L183 "lợi suất thị trường thấp do mô hình chuyển chế độ ước lượng" | Phần lớn "được" là nghĩa khả năng ("ước lượng được", "tính được"), không phải bị động. Bị động thật ≈10 ("được ủng hộ" ×3, "được chọn", "được mua bán lại", "bị loại", "bị từ chối", "được chấp nhận đăng"): **xung đột với nguyên tắc tác giả — không khuyến nghị áp dụng** quy tắc zero-passive. Riêng L183 "do mô hình…" gây đọc sai → chuyển sang S5 (MAJOR) |
-| M12 thừa chữ | `nhằm mục đích`, `để có thể`, `một cách`, `trong việc`, `về mặt`, `đối với`, `việc `, `sự `, `tiến hành` | 40 (37 câu) | L166–167 "vượt quy tắc chia đều vốn… một cách nhất quán"; L159 "việc chọn mô hình trở thành…" | ~28 là "cộng sự" (dương tính giả); ~11 là "việc + động từ" tự nhiên trong tiếng Việt; 1 hit tùy chọn ("một cách nhất quán" → "nhất quán"). Không có lỗi đáng sửa bắt buộc |
+| M11 bị động | `\bđược\b\|\bbị\b\|\bbởi\b\|do mô hình` | 26 (25 câu) | L681 "Đề tài coi H~1~ được ủng hộ khi…"; L305 "chưa thể bị loại"; L183 "lợi suất thị trường thấp do mô hình chuyển chế độ ước lượng" | Phần lớn "được" là nghĩa khả năng ("ước lượng được", "tính được"), không phải bị động. Bị động thật 9 ("được ủng hộ" ×3, "được chọn", "được mua bán lại", "bị loại", "bị từ chối", "được chấp nhận đăng" ×2) [sửa sau kiểm toán Cổng 3: bản cũ ghi ≈10; xem Phụ lục]: **xung đột với nguyên tắc tác giả — không khuyến nghị áp dụng** quy tắc zero-passive. Riêng L183 "do mô hình…" gây đọc sai → chuyển sang S5 (MAJOR) |
+| M12 thừa chữ | `nhằm mục đích`, `để có thể`, `một cách`, `trong việc`, `về mặt`, `đối với`, `việc `, `sự `, `tiến hành` | 40 (37 câu) | L166–167 "vượt quy tắc chia đều vốn… một cách nhất quán"; L159 "việc chọn mô hình trở thành…" | 21 là "cộng sự" và 3 là "công việc/làm việc" (dương tính giả); 12 là "việc + động từ/danh từ" tự nhiên trong tiếng Việt; 2 "sự" khác ("sự kiện" là dương tính giả, "sự phù hợp" tùy chọn); 2 hit tùy chọn ("một cách nhất quán" → "nhất quán"; "đối với" L937) [sửa sau kiểm toán Cổng 3: bản cũ ghi ~28 cộng sự, ~11 việc; xem Phụ lục]. Không có lỗi đáng sửa bắt buộc |
 | M13 từ rào yếu | `rất`, `khá`, `hơi`, `tương đối`, `chắc chắn` (trừ "tương đương chắc chắn"), `gần như`, `(?<!bình )thường` | 3 | L299 "dự báo kết hợp thường tốt hơn"; L323 "thường trên 2% mỗi năm"; L327 "gần như không còn dấu hiệu lây nhiễm" | Cả 3 là rào trung thực, khớp phát hiện của nguồn → giữ. **xung đột với nguyên tắc tác giả — không khuyến nghị áp dụng** việc xoá |
 | M14 trạng từ tự chế / số thứ tự giả | Không có tương đương tiếng Việt cho `firstly/-wise`; kiểm "thứ nhất/thứ hai" | 0 | — | Không áp dụng (cách đếm "Lý do đầu tiên/thứ hai" là chuẩn tiếng Việt) |
 | M15 `!` và câu hỏi tu từ | `[!?]`; grep `!` trên main.tex | 3 `?` trong thân; 1 `!` trong tên bài trích dẫn (Lo và Mueller 2010) | L233–242 ba câu hỏi nghiên cứu | Câu hỏi nghiên cứu, không phải tu từ; `!` nằm trong tên bài gốc → hợp lệ |
-| M16 từ kêu/mơ hồ | `nhân tố`, `yếu tố`, `hiện nay`, `hiện tại`, `sở hữu`, `có ý nghĩa`, `tác động` | 9 | L435–439 "chế độ thị trường tác động lên rủi ro lựa chọn mô hình… Các biến kênh tác động lên chính quan hệ đó… Cơ chế giảm thiểu tác động lên quan hệ…" | 3 hit ở L435–439 là lỗi thật: ngôn ngữ nhân quả mâu thuẫn L698–699 → MAJOR (S18/S8). Các hit còn lại là mô tả nguồn hoặc "mức ý nghĩa" thống kê |
+| M16 từ kêu/mơ hồ | `nhân tố`, `yếu tố`, `hiện nay`, `hiện tại`, `sở hữu`, `có ý nghĩa`, `tác động` | 9 | L435–439 "chế độ thị trường tác động lên rủi ro lựa chọn mô hình… Các biến kênh tác động lên chính quan hệ đó… Cơ chế giảm thiểu tác động lên quan hệ…" | 3 hit ở L435–439 là lỗi thật: ngôn ngữ nhân quả mâu thuẫn L698–699 → MAJOR (S18/S8). 6 hit còn lại gồm 2 mô tả nguồn, 2 "mức ý nghĩa" thống kê và 2 "tác động" kỹ thuật trong phần phương pháp (L625, L677), giữ [sửa sau kiểm toán Cổng 3: bản cũ gộp cả 6 vào nhóm mô tả nguồn/mức ý nghĩa; xem Phụ lục] |
 | M17 động từ hoa mỹ | `khai thác`, `kiến tạo`, `đan xen`, `nắm bắt`, `giải mã`, `định hình`, `rèn` | 1 | L897 "Thí sinh muốn rèn các kỹ năng này" | Cách nói thông dụng; giữ (tùy chọn "phát triển") |
 | M18 câu mở rỗng | `^(Trong (đề cương\|phần\|mục\|chương) này\|Phần này\|Mục này)`; mẫu gốc trên main.tex | 0 / 0 | — | Sạch |
 | Part B cặp từ dễ nhầm | Không có tương đương trực tiếp; kiểm "do" mơ hồ chủ thể/nguyên nhân | 1 thật | L183 (như trên) | Chuyển sang S5 |
@@ -325,9 +325,12 @@ Các điểm dưới đây chạm đến thiết kế; reviewer chỉ nêu, khô
 | 6 | Gate 3c: nhất quán từ vựng + phân rã, không trùng lặp, mappability, định vị trung thực, nói thẳng danh từ | Đã làm | S8/S9/S10/S15/S21/S12 ở mục 2; ví dụ "gồm biến động, thanh khoản, tương quan cực trị và bầy đàn" (L251–252) |
 | 7 | Gate 3d: săn bốn lớp lỗi (giọng máy, khó tiếp cận, thiếu mạch lạc, phi logic) | Đã làm | Mục 2, "Bốn lớp lỗi"; ví dụ phi logic: "khi đó rủi ro lựa chọn mô hình không đổi theo chế độ" (L748–749) |
 | 8 | Gate 3e: từ chối cho qua cho đến khi sạch; trả danh sách phát hiện có mã quy tắc, dòng, cách sửa | Đã làm | Mục 3: 50 phát hiện, mỗi mục có M#/S#, số dòng, đề xuất sửa; kết luận CHƯA CLEAN |
-| 9 | **Evidence rule**: dán grep + findings làm hồ sơ; không báo clean khi chỉ đọc nhẩm | Đã làm | Số đếm grep ở mục 1 (ví dụ M11 = 26 khớp/25 câu; M2 = 15 câu); script ở `scratchpad/g2rt/` |
+| 9 | **Evidence rule**: dán grep + findings làm hồ sơ; không báo clean khi chỉ đọc nhẩm | Đã làm (lần đầu chỉ dán số đếm; output nguyên văn bổ sung ở bước 12) | Số đếm grep ở mục 1 (ví dụ M11 = 26 khớp/25 câu; M2 = 15 câu); script ở `scratchpad/g2rt/` |
 | 10 | **How to run**: reviewer tách biệt, chỉ nhận văn bản + checklist + controlling idea, không xem tự đánh giá của tác giả | Đã làm | Subagent riêng; controlling idea = tên đề tài + 3 câu hỏi (ghi ở đầu báo cáo); không mở `scratchpad/paper/reviews/` và `reports/` |
 | 11 | Tác giả sửa mọi phát hiện, vòng lặp lặp lại đến khi reviewer trả clean | CHƯA LÀM | Ngoài phạm vi: nhiệm vụ cấm sửa file đề cương; cần vòng sau |
+| 12 | **Gate 2 / Evidence rule: "PASTE the raw output (hit counts + lines)… 'Audited' without pasted output is INVALID"**. Chạy lại grep M1–M18 và dán nguyên văn mọi dòng trúng | LÀM | Phụ lục "Output grep nguyên văn (M1–M18)" ở cuối báo cáo. Có mọi dòng trúng của mỗi mã, đặt trong khối code, kèm bảng đối chiếu số đếm. Ví dụ M11 dán đủ 25 câu/26 khớp, trong đó "Đề tài coi H~1~ được ủng hộ khi thỏa đồng thời ba điều kiện" (L677). Số đếm khớp §1. Đã sửa phần phân loại của M11, M12, M16 |
+
+Chạy lại lần 1 sau kiểm toán Cổng 3 (2026-10-14).
 
 ### 6.2 Các bước MUST của `SKILL.md` áp dụng cho review
 
@@ -348,3 +351,401 @@ Các điểm dưới đây chạm đến thiết kế; reviewer chỉ nêu, khô
 | `loop_mode.md` (ledger `notes/AUDIT_LEDGER.md`) | CHƯA LÀM | Không được gọi qua `/loop`; tạo ledger sẽ phải ghi vào thư mục bài, trái với lệnh không sửa file đề cương |
 | Compression (Stage 5), Pre-Submission Mechanical Checklist (LaTeX) | Không áp dụng | Văn bản là .docx, không phải bài .tex nộp hội nghị; trang số: bản dựng 30 trang |
 | `setup` | Không chạy | Theo lệnh: không chạy mã chưa đọc |
+
+---
+
+## Phụ lục — Output grep nguyên văn (M1–M18)
+
+*Chạy lại lần 1 sau kiểm toán Cổng 3 (2026-10-14).* Phụ lục này bổ sung phần còn thiếu theo evidence rule của `red_team_protocol.md` ("PASTE the raw output (hit counts + lines)"). Mọi dòng trúng được dán nguyên văn, không cắt.
+
+**Đầu vào và cách chạy**
+- Văn bản: `scratchpad/paper/de-cuong-goc.md`, SHA-256 `ac4c0ea1cb2ddca5aac07424c3da9532eccfb98bef8eb4c5c3602603889eb9f9`. Phạm vi dòng 155–1160, giống lần chạy gốc.
+- Script: đọc toàn văn `scratchpad/g2rt/g.sh`, `gate.py`, `rules.py` trước khi chạy. Cả ba chỉ xử lý văn bản cục bộ, không dùng mạng. Chạy bằng `python3 -I`. Output lưu ở `scratchpad/g2rt-rerun/`.
+- M1: `g.sh` (grep theo dòng). Vì `g.sh` dùng `grep -o` nên chỉ in đoạn khớp; phụ lục dán thêm dòng đầy đủ.
+- M2–M18 (trừ M7, M14): regex nguyên văn trong `rules.py`, áp lên từng câu của `g2rt/sents.json`. Đây đúng là tệp câu mà lần chạy gốc dùng. Wrapper `g2rt-rerun/dump.py` lấy nguyên khối `R` từ `rules.py` và chỉ đổi phần in: in **toàn bộ** câu trúng, kèm mọi đoạn khớp, thay vì 8 câu đầu cắt 60 ký tự.
+- Ghi chú về tách câu: chạy lại `gate.py` từ đầu ra 331 câu, còn `g2rt/sents.json` gốc có 332 câu, vì bản gốc đã được chỉnh tay chỗ tách câu (L201, L275, L1131 tách đúng ở "Ở…"; L1151, L1157 gộp "GS.TS."/"PGS.TS."). Đã chạy `rules.py` trên cả hai: số đếm M2–M18 **giống hệt nhau**. Chỉ dòng Hedging (S18, ngoài M1–M18) lệch 43 so với 44 câu, còn số khớp vẫn là 48. Phụ lục dùng tệp gốc.
+- Số dòng `Lxxx` trong output của `rules.py` là **dòng đầu đoạn** chứa câu, không phải dòng của chính câu đó. Bảng §1 dùng dòng thật, nên có thể lệch vài dòng (ví dụ M11 L171 trong output ứng với L183 ở §1).
+- M7 (bộ ba trang trí) và M14 (trạng từ tự chế) không có grep tiếng Việt; §1 đã khai là đọc tay. Grep nguyên mẫu M14 trên `main.tex` cho 0 dòng (xem Part C bên dưới).
+
+### Đối chiếu số đếm với bảng §1
+
+| Mã | §1 ghi | Chạy lại | Khớp |
+|---|---|---|---|
+| M1 | Unicode 0; `' -- '` 0; `---` 505 lần, 0 ngoài dòng kẻ bảng; `số--số` 21; `' - '` 8 | 0; 0; 505 lần, 0; 21; 8 | Khớp |
+| M2 | 15 câu | 15 khớp / 15 câu | Khớp |
+| M3 | 0 | 0 | Khớp |
+| M4 | 1 | 1 | Khớp |
+| M5 | 15 câu (13 thuật ngữ, 2 thật) | 15 / 15 (13 + 2) | Khớp |
+| M6 | 1 | 1 | Khớp |
+| M8 | 0 | 0 | Khớp |
+| M9 | 6 (5 câu) | 6 / 5 | Khớp |
+| M10 | 0 | 0 | Khớp |
+| M11 | 26 (25 câu); "bị động thật ≈10" | 26 / 25; bị động thật **9** | Số đếm khớp; phần phân loại **đã sửa** ≈10 thành 9 |
+| M12 | 40 (37 câu); "~28 cộng sự, ~11 việc + động từ" | 40 / 37; cộng sự 21, công/làm việc 3, việc + V/N 12, sự khác 2, một cách 1, đối với 1 | Số đếm khớp; phần phân loại **đã sửa** |
+| M13 | 3 | 3 | Khớp |
+| M15 | 3 `?` + 1 `!` (tên bài) | 3 `?`; `!` = 1 dòng trên main.tex (L1537, tên bài) | Khớp |
+| M16 | 9 (3 thật; còn lại là mô tả nguồn/mức ý nghĩa) | 9 (3 thật; 2 mô tả nguồn; 2 mức ý nghĩa; 2 "tác động" kỹ thuật của tác giả) | Số đếm khớp; phần mô tả **đã sửa** |
+| M17 | 1 | 1 | Khớp |
+| M18 | 0 / 0 | 0 / 0 | Khớp |
+| Độ dài câu | 332 câu, TB 25,8; >40: 56; >50: 24; >60: 7 | Trên `sents.json` gốc: 332; 25,8; 56; 24; 7 | Khớp (chạy lại `gate.py` từ đầu: 331; 25,9; 56; 25; 10, do khác tách câu như ghi ở trên) |
+
+Chỉnh sửa thân báo cáo: chỉ sửa câu phân loại trong các ô "Đánh giá" của M11, M12, M16 ở §1. Mỗi chỗ sửa có ghi chú "[sửa sau kiểm toán Cổng 3]". Không đổi số đếm, mức độ hay phát hiện nào.
+
+### M1 — gạch dài (g.sh, dòng 155–1160)
+
+```text
+### M1 (g.sh, dòng 155–1160 của de-cuong-goc.md)
+== M1 unicode —/– : 0 hits
+
+== M1 ' -- ' : 0 hits
+
+== M1 '---' tổng số lần (dòng 155–1160):
+505
+== M1 '---' trên dòng KHÔNG phải dòng kẻ bảng (chỉ gồm - và khoảng trắng):
+== M1 số--số : 21 hits
+189:0--2
+192:5--2
+197:7--2
+346:5--2
+350:1--2
+353:5--1
+354:2--2
+359:9--2
+577:9--2
+640:7--2
+949:1--2
+952:9--2
+958:1--2
+959:3--4
+962:1--2
+963:3--4
+966:1--2
+967:3--4
+1001:2--6
+1009:1--9
+1104:2--2
+== M1 ' - ' : 8 hits
+606: - 
+613: - 
+613: - 
+623: - 
+689: - 
+999: - 
+1013: - 
+1048: - 
+
+### M1 ngoài thân (dòng 1–154), tham khảo
+25:**- PGS.TS. Hà Hồng Hạnh - Đại học Kinh tế Quốc Dân**
+27:**HÀ NỘI -- 2026**
+```
+
+Dòng đầy đủ của các hit `số--số` và `' - '`:
+
+```text
+== M1 số--số, dòng đầy đủ
+189:giai đoạn 1970--2017. Thị trường chứng khoán Việt Nam trải qua ít nhất
+192:liệu 2005--2015. Dao và cộng sự (2021) cho thấy số ca mắc COVID-19 hằng
+197:cổ phiếu giai đoạn 2007--2022 lan truyền giữa các ngành. Những cú sốc
+346:(HOSE) giai đoạn 2005--2015 và tìm thấy bầy đàn, rõ hơn khi thị trường
+350:2011--2019 và thu được danh mục có lợi nhuận cao hơn, rủi ro thấp hơn
+353:VN100 giai đoạn 01/2015--11/2023. Hoang và Luu (2024), trong một bản
+354:thảo công bố trực tuyến, phân tích VN-Index giai đoạn 2012--2023 và thấy
+359:2019--2025 và chỉ đánh giá một mô hình.
+577:Thí sinh đã dùng dữ liệu Việt Nam giai đoạn 2019--2025, gồm hai giai
+640:năm của mẫu. Với mẫu 2007--2026, đề tài dự kiến có khoảng 28 cửa sổ đánh
+949:        lượng của công ty quản lý quỹ. Quý 1--2: học bổ  ký trước; bộ dữ
+952:        giai đoạn 2019--2025 để đo thời gian tính và số  
+958:  Năm 2 Quý 1--2: xác định chế độ thị trường và ước      Bài báo 1; báo
+959:        lượng bảy mô hình. Quý 3--4: đo rủi ro lựa chọn  cáo hội thảo;
+962:  Năm 3 Quý 1--2: phân tích các biến kênh (H~2~, H~4~).  Bài báo 2 và 3
+963:        Quý 3--4: đánh giá cơ chế giảm thiểu (H~3~),     
+966:  Năm 4 Quý 1--2: hoàn thiện các chương, phần kết luận   Luận án
+967:        và hàm ý quản trị. Quý 3--4: chỉnh sửa theo góp  
+1001:       hạn, hiệu quả hoạt động và ổn 9, tr. 52--64; DOI                
+1009:       portfolio optimization using  3, Số 1, tr. 81--99; DOI          
+1104:khóa 2022--2026 tại Học viện Chính sách và Phát triển, xếp loại Giỏi
+== M1 ' - ', dòng đầy đủ
+606:$U_{m,t} = \mu_{m,t} - \frac{\rho}{2}\,\sigma_{m,t}^{2}$ (1)
+613:$D_{t} = \sqrt{\frac{1}{|M| - 1}\sum_{m \in M}^{}\left( U_{m,t} - {\overline{U}}_{t} \right)^{2}}$
+623:$R_{t} = U_{o,t} - U_{c,t}$ (4)
+689:thích bằng hiệu $\beta_{0} - \beta_{1}$, trong đó $\beta_{0}$ và
+999:  1    Nguyễn Thanh Bình, Nguyễn Văn Tạp chí Kinh tế - Luật và Ngân    Đã công bố
+1013:       market period 2019 - 2025"                                      
+1048:  2    Tác động của cấu trúc  2     Tạp chí Kinh tế -   Qua 2 vòng phản      Không
+```
+
+Phân loại: 21 hit `số--số` là gạch nối khoảng số/năm/trang, hợp lệ. 8 hit `' - '` gồm 5 dấu trừ trong công thức (L606, L613 ×2, L623, L689), 2 tên tạp chí "Kinh tế - Luật" (L999, L1048) và 1 tên bài giữ nguyên (L1013). Thân văn bản sạch. Ngoài thân: bìa L27 "HÀ NỘI -- 2026", 1 MINOR.
+
+### M2 (phản đề / phủ định tu từ)
+
+```text
+== M2 antithesis/negation-as-rhetoric: 15 matches in 15 sentences
+L171: Độ phân tán giữa các mô hình và kích thước tập tin cậy mô hình chỉ báo hiệu mức bất định, không đo rủi ro.  [khớp: ', không ']
+L218: Danielsson và cộng sự, 2016) đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của việc chọn sai mô hình lên trọng số và kết quả danh mục.  [khớp: ', chưa ']
+L218: Garlappi và cộng sự, 2007) xếp hạng mô hình theo bình quân toàn mẫu, chưa xét thứ hạng thay đổi ra sao khi thị trường chuyển chế độ.  [khớp: ', chưa ']
+L275: Các thước đo trong nhóm này gắn với dự báo rủi ro và định giá; chưa thước đo nào đo hậu quả của việc chọn mô hình lên kết quả danh mục.  [khớp: '; chưa ']
+L314: Hành vi thị trường đổi theo chế độ; chưa nghiên cứu nào kiểm định thứ hạng của các mô hình danh mục có đổi theo hay không.  [khớp: '; chưa ']
+L332: Bầy đàn, tức nhà đầu tư làm theo số đông thay vì dựa vào thông tin riêng, là một kênh hành vi có thể làm các mô hình cho kết quả khác nhau.  [khớp: 'thay vì']
+L394: Bốn khoảng trống có chung một điểm: các công trình đo từng mô hình, từng chế độ hoặc từng hiện tượng riêng lẻ, chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.  [khớp: ', chưa ']
+L394: Theo hiểu biết của thí sinh, chưa có nghiên cứu nào đo rủi ro lựa chọn mô hình theo chế độ thị trường cho quyết định phân bổ danh mục trên thị trường chứng khoán Việt Nam.  [khớp: ', chưa ']
+L497: Đề tài dùng phương pháp định lượng trên dữ liệu thị trường công khai, không dùng khảo sát hay phương pháp định tính.  [khớp: ', không ']
+L521: Kiểm định điểm gãy của Bai và Perron (1998) trên toàn mẫu chỉ dùng để mô tả và đối chiếu với các cú sốc lịch sử, không dùng làm biến chế độ trong kiểm định giả thuyết.  [khớp: ', không ']
+L688: Đề tài gọi các kết quả này là liên hệ có điều kiện, không gọi là quan hệ nhân quả.  [khớp: ', không gọi là']
+L738: Khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10, đề tài gọi kết quả là không kết luận, không gọi là ủng hộ hay bác bỏ, và đề tài báo cáo kích thước hiệu ứng cùng khoảng tin cậy theo từng giai đoạn.  [khớp: ', không gọi là']
+L789: So với bài báo của chính thí sinh (Nguyen và Nguyen, 2026a), đề tài đặt M~5~ cạnh sáu mô hình khác, mở mẫu về trước năm 2019 nếu dữ liệu cho phép và đo chênh lệch giữa các mô hình thay vì đánh giá riêng M~5~.  [khớp: 'thay vì']
+L802: Thủ tục này suy ra từ H~3~, chưa qua kiểm nghiệm với người dùng, và chỉ là tư liệu tham khảo cho tổ chức đầu tư và cơ quan giám sát.  [khớp: ', chưa ']
+L1016: ISSN          2026, chưa brownwashing:  [khớp: ', chưa ']
+```
+
+Phân loại: 15/15 là ranh giới khái niệm/phạm vi/khoảng trống thật, giữ (đúng như bảng §1). L1016 là dòng bảng tài liệu (tên bài "…chưa brownwashing"), dương tính giả do tách câu.
+
+### M3 (câu kết bình luận)
+
+```text
+== M3 editorializing closer: 0 matches in 0 sentences
+```
+
+### M4 (từ nhấn rỗng)
+
+```text
+== M4 vacuous intensifiers: 1 matches in 1 sentences
+L159: Khung này cần lợi suất kỳ vọng và ma trận hiệp phương sai, hai đại lượng nhà đầu tư chỉ ước lượng được, và sai số ước lượng truyền thẳng sang trọng số danh mục (Michaud, 1989;  [khớp: 'thẳng ']
+```
+
+Phân loại: 1 hit "truyền thẳng" (L159, dòng thật L163). Đúng như bảng §1.
+
+### M5 (tính từ cấm)
+
+```text
+== M5 banned adjectives: 15 matches in 15 sentences
+L186: Khủng hoảng làm câu hỏi chọn mô hình trở nên cấp bách.  [khớp: 'cấp bách']
+L186: Quỹ Tiền tệ Quốc tế ghi nhận thị trường trái phiếu doanh nghiệp đóng băng trong quý IV/2022, với bất động sản chiếm tỷ trọng lớn nhất trên thị trường này (International Monetary Fund, 2023).  [khớp: 'lớn nhất']
+L257: Tối ưu hóa trung bình-phương sai dồn trọng số vào những tài sản có sai số ước lượng lớn (Michaud, 1989), và việc thay tham số tổng thể bằng ước lượng mẫu làm hiệu quả ngoài mẫu giảm mạnh (Kan và Zhou, 2007).  [khớp: 'giảm mạnh']
+L257: Dù vậy, DeMiguel và cộng sự (2009) không thấy hướng nào vượt 1/N trên cả bảy bộ dữ liệu, và Pflug và cộng sự (2012) chứng minh quy tắc 1/N xấp xỉ tối ưu theo nghĩa vững chắc khi mức mơ hồ về mô hình đủ cao.  [khớp: 'vững chắc']
+L275: Ở cấp lý thuyết quyết định, Gilboa và Schmeidler (1989) xây dựng tiêu chí chọn phương án tốt nhất trong tình huống xấu nhất khi nhà đầu tư có nhiều niềm tin tiên nghiệm, và Hansen và Sargent (2008) phát triển lý thuyết kiểm soát vững chắc trước sai đặc tả.  [khớp: 'vững chắc']
+L332: Christie và Huang (1995) đo bầy đàn bằng độ phân tán chéo của lợi suất và không thấy bầy đàn khi giá biến động mạnh trên dữ liệu Mỹ.  [khớp: 'biến động mạnh']
+L411: Hansen và Sargent, 2008), cung cấp cách đo tổn thất của một lựa chọn so với lựa chọn tốt nhất nhìn lại sau thực tế và là cơ sở của các cơ chế vững chắc.  [khớp: 'vững chắc']
+L497: Tại mỗi ngày tái cân bằng, rổ cổ phiếu gồm 30 mã có giá trị giao dịch bình quân ba tháng và vốn hóa tự do chuyển nhượng lớn nhất, xác định chỉ bằng dữ liệu có tại ngày đó để tránh thiên lệch sống sót và thiên lệch nhìn trước.  [khớp: 'lớn nhất']
+L536: Tập này bao phủ các hướng chính của tài liệu: quy tắc đơn giản, co rút hiệp phương sai, tối ưu hóa cổ điển, mô hình Black-Litterman, danh mục vững chắc và chiến lược theo chế độ.  [khớp: 'vững chắc']
+L591: Tỷ số Sharpe không phù hợp làm thước đo chính, vì khi lợi suất vượt trội trung bình âm (đúng tình huống của chế độ căng thẳng) danh mục biến động hơn lại có tỷ số Sharpe ít âm hơn.  [khớp: 'vượt trội']
+L591: Đề tài chỉ báo cáo tỷ số Sharpe như thước đo phụ, ở các cửa sổ có lợi suất vượt trội trung bình dương.  [khớp: 'vượt trội']
+L625: Kỳ vọng của <EQ> vẫn dương khi các mô hình ngang chất lượng, vì giá trị lớn nhất của các đại lượng có nhiễu tăng theo phương sai của nhiễu.  [khớp: 'lớn nhất']
+L654: Để kiểm định H~1~, H~2~ và H~4~, đề tài hồi quy các thước đo rủi ro mô hình theo biến chế độ và các biến kênh, với sai số chuẩn bền vững trước phương sai thay đổi và tự tương quan.  [khớp: 'bền vững']
+L703: Cơ chế (ii) là danh mục vững chắc, tối ưu hóa cho tình huống xấu nhất trong nhiều niềm tin tiên nghiệm (Garlappi và cộng sự, 2007).  [khớp: 'vững chắc']
+L714: Tiêu chí đánh giá gồm lợi suất tương đương chắc chắn, mức hối tiếc, độ sụt giảm tối đa (mức giảm lớn nhất từ đỉnh), giá trị thiệt hại kỳ vọng mức 95% (tổn thất trung bình trong 5% số ngày xấu nhất), vòng quay (tỷ lệ danh mục được mua bán lại) và hiệu quả sau chi phí giao dịch.  [khớp: 'lớn nhất']
+```
+
+Phân loại: 2 hit thật là "cấp bách" (L186) và "giảm mạnh" (L257, dòng thật L260). 13 dương tính giả do là thuật ngữ hoặc mô tả: "lớn nhất" ×4 (L186, L497, L625, L714), "vững chắc" ×5 (L257, L275, L411, L536, L703; nghĩa là robust), "vượt trội" ×2 (L591; excess return), "bền vững" ×1 (L654; sai số chuẩn bền vững), "biến động mạnh" ×1 (L332; mô tả Christie và Huang 1995).
+
+### M6 (mở câu rào đón)
+
+```text
+== M6 throat-clearing opener: 1 matches in 1 sentences
+L257: Dù vậy, DeMiguel và cộng sự (2009) không thấy hướng nào vượt 1/N trên cả bảy bộ dữ liệu, và Pflug và cộng sự (2012) chứng minh quy tắc 1/N xấp xỉ tối ưu theo nghĩa vững chắc khi mức mơ hồ về mô hình đủ cao.  [khớp: 'Dù vậy']
+```
+
+Phân loại: 1 hit "Dù vậy" (L257, dòng thật L269). Giữ vì có tương phản logic thật.
+
+### M8 (câu dựng thế rỗng)
+
+```text
+== M8 grandiose setup: 0 matches in 0 sentences
+```
+
+### M9 (ẩn dụ trang trí)
+
+```text
+== M9 metaphor filler: 6 matches in 5 sentences
+L159: Khung này cần lợi suất kỳ vọng và ma trận hiệp phương sai, hai đại lượng nhà đầu tư chỉ ước lượng được, và sai số ước lượng truyền thẳng sang trọng số danh mục (Michaud, 1989;  [khớp: 'truyền thẳng']
+L186: Quỹ Tiền tệ Quốc tế ghi nhận thị trường trái phiếu doanh nghiệp đóng băng trong quý IV/2022, với bất động sản chiếm tỷ trọng lớn nhất trên thị trường này (International Monetary Fund, 2023).  [khớp: 'đóng băng']
+L186: Vu và cộng sự (2024) cho thấy các đợt sụt giảm giá cổ phiếu giai đoạn 2007--2022 lan truyền giữa các ngành.  [khớp: 'lan truyền']
+L257: Tối ưu hóa trung bình-phương sai dồn trọng số vào những tài sản có sai số ước lượng lớn (Michaud, 1989), và việc thay tham số tổng thể bằng ước lượng mẫu làm hiệu quả ngoài mẫu giảm mạnh (Kan và Zhou, 2007).  [khớp: 'dồn trọng số']
+L332: *(5) Tài chính hành vi và bầy đàn.* Kahneman và Tversky (1979) đặt nền móng cho lý thuyết triển vọng, và Barberis và Thaler (2003) tổng hợp hai trụ cột của tài chính hành vi là giới hạn của kinh doanh chênh lệch giá và tâm lý nhà đầu tư.  [khớp: 'nền móng' | 'trụ cột']
+```
+
+Phân loại: "truyền thẳng" (L159), "đóng băng" (L186), "lan truyền" (L186), "dồn trọng số" (L257) là cách nói của nguồn, giữ. "nền móng" và "trụ cột" (L332) là 2 hit MINOR.
+
+### M10 (động từ thổi phồng)
+
+```text
+== M10 hype verbs: 0 matches in 0 sentences
+```
+
+### M11 (bị động)
+
+```text
+== M11 passive (được/bị/bởi): 26 matches in 25 sentences
+L159: Khung này cần lợi suất kỳ vọng và ma trận hiệp phương sai, hai đại lượng nhà đầu tư chỉ ước lượng được, và sai số ước lượng truyền thẳng sang trọng số danh mục (Michaud, 1989;  [khớp: 'được']
+L171: Đề cương cũng phân biệt *khủng hoảng*, một sự kiện lịch sử, với *chế độ căng thẳng*, một trạng thái thống kê có biến động cao và lợi suất thị trường thấp do mô hình chuyển chế độ ước lượng.  [khớp: 'do mô hình']
+L186: Những cú sốc này là các giai đoạn tham chiếu để kiểm tra xem chế độ căng thẳng do mô hình ước lượng có trùng với biến cố thực tế hay không.  [khớp: 'do mô hình']
+L236: Sau khi kiểm soát biến động thực hiện, các biến kênh (thanh khoản, tương quan cực trị và, ở mức thăm dò, hành vi bầy đàn) có liên hệ thống kê với rủi ro lựa chọn mô hình không, và chúng giải thích được bao nhiêu phần chênh lệch giữa hai chế độ?  [khớp: 'được']
+L241: Cơ chế nào giảm được rủi ro lựa chọn mô hình sau chi phí giao dịch?  [khớp: 'được']
+L257: Garlappi và cộng sự (2007) mô hình hóa nhà đầu tư né tránh mơ hồ với nhiều niềm tin tiên nghiệm và thu được danh mục ổn định hơn.  [khớp: 'được']
+L294: Avramov (2002) áp dụng phương pháp này vào dự báo lợi suất cổ phiếu và thu được hiệu quả ngoài mẫu tốt hơn việc dùng tiêu chí để chọn một mô hình.  [khớp: 'được']
+L294: Timmermann (2006) tổng hợp bằng chứng rằng dự báo kết hợp thường tốt hơn dự báo riêng lẻ, và Rapach và cộng sự (2010) cho thấy kết hợp dự báo bù được phần chất lượng dự báo mất đi do mô hình bất ổn định.  [khớp: 'được' | 'do mô hình']
+L294: Cách thứ hai là thu hẹp tập mô hình: tập tin cậy mô hình của Hansen và cộng sự (2011) giữ lại những mô hình chưa thể bị loại là kém hơn ở một mức tin cậy cho trước, nên dữ liệu kém thông tin cho tập lớn và dữ liệu nhiều thông tin cho tập nhỏ.  [khớp: 'bị']
+L343: Nguyen và cộng sự (2020) dùng ma trận hiệp phương sai co rút trên 468 tuần giai đoạn 2011--2019 và thu được danh mục có lợi nhuận cao hơn, rủi ro thấp hơn các phương pháp truyền thống.  [khớp: 'được']
+L616: Tại đầu mỗi cửa sổ đánh giá, nhà đầu tư chọn trước mô hình *c* có lợi suất tương đương chắc chắn ngoài mẫu cao nhất trong 36 tháng liền trước; mô hình được chọn sau đó tái cân bằng hằng tháng trong suốt cửa sổ.  [khớp: 'được']
+L636: Vì cần 104 tuần để ước lượng và 36 tháng kết quả ngoài mẫu để chọn mô hình, mức hối tiếc chỉ tính được từ khoảng năm thứ năm của mẫu.  [khớp: 'được']
+L636: Trước khi ước lượng các mô hình danh mục, đề tài báo cáo số giai đoạn căng thẳng rơi vào phần mẫu tính được mức hối tiếc.  [khớp: 'được']
+L677: Đề tài coi H~1~ được ủng hộ khi thỏa đồng thời ba điều kiện: <EQ> của <EQ> dương và vượt phân vị 95% của phân phối rỗng; khoảng tin cậy bootstrap khối của <EQ> loại trừ 0; và <EQ> của <EQ> cùng dấu.  [khớp: 'được']
+L688: H~2~ được ủng hộ khi hệ số của độ phi thanh khoản dương, hệ số của tương quan đuôi âm và khoảng tin cậy bootstrap khối của cả hai loại trừ 0.  [khớp: 'được']
+L714: Tiêu chí đánh giá gồm lợi suất tương đương chắc chắn, mức hối tiếc, độ sụt giảm tối đa (mức giảm lớn nhất từ đỉnh), giá trị thiệt hại kỳ vọng mức 95% (tổn thất trung bình trong 5% số ngày xấu nhất), vòng quay (tỷ lệ danh mục được mua bán lại) và hiệu quả sau chi phí giao dịch.  [khớp: 'được']
+L714: H~3~ được ủng hộ khi, ở chế độ căng thẳng, cơ chế giảm thiểu cho lợi suất tương đương chắc chắn sau chi phí cao hơn, mức hối tiếc thấp hơn và độ sụt giảm tối đa không cao hơn so với chọn một mô hình, với khoảng tin cậy bootstrap khối loại trừ 0.  [khớp: 'được']
+L738: Nếu dữ liệu bác bỏ giả thuyết, đề tài vẫn trả lời được câu hỏi nghiên cứu: khi đó rủi ro lựa chọn mô hình không đổi theo chế độ, hoặc quy tắc 1/N đủ dùng ở Việt Nam.  [khớp: 'được']
+L752: Các mô hình ở Bảng 3 ước lượng được bằng phần mềm thống kê thông dụng.  [khớp: 'được']
+L918: Mỗi chuyên đề đứng độc lập được và đồng thời làm nền cho một chương của luận án.  [khớp: 'được']
+L927: Nếu một bản thảo bị từ chối, thí sinh chuyển bản thảo sang tạp chí khác trong cùng năm.  [khớp: 'bị']
+L983: Bảng 6 liệt kê các công trình đã công bố hoặc đã được chấp nhận đăng.  [khớp: 'được']
+L1016: 3    Nguyễn Thanh Bình, Nguyễn Văn International Journal of          Đã được chấp Trung\*, Nguyễn Anh Tuấn,     Management and Sustainability     nhận đăng năm "GRI adoption and corporate   (Conscientia Beam);  [khớp: 'được']
+L1115: Sự chuẩn bị cho đề tài đến từ các công việc nghiên cứu đã làm.  [khớp: 'bị']
+L1115: Bản thảo về tương quan của các chỉ số lồng nhau (bản thảo số 6) chuẩn bị cho kênh tương quan.  [khớp: 'bị']
+```
+
+Phân loại 26 khớp:
+- Bị động thật (9): "được chọn" L616; "được ủng hộ" L677, L688, L714; "được mua bán lại" L714; "bị loại" L294; "bị từ chối" L927; "được chấp nhận đăng" L983 và L1016 (dòng bảng).
+- Dương tính giả, "được" chỉ khả năng hoặc "thu được" (12): L159, L236, L241, L257, L294 (Avramov), L294 (Rapach, "bù được"), L343, L636 ×2, L738, L752, L918.
+- Dương tính giả, "bị" trong "chuẩn bị" (2): L1115 ×2.
+- "do mô hình" (3): L171 (dòng thật L183) gây đọc sai, đã chuyển sang S5; L186 cùng cấu trúc "chế độ căng thẳng do mô hình ước lượng"; L294 "do mô hình bất ổn định" là quan hệ nguyên nhân, dương tính giả.
+
+### M12 (thừa chữ)
+
+```text
+== M12 wordiness: 40 matches in 37 sentences
+L159: DeMiguel và cộng sự (2009) so sánh 14 mô hình trên bảy bộ dữ liệu và không tìm thấy mô hình nào vượt quy tắc chia đều vốn cho N tài sản (quy tắc 1/N) một cách nhất quán, xét theo cả tỷ số Sharpe, lợi suất tương đương chắc chắn lẫn vòng quay danh mục.  [khớp: 'sự ' | 'một cách']
+L159: Khi không mô hình nào thắng ổn định, việc chọn mô hình trở thành một quyết định mang rủi ro riêng.  [khớp: 'việc ']
+L171: Đề cương cũng phân biệt *khủng hoảng*, một sự kiện lịch sử, với *chế độ căng thẳng*, một trạng thái thống kê có biến động cao và lợi suất thị trường thấp do mô hình chuyển chế độ ước lượng.  [khớp: 'sự ']
+L186: Dao và cộng sự (2021) cho thấy số ca mắc COVID-19 hằng ngày tác động tiêu cực đến lợi suất cổ phiếu.  [khớp: 'sự ']
+L186: Vu và cộng sự (2024) cho thấy các đợt sụt giảm giá cổ phiếu giai đoạn 2007--2022 lan truyền giữa các ngành.  [khớp: 'sự ']
+L218: Danielsson và cộng sự, 2016) đo chênh lệch giữa các dự báo rủi ro, chưa đo hậu quả của việc chọn sai mô hình lên trọng số và kết quả danh mục.  [khớp: 'việc ']
+L257: Tối ưu hóa trung bình-phương sai dồn trọng số vào những tài sản có sai số ước lượng lớn (Michaud, 1989), và việc thay tham số tổng thể bằng ước lượng mẫu làm hiệu quả ngoài mẫu giảm mạnh (Kan và Zhou, 2007).  [khớp: 'việc ']
+L257: Black và Litterman (1992) kết hợp lợi suất cân bằng của mô hình định giá tài sản vốn với quan điểm riêng của nhà đầu tư, và Bessler và cộng sự (2017) thấy cách tiếp cận này vượt cả danh mục trung bình-phương sai lẫn quy tắc 1/N về hiệu quả ngoài mẫu trên dữ liệu đa tài sản toàn cầu.  [khớp: 'sự ']
+L257: Garlappi và cộng sự (2007) mô hình hóa nhà đầu tư né tránh mơ hồ với nhiều niềm tin tiên nghiệm và thu được danh mục ổn định hơn.  [khớp: 'sự ']
+L257: Dù vậy, DeMiguel và cộng sự (2009) không thấy hướng nào vượt 1/N trên cả bảy bộ dữ liệu, và Pflug và cộng sự (2012) chứng minh quy tắc 1/N xấp xỉ tối ưu theo nghĩa vững chắc khi mức mơ hồ về mô hình đủ cao.  [khớp: 'sự ' | 'sự ']
+L275: Kerkhof và cộng sự (2010) tách rủi ro mô hình thành rủi ro ước lượng và rủi ro đặc tả sai, rồi đưa cả hai vào vốn dự phòng.  [khớp: 'sự ']
+L275: Boucher và cộng sự (2014) đề xuất hiệu chỉnh độ đo rủi ro theo kết quả kiểm định ngược, còn Danielsson và cộng sự (2016) cho thấy rủi ro mô hình của các mô hình rủi ro thị trường và rủi ro hệ thống tăng theo mức bất định và nhỏ khi thị trường yên ắng.  [khớp: 'sự ' | 'sự ']
+L275: Lo và Mueller (2010) cảnh báo việc mô hình hóa tài chính theo chuẩn mực vật lý tạo ra cảm giác chính xác giả tạo, và phân loại các mức bất định.  [khớp: 'việc ']
+L275: Các thước đo trong nhóm này gắn với dự báo rủi ro và định giá; chưa thước đo nào đo hậu quả của việc chọn mô hình lên kết quả danh mục.  [khớp: 'việc ']
+L294: Hoeting và cộng sự (1999) trình bày phương pháp trung bình hóa mô hình Bayes;  [khớp: 'sự ']
+L294: Avramov (2002) áp dụng phương pháp này vào dự báo lợi suất cổ phiếu và thu được hiệu quả ngoài mẫu tốt hơn việc dùng tiêu chí để chọn một mô hình.  [khớp: 'việc ']
+L294: Timmermann (2006) tổng hợp bằng chứng rằng dự báo kết hợp thường tốt hơn dự báo riêng lẻ, và Rapach và cộng sự (2010) cho thấy kết hợp dự báo bù được phần chất lượng dự báo mất đi do mô hình bất ổn định.  [khớp: 'sự ']
+L294: Cách thứ hai là thu hẹp tập mô hình: tập tin cậy mô hình của Hansen và cộng sự (2011) giữ lại những mô hình chưa thể bị loại là kém hơn ở một mức tin cậy cho trước, nên dữ liệu kém thông tin cho tập lớn và dữ liệu nhiều thông tin cho tập nhỏ.  [khớp: 'sự ']
+L294: Các công cụ này có sẵn, song chưa công trình nào dùng chúng để đo tổn thất của việc chọn mô hình theo từng trạng thái thị trường.  [khớp: 'việc ']
+L314: Kritzman và cộng sự (2012) dự báo chế độ bằng mô hình Markov, và chiến lược động của họ vượt chiến lược tĩnh khi kiểm định ngược.  [khớp: 'sự ']
+L332: Chang và cộng sự (2000) tìm thấy bầy đàn ở Hàn Quốc và Đài Loan nhưng không thấy ở Mỹ và Hồng Kông.  [khớp: 'sự ']
+L343: Nguyen và cộng sự (2020) dùng ma trận hiệp phương sai co rút trên 468 tuần giai đoạn 2011--2019 và thu được danh mục có lợi nhuận cao hơn, rủi ro thấp hơn các phương pháp truyền thống.  [khớp: 'sự ']
+L343: Goutte và cộng sự (2025) so sánh năm phương pháp ra quyết định đa tiêu chí với bốn cách gán trọng số trên rổ VN100 giai đoạn 01/2015--11/2023.  [khớp: 'sự ']
+L387: Bầy đàn ở Việt Nam (Vo và   Bằng chứng bầy đàn trên \(4\) Chưa gắn bầy Phan, 2017)                 HOSE                    đàn với rủi ro của việc chọn mô hình  [khớp: 'việc ']
+L394: Bốn khoảng trống có chung một điểm: các công trình đo từng mô hình, từng chế độ hoặc từng hiện tượng riêng lẻ, chưa công trình nào đo rủi ro của việc chọn giữa các mô hình theo chế độ thị trường.  [khớp: 'việc ']
+L394: Thí sinh mới đọc tóm tắt và thông tin thư mục của phần lớn các nguồn; việc đọc toàn văn và mở rộng phạm vi tìm kiếm nằm trong kế hoạch năm thứ nhất.  [khớp: 'việc ']
+L475: Chang và phân tán chéo của lợi suất                              cộng sự (2000); cao đi cùng rủi ro lựa chọn                             Christie và mô hình cao                                             Huang (1995)  [khớp: 'sự ']
+L484: Với H~3~, kết hợp mô hình có thể không vượt việc chọn một mô hình sau chi phí giao dịch và sau hiệu chỉnh thiên lệch chọn lọc (Bailey và López de Prado, 2014).  [khớp: 'việc ']
+L563: M~7~   Giảm tỷ trọng rủi ro theo xác suất chế Kritzman và cộng sự (2012) độ căng thẳng  [khớp: 'sự ']
+L703: Cơ chế (iii) là quy tắc chuyển chế độ theo Kritzman và cộng sự (2012), với đối chứng là giá trị của chuyển chế độ trong quyết định danh mục theo Tu (2010).  [khớp: 'sự ']
+L789: Goutte và cộng sự (2025) so sánh các phương pháp ra quyết định đa tiêu chí trên rổ VN100; đề tài đo mức bất định khi chọn mô hình theo từng chế độ thị trường.  [khớp: 'sự ']
+L877: Lý do đầu tiên là sự phù hợp về chuyên môn: theo Thông báo tuyển sinh năm 2026, chương trình Tiến sĩ Kinh tế và Quản lý có tính liên ngành và tập trung vào kinh tế hành vi và quản lý trong lĩnh vực kinh tế, còn đề tài nằm ở giao điểm của tài chính định lượng, quản lý và tài chính hành vi.  [khớp: 'sự ']
+L937: Thời gian đào tạo đối với người có bằng đại học là bốn năm.  [khớp: 'đối với']
+L1115: Sự chuẩn bị cho đề tài đến từ các công việc nghiên cứu đã làm.  [khớp: 'việc ']
+L1115: Bản thảo về mô hình Black-Litterman nghịch đảo kết hợp học máy phân cụm (bản thảo số 1) giúp thí sinh làm quen với việc so sánh nhiều mô hình danh mục trên cùng dữ liệu.  [khớp: 'việc ']
+L1115: Luận án chuyển trọng tâm từ đánh giá một mô hình sang câu hỏi chọn giữa nhiều mô hình, và các công việc trên cung cấp phần lớn công cụ cho bước chuyển này.  [khớp: 'việc ']
+L1131: Sau khi tốt nghiệp, thí sinh dự kiến làm nghiên cứu và giảng dạy tài chính định lượng tại trường đại học hoặc viện nghiên cứu, hoặc làm việc ở bộ phận quản trị rủi ro và quản lý mô hình của tổ chức tài chính.  [khớp: 'việc ']
+```
+
+Phân loại 40 khớp: "sự " trong "cộng sự" 21 (dương tính giả); "việc " trong "công việc"/"làm việc" 3 (dương tính giả: L1115 ×2, L1131); "việc + động từ/danh từ" 12; "sự " khác 2 ("sự kiện" L171, là danh từ, dương tính giả; "sự phù hợp" L877, danh hóa, tùy chọn); "một cách" 1 (L159, tùy chọn); "đối với" 1 (L937, tùy chọn).
+
+### M13 (từ rào yếu)
+
+```text
+== M13 weak qualifiers: 3 matches in 3 sentences
+L294: Timmermann (2006) tổng hợp bằng chứng rằng dự báo kết hợp thường tốt hơn dự báo riêng lẻ, và Rapach và cộng sự (2010) cho thấy kết hợp dự báo bù được phần chất lượng dự báo mất đi do mô hình bất ổn định.  [khớp: 'thường']
+L314: Tu (2010) ước tính nhà đầu tư bỏ qua chuyển chế độ chịu tổn thất lợi suất tương đương chắc chắn thường trên 2% mỗi năm, có thể tới 10%.  [khớp: 'thường']
+L314: Về khủng hoảng, Longin và Solnik (2001) bác bỏ phân phối chuẩn đa biến ở đuôi âm của lợi suất, còn Forbes và Rigobon (2002) chỉ ra hệ số tương quan phụ thuộc vào biến động và, sau hiệu chỉnh, gần như không còn dấu hiệu lây nhiễm trong ba cuộc khủng hoảng họ khảo sát.  [khớp: 'gần như']
+```
+
+Phân loại: 3 rào trung thực khớp nguồn (L294 "thường", dòng thật L299; L314 "thường", L323; L314 "gần như", L327). Giữ.
+
+### M15 (! và ?)
+
+```text
+== M15 ! and ?: 3 matches in 3 sentences
+L233: Rủi ro lựa chọn mô hình thay đổi thế nào giữa chế độ bình thường và chế độ căng thẳng?  [khớp: '?']
+L236: Sau khi kiểm soát biến động thực hiện, các biến kênh (thanh khoản, tương quan cực trị và, ở mức thăm dò, hành vi bầy đàn) có liên hệ thống kê với rủi ro lựa chọn mô hình không, và chúng giải thích được bao nhiêu phần chênh lệch giữa hai chế độ?  [khớp: '?']
+L241: Cơ chế nào giảm được rủi ro lựa chọn mô hình sau chi phí giao dịch?  [khớp: '?']
+```
+
+Phân loại: 3 "?" là ba câu hỏi nghiên cứu (L233, L236, L241), không phải câu hỏi tu từ. "!" chỉ có trong tên bài Lo và Mueller (2010) thuộc danh mục tài liệu (xem Part C trên main.tex).
+
+### M16 (từ kêu / mơ hồ)
+
+```text
+== M16 pompous/vague: 9 matches in 9 sentences
+L186: Vo và Phan (2017) xét tác động của khủng hoảng tài chính toàn cầu lên hành vi nhà đầu tư trên dữ liệu 2005--2015.  [khớp: 'tác động']
+L186: Dao và cộng sự (2021) cho thấy số ca mắc COVID-19 hằng ngày tác động tiêu cực đến lợi suất cổ phiếu.  [khớp: 'tác động']
+L435: Theo Hình 1, chế độ thị trường tác động lên rủi ro lựa chọn mô hình (giả thuyết H~1~).  [khớp: 'tác động']
+L435: Các biến kênh tác động lên chính quan hệ đó, tức giải thích một phần chênh lệch giữa hai chế độ (H~2~ và H~4~).  [khớp: 'tác động']
+L435: Cơ chế giảm thiểu tác động lên quan hệ giữa rủi ro lựa chọn mô hình và kết quả danh mục (H~3~).  [khớp: 'tác động']
+L577: Tệp đăng ký cố định độ dài các cửa sổ, siêu tham số của bảy mô hình, số chế độ và ngưỡng xác suất lọc, mức ý nghĩa, nhóm kết quả chính, quy tắc hiệu chỉnh so sánh bội và quy tắc gọi một kết quả là không kết luận.  [khớp: 'ý nghĩa']
+L625: Để loại tác động cơ học này, phân tích chính chia <EQ> và <EQ> cho sai số chuẩn bootstrap của chênh lệch lợi suất tương đương chắc chắn giữa các mô hình trong cùng cửa sổ.  [khớp: 'tác động']
+L625: Thước đo thứ ba là kích thước tập tin cậy mô hình (Hansen và cộng sự, 2011) ở mức ý nghĩa 10% ấn định trước.  [khớp: 'ý nghĩa']
+L677: Đề tài lặp lại kiểm định trên tập chỉ gồm các mô hình tĩnh M~1~, M~2~, M~3~, M~4~ và M~6~, để loại tác động của M~5~ và M~7~ vốn chỉ đổi hành vi khi xác suất căng thẳng tăng.  [khớp: 'tác động']
+```
+
+Phân loại 9 khớp: 3 hit thật ở L435 (dòng thật L435–439), ngôn ngữ nhân quả, MAJOR (S18/S8). 2 mô tả nguồn (L186 ×2). 2 "mức ý nghĩa" thống kê (L577, L625). 2 "tác động" kỹ thuật do tác giả dùng trong phần phương pháp (L625 "tác động cơ học", L677 "loại tác động của M~5~ và M~7~"), không gây hiểu nhân quả, giữ.
+
+### M17 (động từ hoa mỹ)
+
+```text
+== M17 fancy verbs: 1 matches in 1 sentences
+L892: Thí sinh muốn rèn các kỹ năng này trong một môi trường có học phần phương pháp, hội thảo định kỳ và cơ chế phản biện nội bộ.  [khớp: 'rèn']
+```
+
+Phân loại: 1 hit "rèn" (L892, dòng thật L897). Tùy chọn.
+
+### M18 (câu mở rỗng)
+
+```text
+== M18 content-free opener: 0 matches in 0 sentences
+```
+
+### M7, M14
+Không có grep tiếng Việt. Đọc tay, kết quả ở §1: M7 = 0 bộ ba không hợp lý, M14 = 0. Grep nguyên mẫu M14 trên `main.tex` = 0 dòng.
+
+### Part C nguyên mẫu của skill (`gate_mechanical.md`), chạy trên `scratchpad/paper/main.tex` (toàn file)
+
+```text
+### Part C nguyên mẫu của skill, chạy trên main.tex
+== M1a '---' (main.tex, toàn file): 0 dòng
+== M1b (main.tex, toàn file): 0 dòng
+== M11 (main.tex, toàn file): 0 dòng
+== M2 (main.tex, toàn file): 1 dòng
+54: not o
+== M3/M4/M8/M9 (main.tex, toàn file): 0 dòng
+== M6 (main.tex, toàn file): 0 dòng
+== M5/M16 (main.tex, toàn file): 3 dòng
+1442:impact
+1450:impact
+1532:Robust
+== M10 (main.tex, toàn file): 0 dòng
+== M17 (main.tex, toàn file): 0 dòng
+== M18 (main.tex, toàn file): 0 dòng
+== M12 (main.tex, toàn file): 0 dòng
+== M13 (main.tex, toàn file): 0 dòng
+== M14 (main.tex, toàn file): 0 dòng
+== M15 (main.tex, toàn file): 1 dòng
+1537:hazardous to your wealth!'', \emph{Journal of Investment Management},
+== PartB (main.tex, toàn file): 0 dòng
+== M1 ' -- ' (main.tex)
+106:\textbf{HÀ NỘI -- 2026}
+== Dòng đầy đủ của các hit main.tex (M2 L54; M5/M16 L1442, L1450, L1532; M15 L1537):
+54:% Scale images if necessary, so that they will not overflow the page
+1441:
+1442:Cont, R. (2006), ``Model uncertainty and its impact on the pricing of
+1449:
+1450:Dao, V. H., Nguyen, T. M. H., Vu, T. D. (2021), ``The impact of COVID-19
+1531:
+1532:Ledoit, O., Wolf, M. (2008), ``Robust performance hypothesis testing
+1536:Lo, A. W., Mueller, M. T. (2010), ``Warning: Physics envy may be
+1537:hazardous to your wealth!'', \emph{Journal of Investment Management},
+```
+
+Phân loại: `---` = 0 và `—/–` = 0. Có 1 dòng `' -- '` là bìa L106 "HÀ NỘI -- 2026" (đã ghi). Hit M2 "not o" ở L54 là chú thích LaTeX của pandoc, dương tính giả. Hit M5/M16 ("impact" ×2, "Robust") nằm trong tên bài thuộc danh mục tài liệu, dương tính giả. Hit M15 `!` là tên bài Lo và Mueller (2010).
