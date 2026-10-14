@@ -54,3 +54,9 @@ Việc tiếp theo khi người dùng quyết:
 (1) Chọn cách xử lý academic-paper-reviewer (khuyến nghị: chép shared/ và scripts/ từ commit d1e51716, đọc từng script trước khi chạy, rồi chạy lại Cổng 2 cho riêng skill này).
 (2) Đặt QĐ 1193 (bản có lớp chữ nếu được) vào ho-so/; NQ 57 cần bản có lớp chữ, hoặc cho phép OCR cục bộ.
 Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) → Bước 4 → Vòng 1. Không chạy lại 7 báo cáo đã xong.
+
+## Cập nhật 2026-10-14 (2) — Bước 4a
+- Người dùng đã tải QĐ 1193/QĐ-UBND (ngày 18/3/2026), lưu cục bộ tại ho-so/QD-1193-QD-UBND-2026-bai-toan-lon-dot-1.pdf. File KHÔNG push vì repo public (V5); đã thêm vào .git/info/exclude. Bản này là trang web Thư viện Pháp luật in ra PDF, không phải bản công báo; nó có lớp chữ (12 trang), chứa bảng 30 bài toán, có bài 11, 12, 19. Khi trích dẫn phải ghi rõ đây là bản in từ trang thư viện văn bản [CẦN ĐỐI CHIẾU bản chính thức].
+- NQ 57: đọc trực tiếp ảnh scan trên máy (không gửi ra ngoài). Đây là cách "OCR trên máy" đã báo người dùng.
+- Bước 4a: điều kiện tài liệu ĐÃ ĐỦ.
+- Vẫn chặn: Cổng 2, vì academic-paper-reviewer chờ người dùng quyết cách xử lý shared/ và scripts/.
