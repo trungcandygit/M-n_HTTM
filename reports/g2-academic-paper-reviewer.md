@@ -2,6 +2,8 @@ Xác nhận: luồng chính gọi được công cụ Skill (academic-paper-revi
 
 # Cổng 2 — academic-paper-reviewer (Imbad0202, v3.6.2 sprint contract): ĐẠT
 
+Chạy lại lần 1 sau kiểm toán Cổng 3 (2026-10-14). Lượt này làm lại Step 5 của `agents/editorial_synthesizer_agent.md`: neo khối trên bản sao, lập block manifest, phát hành và kiểm tra `revision-roadmap/1.0`, gắn block id cho 49 mục, chạy lại `check_panel_synthesis`, gắn lại kết quả #849. Lượt này cũng sửa câu trích Bảng 5 và đánh số bảng tuân thủ. Nội dung, thứ tự, severity và obligation của 49 mục không đổi.
+
 Ngày 2026-10-14. Chế độ `full` (hợp đồng `reviewer/reviewer_full/v2`, sha256 e9712090…). Báo cáo thất bại ngày 2026-10-13 (thiếu shared/ và scripts/) đã được khắc phục: theo lựa chọn của người dùng, đã chép shared/ và scripts/ từ commit d1e51716 vào `.claude/ars/`; các script có chạy đều đã được đọc trước.
 
 ## Kết quả
@@ -13,33 +15,33 @@ Ngày 2026-10-14. Chế độ `full` (hợp đồng `reviewer/reviewer_full/v2`,
   - R2: H1 dễ "không kết luận" vì chỉ có khoảng 28 cửa sổ, so với ngưỡng 10 cửa sổ căng thẳng.
   - R7: mẫu số chuẩn hóa chưa được định nghĩa.
   - R10: đăng ký trước diễn ra sau khi đã ước lượng thử trên 2019–2025.
-- **Lộ trình sửa đổi:** 49 mục (21 must_fix, 22 should_fix, 6 consider) và 12 câu hỏi. Ma trận R&R đầy đủ ở Phụ lục B.
+- **Lộ trình sửa đổi:** 49 mục (21 must_fix, 22 should_fix, 6 consider) và 12 câu hỏi. Ma trận R&R đầy đủ ở Phụ lục B. Artifact máy `revision-roadmap/1.0` (`apr/revision-roadmap.json`) đã được phát hành, mỗi mục có block id trong `proposed_targets`, và `validate-roadmap` trả về `revision roadmap ok`.
 - Nhiều mục must_fix chạm vào thiết kế cốt lõi (R2, R6–R16, R18, R21): định nghĩa cửa sổ căng thẳng, phân phối rỗng, Holm/α, tập M, quy tắc chọn mô hình. Theo nguyên tắc 2, các mục này chuyển vào danh sách **chờ người dùng duyệt** và không tự sửa. Các mục chỉ là văn bản (R1, R3, R4, R5, R17, R19, R20) có thể đưa vào Vòng 1.
 
 ## Nguồn gốc hội đồng (provenance, 6 trục)
 role_separated = true; fresh_context = true; blind (không thấy báo cáo ghế khác) = true; model_family_distinct = false; provider_distinct = false; human_distinct = false. Công bố bắt buộc: cả 5 ghế cùng một họ mô hình, nên lỗi của chúng có thể tương quan; tách vai trò KHÔNG có nghĩa là các đánh giá độc lập. Artifact: panel-provenance.json (validate PASS, validate-carrier PASS).
 
 ## Bằng chứng tuân thủ (theo SKILL.md "Orchestration Workflow" và "Checkpoint Rules")
-| Bước | Trạng thái | Bằng chứng |
-|---|---|---|
-| Sprint Contract Hard Gate: nạp `shared/contracts/reviewer/full.json`, chạy check_sprint_contract | LÀM | contract.json; các script kiểm tra exit 0 |
-| Phase 0: field_analyst_agent đọc trọn bài → 4 thẻ cấu hình phản biện | LÀM | phase0_field_analysis.md |
-| Checkpoint 1: trình thẻ cấu hình cho người dùng | LÀM (tự xác nhận) | Người dùng dặn "làm đi chuẩn theo các skill, không hỏi lại", nên thẻ được giữ nguyên, không chỉnh |
-| Phase 1: 5 ghế (EIC, R1 phương pháp, R2 lĩnh vực, R3 góc nhìn, DA) không xem bài, chạy song song | LÀM | phase1_*.md; `check_phase_conformance --phase1-only` exit 0 cho cả 5 |
-| Phase 2 (paper-visible) cho từng ghế | LÀM | phase2_*.md; `check_phase_conformance --phase2` exit 0 cho cả 5 (ghế phương pháp có cảnh báo [RECEIPT-ATTESTATION]: khai `no_recomputable_statistics`, vì đề cương chưa có số liệu kết quả) |
-| Iron Rule 2: ghi provenance | LÀM | review_panel_provenance build/validate/build-carrier/validate-carrier đều PASS |
-| check_panel_synthesis --layer1-only | LÀM | PASS |
-| editorial_synthesizer_agent, giao thức 3 bước | LÀM | synthesis.md; `check_panel_synthesis --synthesis` → `PANEL-SYNTHESIS: PASS`, exit 0 (luồng chính chạy lại để kiểm chứng) |
-| Iron Rule 3: không bịa nhận xét | LÀM | Mỗi mục lộ trình dẫn về ghế và W-id/M-id |
-| Iron Rule 4: phân xử DA CRITICAL | LÀM | Không có CRITICAL; danh sách rỗng được ghi rõ |
-| Iron Rule 6: không sửa bản thảo | LÀM | manuscript.md không đổi |
-| #684 ràng buộc tiêu chí | LÀM | `criteria_binding_unavailable`; không có nhận định nào về venue-fit |
-| #849 gắn kết quả kiểm tra từ viết tắt | LÀM | Gắn nguyên văn ở cuối thư quyết định. Hạn chế: script chỉ hỗ trợ en/zh-TW, nên các tiêu đề tiếng Việt viết hoa (QU, NG, TR…) bị báo nhầm là từ viết tắt; nhiều mục là tên tạp chí hay tổ chức. Mục này chỉ để tham khảo, không sinh mục sửa đổi nào |
-| #518 kiểm tra mô hình chéo | KHÔNG ÁP DỤNG | ARS_CROSS_MODEL không được đặt |
-| Artifact máy revision-roadmap/1.0 | CHƯA LÀM | Thiếu block manifest và base_draft_sha256; các mục được định vị bằng mục/bảng/phương trình ([BLOCK-MANIFEST-UNAVAILABLE]) |
-| Phase 2.5 Revision Coaching (Socratic) | CHƯA LÀM | Bước này phải hỏi đáp với tác giả. Người dùng yêu cầu không hỏi lại, tương đương lựa chọn "just fix it" để bỏ qua. Cột phản hồi tác giả trong ma trận R&R ghi "[chờ tác giả]" |
+| # | Bước | Trạng thái | Bằng chứng |
+|---|---|---|---|
+| 1 | Sprint Contract Hard Gate: nạp `shared/contracts/reviewer/full.json`, chạy check_sprint_contract | LÀM | contract.json; các script kiểm tra exit 0 |
+| 2 | Phase 0: field_analyst_agent đọc trọn bài → 4 thẻ cấu hình phản biện | LÀM | phase0_field_analysis.md |
+| 3 | Checkpoint 1: trình thẻ cấu hình cho người dùng | LÀM (tự xác nhận) | Người dùng dặn "làm đi chuẩn theo các skill, không hỏi lại", nên thẻ được giữ nguyên, không chỉnh |
+| 4 | Phase 1: 5 ghế (EIC, R1 phương pháp, R2 lĩnh vực, R3 góc nhìn, DA) không xem bài, chạy song song | LÀM | phase1_*.md; `check_phase_conformance --phase1-only` exit 0 cho cả 5 |
+| 5 | Phase 2 (paper-visible) cho từng ghế | LÀM | phase2_*.md; `check_phase_conformance --phase2` exit 0 cho cả 5 (ghế phương pháp có cảnh báo [RECEIPT-ATTESTATION]: khai `no_recomputable_statistics`, vì đề cương chưa có số liệu kết quả) |
+| 6 | Iron Rule 2: ghi provenance | LÀM | review_panel_provenance build/validate/build-carrier/validate-carrier đều PASS |
+| 7 | check_panel_synthesis --layer1-only | LÀM | PASS |
+| 8 | editorial_synthesizer_agent, giao thức 3 bước | LÀM | synthesis.md; `check_panel_synthesis --synthesis` → `PANEL-SYNTHESIS: PASS`, exit 0 (luồng chính chạy lại để kiểm chứng). Chạy lại lần 1 sau khi gắn block id: `python3 -I -B scripts/check_panel_synthesis.py --contract apr/contract.json --report apr/phase2_eic.md --report apr/phase2_methodology.md --report apr/phase2_domain.md --report apr/phase2_perspective.md --report apr/phase2_da.md --roles eic,methodology,domain,perspective,da --synthesis apr/synthesis.md` → `PANEL-SYNTHESIS: PASS`, exit 0 |
+| 9 | Iron Rule 3: không bịa nhận xét | LÀM | Mỗi mục lộ trình dẫn về ghế và W-id/M-id |
+| 10 | Iron Rule 4: phân xử DA CRITICAL | LÀM | Không có CRITICAL; danh sách rỗng được ghi rõ |
+| 11 | Iron Rule 6: không sửa bản thảo | LÀM | manuscript.md không đổi |
+| 12 | #684 ràng buộc tiêu chí | LÀM | `criteria_binding_unavailable`; không có nhận định nào về venue-fit |
+| 13 | #849 gắn kết quả kiểm tra từ viết tắt | LÀM | Gắn nguyên văn ở cuối thư quyết định. Hạn chế: script chỉ hỗ trợ en/zh-TW, nên các tiêu đề tiếng Việt viết hoa (QU, NG, TR…) bị báo nhầm là từ viết tắt; nhiều mục là tên tạp chí hay tổ chức. Mục này chỉ để tham khảo, không sinh mục sửa đổi nào. Chạy lại lần 1: phần đính kèm cũ được gỡ trước khi chạy checker, rồi gắn lại nguyên văn `apr/acronyms.md` làm lần ghi cuối, sau khi `check_panel_synthesis` PASS |
+| 14 | #518 kiểm tra mô hình chéo | KHÔNG ÁP DỤNG | ARS_CROSS_MODEL không được đặt |
+| 15 | Step 5 (`editorial_synthesizer_agent.md`): artifact máy revision-roadmap/1.0, mỗi mục có `proposed_targets[]` lấy block id từ block manifest | LÀM (chạy lại lần 1) | (a) Chép `apr/manuscript.md` sang bản sao `apr/manuscript.base.md`. Bản gốc không đổi: `sha256sum -c` → `manuscript.md: OK`. Lần neo khối đầu bị từ chối: `REJECTED [unsupported_construct:setext_underline]: line 390: setext-underline shape (===/--- directly under a non-blank line) is unsupported (hint: use an ATX heading (#/##) instead)`. Nguyên nhân là 7 đường viền đóng của bảng nhiều dòng kiểu Pandoc (dòng 390, 480, 565, 871, 969, 1022, 1097). Bản sao được chèn 1 dòng trống trước mỗi đường viền này; `pandoc -t native` cho cây cú pháp giống hệt bản gốc. (b) `python3 -I -B scripts/ars_anchorize_draft.py apr/manuscript.anchored.md --manifest-out apr/block-manifest.json` → `anchorize ok: 290 blocks (290 newly labeled, file updated) -> manifest …/apr/block-manifest.json`. Lần chạy thứ hai → `anchorize ok: 290 blocks (0 newly labeled, already anchored)`. (c) `base_draft_sha256` = `cb10787be65079eee0d75999d1e2a03525670e0a6c2f0683a55b4bb8f7307fdd`; `block_manifest_sha256` = `1e9393112642095f896f0a52ac2ac7c24e7e33557687fed09d6a11c4db96471c`. (d) `python3 -I -B scripts/revision_roadmap.py validate-roadmap --base apr/manuscript.anchored.md --block-manifest apr/block-manifest.json apr/revision-roadmap.json` → stdout `revision roadmap ok`, exit 0. (e) Các hạn chế mã hóa được khai trong Phụ lục A, mục "Ghi chú mã hóa artifact máy". Mức 2/4 được ghi là `SINGLE-VERIFIER`. REV-49 được ghi là `source_kind: editorial` vì thẻ DA không có confidence; không giá trị nào bị bịa. |
+| 16 | Phase 2.5 Revision Coaching (Socratic) | CHƯA LÀM | Bước này phải hỏi đáp với tác giả. Người dùng yêu cầu không hỏi lại, tương đương lựa chọn "just fix it" để bỏ qua. Cột phản hồi tác giả trong ma trận R&R ghi "[chờ tác giả]" |
 
-Câu trích làm bằng chứng (từ đề cương): §4.3.10 "Khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10, đề tài gọi kết quả là không kết luận"; Bảng 5 "ước lượng thử bảy mô hình trên giai đoạn 2019--2025"; §8.2 "Thí sinh đang theo học ngành Kế toán hệ vừa làm vừa học tại Đại học Kinh tế Quốc dân (năm thứ ba)".
+Câu trích làm bằng chứng (từ đề cương): §4.3.10 "Khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10, đề tài gọi kết quả là không kết luận"; Bảng 5, hàng Năm 1, cột Nội dung "ước lượng thử bảy mô hình trên … giai đoạn 2019--2025" (dòng nguồn tương ứng của đề cương là "trình. Quý 2: ước lượng thử bảy mô hình trên     chuyên đề 1"; cụm "chuyên đề 1" thuộc cột Sản phẩm, nên được lược và đánh dấu "…"); §8.2 "Thí sinh đang theo học ngành Kế toán hệ vừa làm vừa học tại Đại học Kinh tế Quốc dân (năm thứ ba)".
 
 ---
 # Phụ lục A — Gói quyết định biên tập (nguyên văn)
@@ -163,7 +165,7 @@ Danh sách đầy đủ các mục bắt buộc ở R1–R21 bên dưới. Ba v�
 |---|---|---|---|---|
 | R2 | Kết quả chủ đạo H1 có nguy cơ cao rơi vào "không kết luận" (khoảng 28 cửa sổ so với ngưỡng 10 cửa sổ căng thẳng), nhưng chưa có ước tính trước số cửa sổ căng thẳng hay phân tích công suất | EIC (W2), R1 (W1), DA (M4) | `text: §4.3.10 "Khi số cửa sổ độc lập ở chế độ căng thẳng dưới 10"` | REV-02 |
 | R7 | Phép chuẩn hóa thước đo chính (chia R_t, D_t cho sai số chuẩn bootstrap) chưa được định nghĩa | R1 (W2), DA (M9) | `text: §4.3.6 "cho sai số chuẩn bootstrap của chênh lệch lợi suất tương đương chắc chắn giữa các mô hình trong cùng cửa sổ"` | REV-12 |
-| R10 | Đăng ký trước diễn ra sau khi đã ước lượng thử cả bảy mô hình trên 2019–2025, giai đoạn chứa hai đợt căng thẳng; độ dài cửa sổ được biện minh sau lần thử đó | R1 (W4), DA (M3) | `table: Bảng 5, hàng Năm 1, cột Nội dung — "ước lượng thử bảy mô hình trên giai đoạn 2019--2025"` | REV-15 |
+| R10 | Đăng ký trước diễn ra sau khi đã ước lượng thử cả bảy mô hình trên 2019–2025, giai đoạn chứa hai đợt căng thẳng; độ dài cửa sổ được biện minh sau lần thử đó | R1 (W4), DA (M3) | `table: Bảng 5, hàng Năm 1, cột Nội dung — "ước lượng thử bảy mô hình trên … giai đoạn 2019--2025" (cột Nội dung; cụm "chuyên đề 1" chen giữa trong dòng nguồn thuộc cột Sản phẩm)` | REV-15 |
 
 ---
 
@@ -333,7 +335,7 @@ Ba bất đồng về mức độ (SC-5, SC-6, SC-30) đã được phân xử �
 
 ## Required Revisions * (Must Fix)
 
-Không có block manifest hoặc `base_draft_sha256` nào được cung cấp cho lượt này, nên mọi mục ghi `proposed_targets: [BLOCK-MANIFEST-UNAVAILABLE]`. Vị trí được nêu bằng locator mục/bảng/phương trình của đề cương. Artifact máy `revision-roadmap/1.0` **không** được phát hành trong lượt này vì thiếu hai giá trị băm bắt buộc. Bảng dưới đây là lõi lộ trình ở dạng người đọc.
+Các mục được ràng buộc với block manifest của một bản sao làm việc đã neo khối: `manuscript.anchored.md`, 290 khối, manifest `block-manifest.json` (`base_draft_hash` = `cb10787be650`). Bản gốc `manuscript.md` không bị sửa (sha256 `ac4c0ea1cb2ddca5aac07424c3da9532eccfb98bef8eb4c5c3602603889eb9f9`). Bản sao chỉ khác bản gốc ở hai điểm. Thứ nhất là các dòng đánh dấu `<!--block:BNNNN-->`. Thứ hai là 7 dòng trống chèn ngay trước đường viền đóng của 7 bảng nhiều dòng kiểu Pandoc (dòng 390, 480, 565, 871, 969, 1022, 1097 của bản gốc), vì bộ phân tích khối từ chối các đường viền này (`unsupported_construct:setext_underline`). Pandoc 3.1.3 cho cây cú pháp giống hệt nhau trên bản gốc và bản đã chèn dòng trống. Artifact máy `revision-roadmap/1.0` đã được phát hành tại `revision-roadmap.json` (`base_draft_sha256` = `cb10787be65079eee0d75999d1e2a03525670e0a6c2f0683a55b4bb8f7307fdd`, `block_manifest_sha256` = `1e9393112642095f896f0a52ac2ac7c24e7e33557687fed09d6a11c4db96471c`). Lệnh `revision_roadmap.py validate-roadmap` trả về `revision roadmap ok`. Block id và thao tác đề xuất của từng mục nằm ở danh sách truy vết trong mục Revision Roadmap. Đó là phạm vi đề xuất, không phải quyền ghi. Bảng dưới đây là lõi lộ trình ở dạng người đọc.
 
 | Transport ref | Revision Item | Sub-Claim(s) | Severity | Evidence Anchor | Confidence | Source | Obligation class | Cost scope | Bounded consequence |
 |---|---|---|---|---|---|---|---|---|---|
@@ -346,7 +348,7 @@ Không có block manifest hoặc `base_draft_sha256` nào được cung cấp ch
 | R7 (REV-12) | Định nghĩa chính xác mẫu số chuẩn hóa (cặp, tần suất, độ dài khối, số lần lặp) | SC-12 | major | `text: §4.3.6 "cho sai số chuẩn bootstrap của chênh lệch lợi suất tương đương chắc chắn giữa các mô hình trong cùng cửa sổ"` | 4 — R1 | R1 W2 | must_fix | section: §4.3.6 | method_reproducibility_unresolved → section: §4.3.6 |
 | R8 (REV-13) | Báo cáo song song regret thô và chuẩn hóa; nêu trước biến kết quả chính và cách đọc khi hai thước đo bất đồng | SC-13 | major | `text: §4.3.6 "phân tích chính chia D_t và R_t cho sai số chuẩn bootstrap"` (DA M9) | 4 — R1 | R1 W2; DA M9 | must_fix | section: §4.3.6, §4.1 | interpretive_ambiguity_remains → claim: H1 (đơn vị thước đo) |
 | R9 (REV-14) | Định nghĩa lại phân phối rỗng theo CE (cả trung bình và phương sai); nêu rõ thủ tục tái lấy mẫu; kiểm tra size bằng mô phỏng | SC-14 | major | `text: §4.3.7 "loại chênh lệch trung bình giữa các mô hình trong từng chế độ nhưng giữ nguyên tương quan chéo và biến động"` | 4 — R1 | R1 W3; DA (giải thích thay thế 2) | must_fix | re_analysis: §4.3.7 | evidence_gap_remains → claim: điều kiện 1 ủng hộ H1 |
-| R10 (REV-15) | Tách bước thử khỏi mẫu xác nhận (HMM/dữ liệu mô phỏng hoặc trước 2012); khai các tham số chọn sau khi xem kết quả | SC-15 | major | `table: Bảng 5, hàng Năm 1 — "ước lượng thử bảy mô hình trên giai đoạn 2019--2025"` | 4 — R1 | R1 W4; DA M3 | must_fix | section: Bảng 5, §4.3.5, §4.3.6 | claim_scope_unsupported → claim: "phân tích xác nhận có đăng ký trước" |
+| R10 (REV-15) | Tách bước thử khỏi mẫu xác nhận (HMM/dữ liệu mô phỏng hoặc trước 2012); khai các tham số chọn sau khi xem kết quả | SC-15 | major | `table: Bảng 5, hàng Năm 1 — "ước lượng thử bảy mô hình trên … giai đoạn 2019--2025" (cột Nội dung; cụm "chuyên đề 1" chen giữa trong dòng nguồn thuộc cột Sản phẩm)` | 4 — R1 | R1 W4; DA M3 | must_fix | section: Bảng 5, §4.3.5, §4.3.6 | claim_scope_unsupported → claim: "phân tích xác nhận có đăng ký trước" |
 | R11 (REV-16) | Giới hạn số biến mỗi phương trình; HAC hiệu chỉnh mẫu nhỏ; quy tắc độ dài khối ấn định trước | SC-16 | major | `text: §4.3.6 "đề tài dự kiến có khoảng 28 cửa sổ đánh giá độc lập"` | 4 — R1 | R1 W5 | must_fix | section: §4.3.7 | evidence_gap_remains → claim: H2, H4 (khoảng tin cậy) |
 | R12 (REV-17) | Tách đóng góp của biến động khỏi các kênh (ví dụ Gelbach); đổi ngôn ngữ "phần được giải thích" | SC-17 | major | `equation: Eq. (5) và hiệu β0 − β1 ở mục 4.3.7` | 4 — R1 | R1 W6; DA M2 | must_fix | section: §4.3.7, §4.1 (Câu hỏi 2) | claim_scope_unsupported → claim: Câu hỏi 2 |
 | R13 (REV-18) | Nêu trước "hai phương trình tách riêng" và tiêu chí H2 trong nhánh VIF cao | SC-18 | major | `text: §4.3.7 "Khi hệ số này vượt ngưỡng, đề tài báo cáo hai phương trình tách riêng và không diễn giải riêng từng hệ số"` | 4 — R1 | R1 W7; DA M1 (một phần) | must_fix | section: §4.3.7 | acceptance_criterion_unmet → claim: tiêu chí ủng hộ H2 |
@@ -532,57 +534,64 @@ Câu hỏi cho tác giả (kênh `question`; tác giả phải trả lời, chi 
 
 Danh sách theo thứ tự nguồn bất biến (EIC → R1 → R2 → R3 → DA, sau đó theo số W). Thứ tự này không phải thứ tự làm việc. Tác giả sẽ chọn `will_address`, `wont_address` hoặc `not_on_point` ở bước phân xử của tác giả sau đó, trong sidecar riêng.
 
-- [ ] R1 (REV-01) — obligation `must_fix`: Thu hẹp tuyên bố khoảng trống §4.2
-- [ ] R2 (REV-02) — obligation `must_fix`: Ước tính số cửa sổ căng thẳng và công suất
-- [ ] R3 (REV-03) — obligation `must_fix`: Đóng góp trong kịch bản "không kết luận"
-- [ ] S1 (REV-04) — obligation `should_fix`: Gọi tên đóng góp chính xác
-- [ ] R4 (REV-05) — obligation `must_fix`: Viết lại tuyên bố liên ngành §5 và §4.4
-- [ ] R5 (REV-06) — obligation `must_fix`: Tách bạch với bản thảo 1, 5, 6
-- [ ] S2 (REV-07) — obligation `should_fix`: Thống nhất người hướng dẫn
-- [ ] S3 (REV-08) — obligation `should_fix`: Điền trường để trống
-- [ ] S4 (REV-09) — obligation `should_fix`: Kiểm tra Hình 3 và số chú thích
-- [ ] S5 (REV-10) — obligation `should_fix`: Tiêu đề và phạm vi HOSE
-- [ ] R6 (REV-11) — obligation `must_fix`: Định nghĩa cửa sổ căng thẳng
-- [ ] R7 (REV-12) — obligation `must_fix`: Định nghĩa mẫu số chuẩn hóa
-- [ ] R8 (REV-13) — obligation `must_fix`: Regret thô và chuẩn hóa song song
-- [ ] R9 (REV-14) — obligation `must_fix`: Phân phối rỗng theo CE
-- [ ] R10 (REV-15) — obligation `must_fix`: Trình tự đăng ký trước
-- [ ] R11 (REV-16) — obligation `must_fix`: Suy luận mẫu nhỏ
-- [ ] R12 (REV-17) — obligation `must_fix`: Phân rã β0 − β1
-- [ ] R13 (REV-18) — obligation `must_fix`: Quy tắc VIF và tiêu chí H2
-- [ ] R14 (REV-19) — obligation `must_fix`: Tập so sánh H3
-- [ ] R15 (REV-20) — obligation `must_fix`: α và Holm
-- [ ] S6 (REV-21) — obligation `should_fix`: Bất định của S_t
-- [ ] S7 (REV-22) — obligation `should_fix`: Trọng số Bayes
-- [ ] R16 (REV-23) — obligation `must_fix`: Quy tắc chọn thay thế
-- [ ] S8 (REV-24) — obligation `should_fix`: N/T cho dữ liệu tháng
-- [ ] S9 (REV-25) — obligation `should_fix`: Tần suất, năm hóa, chi phí
-- [ ] S10 (REV-26) — obligation `should_fix`: Định nghĩa biến kênh
-- [ ] S11 (REV-27) — obligation `should_fix`: Gán nhãn chế độ
-- [ ] S12 (REV-28) — obligation `should_fix`: Diễn giải kết quả không bác bỏ
-- [ ] S13 (REV-29) — obligation `should_fix`: Dấu kênh tương quan đuôi
-- [ ] R17 (REV-30) — obligation `must_fix`: Cơ sở lý thuyết của regret
-- [ ] R18 (REV-31) — obligation `must_fix`: Tính đại diện của tập M
-- [ ] S14 (REV-32) — obligation `should_fix`: Thước đo bầy đàn H4
-- [ ] S15 (REV-33) — obligation `should_fix`: Kerkhof (2010)
-- [ ] S16 (REV-34) — obligation `should_fix`: Ledoit–Wolf cho CE
-- [ ] S17 (REV-35) — obligation `consider`: Vi cấu trúc HOSE
-- [ ] S18 (REV-36) — obligation `consider`: Forbes–Rigobon chuỗi thời gian
-- [ ] S19 (REV-37) — obligation `consider`: Kritzman "nhận diện"
-- [ ] S20 (REV-38) — obligation `consider`: Cập nhật sau đọc toàn văn
-- [ ] R19 (REV-39) — obligation `must_fix`: Tiền đề về người dùng
-- [ ] S21 (REV-40) — obligation `should_fix`: Biện minh quy tắc 36 tháng
-- [ ] S22 (REV-41) — obligation `should_fix`: Thủ tục giám sát theo khung MRM
-- [ ] S23 (REV-42) — obligation `should_fix`: Regret thô cho hàm ý quản trị
-- [ ] S24 (REV-43) — obligation `should_fix`: Nghĩa hành vi của regret
-- [ ] R20 (REV-44) — obligation `must_fix`: Khả thi thời gian
-- [ ] S25 (REV-45) — obligation `should_fix`: Giấy phép dữ liệu
-- [ ] S26 (REV-46) — obligation `consider`: Bên liên quan
-- [ ] S27 (REV-47) — obligation `consider`: Rủi ro hành vi đồng loạt
-- [ ] R21 (REV-48) — obligation `must_fix`: Hệ số kiểm định H1
-- [ ] S28 (REV-49) — obligation `should_fix`: Vai trò D_t và MCS
+- [ ] R1 (REV-01) — obligation `must_fix`: Thu hẹp tuyên bố khoảng trống §4.2 — proposed_targets: `B0072 replace_block; B0073 replace_block; B0074 replace_block; B0075 replace_block; B0086 replace_block+insert_after; B0160 replace_block`
+- [ ] R2 (REV-02) — obligation `must_fix`: Ước tính số cửa sổ căng thẳng và công suất — proposed_targets: `B0134 replace_block+insert_after; B0151 replace_block+insert_after`
+- [ ] R3 (REV-03) — obligation `must_fix`: Đóng góp trong kịch bản "không kết luận" — proposed_targets: `B0151 replace_block; B0161 replace_block+insert_after`
+- [ ] S1 (REV-04) — obligation `should_fix`: Gọi tên đóng góp chính xác — proposed_targets: `B0161 replace_block`
+- [ ] R4 (REV-05) — obligation `must_fix`: Viết lại tuyên bố liên ngành §5 và §4.4 — proposed_targets: `B0158 replace_block; B0161 replace_block; B0175 replace_block`
+- [ ] R5 (REV-06) — obligation `must_fix`: Tách bạch với bản thảo 1, 5, 6 — proposed_targets: `B0161 insert_after; B0185 replace_block+insert_after`
+- [ ] S2 (REV-07) — obligation `should_fix`: Thống nhất người hướng dẫn — proposed_targets: `B0012 replace_block; B0227 replace_block`
+- [ ] S3 (REV-08) — obligation `should_fix`: Điền trường để trống — proposed_targets: `B0010 replace_block; B0016 replace_block`
+- [ ] S4 (REV-09) — obligation `should_fix`: Kiểm tra Hình 3 và số chú thích — proposed_targets: `B0079 replace_block; B0094 replace_block; B0097 replace_block; B0112 replace_block; B0135 replace_block; B0148 replace_block+insert_after; B0164 replace_block; B0188 replace_block; B0199 replace_block; B0206 replace_block`
+- [ ] S5 (REV-10) — obligation `should_fix`: Tiêu đề và phạm vi HOSE — proposed_targets: `B0005 replace_block; B0014 replace_block; B0156 replace_block`
+- [ ] R6 (REV-11) — obligation `must_fix`: Định nghĩa cửa sổ căng thẳng — proposed_targets: `B0151 replace_block`
+- [ ] R7 (REV-12) — obligation `must_fix`: Định nghĩa mẫu số chuẩn hóa — proposed_targets: `B0133 replace_block`
+- [ ] R8 (REV-13) — obligation `must_fix`: Regret thô và chuẩn hóa song song — proposed_targets: `B0062 replace_block; B0133 replace_block+insert_after`
+- [ ] R9 (REV-14) — obligation `must_fix`: Phân phối rỗng theo CE — proposed_targets: `B0141 replace_block`
+- [ ] R10 (REV-15) — obligation `must_fix`: Trình tự đăng ký trước — proposed_targets: `B0123 replace_block; B0134 replace_block; B0189 replace_block`
+- [ ] R11 (REV-16) — obligation `must_fix`: Suy luận mẫu nhỏ — proposed_targets: `B0138 replace_block; B0140 replace_block`
+- [ ] R12 (REV-17) — obligation `must_fix`: Phân rã β0 − β1 — proposed_targets: `B0068 replace_block; B0142 replace_block`
+- [ ] R13 (REV-18) — obligation `must_fix`: Quy tắc VIF và tiêu chí H2 — proposed_targets: `B0142 replace_block`
+- [ ] R14 (REV-19) — obligation `must_fix`: Tập so sánh H3 — proposed_targets: `B0144 replace_block`
+- [ ] R15 (REV-20) — obligation `must_fix`: α và Holm — proposed_targets: `B0151 replace_block`
+- [ ] S6 (REV-21) — obligation `should_fix`: Bất định của S_t — proposed_targets: `B0141 replace_block+insert_after`
+- [ ] S7 (REV-22) — obligation `should_fix`: Trọng số Bayes — proposed_targets: `B0144 replace_block`
+- [ ] R16 (REV-23) — obligation `must_fix`: Quy tắc chọn thay thế — proposed_targets: `B0104 replace_block; B0131 replace_block+insert_after; B0151 replace_block`
+- [ ] S8 (REV-24) — obligation `should_fix`: N/T cho dữ liệu tháng — proposed_targets: `B0122 replace_block`
+- [ ] S9 (REV-25) — obligation `should_fix`: Tần suất, năm hóa, chi phí — proposed_targets: `B0125 replace_block+insert_after; B0145 replace_block+insert_after`
+- [ ] S10 (REV-26) — obligation `should_fix`: Định nghĩa biến kênh — proposed_targets: `B0099 replace_block; B0140 replace_block`
+- [ ] S11 (REV-27) — obligation `should_fix`: Gán nhãn chế độ — proposed_targets: `B0109 replace_block`
+- [ ] S12 (REV-28) — obligation `should_fix`: Diễn giải kết quả không bác bỏ — proposed_targets: `B0151 replace_block`
+- [ ] S13 (REV-29) — obligation `should_fix`: Dấu kênh tương quan đuôi — proposed_targets: `B0091 replace_block; B0094 replace_block; B0099 replace_block`
+- [ ] R17 (REV-30) — obligation `must_fix`: Cơ sở lý thuyết của regret — proposed_targets: `B0089 replace_block`
+- [ ] R18 (REV-31) — obligation `must_fix`: Tính đại diện của tập M — proposed_targets: `B0111 replace_block; B0119 insert_after; B0158 replace_block`
+- [ ] S14 (REV-32) — obligation `should_fix`: Thước đo bầy đàn H4 — proposed_targets: `B0101 replace_block; B0158 replace_block`
+- [ ] S15 (REV-33) — obligation `should_fix`: Kerkhof (2010) — proposed_targets: `B0073 replace_block`
+- [ ] S16 (REV-34) — obligation `should_fix`: Ledoit–Wolf cho CE — proposed_targets: `B0138 replace_block`
+- [ ] S17 (REV-35) — obligation `consider`: Vi cấu trúc HOSE — proposed_targets: `B0109 replace_block+insert_after`
+- [ ] S18 (REV-36) — obligation `consider`: Forbes–Rigobon chuỗi thời gian — proposed_targets: `B0140 replace_block`
+- [ ] S19 (REV-37) — obligation `consider`: Kritzman "nhận diện" — proposed_targets: `B0075 replace_block`
+- [ ] S20 (REV-38) — obligation `consider`: Cập nhật sau đọc toàn văn — proposed_targets: `B0160 replace_block`
+- [ ] R19 (REV-39) — obligation `must_fix`: Tiền đề về người dùng — proposed_targets: `B0061 replace_block; B0064 replace_block; B0161 replace_block; B0178 replace_block`
+- [ ] S21 (REV-40) — obligation `should_fix`: Biện minh quy tắc 36 tháng — proposed_targets: `B0131 replace_block+insert_after; B0158 replace_block`
+- [ ] S22 (REV-41) — obligation `should_fix`: Thủ tục giám sát theo khung MRM — proposed_targets: `B0161 replace_block; B0170 replace_block`
+- [ ] S23 (REV-42) — obligation `should_fix`: Regret thô cho hàm ý quản trị — proposed_targets: `B0133 replace_block`
+- [ ] S24 (REV-43) — obligation `should_fix`: Nghĩa hành vi của regret — proposed_targets: `B0062 replace_block`
+- [ ] R20 (REV-44) — obligation `must_fix`: Khả thi thời gian — proposed_targets: `B0187 replace_block+insert_after`
+- [ ] S25 (REV-45) — obligation `should_fix`: Giấy phép dữ liệu — proposed_targets: `B0106 replace_block`
+- [ ] S26 (REV-46) — obligation `consider`: Bên liên quan — proposed_targets: `B0161 replace_block; B0170 replace_block`
+- [ ] S27 (REV-47) — obligation `consider`: Rủi ro hành vi đồng loạt — proposed_targets: `B0170 replace_block`
+- [ ] R21 (REV-48) — obligation `must_fix`: Hệ số kiểm định H1 — proposed_targets: `B0098 replace_block; B0140 replace_block`
+- [ ] S28 (REV-49) — obligation `should_fix`: Vai trò D_t và MCS — proposed_targets: `B0062 replace_block; B0098 replace_block; B0141 replace_block; B0161 replace_block`
 
-Tổng: 49 mục (must_fix 21, should_fix 22, consider 6). Thông tin cho artifact máy (chưa phát hành): `consensus_summary` = "Không có CONSENSUS-3/4; 5 phát hiện chứng thực 2/4 (SC-1, SC-2, SC-4, SC-26, SC-29); 3 SPLIT về mức độ (SC-5, SC-6, SC-30)"; `dissenting_opinions` = [SC-5 bất đồng mức độ EIC Minor và R3 Major, chưa giải quyết].
+Tổng: 49 mục (must_fix 21, should_fix 22, consider 6). Trường của artifact máy (đã phát hành tại `revision-roadmap.json`): `consensus_summary` = "Không có CONSENSUS-3/4; 5 phát hiện chứng thực 2/4 (SC-1, SC-2, SC-4, SC-26, SC-29); 3 SPLIT về mức độ (SC-5, SC-6, SC-30)"; `dissenting_opinions` = [SC-5 bất đồng mức độ EIC Minor và R3 Major, chưa giải quyết].
+
+Ghi chú mã hóa artifact máy (lượt chạy lại 1):
+- `consensus_level` là enum đóng (CONSENSUS-4, CONSENSUS-3, SPLIT, DA-CRITICAL, SINGLE-VERIFIER). Enum này không có giá trị cho mức "chứng thực 2/4". Các mục REV-01, 02, 04, 26, 29 được mã hóa là `SINGLE-VERIFIER`, tức không tuyên bố đồng thuận. Trường `reviewer` vẫn giữ đủ các ghế nguồn. Ba mục SPLIT (REV-05, 06, 30) mã hóa là `SPLIT`.
+- `source_refs` chỉ ghi vị trí nguồn của các ghế được đếm (EIC, R1, R2, R3). Vị trí của DA chỉ được ghi cho hai mục do DA khởi phát (REV-48 = DA M1; REV-49 = DA Minor (ii), đánh số thứ tự 11 sau M1–M9 và Minor (i)). Lý do là `source_refs` phải duy nhất trên toàn lộ trình, trong khi DA M1, M4 và M9 chứng thực nhiều mục. Mọi chứng thực của DA vẫn ghi trong trường `reviewer`. Các mục Vấn đề nhỏ của R2 được đánh số 9–12, nối sau W1–W8. Nhận xét chi tiết của R2 (REV-04) và Broader Implications của R3 (REV-47) dùng kênh `editorial`.
+- REV-49: thẻ DA không công bố confidence và competence basis cho Minor (ii). Schema bắt buộc hai trường này với mục có phát hiện dẫn dắt, nên artifact máy mã hóa REV-49 là `source_kind: editorial` và không mang `severity`, `evidence_anchor`, `confidence`. Không giá trị nào được bịa. Severity `minor` và evidence anchor vẫn được ghi ở bảng dạng người đọc phía trên.
+- REV-36, REV-47: thẻ chỉ có locator, không có anchor định kiểu. Anchor được định kiểu khi phát hành lộ trình và gắn nhãn `[ANCHOR-TYPED-AT-ROADMAP]`. Quote của REV-36 là văn bản đề cương tại locator §4.3.7 mà người phản biện nêu.
+- `verification_criteria`: mục must_fix lấy nguyên văn Acceptance criteria ở Required Item Details. Mục should_fix và consider lấy nguyên văn "Hành động yêu cầu" và "Vị trí trong đề cương" của ma trận R&R.
 
 ---
 
