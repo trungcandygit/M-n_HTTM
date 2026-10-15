@@ -82,3 +82,4 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
   - review-pap: chạy ở Vòng 2 (phương án B đổi kế hoạch đăng ký trước); ở Vòng 3 chỉ chạy khi phương pháp lại thay đổi.
   - Mỗi vòng có 1 kiểm toán.
   - Nếu cổng re-review không qua: báo lỗi nguyên văn và chạy lại chế độ full cho riêng skill đó.
+- Cập nhật: người dùng yêu cầu áp dụng phương án tiết kiệm ngay từ bước chạy lại skill của Vòng 1.
