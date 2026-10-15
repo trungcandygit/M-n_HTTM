@@ -92,3 +92,11 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
   - research-grants.
   - 1 kiểm toán viên.
   Tổng cộng: Vòng 1 có 16 agent; Vòng 2–3 có 10. Bỏ review-paper-light (đã có APR re-review) và peer-review (trùng APR); vẫn giữ đủ 5 nhóm skill.
+
+## Cập nhật 2026-10-15 (người dùng: "1–2 agent mà vẫn mạnh")
+- Vòng 1: academic-paper-reviewer re-review bị chặn ở cổng (S4). Lỗi nguyên văn: `revision authority contract invalid / bundle schema chain_start: 'integrity_pass_receipt' is a required property`. Nguyên nhân: không có biên nhận kiểm tra tính toàn vẹn, không có chuỗi bản vá ARS. Đã dừng việc chạy lại chế độ full (12 lượt) theo yêu cầu giảm agent. Ghi "CHƯA LÀM" cho APR ở Vòng 1.
+- Từ Vòng 2, mỗi vòng có 2 agent kiểm tra, mỗi agent chạy tuần tự 2 skill vốn chỉ dùng 1 agent:
+  - Agent 1: peer-review rồi research-grants.
+  - Agent 2: sciwrite (5 pass) rồi red-team.
+  - Thêm 1 kiểm toán viên.
+- Bỏ academic-paper-reviewer, review-pap và review-paper-checks. Mất mát: phần kiểm tra cơ học và phản biện đa ghế yếu đi. peer-review đảm nhận việc xác minh 49 mục lộ trình của APR.
