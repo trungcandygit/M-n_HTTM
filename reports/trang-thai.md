@@ -65,3 +65,7 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
 - academic-paper-reviewer chạy đủ chế độ full: Phase 0 → Phase 1 → Phase 2 → provenance → synthesizer. check_panel_synthesis PASS. Quyết định: major_revision; 49 mục lộ trình (21 must_fix).
 - QĐ 1193: đã trích bài 19, 11, 12 từ ảnh trang 6 và 8 (scratchpad/nq57/trich-qd1193.md, cục bộ).
 - Đang chạy: Bước 4 (subagent research-grants). Tiếp theo: Cổng 3 (kiểm toán 8 báo cáo).
+
+## Cập nhật 2026-10-15 — Cổng 3 ĐẠT 8/8 (sau 1 lần chạy lại)
+- Bước 4 xong: reports/doi-chieu-bai-toan-19.md; checklist điều kiện chỉ lưu cục bộ (outputs/, có dữ liệu cá nhân).
+- Đang làm: tong-hop-van-de.md → Vòng 1.

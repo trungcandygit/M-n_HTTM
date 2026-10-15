@@ -358,3 +358,118 @@ Xác nhận gọi skill: dòng 1, "Launching skill: research-grants". ĐẠT.
 | paper-writing-skill (red-team) | KHÔNG ĐẠT | Evidence rule: dán nguyên văn output thô của grep M1–M18 (mọi dòng trúng) và đối chiếu số đếm |
 | peer-review | ĐẠT | — |
 | research-grants | ĐẠT | — (khuyến nghị đánh số mục H) |
+
+# Cổng 3 — lượt 2, sau khi chạy lại lần 1 (2026-10-15): ĐẠT 8/8
+Một kiểm toán viên mới, chưa thấy quá trình, kiểm lại bốn báo cáo đã chạy lại: review-paper, review-paper-checks, academic-paper-reviewer, red-team. Cả bốn ĐẠT.
+Bản ghi S5 bổ sung: `ars_anchorize_draft.py`, `revision_roadmap.py`, `_block_parser.py` đã được agent chạy lại đọc trọn trước khi chạy (không dùng mạng, không gọi subprocess, chỉ ghi vào đường dẫn được chỉ định); kiểm toán viên quét độc lập và cho kết quả giống vậy.
+
+## Biên bản lượt 2 (nguyên văn)
+# Cổng 3 — Kiểm toán lại sau lần chạy lại 1 (2026-10-14)
+
+Người kiểm toán là subagent mới, chưa xem quá trình tạo báo cáo và chỉ xét trên file. Không sửa báo cáo nào.
+
+Căn cứ đối chiếu:
+- `audit/cong3-A.md` và `audit/cong3-B.md` (kết luận lượt 1).
+- Đọc lại các phần sau:
+  - review-paper `SKILL.md` Phase 3;
+  - review-paper-checks `SKILL.md` Phase 3;
+  - APR `agents/editorial_synthesizer_agent.md` Step 5 (và lề Cross-model);
+  - paper-writing-skill `red_team_protocol.md` (trọn file).
+
+Công cụ kiểm tra tự viết (đều chỉ đọc, nằm trong `audit/`):
+- `vchk.py`: kiểm mục Priority/Fix List có nguyên văn đầu ra agent hay không.
+- `lines.py`: kiểm các phần agent được chép nguyên văn.
+- `qcheck.py`: kiểm câu trích so với `paper/de-cuong-goc.md`.
+- `rtchk.py`: chạy độc lập regex của `g2rt/rules.py` rồi so với phụ lục.
+
+---
+
+## 1. review-paper → `reports/g2-review-paper.md`
+
+| # | Bước (SKILL.md Phase 3) | Lượt 1 | Lượt 2 | Bằng chứng kiểm lại |
+|---|---|---|---|---|
+| 1 | Kiểm tra agent lỗi hoặc placeholder | ĐẠT | ĐẠT | Hàng 19; 8/8 file `agent-out/rp-*.md` đầy đủ |
+| 2 | Lưu `reviews/PRE_SUBMISSION_REVIEW_[ngày].md`, kiểm tra -v2 | ĐẠT | ĐẠT (lưu ý) | `diff` giữa bản trong báo cáo (từ "# Pre-Submission Referee Report") và `paper/reviews/PRE_SUBMISSION_REVIEW_2026-10-13.md` rỗng. Lần này **ghi đè** thay vì tạo -v2. Đã khai ở sai lệch (ii) kèm lý do (đây là bản sửa của cùng lần chạy). Không chặn |
+| 3 | Overall Assessment 3–4 câu; (1) Agent 7 P1, (2) Contribution Synthesis, (3) CRITICAL đứng đầu Priority | KHÔNG ĐẠT | **ĐẠT** | Đếm được đúng 3 câu. Câu 3 = Priority #1 "[CRITICAL] (Khoảng trống đóng góp …)", lấy từ Agent 8 Part 3. Không có nhận định mới |
+| 4 | Contribution Rating; Recommendation chép nguyên văn A6 Part 4 | ĐẠT | ĐẠT | "Revise before sending to referees". Không thêm ghi chú desk-reject vì chỉ A8 xếp Insufficient, đúng điều kiện của skill |
+| 5 | Phần 1–7 chép nguyên văn agent | ĐẠT | ĐẠT | `lines.py`: 0 dòng nội dung (>20 ký tự) của rp-1..8 bị thiếu |
+| 6 | Synthesis và câu caveat | ĐẠT | ĐẠT | Không đổi |
+| 7 | **Priority Action Items: "Collect all tagged items … and rank them"** theo triage | KHÔNG ĐẠT | **ĐẠT** | Có 218 dòng đánh số (CRITICAL 12 / MAJOR 67 / MINOR 139). Đếm độc lập trong rp-1..6 khớp từng agent: A1 3/12/61, A2 3/11/17, A3 0/19/16, A4 0/11/17, A5 0/9/28, A6 5/5/0, tổng 217. Mục thứ 218 là mục khoảng trống đóng góp mà skill bắt buộc. `vchk.py`: 217/217 dòng khớp nguyên văn đầu ra agent; dòng duy nhất không khớp là mục do coordinator viết theo yêu cầu skill. Thứ tự triage đúng: khoảng trống → A6P2 (2–6) → A1 → A2 → MAJOR → MINOR. Thứ tự bên trong MAJOR/MINOR (A3→A6→A1→A2→A4→A5) skill không quy định; đã khai. A1 MAJOR 13→12: đã kiểm dòng 17 của rp-1, đó là câu chú thích chứ không phải mục, nên sửa là đúng |
+| 8 | Báo người dùng 5 mục (gồm top 5) | KHÔNG KIỂM CHỨNG ĐƯỢC | **ĐẠT** | Mục "Báo cáo cho người dùng" có đủ 5 điểm. Top 5 = Priority 1–5 |
+| S2 | Không bỏ, gộp hay rút gọn mà không khai | KHÔNG ĐẠT | **ĐẠT** | Không còn gộp. Khử trùng chỉ áp cho mục trùng nguyên văn (0 mục). Các mục cùng chủ đề vẫn giữ riêng, có khai rõ |
+| S3 | "Bằng chứng tuân thủ" đánh số, có Làm/lý do, có câu trích | ĐẠT | ĐẠT | 25 hàng đánh số. Hàng 21, 24, 25 ghi "sửa ở lần chạy lại 1", kèm mô tả bản cũ |
+| Trích | Không bịa câu trích | ĐẠT | ĐẠT | `qcheck.py`: các chuỗi không khớp đều là chữ của skill hoặc agent bằng tiếng Anh, tên mục, hoặc LaTeX `\(\beta\)` (đã kiểm ở lượt 1). Không có câu trích đề cương bịa |
+
+**Kết luận: ĐẠT.** Lưu ý không chặn: ghi đè file reviews thay vì -v2 (đã khai).
+
+---
+
+## 2. review-paper-checks → `reports/g2-review-paper-checks.md`
+
+| # | Bước (SKILL.md Phase 3) | Lượt 1 | Lượt 2 | Bằng chứng kiểm lại |
+|---|---|---|---|---|
+| 1 | Kiểm tra agent lỗi | ĐẠT | ĐẠT | Hàng 13 |
+| 2 | Khử trùng: báo mỗi lỗi một lần, ghi góc nhìn còn lại | ĐẠT | ĐẠT | Có 8 nhóm (a)–(h). Nhóm (h) mới (A style-12 ↔ B drafting-3) là cặp trùng hợp lệ |
+| 3 | Lưu `reviews/PAPER_CHECK_[ngày].md`, kiểm tra -v2 | ĐẠT | ĐẠT | File mới `PAPER_CHECK_2026-10-14.md`; `diff` với báo cáo rỗng; bản 10-13 vẫn giữ |
+| 4 | Cấu trúc (Summary 2–3 câu, Counts, 1-2-3, Fix List) | ĐẠT | ĐẠT | `lines.py`: 0 dòng của checks-A/B/C bị thiếu |
+| 5 | **Fix List: "Collect every tagged item … location, the problem, and the fix"** | KHÔNG ĐẠT | **ĐẠT** | Có 71 dòng đánh số; dòng nào cũng có **vị trí** \| vấn đề \| cách sửa \| [mã nguồn + thẻ gốc]. Đếm độc lập thẻ trong agent-out: A 2/7/16, B 0/9/13, C 0/19/11, tổng 77. Liệt kê nhãn nguồn ở 71 dòng thì phủ đủ 77 thẻ: 71 nhãn chính, cộng 6 nhãn "trùng" ứng với (b)–(f) và (h). Không còn dòng gom |
+| 6 | Xếp CRITICAL → MAJOR → MINOR; Counts khớp Fix List | KHÔNG ĐẠT (lệch 2/3) | **ĐẠT** | Bỏ nâng hạng, giữ thẻ gốc. Counts 2/33/36 bằng đúng số dòng từng tầng (đếm: C 2, M 33, m 36). Thẻ thô 2/35/40 có giải thích phần chênh 6. Trong MAJOR, nhân quả đứng trước mâu thuẫn số liệu, đúng câu "numerical contradictions and causal overclaiming before spelling" |
+| 7 | Báo người dùng 4 mục (top 5); đề nghị sửa nhưng không tự làm | KHÔNG KIỂM CHỨNG ĐƯỢC | **ĐẠT** | Mục "Báo cáo cho người dùng": đường dẫn, số đếm theo 3 nhóm (tổng 2/33/36), top 5 = Fix List 1–5, các kiểm tra không chạy được. Có câu đề nghị và "chưa làm" |
+| S2 | Không gộp hay rút gọn mà không khai | KHÔNG ĐẠT | **ĐẠT** | Chỉ còn 6 dòng gộp, đúng các cặp trùng đã khai |
+| S3 | "Bằng chứng tuân thủ" đánh số, có Làm/lý do, có câu trích | ĐẠT | ĐẠT | 18 hàng, cùng bảng R1–R3 cho lần chạy lại |
+| Trích | Không bịa | ĐẠT | ĐẠT | `qcheck.py` trên phần đầu và Fix List: 142 khớp, 103 không khớp. Đã kiểm tay các chuỗi không khớp. Phần lớn là câu sửa đề xuất hoặc thuật ngữ tiếng Anh. Các trích dẫn thật đều có trong đề cương, chỉ khác định dạng: "siêu tham số của M~2~…M~7~" (L569), "Độ phân tán chéo … thước đo bầy đàn" (bảng, L476), "$S_{t}$ là tỷ lệ số ngày" (L667), "chia $D_{t}$ và $R_{t}$" (L628), "Trung bình-phương sai với ước lượng" (bảng, L551), "Các biến kênh tác động lên chính quan hệ đó" (L436, "H~2~ và H~4~") |
+
+**Kết luận: ĐẠT.**
+
+---
+
+## 3. academic-paper-reviewer → `reports/g2-academic-paper-reviewer.md`
+
+Kiểm lại bằng script, chỉ đọc, chạy từ `.claude/ars`, mọi lệnh dùng `python3 -I -B`:
+
+| Lệnh | Kết quả |
+|---|---|
+| `revision_roadmap.py validate-roadmap --base apr/manuscript.anchored.md --block-manifest apr/block-manifest.json apr/revision-roadmap.json` | `revision roadmap ok`, exit 0 |
+| `check_panel_synthesis.py --contract … --report ×5 --roles eic,methodology,domain,perspective,da --synthesis apr/synthesis.md` | `PANEL-SYNTHESIS: PASS`, exit 0 |
+| `check_sprint_contract.py apr/contract.json` | OK, Schema 13.2 (2 cảnh báo SC-12) |
+| `sha256sum` | `manuscript.md` = ac4c0ea1… (OK, mtime 01:32, tức không đổi từ lần chạy gốc). `manuscript.anchored.md` = cb10787b… = `base_draft_sha256`. `block-manifest.json` = 1e939311… = `block_manifest_sha256` |
+
+| # | Bước | Lượt 1 | Lượt 2 | Bằng chứng kiểm lại |
+|---|---|---|---|---|
+| 1–15 (lượt 1) | Routing, Sprint gate, Phase 0/1/2, provenance, synthesizer, Iron Rule 2/3/4/6, #684, #518, R&R, Phase 2.5 | ĐẠT | ĐẠT | Không đổi. Script chạy lại vẫn PASS |
+| 16 | **Step 5: `revision-roadmap/1.0`, `proposed_targets[]` lấy block id từ manifest, thứ tự `source_refs`** | KHÔNG ĐẠT | **ĐẠT** | Có `schema_version: revision-roadmap/1.0`, 49 mục, `obligation_counts` 21/22/6. Không còn `[BLOCK-MANIFEST-UNAVAILABLE]` (0 lần trong synthesis.md và báo cáo). Anchorize chạy trên **bản sao**. `diff manuscript.md manuscript.base.md` chỉ khác 7 dòng trống chèn thêm. Bản anchored chỉ khác bản base ở các dòng `<!--block:…-->`. Lý do chèn dòng trống (lỗi `setext_underline`) đã được khai, cùng phép kiểm `pandoc -t native` cho cây cú pháp giống nhau. Spot-check block id: REV-07 → B0012 "PGS.TS. Hà Hồng Hạnh - Đại học Kinh tế Quốc Dân" và B0227 (mục 10); REV-10 → B0005/B0014 (tiêu đề); REV-02 → B0134/B0151 (cửa sổ, công suất). Tất cả đúng vị trí. Required Item Details đi theo thứ tự nguồn, chỉ lấy must_fix (R1 = REV-01 …) |
+| 17 | Chạy lại `check_panel_synthesis`, gắn lại #849 làm phần cuối | — | **ĐẠT** | PASS (đã chạy lại). "## Attachment: Acronym Check (advisory, #849)" là mục cuối của thư quyết định (synthesis.md). Phụ lục B (ma trận R&R) đặt sau thư, không thuộc thư |
+| 18 | Câu trích Bảng 5 | KHÔNG ĐẠT | **ĐẠT** | Đã kiểm lại đề cương L944–956. "chuyên đề 1" nằm ở **cột Sản phẩm**; cột Nội dung là "ước lượng thử bảy mô hình trên giai đoạn 2019--2025". Kết luận lượt 1 (thiếu "chuyên đề 1") là do pandoc ngắt cột. Bản mới có "…" kèm giải thích; chính xác và trung thực |
+| S3 | Bảng "Bằng chứng tuân thủ" đánh số, có LÀM/CHƯA LÀM, có lý do, có câu trích | ĐẠT một phần | **ĐẠT** | Đánh số 1–16. Hàng 16 CHƯA LÀM có lý do. Có 3 câu trích đề cương, đều khớp (`qcheck`) |
+| S2 | Không bỏ hay gộp mà không khai | ĐẠT | ĐẠT (lưu ý) | "Ghi chú mã hóa artifact máy" khai 5 điểm: SINGLE-VERIFIER cho mức 2/4, `source_refs` duy nhất, REV-49 `source_kind: editorial`, `[ANCHOR-TYPED-AT-ROADMAP]`, nguồn của `verification_criteria`. Lưu ý: REV-49 là phát hiện của DA (Minor ii) nhưng artifact máy mã hóa là `editorial`, vì thẻ DA thiếu confidence. Có khai và không bịa giá trị. Nên ghi thêm điều này vào danh sách chờ duyệt, không chặn |
+| Trích/bịa | Không bịa nhận xét hay giá trị | ĐẠT | ĐẠT | `lines.py`: 0 dòng của `apr/synthesis.md` và `apr/rr_matrix.md` bị thiếu trong báo cáo |
+| S5 | Script đọc trước khi chạy | — | ĐẠT (lưu ý ghi chép) | (a) `check_panel_synthesis.py` và `check_sprint_contract.py`: `reports/kiem-toan-skill.md` dòng 41 ghi một subagent đã đọc trọn từng dòng cả 6 script (gồm hai script này), kết luận SAFE, trước lần chạy Cổng 2 đầu tiên. Vì vậy việc "quét sau khi chạy" ở lượt này chỉ là kiểm lại, **chấp nhận**. (b) Lượt này chạy thêm hai script **ngoài** danh sách 6 script đó: `ars_anchorize_draft.py` và `revision_roadmap.py` (import `_block_parser.py`, và lazy `ars_apply_revision_patch.py`). Dòng 7 báo cáo nói chung chung "các script có chạy đều đã được đọc trước", nhưng không file nào ghi lại việc đọc hai script này. Kiểm toán viên đã tự quét (chỉ đọc): không có subprocess/socket/urllib/requests/os.environ/getenv/eval/exec/os.system/importlib; chỉ ghi vào đường dẫn được truyền vào; không có file trùng tên module chuẩn trong `scripts/`. Rủi ro thực tế thấp. Thiếu sót chỉ nằm ở ghi chép. **Đề nghị** bổ sung vào `kiem-toan-skill.md` một dòng S5 cho hai script này. Không chặn |
+
+**Kết luận: ĐẠT.** Lưu ý không chặn: (1) bổ sung bản ghi S5 cho `ars_anchorize_draft.py`, `revision_roadmap.py`, `_block_parser.py`; (2) REV-49 được mã hóa `editorial` trong artifact máy (đã khai).
+
+---
+
+## 4. paper-writing-skill (red-team) → `reports/g2-paper-writing-redteam.md`
+
+| # | Bước (`red_team_protocol.md`) | Lượt 1 | Lượt 2 | Bằng chứng kiểm lại |
+|---|---|---|---|---|
+| 1–4, 6–11 | When, 3 gate, re-run grep, S1–S31, 4 lớp lỗi, findings có rule ID, reviewer tách biệt, vòng lặp (CHƯA LÀM có khai) | ĐẠT | ĐẠT | So với bản trước lần chạy lại (`g2rt-rerun/report.bak.md`), thân báo cáo chỉ đổi 3 ô "Đánh giá" (M11, M12, M16). Các ô này có ghi chú sửa và không đổi số đếm hay phát hiện. Hàng 9 bảng 6.1 có cập nhật; thêm hàng 12 và phụ lục |
+| 5 | **Evidence rule: "PASTE the raw output (hit counts + lines)"** | KHÔNG ĐẠT | **ĐẠT** | Phụ lục "Output grep nguyên văn (M1–M18)" trùng hệt `g2rt-rerun/appendix.md`. Đã kiểm độc lập bằng `rtchk.py`: chạy lại regex của `g2rt/rules.py` trên `g2rt/sents.json`. Với M2–M18, tiêu đề số đếm có trong phụ lục và **0 câu trúng bị thiếu** (M2 15/15, M5 15/15, M9 6/5, M11 26/25, M12 40/37, M16 9/9 …). M1: grep lại trên de-cuong-goc dòng 155–1160 cho Unicode 0, `' -- '` 0, `số--số` 21, `' - '` 8, khớp phụ lục (có liệt kê từng dòng, kèm dòng đầy đủ). Có bảng đối chiếu số đếm §1 ↔ chạy lại. Phần phân loại sai (M11 ≈10 → 9, M12, M16) đã sửa và khai. Khác biệt 331/332 câu do chỉnh tay chỗ tách câu đã khai; dùng tệp gốc. M7/M14 đọc tay, có khai |
+| S3 | "Bằng chứng tuân thủ" đánh số, có trạng thái, lý do, câu trích | ĐẠT | ĐẠT | Bảng 6.1 đánh số 1–12. `qcheck`: 16 câu trích khớp đề cương; 4 chuỗi không khớp là tiêu đề hoặc chữ của skill |
+| S2 | Không bỏ hay gộp mà không khai | ĐẠT | ĐẠT | Hedging (S18) không thuộc M1–M18 nên không dán, hợp lệ |
+| S5 | Script | — | ĐẠT | Phụ lục khai đã đọc `g.sh`, `gate.py`, `rules.py` trước khi chạy. Đây là script cục bộ do chính phiên viết; kiểm toán viên đã đọc lại và thấy chỉ xử lý văn bản |
+
+**Kết luận: ĐẠT.**
+
+---
+
+## Tổng hợp
+
+| Skill | Lượt 1 | Lượt 2 | Bước còn thiếu |
+|---|---|---|---|
+| review-paper | KHÔNG ĐẠT | **ĐẠT** | — (lưu ý: ghi đè file reviews thay vì -v2, đã khai) |
+| review-paper-checks | KHÔNG ĐẠT | **ĐẠT** | — |
+| academic-paper-reviewer | KHÔNG ĐẠT | **ĐẠT** | — (lưu ý: thêm bản ghi S5 cho `ars_anchorize_draft.py` và `revision_roadmap.py` vào `kiem-toan-skill.md`; REV-49 mã hóa `editorial`, đã khai) |
+| paper-writing-skill (red-team) | KHÔNG ĐẠT | **ĐẠT** | — |
+
+Cộng với 4 skill đạt ở lượt 1 (sciwrite, review-pap, peer-review, research-grants), Cổng 3 đạt **8/8**.
