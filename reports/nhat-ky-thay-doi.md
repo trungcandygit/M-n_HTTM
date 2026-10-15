@@ -493,3 +493,7 @@ Người dùng chọn hướng B, tên đề tài "Từ chất lượng thị tr
 ## Vòng 5: sửa theo phản biện vòng 4, hướng chuyển sàn (2026-10-15)
 
 Phản biện vòng 4 (reports/r4-review.md) phát hiện C1: theo Thông tư 139/2025/TT-BTC và lịch VNX công bố 30/9/2026, toàn bộ cổ phiếu niêm yết HNX chuyển sang HOSE từ 28/12/2026. Người dùng chọn lấy sự kiện này làm trung tâm. Tên mới: "Hợp nhất sàn chứng khoán và trung tâm tài chính Hà Nội: Chất lượng thị trường và khả năng đầu tư quanh việc chuyển cổ phiếu HNX sang HOSE". Ba câu hỏi; bốn giả thuyết đơn H1–H4 (Holm 5%); khác biệt kép quanh 28/12/2026 với hai nhóm đối chứng; sáu phương trình. Đã xử lý C1–C4, M1–M15 và phần lớn lỗi MINOR; thêm 21 nguồn đã kiểm thư mục, xóa 5 nguồn không còn trích. Sửa bằng paper-writing-vn, econ-write, credible-claims, docx: 203/203 thao tác, validate.py PASSED, trích dẫn khớp hai chiều. File docx lưu cục bộ (repo public, theo V5).
+
+## Vòng 6: sửa theo phản biện vòng 5 và văn bản gốc (2026-10-15)
+
+Đọc toàn văn các văn bản người dùng gửi (Thông tư 139/2025, VBHN Thông tư 57/2021–69/2023, Nghị quyết 222/2025, quy tắc chỉ số HOSE, Hisada 2018, Naeem 2023). Sửa CR1–CR3, MJ1–MJ11 và phần lớn MINOR: H4 thành ước lượng; suy luận H3 trên chuỗi tháng và hoán vị (Conley & Taber); nêu ba cú sốc trùng thời gian với nhóm đối chứng; ngày tham chiếu 30/6/2025; Amihud loại ngày chạm biên độ; phương trình nghiên cứu sự kiện; bốn phương án dự phòng; danh mục chữ viết tắt. 89/89 thao tác, validate.py PASSED, trích dẫn khớp hai chiều và theo APA.
