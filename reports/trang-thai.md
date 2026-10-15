@@ -75,3 +75,10 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
 - Duyệt phương án A: nêu người dùng kết quả có trụ sở tại Hà Nội, gắn [CẦN XÁC MINH].
 - Duyệt phương án B: thêm HNX làm kiểm tra độ bền, ghi vào kế hoạch đăng ký trước; mẫu chính vẫn là HOSE.
 - Gửi docx sau mỗi vòng.
+- Từ Vòng 2, người dùng yêu cầu phương án tiết kiệm nhất mà vẫn đúng chuẩn skill. Áp dụng "kiểm tra có mục tiêu" (thay cho L1 "chạy lại toàn bộ"):
+  - academic-paper-reviewer: chế độ re-review.
+  - review-paper-light thay cho review-paper.
+  - review-paper-checks, research-grants, sciwrite, red-team, peer-review: giữ nguyên.
+  - review-pap: chạy ở Vòng 2 (phương án B đổi kế hoạch đăng ký trước); ở Vòng 3 chỉ chạy khi phương pháp lại thay đổi.
+  - Mỗi vòng có 1 kiểm toán.
+  - Nếu cổng re-review không qua: báo lỗi nguyên văn và chạy lại chế độ full cho riêng skill đó.
