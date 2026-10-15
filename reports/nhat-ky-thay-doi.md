@@ -206,3 +206,6 @@ Tệp sửa: `scratchpad/r1/edits.json` gồm 141 mục sửa (E-01…E-141). C�
 | Checklist từng mục (`writing_checklists/*`) | CHƯA LÀM (không có tệp) | Chưa đánh dấu vi phạm theo mức NGHIÊM TRỌNG/LỚN/NHỎ của checklist; mức độ lấy theo sổ đăng ký. |
 | Giai đoạn 4: Tích hợp toàn bài (trôi thuật ngữ, ánh xạ luận điểm–bằng chứng) | LÀM một phần | Đã thống nhất: chỉ báo bất định mô hình, quy tắc chuyển chế độ, chế độ thị trường, tương quan cực trị/đuôi, phân phối dưới giả thuyết không, tỷ số Sharpe giảm phát, chưa đủ cơ sở kết luận, danh sách người dùng kết quả. |
 | Giai đoạn 5: Nén văn bản | KHÔNG ÁP DỤNG | Vòng 1 chỉ sửa theo sổ; L6 cấm đổi câu chữ chỉ vì văn phong. |
+
+## Bổ sung sau khi soát
+| E-142 | Hình 3 (SmartArt), Bước 4 | Hồi quy, phân phối rỗng bootstrap: H1, H2, H4 | Hồi quy, phân phối bootstrap dưới giả thuyết không: H1, H2, H4 | Đồng bộ với thuật ngữ đã sửa ở phần thân (sciwrite: "phân phối rỗng" là dịch máy móc) | luồng chính khi soát; sciwrite |
