@@ -107,3 +107,9 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
 - scratchpad/agent-out-r1/: checks-A/B/C, pap-1..6.
 - reports/: r1-sciwrite.md, r1-research-grants.md.
 Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
+
+
+## 2026-10-15 — Quyết định đổi hướng B
+- Người dùng chọn hướng B (khung theo Naeem 2023: năng lực cạnh tranh trung tâm tài chính) và tên phương án 1.
+- Người dùng yêu cầu bỏ mức hối tiếc R_t và biến chế độ S_t, thay bằng xây dựng bộ chỉ số.
+- Quy tắc vòng: mỗi vòng tối đa 1 agent đủ skill; luồng chính sửa; lặp đến khi hết CRITICAL/MAJOR; gửi docx sau mỗi vòng.
