@@ -101,3 +101,9 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
   - Thêm 1 kiểm toán viên.
 - Bỏ academic-paper-reviewer, review-pap và review-paper-checks. Mất mát: phần kiểm tra cơ học và phản biện đa ghế yếu đi. peer-review đảm nhận việc xác minh 49 mục lộ trình của APR.
 - Cập nhật (người dùng): Vòng 2–3 có 1 agent kiểm tra chạy tuần tự 4 skill đầy đủ (peer-review, research-grants, sciwrite, red-team), mỗi skill có báo cáo và "Bằng chứng tuân thủ" riêng; thêm 1 kiểm toán viên độc lập.
+
+## 2026-10-15 ~06:53 UTC — Người dùng yêu cầu "ngắt đi"
+Đã dừng 3 agent còn chạy của Vòng 1: red-team (đang ghi báo cáo), hợp nhất review-paper-checks (Phase 3) và hợp nhất review-pap (Phase 3). Đầu ra thô của các agent vẫn được giữ:
+- scratchpad/agent-out-r1/: checks-A/B/C, pap-1..6.
+- reports/: r1-sciwrite.md, r1-research-grants.md.
+Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
