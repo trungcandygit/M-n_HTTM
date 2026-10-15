@@ -489,3 +489,7 @@ Tổng số: 118 thao tác.
 ## Vòng 4: bản thô hướng B (2026-10-15)
 
 Người dùng chọn hướng B, tên đề tài "Từ chất lượng thị trường vốn đến năng lực cạnh tranh của trung tâm tài chính: Khoảng cách khả năng đầu tư của thị trường chứng khoán Hà Nội", và yêu cầu bỏ mức hối tiếc R_t, biến chế độ S_t, thay bằng bộ chỉ số. Sửa bằng anthropic-skills:paper-writing-vn và anthropic-skills:docx: 230/230 thao tác, validate.py PASSED. Ba câu hỏi, bốn giả thuyết H1–H4, năm phương trình mới (MQI, lợi suất tương đương chắc chắn theo rổ, khoảng cách G, Chỉ số khả năng đầu tư, hồi quy bảng GFCI), phân rã theo kênh bằng đối sánh tuần tự. Thêm 12 nguồn đã kiểm chứng, xóa 27 nguồn không còn trích. File docx lưu cục bộ (repo public, theo V5).
+
+## Vòng 5: sửa theo phản biện vòng 4, hướng chuyển sàn (2026-10-15)
+
+Phản biện vòng 4 (reports/r4-review.md) phát hiện C1: theo Thông tư 139/2025/TT-BTC và lịch VNX công bố 30/9/2026, toàn bộ cổ phiếu niêm yết HNX chuyển sang HOSE từ 28/12/2026. Người dùng chọn lấy sự kiện này làm trung tâm. Tên mới: "Hợp nhất sàn chứng khoán và trung tâm tài chính Hà Nội: Chất lượng thị trường và khả năng đầu tư quanh việc chuyển cổ phiếu HNX sang HOSE". Ba câu hỏi; bốn giả thuyết đơn H1–H4 (Holm 5%); khác biệt kép quanh 28/12/2026 với hai nhóm đối chứng; sáu phương trình. Đã xử lý C1–C4, M1–M15 và phần lớn lỗi MINOR; thêm 21 nguồn đã kiểm thư mục, xóa 5 nguồn không còn trích. Sửa bằng paper-writing-vn, econ-write, credible-claims, docx: 203/203 thao tác, validate.py PASSED, trích dẫn khớp hai chiều. File docx lưu cục bộ (repo public, theo V5).

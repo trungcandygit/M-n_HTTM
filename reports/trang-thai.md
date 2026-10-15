@@ -113,3 +113,8 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 - Người dùng chọn hướng B (khung theo Naeem 2023: năng lực cạnh tranh trung tâm tài chính) và tên phương án 1.
 - Người dùng yêu cầu bỏ mức hối tiếc R_t và biến chế độ S_t, thay bằng xây dựng bộ chỉ số.
 - Quy tắc vòng: mỗi vòng tối đa 1 agent đủ skill; luồng chính sửa; lặp đến khi hết CRITICAL/MAJOR; gửi docx sau mỗi vòng.
+
+## 2026-10-15 — Vòng 5
+- Người dùng chọn hướng "lấy việc chuyển sàn làm trung tâm" (trả lời P1, P2 của phản biện vòng 4).
+- P4 (học toàn thời gian theo Điều 11.3 NQ 57) là vấn đề hồ sơ, đã báo người dùng, chưa sửa.
+- Skill mới cài sau rà soát: econ-write, credible-claims (reports/cong0-skill-moi.md).
