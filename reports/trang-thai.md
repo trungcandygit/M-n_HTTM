@@ -100,3 +100,4 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
   - Agent 2: sciwrite (5 pass) rồi red-team.
   - Thêm 1 kiểm toán viên.
 - Bỏ academic-paper-reviewer, review-pap và review-paper-checks. Mất mát: phần kiểm tra cơ học và phản biện đa ghế yếu đi. peer-review đảm nhận việc xác minh 49 mục lộ trình của APR.
+- Cập nhật (người dùng): Vòng 2–3 có 1 agent kiểm tra chạy tuần tự 4 skill đầy đủ (peer-review, research-grants, sciwrite, red-team), mỗi skill có báo cáo và "Bằng chứng tuân thủ" riêng; thêm 1 kiểm toán viên độc lập.
