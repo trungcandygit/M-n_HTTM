@@ -69,3 +69,9 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
 ## Cập nhật 2026-10-15 — Cổng 3 ĐẠT 8/8 (sau 1 lần chạy lại)
 - Bước 4 xong: reports/doi-chieu-bai-toan-19.md; checklist điều kiện chỉ lưu cục bộ (outputs/, có dữ liệu cá nhân).
 - Đang làm: tong-hop-van-de.md → Vòng 1.
+
+## Quyết định của người dùng 2026-10-15
+- Làm cho khớp với bài 19 (câu hỏi 3) mạnh hơn, giữ nguyên ý tưởng và thiết kế cốt lõi.
+- Duyệt phương án A: nêu người dùng kết quả có trụ sở tại Hà Nội, gắn [CẦN XÁC MINH].
+- Duyệt phương án B: thêm HNX làm kiểm tra độ bền, ghi vào kế hoạch đăng ký trước; mẫu chính vẫn là HOSE.
+- Gửi docx sau mỗi vòng.
