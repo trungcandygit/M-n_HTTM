@@ -83,3 +83,12 @@ Sau đó: Cổng 3 (kiểm toán bằng subagent mới cho cả 8 báo cáo) →
   - Mỗi vòng có 1 kiểm toán.
   - Nếu cổng re-review không qua: báo lỗi nguyên văn và chạy lại chế độ full cho riêng skill đó.
 - Cập nhật: người dùng yêu cầu áp dụng phương án tiết kiệm ngay từ bước chạy lại skill của Vòng 1.
+- Cập nhật lần 2 (người dùng muốn ít agent hơn mà vẫn đúng chuẩn skill). Bộ skill chạy lại, áp dụng từ Vòng 1:
+  - sciwrite.
+  - review-paper-checks.
+  - review-pap (chỉ Vòng 1, hoặc khi phương pháp đổi).
+  - academic-paper-reviewer re-review.
+  - red-team.
+  - research-grants.
+  - 1 kiểm toán viên.
+  Tổng cộng: Vòng 1 có 16 agent; Vòng 2–3 có 10. Bỏ review-paper-light (đã có APR re-review) và peer-review (trùng APR); vẫn giữ đủ 5 nhóm skill.
