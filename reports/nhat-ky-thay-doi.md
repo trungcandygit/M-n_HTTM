@@ -334,3 +334,154 @@ Tổng số: 82 sửa đổi.
 - Quy tắc chọn rổ 30 mã; chỉ số chế độ và số mã tối thiểu cho HNX; giá trị chi phí giao dịch cơ sở.
 - Rủi ro NQ 57 Điều 11.3 "tập trung toàn thời gian" (xem outputs/checklist-dieu-kien.md).
 - Cam kết mới về nguyên mẫu công cụ mã nguồn mở và đề xuất nội dung công bố: anh xác nhận chấp nhận khối lượng việc này.
+
+## Vòng 3, BẢN THÔ đổi đề tài (de-cuong-v3-round-3-ban-tho.docx)
+
+Ngày 2026-10-15. Đề tài được đổi theo quyết định của người dùng, nhằm khớp mạnh nhất với bài toán số 19 (QĐ 1193). Đây là bản thô: chưa qua agent kiểm tra.
+
+Luồng chính viết lại văn bản theo skill paper-writing-vn và research-grants, rồi sửa docx bằng skill docx (validate PASSED). Giữ nguyên 40 phương trình, 7 bảng, các hình và SmartArt.
+
+**Tên đề tài mới:** Phương thức phát triển Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao: Mô hình, minh bạch thị trường và dịch vụ đầu tư số (30 từ).
+
+**Bốn câu hỏi nghiên cứu, mỗi câu khớp một câu hỏi chính của bài 19:**
+- Câu hỏi 1: mô hình trung tâm chuyên mảng (câu số 1 của bài 19).
+- Câu hỏi 2: chất lượng thị trường do HNX vận hành (câu số 3). Giả thuyết H2, H4 mới.
+- Câu hỏi 3: dịch vụ phân bổ danh mục tự động (câu số 4 và số 2). H1, H3 cũ được giữ.
+- Câu hỏi 4: chính sách và hạ tầng dữ liệu.
+
+**Sản phẩm khớp 1–1 với sản phẩm bài 19:**
+- mô hình trung tâm chuyên mảng;
+- bộ chỉ báo chất lượng thị trường;
+- nguyên mẫu robo-advisor;
+- chuẩn công bố mô hình.
+
+**Việc còn phải làm ở bản sau:**
+- Vẽ lại Hình 1 bằng SmartArt. Mũi tên "H2, H4" hiện vẫn theo bố cục cũ.
+- Bổ sung tài liệu ở các chỗ đánh dấu [CẦN BỔ SUNG TÀI LIỆU]: chỉ số trung tâm tài chính, thước đo hiệu quả thông tin, công bố thông tin.
+- Đối chiếu các dữ kiện đánh dấu [CẦN XÁC MINH]: trung tâm tài chính quốc tế đặt tại TP.HCM và Đà Nẵng; chức năng của HNX; QĐ 1193.
+- Cập nhật mục lục, danh mục bảng và hình bằng F9 trong Word. Bản xem trên LibreOffice có thể hiện sai số hình.
+- Bảng 3 (bảy động cơ), các phương trình 1–5 và mục 4.3.6 giữ nguyên, phục vụ câu hỏi 3.
+- Hai bản thảo số 5 và số 6 nay khớp với câu hỏi 2.
+
+Tổng số: 118 thao tác.
+
+| # | Đoạn | Thao tác | Nội dung mới (rút gọn) | Lý do |
+|---|---|---|---|---|
+| R3-001 | 4 | setpara | PHƯƠNG THỨC PHÁT TRIỂN HÀ NỘI THÀNH TRUNG TÂM TÀI CHÍNH VÀ DỊCH VỤ CHẤT LƯỢNG CAO: MÔ HÌNH, MINH BẠCH THỊ TRƯỜNG VÀ DỊCH VỤ ĐẦU TƯ SỐ | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-002 | 15 | replace | Phương thức phát triển Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao: Mô hình, minh bạch thị trường và dịch vụ đầu tư số | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-003 | 66 | setpara | Hà Nội đặt mục tiêu trở thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế. Thành phố đưa mục tiêu này vào Danh mục bài toán lớn giai đoạn 2026–2030 dưới dạng bài toán số 19: “Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế?” (Ủy ban nhân dân thành phố Hà Nội, 2026) [CẦN ĐỐI CHIẾU bản chính thức]. Bài toán nêu bốn câu hỏi chính: mô hình trung… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-004 | 67 | setpara | Đề cương dùng năm khái niệm với nghĩa cố định. Trung tâm tài chính là thành phố hay khu vực tập trung các hoạt động tài chính quan trọng và đa dạng; sức hấp dẫn của trung tâm là khả năng giữ và thu hút các tổ chức tài chính, còn sức cạnh tranh là khả năng cung cấp dịch vụ đáp ứng nhu cầu trong nước và quốc tế (Yao, 2012). Minh bạch thị trường là mức độ thông tin về doanh nghiệp niêm yết được công … | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-005 | 68 | setpara | Việt Nam xây dựng một trung tâm tài chính quốc tế đặt tại Thành phố Hồ Chí Minh và Đà Nẵng [CẦN XÁC MINH văn bản chính thức]. Hà Nội vì vậy cần một mô hình riêng, dựa trên lợi thế sẵn có thay vì sao chép một trung tâm tài chính quốc tế đầy đủ. Hà Nội là nơi đặt trụ sở của các cơ quan quản lý và giám sát tài chính, của Sở Giao dịch Chứng khoán Việt Nam và Sở Giao dịch Chứng khoán Hà Nội (HNX), nơi … | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-006 | 69 | setpara | Một trung tâm tài chính chỉ hấp dẫn khi thị trường của nó minh bạch và hiệu quả. Với thị trường chứng khoán, minh bạch thể hiện ở việc doanh nghiệp công bố thông tin đúng hạn và đầy đủ, còn hiệu quả thể hiện ở thanh khoản và tốc độ thông tin được phản ánh vào giá (Amihud, 2002). Khủng hoảng tài chính lặp lại qua nhiều thế kỷ (Reinhart và Rogoff, 2009; Laeven và Valencia, 2020), và thị trường chứng… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-007 | 70 | setpara | Dịch vụ tài chính thế hệ mới trong lĩnh vực đầu tư gồm dịch vụ phân bổ danh mục tự động (robo-advisor), trong đó một thuật toán đề xuất danh mục theo hồ sơ rủi ro của nhà đầu tư. Dịch vụ này phải chọn mô hình phân bổ trong nhiều mô hình cạnh tranh, mà không mô hình nào thắng ổn định: DeMiguel và cộng sự (2009) so sánh 14 mô hình trên bảy bộ dữ liệu và không thấy mô hình nào vượt quy tắc chia đều v… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-008 | 71 | setpara | Tài liệu hiện có để ngỏ ba vấn đề. Thứ nhất, nghiên cứu về trung tâm tài chính chủ yếu xét ngân hàng và thể chế, ít xét chất lượng thị trường chứng khoán và dịch vụ quản lý tài sản (Yao, 2012). Thứ hai, các công trình về thị trường Việt Nam đo bầy đàn hay biến động trên HOSE và VN-Index (Vo và Phan, 2017; Hoang và Luu, 2024) nhưng chưa theo dõi đồng thời thanh khoản, hiệu quả và minh bạch của thị … | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-009 | 72 | replace | đề tài đặt ra bốn câu hỏi, mỗi câu gắn với câu hỏi chính của bài toán số 19: | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-010 | 73 | setpara | Câu hỏi 1: Hà Nội nên phát triển trung tâm tài chính theo mô hình chuyên mảng nào, dựa trên lợi thế thị trường và thể chế sẵn có? (câu hỏi số 1 của bài toán số 19) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-011 | 74 | setpara | Câu hỏi 2: Thị trường chứng khoán do HNX vận hành minh bạch và hiệu quả đến đâu, và thanh khoản, hiệu quả thông tin thay đổi thế nào giữa chế độ bình thường và chế độ căng thẳng? (câu hỏi số 3) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-012 | 75 | setpara | Câu hỏi 3: Dịch vụ phân bổ danh mục tự động cho nhà đầu tư cá nhân nên chọn và giám sát mô hình phân bổ ra sao để hạn chế rủi ro lựa chọn mô hình ở chế độ căng thẳng sau chi phí giao dịch? (câu hỏi số 4 và số 2) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-013 | 75 | insert_after | Câu hỏi 4: Hà Nội cần chính sách, chuẩn công bố và hạ tầng dữ liệu nào để phát triển mảng thị trường và dịch vụ đầu tư được chọn? (tổng hợp bài toán số 19) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-014 | 76 | replace | Mục tiêu tổng quát là đề xuất phương thức phát triển Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao dựa trên bằng chứng về chất lượng thị trường chứng khoán và dịch vụ đầu tư số. Đề tài có năm mục tiêu cụ thể: (i) xây dựng khung các yếu tố quyết định sức hấp dẫn và sức cạnh tranh của một trung tâm tài chính chuyên mảng và đánh giá vị trí của Hà Nội; (ii) xây dựng bộ chỉ báo thanh khoản… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-015 | 77 | insert_after | *(A) Trung tâm tài chính, sức hấp dẫn và chuyên môn hóa.* Yao (2012) xác định các yếu tố quyết định sức hấp dẫn và sức cạnh tranh của trung tâm tài chính đối với ngành quỹ đầu tư, dùng mô hình lý thuyết, khảo sát 135 người làm nghề và kinh tế lượng cho trường hợp Luxembourg. Luận án này cho thấy khung pháp lý và thuế, thị trường lao động, hiệu quả của bộ máy hành chính, sự gần gũi và chất lượng củ… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-016 | 77 | insert_after | *(B) Thanh khoản, hiệu quả và minh bạch thị trường.* Amihud (2002) đề xuất độ phi thanh khoản, tỷ số giữa lợi suất tuyệt đối và giá trị giao dịch, và cho thấy phi thanh khoản gắn với lợi suất kỳ vọng. Bai và Perron (1998) cung cấp phương pháp phát hiện nhiều điểm gãy cấu trúc, dùng để xác định thời điểm thanh khoản thay đổi. Longin và Solnik (2001) cùng Forbes và Rigobon (2002) cho thấy tương quan… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-017 | 89 | setpara | Trung tâm tài chính (Yao, 2012) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-018 | 90 | setpara | Yếu tố quyết định sức hấp dẫn và sức cạnh tranh; chuyên môn hóa theo mảng; trường hợp Luxembourg | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-019 | 91 | setpara | K1. Chưa có khung chuyên môn hóa cho một thành phố không giữ trung tâm tài chính quốc tế chính thức như Hà Nội | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-020 | 92 | setpara | Thị trường Việt Nam (Vo và Phan, 2017; Hoang và Luu, 2024) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-021 | 93 | setpara | Bầy đàn trên HOSE; chế độ biến động của VN-Index | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-022 | 94 | setpara | K2. Chưa có bộ chỉ báo thanh khoản, hiệu quả và minh bạch theo chế độ cho thị trường do HNX vận hành | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-023 | 95 | setpara | Danh mục ở Việt Nam (Ta và Vuong, 2020; Nguyen và cộng sự, 2020; Goutte và cộng sự, 2025; Nguyen và Nguyen, 2026a) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-024 | 96 | setpara | Đánh giá một mô hình hoặc so sánh các phương pháp theo bình quân toàn mẫu | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-025 | 97 | setpara | K3. Chưa đo rủi ro lựa chọn mô hình theo chế độ cho dịch vụ phân bổ danh mục tự động | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-026 | 98 | setpara | Rủi ro mô hình (Boucher và cộng sự, 2014; Danielsson và cộng sự, 2016) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-027 | 99 | setpara | Đo rủi ro mô hình của các mô hình dự báo rủi ro thị trường và rủi ro hệ thống | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-028 | 100 | setpara | K4. Chưa có chuẩn công bố mô hình cho dịch vụ đầu tư số ở Việt Nam | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-029 | 101 | replace | (A), (B) và (1)–(6) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-030 | 102 | replace | Bốn khoảng trống cùng chỉ ra một điểm: chất lượng thị trường và dịch vụ đầu tư, phần quyết định sức hấp dẫn của một trung tâm tài chính chuyên mảng, chưa được đo cho Hà Nội. Nhận định này dựa trên các truy vấn trên SSRN, RePEc/IDEAS, ScienceDirect, Oxford Academic, Wiley, Springer, Taylor & Francis, MDPI và arXiv, thực hiện đến ngày 30/09/2026. Phạm vi tìm kiếm chưa gồm Scopus, Web of Science và c… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-031 | 105 | setpara | Đề tài dựa trên ba khối lý thuyết. Khối thứ nhất là lý thuyết về sức hấp dẫn và sức cạnh tranh của trung tâm tài chính, trong đó các trung tâm chuyên môn hóa theo mảng hoạt động (Yao, 2012). Khối thứ hai là lý thuyết về thanh khoản và thông tin trên thị trường, trong đó phi thanh khoản và chất lượng công bố thông tin ảnh hưởng tới chi phí giao dịch và tốc độ giá phản ánh thông tin (Amihud, 2002). … | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-032 | 107 | setpara | Từ bốn khoảng trống ở Bảng 1, đề tài đề xuất khung phân tích ở Hình 1 và bốn giả thuyết ở Bảng 2 cho câu hỏi 2 và câu hỏi 3; câu hỏi 1 và câu hỏi 4 dùng phân tích so sánh và tổng hợp, không kiểm định giả thuyết. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-033 | 112 | setpara | Dịch vụ phân bổ tự động | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-034 | 113 | setpara | Mức hối tiếc R~t~ (H~1~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-035 | 114 | setpara | Hồ sơ rủi ro nhà đầu tư | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-036 | 115 | setpara | Bảy động cơ phân bổ | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-037 | 116 | setpara | Mô hình cho Hà Nội | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-038 | 117 | setpara | Trung tâm chuyên mảng | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-039 | 118 | setpara | Chuẩn công bố mô hình | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-040 | 119 | setpara | Hạ tầng dữ liệu (câu hỏi 1, 4) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-041 | 120 | setpara | Chất lượng thị trường HNX | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-042 | 121 | setpara | Thanh khoản (H~2~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-043 | 122 | setpara | Hiệu quả thông tin (H~2~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-044 | 123 | setpara | Minh bạch công bố (H~4~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-045 | 135 | setpara | Dịch vụ phân bổ tự động | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-046 | 136 | setpara | Mức hối tiếc R~t~ (H~1~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-047 | 137 | setpara | Hồ sơ rủi ro nhà đầu tư | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-048 | 138 | setpara | Bảy động cơ phân bổ | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-049 | 139 | setpara | Mô hình cho Hà Nội | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-050 | 140 | setpara | Trung tâm chuyên mảng | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-051 | 141 | setpara | Chuẩn công bố mô hình | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-052 | 142 | setpara | Hạ tầng dữ liệu (câu hỏi 1, 4) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-053 | 143 | setpara | Chất lượng thị trường HNX | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-054 | 144 | setpara | Thanh khoản (H~2~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-055 | 145 | setpara | Hiệu quả thông tin (H~2~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-056 | 146 | setpara | Minh bạch công bố (H~4~) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-057 | 154 | setpara | Hình 1. Khung phân tích chất lượng thị trường, dịch vụ đầu tư số và mô hình trung tâm tài chính cho Hà Nội | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-058 | 155 | setpara | Nguồn: Thí sinh đề xuất. Ghi chú: H~1~ và H~3~ xét dịch vụ phân bổ tự động theo chế độ; H~2~ và H~4~ xét chất lượng thị trường do HNX vận hành; khối bên phải là đầu ra cho câu hỏi 1 và câu hỏi 4. Các mũi tên sẽ được vẽ lại bằng SmartArt ở bản sau. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-059 | 156 | setpara | Theo Hình 1, chế độ thị trường là biến điều kiện chung. H~2~ và H~4~ xét chất lượng thị trường do HNX vận hành: thanh khoản và hiệu quả thông tin thay đổi thế nào giữa hai chế độ, và mức minh bạch công bố có liên hệ thế nào với chúng. H~1~ và H~3~ xét dịch vụ phân bổ danh mục tự động: rủi ro lựa chọn mô hình giữa hai chế độ và các cơ chế giảm rủi ro này. Kết quả của hai nhánh là đầu vào cho đề xuấ… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-060 | 161 | replace | Rủi ro lựa chọn mô hình của dịch vụ phân bổ tự động ở chế độ căng thẳng cao hơn ở chế độ bình thường (câu hỏi 3) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-061 | 164 | setpara | H~2~: Ở chế độ căng thẳng, thanh khoản và hiệu quả thông tin của cổ phiếu do HNX vận hành suy giảm, và mức suy giảm lớn hơn so với cổ phiếu HOSE (câu hỏi 2) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-062 | 165 | setpara | Độ phi thanh khoản Amihud; tỷ lệ ngày lợi suất bằng 0; chênh lệch mua–bán ước lượng; tỷ số phương sai; độ trễ phản ánh thông tin | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-063 | 166 | setpara | Amihud (2002); Bai và Perron (1998); Hamilton (1989) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-064 | 167 | replace | so với chọn một mô hình, với từng hồ sơ rủi ro của nhà đầu tư (câu hỏi 3) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-065 | 170 | setpara | H~4~: Cổ phiếu có mức minh bạch công bố cao hơn có thanh khoản và hiệu quả thông tin cao hơn, và suy giảm ít hơn ở chế độ căng thẳng (câu hỏi 2) | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-066 | 171 | setpara | Chỉ số minh bạch: số ngày trễ hạn công bố báo cáo tài chính, vi phạm công bố thông tin bị xử phạt, ý kiến kiểm toán ngoại trừ | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-067 | 172 | setpara | Amihud (2002); Yao (2012); [CẦN BỔ SUNG TÀI LIỆU về công bố thông tin] | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-068 | 174 | setpara | Giả thuyết H~2~ và H~4~ trả lời câu hỏi 2; H~1~ và H~3~ trả lời câu hỏi 3. Mỗi giả thuyết đi kèm một khả năng đối lập mà đề tài kiểm định cùng lúc. Với H~1~, rủi ro lựa chọn mô hình có thể không đổi theo chế độ, hoặc quy tắc 1/N có thể thắng ổn định (DeMiguel và cộng sự, 2009; Pflug và cộng sự, 2012). Với H~2~, thanh khoản của hai sàn có thể cùng giảm như nhau, nên chênh lệch giữa hai sàn không đổ… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-069 | 176 | setpara | Đề tài chủ yếu dùng phương pháp định lượng trên dữ liệu công khai và dữ liệu thương mại; câu hỏi 1 và câu hỏi 4 dùng thêm phân tích văn bản chính sách và so sánh trường hợp. Dữ liệu thị trường gồm giá mở cửa, cao nhất, thấp nhất và đóng cửa điều chỉnh theo ngày, khối lượng và giá trị giao dịch của cổ phiếu niêm yết trên HNX, UPCoM và HOSE, kể cả những mã đã hủy niêm yết; các chỉ số VN-Index và HNX… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-070 | 177 | replace | Phân tích thị trường ở câu hỏi 2 dùng toàn bộ cổ phiếu HNX và UPCoM đủ điều kiện giao dịch, so sánh với HOSE; tệp đăng ký trước ghi chỉ số dùng để xác định chế độ cho từng sàn. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-071 | 179 | replace | cho lợi suất VN-Index và HNX-Index theo cửa sổ mở rộng | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-072 | 179 | insert_after | Chỉ báo chất lượng thị trường (câu hỏi 2). Với mỗi cổ phiếu và mỗi tháng, đề tài tính ba nhóm chỉ báo. Nhóm thanh khoản gồm độ phi thanh khoản Amihud (Amihud, 2002), vòng quay, tỷ lệ ngày có lợi suất bằng 0 và chênh lệch mua–bán ước lượng từ giá cao nhất và thấp nhất trong ngày [CẦN BỔ SUNG TÀI LIỆU]. Nhóm hiệu quả thông tin gồm tỷ số phương sai, tự tương quan lợi suất và độ trễ phản ánh thông tin… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-073 | 180 | setpara | 4.3.5. Động cơ phân bổ của dịch vụ đầu tư số và đăng ký trước | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-074 | 181 | replace | Dịch vụ phân bổ tự động trong đề tài chọn giữa bảy mô hình phân bổ, gọi là bảy động cơ ứng viên (Bảng 3). | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-075 | 209 | replace | Tệp đăng ký cũng ghi đặc tả của các hồi quy cho H~2~ và H~4~ và định nghĩa chỉ số minh bạch. Dữ liệu phát sinh sau ngày đăng ký được báo cáo riêng như phần cập nhật sau đăng ký, và thí sinh ghi mọi thay đổi sau đó là lệch khỏi kế hoạch. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-076 | 254 | replace | Để kiểm định H~1~, đề tài hồi quy mức hối tiếc và độ phân tán mô hình theo biến chế độ và các biến kiểm soát | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-077 | 256 | replace | khi các biến kiểm soát giữ cố định | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-078 | 256 | replace | là vectơ biến kiểm soát | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-079 | 256 | replace | Các biến kiểm soát gồm | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-080 | 257 | replace | hệ số khi có X~t~ chỉ dùng cho kiểm tra độ bền. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-081 | 258 | replace | Phép phân rã này là phân tích phụ, mô tả mức hệ số chế độ thay đổi khi đưa các biến thị trường vào. Đề tài gọi các kết quả này là liên hệ có điều kiện, không gọi là quan hệ nhân quả. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-082 | 261 | replace | so với chọn một mô hình, với khoảng tin cậy bootstrap khối loại trừ 0. Đề tài đánh giá H~3~ riêng cho ba hồ sơ rủi ro (thận trọng, cân bằng, tăng trưởng), mỗi hồ sơ ứng với một hệ số ngại rủi ro và một giới hạn tỷ trọng cổ phiếu rút từ các bảng hỏi đánh giá rủi ro công khai. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-083 | 261 | insert_after | Nguyên mẫu dịch vụ phân bổ tự động. Từ kết quả H~1~ và H~3~, đề tài xây dựng một nguyên mẫu mã nguồn mở gồm bốn mô-đun: (i) xếp hồ sơ rủi ro của nhà đầu tư theo bảng hỏi; (ii) chọn hoặc kết hợp động cơ phân bổ theo xác suất chế độ thị trường; (iii) giám sát định kỳ mức hối tiếc, độ phân tán và tập tin cậy mô hình; (iv) sinh báo cáo công bố cho nhà đầu tư, gồm tập mô hình, quy tắc chọn, giới hạn và… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-084 | 261 | insert_after | Phương pháp cho câu hỏi 1 và câu hỏi 4. Đề tài xây dựng khung các yếu tố quyết định sức hấp dẫn và sức cạnh tranh của trung tâm tài chính chuyên mảng từ Yao (2012) và các chỉ số trung tâm tài chính quốc tế [CẦN BỔ SUNG TÀI LIỆU], rồi so sánh Hà Nội với Thành phố Hồ Chí Minh và hai đến ba trung tâm trong khu vực bằng dữ liệu công khai và văn bản chính sách. Bằng chứng từ câu hỏi 2 và câu hỏi 3 được… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-085 | 263 | setpara | Hình 3 tóm tắt năm bước của quy trình: thu thập và xử lý dữ liệu thị trường và dữ liệu công bố; xác định chế độ thị trường; đo chất lượng thị trường và kiểm định H~2~, H~4~; ước lượng bảy động cơ phân bổ, kiểm định H~1~, H~3~ và xây dựng nguyên mẫu; tổng hợp đề xuất mô hình trung tâm chuyên mảng cho Hà Nội. Thí sinh đăng ký trước kế hoạch phân tích trước khi ước lượng chính thức ở bước 3 và bước 4… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-086 | 268 | replace | ở mức 10% cho bốn giả thuyết H~1~–H~4~. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-087 | 269 | replace | Phần mã của dịch vụ phân bổ tự động và của bộ chỉ báo chất lượng thị trường được đóng gói thành nguyên mẫu ở mục tiêu (iv) và bộ chỉ báo ở mục tiêu (ii), có tài liệu hướng dẫn. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-088 | 271 | setpara | Đối tượng nghiên cứu là chất lượng thị trường chứng khoán và dịch vụ đầu tư số với vai trò mảng chuyên môn của Hà Nội trong phát triển trung tâm tài chính và dịch vụ chất lượng cao, cụ thể là thanh khoản, hiệu quả thông tin, minh bạch công bố và rủi ro lựa chọn mô hình của dịch vụ phân bổ danh mục tự động. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-089 | 273 | setpara | + Phạm vi không gian: Hà Nội là đối tượng của câu hỏi 1 và câu hỏi 4; thị trường do HNX vận hành (cổ phiếu niêm yết và UPCoM) là đối tượng chính của câu hỏi 2, so sánh với HOSE; dịch vụ phân bổ tự động dùng cổ phiếu trên cả HOSE và HNX. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-090 | 275 | setpara | + Phạm vi nội dung: danh mục chỉ mua (không bán khống) là cấu hình cơ sở của dịch vụ phân bổ tự động. Phân tích định lượng không xét thị trường trái phiếu và phái sinh; hai thị trường này chỉ được nêu như lợi thế thể chế của Hà Nội ở câu hỏi 1. Đề tài không vận hành dịch vụ thương mại, không khảo sát nhà đầu tư và không quan sát hành vi chọn mô hình của từng tổ chức. Đề tài giao thoa với khoa học … | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-091 | 276 | setpara | + Giới hạn khác: kết luận về chất lượng thị trường chỉ áp dụng cho cổ phiếu trên HNX, UPCoM và HOSE trong giai đoạn mẫu; kết luận về dịch vụ phân bổ tự động chỉ áp dụng cho danh mục chỉ mua, tập bảy mô hình và quy tắc chọn đã đăng ký trước; đề xuất mô hình trung tâm chuyên mảng là đề xuất có căn cứ, không phải đánh giá chính sách đã thực hiện. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-092 | 277 | replace | Đề tài khác các công trình gần nhất ở ba điểm. So với Yao (2012), đề tài áp dụng khung sức hấp dẫn của trung tâm tài chính cho một thành phố không giữ trung tâm tài chính quốc tế chính thức, và lấy chất lượng thị trường chứng khoán cùng dịch vụ đầu tư số làm mảng chuyên môn. So với các công trình về thị trường Việt Nam (Vo và Phan, 2017; Hoang và Luu, 2024), đề tài xây dựng bộ chỉ báo thanh khoản,… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-093 | 278 | setpara | Về sản phẩm, đề tài dự kiến bốn kết quả ứng với các sản phẩm mà bài toán số 19 nêu. Thứ nhất là đề xuất mô hình trung tâm chuyên mảng cho Hà Nội, ứng với sản phẩm “Trung tâm tài chính quốc tế tại Hà Nội” ở mức đề xuất có căn cứ. Thứ hai là bộ chỉ báo chất lượng thị trường mã nguồn mở, cập nhật được, ứng với sản phẩm “Hệ thống dữ liệu tài chính đô thị”. Thứ ba là nguyên mẫu dịch vụ phân bổ danh mục… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-094 | 279 | setpara | Đề tài không xây dựng một nền tảng thương mại và không giải quyết trọn bài toán số 19; câu hỏi về công nghệ hiện đại hóa hệ thống tài chính đô thị chỉ được xét qua dịch vụ đầu tư số. Người dùng dự kiến của kết quả gồm Ủy ban nhân dân thành phố Hà Nội, Ủy ban Chứng khoán Nhà nước, HNX, các công ty chứng khoán và công ty quản lý quỹ có trụ sở tại Hà Nội [CẦN XÁC MINH]. Dữ liệu gốc lấy từ nhà cung cấ… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-095 | 288 | setpara | 1.1 Bối cảnh: Hà Nội và bài toán số 19; 1.1.1 Trung tâm tài chính quốc tế của Việt Nam và vị trí của Hà Nội; 1.1.2 Thị trường chứng khoán và dịch vụ đầu tư số; 1.2 Vấn đề nghiên cứu; 1.3 Mục tiêu và câu hỏi nghiên cứu; 1.4 Đối tượng và phạm vi; 1.5 Đóng góp dự kiến; 1.6 Kết cấu luận án | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-096 | 291 | setpara | 2.1 Trung tâm tài chính, sức hấp dẫn và chuyên môn hóa; 2.2 Thanh khoản, hiệu quả và minh bạch thị trường; 2.3 Sai số ước lượng, rủi ro mô hình và chọn mô hình danh mục; 2.4 Dịch vụ phân bổ danh mục tự động; 2.5 Chế độ thị trường và khủng hoảng; 2.6 Nghiên cứu về Việt Nam; 2.7 Khoảng trống, khung phân tích và giả thuyết | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-097 | 294 | setpara | 3.1 Dữ liệu thị trường và dữ liệu công bố; 3.1.1 Cổ phiếu HNX, UPCoM, HOSE và thiên lệch sống sót; 3.1.2 Chỉ số minh bạch; 3.2 Xác định chế độ thị trường; 3.3 Chỉ báo chất lượng thị trường; 3.4 Động cơ phân bổ và thước đo rủi ro lựa chọn mô hình; 3.5 Khung đánh giá trung tâm chuyên mảng; 3.6 Đăng ký trước và các lệch khỏi kế hoạch | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-098 | 296 | setpara | Chất lượng thị trường do HNX vận hành theo chế độ thị trường | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-099 | 297 | setpara | 4.1 Thanh khoản và hiệu quả thông tin của HNX, UPCoM và HOSE; 4.2 Kiểm định H~2~; 4.3 Minh bạch công bố và kiểm định H~4~; 4.4 Điểm gãy cấu trúc của thanh khoản; 4.5 Bộ chỉ báo chất lượng thị trường; 4.6 Thảo luận | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-100 | 299 | setpara | Rủi ro lựa chọn mô hình và nguyên mẫu dịch vụ phân bổ tự động | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-101 | 300 | setpara | 5.1 Hiệu quả ngoài mẫu của bảy động cơ; 5.2 Mức hối tiếc theo chế độ và kiểm định H~1~; 5.3 Cơ chế giảm thiểu theo hồ sơ rủi ro và kiểm định H~3~; 5.4 Nguyên mẫu mã nguồn mở; 5.5 Chuẩn công bố mô hình; 5.6 Thảo luận | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-102 | 302 | setpara | Mô hình trung tâm chuyên mảng và chính sách cho Hà Nội | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-103 | 303 | setpara | 6.1 Khung yếu tố sức hấp dẫn và sức cạnh tranh; 6.2 So sánh Hà Nội với Thành phố Hồ Chí Minh và các trung tâm khu vực; 6.3 Mảng chuyên môn đề xuất cho Hà Nội; 6.4 Chuẩn công bố và hạ tầng dữ liệu; 6.5 Đề xuất chính sách | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-104 | 306 | setpara | Trả lời bốn câu hỏi nghiên cứu; hạn chế (số giai đoạn căng thẳng, dữ liệu thương mại, nguyên mẫu chưa có người dùng thật); hướng nghiên cứu tiếp theo | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-105 | 309 | replace | và giao thoa với quản lý ở phần thiết kế dịch vụ và chính sách cho Hà Nội | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-106 | 317 | setpara | Thí sinh dự kiến ba chuyên đề bám theo cấu trúc luận án: (i) trung tâm tài chính, sức hấp dẫn và chuyên môn hóa, kèm khung đánh giá cho Hà Nội; (ii) thanh khoản, hiệu quả và minh bạch của thị trường do HNX vận hành theo chế độ thị trường; (iii) rủi ro lựa chọn mô hình trong dịch vụ phân bổ danh mục tự động. Mỗi chuyên đề đứng độc lập được và đồng thời làm nền cho một chương của luận án. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-107 | 319 | setpara | Thí sinh dự kiến công bố ba bài báo trên tạp chí khoa học có phản biện và trình bày một đến hai báo cáo tại hội thảo khoa học. Bài báo 1 trình bày chất lượng thị trường do HNX vận hành theo chế độ (H~2~, H~4~); bài báo 2 trình bày rủi ro lựa chọn mô hình và nguyên mẫu dịch vụ phân bổ tự động (H~1~, H~3~); bài báo 3 trình bày mô hình trung tâm chuyên mảng cho Hà Nội. Cả ba bài phục vụ bài toán số 1… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-108 | 327 | setpara | Quý 1: xác nhận nguồn, độ dài và giấy phép dữ liệu HNX, UPCoM, HOSE và dữ liệu công bố; thu thập văn bản chính sách về trung tâm tài chính. Quý 1–2: học bổ sung 9 tín chỉ và các học phần theo chương trình; xây dựng khung yếu tố cho câu hỏi 1. Quý 2: ước lượng thử để kiểm tra dữ liệu, thời gian tính và khả năng hội tụ, không tính kết quả theo chế độ; mô phỏng công suất kiểm định. Quý 3: làm sạch dữ… | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-109 | 328 | setpara | Tổng quan nghiên cứu; khung đánh giá trung tâm chuyên mảng; kế hoạch phân tích đăng ký trước; chuyên đề 1 | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-110 | 330 | setpara | Quý 1–2: xác định chế độ thị trường; tính bộ chỉ báo chất lượng thị trường. Quý 3–4: kiểm định H~2~ và H~4~, viết bài báo 1 | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-111 | 331 | setpara | Bài báo 1; bộ chỉ báo bản đầu; báo cáo hội thảo; chuyên đề 2 | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-112 | 333 | setpara | Quý 1–2: ước lượng bảy động cơ, kiểm định H~1~ và H~3~ theo hồ sơ rủi ro. Quý 3–4: xây dựng nguyên mẫu và chuẩn công bố, viết bài báo 2 | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-113 | 334 | setpara | Bài báo 2; nguyên mẫu bản đầu; chuyên đề 3 | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-114 | 336 | setpara | Quý 1–2: so sánh Hà Nội với các trung tâm, đề xuất mô hình trung tâm chuyên mảng và chính sách, viết bài báo 3; hoàn thiện nguyên mẫu và bộ chỉ báo mã nguồn mở. Quý 3–4: hoàn thiện luận án, chỉnh sửa theo góp ý và bảo vệ | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-115 | 337 | setpara | Bài báo 3; luận án; nguyên mẫu và bộ chỉ báo mã nguồn mở | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-116 | 429 | setpara | Về nghiên cứu, thí sinh dự kiến mở rộng đề tài theo ba hướng: mở rộng bộ chỉ báo chất lượng thị trường sang thị trường trái phiếu chính phủ và phái sinh do HNX vận hành; kiểm nghiệm nguyên mẫu dịch vụ phân bổ tự động cùng các công ty chứng khoán và công ty quản lý quỹ tại Hà Nội; và so sánh mô hình trung tâm chuyên mảng của Hà Nội với các thành phố khác trong khu vực. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-117 | 437 | insert_after | Ủy ban nhân dân thành phố Hà Nội (2026), *Quyết định số 1193/QĐ-UBND ngày 18/03/2026 công bố Danh mục các bài toán lớn của thành phố Hà Nội giai đoạn 2026–2030 (đợt 1)*, Hà Nội [CẦN ĐỐI CHIẾU bản chính thức]. | Đổi đề tài (người dùng duyệt 2026-10-15) |
+| R3-118 | 492 | insert_after | Yao, J.-M. (2012), *Compétitivité et attractivité des places financières internationales: Application à l’industrie des fonds d’investissement au Luxembourg*, Luận án tiến sĩ Kinh tế học, Université de Strasbourg, Strasbourg. | Đổi đề tài (người dùng duyệt 2026-10-15) |
