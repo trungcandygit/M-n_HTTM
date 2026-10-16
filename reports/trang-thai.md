@@ -125,3 +125,10 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 - Bản docx: outputs/round-7/de-cuong-v7-round-7.docx (cục bộ, không push theo V5).
 - Tài liệu gốc người dùng gửi: ho-so/tai-lieu-gop.txt, ho-so/TONG_HOP_TAI_LIEU_HNX_HOSE.txt (cục bộ).
 - Bàn giao sang session mới: prompt, bộ skill zip, docx v7 và hai file txt nằm trong scratchpad/handoff (đã gửi người dùng).
+
+## Session 2026-10-16 (vòng 8) — khởi động
+- Nhánh claude/quirky-ritchie-evnzw5 xác nhận; đã pull f97f9d7. Skill tool nhận đủ 25 skill trong .claude/skills/.
+- Đã đọc: trang-thai.md, nhat-ky-thay-doi-round-7.md, r7-review.md. Chưa đọc lại toàn văn ho-so/ (sẽ đọc bằng grep theo từng khẳng định ở bước đối chiếu).
+- docx v7 có 20 nhãn [CẦN ...] (prompt ghi 16).
+- Danh sách tài liệu cần tìm cập nhật: reports/danh-sach-tai-lieu-can-tim-r8.md.
+- **Quyết định MJ6 (người dùng, 16/10/2026): cam kết học tập trung toàn thời gian** theo NQ 57 Điều 11.3. Cần sửa cuối idx 328 và mục 8.2 trong v8.
