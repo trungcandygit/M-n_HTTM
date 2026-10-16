@@ -62,7 +62,7 @@ def set_runs_md(p, text):
     base = None
     for r in runs:
         rp = r.find(f"{{{W}}}rPr")
-        if rp is not None and rp.find(f"{{{W}}}i") is None:
+        if rp is not None and rp.find(f"{{{W}}}i") is None and rp.find(f"{{{W}}}vertAlign") is None:
             base = rp
             break
     for r in runs:
@@ -72,6 +72,8 @@ def set_runs_md(p, text):
             continue
         r = etree.SubElement(p, f"{{{W}}}r")
         rp = copy.deepcopy(base) if base is not None else None
+        if rp is not None:
+            for va in rp.findall(f"{{{W}}}vertAlign"): rp.remove(va)
         if i % 2 == 1:
             if rp is None:
                 rp = etree.Element(f"{{{W}}}rPr")

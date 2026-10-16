@@ -142,3 +142,7 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 ## Vòng 9 (sửa nốt) — 16/10/2026
 - Người dùng gửi tài liệu (ho-so/TaiLieu_Vong8_GopTXT_16-10-2026.txt); đối chiếu ở reports/doi-chieu-tai-lieu-vong8.md.
 - Người dùng yêu cầu dừng 2 agent vòng 9, sửa nốt và trình bày lại (bảng chữ viết tắt, H chỉ số dưới, bảng gọn, tách đoạn). Bản: outputs/round-9/de-cuong-v9-round-9.docx. Chưa chạy phản biện vòng mới (chờ người dùng).
+
+## Vòng 10–11 — 16/10/2026
+- v10: mở rộng H3 (kênh, trụ sở Hà Nội). Phản biện 2 agent: A 0/5/7, B 0/3/17. v11 sửa đủ MJ; validate PASSED. outputs/round-11/.
+- Tài liệu cần tìm: reports/danh-sach-tai-lieu-can-tim-r10.md, mục (5) r10-review-A.md, mục (7) r10-review-B.md.
