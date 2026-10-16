@@ -146,3 +146,6 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 ## Vòng 10–11 — 16/10/2026
 - v10: mở rộng H3 (kênh, trụ sở Hà Nội). Phản biện 2 agent: A 0/5/7, B 0/3/17. v11 sửa đủ MJ; validate PASSED. outputs/round-11/.
 - Tài liệu cần tìm: reports/danh-sach-tai-lieu-can-tim-r10.md, mục (5) r10-review-A.md, mục (7) r10-review-B.md.
+
+## Vòng 12 — 16/10/2026
+- 2 agent: A 0/2/13 (+34 văn phong; có vina-me, vietnamese-human-writing), B 0/1/9. v12 sửa đủ MJ; validate PASSED. outputs/round-12/.
