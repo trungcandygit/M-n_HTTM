@@ -1,0 +1,1 @@
+Nguồn: AnhTuan2111/vina-me @ dbeb502f0cca3559ba5852244aae3032c85e5a7a, MIT. Chép SKILL.md, references/, scripts/soat.mjs (đã đọc hết: chỉ đọc tệp, không mạng, không lệnh con). Bỏ evals/, README. Thêm ghi chú áp dụng APA 7 ở đầu SKILL.md.

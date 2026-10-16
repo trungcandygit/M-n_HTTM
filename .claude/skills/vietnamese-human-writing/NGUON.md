@@ -1,0 +1,1 @@
+Nguồn: Seastorm136/vietnamese-human-writing-skill @ fcb14ee9af9bf72e0a933cfb2794b8aca277d8b8, MIT. Chép SKILL.md, references/ (không có script). Bỏ agents/openai.yaml, tests. Thêm ghi chú áp dụng cho văn khoa học ở đầu SKILL.md.

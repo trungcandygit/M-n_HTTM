@@ -58,3 +58,18 @@ Chỗ trống không có skill đạt chuẩn: (2) đo thanh khoản và (3) tra
 - Tự viết 2 skill cục bộ (qua anthropic-skills:skill-creator; không gọi mạng, không script): **vn-legal-verify**, **liquidity-measures**. Bỏ bước chạy thử bằng subagent của skill-creator vì người dùng yêu cầu giảm agent; thay bằng dùng thật ở vòng 8 và rà lại sau vòng.
 - Mạng: proxy chặn api.crossref.org, api.openalex.org, api.semanticscholar.org (CONNECT 403).
 - Vòng 8: 2 agent song song (A: phương pháp và viết; B: kiểm chứng pháp lý và văn liệu).
+
+## Đợt 4 (16/10/2026): skill viết tiếng Việt
+
+Tìm trên GitHub bằng từ khóa chung ("claude skill Vietnamese academic writing", "skill viết luận văn tiếng Việt", "paper-writing-vn"). Không có skill riêng cho văn học thuật tiếng Việt hay cho định dạng luận án ĐHQGHN. Skill "paper-writing-vn" nêu trong prompt không tồn tại công khai.
+
+| Skill | Repo @ commit | Sao | Giấy phép | Đã đọc | Quét | Quyết định | Lý do |
+|---|---|---|---|---|---|---|---|
+| **vina-me** | AnhTuan2111/vina-me @ dbeb502 | 0 | MIT | Toàn văn SKILL.md (2.486 từ); toàn văn scripts/soat.mjs (138 dòng) | soat.mjs chỉ `fs.readFileSync`; không mạng, không ghi tệp, không lệnh con | **CÀI** | Viết bằng tiếng Việt cho văn bản tiếng Việt: mạch lạc, liên kết câu, câu chủ đề, thuật ngữ nhất quán, nói đúng mức chắc chắn, dấu hiệu văn máy; có giọng trang trọng cho báo cáo/kiến nghị. Xung đột với APA 7 ở dấu "–" và "&": đã thêm ghi chú miễn trừ |
+| **vietnamese-human-writing** | Seastorm136/vietnamese-human-writing-skill @ fcb14ee | 0 | MIT | Toàn văn SKILL.md; mục I–II và cấu trúc I–XII của master-writing-rules.md | Không có script | **CÀI** | 53 quy tắc, 7 vòng rà; thứ tự ưu tiên đặt độ chính xác và thể loại lên trước văn phong; có quy định riêng cho văn khoa học |
+| viet-ky-thuat, viet-lach | mqa8668/claude-skills @ 0eff236 | – | MIT | Liệt kê tệp | Repo có script cài đặt và build tài liệu | Không cài | Thiên về tài liệu kỹ thuật phần mềm và bản song ngữ |
+| academic-writing-skills | WenyuChiou/academic-writing-skills @ 06fbdfd | – | MIT | Liệt kê tệp | 8 script audit | Không cài | Tiếng Anh; trùng scientific-writing và sciwrite |
+| academic-writing | David-Saeteros/claude-skills @ 18f912c | – | CC BY 4.0 | Liệt kê tệp | – | Không cài | Tiếng Anh; trùng econ-write |
+| latex-thesis-zh và nhóm | bahayonghang/academic-writing-skills @ 8183f08 | – | – | Liệt kê tệp | – | Không cài | Luận án tiếng Trung, LaTeX |
+
+Còn thiếu: skill định dạng theo quy chế ĐHQGHN và Trường Quốc tế. Chỉ viết được khi có văn bản quy chế.
