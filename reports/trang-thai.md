@@ -118,3 +118,10 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 - Người dùng chọn hướng "lấy việc chuyển sàn làm trung tâm" (trả lời P1, P2 của phản biện vòng 4).
 - P4 (học toàn thời gian theo Điều 11.3 NQ 57) là vấn đề hồ sơ, đã báo người dùng, chưa sửa.
 - Skill mới cài sau rà soát: econ-write, credible-claims (reports/cong0-skill-moi.md).
+
+## Cập nhật 2026-10-16 — Vòng 7 (vòng cuối, QUICK) XONG
+- Tên đề tài người dùng chốt: "Hợp nhất sàn chứng khoán và chất lượng thị trường: Bằng chứng thực nghiệm từ HNX và vị thế tài chính Hà Nội" (đã đưa vào bìa và mục 1 từ bản v6).
+- Phản biện vòng 7: 1 CR, 8 MJ, 12 MINOR (reports/r7-review.md). Đã sửa CR1, MJ1–5, MJ7–8, m1–m8, m10–m11 (43 thao tác). MJ6 (NQ 57 Điều 11.3, học tập trung toàn thời gian) chờ người dùng quyết.
+- Bản docx: outputs/round-7/de-cuong-v7-round-7.docx (cục bộ, không push theo V5).
+- Tài liệu gốc người dùng gửi: ho-so/tai-lieu-gop.txt, ho-so/TONG_HOP_TAI_LIEU_HNX_HOSE.txt (cục bộ).
+- Bàn giao sang session mới: prompt, bộ skill zip, docx v7 và hai file txt nằm trong scratchpad/handoff (đã gửi người dùng).
