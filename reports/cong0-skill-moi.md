@@ -52,3 +52,9 @@ Cách làm: tìm qua các trang tổng hợp (skills.sh, openskillindex, tessl, 
 | 6 | Sửa docx | anthropic-skills:docx | anthropics/skills | 172k | – | đã có | – | Giữ | Không có lựa chọn mạnh hơn |
 
 Chỗ trống không có skill đạt chuẩn: (2) đo thanh khoản và (3) tra cứu pháp lý Việt Nam. Hai phương án: (a) tự viết hai skill cục bộ dạng checklist (không gọi mạng, mọi trích dẫn mang nhãn cho đến khi đối chiếu với bài gốc), hoặc (b) để agent áp dụng thẳng quy trình đối chiếu KHỚP/LỆCH/CHƯA CÓ NGUỒN của prompt.
+
+### Quyết định của người dùng (16/10/2026)
+- Cài: **aer-identification** (SKILL.md, references/estimator-playbook.md, LICENSE; ghi nguồn trong NGUON.md). Không cài aer-robustness, check-citations, preregister.
+- Tự viết 2 skill cục bộ (qua anthropic-skills:skill-creator; không gọi mạng, không script): **vn-legal-verify**, **liquidity-measures**. Bỏ bước chạy thử bằng subagent của skill-creator vì người dùng yêu cầu giảm agent; thay bằng dùng thật ở vòng 8 và rà lại sau vòng.
+- Mạng: proxy chặn api.crossref.org, api.openalex.org, api.semanticscholar.org (CONNECT 403).
+- Vòng 8: 2 agent song song (A: phương pháp và viết; B: kiểm chứng pháp lý và văn liệu).

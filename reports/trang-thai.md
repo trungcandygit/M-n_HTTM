@@ -132,3 +132,4 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 - docx v7 có 20 nhãn [CẦN ...] (prompt ghi 16).
 - Danh sách tài liệu cần tìm cập nhật: reports/danh-sach-tai-lieu-can-tim-r8.md.
 - **Quyết định MJ6 (người dùng, 16/10/2026): cam kết học tập trung toàn thời gian** theo NQ 57 Điều 11.3. Cần sửa cuối idx 328 và mục 8.2 trong v8.
+- Skill: cài aer-identification; viết vn-legal-verify, liquidity-measures (tổng 28 skill trong .claude/skills/). Vòng 8 sẽ chạy 2 agent song song.

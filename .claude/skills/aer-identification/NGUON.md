@@ -1,0 +1,1 @@
+Nguồn: brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research @ e0b0c13ca15d1ef426f8788bc88706c994d96d9c, thư mục skills/50-brycewang-aer-skills/skills/aer-identification. MIT (Bryce Wang 2026). Không chép agents/openai.yaml (chỉ dùng cho Codex). Cài 16/10/2026 sau Cổng 0 đợt 3.
