@@ -133,3 +133,8 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 - Danh sách tài liệu cần tìm cập nhật: reports/danh-sach-tai-lieu-can-tim-r8.md.
 - **Quyết định MJ6 (người dùng, 16/10/2026): cam kết học tập trung toàn thời gian** theo NQ 57 Điều 11.3. Cần sửa cuối idx 328 và mục 8.2 trong v8.
 - Skill: cài aer-identification; viết vn-legal-verify, liquidity-measures (tổng 28 skill trong .claude/skills/). Vòng 8 sẽ chạy 2 agent song song.
+
+## Vòng 8 XONG (16/10/2026)
+- 2 agent: A (r8-review-A.md: 2 CR, 3 MJ, 11 m), B (r8-review-B.md: 0 CR, 4 MJ, 14 m). Luồng chính sửa 129 thao tác; validate PASSED.
+- Bản: outputs/round-8/de-cuong-v8-round-8.docx; nhật ký: outputs/round-8/nhat-ky-thay-doi-round-8.md.
+- Tiếp: vòng 9 phản biện lại (re-review) để xác nhận hết CR/MJ, kèm đánh giá độ khớp với NQ 57 và bài toán 19.
