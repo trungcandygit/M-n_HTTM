@@ -1,0 +1,148 @@
+[
+ {
+  "id": "d76",
+  "op": "delete_para",
+  "anchor": "Cặp Hà Nội và Thành phố Hồ Chí Minh có thể so sánh với cặp Bắc Kinh"
+ },
+ {
+  "id": "d78",
+  "op": "delete_para",
+  "anchor": "Nielsson (2009) thấy việc hình thành Euronext làm"
+ },
+ {
+  "id": "d126",
+  "op": "delete_para",
+  "anchor": "Đề tài vì vậy tính Amihud, ở cả hai nhóm"
+ },
+ {
+  "id": "d185",
+  "op": "delete_para",
+  "anchor": "Chênh lệch này không đo lượng thanh khoản"
+ },
+ {
+  "id": "p71",
+  "op": "replace",
+  "old": "cùng UPCoM trong thời gian UPCoM còn do HNX tổ chức",
+  "new": "cùng thị trường giao dịch cổ phiếu của công ty đại chúng chưa niêm yết (UPCoM) trong thời gian thị trường này còn do HNX tổ chức"
+ },
+ {
+  "id": "p74",
+  "op": "para_md",
+  "anchor": "Văn bản hợp nhất cũng quy định HNX hoàn thành",
+  "text": "Theo văn bản hợp nhất, HNX phải hoàn thành việc chuyển cổ phiếu UPCoM sang HOSE chậm nhất đến hết ngày 31/12/2026; mốc này do Thông tư số 69/2023/TT-BTC đặt và không bị Thông tư số 139/2025/TT-BTC sửa (Bộ Tài chính, 2023). Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, và lịch chuyển cổ phiếu UPCoM chưa được công bố tại thời điểm viết đề cương [CẦN XÁC MINH kế hoạch chuyển cổ phiếu đăng ký giao dịch theo khoản 4 Điều 4 Thông tư số 57/2021/TT-BTC]. Sau hợp nhất, HNX tổ chức thị trường trái phiếu và chứng khoán phái sinh (Bộ Tài chính, 2023)."
+ },
+ {
+  "id": "p75",
+  "op": "para_md",
+  "anchor": "Lý thuyết về trung tâm tài chính giải thích vì sao",
+  "text": "Lý thuyết về trung tâm tài chính giải thích vì sao hoạt động tài chính dồn về một vài thành phố: quy mô giao dịch và thông tin tạo lợi thế tích tụ (Kindleberger, 1974; Gehrig, 2000). Khi một quốc gia có nhiều trung tâm, các trung tâm phân vai. Thượng Hải là trung tâm thương mại, Bắc Kinh là trung tâm chính trị và quản lý, Hồng Kông là trung tâm hải ngoại (Lai, 2012), và lợi thế của Bắc Kinh đến từ thông tin chính sách mà thủ đô nắm giữ (Wang và cộng sự, 2007). Bắc Kinh là một trung tâm tài chính lớn dù không có sở giao dịch chứng khoán tầm quốc gia trong phần lớn quá trình phát triển (Naeem, 2023). Cặp Hà Nội và Thành phố Hồ Chí Minh có thể so sánh với cặp Bắc Kinh và Thượng Hải, và câu hỏi đặt ra cho Hà Nội sau hợp nhất là nên chuyên môn hóa vào những thị trường nào (Yao, 2012)."
+ },
+ {
+  "id": "p77",
+  "op": "para_md",
+  "anchor": "Bằng chứng quốc tế cho thấy sàn giao dịch ảnh hưởng",
+  "text": "Bằng chứng quốc tế cho thấy sàn giao dịch ảnh hưởng tới chất lượng giao dịch của cùng một cổ phiếu, nhưng chiều tác động không thống nhất. Ở Tel Aviv, cổ phiếu được chuyển sang cơ chế có thêm phiên giao dịch liên tục tăng thanh khoản, và lợi suất bất thường tích lũy quanh sự kiện đạt khoảng 5,5% (Amihud và cộng sự, 1997). Việc hình thành Euronext làm thanh khoản tăng ở doanh nghiệp lớn nhưng không tăng ở doanh nghiệp nhỏ (Nielsson, 2009). Sau khi thị trường cổ phiếu của Tokyo và Osaka hợp nhất ngày 16/7/2013, thanh khoản của các cổ phiếu vốn niêm yết tại Tokyo tăng trong ngắn hạn rồi giảm sau một năm (Hisada, 2018). Mục 4.2 trình bày các nghiên cứu này chi tiết hơn."
+ },
+ {
+  "id": "p89",
+  "op": "para_md",
+  "anchor": "Về sản phẩm, đề tài dự kiến hai kết quả",
+  "text": "Về sản phẩm, đề tài dự kiến hai kết quả gắn với các sản phẩm mà bài toán số 19 nêu. Thứ nhất là Chỉ số chất lượng thị trường vốn, mã nguồn mở, cập nhật theo tháng, có thể là một cấu phần của sản phẩm “Hệ thống dữ liệu tài chính đô thị”. Thứ hai là báo cáo định hướng chuyên môn hóa cho thị trường vốn Hà Nội sau hợp nhất, một đầu vào phân tích cho sản phẩm “Trung tâm tài chính quốc tế tại Hà Nội”; đề tài không thiết kế sản phẩm này, và Nghị quyết số 222/2025/QH15 hiện chỉ đặt trung tâm tài chính quốc tế tại Thành phố Hồ Chí Minh và Đà Nẵng. Ngoài ra, Chỉ số khả năng đầu tư là một thước đo mà các dịch vụ đầu tư mới có thể dùng để so sánh. Hai chỉ số và tệp đăng ký trước là sản phẩm có được dù kết quả kiểm định ra sao."
+ },
+ {
+  "id": "p123",
+  "op": "replace",
+  "old": "được tính lại sau khi bỏ hai chỉ báo nhạy với biên độ [CẦN NÊU TÊN hai chỉ báo]",
+  "new": "được tính lại sau khi bỏ hai chỉ báo tính từ mức biến động giá nên bị biên độ cắt trực tiếp, là độ phi thanh khoản Amihud và chênh lệch Corwin–Schultz"
+ },
+ {
+  "id": "p125",
+  "op": "para_md",
+  "anchor": "biên độ giảm từ ±10% xuống ±7% khi chuyển sàn làm lợi suất tuyệt đối bị cắt",
+  "text": "Với H3, biên độ hẹp lại từ ±10% xuống ±7% khi chuyển sàn làm lợi suất tuyệt đối bị cắt ở những ngày chạm biên độ, nên độ phi thanh khoản Amihud có thể giảm một cách cơ học. Chỉ loại các ngày chạm biên độ thì chưa đủ, vì sau khi chuyển sàn mọi ngày có lợi suất tuyệt đối khoảng 7% đến 10% đều thành ngày chạm biên độ và bị loại. Đề tài vì vậy tính Amihud, ở cả hai nhóm và hai giai đoạn, chỉ trên các ngày có lợi suất tuyệt đối dưới một ngưỡng chung, thấp hơn mức lợi suất lớn nhất đạt được ở biên độ ±7% sau khi làm tròn giá trần và giá sàn theo bước giá, và không liền sau một ngày có lợi suất tuyệt đối từ ngưỡng này trở lên. Ngưỡng giống nhau cho mọi cổ phiếu và mọi giai đoạn, nên tập ngày bị loại không đổi theo sàn [CẦN XÁC MINH quy tắc làm tròn giá trần và giá sàn theo bước giá của HOSE và HNX]. Giá trị ngưỡng và số ngày hợp lệ tối thiểu mỗi tháng được ghi trong tệp đăng ký; tháng không đủ số ngày này được coi là thiếu, và tỷ lệ ngày bị loại cùng tỷ lệ tháng thiếu được báo cáo theo nhóm và giai đoạn. Giá trị giao dịch chỉ gồm giao dịch khớp lệnh. Vòng quay là thước đo đối chiếu, vì không dùng lợi suất nên không bị cắt theo biên độ."
+ },
+ {
+  "id": "p173",
+  "op": "replace",
+  "old": "Suy luận trên các ngày giả định trong giai đoạn tham chiếu, với cùng cấu trúc cửa sổ trước, 18 tháng loại trừ và 24 tháng sau, theo tinh thần của Conley và Taber (2011), chỉ được báo cáo như kiểm tra bổ sung: các cửa sổ giả chồng lấn nhau và chỉ tạo ra khoảng sáu cửa sổ độc lập, và",
+  "new": "Suy luận trên các ngày giả định trong giai đoạn tham chiếu, với cùng cấu trúc cửa sổ và theo tinh thần của Conley và Taber (2011), chỉ là kiểm tra bổ sung, vì các cửa sổ giả chồng lấn nhau, chỉ tạo khoảng sáu cửa sổ độc lập, và"
+ },
+ {
+  "id": "p176",
+  "op": "para_md",
+  "anchor": "Một sự kiện duy nhất không có nghĩa là mọi cổ phiếu",
+  "text": "Việc chuyển sàn đổi ba quy tắc cùng lúc, và mỗi quy tắc tác động mạnh yếu khác nhau tùy đặc điểm của cổ phiếu trước sự kiện. Biên độ hẹp lại từ ±10% xuống ±7% chỉ ràng buộc những mã thường có lợi suất ngày lớn; bước giá chỉ đáng kể ở mã giá thấp; việc vào VN-Index và các chỉ số khác do HOSE xây dựng tạo áp lực cầu lớn hơn ở mã có vốn hóa lớn so với giá trị giao dịch [CẦN XÁC MINH cách HOSE xử lý mã chuyển sàn trong các chỉ số]."
+ },
+ {
+  "id": "p177",
+  "op": "para_md",
+  "anchor": "Đề tài đo ba mức chịu cú sốc này cho từng mã",
+  "text": "Ba mức chịu cú sốc tương ứng được đo cho từng mã chuyển sàn bằng dữ liệu đến ngày 30/6/2025: tỷ lệ ngày có lợi suất tuyệt đối từ 7% đến dưới 10% (mức chịu cú sốc biên độ), nghịch đảo của giá đóng cửa bình quân (mức chịu cú sốc bước giá), và tỷ số giữa vốn hóa toàn phần và giá trị giao dịch bình quân ngày (mức chịu cú sốc chỉ số). Đề tài dùng vốn hóa toàn phần vì VN-Index không điều chỉnh tỷ lệ tự do chuyển nhượng (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2026). Thước đo theo vốn hóa tự do chuyển nhượng, mức thay đổi của bước giá tương đối khi chuyển sàn và tỷ lệ ngày lợi suất bằng 0 được báo cáo thêm."
+ },
+ {
+  "id": "p178",
+  "op": "para_md",
+  "anchor": "Việc FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số không được coi",
+  "text": "Việc FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số không được coi là một kênh của việc chuyển sàn, vì danh sách cổ phiếu đủ điều kiện, lập với dữ liệu đến ngày 30/6/2026, chỉ gồm mã niêm yết tại HOSE (FTSE Russell, 2026); danh sách này chỉ được dùng để loại mã khỏi nhóm đối chứng HOSE ở mục 4.3.8. Nếu mã chuyển sàn nào được đưa vào chỉ số ở các kỳ xét duyệt sau ngày 28/12/2026, ngày đó được ghi lại và δ được ước lượng thêm khi loại các mã này [CẦN XÁC MINH phạm vi sàn mà FTSE Russell sàng lọc trước ngày chuyển sàn]."
+ },
+ {
+  "id": "p179",
+  "op": "para_md",
+  "anchor": "Phương trình (5) được mở rộng bằng các số hạng",
+  "text": "Phương trình (5) được mở rộng bằng các số hạng Dᵢ·Postₜ·Eₛ,ᵢ, trong đó Eₛ,ᵢ là mức chịu cú sốc s của cổ phiếu i, trừ trung bình và chia cho độ lệch chuẩn giữa các mã chuyển sàn, nên δ là tác động tại mức chịu cú sốc trung bình. Các số hạng Eₛ,ᵢ·τₜ cho mỗi mức chịu cú sốc một hiệu ứng theo tháng riêng và được ước lượng trên các mã đối chứng đo được cùng thước đo: mã UPCoM với mức chịu cú sốc biên độ, mã HOSE với hai mức còn lại. Nếu cổ phiếu UPCoM chuyển sang HOSE trước khi hết cửa sổ sau, là khả năng chính theo mục 4.3.10, mức chịu cú sốc biên độ của mọi mã được đo bằng tỷ lệ ngày có lợi suất tuyệt đối từ ngưỡng chung trở lên trong dữ liệu đến ngày 30/6/2025 và được ước lượng trên mã HOSE đối chứng; thước đo này chỉ đại diện cho mức chịu ràng buộc của biên độ. Giả định nhận dạng là: nếu không chuyển sàn, chênh lệch thanh khoản giữa mã chuyển sàn chịu cú sốc mạnh và mã chuyển sàn chịu cú sốc yếu sẽ biến động như chênh lệch tương ứng giữa các mã đối chứng. Giả định này được kiểm tra bằng các hệ số trước sự kiện của cùng các tương tác. Tỷ lệ ngày bị loại được báo cáo theo ba nhóm mức chịu cú sốc biên độ, và các hệ số tương tác được ước lượng lại trên những mã đủ số ngày hợp lệ ở cả hai giai đoạn."
+ },
+ {
+  "id": "p180",
+  "op": "para_md",
+  "anchor": "Hệ số tương tác cho biết tác động thay đổi thế nào",
+  "text": "Hệ số tương tác cho biết tác động thay đổi thế nào theo mức chịu cú sốc của từng kênh, nhưng không đo riêng tác động của từng quy tắc, vì các mức chịu cú sốc có thể tương quan với nhau và với quy mô doanh nghiệp. Đề tài vì vậy đưa thêm tương tác với quy mô và với logarit Amihud tại ngày 30/6/2025, vì mức chịu cú sốc chỉ số gần với nghịch đảo của vòng quay và có thể chỉ phản ánh hồi quy về trung bình của mã kém thanh khoản, và báo cáo tương quan giữa các mức chịu cú sốc. Các mức này được đo trước sự kiện nên không chịu ảnh hưởng của sự kiện."
+ },
+ {
+  "id": "p181",
+  "op": "para_md",
+  "anchor": "Sai số chuẩn phân cụm theo cổ phiếu và suy luận hoán vị",
+  "text": "Sai số chuẩn phân cụm theo cổ phiếu và suy luận hoán vị mức chịu cú sốc giữa các mã đều coi các mã là độc lập, nên bác bỏ quá thường xuyên khi cú sốc chung theo tháng tác động mạnh hơn lên mã chịu cú sốc mạnh. Vì vậy, mỗi hệ số tương tác được suy luận như δ: với từng tháng, đề tài lấy hệ số góc của logarit Amihud theo mức chịu cú sốc ở các mã chuyển sàn trừ hệ số góc tương ứng ở các mã đối chứng, rồi áp dụng bootstrap tự hồi quy cho chuỗi hiệu số này, với thống kê kiểm định là trung bình sau sự kiện trừ trung bình trong cửa sổ trước và mức ý nghĩa hai phía 5%. Hiệu ứng nhỏ nhất phát hiện được của từng hệ số được ghi vào tệp đăng ký. Các hệ số tương tác, kể cả tương tác theo trụ sở dưới đây, là phân tích phụ đăng ký trước và không đưa vào thủ tục Holm."
+ },
+ {
+  "id": "p182",
+  "op": "para_md",
+  "anchor": "Phân tích theo trụ sở doanh nghiệp kiểm tra",
+  "text": "Phân tích theo trụ sở kiểm tra xem việc chuyển sàn có tác động khác nhau đến doanh nghiệp có trụ sở tại Hà Nội và doanh nghiệp ở nơi khác hay không. Văn liệu về địa lý tài chính cho thấy nhà quản lý quỹ ưa nắm giữ cổ phiếu của doanh nghiệp có trụ sở gần mình (Coval & Moskowitz, 1999) và thanh khoản của cổ phiếu phụ thuộc vào vị trí trụ sở doanh nghiệp (Loughran & Schultz, 2005) [CẦN ĐỐI CHIẾU bản gốc của hai bài]. Hai bài này nói về khoảng cách giữa nhà đầu tư và doanh nghiệp, không nói về vị trí của sàn. Khi sàn đổi, nhà đầu tư không đổi chỗ, nên kênh mà đề tài kiểm tra là sự chú ý và thông tin gắn với nơi đặt sàn, chẳng hạn mức độ đưa tin. Nếu kênh này có thật, cổ phiếu của doanh nghiệp có trụ sở tại Hà Nội sẽ được lợi ít hơn khi chuyển sang HOSE so với cổ phiếu của doanh nghiệp ở nơi khác."
+ },
+ {
+  "id": "p183",
+  "op": "para_md",
+  "anchor": "Nếu việc sàn niêm yết đặt cùng thành phố",
+  "text": "Chênh lệch này được ước lượng bằng tương tác giữa Dᵢ·Postₜ và biến giả trụ sở tại Hà Nội, xác định theo địa chỉ đăng ký tại ngày 30/6/2025. Mô hình có thêm tích của biến giả này với hiệu ứng cố định theo tháng, ước lượng trên các mã HOSE đối chứng có trụ sở tại Hà Nội, để cú sốc chung riêng của doanh nghiệp Hà Nội không bị gán cho việc chuyển sàn, và có thêm tương tác với quy mô và ngành để chênh lệch không chỉ phản ánh khác biệt về cơ cấu doanh nghiệp."
+ },
+ {
+  "id": "p184",
+  "op": "para_md",
+  "anchor": "Chênh lệch theo trụ sở là ước lượng dị biệt",
+  "text": "Chênh lệch theo trụ sở là ước lượng dị biệt trong cùng một thiết kế, không phải tác động nhân quả của vị trí trụ sở, và không đo lượng thanh khoản mà thị trường vốn Hà Nội mất, vì mọi mã trong phép so sánh đều chuyển sang HOSE. Nếu chênh lệch khác 0, kết quả gợi ý vị trí sàn có liên hệ với thanh khoản của doanh nghiệp có trụ sở tại Hà Nội; nếu khoảng tin cậy hẹp quanh 0, kết quả không ủng hộ vai trò của vị trí sàn khi giao dịch đã điện tử hóa toàn quốc; nếu khoảng tin cậy rộng, kết quả được gọi là chưa đủ cơ sở kết luận theo quy tắc ở mục 4.3.10. Tệp đăng ký ghi số mã có trụ sở tại Hà Nội trong các mã chuyển sàn và hiệu ứng nhỏ nhất phát hiện được của hệ số này."
+ },
+ {
+  "id": "p196",
+  "op": "para_md",
+  "anchor": "Nếu nhóm đối chứng HOSE mất thanh khoản",
+  "text": "Nếu nhóm đối chứng HOSE mất thanh khoản do dòng lệnh chuyển sang cổ phiếu chuyển sàn, δ phóng đại tác động; ước lượng với nhóm đối chứng UPCoM, nếu nhóm này còn dữ liệu sau sự kiện, được trình bày như một cận khác. Ngược lại, nếu thanh khoản lan tỏa dương sang nhóm đối chứng HOSE, δ đánh giá thấp tác động. Hiện tượng này đã được ghi nhận ở loại cổ phiếu còn lại của cùng doanh nghiệp tại Tel Aviv (Amihud và cộng sự, 1997) và ở cổ phiếu sẵn có trên sàn tiếp nhận quanh đợt hợp nhất Tokyo–Osaka (Hisada, 2018)."
+ },
+ {
+  "id": "p213",
+  "op": "para_md",
+  "anchor": "Theo văn bản hiện hành, cổ phiếu UPCoM phải",
+  "text": "Theo văn bản hiện hành, cổ phiếu UPCoM phải được chuyển sang HOSE chậm nhất đến hết ngày 31/12/2026 (Bộ Tài chính, 2023), nên đề tài coi việc UPCoM chuyển sàn trong cửa sổ sau, cùng đợt hoặc muộn hơn nếu mốc này bị lùi, là khả năng chính. Khi đó, nhóm đối chứng UPCoM và Chỉ số chất lượng thị trường vốn của UPCoM chỉ dùng đến tháng liền trước ngày chuyển, ước lượng chính dựa vào nhóm đối chứng HOSE, và tương tác theo mức chịu cú sốc biên độ dùng thước đo thay thế nêu ở mục 4.3.7. Nếu cả hai nhóm đối chứng không đạt kiểm tra xu hướng song song, đề tài dùng nhóm đối chứng tổng hợp từ các mã HOSE ngoài danh sách FTSE Russell và mã UPCoM. Nếu dữ liệu sau sự kiện ngắn hơn 24 tháng hoặc rổ CS có ít hơn 30 cổ phiếu đủ thanh khoản, đề tài dùng toàn bộ tháng có sẵn và rổ 20 cổ phiếu."
+ },
+ {
+  "id": "p119",
+  "op": "para_md",
+  "anchor": "Theo Hình 1, chuỗi phân tích đi từ trước sự kiện",
+  "text": "Theo Hình 1, chuỗi phân tích đi từ trước sự kiện, qua sự kiện, tới chính sách. H2 đo khoảng cách chất lượng thị trường giữa sàn niêm yết HNX và HOSE trước hợp nhất; H3 và H4 so sánh cùng các cổ phiếu trước và sau ngày 28/12/2026 với nhóm đối chứng, về thanh khoản và khả năng đầu tư; H1 cho biết mức phát triển thị trường cổ phiếu liên hệ thế nào với điểm GFCI. Các kết quả này là đầu vào cho phần tổng hợp định tính về định hướng chuyên môn hóa của các thị trường mà HNX tiếp tục vận hành."
+ },
+ {
+  "id": "p103",
+  "op": "para_md",
+  "anchor": "Nielsson (2009) thấy lợi ích thanh khoản của việc hình thành Euronext",
+  "text": "Nielsson (2009) thấy lợi ích thanh khoản của việc hình thành Euronext dồn vào doanh nghiệp lớn. Hisada (2018), đo bằng vòng quay và độ phi thanh khoản Amihud, thấy thanh khoản của các cổ phiếu sẵn có trên Sở Giao dịch Chứng khoán Tokyo tăng trong ngắn hạn sau khi thị trường cổ phiếu của Osaka được hợp nhất vào Tokyo năm 2013, với hiệu ứng tâm lý mạnh hơn ở cổ phiếu nhỏ; Arnold và cộng sự (1999, dẫn theo Hisada, 2018) cũng thấy hợp nhất sàn làm thanh khoản tăng. Wójcik (2007) phân tích quan hệ hai chiều giữa sàn chứng khoán và trung tâm tài chính. Bằng chứng về hợp nhất sàn chủ yếu đến từ thị trường phát triển; bằng chứng ở thị trường mới nổi còn ít và chưa đo khả năng đầu tư."
+ }
+]
