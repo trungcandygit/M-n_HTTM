@@ -138,3 +138,7 @@ Vòng 1: docx đã gửi; kiểm toán Vòng 1 CHƯA LÀM.
 - 2 agent: A (r8-review-A.md: 2 CR, 3 MJ, 11 m), B (r8-review-B.md: 0 CR, 4 MJ, 14 m). Luồng chính sửa 129 thao tác; validate PASSED.
 - Bản: outputs/round-8/de-cuong-v8-round-8.docx; nhật ký: outputs/round-8/nhat-ky-thay-doi-round-8.md.
 - Tiếp: vòng 9 phản biện lại (re-review) để xác nhận hết CR/MJ, kèm đánh giá độ khớp với NQ 57 và bài toán 19.
+
+## Vòng 9 (sửa nốt) — 16/10/2026
+- Người dùng gửi tài liệu (ho-so/TaiLieu_Vong8_GopTXT_16-10-2026.txt); đối chiếu ở reports/doi-chieu-tai-lieu-vong8.md.
+- Người dùng yêu cầu dừng 2 agent vòng 9, sửa nốt và trình bày lại (bảng chữ viết tắt, H chỉ số dưới, bảng gọn, tách đoạn). Bản: outputs/round-9/de-cuong-v9-round-9.docx. Chưa chạy phản biện vòng mới (chờ người dùng).

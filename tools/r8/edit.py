@@ -85,6 +85,39 @@ def set_runs_md(p, text):
         t.set(XML_SPACE, "preserve")
 
 
+def split_para(p, anchor):
+    """Tách đoạn p thành hai: phần trước anchor giữ ở p, từ anchor trở đi sang đoạn mới ngay sau."""
+    full = ptext(p)
+    pos = full.index(anchor)
+    q = copy.deepcopy(p)
+    for el in list(q.iter()):
+        for a in list(el.attrib):
+            if a.endswith("}paraId") or a.endswith("}textId"):
+                del el.attrib[a]
+    for tag in ("bookmarkStart", "bookmarkEnd"):
+        for b in q.findall(f".//{{{W}}}{tag}"):
+            b.getparent().remove(b)
+    def cut(par, keep_before):
+        acc = 0
+        for t in own_ts(par):
+            txt = t.text or ""
+            a, b = acc, acc + len(txt)
+            acc = b
+            if keep_before:
+                if a >= pos: t.text = ""
+                elif b > pos: t.text = txt[:pos - a]
+            else:
+                if b <= pos: t.text = ""
+                elif a < pos: t.text = txt[pos - a:]
+            t.set(XML_SPACE, "preserve")
+        # bỏ khoảng trắng ở rìa
+        ts = [t for t in own_ts(par) if t.text]
+        if keep_before and ts: ts[-1].text = ts[-1].text.rstrip()
+        if not keep_before and ts: ts[0].text = ts[0].text.lstrip()
+    cut(p, True); cut(q, False)
+    p.addnext(q)
+
+
 def main(docxml, editsfile):
     tree = etree.parse(docxml)
     root = tree.getroot()
@@ -129,6 +162,8 @@ def main(docxml, editsfile):
                 target = copy.deepcopy(p)
                 p.addnext(target)
             set_runs_md(target, e["text"])
+        elif e["op"] == "split_before":
+            split_para(p, e["anchor"])
         elif e["op"] == "delete_para":
             p.getparent().remove(p)
         ok += 1
