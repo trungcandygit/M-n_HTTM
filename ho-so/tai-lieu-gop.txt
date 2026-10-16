@@ -1,0 +1,2212 @@
+##### [1] Amihud, Mendelson & Lauterbach (1997) - NYU working paper (OCR) #####
+--- page ocr/p-01.png ---
+Department of Finance
+Working Paper Series 1998
+
+FIN-98-004
+
+Market Microstructure and Securities Values:
+Evidence from the Tel Aviv Stock Exchange
+
+Yakov Amihud, Haim Mendelson, Beni Lauterbach
+
+October 1997
+
+This working paper series has been generously supported by a grant from
+
+CDC Investment Management Corporation
+--- page ocr/p-02.png ---
+--- page ocr/p-03.png ---
+MARKET MICROSTRUCTURE AND SECURITIES VALUES:
+
+Evidence from the Tel Aviv Stock Exchange
+
+by
+
+Yakov Amihud
+Stern School of Business
+New York University
+New York, NY 10012
+
+Haim Mendelson
+Graduate School of Business
+Stanford University
+Stanford, CA 94305-5015
+
+Beni Lauterbach
+School of Business Administration
+Bar Ilan University
+Ramat Gan 52900, Israel
+
+October 1996
+
+We thank Steve Brown, Tai Ma and Bill Silber for helpful comments and suggestions, and the
+Tel Aviv Stock Exchange, Kobi Abramov, the Faculty of Management at Tel Aviv University
+and Tochna Lainyan for providing the data.
+--- page ocr/p-04.png ---
+MARKET MICROSTRUCTURE AND SECURITIES VALUES:
+Evidence from the Tel Aviv Stock Exchange
+
+Abstract
+
+This paper examines the value effects of improvements in the trading mechanism. Stocks on the
+Tel Aviv Stock Exchange were transferred gradually from a daily call auction to a mechanism
+where the call auction was followed by iterated continuous trading sessions. This event was
+associated with a positive and permanent price appreciation. The cumulative average market-
+adjusted return over a period that started five days prior to the announcement and ended 30 days
+after the stocks started trading by the new method was approximately 5.5%. In addition, we find
+positive liquidity externalities (spillovers) across related stocks, and improvements in the value
+discovery process due to the improved trading method. Finally, there was a positive association
+between liquidity gains and price appreciation. Our results suggest that improvements in market
+
+microstructure are valuable.
+--- page ocr/p-05.png ---
+1. Introduction
+
+Many securities markets around the world are making major investments to improve their
+trading technology. The London Stock Exchange is phasing in an automated order-driven trading
+system to improve liquidity and reduce trading costs’. Other European stock exchanges (e.g., the
+French, Italian, Spanish and Swedish markets) have converted their trading systems from the
+traditional call market to computer-based continuous trading alternatives. The stock exchanges of
+Toronto, Montreal, Vancouver and Alberta have recently changed their trading systems to
+
+support decimal pricing "in a bid to increase liquidity.”
+
+In the U.S., the Securities and
+Exchange Commission has introduced new rules requiring market-makers to incorporate in their
+public quotes both customer limit orders and orders they quote on electronic communication
+networks such as Instinet and Selectnet. These rules are intended to improve liquidity through
+increased market transparency and enhanced quality of execution.’ Further, emerging markets
+are evaluating and implementing new trading systems, and are making considerable investments
+in improving their microstructure.
+
+A question of interest for both financial economists and practitioners is whether
+investments in improving the market microstructure have positive value. The answer relates to
+
+the raison d'etre of market microstructure research, and it can quantify the benefits of improving
+
+trading mechanisms. This paper examines the value of an improvement in the market
+
+‘See London Stock Exchange (1996). The current plan is to implement the system for the
+FTSE-100 stocks while preserving the traditional quote-driven system for large-block trades.
+
+Source: Reuters Canadian Financial Markets Report, April 15, 1996. The change allows
+quotes in 5-cent increments for stocks priced above $5 Canadian Dollars and 1-cent increments
+for lower-priced stocks.
+
+See, Securities and Exchange Commission Release No. 34-37619, RIN 3235-AG66, Order
+Execution Obligations - Final Rules, August 29, 1996. These reforms were partly triggered by
+the studies of Christie and Schultz (1994) and Christie, Harris and Schultz (1994), who
+presented evidence that market makers implicitly colluded to maintain high bid-ask spreads,
+--- page ocr/p-06.png ---
+microstructure for selected stocks on the Tel Aviv Stock Exchange (TASE). In April 1987, the
+TASE introduced a new trading method, stating:
+
+"The objective of the new method is to create an efficient and well-functioning market for
+
+trading securities." (TASE (1987)).
+
+The TASE transferred stocks to the new trading method gradually, periodically selecting
+stocks on the basis of their "marketability." Before the transfer, the selected stocks were traded
+once a day in a call auction. After the transfer, these stocks traded in repeated continuous trading
+sessions following an opening daily call auction. Continuous trading after the call auction is
+expected to improve value discovery and trading efficiency and increase stock liquidity. If
+improvements in market microstructure are valuable, the prices of stocks selected for trading
+under the new method should increase upon the announcement of the change in their trading
+mechanism.
+
+Improved liquidity is expected to increase securities values because rational investors
+discount securities more heavily in the presence of higher trading costs (holding other things
+equal). This hypothesis, due to Amihud and Mendelson (hereinafter, A-M) (1986), was
+empirically supported by the evidence. Cross-sectionally, risk-adjusted returns on stocks and
+bonds were found to be increasing in their illiquidity, measured by the bid-ask spread (A-M
+(1986, 1989a, 1991a), Kamara (1994), Eleswarapu (1995)) or the price impact of trades (Brennan
+and Subrahmanyam (1996)), or decreasing in their liquidity, measured by volume or turnover
+ratio (Datar et al. (1996), Haugen and Baker (1996)). Silber (1991) found that on average,
+restricted stocks that are not allowed to trade on public exchanges are lower in value by 33.75%
+
+compared with identical publicly-traded stocks. Amihud, Mendelson and Wood (1990) found
+
+and Huang and Stoll (1996), who showed that NASDAQ spreads exceeded NYSE benchmarks.
+“See Amihud, Mendelson and Murgia (1990). Indeed, a TASE study (Tamari and Resnik
+(1990)) and Lauterbach and Ungar (1992) documented improvements in market microstructure-
+--- page ocr/p-07.png ---
+that during the October 19, 1987 stock market crash, price declines were greater for stocks
+whose liquidity suffered most, and price recovery was greater for stocks whose liquidity
+subsequently improved.
+
+We therefore expect that stocks transferred to the improved trading mechanism should
+increase in value. The TASE's board of directors announced a list of stocks to be transferred to
+the new trading method every few months, and the actual transfer took place a day or more
+afterwards. We estimated the market-adjusted price changes of the transferred stocks over a test
+period that begins five days before the TASE announcement and ends 30 days after these stocks
+started trading by the new method. The cumulative abnormal return on the transferred stocks
+over the test period averaged about 5.5%.° This suggests a significant value gain, especially
+compared with the moderate cost of the improvement. In December 1995, the market value of
+the 100 securities traded under the new method was about $26 billion. Assuming that the new
+trading mechanism gave rise to a permanent price increase of 5.5%, its introduction contributed
+at least $1.35 billion to the market value of securities traded on the TASE. The cost of this
+system was estimated at less than $10 million, including the cost incurred by the brokers and
+banks using the system.° Comparing these costs with the subsequent stock price appreciation
+demonstrates the value of investments in improving the market microstructure.
+
+The value of the new trading method exceeded the price appreciation of the transferred
+
+stocks since trading is characterized by liquidity externalities or spillover effects: when the prices
+
+related characteristics (volume and volatility) under the new trading method.
+
+°This value gain is smaller than in Silber (1991) because the transferred stocks were already
+publicly traded (in fact, they were the most liquid stocks) before their trading method was
+improved. In contrast, restricted stocks are illiquid for a long period of time (their holders
+cannot trade them in a public market for two years after being issued, and their subsequent
+liquidation is constrained to be gradual). Thus, the liquidity differential between restricted and
+publicly-traded stocks is far greater than the liquidity gains for the stocks in our study; the
+difference in value between them is correspondingly greater.
+
+‘This estimate was provided by Mr. Sam Bronfeld, the CEO of the TASE.
+--- page ocr/p-08.png ---
+of two securities are correlated, an improvement in the liquidity of one should improve the
+liquidity of the other (A-M (1988b, 1990, 1991c)). This results in part from the fact that
+improved value discovery for one security facilitates value discovery for the other (correlated)
+security. We test this effect using data on “twin stocks," i.e., two different classes of stock of the
+same company of which only one (the "primary stock") was transferred to the new trading
+method while the other (the "secondary stock") was not. Liquidity externalities would imply that
+the price of the secondary stock should increase upon the transfer announcement of the primary
+stock, but by a smaller magnitude. Our results support this hypothesis.
+
+Our study is related to research on the effects of exchange listing of stocks traded over the
+counter, which alters their market microstructure environment. This is presumably done with the
+expectation that listing would improve liquidity and value (Cooper et al (1985), A-M (1986,
+1988a)). Indeed, Christie and Huang (1994) found that exchange listings of NASDAQ stocks
+were associated with sharp declines in trading costs, especially for the less liquid stocks, which
+were both economically and statistically significant. Grammatikos and Papaioannou (1986),
+Sanger and McConnell (1986) and Kadlec and McConnell (1994) found that listing
+announcements led to price increases which were positively associated with liquidity
+improvements.
+
+Our paper differs from these studies. Exchange listing is a voluntary, endogenously-
+determined decision of a firm, reflecting some optimization by management, and it can be
+associated with its private information. Companies are not obliged to list and in fact hundreds of
+large, listing-eligible companies choose to remain unlisted. Thus, listing reflects an inherent self-
+selection: observed are only those cases where management expected listing to be beneficial. It is
+therefore impossible to examine the general effect of changing the market microstructure on
+
+securities values.
+--- page ocr/p-09.png ---
+In contrast, the event studied here is exogenous to the firm: the transfer decision was
+made by the TASE's board of directors, not by the firm's management. The TASE’s decision
+was based on the stock's marketability at the time of the decision and not on any private
+information about the firm's prospects. Therefore, the price appreciation reflects the value of
+improved market microstructure rather than any perceived firm-generated information, and there
+is no self-selection bias. This should not be construed as a criticism of studies on the effects of
+exchange listing. Rather, we point out that these studies have different objectives and hence they
+were not designed to examine the issue under study here.
+
+Our study is also related to studies that examined the effects of the announcement of
+adding stocks to the S&P 500 Index. Harris and Gurel (1986) and Shleifer (1986) found a
+temporary price increase which, they claimed, reflected a buying pressure by index funds which
+must invest in these stocks. For the more recent period, Shleifer (1986) and Lynch and
+Mendenhall (1996) found a permanent price appreciation, explained by the growing importance
+of index funds.
+
+Our results cannot be attributed to the demand by index funds because in Israel such funds
+are relatively unimportant.’ And while these funds were introduced only in the last two years of
+our sample period, we found that the price appreciation was the same in the earlier and later
+transfers to the new trading method. Thus, the demand of index funds cannot explain our results.
+Instead, we suggest that in both our study and in those on the S&P 500, the price appreciation is
+due to the improved liquidity, following A-M (1986). This hypothesis was recently tested and
+supported by Edmeister and Pirie (1995). Our results on liquidity externalities can also explain
+Dhillon and Johnson's (1991) findings that for firms whose stocks were selected for the S&P
+
+500, other traded securities appreciated. They attributed this finding to favorable information;
+
+70n December 1995, funds that invested in V-Method stocks constituted only 1.3% of the
+--- page ocr/p-10.png ---
+however, the selection for the S&P 500 list is not based on private information. By our results,
+the inclusion of a stock in the S&P 500 Index enhances its liquidity and generates liquidity
+externality which favorably affects the other securities of the same firm.
+
+In what follows, Section 2 describes trading mechanisms on the TASE and the market
+microstructure change that took place when the new trading system was introduced. Section 3
+presents our empirical results. We show in Section 3.2 that the value effects due to the new
+trading mechanism are positive, persistent and significant. In Section 3.3 we introduce liquidity
+externalities and examine their impact. In Section 3.4 we demonstrate how the new trading
+mechanism affected the liquidity and efficiency of the transferred stocks, and Section 4 offers a
+
+brief summary of our results and their implications.
+
+2. Trading Mechanisms on the Tel Aviv Stock Exchange
+
+The Tel Aviv Stock Exchange (TASE) is the only securities market in Israel. As of June
+1995, it had 672 listed stocks in addition to other corporate securities (warrants and bonds) and
+government bonds (TASE (1995)). The market value of the stocks listed on the TASE was about
+one half of Israel's annual GNP. The stock market became more important in the last decade due
+to the economic growth which followed the 1985 anti-inflation program, the liberalization of the
+Israeli capital market and the intensified privatization of government-owned firms.
+
+In 1987, the TASE made a fundamental change in its trading system, introducing a new
+method that enabled continuous trading facilitated by a number of daily trading sessions. We
+
+describe below the traditional call method of trading, the new Variable Price trading mechanism
+
+market value of these stocks. Some were confined to a subset of these stocks.
+--- page ocr/p-11.png ---
+and the process of transferring stocks from the old to the new method.
+
+2.1. The Call Method (C-Method)
+
+Prior to 1987, all stocks listed on the TASE were traded once a day in a call auction
+(hereafter, the C-Method). Until 1991, the auction was conducted by a human auctioneer.
+Investors’ limit and market orders were sent to the TASE before the opening or were retained by
+the brokers. Stocks were called in a predetermined sequence by an auctioneer, who first
+announced the stock's excess demand (positive or negative) at the previous day's closing price
+and then changed the price based on the direction of excess demand, proceeding at fixed price
+increments. As the announced price changed, the excess demand decreased (in absolute value)
+until an equilibrium was reached.*
+
+The auction process of the C-Method was computerized in 1991. Traders route orders to
+the TASE which electronically communicates the excess demand at the previous day's closing
+price. Traders observe the excess demand and have a short time interval during which they can
+send additional "offsetting orders" which can be only buy (sell) orders when the excess demand is
+positive (negative, respectively). Afterwards, the new excess demand (which reflects the
+offsetting orders) is announced, and traders can submit offsetting orders again. Following this
+round, the system computes the new equilibrium prices that are announced simultaneously for all
+stocks.
+
+There are a number of problems with the C-Method. First, an investor who submits an
+
+order for a particular stock does not know its clearing price nor the prices of related stocks.
+
+*If an equilibrium could not be reached at a daily price increase of 10%, the stock was
+announced as "buyers only” and the price was set at +5% without executing any order. After
+two days of "buyers only," the price was allowed to move without bound. Price declines were
+treated analogously.
+--- page ocr/p-12.png ---
+Once the price information for all stocks is broadcast after the call transaction, investors may
+want to adjust their trades for a particular stock. However, under the C-Method, such
+adjustments must be postponed to the following business day. Second, investors are reluctant to
+place large orders that could result in significant price impacts. Instead, they may break large
+orders into smaller ones and trade them over a number of days, thereby bearing the costs of
+illiquidity, delay and risk. The C-Method can also result in partial executions that may require
+additional trading on the following day. Finally, traders bear significant inventory risk when
+taking a position in a security because it can only be unwound on the following day. This
+diminishes the willingness of traders to provide liquidity by acting as market makers and absorb
+temporary demand or supply shocks. These shortcomings of the C-Method are particularly
+
+important in a thin and highly volatile market such as the TASE.
+
+2.2. The Variable Price Method (V-Method)
+
+In 1987, the TASE started experimenting with a new method of trading securities, the
+"Variable Price Method" (V-Method). The TASE engaged in a process of learning by doing and
+changed the V-Method during its initial period of operation. The following describes the method
+in its final form since December 6, 1987.
+
+Under the V-method, trading is opened by a call auction similar to the C-Method
+described above. Continuous trading then commences through a series of sequential trading
+sessions in an arena which resembles a trading pit. In each session, stocks are announced in a
+predetermined order, and traders in the arena can execute bilateral trades continuously, until the
+demand for trading is satisfied (usually within 1-3 minutes). At first, there was a single arena in
+which all V-Method trades occurred. Due to the increase in the number of stocks traded under
+
+this method, there are now three trading arenas operating simultaneously. On a typical day, there
+--- page ocr/p-13.png ---
+are 3-5 rounds of continuous trading, and each stock is traded a number of times in each round.’
+
+The V-Method was designed to increase liquidity and efficiency. Traders' ability to
+execute multiple transactions within the day mitigates the price impacts of large orders. Traders
+can also correct pricing errors after observing the prices of the same and similar stocks and
+obtaining additional market information. Such correction of pricing errors in response to market-
+wide information takes place in exchanges that open with a call auction followed by continuous
+trading; see Amihud, Mendelson and Murgia (1990) for the Milan Stock Exchange and A-M
+(1991b) for the Tokyo Stock Exchange. The V-Method thus facilitates the convergence of prices
+to new information and contributes to a smoother value discovery process. Finally, the ability to
+take a position and unwind it during the same day reduces the risk of carrying unwanted
+inventory. This increases traders’ willingness to absorb temporary demand shocks into their
+inventory and increases liquidity (A-M (1980), Ho and Stoll (1981)).
+
+Indeed, stocks transferred from the C-Method to the V-Method enjoyed an improvement
+in efficiency and liquidity and a decline in volatility (see Section 3.4 below). By the first half of
+1995, trading in V-Method securities accounted for 73% of the total equity trading volume on the
+TASE (including convertibles). About 40% of the volume in V-Method securities was traded at
+the opening call auction, and 60% -- in the subsequent rounds of continuous trading (TASE
+(1995)).
+
+A large proportion of trades still takes place at the open, partly because of a required
+minimum order size of $3,000 ($5,000 during part of our sample period) in the continuous
+trading sessions, although brokers may combine small orders with the same limit price into a
+larger order. Also, on the opening transaction all orders are executed at a single price, while in
+
+the continuous trading that follows there may be a difference between the buying and selling
+
+*In 1994, the mean daily number of transactions in the continuous trading session was 24.4
+--- page ocr/p-14.png ---
+prices, resulting in higher cost of trading (A-M (1985)). For some traders, the concentration of
+trading at the opening enhances liquidity (Mendelson (1985), Admati and Pfleiderer (1988)), and
+some are unwilling to delay their trades. As a result, both the opening call and the continuous
+trading sessions attract significant volume. Thus, the V-Method makes alternative trading
+methods available on the same stock exchange (as proposed by A-M (1985, 1988b)), and
+
+investors can choose between them.
+
+2.3. Transfer Procedure
+Stocks were phased into the new V-Method gradually. A TASE executive committee
+
+periodically selected groups of securities for transfer and made a recommendation to the TASE
+board of directors. Subsequently (usually within 5 trading days), the TASE board of directors
+publicly announced the list of securities to be transferred. The announcement day in our study is
+the day of the board's announcement. The actual transfer took place a few days following the
+announcement. The V-Method was designed for stocks with "high marketability" (TASE
+(1988)), and this constituted the main selection criterion.” The number of securities traded under
+
+the V-Method grew gradually and it is now one hundred.
+
+3. Methodology and Empirical Results
+Our main hypothesis is that the improved market microstructure under the V-Method had
+a positive effect on the prices of stocks transferred from the C-Method. We tested this
+
+hypothesis by conducting an event study of the transferred stocks. The transfer of stocks to the
+
+per stock, and the median was 17.1 (calculated from data in TASE (1994)).
+“Christie and Huang (1994) showed, however, that when stocks were transferred from
+NASDAQ to U.S. stock exchanges, the greatest liquidity benefits accrued to the less
+
+10
+--- page ocr/p-15.png ---
+V-Method is virtually @ pure microstructure event. The decision is made by the TASE based on
+"marketability" criteria, and the affected firm has no say in the matter. Hence, the transfer does
+not reflect any optimizing decision by the firm's management that can be expected to improve the
+stock value, nor does it reveal any private information about the firm. Consequently, any price
+effect of the TASE transfer decision can be attributed entirely to the change in the trading
+
+mechanism.
+
+3.1. The Data
+
+Stocks were transferred from the C-method to the V-method in groups, a few stocks at a
+time. We study all 120 stock transfers that occurred between December 6, 1987, when the
+TASE implemented the final and current form of the V-Method, and the end of 1994. The 120
+stocks were transferred in 17 batches; the average number of stocks in each transfer was 7 arid
+the median was 6. Part of the 120 transferred stocks were dropped at various times; the net effect
+of these additions and deletions is that 100 securities are currently traded under the V-Method.
+
+Data on the stocks transferred, the TASE announcement dates and the subsequent transfer
+dates was obtained from "This Month in the TASE," an official TASE publication. We
+designated as the announcement day the date of the transfer decision by TASE's board of
+directors. The decision was announced immediately after the market's closing, and thus affected
+stock prices on the following day. The transfer date was announced as part of the board's
+decision; it was between one and seven business days after the announcement day (the median
+was 3 days). We denote the announcement day by "A" and the transfer day by "T". Daily
+closing prices (adjusted for cash and stock dividends) were obtained from the Israeli financial
+
+data services firm Tochna Lainyan and from the database of the Faculty of Management at Tel
+
+marketable stocks.
+
+li
+--- page ocr/p-16.png ---
+Aviv University.
+
+3.2. Cumulative Abnormal Returns
+
+We first present descriptive event-study data documenting the Cumulative Abnormal
+Returns (CAR) (cf. Brown and Warner (1980)). The event window is from 5 days before the
+announcement until 30 days after the transfer. We start from day A-5 to account for possible
+leaks of the TASE executive committee's recommendation regarding the list of stocks to be
+transferred, and allow for a long post-event period to examine whether the effect on stock prices
+was permanent.
+
+We estimated the market model regressions
+
+Ra = on + BoRM: + en,
+
+where Rn is the return on stock n on day t and RM: is the daily return on the value-weighted
+TASE index (returns are the logarithms of the relative price changes, presented in percentage
+points), an and Bn are constant coefficients, and em are the residuals. The market model is
+estimated over days T+31 to T+160," in order to avoid an ex-post selection bias.” We then
+calculated the abnormal returns ARu = Ru - (an + BrRM)) for each day t in the event window,
+days A-5 through T+30, and the cumulative abnormal returns CARss = D°i=as ARn, S = A-5,
+A-4, ..., T+30. Then, we averaged the CARss across all stocks to obtain CARs. The days
+
+between the announcement A and the last day before the transfer, T-1, which varied, were
+
+"The last transfer event had data available only through day T+ 103.
+
+"Copeland and Mayers (1982) estimated the market model using post-ranking data in their
+study of the Value-Line enigma to avoid such a problem. Brown et al (1995) discuss biases in
+event-study results where parameters are estimated from pre-event data while the test is
+conditional on ex-post information. In their study of the effect of listing, Kadlec and
+McConnell (1995) used post-listing data to estimate the market model. Here, the selection
+criteria of the TASE may induce a bias in the estimated market-model parameters if we use
+pre-event data to estimate the model. The TASE is more likely to select stocks that reached
+high volume and capitalization, which implies that they performed unusually well prior to their
+
+12
+--- page ocr/p-17.png ---
+combined.”
+
+INSERT FIGURE 1 HERE
+
+As shown in Figure 1, the average cumulative abnormal return, CARs, rises slightly
+during days A-5 to A-1, possibly reflecting news leaks or market anticipation.'* It then rises
+sharply at the announcement and through day T, where CARr = 6.80%. The average CAR then
+declines slightly and hovers between +5% and +6% through the end of the event window.
+These results show that the transfer of stocks into the V-Method generated a permanent price
+increase of about 5% on average. However, this value may underestimate the full effect of the
+transfer to the V-Method. Because the selection criterion was based on "high marketability," the
+market could partially anticipate which stocks were likely candidates for transfer to the V-
+Method," and their prices could have risen well before the announcement.
+
+For explicitly testing the effect of the transfers to the V-Method, the ordinary event-study
+test procedure may be inappropriate. Because stocks were transferred in batches, the returns of
+stocks in the same batch could be cross-sectionally dependent, thereby biasing the variance
+estimates. We therefore carried out the event study tests for portfolios of stocks transferred in
+
+the same batch ("transfer portfolios"). Each of the 17 transfer events i, i=1,2,...,17 is identified
+
+selection.
+
+°A similar methodology was used in a takeover study by Asquith (1983), who combined
+the abnormal return from the announcement day to the outcome day since, as here, the time
+interval varied for each case in his sample.
+
+“The CAR for days A-5 through A-1 was 2.15%, mostly due to the abnormal return on
+day A-4, which was 1.235% (SE = 0.211%). This lends support to the leakage theory.
+
+“For example, on February 20, 1991, a news item ina leading Israeli Newspaper (Haaretz)
+reports that the TASE is constructing a new trading arena into which it expects to transfer
+about 40 securities for trading by the V-Method. The reporter provides a list of 11 stocks that
+were candidates for the transfer. Two months later, 8 stocks from that list were indeed
+transferred. Also, on January 9, 1992, the TASE announced that about 10 stocks would be
+transferred to the V-Method, and that the list with the stock names would be announced on
+January 26, 1992. Indeed, on that day the TASE's board of directors announced a list of 11
+stocks to be transferred.
+
+13
+--- page ocr/p-18.png ---
+by its announcement date Ai and transfer date Ti. The following model was estimated for each
+event i over days Ai-5 through Ti+ 160:
+
+(1) Ri = ot + BIRM: + Ci-1 ysDit + cit,
+
+where Ri is the equally-weighted day-t return on transfer-portfolio i, i=1,2,...,17, RM: is the
+daily return on the value-weighted TASE index, and ai, Bi and yi are constant coefficients. The
+abnormal return was estimated by using dummy variables, defined as follows:'°
+
+(1.1) Din = 1/5 on days A:-5 to Ai-1;
+
+Dix = 1/2 on days Ai and Ai+1;
+
+Dix = 1/ki on days Ai+2 to day Ti+30, ki being the number of days during this period.
+In this model, the regression coefficients ij measure the cumulative abnormal return over each of
+the three time intervals associated with the three dummy variables. We also calculated the sum
+of the dummy-variable coefficients for each event
+
+SUMi = yilt+y2+ye,
+where SUMi represents CARi over days Ai-5 to Ti+30.
+
+For our tests, we calculated the averages of the estimated coefficients across the 17
+events, Ayi=Ziyi/17, j=1, 2, 3, and the average of SUMi. The t-statistics are calculated in the
+ordinary way: t(Ayi) = Ayi/(SDyi/17'), where SDy; is the cross-sectional standard deviation of the
+17 estimated coefficients yi.
+
+INSERT TABLE 1 HERE
+
+The estimation results, presented in Table 1, show a highly significant price increase at
+the announcement of the transfer of stocks to the V-Method. The mean CAR over the pre-
+announcement period, Ayi, and over days A to A+1, Ay, are positive and significant, as
+
+evidenced by their t-statistics. Ay3, the post-announcement CAR, is insignificantly different from
+
+'’See Thompson (1985), Malatesta (1986), Karafiath (1988).
+
+14
+--- page ocr/p-19.png ---
+zero. SUM, which estimates the CAR over the entire period A-5 to T+30, has a mean of
+5.517% which is highly significant. Further tests on the significance of the 17 estimated t-
+Statistics, tj, which are distributed approximately as the standard normal random variable,
+confirm the robustness of our results (Table 1, Column (2)).
+
+Given the relatively small number of transfer events, the means could be affected by
+outliers. Column (3) presents the medians of the estimated regression coefficients of model (1)
+and of SUM. We observe that the key medians are similar in magnitude to the means.
+
+Column (4) of Table 1 presents the number of positive and negative coefficients yi for
+each j, and the respective binomial probability of observing the indicated number of negative i
+under the null hypothesis that the probability is 0.5. The results show that the null is soundly
+rejected at better than the 0.05 level for y2 and for SUM.
+
+While the improvement in liquidity after the transfer was anticipated on the announcement
+day, its full benefit could be consummated only in trading that started on the transfer day.'’ Only
+then were investors able to exploit the higher liquidity and lower transaction costs, which would
+induce them to pay more for these stocks. Thus, we also estimated the CAR from day
+A-5 through (including) the transfer day T, defining the dummy variable Di in model (1) over
+days Ai to Ti and calculating SUMTi = yi+y2. The results show that SUMTi was positive for all
+17 events. The mean SUMT was 7.547% (t=6.95) and its median was 7.650%.
+
+Overall, the results strongly support the existence of a positive price effect due to the
+transfer of stocks to the V-Method. The price increase was permanent, economically meaningful
+
+and statistically significant.
+
+"Christie and Huang (1994) showed that when stocks transfer from NASDAQ to the
+NYSE, the bid-ask spread narrows only from the day of the transfer. In 6 out of the 17
+transfers, day T was day A+1, whereas in 11 cases (82 stocks) the transfer occurred after day
+
+15
+--- page ocr/p-20.png ---
+3.3. Liquidity Externalities
+
+Trading is characterized by liquidity externalities, or spillovers, across securities (A-M
+(1988b, 1990, 1991c)):"8 when the values of two securities, A and B, are correlated, an
+improvement in the trading mechanism for security A will have a positive effect on the liquidity
+of B. This is because when a better trading mechanism improves value-discovery for A, traders in
+B can use the (improved) observed prices of A to make a better inference on the value of B. In
+addition, when the returns on A and B are highly correlated, the two securities may serve as
+partial substitutes in investors’ portfolios.
+
+We examine the existence of liquidity externalities as follows. A subsample of TASE
+companies have two classes of stock with identical claims on capital (including cash distributions
+and liquidation) but different voting rights.’ We call such stocks twin stocks. The two classes of
+twin stocks typically have differences in liquidity due to differences in the number of shares
+outstanding and float. We consider twin stocks where the primary stock - usually the more liquid
+of the twins - was transferred to the V-Method, while the secondary stock continued to be traded
+by the C-Method. The sample includes 23 twin stocks in 12 transfer events.
+
+The null hypothesis is that the transfer of the primary stock to the V-Method had no effect
+on the corresponding secondary stock. There are two alternative hypotheses:
+
+(1) The liquidity externality hypothesis. Section 3.2 demonstrates that stocks gain when
+they are transferred to the improved trading mechanism of the V-method. If there are positive
+
+liquidity externalities, the secondary stock should also enjoy some of the benefits of the improved
+
+Atl.
+
+“Liquidity externalities for individual securities were introduced in Mendelson (1985). On
+the public-good type externality of services provided in the securities markets, see Cohen et. al
+(1986, Ch. 8).
+
+“The ratio of voting rights between the two classes is usually 5:1.
+
+16
+--- page ocr/p-21.png ---
+trading method for the primary stock, resulting in a price increase for the secondary stock. The
+hypothesis is thus that at the announcement,
+
+(i) the price of the secondary stock increases, but
+
+(ii) by less than the price increase of the primary stock.
+
+(2) The substitution hypothesis, If investors' demand for the twin stock is not perfectly
+elastic,” the improved liquidity of the primary stock makes it more attractive relative to the
+secondary stock, thereby reducing the demand for the secondary stock. Under this hypothesis,
+the secondary stock's price will decline.
+
+INSERT FIGURE 2 HERE
+
+These hypotheses are examined using our subsample of 23 twin stocks. Figure 2 shows
+the average CAR over days A-5 through T+30 for both primary and secondary stocks. The
+CAR for the secondary stocks from day A-5 to T (transfer) was 3.3% compared with 7.8% for
+the primary stocks. This result supports both parts of the liquidity externality hypothesis: (i)
+prices of secondary stocks increase even though the improved trading method is available only to
+the primary stocks; and (ii) the price increase is greater for the primary stocks, which directly
+benefit from the improved trading method.
+
+To test the statistical significance of these results, we estimated model (1) for the
+secondary stock portfolios, with the dummy variables set to measure the CAR over the period A-
+5toT.” The mean SUMT was 4.88% (t = 2.83) and the median was 4.62%. This supports part
+(i) of the liquidity externality hypothesis: there was a significant increase in the price of the
+
+secondary stocks that continued to trade under the C-Method when their twins were transferred to
+
+See Shleifer (1986). For example, the stock may provide a comparative advantage in
+some states of the world.
+
+"The secondary stocks’ estimation model includes a lagged market return because, being
+traded on the C-Method, some of these stocks adjust their prices gradually to the market. See
+analysis in section 3.4.2 below.
+
+17
+--- page ocr/p-22.png ---
+the V-Method.
+
+To test part (ii) of the liquidity externality hypothesis we calculated DRi, the difference
+between the portfolio returns on the primary and secondary stocks in event i on day t. Using
+DRi: as the dependent variable in model (1), we found that the cumulative differential return over
+the period A-5 to T, SUMT, had a mean of 4.25% (t=2.34) and a median of 5.07%. This
+shows that the price increase of the secondary stocks, which enjoyed a liquidity externality, was
+significantly lower than the price increase of the primary stocks that directly benefitted from
+
+higher liquidity under the V-Method.
+
+3.4. Liquidity, Efficiency and the Trading Mechanism
+
+The V-Method was expected to improve market quality compared to the C-Method.
+Next, we examine how the liquidity and efficiency of trading were affected by the transfer from
+the C-Method to the V-Method.
+3.4.1. Liquidity
+
+Liquidity in the TASE cannot be measured by bid-ask spreads because there are no
+designated market-makers or specialists who post bid and ask quotes.” We use instead two
+common measures of liquidity: the stock's trading volume and the stock's liquidity (or Amivest)
+ratio.
+(1) Trading Volume (V): this measure of liquidity is often used by practitioners and academics.
+Theoretically, the trading volume or trading frequency of a given security increases in its
+liquidity, other things equal (Mendelson (1982, 1985), A-M (1986)). Thus, an increase in the
+
+trading volume of a stock after its transfer to the V-Method reflects an increase in its liquidity.
+
+*In a market like the TASE, it is still theoretically possible to impute a bid-ask spread from
+the limit prices of the marginal buy and sell orders that could not be executed. These data,
+
+18
+--- page ocr/p-23.png ---
+INSERT FIGURE 3 HERE
+
+We calculated the relative volume of each stock (the stock's volume as a percent of the
+market volume) for each event-day S, and then averaged the relative volumes across the 120
+stocks. The resulting time series are presented in Figure 3. Clearly, the transfer of stocks to the
+V-Method is associated with a dramatic increase in their trading volumes.” Noteworthy is the
+upward trend in the relative trading volume of the transferred stocks prior to the announcement.
+This trend probably contributed to the likelihood that these stocks would be selected for transfer
+to the V-Method.
+
+To test the rise in volume for our sample, we define the change in the relative volume as
+
+DVi = log(Vi/VM)arter - log(Vi/VM)serore ,
+where Vi and VM are, respectively, the average daily trading volume on stock j and on the
+market (in monetary units), and the subscripts indicate "before the announcement" (days A-155
+through A-31) and "after the transfer" (T+31 through T+ 160). DVi was positive for 78% of the
+
+transferred stocks; its mean was 0.492% (t=7.27), the median was 0.421%.
+
+(2) Liquidity Ratio (LR) (also called the Amivest measure of liquidity): measures the trading
+volume associated with a unit change in the stock price. Higher LR implies greater market
+liquidity or depth. The liquidity ratio is defined as”
+
+LRi = Xt Vie / Xe eRie ,
+where Vi: and Ri: are, respectively, the volume and return on stock j on day t, and the summation
+is over the days in the estimation period. The relative change in LR for stock j is defined by
+
+DLR; = log (LRiarrer/LRj.Berore) ,
+
+however, are unavailable.
+These results are consistent with Lauterbach and Ungar's (1992) findings in their
+exploratory analysis on the very early stages of the V-Method.
+
+19
+--- page ocr/p-24.png ---
+where the subscripts are defined above. DLR was positive for 85% of the transferred stocks,
+with a mean of 0.87 (t=10.90) and a median of 0.87.” In summary, the transfer to the V-
+Method was associated with a significant increase in liquidity.
+
+The results are thus consistent with our hypothesis on the positive relation between
+liquidity and stock values: the stocks transferred to the V-Method enjoyed both substantial
+liquidity gains and significant price increases. Naturally, the impact of the transfer varied across
+stocks. Thus, a further examination of our hypothesis is provided by estimating the cross-
+sectional model
+(2) CARi = &*DLIQi + D'x-1 (kee DUMEVENTs + «i ,
+where CAR; is the cumulative abnormal return on stock j from day A-5 to day T+30, DLIQ is
+the change in liquidity as measured by DV or DLR, and DUMEVENT® = 1 when stock j is in
+event k (zero otherwise). By our hypothesis, § > 0.
+
+The estimation results were as follows. For DLIQ defined as DV, 6 = 5.10 (t=2.03),
+and for DLIQ defined as DLR, 5 = 4.17 (t = 1.80).”° Both coefficients are significant at better
+than 5% (one tail test). This shows that across stocks too, the price increase after the transfer to
+the V-Method was related to the improvement in liquidity.
+
+3.4.2. Efficiency
+
+Improving market efficiency was a stated objective of the TASE in instituting the V-
+
+Method (TASE (1987)). This implies an improvement in the value discovery process by which
+
+information is incorporated into stock prices. Continuous trading enables investors to obtain
+
+See Cooper, Groth and Avera (1985), Khan and Baker (1993).
+
+>DLR is interpreted as follows: after the transfer to the V-Method, there was an increase of
+0.87 NIS in the trading volume that was associated with a change of 1% in the stock price.
+This means that the market had more depth.
+
+6The standard errors were estimated using White's (1980) method. The estimated
+coefficients may be biased towards zero due to the problem of errors-in-the-variables. Here,
+the explanatory variable, DLIQ, is a noisy estimate of the improvement in liquidity of the
+
+20
+--- page ocr/p-25.png ---
+information about the value of a stock after having observed both contemporaneous market
+movements and the transaction prices of the same stock and related (similar) securities.” This
+should enable investors to incorporate information into the stock price more quickly and with
+greater precision compared to the C-Method. Therefore, under the V-Method the pricing errors
+relative to the contemporaneous market index will be smaller because of (a) faster adjustment to
+changes in the market index, and (6) smaller firm-specific errors given the information available
+from the observed prices of the same and related stocks. In what follows, we first examine the
+pricing errors before and after the stock transfer to the V-Method, and then study their sources.
+
+A-M (1989, 1991b) introduced the Relative Return Dispersion, based on the variance of
+returns across securities, as a descriptive measure of the efficiency of a trading mechanism.
+Christie and Huang (1990, 1995) used the cross-sectional dispersion of equity returns to study the
+tendency of asset prices to move together over the business cycle and in extreme market moves.
+
+The Relative Return Dispersion (RRD) is defined by
+
+RRDs = (1/120)°E™%-1 es,
+
+where gis is the simple market-model residual of stock i on event-day S; the market model was
+estimated separately before and after the announcement date. The RRD measures for each day S
+the dispersion of the returns on the individual stocks around the market. Since the dispersion of
+values due to firm-specific information should be independent of the trading mechanism,
+systematic differences in RRD between the "before" and "after" periods indicate differences in
+efficiency.
+
+INSERT FIGURE 4 HERE
+
+transferred stocks, and thus its estimated effect is smaller than its true effect.
+
+"This is consistent with the existence of liquidity externalities, discussed in Section 3.3.
+Amihud, Mendelson and Murgia (1990) observed that in the Milan Borsa, pricing errors in the
+call auction were reversed towards the market during the continuous trading session that
+followed the call.
+
+21
+--- page ocr/p-26.png ---
+The behavior of RRDs, shown in Figure 4, is consistent with greater efficiency after the
+transfer to the V-Method: The average of RRDs over days A-155 through A-31 was 8.79,
+compared with 5.79 over the period T+31 through T +160.
+
+We next examine the change in the two factors that may contribute to inefficiency under
+the C-Method: (a) lagged adjustment to changes in the market index, and (b) high firm-specific
+noise. We estimated for each stock the lagged market model regression
+(3) Ri = of + Pic RM: + Pie RMes + ait,
+where Rit is the return on stock j on day t, RM: is the market return, fj and 1) are the coefficients
+for current and lagged RM, respectively, and «i is the residual whose variance is denoted by
+Var(e). The model was estimated separately over two periods: before the announcement, days
+
+A-155 through A-31, and after the transfer, days T-+31 through T+ 160.
+
+INSERT TABLE 2 HERE
+
+The results, presented in Table 2, are consistent with the hypothesis that the V-Method (in
+particular, the ability to trade throughout the day) improved efficiency.
+(a) Adjustment to market information. Under the C-Method, there was a significant adjustment
+lag to the market index: the mean of 18 was 0.146, highly significant. After the transfer to the V-
+Method, 18 declined for most stocks and its mean became practically zero, implying that stock
+prices adjusted promptly to market information. The coefficient B of the contemporaneous
+market return correspondingly increased after the transfer so that the mean of B +16 remained
+about the same (1.075 before vs 1.100 after). Thus, while the fundamental relation between the
+returns on individual stocks and the market was unaffected by the change, traders’ ability to react
+to market movements on the same day (rather than having to wait for the following day's call)
+
+increased market efficiency. While this outcome is directly predictable given the change in the
+
+22
+--- page ocr/p-27.png ---
+trading mechanism, it is reassuring that the results are strong and statistically significant.
+
+(b) Firm-specific information. Continuous trading enables to learn firm-specific information
+and to trade on it through the same trading day. Thus, we examined whether the transfer to the
+V-Method lowered the variance of the residuals from the lagged market model (3), which
+controls for the effects of delayed adjustment to the market. Indeed, the results in Table 2 show
+that after the transfer the residual variance, Var(e), declined for most stocks, and its average was
+lower by about a third. While the change in market microstructure should not have changed any
+fundamental information about the stocks (other than the change in their liquidity), it had a
+favorable effect on the precision with which new firm-specific information was incorporated in
+
+stock prices.
+
+3.4.3. The Interaction of Liquidity and Efficiency Improvements
+
+Finally, we propose that the improvements in liquidity and efficiency, brought about by
+the improvement in market microstructure, are positively correlated (A-M (1988b)). To test this
+hypothesis, we used the two measures of change in efficiency discussed above: the change in the
+B coefficient of the lagged RM,
+
+dIPi = 1Pi.Arrer - 1Bj.BEFORE,
+and the change in the variance of the market model residuals,
+
+dVar(e)j = log(Var(e)i.arrer) - log(Var(e)j,BEFoRE),
+Both measures were obtained from model (3), estimated over both the "before" and "after"
+
+periods. We then estimated the cross-sectional models
+
+(4) dipi = n*DVi + 2'%e-1 xe DUMEVENTS +i ,
+and
+(5) dVar(e)i = O*DVi + Z'%k=1 ke DUMEVENTs +Ki ,
+
+23
+--- page ocr/p-28.png ---
+where DVj is the change in volume as defined above, and the dummy variables DUMEVENT«
+are as defined in model (2). By our hypothesis on the interaction between liquidity and
+efficiency changes, we expect 7 < 0 and 6 < 0. That is, improved liquidity should reduce the
+lag in price adjustment and the return noise.
+
+The estimated coefficients were n = -0.114 (t = 4.05) and @ = -0.062 (t = 1.20).”
+Both 7 and @ had the expected sign, although only n was significantly different from zero.”°
+
+In summary, the results suggest that improvements in liquidity are associated with greater
+
+efficiency in the dissemination of information into stock prices.
+
+4. Conclusions
+In this paper we showed that improvements in market microstructure are valuable.
+
+Specifically, we found that stocks that were transferred to a more efficient trading method in the
+TASE enjoyed significant and permanent price increases. Since the transfer of stocks was
+mandated by the TASE and was not a decision made by the companies' managements, it
+represents a pure market microstructure event: the transfer does not reflect private information of
+the companies' insiders and the results are not due to self-selection. Rather, the price
+appreciation found for stocks transferred to the new trading method reflects the value of
+
+improved market microstructure that brings about improvement in liquidity.
+
+*°We did not use the liquidity ratio as a measure of liquidity for this test because both DLR
+and the efficiency measures were generated from the same return data, raising the possibility of
+a spurious relation between them. Regressions using DLR gave rise to similar results: y = -
+0.106 (t = 3.69), and 6 = -0.184 (t = 3.90).
+
+The regression standard errors were estimated using White's (1980) method. Again, the
+estimated coefficients may be biased towards zero due to the problem of errors-in-the-
+variables; see footnote 26.
+
+*Tn addition, we estimated the relation between the change in B itself and DV, obtaining a
+regression coefficient of 0.18 with t=6.23, consistent with our hypothesis. This is the mirror
+
+24
+--- page ocr/p-29.png ---
+Stock liquidity improved following the transfer to the new trading method: there was a
+large and significant increase in the market-adjusted trading volume and in the liquidity ratio.
+Across stocks transferred to the new method, the value gains were positively associated with the
+increase in liquidity. The new method also led to improved efficiency of the value-discovery
+process. Stock prices adjusted faster to market information, and the noise in stock prices
+declined. These efficiency gains were positively related to the liquidity improvement across
+stocks. The greater efficiency made stock prices more informative, and the improved trading
+system benefitted the market as a whole. We also found that the benefits of the improved trading
+method generated positive externalities (or spillovers) for related stocks which continued to trade
+under the old trading method. These stocks, although not directly affected by the more liquid
+new trading method, also appreciated when their "twin" stocks were transferred to the new
+method.
+
+Our results highlight the value of improving the quality of trading mechanisms (A-M
+(1988b)). In Israel, the value benefits were a very large multiple of the investment in the
+improved trading system. Our methodology can be extended to the study of liquidity events in
+other securities markets that changed their microstructure, such as in Europe and in emerging
+markets. It would be interesting to define the market-microstructure events for the changes
+
+occurring in these markets and to study their impact on securities values.
+
+image of the results for dlB, given no change in the fundamentals.
+
+25
+--- page ocr/p-30.png ---
+REFERENCES
+
+Admati, A. and P. Pfleiderer, 1988, A theory of intraday patterns: volume and price variability,
+Review of Financial Studies 1, 3-40.
+
+Amihud, Y., and H. Mendelson, 1980, Dealership market: Market making with inventory,
+Journal of Financial Economics, 311-53.
+
+Amihud, Y., and H. Mendelson, 1985, An integrated computerized trading system, in: Market
+Making and the Changing Structure of the Securities Industry (Lexington Books, Lexington,
+MA) 217-235.
+
+Amihud, Y. and H. Mendelson, 1986, Asset pricing and the bid-ask spread, Journal of Financial
+Economics 17, 223-249.
+
+Amihud, Y. and H. Mendelson, 1988a, Liquidity and asset prices: financial management
+implications, Financial Management 17, Spring, 5-15.
+
+Amihud, Y. and H. Mendelson, 1988b, Liquidity, volatility and exchange automation, Journal
+of Accounting, Auditing and Finance 3, 369-395.
+
+Amihud, Y. and H. Mendelson, 1989, Market microstructure and price discovery on the Tokyo
+Stock Exchange, Japan and the World Economy 1, 341-370.
+
+Amihud, Y. and H. Mendelson, 1990, Option Markets Integration. Paper submitted to the U.S.
+Securities and Exchange Commission, January.
+
+Amihud, Y. and H. Mendelson, 1991a, Liquidity, maturity and the
+yields on U.S. government securities, Journal of Finance 46, 1411-1426.
+
+Amihud, Y. and H. Mendelson, 1991b, Volatility, efficiency and trading: evidence from the
+Japanese stock market, Journal of Finance 46, 1765-1789.
+
+Amihud, Y. and H. Mendelson, 1991c, How (not) to integrate the European capital markets, in
+A. Giovannini and C. Mayer, eds., European financial integration (Cambridge University Press,
+Cambridge, MA), 73-99.
+
+Amihud, Y. and H. Mendelson, 1991d, Liquidity, asset Prices and financial policy, Financial
+Analysts Journal, Nov./Dec., 56-66.
+
+Amihud, Y., H. Mendelson and M. Murgia, 1990, Stock market microstructure and return
+volatility: evidence from Italy, Journal of Banking and Finance, 423-440.
+
+26
+--- page ocr/p-31.png ---
+Amihud, Y., H. Mendelson and R. Wood, 1990, Liquidity and the 1987 stock market crash,
+Journal of Portfolio Management, Spring, 65-69.
+
+Asquith, Paul, 1983, Merger bids, uncertainty, and stockholders return, Journal of Financial
+Economics 11, 51-83.
+
+Brennan, M. and A. Subrahmanyam, 1996, Market microstructure and asset pricing: on the
+compensation for illiquidity in stock returns, Journal of Financial Economics 41, 441-464.
+
+Brown, S.J. and J.B. Warner, 1980, Measuring security price performance, Journal of Financial
+Economics 8, 205-258.
+
+Brown, S.J., W.N. Goetzmann and S.A. Ross, 1995, Survival, Journal of Finance 50, 853-873.
+
+Christie, W.G. and R.D. Huang, 1990, Equity return dispersion: Their behavior and relation to
+business conditions, Working paper (Owen Graduate School of Management, Vanderbilt
+University, TN).
+
+Christie, W.G. and R.D. Huang, 1994, Market structures and liquidity: a transactions data study
+of exchange listings, Journal of Financial Intermediation 3, 300-326.
+
+Christie, W.G. and R.D. Huang, 1995, Following the pied piper: do individual returns herd
+around the market? Financial Analysts Journal July/August, 31-37.
+
+Christie, W.G. and P.H. Schultz, 1994, Why do NASDAQ Market Makers Avoid Odd-Eighth
+Quotes? The Journal of Finance 49, 1813-1840.
+
+Christie, W.G., J.H. Harris and P.H. Schultz, 1994, Why did NASDAQ Market Makers Stop
+Avoiding Odd-Eighth Quotes? The Journal of Finance 49, 1841-1860.
+
+Cohen, K.J., S.F. Maier, R.A. Schwartz and D.K. Whitcomb, 1986, The microstructure of
+securities markets (Prentice-Hall, Englewood Cliffs, NJ).
+
+Copeland, T.E. and D. Mayers, 1982, The Value Line enigma, Journal of Financial Economics
+10, 289-321.
+
+Cooper, S.K., J.C. Groth and W.E. Avera, 1985, Liquidity, exchange listing and common stock
+performance, Journal of Economics and Business 37, 19-33.
+
+Datar, V., N. Naik and R. Radcliffe, 1996, The role of trading activity in the cross-section of
+stock returns, Working paper (London School of Economics, London, England).
+
+Dhillon, U. and H. Johnson, 1991, Changes in the Standard and Poor's 500 list, Journal of
+Business 64, 75-85.
+
+Edmeister, R.O. and W.L. Pirie, 1995, Trading cost expectations: evidence from S&P 500 index
+
+27
+--- page ocr/p-32.png ---
+replacement stock announcement, Working paper (University of Mississippi, MS).
+
+Eleswarapu, V.R., 1995, Cost of transacting and expected returns in the NASDAQ market,
+Working paper (University of Auckland, New Zealand).
+
+Harris, L. and E. Gurel, 1986, Price and volume effects associated with changes in the S&P 500
+list: new evidence for the existence of price pressures, Journal of Finance 41, 815-829.
+
+Huang, R.D. and H.R. Stoll, 1996, Dealer versus auction markets: A paired comparison of
+execution costs on NASDAQ and the NYSE, Journal of Financial Economics 41, 313-357.
+
+Ho, T. and H.R. Stoll, 1981, Optimal dealer pricing under transactions and return uncertainty,
+Journal of Financial Economics 9, 47-73.
+
+Jones, J., K. Lehn and J.H. Mulherin, 1991, Institutional ownership of equity: effects on stock
+market liquidity and corporate long-term investment, in A.W. Sametz, ed., Institutional investing
+(Business One Irwin, Homewood, IL), 115-127.
+
+Haugen, R.A. and N.L. Baker, 1996, Commonality in the determinants of expected stock
+returns, Journal of Financial Economics 41, 401-439.
+
+Ho, T. and H.R. Stoll, 1981, Optimal dealer pricing under transactions and return uncertainty,
+Journal of Financial Economics 9, 47-73.
+
+Kadlec, G. B. and J. J. McConnell, 1994, The effect of market segmentation and illiquidity on
+asset prices: evidence from exchange listings, Journal of Finance 49, 611-636.
+
+Kamara, A., 1994, Liquidity, taxes, and short-term treasury yields, Journal of Financial and
+Quantitative Analysis 29, 403-416.
+
+Karafiath, I., 1988, Using dummy variables in the event study methodology, Financial Review
+23, 351-357.
+
+Khan, W.A. and H.K. Baker, 1993, Unlisted trading privileges, liquidity and stock returns,
+Journal of Financial Research 16, 221-236.
+
+Lauterbach, B. and M. Ungar, 1992, The effect of the transfer to the variable trading method on
+the return behavior and on trading volume. Working paper.
+
+London Stock Exchange, New Electronic Trading Services, London, UK, January 1996.
+
+Lynch, A.W. and R.R. Mendenhall, 1996, New evidence on stock price effects associated with
+changes in the S&P 500 index, Journal of Business, forthcoming.
+
+Malatesta, P.H., 1986, Measuring abnormal performance: the event parameter approach using
+joint generalized least squares, Journal of Financial and Quantitative Analysis 21, 27-38.
+
+28
+--- page ocr/p-33.png ---
+Mendelson, H., 1982, Market behavior in a clearing house, Econometrica 50, 1505-1524,
+
+Mendelson, H., 1985, Random competitive exchange: price distributions and gains from trade,
+Journal of Economic Theory 37, 254-280.
+
+Phillips, S.M. and J.R. Zechner, 1982, Exchange listing and the cost of equity capital, Working
+paper 8 (Capital Markets, U.S. Securities and Exchange Commission, Washington, D.C.).
+
+Sanger, G.C. and J. J. McConnell, 1986, Stock exchange listings, firm value, and security
+market efficiency: the impact of NASDAQ, Journal of Financial and Quantitative Analysis 21, 1-
+25. .
+
+Shleifer, A. 1986, Do demand curves for stocks slope downward? Journal of Finance 41, 579-
+590.
+
+Silber, W.L., 1991, Discounts on restricted stock: the impact of illiquidity on stock prices,
+Financial Analysts Journal, July-August, 60-64.
+
+Tamari, R. and A. Resnik, 1990, The marketability of stocks before and after the transfer to the
+variable method (In Hebrew), This Month in the Bursa (May), 12-18.
+
+Tel Aviv Stock Exchange, 1987, The trading in variable prices and in multilateral trading (an
+experiment in a new trading method). (April).
+
+Tel Aviv Stock Exchange, 1988, The trading in variable prices and in multilateral trading.
+(August).
+
+Tel Aviv Stock Exchange, 1994, Marketability guide 35.
+Tel Aviv Stock Exchange, 1995, This Month in the Bursa, (July).
+
+Thompson, R., 1985, Conditioning the return-generating process on firm-specific events: a
+discussion of event study methods, Journal of Financial and Quantitative Analysis 20, 151-168.
+
+White, H., 1980, Heteroskedasticity-consistent covariance matrix estimator and a direct test for
+heteroskedasticity, Econometrica 48, 817-838.
+
+29
+--- page ocr/p-34.png ---
+Table 1: Estimated Value Effects of
+Stock Transfers to the V-Method
+
+Results for the event-study model
+(1) Rit = a6 + BRM: + S-1yiDie + it ,
+for 120 TASE stocks that transferred from the C-Method to the V-Method of trading over the
+period 1988-1994, aggregated in 17 transfer events. Ri is the equally-weighted day-t return on
+transfer-portfolio i, i=1,2,...,17, RM is the daily return on the value-weighted TASE market
+index (returns are in percentage points, with 1% presented as 1) and ai, Bi and yi, j=1, 2, 3 are
+constant coefficients. The announcement day is denoted by A and the transfer day by T. For
+each event i, i=1, 2, .... 17, model (1) was estimated for the portfolio of transferred stocks from
+day Ai-5 to day Ti+160. The coefficients of the 3 dummy variables Di estimate the cumulative
+abnormal returns (CAR) over three periods:
+(1.1) Di: day Ai-5 to Ai-1;
+
+Diz: day Ai to Ai+1;
+
+Dis: day Ai+2 to Ti+30.
+
+SUMi = yii+ye2+y is the CAR from day A:-5 to day Ti+30.
+
+The results are documented as follows.
+
+Column (1): average of the estimated coefficients across events (t-statistic in parentheses).
+Column (2): t(Aty;), the t-statistic for the means of the 17 sample tyi statistics from the regression
+of model (1), tyi = yi/SE(yi). The mean and standard deviation of the 17 t-statistics, Atyi and
+SDty;, are used to calculate the ordinary t-statistic t(Aty)) = Atyi/(SDtyi/17 ). The t-tests for o and
+B are analogous.
+
+Column (3): medians of the 17 estimated coefficients.
+
+Column (4): number of positive and negative estimated coefficients. In parentheses: the binomial
+probability that yi is equally likely to be positive or negative, against the alternative hypothesis
+that it is positive.
+
+Column (5): weighted average of the estimated coefficients of model (1) over the 17 estimations,
+the weights being the number of stocks in each event (portfolio) (t-statistics are in parentheses).
+
+The last row documents the results from model (1), where the dummy variable Diz is for day A to
+T, Do for day T+1 to T+30 and SUMTi = yu+ye, CAR from day A-5 to day T.
+
+30
+--- page ocr/p-35.png ---
+Mean (Ayi)_ | t(Atyi) Median Pos:Neg Weighted
+(t-statistic) Statistic (Binomial Mean
+Variable Probability) | (t-statistic)
+() (2) (3) (4) 6)
+Intercept -0.067 -2.39* -0.106 5:12 -0.074
+(-2.19) (0.975) (-2.41)*
+B 1.139 10.64* 1.135 17:0 1.114
+(26.49)* (0.000) (27.82)*
+D1: 2.133 2.34* 0.970 12:5 2.360
+A-5 to A-1 (2.30)* (0.072) (2.61)*
+D2: 3.035 5.36* 3.325 15:2 2.860
+Ato A+] (4.42)* (0.001) (4.48)*
+D3: 0.349 0.56 0.129 9:8 1.095
+A+2 to T+30 (0.21) (0.500) (0.70)
+SUM: 5.517 6.380 13:4 6.31
+A-5 to T+30 (3.05)* (0.025) (3.95)*
+SUMT: 7.547 7.650 17:0 6.992
+A-5 to T (6.95)* (0.000) (6.16)*
+
+* Significant at 0.01
+* Significant at 0.05
+
+31
+
+--- page ocr/p-36.png ---
+Table 2: Changes in efficiency
+
+Estimated parameters of the market model
+(3) Rit = ai + Bie RM: + Bie RMei + eit.
+
+Ri is the daily return on stock j on day t, RM: is the market daily return and gi is the residual
+return. {i and 1pj measure the beta coefficients for contemporaneous and lagged RM, and Var(e)
+is the estimated residual variance. There are 120 stocks transferred to the V-Method over the
+1988-1994 period. The "before" period is days A-155 through A-31 and the "after" period is
+days T+31 to T+160 (A is the announcement day and T is the transfer day).
+
+B Ip Var(e)
+Before announcement:
+Mean 0.929 0.146 8.791
+(Std. Error) (0.027)" (0.022) (0.743)
+Median 0.959 0.118 6.251
+After transfer:
+Mean 1.108 -0.008 5.929
+(Std. Error) (0.026) (0.017) (0.522)
+Median 1.091 -0.020 4.289
+Difference
+After-Before:
+Mean 0.180 -0.154 -2.862
+(Std. Error) (0.037) (0.023)° (0.578)
+Median 0.104 -0.130 -2.010
+Positive: Negative 77:43* 35:85 23:97"
+
+*0, *1: The mean is significantly different from 0 or 1, respectively (at the 0.05 level).
+y
+
+#0, #1 : The mean is not significantly different from 0 or 1, respectively (at the 0.05
+level).
+
++ : The proportion of cases which are positive is significantly different from 0.50 (at the
+0.05 level).
+
+32
+--- page ocr/p-37.png ---
+Figure Legends
+
+Figure 1: Cumulative Abnormal Returns for Stocks Transferred to the V-Method. Average
+cumulative abnormal returns (CAR) for 120 stocks that were transferred from the C-Method to
+the V-Method of trading on the Tel Aviv Stock Exchange (TASE) between December 6, 1987
+and the end of 1994. "A" on the event day axis aggregates the time period from the day of the
+announcement by the TASE of the stocks selected for transfer through the day before the transfer
+(the number of days in this period varied). "T" is the transfer day. The CAR for each stock was
+estimated over the period A-5 through T+30. The market model from which the parameters
+were estimated is
+Ro = on + BoRM: + ex ,
+
+where Ru is the return on stock n on day t and RM is the daily return on the TASE value-weighted index
+(returns are the logarithm of relative price changes). om and Bn are constant coefficients, and ex
+are the residuals. The market model was estimated over days T+31 through T+ 160.
+
+Figure 2: Cumulative Abnormal Returns for Twin Stocks. Average CAR for 23 twin-stock
+pairs in 12 transfer events on the TASE. In each case, the firm had two classes of stock listed.
+One class (the "primary" stock) transferred from the C-Method to the V-Method of trading while
+the other class (the "secondary" stock) continued to be traded under the C-Method. See Figure 1
+for more details regarding the data and estimation. "A" on the event day axis aggregates the time
+period from the day of the announcement by the TASE of the primary stocks selected for transfer
+to the V-Method through the day before the transfer (the number of days in this period varies).
+"T" is the transfer day.
+
+Figure 3: Relative volumes before and after stock transfers to the V-Method. Trading
+volumes relative to the market volume for 120 stocks that were transferred from the C-Method to
+the V-Method on the TASE. For each day t, the daily trading volume of each stock was
+calculated as a percentage of the market volume on the same day. The results were then
+averaged over the 120 transferred stocks for each event day. MA(10) is the 10-day moving
+average for the relative volume time series, and "mean" represent the mean relative volume
+before (days A-155 through A-31) and after (days T+31 through T+ 160) the event period. (A =
+announcement, T = Transfer).
+
+Figure 4: Relative Return Dispersions (RRD) before and after stock transfers to the V-
+Method. Relative Return Dispersions (RRD) of 120 stocks that were transferred from the C-
+Method to the V-Method on the TASE. The Relative Return Dispersion for event-day S is
+defined by
+RRDs = (1/120)*r%=1 eis .
+
+eis is the simple market-model residual of stock i on event-day S, where the market-model was estimated
+separately before and after the event day. Outliers have been omitted. MA(10) is the 10-day
+moving average of the RRD series, and "mean" represents the mean RRD's before (days A-155
+through A-31) and after (days T+31 through T+160) the event period (A = announcement, T
+= Transfer).
+
+33
+
+##### [2] QĐ 1193 UBND Hà Nội - 30 bài toán lớn (khcn.haui.edu.vn) #####
+Tiêu đề: 30 bài toán lớn của thành phố Hà Nội giai đoạn 2026-2030
+       Ủy Ban nhân dân thành phố Hà Nội đã ra Quyết định số 1193/QĐ-UBNV
+ngày 18 tháng 03 năm 2026 công bố Danh mục các bài toán lớn của thành phố Hà
+Nội giai đoạn 2026-2030.
+
+                          1193-qdub-ub-2026
+                              -signed.pdf
+    Bản scan Quyết định:
+    Danh sách 30 bài toán lớn của thành phố Hà Nội giai đoạn 2026-2030.
+                                                             Sản phẩm mới
+                                          Các câu hỏi khoa
+       Tên bài                                                       cần
+STT                    Hiện trạng          học công nghệ
+        toán                                                 hình thành (dự
+                                                chính
+                                                                    kiến)
+ 1 Mô       hình Hà Nội đối mặt với 1. Mô hình quy - Hệ thống điều
+    nào     giúp nghịch lý khi tốc độ hoạch TOD cần thiết hành giao thông
+    giải quyết tăng diện tích đất lập như thế nào?          thông minh tích
+    nhanh tình dành cho giao 2. Kiến trúc hệ thống hợp dữ liệu thời
+    trạng ùn tắc thông chỉ 0,35%, giao thông thông gian thực, ứng
+    giao thông trong khi phương minh (ITS) và AI tác dụng AI trong
+    đô thị trong tiện       tăng     4- nghiệp theo thời điều phối;
+    điều kiện 5%/năm. Một số gian thực cần được - Hạ tầng số giao
+    hạn chế quỹ giải pháp truyền thiết kế như thế thông                   thống
+    đất?          thống gặp nhiều nào?                      nhất;
+                  khó khăn về không 3. Những cơ chế và - Các dự án, công
+                  gian và chi phí thời công cụ nào giúp trình giao thông
+                  gian cũng như tài phân luồng, điều cần thiết;
+                  chính, đòi hỏi các tiết và giảm nhu cầu - Các công nghệ,
+                  giải pháp đột phá giao thông vào khu sản phẩm, dịch
+                  hơn.                  vực trung tâm?      vụ số mới giúp
+                                                            điều tiết nhu cầu
+                                                            đi lại.
+ 2 Cơ chế nào Công tác quản lý 1. Công nghệ giám - Hệ thống giám
+    xác lập trật trật tự lòng đường, sát, định danh và hệ sát và quản lý
+    tự,        kỷ vỉa hè và vệ sinh thống xử lý tự động trật tự đô thị
+    cương và vệ môi trường vẫn cần được thiết kế, thông minh;
+    sinh đô thị mang tính thủ ứng dụng như thế - Hạ tầng, kiến
+    Thủ đô bền công, rời rạc. Tỷ lệ nào để phát hiện và trúc số phục vụ
+    vững thông tái chế rác thải còn xử lý kịp thời vi mô phỏng các
+    qua quản trị rất thấp (năm 2024 phạm trật tự, vệ kịch bản;
+    hiện đại và chỉ đạt khoảng 10% sinh đô thị?             - Chuỗi logistics
+    giám sát tự chất thải rắn), đặc 2. Mô hình kinh tế rác thải thông
+    động?         biệt là rác thải điện tuần hoàn nào tối minh và xử lý rác
+                  tử - một "mỏ ưu hóa được toàn
+                   khoáng sản" tiềm       bộ chuỗi phân loại,       thải công nghệ
+                   năng - vẫn chưa        thu gom và chuyển         cao;
+                   được khai thác hiệu    hóa rác thải dân sinh     - Các mô hình,
+                   quả.                   thành          nguồn      nền tảng số hỗ
+                                          nguyên liệu tái sử        trợ người dân;
+                                          dụng?                     - Các chất liệu
+                                          3. Quy trình công         thân thiện môi
+                                          nghệ và các loại          trường, dễ tái
+                                          nguyên vật liệu mới       chế, tái sử dụng.
+                                          nào cần được ưu
+                                          tiên để đảm bảo
+                                          tính dễ tái chế, tái sử
+                                          dụng và thân thiện
+                                          với môi trường?
+                                          4. Những cơ chế và
+                                          công cụ nào có thể
+                                          khuyến khích, huy
+                                          động người dân và
+                                          doanh nghiệp tham
+                                          gia duy trì trật tự và
+                                          vệ sinh đô thị?
+3   Làm      thế   Các nguồn phát         1. Mô hình, hệ            - Hệ thống giám
+    nào       để   thải từ giao thông,    thống nào cho phép        sát và định danh
+    kiểm soát      công nghiệp, xây       phát hiện, định           nguồn phát thải
+    triệt để các   dựng, sinh hoạt đô     danh chính xác            theo thời gian
+    nguồn phát     thị và làng nghề       nguồn gây ô nhiễm         thực;
+    thải và phục   đang gây áp lực cực    theo thời gian thực?      - Công nghệ
+    hồi     chất   lớn lên môi trường.    2.    Công       nghệ,    kiểm soát, giảm
+    lượng môi      Nhiều sông, hồ bị ô    phương thức nào           phát thải, xử lý ô
+    trường         nhiễm kéo dài.         giúp phục hồi các         nhiễm và phục
+    (nước,         Công tác giám sát      khu vực đã bị ô           hồi môi trường;
+    không khí)     chủ yếu dựa vào        nhiễm?                    - Các công cụ,
+    thông qua      thanh tra, kiểm tra    3. Cơ chế thị trường      mô hình kinh tế
+    định danh      định kỳ; hệ thống      và công cụ kinh tế        mới.
+    nguồn thải     quan trắc và dữ liệu   nào (như tín chỉ
+    và mục tiêu    còn phân tán, chưa     carbon) có thể thúc
+    Net Zero?      cho phép định          đẩy giảm phát thải
+                   danh và nhận diện      và khuyến khích các
+                   chính xác nguồn        chủ thể tham gia
+                   gây ô nhiễm.           bảo vệ môi trường?
+                                          4. Mô hình kinh tế
+                                          nào có thể gắn quá
+                                          trình phục hồi môi
+                                          trường với việc hình
+                                          thành các hệ sinh
+                                          thái xanh mới?
+4   Cách thức      Hạ tầng thoát nước     1. Công nghệ dự báo     - Hệ thống giám
+    nào để giải    hiện tại chưa theo     và mô phỏng hiện        sát, mô phỏng,
+    quyết hiệu     kịp tốc độ đô thị      đại nào giúp dự báo     cảnh báo sớm
+    quả     tình   hóa nhanh chóng        chính xác các điểm      ngập lụt thời
+    trạng ngập     và các kịch bản        ngập cục bộ theo        gian thực;
+    úng đô thị     mưa cực đoan do        thời gian thực trước    - Bản đồ ngập
+    trong điều     biến đổi khí hậu gây   ít nhất 30-60 phút?     thời gian thực
+    kiện biến      ra. Công tác điều      2. Kiến trúc hạ tầng    đến từng khu
+    đổi khí hậu    hành hiện nay chủ      đa tầng cần xây         phố;
+    và đô thị      yếu dựa vào kinh       dựng, triển khai như    - Giải pháp thoát
+    hóa            nghiệm, thiếu khả      thế nào nhằm tối ưu     nước       thông
+    cao/nhanh?     năng dự báo và mô      hóa năng suất không     minh;
+                   phỏng chính xác.       gian chứa và thoát      - Hệ thống bể
+                                          nước tốt?               ngầm chứa nước
+                                          3. Mô hình "Thành       khổng lồ tích
+                                          phố bọt biển" nào       hợp trong các
+                                          phù hợp với Thủ đô      không gian ngầm
+                                          và cách thức nào để     đa năng;
+                                          đưa vào thực tế?        - "Thành phố bọt
+                                          4. Mô hình quản trị     biển" đi vào thực
+                                          ứng xử xã hội và các    tế;
+                                          loại vật liệu xây       - Vật liệu phù
+                                          dựng tự thoát nước      hợp cho tự thoát
+                                          nào giúp giảm thiểu     nước;
+                                          tối đa tác động của     - Quy trình ứng
+                                          ngập lụt?               xử xã hội và các
+                                                                  giải pháp công
+                                                                  nghệ hỗ trợ điều
+                                                                  tiết giao thông,
+                                                                  dân sinh khi xảy
+                                                                  ra tình trạng
+                                                                  ngập úng.
+5   Biện pháp      Thành phố hiện có      1. Nền tảng công        - Hệ thống truy
+    nào kiểm       trên 81.000 cơ sở      nghệ nào cho phép       xuất nguồn gốc
+    soát và bảo    sản xuất, kinh         giám sát và truy xuất   thực phẩm hiện
+    đảm      an    doanh thực phẩm.       nguồn gốc thực          đại;
+    toàn thực      Tuy nhiên, năng lực    phẩm hiệu quả           - Nông sản chất
+    phẩm trên      sản xuất tại chỗ       trong chuỗi cung        lượng cao trên
+    địa bàn Thủ mới chỉ đáp ứng          ứng, chống làm giả      Sàn thương mại
+    đô?         khoảng 60% nhu           trong chuỗi cung        điện tử;
+                cầu tiêu dùng, 40%       cấp, đặc biệt đối với   - Các chuỗi cung
+                còn lại phải nhập từ     lượng sản phẩm lớn      ứng thực phẩm
+                các tỉnh hoặc nhập       trong chợ dân sinh?     sạch có kiểm
+                khẩu từ nước             2. Mô hình quản trị     soát;
+                ngoài. Hoạt động         và hệ thống nào         - Mạng lưới giám
+                sản xuất, chế biến       giúp phát hiện          sát nông nghiệp
+                và vận hành còn          nhanh các nguy cơ       thông minh và
+                phân tán, khó kiểm       mất an toàn thực        hệ thống cảnh
+                soát đồng bộ; tình       phẩm trong quá          báo sớm về an
+                trạng buôn lậu và        trình sản xuất, chế     toàn vệ sinh
+                gian lận thương          biến, lưu thông, và     thực      phẩm;
+                mại vẫn phức tạp.        cảnh báo tức thời       - Mô hình nông
+                Việc kiểm soát chất      cho người tiêu dùng     nghiệp đô thị,
+                lượng từ khâu sản        qua ứng dụng số?        nông nghiệp sinh
+                xuất đến bàn ăn          3. Công nghệ nông       thái
+                còn rời rạc, thiếu       nghiệp thông minh
+                minh bạch, chưa          và các quy trình
+                hoàn thiện hệ            canh tác sinh thái
+                thống dữ liệu để         cần được ứng dụng
+                truy xuất nguồn gốc      như thế nào để tối
+                tức thời theo các        ưu hóa việc kiểm
+                tiêu chuẩn quy           soát dư lượng hóa
+                định.                    chất độc hại ngay từ
+                                         gốc?
+6   Cách thức      Với mật độ dân số     1. Bản sao số cần       - Nền tảng bản
+    nào      để    cực cao và quỹ đất    thiết kế như thế nào    đồ và quản lý
+    quản trị và    ngày càng khan        để tích hợp và quản     không gian đô
+    khai thác      hiếm, Hà Nội bắt      lý mô hình không        thị theo thời
+    hiệu quả tài   buộc phải chuyển      gian đô thị theo thời   gian thực;
+    nguyên         từ khai thác bề mặt   gian thực?              - Hệ thống số
+    không gian     sang khai thác "Tài   2. Cơ chế nào giúp      hóa quản lý và
+    đô thị đa      nguyên        không   xác lập quyền sử        cấp quyền sử
+    tầng (Ngầm     gian" theo chiều      dụng và giao dịch       dụng không gian
+    – Mặt đất –    thẳng đứng (Đô thị    quyền không gian đa     đa tầng;
+    Tầm thấp –     nén). Tuy nhiên,      tầng mà không phá       - Công cụ hỗ trợ
+    Tầng cao)      hiện thiếu hụt        vỡ cấu trúc di sản và   quy hoạch và
+                   khung pháp lý để      hành lang xanh?         phát triển đô thị
+                   định danh quyền sở    3. Công nghệ và         đa tầng;
+                   hữu, chưa có hệ       phương thức tích        - Khung chính
+                   thống quản lý tổng    hợp giữa hạ tầng        sách và quy
+                  thể đối với tài         ngầm đa năng với          chuẩn kỹ thuật
+                  nguyên không gian       các lớp không gian        về khai thác, sử
+                  đô thị đa tầng, dẫn     mặt đất và tầm cao        dụng tài nguyên
+                  đến khó khăn trong      cần triển khai ra sao     không gian Thủ
+                  quy hoạch, cấp          để tối ưu hóa chuỗi       đô dựa trên nền
+                  phép và khai thác       giá trị và tiện ích của   tảng dữ liệu số
+                  hiệu quả các lớp        mô hình "Đô thị đa
+                  không gian này.         tầng - đa lớp"?
+7   Cách thức     Không gian tầm          1. Kiến trúc hạ tầng      - Hành lang bay,
+    nào thiết     thấp của đô thị         số và mạng lưới           hệ thống quản lý
+    lập   hành    đang trở thành một      hành       lang     bay   bay       (UTM);
+    lang bay và   nguồn tài nguyên        (UTM) cần được            mạng lưới trạm
+    hệ thống      mới trong phát          thiết lập ra sao để       sạc và bãi đáp
+    quản lý an    triển kinh tế và hạ     hỗ trợ các phương         - Quy hoạch
+    toàn nhằm     tầng dịch vụ, đặc       tiện giao thông thế       phân vùng chức
+    kích hoạt     biệt với sự phát        hệ mới vận hành an        năng không gian
+    "Kinh    tế   triển của thiết bị      toàn, tự động trong       tầm thấp và các
+    không gian    bay không người lái     lòng đô thị nén?          kịch bản khai
+    tầm thấp"     (UAV),      logistics   2. Các phương tiện        thác kinh tế
+    cho     Thủ   hàng không đô thị       giao thông thế hệ         không gian tầm
+    đô?           và các dịch vụ bay      mới nào cần được ra       thấp
+                  tầm thấp. Tuy           đời?                      - Các phương
+                  nhiên, hiện nay việc    3. Nền tảng công          tiện bay không
+                  quản lý không gian      nghệ nào cho phép         người lái và dịch
+                  tầm thấp tại đô thị     tích hợp dữ liệu          vụ bay đô thị
+                  còn thiếu quy           không gian tầm thấp       - Các nền tảng số
+                  hoạch, thiếu hạ         vào hệ thống quản         phục vụ quản lý,
+                  tầng và thiếu hệ        trị an ninh thông         điều phối và
+                  thống quản lý bay       minh, cứu hộ cứu          cung cấp dịch vụ
+                  đô thị.                 nạn và phòng cháy         bay tầm thấp
+                                          chữa cháy của             - Các mô hình
+                                          Thành phố theo thời       kinh tế mới
+                                          gian thực?
+                                          4. Mô hình quản trị
+                                          và biện pháp cấp
+                                          phép khai thác
+                                          không gian tầm thấp
+                                          cần được thể chế
+                                          hóa thế nào để đảm
+                                          bảo hài hòa giữa
+                                          phát triển kinh tế
+                                          với an ninh, quốc
+                                            phòng và trật tự an
+                                            toàn xã hội?
+8   Bằng cách       Hạ tầng hiện nay        1. Kiến trúc hạ tầng     - Các khu đô thị
+    nào tái thiết   chưa theo kịp tốc       đô thị xanh và thông     tái thiết đa mục
+    và      phát    độ đô thị hóa, thiếu    minh cần được thiết      tiêu đồng bộ về
+    triển     hạ    không gian xanh và      kế như thế nào để        hạ tầng xã hội,
+    tầng đô thị     tính kết nối thông      vừa nâng cao chất        kỹ thuật và cây
+    xanh, thông     minh; đồng thời         lượng sống, vừa tối      xanh
+    minh, bền       cần giải phóng          ưu hóa sử dụng tài       - Mạng lưới các
+    vững, hiệu      nguồn lực đất đai       nguyên đô thị?           "Khu phố sáng
+    quả      cho    để kiến tạo giá trị     2. Mô hình "bảo tồn      tạo" và hành
+    Thủ đô Hà       mới.                    thích ứng" và tái        lang di sản số
+    Nội?            Hà Nội cũng đối         thiết giá trị nào giúp   - Căn hộ tái định
+                    diện với cuộc cách      chuyển đổi các khu       cư chất lượng
+                    mạng về nhà ở           phố cũ thành không       cao tích hợp
+                    thông qua việc giải     gian sáng tạo mà         trong các tổ hợp
+                    tỏa quy mô lớn để       vẫn giữ được "hồn        TOD
+                    tái cấu trúc hạ tầng    cốt" Thăng Long?         - Các dịch vụ xã
+                    nội đô (tỷ lệ tái       3. Công nghệ và các      hội số tại khu
+                    thiết dự kiến 70%       hệ thống mô phỏng        vực tái thiết
+                    diện tích nội đô).      cần ứng dụng như         - Các biện pháp
+                    Nút thắt chiến lược     thế nào để đánh giá      hỗ trợ trên môi
+                    là làm thế nào để       chính xác tác động       trường số trong
+                    việc di dời dân cư ra   của các phương án        quá trình tái
+                    các      cực     tăng   tái thiết đô thị trước   thiết đô thị
+                    trưởng mới không        khi thực thi?
+                    chỉ là chuyển chỗ ở     4. Cơ chế và công cụ
+                    mà phải đảm bảo         nào có thể tạo động
+                    chất lượng sống tốt     lực để người dân
+                    hơn, đầy đủ tiện ích    chủ động tham gia
+                    và gắn liền với cơ      dịch chuyển tới các
+                    hội việc làm mới.       khu đô thị mới,
+                                            đồng thời bảo đảm
+                                            sinh kế và cơ hội
+                                            phát triển lâu dài?
+                                            5. Nền tảng dữ liệu
+                                            và hệ thống quản trị
+                                            nào giúp tổ chức,
+                                            theo dõi và điều
+                                            phối hiệu quả quá
+                                            trình tái thiết đô thị
+                                            quy mô lớn?
+9    Cách thức     Hệ thống dữ liệu
+                                  1. Kiến trúc dữ liệu    - Cơ sở dữ liệu
+     nào số hóa    đất đai hiện nay
+                                  và hệ thống lưu trữ     đất đai số hóa
+     toàn diện     còn phân tán, thiếu
+                                  đồng bộ nào cần         toàn diện
+     và quản trị   minh bạch và chưa
+                                  được thiết lập để số    - Nền tảng giao
+     minh bạch     được số hóa đầyhóa toàn diện hồ sơ     dịch bất động
+     tài nguyên    đủ. Thị trường bất
+                                  địa chính, đảm bảo      sản minh bạch
+     đất đai và    động sản vì vậy dễ
+                                  tính bảo mật và khả     - Hệ thống phân
+     thị trường    xảy ra biến động
+                                  năng truy xuất tức      tích và dự báo
+     bất động      bất thường, thiếu
+                                  thời ?                  thị trường bất
+     sản minh      công cụ giám sát và
+                                  2. Công nghệ nào        động sản
+     bạch bằng     quản lý hiệu quả,
+                                  kiến tạo các nền        - Nền tảng quản
+     công nghệ     gây lãng phí nguồn
+                                  tảng giao dịch bất      trị tài nguyên đất
+     số?           lực. Việc thiếu một
+                                  động sản minh bạch,     đai dựa trên dữ
+                   hệ thống xác thực
+                                  loại bỏ các khâu        liệu
+                   dữ liệu phi tậptrung gian không        - Dịch vụ công số
+                   trung cũng dẫn đến
+                                  cần thiết và tăng       về đất đai
+                   độ trễ trong phản
+                                  tính xác thực cho
+                   ứng chính sách và
+                                  mọi giao dịch?
+                   rủi ro cho các nhà
+                                  3. Mô hình phân tích
+                   đầu tư.        dữ liệu và thuật
+                                  toán dự báo nào cho
+                                  phép nhận diện sớm
+                                  các biến động bất
+                                  thường của thị
+                                  trường, hỗ trợ đưa
+                                  ra các quyết định
+                                  điều tiết kịp thời và
+                                  chính xác?
+                                  4. Phương thức
+                                  quản trị hành chính
+                                  và các giải pháp kỹ
+                                  thuật nào giúp
+                                  chuyển đổi sang
+                                  dịch vụ công "không
+                                  giấy tờ", cho phép
+                                  người dân thực hiện
+                                  và theo dõi biến
+                                  động tài sản đất đai
+                                  theo thời gian thực?
+10   Cách thức Thủ đô cần thực 1. Công nghệ và giải       - Dịch vụ công
+     nào để đổi hiện bước chuyển thuật AI cần được        toàn       trình,
+     mới    mô đổi mang tính cách ứng dụng như thế        không giấy tờ, cá
+     hình quản       mạng từ tư duy        nào để cung cấp         thể hóa và tự
+     trị Thủ đô      kiểm soát sang tư     dịch vụ công toàn       động hóa
+     theo hướng      duy kiến tạo. Việc    trình, không giấy tờ,   - Hệ thống hỗ trợ
+     phục      vụ,   cung cấp dịch vụ      theo trải nghiệm        ra quyết định
+     cung cấp        công trực tuyến       người dùng được cá      dựa trên dữ liệu
+     dịch       vụ   toàn trình, không     thể hóa, giảm thiểu     thời gian thực
+     công toàn       giấy tờ vẫn chưa      tối đa sự can thiệp     - Bộ chỉ số đo
+     trình, cá thể   đạt được hiệu quả     thủ công?               lường sự hài
+     hóa,       tự   kỳ vọng, chưa đảm     2. Mô hình Bản sao      lòng và niềm tin
+     động       và   bảo tính tự động      số (Digital Twin)       của người dân
+     hiệu     quả    hóa cao và chưa       trong quản trị hành     được cập nhật,
+     dựa trên dữ     thực sự cá thể hóa    chính cần được thiết    phân tích tự
+     liệu nhằm       theo nhu cầu của      kế ra sao để mô         động từ dữ liệu
+     kiến      tạo   từng người dân,       phỏng và dự báo         tương tác thực
+     cho     phát    doanh nghiệp. Từ      chính xác các tác
+     triển nền       đó dẫn đến nguy cơ    động kinh tế - xã hội
+     kinh tế         gây chậm nhịp cho     của các chính sách
+                     các giao dịch kinh    mới trước khi thực
+                     tế                    thi?
+                                           3. Hệ thống nào giúp
+                                           tích hợp tự động và
+                                           minh bạch các phản
+                                           hồi từ người dân,
+                                           doanh nghiệp (qua
+                                           iHanoi) vào quy
+                                           trình ra quyết định
+                                           của chính quyền?
+11   Phương          Tốc độ tăng GRDP      1. Mô hình định         - Đề án tổng thể
+     thức nào để     dài hạn được quyết    lượng và giải thuật     mô hình tăng
+     xác lập và      định bởi ba yếu tố:   nào cần được thiết      trưởng mới
+     vận hành        tăng vốn đầu tư,      lập để tách bạch,       - Hệ thống chỉ
+     mô      hình    tăng trưởng lao       hạch toán và đo         tiêu đo lường
+     tăng trưởng     động và tăng năng     lường chính xác         kinh tế tri thức
+     mới     dựa     suất các nhân tố      đóng góp của khoa       - Bộ công cụ
+     trên năng       tổng hợp (TFP).       học công nghệ, đổi      phân tích và
+     suất     các    Trong bối cảnh Hà     mới sáng tạo và         đánh giá động
+     nhân      tố    Nội đã qua giai       chuyển đổi số vào       lực tăng trưởng
+     tổng            đoạn "dân số vàng     tăng trưởng GRDP?       kinh tế
+     hợp(TFP) và     đỉnh cao" và dư địa   2. Mô hình và nền       - Nền tảng dữ
+     kinh tế tri     mở rộng vốn theo      tảng nào có thể kết     liệu phục vụ
+     thức?           chiều rộng không      nối hiệu quả hệ sinh    hoạch         định
+                     còn lớn, động lực     thái đổi mới sáng
+                     chủ yếu cho tăng        tạo với các ngành       chính sách kinh
+                     trưởng hai chữ số       kinh tế của Thủ đô?     tế
+                     chỉ có thể đến từ       3. Công nghệ phân       - Bộ chỉ số và
+                     cải thiện mạnh mẽ       tích dữ liệu lớn và     công cụ đo
+                     năng suất, hiệu quả     các mô hình dự báo      lường, hạch toán
+                     phân bổ nguồn lực       kinh tế vĩ mô cần       đóng góp của
+                     và chất lượng thể       được ứng dụng thế       KHCN, ĐMST và
+                     chế. Đây là bước        nào để tối ưu hóa       CĐS vào tăng
+                     chuyển hệ thống về      việc phân bổ nguồn      trưởng
+                     cấu trúc động lực       lực xã hội và thu hút
+                     để đạt mục tiêu         dòng vốn đầu tư vào
+                     tăng trưởng GRDP        các ngành có giá trị
+                     bình          quân      gia tăng cao?
+                     11%/năm                 4. Mô hình quản trị
+                                             và bộ chỉ số đo
+                                             lường kinh tế tri
+                                             thức cần được vận
+                                             hành thế nào để
+                                             chuyển dịch trọng
+                                             tâm động lực tăng
+                                             trưởng từ thâm
+                                             dụng vốn và lao
+                                             động sang thâm
+                                             dụng tri thức và tăng
+                                             năng suất?
+12   Phương          Kinh tế số là trụ cột   1. Kiến trúc công       - Chương trình
+     thức nào để     quan trọng nhất         nghệ, hệ thống định     phát triển kinh
+     đưa kinh tế     của mô hình tăng        danh và giải pháp       tế số (có thể tích
+     dữ liệu trở     trưởng mới. Tuy         pháp lý nào cần         hợp xã hội số)
+     thành động      nhiên, các lớp giá      được thiết lập để       giai đoạn 2026 –
+     lực     tăng    trị "phi vật thể"       xây dựng mô hình        2030, tầm nhìn
+     trưởng chủ      như dữ liệu chưa        định danh, định giá     2035
+     đạo và hiện     được khai thác          và giao dịch tài sản    - Hành lang pháp
+     thực hóa        tương xứng, vẫn         số/tài sản mã hóa       lý cần thiết và
+     mục      tiêu   chưa được coi là        một cách an toàn và     đột phá
+     kinh tế số      nguồn tài nguyên        minh bạch cho Thủ       - Hạ tầng dữ liệu
+     đạt tỷ trọng    sản xuất chính          đô?                     phục vụ phát
+     40% GRDP        thức. Thành phố         2. Những lớp hạ         triển kinh tế số
+     vào     năm     cũng thiếu mô hình      tầng số và nền tảng     - Nền tảng chia
+     2030?           định danh, định giá     dữ liệu lớn nào cần     sẻ và giao dịch
+                     tài sản số để khơi      được ưu tiên để         dữ liệu
+                                             thúc đẩy kinh tế chia
+                    thông dòng vốn sẻ và các mô hình               - Các mô hình
+                    mới.                 kinh doanh mới?           kinh doanh mới
+                                         3. Phương thức số         dựa trên dữ liệu
+                                         hóa toàn diện các         - Nền tảng giao
+                                         ngành kinh tế trọng       dịch, hệ thống
+                                         điểm như tài chính,       định danh tài sản
+                                         y tế, giáo dục và         số
+                                         logistics cần được        - Các mô hình
+                                         triển khai ra sao để      kinh tế số
+                                         tạo ra giá trị gia tăng
+                                         đột phá cho GRDP?
+13   Kiến trúc và   Kinh tế nền tảng tại 1. Kiến trúc hạ tầng      - Hệ sinh thái các
+     cơ chế nào     Hà Nội vẫn còn rời số dùng chung cần           nền tảng số
+     để       xây   rạc, các doanh được thiết lập như              "Make in Hanoi"
+     dựng      hệ   nghiệp và người thế nào để tạo ra              liên thông trong
+     sinh    thái   dân đang phụ một "hệ điều hành                 các lĩnh vực
+     kinh tế nền    thuộc lớn vào các đô thị" cho phép các         trọng điểm như
+     tảng "Make     nền tảng xuyên nền tảng nội địa tích           thương mại điện
+     in Hanoi"      biên giới, dẫn đến hợp và vận hành             tử, logistics, du
+     bền vững       rủi ro về chủ quyền thông suốt?                lịch và dịch vụ đô
+     và tự chủ?     dữ liệu và khó tự 2. Cơ chế chia sẻ dữ         thị
+                    chủ. Việc thiếu một liệu công - tư và các      - Hệ điều hành
+                    hệ sinh thái "Make giao thức kết nối cần       số cho nền kinh
+                    in Hanoi" mạnh mẽ được chuẩn hóa ra            tế
+                    khiến các nguồn lực sao để khuyến khích
+                    đô thị (logistics, các tập đoàn công
+                    thương mại, dịch nghệ và startup xây
+                    vụ) chưa được kết dựng các nền tảng
+                    nối và tối ưu hóa ở "Make in Hanoi" dẫn
+                    quy mô toàn diện     dắt chuỗi giá trị?
+                                         3. AI cần được ứng
+                                         dụng thế nào trên
+                                         lớp "Kinh tế & Số
+                                         hóa" của đô thị để
+                                         phân tích nhu cầu và
+                                         cá thể hóa dịch vụ,
+                                         giúp giảm chi phí
+                                         giao dịch và nâng
+                                         cao năng lực cạnh
+                                         tranh cho các nền
+                                         tảng nội địa?
+14   Bằng           Di sản hiện chủ yếu      1. Mô hình "Bảo tồn      - Các sản phẩm
+     phương         là "di tích tĩnh". Cần   thích ứng" và kiến       công nghiệp văn
+     thức nào để    cuộc cách mạng di        trúc tái thiết giá trị   hóa có giá trị gia
+     thực hiện      sản, chuyển từ           cần được thiết lập       tăng cao từ di
+     cuộc cách      "bảo tồn - cải tạo"      như thế nào để           sản
+     mạng      di   sang "tái thiết giá      chuyển đổi các di        - Nền tảng số hỗ
+     sản, chuyển    trị" để công nghiệp      tích tĩnh thành các      trợ sáng tạo,
+     hóa các giá    văn hóa đạt tối          không gian sáng tạo      quảng bá và
+     trị Thăng      thiểu 9% GRDP            và trung tâm giao        phân phối sản
+     Long - Hà                               lưu học thuật đa         phẩm văn hóa
+     Nội thành                               năng, đảm bảo hài        - Các mô hình
+     động    lực                             hòa giữa truyền          không gian sáng
+     kinh tế mũi                             thống và phát triển?     tạo và hệ sinh
+     nhọn thông                              2. Những nền tảng        thái công nghiệp
+     qua công                                công nghệ nào (như       văn hóa
+     nghiệp văn                              Metaverse, AR/VR,        - Chuỗi giá trị
+     hóa?                                    Blockchain)       cần    hoàn chỉnh cho
+                                             được ứng dụng để         các ngành công
+                                             số hóa toàn diện di      nghiệp văn hóa
+                                             sản phi vật thể và       - Cơ chế, chính
+                                             định danh tài sản        sách thúc đẩy
+                                             văn hóa số, từ đó        phát triển công
+                                             kiến tạo các sản         nghiệp văn hóa
+                                             phẩm văn hóa ứng
+                                             dụng công nghệ có
+                                             khả năng dẫn dắt thị
+                                             trường?
+                                             3. Cơ chế quản trị và
+                                             phương thức huy
+                                             động nguồn lực xã
+                                             hội nào giúp hình
+                                             thành chuỗi giá trị
+                                             công nghiệp văn hóa
+                                             tại khu vực di sản,
+                                             gắn kết chặt chẽ với
+                                             các mô hình kinh tế
+                                             đêm và dịch vụ lữ
+                                             hành thông minh?
+                                             4. Hệ thống định
+                                             danh và bảo vệ bản
+                                             quyền số trên nền
+                                             tảng dữ liệu lớn (Big
+                                            Data) cần vận hành
+                                            ra sao để bảo vệ và
+                                            thương mại hóa
+                                            hiệu quả các tài sản
+                                            trí tuệ dựa trên
+                                            nguồn lực văn hóa
+                                            5. Những công nghệ
+                                            và nền tảng số nào
+                                            có thể hỗ trợ sáng
+                                            tạo, lưu trữ, quảng
+                                            bá và phân phối sản
+                                            phẩm văn hóa trong
+                                            môi trường số?
+                                            6. Mô hình tổ chức
+                                            chuỗi giá trị nào
+                                            giúp liên kết hiệu
+                                            quả các khâu sáng
+                                            tạo – sản xuất –
+                                            phân phối – tiêu
+                                            dùng sản phẩm văn
+                                            hóa?
+15   Phương          Mục tiêu đón 12        1. Làm thế nào để        - Các khu du lịch
+     thức nào        triệu khách quốc tế    kích hoạt kinh tế        thông minh
+     giúp phát       vào năm 2030 đòi       đêm và du lịch           - Các mô hình
+     triển du lịch   hỏi sự thay đổi về     thông minh bằng          kinh tế đêm sáng
+     thông minh      trải nghiệm. Kinh tế   công              nghệ   tạo
+     và kinh tế      đêm và du lịch số      (Metaverse          và   - Hệ thống thực
+     đêm      thu    vẫn chưa được khai     AR/VR, ...), nhằm        tế ảo
+     hút       tối   thác đồng bộ để        phục dựng các giá trị    - Nền tảng du
+     thiểu      12   thu hút khách du       văn hóa phi vật thể      lịch số Thủ đô
+     triệu khách     lịch và kéo dài thời   và kiến tạo không        - Các dịch vụ lữ
+     quốc tế?        gian lưu trú           gian trải nghiệm         hành và dịch vụ
+                                            "xuyên không", biến      khác        thông
+                                            các di tích tĩnh thành   minh, tối ưu
+                                            các sản phẩm du lịch
+                                            tương tác sống
+                                            động?
+                                            2. Mô hình kinh tế
+                                            đêm thông minh
+                                            như thế nào để vừa
+                                            tối ưu hóa hoạt
+                                            động thương mại -
+                                         dịch vụ, vừa đảm
+                                         bảo an ninh, trật tự
+                                         đô thị tự động?
+                                         3. Nền tảng du lịch
+                                         số Thủ đô cần vận
+                                         hành thế nào để cá
+                                         nhân hóa hành trình
+                                         du khách, từ đó
+                                         thiết lập các tuyến
+                                         lữ hành thông minh
+                                         kết nối đô thị trung
+                                         tâm với hệ thống di
+                                         sản vùng phụ cận
+                                         vừa đảm bảo an
+                                         ninh, trật tự đô thị
+                                         tự động?
+                                         4. Cơ chế quản trị và
+                                         các tiêu chuẩn kỹ
+                                         thuật nào giúp
+                                         chuyển đổi các khu
+                                         phố cổ, khu phố cũ
+                                         thành những "Khu
+                                         phố sáng tạo" hoạt
+                                         động 24/7, gắn liền
+                                         với thương hiệu văn
+                                         hóa ẩm thực và kinh
+                                         tế vỉa hè dựa trên
+                                         nền tảng số?
+16   Cách thức      Hà Nội định vị là    1. Mô hình mạng         -    Hệ     thống
+     nào để xây     đầu mối trung        lưới logistics và       logistics thông
+     dựng      hệ   chuyển đa phương     trung tâm trung         minh tích hợp đa
+     thống          tiện của Vùng Thủ    chuyển liên vùng        phương        thức
+     logistics      đô, tuy nhiên chi    cần được tổ chức        vận tải
+     thông minh     phí, mạng lưới và    như thế nào để tối      - Các trung tâm
+     và các trung   năng suất chưa tối   ưu hóa dòng hàng        logistics và trung
+     tâm trung      ưu về mặt kinh tế    hóa và giảm chi phí     chuyển liên vùng
+     chuyển liên    cũng như giao        logistics?              hiện đại
+     vùng?          thông đô thị (chi    2. Những công nghệ      - Nền tảng số
+                    phí logistics hiện   và nền tảng nào có      quản lý, điều
+                    chiếm       khoảng   thể hỗ trợ quản lý,     phối hoạt động
+                    16,8% GDP, một       điều phối và tối ưu     logistics
+                    con số cao hơn       hóa hoạt động
+                    đáng kể so với mức      logistics theo thời       - Hệ thống phân
+                    trung bình 10-11%       gian thực?                tích, dự báo và
+                    của các nước phát       3. Công cụ và mô          tối     ưu    hóa
+                    triển)                  hình phân tích nào        logistics
+                                            giúp dự báo nhu cầu       - Bản đồ số hóa
+                                            vận chuyển, tối ưu        tài        nguyên
+                                            hóa tuyến đường và        logistics
+                                            nâng cao hiệu quả
+                                            khai thác hạ tầng
+                                            logistics?
+17   Phát triển     Mặc dù là đô thị        Mặc dù là đô thị lớn,     - Các vùng nông
+     nông           lớn, Hà Nội vẫn có      Hà Nội vẫn có diện        nghiệp      công
+     nghiệp         diện tích nông          tích nông nghiệp          nghệ cao
+     công nghệ      nghiệp đáng kể và       đáng kể và nhiều          - Nền tảng nông
+     cao gắn với    nhiều vùng nông         vùng nông thôn            nghiệp số
+     kinh tế sinh   thôn đang trong         đang trong quá trình      - Hệ sinh thái du
+     thái    như    quá trình chuyển        chuyển đổi. Việc          lịch nông nghiệp
+     thế nào?       đổi. Việc phát triển    phát triển nông           - Các mô hình
+                    nông nghiệp công        nghiệp công nghệ          kinh tế tuần
+                    nghệ cao kết hợp        cao kết hợp với du        hoàn trong nông
+                    với du lịch sinh thái   lịch sinh thái và kinh    nghiệp
+                    và kinh tế tuần         tế tuần hoàn có thể
+                    hoàn có thể tạo ra      tạo ra giá trị gia tăng
+                    giá trị gia tăng lớn    lớn và góp phần
+                    và góp phần phát        phát triển bền vững
+                    triển bền vững tại      tại nhiều khu vực
+                    nhiều khu vực ven       ven đô.
+                    đô.
+18   Tái    định    Quá trình công          1. Giải pháp nào          - Các nền tảng
+     hình tiến      nghiệp hóa của Hà       giúp phát triển các       sản xuất thông
+     trình công     Nội vẫn còn tập         ngành công nghiệp         minh
+     nghiệp hóa     trung vào các           công nghệ cao tại Hà      - Hệ thống hỗ trợ
+     theo hướng     ngành công nghiệp       Nội?                      chuyển đổi số
+     công nghệ      truyền thống, giá trị   2. Kiến trúc nhà máy      trong        công
+     cao và sản     gia tăng còn thấp.      thông minh và các         nghiệp
+     xuất thông     Hà Nội cần chuyển       hệ thống điều hành        - Các trung tâm
+     minh như       sang mô hình công       sản xuất dựa trên         nghiên cứu và
+     thế nào?       nghiệp hóa dựa          công nghệ cần được        phát triển công
+                    trên công nghệ cao,     thiết kế ra sao để tối    nghệ
+                    sản xuất thông          ưu hóa năng suất và       - Các chuỗi giá trị
+                    minh và làm chủ         giảm thiểu tiêu hao       công      nghiệp
+                    công nghệ.              tài nguyên?               công nghệ cao
+                                            3. Giải pháp nào
+                                            giúp triển khai mô
+                                            hình sản xuất thông
+                                            minh trong doanh
+                                            nghiệp?
+                                            4. Nền tảng số và hệ
+                                            sinh thái đổi mới
+                                            sáng tạo nào giúp
+                                            kết nối hiệu quả
+                                            giữa các trung tâm
+                                            R&D với mạng lưới
+                                            sản xuất, từ đó thúc
+                                            đẩy thương mại hóa
+                                            các kết quả nghiên
+                                            cứu công nghệ lõi?
+                                            5. Những chính sách
+                                            và cơ chế nào cần
+                                            được vận hành thế
+                                            nào để thu hút các
+                                            nhà đầu tư chiến
+                                            lược dẫn dắt chuỗi
+                                            giá trị công nghiệp
+                                            công nghệ cao?
+19   Phương          Hà Nội là trung tâm    1. Những mô hình        - Hệ sinh thái
+     thức nào để     tài chính lớn của cả   trung tâm tài chính     FinTech của Thủ
+     xây dựng        nước, tuy nhiên hệ     nào phù hợp với         đô
+     Hà       Nội    thống dịch vụ tài      điều kiện phát triển    - Nền tảng tài
+     thành trung     chính vẫn chưa đạt     của Hà Nội?             chính số và
+     tâm       tài   tầm khu vực, cần       2. Những công nghệ      thanh        toán
+     chính     và    phát triển các khu     tài chính (FinTech)     thông minh
+     dịch vụ chất    thương mại tự do       nào giúp hiện đại       - Trung tâm tài
+     lượng cao       và dịch vụ tài chính   hóa hệ thống tài        chính quốc tế tại
+     quốc tế?        thế hệ mới. Việc       chính đô thị?           Hà Nội
+                     phát triển Hà Nội      3. Những nền tảng       - Hệ thống dữ
+                     thành trung tâm tài    công nghệ nào giúp      liệu tài chính đô
+                     chính quốc tế sẽ       tăng cường minh         thị
+                     giúp thu hút dòng      bạch và hiệu quả        - Các dịch vụ tài
+                     vốn toàn cầu, thúc     của thị trường tài      chính thế hệ mới
+                     đẩy đổi mới sáng       chính?
+                     tạo.                   4. Làm thế nào phát
+                                            triển các dịch vụ tài
+                                            chính thế hệ mới
+                                            dựa trên Fintech và
+                                            kinh tế số?
+20   Cách thức      Cần xác lập quan hệ     1. Cơ chế nào để        - Các Quỹ đầu tư
+     nào để kinh    hài hòa để kinh tế      kinh tế nhà nước giữ    của Thành phố
+     tế nhà nước    nhà nước tiên           vai trò chủ đạo, dẫn    - Hình thành
+     dẫn dắt và     phong lĩnh vực mạo      dắt các ngành công      doanh nghiệp
+     kinh tế tư     hiểm, tạo dư địa        nghệ mới và mạo         tiêu biểu dẫn dắt
+     nhân thực      cho kinh tế tư nhân     hiểm?                   chuỗi giá trị
+     sự là động     sáng tạo. Hiện tại      2. Làm thế nào hình     - Các dự án
+     lực    quan    sự liên kết chuỗi giá   thành các tập đoàn      "Lãnh đạo công -
+     trọng nhất?    trị giữa hai khu vực    kinh tế tư nhân         Quản trị tư"
+                    còn khá rời rạc.        mạnh có khả năng        - Nền tảng kết
+                                            dẫn dắt chuỗi giá trị   nối cung - cầu
+                                            và hội nhập quốc tế?    công nghệ giữa
+                                                                    doanh nghiệp
+                                                                    nhà nước và khu
+                                                                    vực tư nhân dựa
+                                                                    trên dữ liệu thời
+                                                                    gian thực
+21   Phương         Khu vực doanh           1. Kiến trúc hệ sinh    -    Nền      tảng
+     thức nào để    nghiệp SME – vốn        thái hỗ trợ chuyển      chuyển đổi số
+     tăng năng      chiếm tỷ trọng áp       đổi số toàn diện cho    SME Thủ đô
+     suất     lao   đảo trong nền kinh      SME cần được thiết      - Bộ chỉ số và
+     động đô thị    tế Thủ đô – đang        kế ra sao để tích hợp   công cụ giám sát
+     và chuyển      đối mặt với rào cản     các công cụ AI và tự    năng suất lao
+     đổi số toàn    lớn về năng lực tài     động hóa vào quy        động thời gian
+     diện    cho    chính, công nghệ và     trình sản xuất, kinh    thực
+     mạng lưới      quản trị để thực        doanh với chi phí tối   - Các giải pháp tự
+     doanh          hiện chuyển đổi số      ưu                      động hóa và AI
+     nghiệp vừa     toàn diện, khó khăn     2. AI và nền tảng dữ    "Make in Hanoi"
+     và      nhỏ    này cũng đặt ra với     liệu lớn như thế nào    -    Các      SME
+     (SME)?         các hộ kinh doanh.      giúp SME phân tích      chuyển đổi số
+                    Điểm nghẽn nằm ở        hành vi khách hàng,     thành công
+                    việc thiếu các giải     tối ưu hóa chuỗi
+                    pháp AI và tự động      cung ứng và quản trị
+                    hóa "vừa tầm", dễ       nhân lực nhằm nâng
+                    tiếp cận, khiến         cao trực tiếp năng
+                    năng suất lao động      suất lao động trên
+                    vẫn thâm dụng vốn       không gian số?
+                    và lao động thô         3. Mô hình quản trị
+                    thay vì dựa trên tri    doanh nghiệp số và
+                    thức và công nghệ.      các tiêu chuẩn kỹ
+                                         thuật cần được
+                                         chuẩn hóa như thế
+                                         nào để có thể liên
+                                         thông dữ liệu và
+                                         tham gia sâu vào
+                                         chuỗi giá trị toàn
+                                         cầu của các tập đoàn
+                                         lớn?
+                                         4. Cơ chế hỗ trợ cần
+                                         được vận hành thế
+                                         nào thông qua các
+                                         nền tảng số để tiếp
+                                         cận trực tiếp, đúng
+                                         đối tượng doanh
+                                         nghiệp có hoạt động
+                                         đổi mới sáng tạo?
+22   Xây dựng      Cơ chế hiện tại       1. Các cơ chế thu hút    - Hệ thống cơ sở
+     Thủ      đô   chưa đủ sức cạnh      và trọng dụng cần        dữ liệu nhân tài
+     thành trung   tranh quốc tế để      được vận hành như        số hóa tập trung,
+     tâm thu hút   thu hút các chuyên    thế nào trên nền         tích hợp các
+     và    trọng   gia xuất sắc và các   tảng số để thuận         công cụ kết nối
+     dụng nhân     tổng công trình sư    tiện, cá nhân hóa        cung - cầu lao
+     tài    toàn   tham gia vào các dự   các gói đãi ngộ cho      động trình độ
+     cầu,    nhà   án trọng điểm. Thủ    chuyên gia và nhà        cao
+     khoa học      đô cần một hệ sinh    khoa      học     đầu    - Các khu căn hộ
+     đầu ngành     thái không chỉ thu    ngành?                   chuyên gia và
+     phục     vụ   hút mà còn phải       2. Kiến trúc hệ thống    không gian làm
+     phát triển    "giữ chân" được       quản trị nhân tài số     việc sáng tạo
+     kinh tế tri   tầng lớp tinh hoa     tích hợp AI và Big       hiện đại, đồng
+     thức bằng     thông qua hạ tầng     Data cần được thiết      bộ tại các cực
+     các     con   số và môi trường      kế ra sao để kết nối     phát triển công
+     đường         làm việc chuẩn        nhu cầu từ các dự án     nghệ cao
+     nào?          toàn cầu.             công nghệ chiến          - Chương trình
+                                         lược của Thành phố       đào tạo và hợp
+                                         với     mạng      lưới   tác quốc tế để
+                                         chuyên gia toàn          hình thành đội
+                                         cầu?                     ngũ nhân lực
+                                         3. Phương thức và        công nghệ cao
+                                         các tiêu chuẩn kỹ        (AI, bán dẫn, IoT)
+                                         thuật số cần được        dẫn dắt các
+                                         thực hiện thế nào để     ngành kinh tế
+                                         xóa bỏ rào cản cho       mũi nhọn
+                                              nhân tài nước ngoài
+                                              làm việc trực tiếp tại
+                                              các cơ sở y tế, giáo
+                                              dục và công nghệ
+                                              cao của Thủ đô?
+                                              4. Các không gian
+                                              sống và làm việc
+                                              thông minh cần
+                                              thiết lập như thế
+                                              nào để tạo ra môi
+                                              trường nghiên cứu -
+                                              thử nghiệm đạt
+                                              chuẩn quốc tế, đủ
+                                              sức hấp dẫn các tập
+                                              đoàn công nghệ
+                                              toàn cầu đặt trung
+                                              tâm R&D?
+23   Kiến trúc        Hà Nội cần tự chủ       1. Những mô hình         - Mô hình ngôn
+     công nghệ        về công nghệ lõi để     nào giúp đẩy nhanh       ngữ lớn - trợ lý
+     và lộ trình      thoát khỏi bẫy gia      quá trình làm chủ        ảo tiếng Việt
+     nào để Hà        công và tham gia        các công nghệ chiến      - AI camera xử lý
+     Nội     sớm      sâu vào chuỗi giá trị   lược?                    tại biên
+     làm chủ 04       toàn cầu. Các sản       2. Những cơ chế nào      - Hạ tầng mạng
+     sản phẩm         phẩm này là nền         giúp kết nối các viện    blockchain     và
+     công nghệ        tảng cho sự phát        nghiên cứu, doanh        các lớp ứng dụng
+     chiến lược       triển của tất cả các    nghiệp công nghệ và      truy xuất nguồn
+     ưu       tiên    ngành kinh tế - xã      hệ sinh thái đổi mới     gốc và tài sản mã
+     triển khai       hội trong kỷ nguyên     sáng tạo trong phát      hóa
+     ngay? Ứng        mới.                    triển công nghệ lõi?     - Thiết bị bay
+     dụng trong                               3. Những nền tảng        không người lái
+     quản       trị                           nào giúp thúc đẩy        (UAV)
+     cũng như                                 việc ứng dụng các
+     phát triển                               công nghệ chiến
+     kinh tế?                                 lược trong quản trị
+                                              đô thị và phát triển
+                                              kinh tế?
+24   Làm      thế     Việc quản lý đô thị     1. Những công nghệ       - Mô hình Digital
+     nào để ứng       hiện nay vẫn thiếu      và mô hình dữ liệu       Twin của toàn bộ
+     dụng Bản         sự mô phỏng và dự       nào giúp xây dựng        Thủ đô
+     sao       số     báo tác động chính      bản sao số của đô        - Hệ thống mô
+     (Digital         sách dựa trên dữ        thị quy mô lớn?          phỏng và hỗ trợ
+     Twin) vào        liệu thực. Bản sao
+     giải quyết     số là công cụ then    2. Những nền tảng       ra quyết định
+     các bài toán   chốt để tối ưu hóa    nào giúp tích hợp dữ    dựa trên dữ liệu
+     đô thị phức    việc phân bổ nguồn    liệu từ các hệ thống    - Các nền kinh tế
+     tạp và phát    lực và quản trị đô    hạ tầng và dịch vụ      dựa vào bản sao
+     triển kinh     thị đa tầng           đô thị vào mô hình      số
+     tế?                                  Digital Twin?
+                                          3. Những công cụ
+                                          mô phỏng nào giúp
+                                          đánh giá tác động
+                                          của các chính sách
+                                          phát triển đô thị
+                                          trước khi triển khai?
+                                          4. Có thể phát triển
+                                          những mô hình kinh
+                                          tế nào dựa vào bản
+                                          sao số?
+25   Mô hình và     Hà Nội tập trung      1. Những mô hình        - Chương trình
+     hệ sinh thái   nhiều viện nghiên     nào giúp kết nối        về phát triển về
+     như      thế   cứu, trường đại học   hiệu     quả     giữa   sinh thái đổi mới
+     nào    giúp    và nguồn nhân lực     nghiên cứu khoa         sáng tạo, khởi
+     phát triển     chất lượng cao. Tuy   học và thị trường?      nghiệp và doanh
+     Hà Nội trở     nhiên, hệ sinh thái   2. Những cơ chế nào     nghiệp       tăng
+     thành trung    đổi mới sáng tạo      giúp     thúc     đẩy   trưởng nhanh
+     tâm      đổi   vẫn chưa phát huy     thương mại hóa các      của Thủ đô giai
+     mới sáng       hết tiềm năng. Sự     kết quả nghiên cứu      đoạn 2026 –
+     tạo    hàng    kết nối giữa nghiên   và công nghệ mới?       2030, tầm nhìn
+     đầu     khu    cứu khoa học,         3. Cơ chế tài chính     2045.
+     vực?           doanh nghiệp và thị   đột phá và Quỹ đầu      - Các trung tâm
+                    trường còn hạn        tư mạo hiểm (sử         đổi mới sáng tạo
+                    chế, khiến nhiều      dụng ngân sách          quy mô lớn
+                    kết quả nghiên cứu    Thành phố) cần vận      - Nền tảng kết
+                    chưa được thương      hành theo nguyên        nối hệ sinh thái
+                    mại hóa hiệu quả.     tắc thị trường thế      đổi mới sáng tạo
+                                          nào để hỗ trợ cho       - Các quỹ và công
+                                          các startup công        cụ hỗ trợ khởi
+                                          nghệ và chấp nhận       nghiệp       công
+                                          rủi ro trong nghiên     nghệ
+                                          cứu?                    - Mạng lưới hợp
+                                          4. Những nền tảng       tác nghiên cứu
+                                          nào giúp thu hút và     và phát triển
+                                          phát triển các doanh    công nghệ
+                                           nghiệp đổi mới sáng
+                                           tạo?
+                                           5. Các giải pháp nào
+                                           giúp thúc đẩy khởi
+                                           nghiệp sáng tạo và
+                                           tăng trưởng nhanh?
+                                           6. Làm thế nào để
+                                           kiến tạo Khu công
+                                           nghệ cao Hòa Lạc
+                                           thành "Thung lũng
+                                           công nghệ" và hạt
+                                           nhân đổi mới sáng
+                                           tạo của vùng và cả
+                                           nước?
+26   "Pháo đài      Việc gia tăng nhanh    1. Kiến trúc dữ liệu    - Hệ thống "Pháo
+     dữ liệu" và    chóng của dữ liệu      và hạ tầng số nào       đài dữ liệu" Thủ
+     hệ thống an    và các hệ thống số     cần được thiết lập      đô
+     ninh thông     cũng làm gia tăng      để bảo vệ an toàn       - Mạng lưới giám
+     minh của       các nguy cơ về an      dữ liệu, hệ thống       sát an ninh
+     Thủ      đô    ninh mạng, tấn         thông tin và chủ        thông minh tích
+     được thiết     công mạng và rò rỉ     quyền số của Thủ        hợp AI thời gian
+     lập    bằng    dữ liệu. Bên cạnh      đô?                     thực
+     cách thức      đó, các thách thức     2. Những công nghệ,     - Nền tảng phân
+     nào?           an ninh trong đô thị   mô hình phân tích       tích, cảnh báo
+                    hiện đại ngày càng     nào có thể phát hiện    sớm và hỗ trợ
+                    phức tạp. Đảm bảo      sớm các nguy cơ tấn     điều hành an
+                    an toàn tuyệt đối      công mạng, rò rỉ dữ     ninh đô thị
+                    cho Thủ đô trong kỷ    liệu và các mối đe
+                    nguyên số là yêu       dọa an ninh đô thị?
+                    cầu sống còn. Hà       3. Nền tảng tích hợp
+                    Nội cần đối phó        và hệ thống điều
+                    hiệu quả với các       hành nào cho phép
+                    thách thức an ninh     kết nối các nguồn dữ
+                    truyền thống và phi    liệu, giám sát theo
+                    truyền thống, đặc      thời gian thực và hỗ
+                    biệt là bảo vệ chủ     trợ phản ứng nhanh
+                    quyền dữ liệu và an    đối với các tình
+                    ninh mạng.             huống an ninh?
+27   Kiến trúc và   Hà Nội hướng tới       1. Kiến trúc hệ thống   - Hệ thống quản
+     mô      hình   hệ thống an sinh       an sinh đa tầng nào     lý an sinh xã hội
+     quản trị nào   bao trùm, bền          đảm bảo tính thích      số
+     để       vận   vững, không để ai      ứng cao với các biến
+     hành      hệ   bị bỏ lại phía sau.   động kinh tế - xã      - Hệ thống phân
+     thống an       Tuy nhiên, việc kết   hội?                   tích và dự báo
+     sinh xã hội    nối các tầng hỗ trợ   2. Những công cụ       nhu cầu an sinh
+     đa    tầng,    còn rời rạc, cần      nào giúp xác định      xã hội
+     hiện đại và    chuyển đổi số để      sớm các nhóm dân       - Nền tảng quản
+     thích ứng      nâng cao khả năng     cư có nguy cơ rơi      lý và điều phối
+     linh hoạt      tiếp cận công bằng    vào tình trạng dễ bị   các chương trình
+     trên    nền    cho các nhóm yếu      tổn thương?            an sinh
+     tảng dữ liệu   thế. Dữ liệu về đối   3. Cơ chế vận hành     - Các công cụ số
+     lớn?           tượng thụ hưởng       nền tảng điều phối     hỗ trợ cung cấp
+                    chưa được tích hợp    nguồn lực xã hội hóa   dịch vụ an sinh,
+                    đầy đủ, gây khó       trên không gian số     mô hình hỗ trợ
+                    khăn trong việc xác   cần được chuẩn hóa     cộng đồng dựa
+                    định nhu cầu và       thế nào để tối ưu      trên nền tảng
+                    phân bổ nguồn lực.    hóa việc cung cấp      công nghệ số
+                                          dịch vụ an sinh?
+                                          4. Làm thế nào để số
+                                          hóa 100% hồ sơ an
+                                          sinh và cá nhân hóa
+                                          việc cung cấp dịch
+                                          vụ dựa trên dữ liệu?
+28   Phương         Hà Nội định hướng     1. Kiến trúc mạng      - Các trường phổ
+     thức nào để    trở thành trung       lưới trường học và     thông nhiều cấp
+     đưa     giáo   tâm giáo dục, đào     bệnh viện đạt chuẩn    học và bệnh viện
+     dục và y tế    tạo và y tế hàng      quốc tế cần tích hợp   đạt chuẩn quốc
+     Thủ đô đạt     đầu châu Á. Điểm      các công nghệ thông    tế
+     chuẩn quốc     nghẽn là sự chênh     minh và hệ sinh thái   - Hệ sinh thái
+     tế, dẫn đầu    lệch chất lượng       đổi mới sáng tạo ra    giáo dục số
+     khu      vực   giữa các khu vực và   sao để dẫn dắt chất    - Hệ thống y tế
+     dựa     trên   nhu cầu cấp thiết     lượng dịch vụ vùng     chuyên sâu, hiện
+     nền    tảng    về y tế chuyên sâu,   và cả nước?            đại ngang tầm
+     công nghệ      nhân lực kỹ năng      2. Giải pháp công      quốc tế
+     số và đổi      cao cho kỷ nguyên     nghệ nào giúp hoàn
+     mới sáng       số.                   thiện hồ sơ sức khỏe
+     tạo?                                 điện tử toàn dân và
+                                          ứng dụng trí tuệ
+                                          nhân tạo trong tư
+                                          vấn sức khỏe từ xa,
+                                          chẩn đoán hình ảnh
+                                          và cấp cứu ngoại
+                                          viện để tối ưu hóa
+                                          nguồn lực y tế?
+                                            3. Mô hình giáo dục
+                                            STEM/STEAM và các
+                                            nền tảng học tập
+                                            suốt đời cần được
+                                            phổ cập thế nào trên
+                                            hạ tầng số để hình
+                                            thành đội ngũ nhân
+                                            lực chất lượng cao,
+                                            đáp ứng yêu cầu đột
+                                            phá khoa học - công
+                                            nghệ của Thủ đô?
+29   Cách thức       Xu thế phát triển      1. Mô hình kinh tế      - Công nghệ tái
+     nào để phát     toàn cầu đang          nào phù hợp để          chế và chuyển
+     triển kinh tế   chuyển mạnh sang       chuyển đổi từ tuyến     đổi chất thải
+     xanh, kinh      kinh tế xanh, kinh     tính sang kinh tế       thành tài nguyên
+     tế      tuần    tế tuần hoàn và        tuần hoàn trong các     - Các chuỗi giá trị
+     hoàn      trở   phát thải thấp. Hà     ngành sản xuất và       và mô hình kinh
+     thành động      Nội có quy mô thị      dịch vụ đô thị?         doanh       xanh,
+     lực     tăng    trường lớn và hệ       2. Những công nghệ      phát thải thấp
+     trưởng của      thống sản xuất –       và quy trình nào        - Các mô hình
+     Thủ đô?         tiêu dùng đa dạng,     giúp tối ưu hóa sử      kinh tế tuần
+                     tạo điều kiện để       dụng tài nguyên,        hoàn trong các
+                     hình thành các mô      giảm phát sinh chất     ngành, lĩnh vực
+                     hình kinh tế tuần      thải và tăng khả
+                     hoàn trong công        năng tái chế, tái sử
+                     nghiệp, xây dựng,      dụng?
+                     nông         nghiệp,   3. Nền tảng dữ liệu
+                     logistics và dịch vụ   và công cụ nào hỗ
+                     đô thị, nhưng hiện     trợ theo dõi, đánh
+                     nay các mô hình        giá dòng vật chất và
+                     này còn rời rạc,       hiệu quả sử dụng tài
+                     thiếu công nghệ và     nguyên trong nền
+                     nền tảng dữ liệu hỗ    kinh tế đô thị?
+                     trợ.                   4. Cơ chế và chính
+                                            sách nào có thể thúc
+                                            đẩy doanh nghiệp và
+                                            người dân tham gia
+                                            vào các mô hình
+                                            kinh tế xanh, kinh tế
+                                            tuần hoàn?
+                                            5. Giải pháp nào có
+                                            thể kết nối các chuỗi
+                                            giá trị theo hướng
+                                            kinh tế tuần hoàn?
+ 30   Phương án      Thời kỳ "dân số        1. Giải pháp nào        - Đề án thích ứng
+      nào quản trị   vàng" dự kiến kết      giúp phát triển môi     nhanh với già
+      lao    động    thúc vào năm 2036      trường lao động linh    hóa dân số
+      hiện đại và    (có thể sớm hơn).      hoạt và hệ thống        - Hệ thống dịch
+      giúp thích     Hà Nội cần "đi tắt     học tập suốt đời cho    vụ số phổ cập
+      ứng với già    đón đầu" để tạo        người cao tuổi?         toàn dân
+      hóa dân số     nền tảng thích ứng,    2. Làm thế nào để       - Hệ sinh thái
+      và thu hẹp     đồng thời đảm bảo      phổ cập kỹ năng số      kinh tế phục vụ
+      khoảng         mọi người dân          và thu hẹp khoảng       xã hội già hóa
+      cách năng      không bị gạt ra khỏi   cách giàu nghèo         - Hệ thống dự
+      lực số?        sự phát triển do       trong tiếp cận dịch     báo cung - cầu
+                     thiếu kỹ năng số       vụ số?                  lao động thông
+                                            3. Hệ thống nào cho     minh
+                                            phép dự báo chính
+                                            xác nhu cầu lao
+                                            động theo từng
+                                            ngành?
+                                            4. Nền tảng kết nối
+                                            việc làm vùng cần
+                                            tích hợp các giải
+                                            pháp công nghệ gì
+                                            để tối ưu hóa nguồn
+                                            nhân lực giữa Hà Nội
+                                            và các đô thị vệ tinh
+                                            trong Vùng Thủ đô?
+
+Nguồn: Tổng hợp
+
