@@ -1,0 +1,178 @@
+%*******************************************************
+% 4.3.4 đến 4.3.6: hai chỉ số
+%*******************************************************
+\subsection{Chỉ số chất lượng thị trường vốn}\label{sec:mqi}
+
+\begin{tomtat}
+Sáu chỉ báo, ba chiều: thanh khoản (Amihud, tỷ lệ ngày lợi suất bằng 0, chênh lệch Corwin--Schultz), hiệu quả thông tin (tỷ số phương sai, độ trễ giá) và minh bạch (số ngày trễ hạn công bố). Mỗi chỉ báo được chuẩn hóa thành điểm z và đổi dấu sao cho cao hơn là tốt hơn; điểm của mỗi chiều là trung bình các điểm z trong chiều; chỉ số là trung bình của ba chiều. \HH{2} được kiểm định trên chuỗi chênh lệch chỉ số giữa HOSE và HNX theo tháng.
+\end{tomtat}
+
+Với mỗi cổ phiếu và mỗi tháng, đề tài tính sáu chỉ báo thuộc ba chiều. Chiều thanh khoản gồm độ phi thanh khoản Amihud (Amihud, 2002), tỷ lệ ngày có lợi suất bằng 0 (Lesmond và cộng sự, 1999) và chênh lệch mua-bán ước lượng từ giá cao nhất và thấp nhất (Corwin \& Schultz, 2012). Hai chỉ báo đầu là chỉ báo chính vì đã được dùng rộng rãi ở thị trường mới nổi (Bekaert và cộng sự, 2007; Lesmond, 2005) và đã được so sánh với chuẩn tính từ dữ liệu trong ngày trên mẫu toàn cầu (Fong và cộng sự, 2017).
+
+Chiều hiệu quả thông tin gồm độ lệch của tỷ số phương sai khỏi 1 (Lo \& MacKinlay, 1988) và độ trễ giá (Hou \& Moskowitz, 2005); vì hai thước đo này có thể cho kết luận sai khi môi trường thông tin khác nhau (Griffin và cộng sự, 2010), chỉ số được tính lại khi bỏ chiều này. Chiều minh bạch là số ngày trễ hạn công bố báo cáo tài chính quý.
+
+Tỷ số phương sai so sánh phương sai của lợi suất nhiều ngày với tổng phương sai của các lợi suất một ngày. Nếu giá đi theo bước ngẫu nhiên, như khi thông tin được phản ánh ngay, tỷ số bằng 1. Tỷ số lệch xa 1 cho thấy giá phản ứng chậm (lệch lên) hoặc phản ứng quá rồi điều chỉnh lại (lệch xuống). Độ trễ giá đo xem lợi suất của cổ phiếu được giải thích thêm bao nhiêu bởi lợi suất thị trường của các tuần trước; cổ phiếu phản ánh thông tin chậm thì độ trễ cao.
+
+Các chỉ báo cổ phiếu được gộp lên cấp sàn bằng trung vị có trọng số theo vốn hóa; độ phi thanh khoản Amihud được điều chỉnh theo tổng vốn hóa thị trường so với tháng 6/2025 để chỉ số không thay đổi chỉ vì quy mô danh nghĩa của thị trường.
+
+Điều chỉnh này cần vì độ phi thanh khoản Amihud có giá trị giao dịch ở mẫu số. Khi thị trường lớn lên theo thời gian (giá tăng, nhiều tiền hơn), giá trị giao dịch danh nghĩa tăng và độ phi thanh khoản giảm, dù độ khó mua bán so với quy mô thị trường không đổi. Nhân với tỷ số giữa tổng vốn hóa tháng t và tổng vốn hóa tháng 6/2025 loại bỏ phần thay đổi danh nghĩa này.
+
+Các chỉ báo được gộp thành Chỉ số chất lượng thị trường vốn theo hướng dẫn của OECD (2008). Mỗi chỉ báo được chuẩn hóa thành điểm z theo mẫu gộp các sàn trong giai đoạn tham chiếu, để giá trị đã công bố không phải tính lại, rồi đổi dấu sao cho giá trị cao hơn là chất lượng tốt hơn. Với sàn $j$ và tháng $t$, chỉ số là:
+\begin{equation}\label{eq:mqi}
+\MQI_{jt} = \frac{\vn{TK}_{jt} + \vn{HQ}_{jt} + \vn{MB}_{jt}}{3}
+\end{equation}
+trong đó $\MQI_{jt}$ là Chỉ số chất lượng thị trường vốn của sàn $j$ (sàn niêm yết HNX, UPCoM hoặc HOSE) trong tháng $t$; $\vn{TK}_{jt}$, $\vn{HQ}_{jt}$ và $\vn{MB}_{jt}$ là điểm của ba chiều thanh khoản, hiệu quả thông tin và minh bạch, mỗi điểm bằng trung bình các điểm z của chỉ báo thuộc chiều đó (ba chỉ báo thanh khoản, hai chỉ báo hiệu quả thông tin, một chỉ báo minh bạch). Như vậy ba chiều có trọng số bằng nhau. Trọng số từ thành phần chính thứ nhất và cách gộp bỏ lần lượt từng chiều là kiểm tra độ vững (OECD, 2008).
+
+\paragraph{Đọc công thức \eqref{eq:mqi} bằng lời.} Chỉ số của một sàn trong một tháng là trung bình cộng của ba điểm: điểm thanh khoản, điểm hiệu quả thông tin và điểm minh bạch. Mỗi điểm đã được đưa về cùng thang đo (điểm z), nên có thể cộng với nhau. Chỉ số bằng 0 nghĩa là sàn ở đúng mức bình quân của giai đoạn tham chiếu; chỉ số dương là tốt hơn mức đó, âm là kém hơn.
+
+\begin{vidu}
+Giả sử trong một tháng, sàn HNX có điểm thanh khoản $-0{,}6$, điểm hiệu quả thông tin $-0{,}2$ và điểm minh bạch $0{,}2$; sàn HOSE có ba điểm tương ứng $0{,}5$; $0{,}1$ và $0{,}3$. Khi đó
+\[
+\MQI_{\vn{HNX}} = \frac{-0{,}6 - 0{,}2 + 0{,}2}{3} = -0{,}2 \qquad
+\MQI_{\vn{HOSE}} = \frac{0{,}5 + 0{,}1 + 0{,}3}{3} = 0{,}3
+\]
+Chênh lệch giữa HOSE và HNX trong tháng này là $0{,}5$ độ lệch chuẩn. \HH{2} hỏi xem bình quân của chênh lệch này qua 193 tháng của giai đoạn tham chiếu có dương hay không.
+\end{vidu}
+
+\begin{vidao}
+\emph{Vì sao trọng số bằng nhau giữa ba chiều, không giữa sáu chỉ báo.} Nếu lấy trung bình của sáu chỉ báo, chiều thanh khoản (ba chỉ báo) sẽ chiếm một nửa chỉ số, còn minh bạch (một chỉ báo) chỉ chiếm một phần sáu, chỉ vì đề tài tình cờ có nhiều thước đo thanh khoản hơn. Trọng số bằng nhau theo chiều phản ánh quan điểm rằng ba chiều quan trọng ngang nhau, và đây là cách gộp đơn giản nhất để người ngoài kiểm tra lại. Các cách gộp khác được báo cáo ở phần kiểm tra độ vững.
+\end{vidao}
+
+\begin{vidao}
+\emph{Vì sao chuẩn hóa theo giai đoạn tham chiếu, không theo toàn bộ mẫu.} Nếu chuẩn hóa theo toàn bộ mẫu, mỗi tháng dữ liệu mới làm trung bình và độ lệch chuẩn thay đổi, và mọi giá trị chỉ số đã công bố phải tính lại. Chuẩn hóa một lần theo giai đoạn tham chiếu cố định giữ cho chỉ số đã công bố ổn định, điều cần thiết nếu chỉ số trở thành một cấu phần của hệ thống dữ liệu tài chính đô thị.
+\end{vidao}
+
+\HH{2} được kiểm định trên chuỗi chênh lệch chỉ số theo tháng giữa HOSE và sàn niêm yết HNX, và được ủng hộ khi chênh lệch bình quân trong giai đoạn tham chiếu dương với giá trị p bootstrap khối dừng (Politis \& Romano, 1994) nhỏ hơn ngưỡng Holm tương ứng. Chênh lệch trong giai đoạn chuyển tiếp, chênh lệch giữa HOSE và UPCoM, chênh lệch theo giai đoạn căng thẳng và điểm gãy cấu trúc (Bai \& Perron, 1998) được báo cáo ở dạng mô tả.
+
+Bootstrap khối dừng cần thiết vì chênh lệch tháng này thường gần với chênh lệch tháng trước. Nếu coi 193 tháng là 193 quan sát độc lập, sai số chuẩn sẽ quá nhỏ và kiểm định bác bỏ quá dễ. Bootstrap khối dừng lấy mẫu lại theo từng khối tháng liên tiếp với độ dài ngẫu nhiên, nên giữ được mức tương quan giữa các tháng gần nhau.
+
+%-------------------------------------------------------
+\subsection{Mô hình phân bổ dùng làm công cụ đo và đăng ký trước}\label{sec:mohinh}
+%-------------------------------------------------------
+
+\begin{tomtat}
+Khả năng đầu tư được đo bằng bảy mô hình phân bổ (\MM{1}--\MM{7}), từ đơn giản nhất (1/N) đến phức tạp nhất (Black-Litterman có chuyển chế độ). Bảy mô hình là bảy \enquote{nhà đầu tư} khác nhau dùng chung một rổ cổ phiếu; đề tài lấy bình quân của họ để kết luận không phụ thuộc vào một mô hình. Mọi lựa chọn có thể ảnh hưởng đến kết quả được khóa trong tệp đăng ký trên OSF trước ngày 28/12/2026.
+\end{tomtat}
+
+Đề tài đo khả năng đầu tư bằng bảy mô hình phân bổ (Bảng~\ref{tab:baymohinh}), đại diện cho các hướng tiếp cận ở nhóm tài liệu (D) và cho quy tắc có trạng thái thị trường (Hamilton, 1989; Kritzman và cộng sự, 2012). Bình quân theo bảy mô hình làm kết luận ít phụ thuộc vào sai số ước lượng của một mô hình, còn độ phân tán giữa các mô hình cho biết mức phụ thuộc đó.
+
+\begin{table}[H]
+\myfloatalign
+\caption{Bảy mô hình phân bổ dùng làm công cụ đo khả năng đầu tư}\label{tab:baymohinh}
+{\bangnho
+\begin{tabularx}{\textwidth}{@{}l L >{\raggedright\arraybackslash}p{0.32\textwidth}@{}}
+\toprule
+Mã & Mô hình & Tài liệu gốc\\
+\midrule
+\MM{1} & Phân bổ đều 1/N & DeMiguel và cộng sự (2009)\\
+\MM{2} & Phương sai nhỏ nhất với ma trận hiệp phương sai co rút & Ledoit và Wolf (2004)\\
+\MM{3} & Trung bình-phương sai với ước lượng mẫu & Markowitz (1952)\\
+\MM{4} & Black-Litterman với quan điểm từ mô hình dự báo & Black và Litterman (1992)\\
+\MM{5} & Black-Litterman có chuyển chế độ & Mở rộng từ Nguyễn và Nguyễn (2026a)\\
+\MM{6} & Danh mục vững chắc với nhiều niềm tin tiên nghiệm & Garlappi và cộng sự (2007)\\
+\MM{7} & Giảm tỷ trọng rủi ro theo xác suất trạng thái căng thẳng do mô hình tự ước lượng & Kritzman và cộng sự (2012)\\
+\bottomrule
+\end{tabularx}}
+\nguon{Nguồn: Thí sinh tổng hợp. Ghi chú: cả bảy mô hình là danh mục chỉ mua; trọng số được ước lượng lại hằng tháng trên cửa sổ trượt 104 tuần; xác suất trạng thái trong \MM{5} và \MM{7} là thành phần nội bộ của mô hình, không dùng để xác định giai đoạn căng thẳng.}
+\end{table}
+
+Bảy mô hình có thể xếp theo lượng tham số phải ước lượng. \MM{1} không ước lượng gì: chia đều tiền cho mọi cổ phiếu. \MM{2} chỉ ước lượng hiệp phương sai, và co rút ước lượng này về một cấu trúc đơn giản để giảm sai số. \MM{3} ước lượng cả lợi suất kỳ vọng lẫn hiệp phương sai từ mẫu, nên nhạy nhất với sai số ước lượng. \MM{4} và \MM{5} bắt đầu từ danh mục thị trường rồi điều chỉnh theo quan điểm dự báo; \MM{5} cho quan điểm thay đổi theo trạng thái thị trường. \MM{6} chọn danh mục tốt nhất trong trường hợp xấu nhất của một tập niềm tin. \MM{7} giảm tỷ trọng rủi ro khi mô hình ước lượng xác suất thị trường đang căng thẳng cao.
+
+Ý nghĩa của thứ tự này với đề tài: nếu chuyển sàn làm dữ liệu giá sạch hơn, thì các mô hình phải ước lượng nhiều (\MM{3}, \MM{4}, \MM{5}) sẽ được lợi nhiều hơn \MM{1}. Ngược lại, nếu chỉ chi phí giao dịch giảm, thì mọi mô hình được lợi gần như nhau. So sánh khoảng cách giữa các mô hình vì vậy cho biết kênh nào đang hoạt động.
+
+Siêu tham số của các mô hình được chọn từ một lưới cho trước, với cùng quy tắc và cùng ngân sách tinh chỉnh. Vì \MM{5} do thí sinh phát triển, kết quả được báo cáo cả khi có lẫn khi không có \MM{5}.
+
+\begin{vidao}
+\emph{Vì sao báo cáo kết quả cả khi bỏ \MM{5}.} Người phát triển một mô hình có xu hướng (dù không cố ý) tinh chỉnh nó kỹ hơn các mô hình khác. Nếu \MM{5} được lợi nhiều từ việc tinh chỉnh, bình quân bảy mô hình sẽ bị kéo theo. Báo cáo thêm bình quân sáu mô hình còn lại cho người đọc thấy kết luận có đứng vững khi bỏ mô hình của chính tác giả hay không.
+\end{vidao}
+
+Thí sinh đã dùng dữ liệu cổ phiếu HOSE trong bài báo Nguyễn và Nguyễn (2026a) và trong các bản thảo số 4 và số 6 ở Bảng~\ref{tab:banthao}. Để kiểm soát rủi ro chọn kết quả sau khi xem dữ liệu, thí sinh đăng ký trước kế hoạch phân tích trên OSF Registries trước ngày 28/12/2026, sau khi xin góp ý của người hướng dẫn dự kiến, và khai rõ phạm vi sàn, giai đoạn và chỉ báo đã tính trong các bài trước.
+
+Tệp đăng ký cố định trước mọi lựa chọn có thể ảnh hưởng tới kết quả: chỉ báo và trọng số; quy tắc lập rổ và ghép đối chứng; chi phí giao dịch và siêu tham số của bảy mô hình; đặc tả các phương trình \eqref{eq:did}--\eqref{eq:gfci} và thủ tục suy luận; ngưỡng lợi suất khi tính Amihud; quy tắc chọn cửa sổ trước theo điểm gãy cấu trúc; định nghĩa mức chịu cú sốc và biến trụ sở; mức ý nghĩa và cách hiệu chỉnh so sánh bội. Mọi thay đổi sau ngày đăng ký được ghi là lệch khỏi kế hoạch.
+
+\begin{delam}
+\emph{Dễ nghĩ là} đăng ký trước làm nghiên cứu cứng nhắc, không được sửa gì. Thực ra vẫn được sửa, nhưng mọi chỗ sửa được ghi lại và báo cáo là \enquote{lệch khỏi kế hoạch}, kèm lý do. Người đọc vì vậy phân biệt được kết quả nào theo kế hoạch ban đầu và kết quả nào có sau khi đã thấy dữ liệu. Với một sự kiện chỉ xảy ra một lần, điều này đặc biệt quan trọng, vì không ai lặp lại được nghiên cứu trên một sự kiện khác cùng loại.
+\end{delam}
+
+%-------------------------------------------------------
+\subsection{Chỉ số khả năng đầu tư}\label{sec:khanangdautu}
+%-------------------------------------------------------
+
+\begin{tomtat}
+Khả năng đầu tư của một rổ là lợi suất tương đương chắc chắn sau chi phí: lợi suất trung bình trừ một khoản phạt cho rủi ro. Với mỗi mô hình, khoảng cách khả năng đầu tư là lợi suất tương đương chắc chắn của rổ HOSE đối sánh (rổ H) trừ của rổ cổ phiếu chuyển sàn (rổ CS). Chỉ số khả năng đầu tư là bình quân khoảng cách của bảy mô hình. Đề tài tính chỉ số cho 20 cửa sổ trước và 8 cửa sổ sau sự kiện, và hỏi xem khoảng cách có thu hẹp sau khi chuyển sàn hay không.
+\end{tomtat}
+
+Đề tài đo hiệu quả ngoài mẫu bằng lợi suất tương đương chắc chắn sau chi phí giao dịch, tức mức lợi suất phi rủi ro mà nhà đầu tư ngại rủi ro coi là ngang giá với danh mục. Tỷ số Sharpe chỉ là thước đo phụ, vì khi lợi suất vượt trội trung bình âm, thường gặp trong giai đoạn căng thẳng, danh mục biến động mạnh hơn lại có tỷ số Sharpe ít âm hơn.
+
+\begin{vidu}[: tỷ số Sharpe khi lợi suất âm]
+Hai danh mục cùng có lợi suất vượt trội trung bình $-5\%$ một năm. Danh mục A có độ lệch chuẩn 10\%, danh mục B có độ lệch chuẩn 25\%. Tỷ số Sharpe của A là $-5/10 = -0{,}5$; của B là $-5/25 = -0{,}2$. Theo tỷ số Sharpe, B \enquote{tốt hơn}, dù B lỗ như A mà rủi ro gấp hai lần rưỡi. Lợi suất tương đương chắc chắn không mắc lỗi này: rủi ro cao hơn luôn bị trừ nhiều hơn.
+\end{vidu}
+
+Với mỗi mô hình, mỗi rổ (rổ CS gồm cổ phiếu chuyển sàn, rổ H gồm cổ phiếu HOSE được ghép với rổ CS) và mỗi cửa sổ đánh giá, $\mu$ và $\sigma^2$ là trung bình và phương sai mẫu của lợi suất vượt trội tuần sau chi phí, nhân với 52 để quy năm; $\rho$ là hệ số ngại rủi ro ấn định trước (giá trị cơ sở bằng 5, kiểm tra độ nhạy ở 3 và 10).
+
+Đề tài dùng hai cấu hình chi phí. Cấu hình A dùng tỷ lệ cố định nhân với vòng quay danh mục. Cấu hình B dùng chi phí theo cổ phiếu và theo tháng, gồm phí giao dịch, thuế và một nửa chênh lệch mua-bán (giá chào đóng cửa nếu có, nếu không thì ước lượng theo Corwin \& Schultz, 2012), nên đo thêm kênh chi phí giao dịch mà sàn tác động. Lợi suất tương đương chắc chắn là:
+\begin{equation}\label{eq:ce}
+U = \mu - \frac{\rho}{2}\sigma^2
+\end{equation}
+
+Khoảng cách khả năng đầu tư của mô hình $m$ là chênh lệch giữa rổ H và rổ cổ phiếu chuyển sàn:
+\begin{equation}\label{eq:gap}
+G_m = U_m(\vn{H}) - U_m(\vn{CS})
+\end{equation}
+
+Chỉ số khả năng đầu tư là khoảng cách bình quân theo bảy mô hình:
+\begin{equation}\label{eq:gbar}
+\bar{G} = \frac{G_1 + G_2 + \dots + G_7}{7}
+\end{equation}
+
+Chỉ số khả năng đầu tư $\bar{G}$ được tính cho từng cửa sổ đánh giá, bằng điểm phần trăm mỗi năm; giá trị dương nghĩa là nhà đầu tư đa dạng hóa đạt lợi suất tương đương chắc chắn thấp hơn với rổ CS so với rổ H. Đề tài báo cáo kèm độ phân tán của $G_m$ giữa bảy mô hình.
+
+\paragraph{Đọc ba công thức bằng lời.} Công thức \eqref{eq:ce}: lợi suất mà nhà đầu tư \enquote{cảm thấy} bằng lợi suất trung bình trừ đi một nửa hệ số ngại rủi ro nhân với phương sai. Nhà đầu tư càng ngại rủi ro ($\rho$ lớn) hoặc danh mục càng biến động ($\sigma^2$ lớn) thì khoản trừ càng lớn. Công thức \eqref{eq:gap}: với cùng một mô hình, rổ HOSE cho nhà đầu tư nhiều hơn rổ chuyển sàn bao nhiêu. Công thức \eqref{eq:gbar}: lấy bình quân của bảy con số ấy.
+
+\begin{vidu}
+Lấy mô hình \MM{1} trong một cửa sổ đánh giá, với $\rho = 5$. Rổ H có $\mu = 12\%$ và $\sigma = 20\%$, tức $\sigma^2 = 0{,}04$:
+\[
+U_1(\vn{H}) = 0{,}12 - \frac{5}{2}\,0{,}04 = 0{,}12 - 0{,}10 = 0{,}02 = 2{,}0\%
+\]
+Rổ CS có $\mu = 11\%$ và $\sigma = 24\%$, tức $\sigma^2 = 0{,}0576$:
+\[
+U_1(\vn{CS}) = 0{,}11 - \frac{5}{2}\,0{,}0576 = 0{,}11 - 0{,}144 = -0{,}034 = -3{,}4\%
+\]
+Khoảng cách của \MM{1} là $G_1 = 2{,}0 - (-3{,}4) = 5{,}4$ điểm phần trăm mỗi năm. Chênh lệch lợi suất trung bình chỉ là 1 điểm phần trăm; phần lớn khoảng cách đến từ rủi ro cao hơn của rổ CS.
+
+Giả sử sáu mô hình còn lại cho $G_2$ đến $G_7$ lần lượt là 3,0; 7,1; 4,2; 4,8; 3,6 và 4,5. Khi đó
+\[
+\bar{G} = \frac{5{,}4 + 3{,}0 + 7{,}1 + 4{,}2 + 4{,}8 + 3{,}6 + 4{,}5}{7} = \frac{32{,}6}{7} \approx 4{,}66
+\]
+Nếu sau chuyển sàn $\bar{G}$ giảm, chẳng hạn xuống 2,5, thì khoảng cách đã thu hẹp khoảng 2,2 điểm phần trăm mỗi năm; đó là điều \HH{4} kỳ vọng. Mọi con số ở đây là minh họa.
+\end{vidu}
+
+\subsubsection*{Lập rổ và cửa sổ}
+
+Rổ CS gồm tối đa 30 cổ phiếu chuyển sàn có giá trị giao dịch bình quân ba tháng lớn nhất tại ngày tham chiếu 30/6/2025. Rổ H gồm, cho mỗi mã của rổ CS, cổ phiếu HOSE gần nhất về vốn hóa, ngành và độ phi thanh khoản tại cùng ngày, ghép có hoàn lại. Thành phần hai rổ được giữ nguyên để so sánh cùng các cổ phiếu quanh sự kiện; vì hai rổ được lập theo cùng quy tắc, thiên lệch do thông tin tại ngày tham chiếu lỗi thời ở các cửa sổ xa hay do hồi quy về trung bình tác động lên cả hai rổ.
+
+\enquote{Ghép có hoàn lại} nghĩa là một cổ phiếu HOSE có thể được ghép với hai mã CS khác nhau nếu nó là láng giềng gần nhất của cả hai. Cách này cho cặp ghép sát hơn, đổi lại rổ H có thể có ít mã khác nhau hơn 30.
+
+Mỗi mô hình được ước lượng trên cửa sổ 104 tuần và đánh giá trên cửa sổ 3 tháng không chồng lấn (Hình~\ref{fig:cuaso}): 20 cửa sổ từ quý 3/2020 đến quý 2/2025 và 8 cửa sổ từ quý 1/2027 đến quý 4/2028. Cửa sổ ước lượng sau sự kiện vẫn chứa dữ liệu trước ngày chuyển sàn, nên khoảng cách của \MM{1}, mô hình không cần ước lượng tham số, được báo cáo riêng như phép so sánh sạch nhất.
+
+\begin{figure}[H]
+\myfloatalign
+\begin{tikzpicture}[x=9mm, y=7mm, font=\footnotesize]
+\foreach \i/\x in {1/0, 2/1.4, 3/2.8}{
+  \draw (\x,-\i) rectangle ++(6,0.6); \node at (\x+3,-\i+0.3) {Cửa sổ \i: ước lượng 104 tuần};
+  \draw[thick] (\x+6,-\i) rectangle ++(1.4,0.6); \node at (\x+6.7,-\i+0.3) {3 tháng};
+}
+\draw[->] (0,-3.8) -- (11,-3.8) node[right]{thời gian};
+\node[align=left, anchor=west] at (0,0.3) {ô mảnh: cửa sổ ước lượng; ô đậm: cửa sổ đánh giá};
+\end{tikzpicture}
+\caption{Cửa sổ ước lượng, cửa sổ đánh giá và cách tính khoảng cách khả năng đầu tư}\label{fig:cuaso}
+\nguon{Nguồn: Thí sinh đề xuất. Ghi chú: ở mỗi cửa sổ đánh giá, đề tài tính lợi suất tương đương chắc chắn của bảy mô hình trên rổ CS và rổ H, rồi tính khoảng cách $G_m$.}
+\end{figure}
+
+Hình~\ref{fig:cuaso} cho thấy cửa sổ ước lượng trượt về phía trước ba tháng mỗi lần, và các cửa sổ đánh giá nối tiếp nhau không chồng lên nhau. Vì vậy mỗi tháng của giai đoạn đánh giá chỉ được dùng một lần để chấm điểm các mô hình.
+
+\begin{delam}
+\emph{Dễ nghĩ là} cửa sổ đánh giá đầu tiên sau sự kiện (quý 1/2027) đo hoàn toàn tình trạng sau chuyển sàn. Nhưng cửa sổ ước lượng của nó kéo dài 104 tuần về trước, tức gần như toàn bộ nằm trước ngày 28/12/2026. Các mô hình phải ước lượng tham số vì vậy vẫn dùng dữ liệu của HNX để chọn trọng số cho giai đoạn ở HOSE. \MM{1} không dùng dữ liệu quá khứ để chọn trọng số, nên khoảng cách của \MM{1} phản ánh tình trạng sau sự kiện sạch nhất.
+\end{delam}
+
+Vì số cửa sổ ít và lợi suất tương đương chắc chắn có phương sai lớn, \HH{4} được báo cáo ở dạng ước lượng, kèm hiệu ứng nhỏ nhất phát hiện được tính trên dữ liệu tham chiếu.

@@ -1,0 +1,168 @@
+%*******************************************************
+% 4.3 Phương pháp — 4.3.1 đến 4.3.3
+%*******************************************************
+\section{Phương pháp nghiên cứu / Mô hình lý thuyết}\label{sec:phuongphap}
+
+Mục này dài nhất đề cương và được chia thành mười tiểu mục. Bốn tiểu mục đầu dựng nền: lý thuyết (\ref{sec:khung}), giả thuyết (\ref{sec:giathuyet}), dữ liệu (\ref{sec:dulieu}) và chỉ số chất lượng thị trường (\ref{sec:mqi}). Hai tiểu mục tiếp theo dựng thước đo khả năng đầu tư (\ref{sec:mohinh} và \ref{sec:khanangdautu}). Ba tiểu mục sau trình bày cách kiểm định và các giả định của thiết kế (\ref{sec:kiemdinh}, \ref{sec:did}, \ref{sec:quytrinh}). Tiểu mục cuối (\ref{sec:tincay}) nói rõ đề tài phát hiện được tác động lớn đến đâu và làm gì khi kế hoạch gặp trục trặc.
+
+%-------------------------------------------------------
+\subsection{Khung lý thuyết}\label{sec:khung}
+%-------------------------------------------------------
+
+\begin{tomtat}
+Ba khối lý thuyết nối thành một chuỗi: sàn giao dịch ảnh hưởng chất lượng thị trường (vi cấu trúc thị trường), chất lượng thị trường ảnh hưởng khả năng đầu tư (lý thuyết danh mục có sai số ước lượng), và cấu trúc sàn liên hệ với vai trò của trung tâm tài chính (lý thuyết tích tụ và chuyên môn hóa). Đề tài kiểm định hai mắt xích đầu; mắt xích cuối chỉ được tổng hợp định tính.
+\end{tomtat}
+
+Đề tài dựa trên ba khối lý thuyết. Khối thứ nhất là lý thuyết về tích tụ và chuyên môn hóa của trung tâm tài chính (Gehrig, 2000; Kindleberger, 1974; Lai, 2012; Yao, 2012). Khối thứ hai là lý thuyết vi cấu trúc thị trường: quy tắc giao dịch và mức tập trung lệnh của một sàn ảnh hưởng tới chi phí giao dịch và tốc độ giá phản ánh thông tin (Amihud, 2002; Huang \& Stoll, 1996). Khối thứ ba là lý thuyết danh mục có sai số ước lượng: hiệu quả mà nhà đầu tư đạt được phụ thuộc vào chất lượng của tập cổ phiếu đầu tư được (Kan \& Zhou, 2007; Markowitz, 1952; Michaud, 1989).
+
+Ba khối nối thành một chuỗi: sàn giao dịch liên hệ với chất lượng thị trường, chất lượng thị trường liên hệ với khả năng đầu tư, và cấu trúc sàn liên hệ với vai trò của mỗi trung tâm. Đề tài không kiểm định quan hệ nhân quả ở mắt xích cuối.
+
+Có thể hình dung chuỗi này qua một cổ phiếu cụ thể. Khi cổ phiếu chuyển từ HNX sang HOSE, quy tắc giao dịch của nó đổi (biên độ, bước giá, tư cách vào chỉ số) và nó được giao dịch cùng với nhiều lệnh hơn. Theo vi cấu trúc thị trường, chi phí mua bán cổ phiếu ấy có thể giảm. Khi chi phí giảm và giá phản ánh thông tin nhanh hơn, nhà đầu tư đa dạng hóa ước lượng được rủi ro tốt hơn và trả ít phí hơn khi tái cân bằng; theo lý thuyết danh mục, lợi suất tương đương chắc chắn của họ tăng. Nếu điều đó xảy ra với hàng trăm cổ phiếu cùng lúc, thì câu hỏi về vai trò của mỗi thành phố trong hệ thống tài chính quốc gia trở nên cụ thể hơn: sàn nào tạo ra chất lượng nào.
+
+%-------------------------------------------------------
+\subsection{Mô hình nghiên cứu và giả thuyết}\label{sec:giathuyet}
+%-------------------------------------------------------
+
+\begin{tomtat}
+Bốn giả thuyết: \HH{1} (thị trường cổ phiếu phát triển đi cùng điểm GFCI cao hơn), \HH{2} (trước hợp nhất, HNX kém HOSE về chất lượng thị trường), \HH{3} (sau khi chuyển sàn, cổ phiếu chuyển sàn dễ mua bán hơn so với nhóm đối chứng) và \HH{4} (khoảng cách khả năng đầu tư thu hẹp). Mỗi giả thuyết đi kèm một khả năng đối lập. Khó khăn lớn nhất là biên độ và bước giá thay đổi cùng lúc với sàn, có thể làm thước đo thanh khoản thay đổi một cách cơ học; đề tài xử lý bằng một ngưỡng lợi suất chung và bằng việc báo cáo theo nhóm mức giá.
+\end{tomtat}
+
+Từ bốn khoảng trống ở Bảng~\ref{tab:khoangtrong}, đề tài đề xuất khung phân tích ở Hình~\ref{fig:khung} và bốn giả thuyết ở Bảng~\ref{tab:giathuyet}: \HH{1} trả lời câu hỏi 1, \HH{2} trả lời câu hỏi 2, \HH{3} và \HH{4} trả lời câu hỏi 3.
+
+\begin{figure}[H]
+\myfloatalign
+\begin{tikzpicture}[
+  node distance=6mm and 6mm,
+  hop/.style={draw, rectangle, align=center, text width=34mm, minimum height=14mm, font=\footnotesize},
+  >=stealth]
+\node[hop] (qt) {\textbf{Bằng chứng quốc tế}\\Điểm GFCI (\HH{1})\\Phát triển thị trường\\Thể chế, thu nhập};
+\node[hop, below=of qt] (truoc) {\textbf{Trước hợp nhất}\\Chỉ số chất lượng\\HNX so với HOSE (\HH{2})\\6/2009--6/2025};
+\node[hop, right=12mm of truoc] (sk) {\textbf{Sự kiện 28/12/2026}\\Chuyển sàn sang HOSE\\Thanh khoản (\HH{3})\\Khả năng đầu tư (\HH{4})};
+\node[hop, below=of sk] (dc) {\textbf{Nhóm đối chứng}\\Cổ phiếu HOSE đối sánh\\Cổ phiếu UPCoM};
+\node[hop, right=12mm of sk] (hn) {\textbf{Hàm ý cho Hà Nội}\\Chuyên môn hóa thị trường\\Trái phiếu, phái sinh, UPCoM\\Hạ tầng dữ liệu};
+\draw[->] (truoc) -- (sk);
+\draw[->] (dc) -- node[right, font=\scriptsize, align=left]{khác biệt\\kép} (sk);
+\draw[->, dashed] (sk) -- (hn);
+\draw[->, dashed] (qt.east) -| (hn.north);
+\end{tikzpicture}
+\caption{Khung phân tích: hợp nhất sàn, chất lượng thị trường và khả năng đầu tư}\label{fig:khung}
+\nguon{Nguồn: Thí sinh đề xuất. Ghi chú: mũi tên từ ô Trước hợp nhất sang ô Sự kiện chỉ trình tự thời gian; \HH{1} được kiểm định trên dữ liệu bảng quốc tế và chỉ cung cấp bối cảnh; \HH{2} so sánh hai sàn trước hợp nhất; \HH{3} được kiểm định và \HH{4} được ước lượng bằng khác biệt kép quanh ngày 28/12/2026; mũi tên nét đứt chỉ hàm ý chính sách.}
+\end{figure}
+
+Hình~\ref{fig:khung} đọc từ trái sang phải theo thời gian và từ trên xuống dưới theo mức độ gần với sự kiện. Ô trên cùng là bối cảnh quốc tế, không gắn với ngày chuyển sàn. Hai ô ở giữa là trục chính: chất lượng thị trường trước sự kiện, rồi tác động của sự kiện. Ô nhóm đối chứng cho biết tác động được đo so với cái gì. Ô bên phải là nơi các kết quả hội tụ thành hàm ý, và vì phần này không được kiểm định nên mũi tên vào nó là nét đứt.
+
+\begin{table}[H]
+\myfloatalign
+\caption{Giả thuyết, thước đo và cơ sở lý thuyết}\label{tab:giathuyet}
+{\bangnho
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.33\textwidth} L >{\raggedright\arraybackslash}p{0.27\textwidth}@{}}
+\toprule
+Giả thuyết & Thước đo chính & Cơ sở lý thuyết và phương pháp\\
+\midrule
+\HH{1}: Các trung tâm tài chính ở quốc gia có thị trường cổ phiếu phát triển hơn có điểm GFCI cao hơn, sau khi kiểm soát chất lượng thể chế và thu nhập (câu hỏi 1) & Điểm GFCI chuẩn hóa theo kỳ; chỉ báo phát triển thị trường cổ phiếu (vòng quay, vốn hóa trên GDP); chỉ số quản trị nhà nước & Naeem (2023); Čihák và cộng sự (2012); Kaufmann và cộng sự (2011)\\
+\addlinespace
+\HH{2}: Trong giai đoạn tham chiếu từ tháng 6/2009 đến tháng 6/2025, Chỉ số chất lượng thị trường vốn của sàn niêm yết HNX thấp hơn của HOSE (câu hỏi 2) & Chỉ số gộp từ độ phi thanh khoản Amihud, tỷ lệ ngày lợi suất bằng 0, chênh lệch mua-bán ước lượng, tỷ số phương sai, độ trễ giá, số ngày trễ hạn công bố & Amihud (2002); Lesmond và cộng sự (1999); Corwin và Schultz (2012); Lo và MacKinlay (1988); Hou và Moskowitz (2005); OECD (2008)\\
+\addlinespace
+\HH{3}: Sau ngày 28/12/2026, độ phi thanh khoản Amihud của các cổ phiếu chuyển sàn, tính trên các ngày có lợi suất tuyệt đối dưới ngưỡng chung và không liền sau ngày có lợi suất tuyệt đối từ ngưỡng chung trở lên, giảm so với nhóm đối chứng (câu hỏi 3) & Logarit độ phi thanh khoản Amihud trên các ngày có lợi suất tuyệt đối dưới ngưỡng chung, loại ngày liền sau ngày có lợi suất tuyệt đối từ ngưỡng chung trở lên (chính); vòng quay, tỷ lệ ngày lợi suất bằng 0 (phụ) & Amihud và cộng sự (1997); Nielsson (2009); Hisada (2018); Coval và Moskowitz (1999); Loughran và Schultz (2005); Conley và Taber (2011); Rambachan và Roth (2023)\\
+\addlinespace
+\HH{4} (ước lượng, không kiểm định xác nhận): Khoảng cách khả năng đầu tư giữa rổ H (rổ cổ phiếu HOSE đối sánh, mục~\ref{sec:khanangdautu}) và rổ cổ phiếu chuyển sàn thu hẹp sau ngày 28/12/2026 (câu hỏi 3) & Chỉ số khả năng đầu tư trước và sau sự kiện, chi phí giao dịch theo cổ phiếu và theo tháng; hiệu ứng nhỏ nhất phát hiện được & DeMiguel và cộng sự (2009); Ledoit và Wolf (2008); Politis và Romano (1994)\\
+\bottomrule
+\end{tabularx}}
+\nguon{Nguồn: Thí sinh đề xuất. Ghi chú: \HH{1}--\HH{3} là họ kiểm định xác nhận, hiệu chỉnh Holm (1979) ở mức 5\%; \HH{4} được báo cáo bằng ước lượng và khoảng tin cậy; các tương tác của tác động \HH{3} là phân tích phụ đăng ký trước, không đưa vào thủ tục Holm.}
+\end{table}
+
+\begin{vidao}
+\emph{Vì sao chỉ ba giả thuyết vào họ kiểm định xác nhận.} Khi kiểm định nhiều giả thuyết, xác suất có ít nhất một kết quả \enquote{có ý nghĩa} do ngẫu nhiên tăng theo số giả thuyết. Thủ tục Holm (1979) giữ xác suất này ở mức 5\% cho cả họ: sắp các giá trị p từ nhỏ đến lớn, so giá trị p nhỏ nhất với 0,05/3, giá trị tiếp theo với 0,05/2, giá trị lớn nhất với 0,05, và dừng ở giá trị đầu tiên không đạt. \HH{4} không vào họ này vì chỉ có 28 cửa sổ đánh giá, quá ít để kiểm định có lực; đưa vào sẽ làm ngưỡng của ba giả thuyết kia khắt khe hơn mà không thêm thông tin.
+\end{vidao}
+
+\begin{vidu}
+Giả sử giá trị p một phía của \HH{1}, \HH{2}, \HH{3} lần lượt là 0,030; 0,004 và 0,020. Sắp xếp: 0,004 (\HH{2}) so với 0,05/3 $\approx$ 0,0167, đạt; 0,020 (\HH{3}) so với 0,05/2 = 0,025, đạt; 0,030 (\HH{1}) so với 0,05, đạt. Cả ba được ủng hộ. Nếu giá trị p của \HH{3} là 0,028 thay vì 0,020, thì ở bước hai 0,028 > 0,025, thủ tục dừng: \HH{2} được ủng hộ, còn \HH{3} và \HH{1} đều không, dù riêng giá trị p của \HH{1} nhỏ hơn 0,05.
+\end{vidu}
+
+\subsubsection*{Khả năng đối lập của từng giả thuyết}
+
+Mỗi giả thuyết đi kèm một khả năng đối lập. Với \HH{1}, điểm GFCI có thể chỉ phản ánh thu nhập và thể chế. Với \HH{2}, chênh lệch có thể do quy mô doanh nghiệp và do biên độ dao động giá, hiện là ±7\% ở HOSE, ±10\% ở HNX và ±15\% ở UPCoM; theo Điều 4 Thông tư số 120/2020/TT-BTC, biên độ do VNX quyết định sau khi Ủy ban Chứng khoán Nhà nước chấp thuận, và Ủy ban có thể điều chỉnh khi cần ổn định thị trường (Bộ Tài chính, 2020). Trong quý 1 năm thứ nhất, đề tài lập bảng biên độ và bước giá hiệu lực theo từng thời kỳ 2009--2025 từ các quyết định của HOSE, HNX và Ủy ban Chứng khoán Nhà nước, và tính các chỉ báo theo đúng quy định của từng thời kỳ.
+
+Vì vậy, chỉ số được so sánh trên mẫu đối sánh theo quy mô và ngành, và được tính lại khi bỏ hai chỉ báo bị biên độ cắt trực tiếp là độ phi thanh khoản Amihud và chênh lệch Corwin--Schultz; tỷ số phương sai và độ trễ giá chỉ chịu biên độ gián tiếp và được kiểm tra bằng phép tính lại khi bỏ chiều hiệu quả thông tin (mục~\ref{sec:mqi}).
+
+\subsubsection*{Bước giá}
+
+Bước giá cũng khác nhau. Với giao dịch khớp lệnh cổ phiếu, bước giá ở HOSE là 10 đồng khi giá dưới 10.000 đồng, 50 đồng khi giá từ 10.000 đến 49.950 đồng và 100 đồng từ 50.000 đồng trở lên (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025), còn ở HNX là 100 đồng cho mọi mức giá (Sở Giao dịch Chứng khoán Hà Nội, 2016, Điều 23). Bảng bước giá hiện hành của HOSE áp dụng từ ngày 12/9/2016 theo quy chế giao dịch ban hành kèm Quyết định số 341/QĐ-SGDHCM (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2016). Khi chuyển sàn, bước giá vì vậy giảm mười lần ở mã giá dưới 10.000 đồng, giảm một nửa ở mã giá từ 10.000 đến 49.950 đồng và không đổi ở mã giá cao hơn.
+
+\begin{vidu}
+Một cổ phiếu giá 8.000 đồng. Ở HNX, bước giá 100 đồng bằng 1,25\% giá: muốn đặt giá mua cao hơn người khác, nhà đầu tư phải trả thêm ít nhất 1,25\%. Ở HOSE, bước giá 10 đồng chỉ bằng 0,125\% giá. Với cổ phiếu giá 30.000 đồng, bước giá giảm từ 100 đồng (0,33\%) xuống 50 đồng (0,17\%). Với cổ phiếu giá 60.000 đồng, bước giá vẫn là 100 đồng (0,17\%). Như vậy cổ phiếu giá càng thấp thì cú sốc bước giá khi chuyển sàn càng lớn.
+\end{vidu}
+
+Vì tỷ lệ ngày lợi suất bằng 0 và chênh lệch Corwin--Schultz phản ánh một phần bước giá, nhất là ở cổ phiếu giá thấp, hai chỉ báo này được báo cáo theo nhóm mức giá, và thay đổi của tỷ lệ ngày lợi suất bằng 0 trong \HH{3} được đọc cùng với mức giảm bước giá khi chuyển sàn.
+
+Lý do là khi bước giá lớn so với giá, giá khó nhích lên hoặc xuống một nấc, nên nhiều ngày giá đứng yên dù vẫn có giao dịch. Khi bước giá nhỏ đi, số ngày giá đứng yên giảm một cách cơ học, chưa chắc vì thanh khoản thực sự tốt hơn.
+
+\subsubsection*{Biên độ và ngưỡng lợi suất chung khi tính Amihud}
+
+Với \HH{3}, biên độ hẹp lại từ ±10\% xuống ±7\% khi chuyển sàn làm lợi suất tuyệt đối bị cắt ở những ngày chạm biên độ, nên độ phi thanh khoản Amihud có thể giảm một cách cơ học. Chỉ loại các ngày chạm biên độ thì chưa đủ, vì sau khi chuyển sàn mọi ngày lẽ ra có lợi suất tuyệt đối khoảng 7\% đến 10\% đều thành ngày chạm biên độ và bị loại.
+
+Để thấy vấn đề, nhớ rằng độ phi thanh khoản Amihud của một ngày là lợi suất tuyệt đối chia cho giá trị giao dịch. Ngày có tin tốt mạnh, giá ở HNX có thể tăng 9\%; sau khi sang HOSE, cùng mức tin ấy chỉ cho giá tăng tối đa 7\%. Tử số bị cắt bớt, nên chỉ số giảm, dù độ khó mua bán không đổi. Nếu chỉ bỏ ngày chạm trần, thì trước chuyển sàn ngày tăng 9\% vẫn nằm trong mẫu (chưa chạm trần 10\%), còn sau chuyển sàn ngày tương tự bị bỏ (chạm trần 7\%). Hai giai đoạn vì vậy được tính trên hai tập ngày khác nhau.
+
+Đề tài vì vậy tính Amihud, ở cả hai nhóm và hai giai đoạn, chỉ trên các ngày có lợi suất tuyệt đối dưới một ngưỡng chung và không liền sau một ngày có lợi suất tuyệt đối từ ngưỡng này trở lên. Ngưỡng thấp hơn mức lợi suất lớn nhất đạt được ở biên độ ±7\% với mọi mức giá đưa vào phép tính, sau khi giá trần được làm tròn xuống và giá sàn được làm tròn lên theo đơn vị yết giá của HOSE (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025). Vì mức lợi suất lớn nhất này thấp hơn rõ ở cổ phiếu giá thấp (với giá tham chiếu 1.140 đồng và bước giá 10 đồng, giá trần là 1.210 đồng, tức chỉ tăng được 6,14\%), các mã có giá dưới một mức tối thiểu ghi trong tệp đăng ký được loại khỏi phép tính Amihud và được báo cáo riêng. Vì ngưỡng giống nhau cho mọi cổ phiếu và mọi giai đoạn, tập ngày bị loại không đổi theo sàn.
+
+\begin{vidu}
+Theo cách làm tròn nêu trên, mức tăng lớn nhất đạt được trong một phiên ở biên độ ±7\% phụ thuộc vào giá tham chiếu:
+\begin{itemize}
+\item giá 1.140 đồng: 1.140 nhân 1,07 bằng 1.219,8; làm tròn xuống theo bước 10 đồng được 1.210 đồng; mức tăng tối đa là 6,14\%;
+\item giá 10.020 đồng: 10.020 nhân 1,07 bằng 10.721,4; làm tròn xuống theo bước 50 đồng được 10.700 đồng; mức tăng tối đa là 6,79\%;
+\item giá 50.000 đồng: 50.000 nhân 1,07 bằng 53.500 đồng, đúng bước 100 đồng; mức tăng tối đa là 7,00\%.
+\end{itemize}
+Nếu chọn ngưỡng chung là 6\%, mọi ngày có lợi suất tuyệt đối từ 6\% trở lên bị loại ở cả HNX lẫn HOSE, trước lẫn sau sự kiện, và ngày liền sau chúng cũng bị loại. Mọi mã có giá đủ cao để đạt được 6\% trong biên độ của HOSE đều được tính trên cùng một quy tắc. Con số 6\% ở đây chỉ để minh họa; giá trị ngưỡng thật được ghi trong tệp đăng ký.
+\end{vidu}
+
+\begin{delam}
+\emph{Dễ nghĩ là} việc bỏ ngày liền sau ngày có lợi suất lớn là thừa. Nhưng khi giá bị biên độ chặn, phần biến động chưa thực hiện được dồn sang phiên hôm sau. Ở HOSE với biên độ hẹp hơn, hiện tượng dồn này xảy ra nhiều hơn ở HNX, nên ngày hôm sau cũng mang dấu vết của biên độ. Bỏ cả ngày hôm sau làm hai sàn được so trên những ngày không chịu ảnh hưởng của biên độ.
+\end{delam}
+
+Giá trị ngưỡng và số ngày hợp lệ tối thiểu mỗi tháng được ghi trong tệp đăng ký; tỷ lệ ngày bị loại được báo cáo theo nhóm và giai đoạn. Giá trị giao dịch chỉ gồm giao dịch khớp lệnh, và vòng quay (thước đo không dùng lợi suất) là thước đo đối chiếu.
+
+Với \HH{4}, quy tắc 1/N có thể xóa khoảng cách vì không cần ước lượng tham số (DeMiguel và cộng sự, 2009), nên đề tài báo cáo khoảng cách riêng cho từng mô hình.
+
+%-------------------------------------------------------
+\subsection{Dữ liệu}\label{sec:dulieu}
+%-------------------------------------------------------
+
+\begin{tomtat}
+Hai bộ dữ liệu: quốc tế (điểm GFCI các kỳ 1--40, chỉ báo thị trường cổ phiếu và quản trị nhà nước) cho \HH{1}, và Việt Nam (dữ liệu giao dịch ngày của HNX, UPCoM, HOSE từ tháng 6/2009) cho \HH{2}--\HH{4}. Thời gian được chia thành ba giai đoạn: tham chiếu (6/2009--6/2025), chuyển tiếp (7/2025--12/2026, không dùng trong kiểm định chính) và sau sự kiện (24 tháng từ 1/2027).
+\end{tomtat}
+
+Đề tài dùng hai bộ dữ liệu. Bộ dữ liệu quốc tế cho câu hỏi 1 gồm điểm và thứ hạng GFCI các kỳ 1--40, do Z/Yen công bố công khai từ năm 2007, được thí sinh số hóa từ báo cáo từng kỳ nếu Long Finance cho phép (nếu không, xem phương án dự phòng ở mục~\ref{sec:tincay}) và ghép với các chỉ báo thị trường cổ phiếu cấp quốc gia (Čihák và cộng sự, 2012) và các chỉ số quản trị nhà nước (Kaufmann và cộng sự, 2011).
+
+Bộ dữ liệu Việt Nam gồm giá điều chỉnh, khối lượng và giá trị giao dịch theo ngày của cổ phiếu trên sàn niêm yết HNX, UPCoM và HOSE, kể cả mã đã hủy niêm yết hoặc chuyển sàn, cùng các chỉ số thị trường, lợi suất trái phiếu chính phủ kỳ hạn một năm và thời điểm công bố báo cáo tài chính quý. Nguồn là HNX, HOSE và một nhà cung cấp dữ liệu thương mại; dữ liệu không chứa thông tin cá nhân.
+
+Việc giữ cả mã đã hủy niêm yết hoặc chuyển sàn là để tránh thiên lệch sống sót. Nếu chỉ dùng các mã còn giao dịch đến nay, mẫu sẽ thiếu những doanh nghiệp yếu đã rời sàn, và chất lượng thị trường trong quá khứ sẽ trông tốt hơn thực tế, nhất là ở sàn có nhiều mã rời đi.
+
+\subsubsection*{Ba giai đoạn thời gian}
+
+Mẫu bắt đầu từ tháng 6/2009, khi UPCoM khai trương (ngày 24/6/2009). Vì HNX ngừng tiếp nhận hồ sơ đăng ký niêm yết cổ phiếu mới từ ngày 01/7/2025 (Bộ Tài chính, 2023), giai đoạn tham chiếu kết thúc ngày 30/6/2025. Giai đoạn từ tháng 7/2025 đến tháng 12/2026 là giai đoạn chuyển tiếp, được báo cáo riêng (phiên bản nghiên cứu sự kiện và phần mô tả), không dùng trong các kiểm định chính; giai đoạn sau sự kiện kéo dài 24 tháng từ tháng 1/2027.
+
+\begin{figure}[H]
+\myfloatalign
+\begin{tikzpicture}[x=6.2mm, y=6mm, font=\footnotesize]
+\draw[->] (0,0) -- (21.5,0) node[right]{năm};
+\foreach \y/\lab in {0/2009, 4/2013, 8/2017, 12/2021, 16/2025, 17/2026, 18/2027, 19/2028, 20/2029}{
+  \draw (\y,0.15) -- (\y,-0.15) node[below]{\lab};}
+\draw[thick] (0.5,0.6) rectangle (16.5,1.4); \node at (8.5,1.0) {Giai đoạn tham chiếu 6/2009--6/2025};
+\draw[thick, dashed] (16.5,0.6) rectangle (18,1.4); \node[align=center] at (17.25,2.2) {Chuyển tiếp\\7/2025--12/2026};
+\draw[thick] (18,0.6) rectangle (20,1.4); \node[align=center] at (19.6,-1.4) {Sau sự kiện\\1/2027--12/2028};
+\draw[very thick] (18,-0.3) -- (18,1.8); \node[align=center] at (14.7,-1.4) {28/12/2026};
+\draw[->] (15.7,-1.1) -- (17.9,-0.3);
+\end{tikzpicture}
+\caption{Ba giai đoạn thời gian của mẫu dữ liệu Việt Nam}\label{fig:giaidoan}
+\nguon{Nguồn: Thí sinh đề xuất theo các mốc nêu trong mục~\ref{sec:dulieu}. Ghi chú: trục thời gian không theo đúng tỷ lệ; giai đoạn chuyển tiếp (nét đứt) chỉ dùng trong phiên bản nghiên cứu sự kiện và phần mô tả.}
+\end{figure}
+
+\begin{vidao}
+\emph{Vì sao bỏ giai đoạn chuyển tiếp khỏi kiểm định chính.} Từ ngày 01/7/2025, HNX không nhận niêm yết mới, và thị trường biết rằng mọi mã niêm yết sẽ sang HOSE. Trong 18 tháng ấy, nhà đầu tư có thể đã mua trước những mã sắp chuyển, hoặc doanh nghiệp có thể đã thay đổi hành vi công bố thông tin. Nếu tính giai đoạn này vào \enquote{trước sự kiện}, đề tài sẽ so sánh sau sự kiện với một giai đoạn đã bị sự kiện tác động, và đánh giá thấp tác động thật. Bỏ giai đoạn này khỏi kiểm định chính, nhưng vẫn quan sát nó qua phiên bản nghiên cứu sự kiện, giữ được cả độ sạch của phép so sánh lẫn thông tin về phản ứng sớm.
+\end{vidao}
+
+Ngày bị đình chỉ giao dịch được loại khỏi mẫu số của tỷ lệ ngày lợi suất bằng 0. Độ phi thanh khoản Amihud được winsorize tại phân vị 1\% và 99\% tính trên mẫu gộp các sàn trong từng tháng, để ngưỡng không đổi khi cổ phiếu đổi sàn.
+
+Winsorize nghĩa là thay các giá trị quá lớn bằng giá trị ở phân vị 99\% và các giá trị quá nhỏ bằng giá trị ở phân vị 1\%, để vài quan sát cực đoan không chi phối bình quân. Ngưỡng được tính trên mẫu gộp các sàn, không tính riêng từng sàn, vì nếu tính riêng thì một cổ phiếu đổi sàn sẽ gặp ngưỡng khác nhau trước và sau sự kiện, và việc đổi ngưỡng tự nó tạo ra thay đổi giả.
+
+Giai đoạn căng thẳng, chỉ dùng cho phân tích mô tả, gồm đại dịch COVID-19 năm 2020 (Dao và cộng sự, 2021) và biến cố thị trường trái phiếu doanh nghiệp từ quý 4/2022 (International Monetary Fund, 2023; Vu và cộng sự, 2024).

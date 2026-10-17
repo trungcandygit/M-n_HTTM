@@ -1,0 +1,49 @@
+%****************************************************************************************************
+% Đề cương nghiên cứu — bản dài để đọc (round 15)
+% Biên dịch: pdflatex main && pdflatex main && pdflatex main  (hoặc latexmk -pdf main)
+%****************************************************************************************************
+\documentclass[twoside,openright,titlepage,numbers=noenddot,headinclude,footinclude,%
+  cleardoublepage=empty,abstract=off,BCOR=5mm,paper=a4,fontsize=11pt]{scrreprt}
+
+\input{classicthesis-config}
+\input{macros}
+
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{vietnamese}
+\pagenumbering{roman}
+\pagestyle{plain}
+
+\input{frontmatter/biachinh}
+\input{frontmatter/huongdandoc}
+
+\cleardoublepage
+\pdfbookmark[1]{Mục lục}{mucluc}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\cleardoublepage
+\listoftables
+\listoffigures
+\input{frontmatter/vietat}
+
+\cleardoublepage
+\pagestyle{scrheadings}
+\pagenumbering{arabic}
+
+\input{chapters/ch00-thongtin}
+\setcounter{chapter}{3}
+\input{chapters/ch04-1-lydo}
+\input{chapters/ch04-2-tongquan}
+\input{chapters/ch04-3a-khung}
+\input{chapters/ch04-3b-chiso}
+\input{chapters/ch04-3c-kiemdinh}
+\input{chapters/ch04-3d-tincay}
+\input{chapters/ch04-4-5-phamvi}
+\input{chapters/ch05-10}
+\input{chapters/ch11-tailieu}
+
+\appendix
+\input{backmatter/phuluc}
+
+\end{document}

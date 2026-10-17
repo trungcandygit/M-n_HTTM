@@ -1,0 +1,38 @@
+%****************************************************************************************************
+\usepackage{enumitem}
+\usepackage{longtable}
+% Macro riêng của bản dài (ký hiệu theo lối kinh tế lượng cổ điển: chỉ số dưới viết liền,
+% không dấu phẩy, không dấu nhân; tên biến nhiều chữ viết đứng)
+%****************************************************************************************************
+\newcommand{\vn}[1]{\mathrm{#1}}          % tên biến nhiều chữ: MQI, Post, SMD...
+\newcommand{\MQI}{\vn{MQI}}
+\newcommand{\Post}{\vn{Post}}
+\newcommand{\SMD}{\vn{SMD}}
+\newcommand{\HH}[1]{H\textsubscript{#1}}    % H1–H4 viết chỉ số dưới
+\newcommand{\MM}[1]{M\textsubscript{#1}}    % M1–M7 viết chỉ số dưới
+\newcommand{\KK}[1]{K\textsubscript{#1}}    % K1–K4 viết chỉ số dưới
+\newcommand{\Gbar}{\ensuremath{\bar{G}}}
+
+% Hộp tóm tắt đầu mục, hộp ví dụ số, hộp "dễ hiểu nhầm" — nền trắng, viền mảnh, không tô xám
+\newtcolorbox{tomtat}{colback=white,colframe=black,boxrule=0.4pt,arc=0pt,
+  title={\spacedlowsmallcaps{Tóm tắt mục}},coltitle=black,colbacktitle=white,
+  fonttitle=\normalsize,toptitle=2pt,bottomtitle=0pt,titlerule=0pt}
+\newtcolorbox{vidu}[1][]{colback=white,colframe=black,boxrule=0.4pt,arc=0pt,
+  title={\spacedlowsmallcaps{Ví dụ số minh họa}#1},coltitle=black,colbacktitle=white,
+  fonttitle=\normalsize,toptitle=2pt,bottomtitle=0pt,titlerule=0pt}
+\newtcolorbox{delam}{colback=white,colframe=black,boxrule=0.4pt,arc=0pt,
+  title={\spacedlowsmallcaps{Chỗ dễ hiểu nhầm}},coltitle=black,colbacktitle=white,
+  fonttitle=\normalsize,toptitle=2pt,bottomtitle=0pt,titlerule=0pt}
+\newtcolorbox{vidao}{colback=white,colframe=black,boxrule=0.4pt,arc=0pt,
+  title={\spacedlowsmallcaps{Vì sao chọn cách này}},coltitle=black,colbacktitle=white,
+  fonttitle=\normalsize,toptitle=2pt,bottomtitle=0pt,titlerule=0pt}
+
+% Ghi nguồn dưới bảng/hình
+\newcommand{\nguon}[1]{\par\vspace{2pt}{\footnotesize #1\par}}
+
+% Bảng: chữ nhỏ hơn một bậc, căn trái, cột tự giãn
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcommand{\bangnho}{\small\setlength{\tabcolsep}{4pt}}
+
+% csquotes chưa có kiểu cho tiếng Việt và mã T5 nên in sai dấu ngoặc kép; dùng ngoặc kép cong trực tiếp
+\renewcommand*{\enquote}[1]{``#1''}
