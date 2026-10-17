@@ -1,0 +1,448 @@
+[
+{
+"id": "A01",
+"op": "replace",
+"old": "câu hỏi số 2 và số 4 nằm ngoài phạm vi",
+"new": "câu hỏi số 2 và số 4 (về công nghệ tài chính và dịch vụ tài chính thế hệ mới) nằm ngoài phạm vi"
+},
+{
+"id": "A03",
+"op": "replace",
+"old": "chỉ dùng trong phiên bản nghiên cứu sự kiện",
+"new": "được báo cáo riêng (phiên bản nghiên cứu sự kiện và phần mô tả), không dùng trong các kiểm định chính"
+},
+{
+"id": "A04",
+"op": "replace",
+"old": "ngưỡng lợi suất khi tính Amihud;",
+"new": "ngưỡng lợi suất khi tính Amihud; quy tắc chọn cửa sổ trước theo điểm gãy cấu trúc;"
+},
+{
+"id": "A05",
+"op": "replace_all",
+"old": "không liền sau một ngày vượt ngưỡng này",
+"new": "không liền sau một ngày có lợi suất tuyệt đối từ ngưỡng này trở lên"
+},
+{
+"id": "M1a",
+"op": "replace",
+"old": "(Tuổi Trẻ Online, 2026), trong cùng một ngày.",
+"new": "trong cùng một ngày (Tuổi Trẻ Online, 2026b)."
+},
+{
+"id": "M1b",
+"op": "replace",
+"old": "theo dự thảo quy chế đang lấy ý kiến (Tuổi Trẻ Online, 2026)",
+"new": "theo dự thảo quy chế đang lấy ý kiến (Tuổi Trẻ Online, 2026a)"
+},
+{
+"id": "M1c",
+"op": "replace",
+"old": "Tuổi Trẻ Online. (2026). HOSE dự kiến",
+"new": "Tuổi Trẻ Online. (2026a). HOSE dự kiến"
+},
+{
+"id": "M1d",
+"op": "new_para_md_after",
+"anchor": "Tuổi Trẻ Online. (2026a). HOSE dự kiến",
+"text": "Tuổi Trẻ Online. (2026b). Toàn bộ cổ phiếu trên HNX sẽ chuyển sang HOSE từ 28-12 [Bài báo ngày 30/9/2026] [CẦN BỔ SUNG URL]."
+},
+{
+"id": "M2",
+"op": "replace",
+"old": "Ngưỡng thấp hơn mức lợi suất lớn nhất đạt được ở biên độ ±7%, tính sau khi giá trần được làm tròn xuống và giá sàn được làm tròn lên theo đơn vị yết giá của HOSE (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025).",
+"new": "Ngưỡng thấp hơn mức lợi suất lớn nhất đạt được ở biên độ ±7% với mọi mức giá đưa vào phép tính, sau khi giá trần được làm tròn xuống và giá sàn được làm tròn lên theo đơn vị yết giá của HOSE (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025). Vì mức lợi suất lớn nhất này thấp hơn rõ ở cổ phiếu giá thấp (với giá tham chiếu 1.140 đồng và bước giá 10 đồng, giá trần là 1.210 đồng, tức chỉ tăng được 6,14%), các mã có giá dưới một mức tối thiểu ghi trong tệp đăng ký được loại khỏi phép tính Amihud và được báo cáo riêng."
+},
+{
+"id": "M3a+m1",
+"op": "replace",
+"old": "Đợt chuyển ngày 28/12/2026 không gồm UPCoM (Báo Đầu tư Chứng khoán, 2026)",
+"new": "Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, nên đợt chuyển ngày 28/12/2026 không gồm UPCoM (Báo Đầu tư Chứng khoán, 2026; Sở Giao dịch Chứng khoán Việt Nam, 2026)"
+},
+{
+"id": "M3b",
+"op": "replace",
+"old": "nên UPCoM có thể chuyển sàn trong cửa sổ sau, theo một đợt riêng hoặc sau khi mốc này được lùi",
+"new": "nên UPCoM có thể chuyển sàn theo một đợt riêng trước hết ngày 31/12/2026, tức trước cửa sổ sau, hoặc trong cửa sổ sau nếu mốc này được lùi"
+},
+{
+"id": "M3c",
+"op": "replace",
+"old": "Nếu cổ phiếu UPCoM chuyển sang HOSE trong cửa sổ sau (mục 4.3.10)",
+"new": "Nếu cổ phiếu UPCoM chuyển sang HOSE trước hoặc trong cửa sổ sau (mục 4.3.10)"
+},
+{
+"id": "A06",
+"op": "replace",
+"old": "đo bằng điểm GFCI",
+"new": "đo bằng điểm Chỉ số Trung tâm Tài chính Toàn cầu (GFCI)"
+},
+{
+"id": "A07a",
+"op": "replace",
+"old": "khi cổ phiếu niêm yết chuyển từ HNX sang HOSE.",
+"new": "khi cổ phiếu niêm yết chuyển từ Sở Giao dịch Chứng khoán Hà Nội (HNX) sang Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh (HOSE)."
+},
+{
+"id": "A07b",
+"op": "replace",
+"old": "Hợp nhất sàn là việc chuyển toàn bộ cổ phiếu niêm yết từ Sở Giao dịch Chứng khoán Hà Nội (HNX) sang Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh (HOSE)",
+"new": "Hợp nhất sàn là việc chuyển toàn bộ cổ phiếu niêm yết từ HNX sang HOSE"
+},
+{
+"id": "A08a",
+"op": "replace",
+"old": "(câu hỏi thứ nhất của bài toán)",
+"new": "(câu hỏi số 1 của bài toán)"
+},
+{
+"id": "A08b",
+"op": "replace",
+"old": "(câu hỏi thứ ba)",
+"new": "(câu hỏi số 3)"
+},
+{
+"id": "A09",
+"op": "replace",
+"old": "mỗi câu gắn với câu hỏi chính của bài toán số 19:",
+"new": "mỗi câu gắn với câu hỏi tương ứng của bài toán số 19 (ghi trong ngoặc):"
+},
+{
+"id": "A11",
+"op": "replace",
+"old": "chỉ áp dụng cho cổ phiếu niêm yết, báo chí cho biết",
+"new": "chỉ áp dụng cho cổ phiếu niêm yết; báo chí cho biết"
+},
+{
+"id": "A12",
+"op": "replace",
+"old": "kể cả mức thay đổi của tác động theo mức chịu cú sốc biên độ, bước giá, chỉ số và theo trụ sở doanh nghiệp",
+"new": "kể cả khác biệt của tác động theo mức chịu cú sốc biên độ, bước giá, chỉ số (mục 4.3.7) và theo trụ sở doanh nghiệp"
+},
+{
+"id": "A14",
+"op": "replace",
+"old": "Hai chỉ số và tệp đăng ký trước",
+"new": "Hai chỉ số (chất lượng thị trường vốn và khả năng đầu tư) cùng tệp đăng ký trước"
+},
+{
+"id": "A16",
+"op": "replace",
+"old": "tần suất ngày có lợi suất bằng 0",
+"new": "tỷ lệ ngày có lợi suất bằng 0"
+},
+{
+"id": "A17",
+"op": "replace",
+"old": "Lang và cộng sự (2012) nối minh bạch với thanh khoản",
+"new": "Lang và cộng sự (2012) liên hệ minh bạch với thanh khoản"
+},
+{
+"id": "A20",
+"op": "replace",
+"old": "giữa rổ H và rổ cổ phiếu chuyển sàn thu hẹp",
+"new": "giữa rổ H (rổ cổ phiếu HOSE đối sánh, mục 4.3.6) và rổ cổ phiếu chuyển sàn thu hẹp"
+},
+{
+"id": "A21",
+"op": "replace",
+"old": "độ trễ giá, độ trễ công bố",
+"new": "độ trễ giá, số ngày trễ hạn công bố"
+},
+{
+"id": "A22",
+"op": "replace",
+"old": "hiệu chỉnh Holm ở mức 5%",
+"new": "hiệu chỉnh Holm (1979) ở mức 5%"
+},
+{
+"id": "A23",
+"op": "replace",
+"old": "mọi ngày có lợi suất tuyệt đối khoảng 7% đến 10%",
+"new": "mọi ngày lẽ ra có lợi suất tuyệt đối khoảng 7% đến 10%"
+},
+{
+"id": "A24",
+"op": "replace",
+"old": "và vòng quay, thước đo không dùng lợi suất, là thước đo đối chiếu",
+"new": "và vòng quay (thước đo không dùng lợi suất) là thước đo đối chiếu"
+},
+{
+"id": "A26",
+"op": "replace",
+"old": "được thí sinh số hóa từ báo cáo từng kỳ sau khi xin phép Long Finance",
+"new": "được thí sinh số hóa từ báo cáo từng kỳ nếu Long Finance cho phép (nếu không, xem phương án dự phòng ở mục 4.3.10)"
+},
+{
+"id": "A27",
+"op": "replace",
+"old": "thiên lệch do thông tin lỗi thời hay hồi quy về trung bình tác động lên cả hai",
+"new": "thiên lệch do thông tin tại ngày tham chiếu lỗi thời ở các cửa sổ xa hay do hồi quy về trung bình tác động lên cả hai rổ"
+},
+{
+"id": "A28",
+"op": "replace",
+"old": "của chuỗi chênh lệch theo tháng (Bai & Perron, 1998)",
+"new": "của chuỗi chênh lệch theo tháng định nghĩa ở đoạn sau (Bai & Perron, 1998)"
+},
+{
+"id": "A29",
+"op": "replace",
+"old": "Suy luận trên các ngày giả định",
+"new": "Suy luận trên các ngày sự kiện giả định"
+},
+{
+"id": "A31",
+"op": "replace",
+"old": "Việc chuyển sàn đổi ba quy tắc cùng lúc, và mỗi quy tắc tác động mạnh yếu khác nhau tùy cổ phiếu:",
+"new": "Việc chuyển sàn đổi nhiều quy tắc cùng lúc, trong đó ba quy tắc tác động mạnh yếu khác nhau tùy cổ phiếu:"
+},
+{
+"id": "A33",
+"op": "replace",
+"old": "và được ước lượng trên mã HOSE đối chứng; thước đo này chỉ đại diện cho mức chịu ràng buộc của biên độ",
+"new": "và hiệu ứng theo tháng tương ứng được ước lượng trên mã HOSE đối chứng; thước đo này chỉ đại diện gần đúng cho mức chịu ràng buộc của biên độ"
+},
+{
+"id": "A34",
+"op": "replace",
+"old": "là ước lượng dị biệt trong cùng một thiết kế",
+"new": "là ước lượng khác biệt của tác động trong cùng một thiết kế"
+},
+{
+"id": "A35",
+"op": "replace",
+"old": "trên chuỗi lợi suất tuần của hai rổ lấy mẫu đồng thời",
+"new": "trên chuỗi lợi suất tuần của hai rổ, được lấy mẫu lại đồng thời"
+},
+{
+"id": "A36",
+"op": "replace",
+"old": "Thứ nhất, xu hướng song song, kiểm tra bằng",
+"new": "Thứ nhất là xu hướng song song, được kiểm tra bằng"
+},
+{
+"id": "A37",
+"op": "replace",
+"old": "Vì vậy nhóm đối chứng HOSE",
+"new": "Vì vậy, nhóm đối chứng HOSE"
+},
+{
+"id": "A38",
+"op": "replace",
+"old": "đề tài dùng toàn bộ tháng có sẵn và rổ 20 cổ phiếu",
+"new": "đề tài dùng, tương ứng, toàn bộ tháng có sẵn hoặc rổ 20 cổ phiếu"
+},
+{
+"id": "A39",
+"op": "replace",
+"old": "còn các nghiên cứu khác xét nhiều nhóm yếu tố cùng lúc",
+"new": "còn các nghiên cứu khác xét nhiều nhóm yếu tố cùng lúc nên chưa tách riêng vai trò của thị trường cổ phiếu"
+},
+{
+"id": "Yao",
+"op": "replace",
+"old": "Với Hà Nội, câu hỏi sau hợp nhất là nên chuyên môn hóa vào những thị trường nào (Yao, 2012).",
+"new": "Với Hà Nội, câu hỏi sau hợp nhất là nên chuyên môn hóa vào những thị trường nào, tương tự cách Yao (2012) phân tích lợi thế của Luxembourg đối với ngành quỹ đầu tư."
+},
+{
+"id": "m2",
+"op": "replace",
+"old": "và không bị Thông tư số 139/2025/TT-BTC sửa (Bộ Tài chính, 2023)",
+"new": "và không bị Thông tư số 139/2025/TT-BTC sửa (Bộ Tài chính, 2023, 2025)"
+},
+{
+"id": "m3",
+"op": "replace",
+"old": "Vì HNX ngừng nhận niêm yết mới từ ngày 01/7/2025,",
+"new": "Vì HNX ngừng tiếp nhận hồ sơ đăng ký niêm yết cổ phiếu mới từ ngày 01/7/2025 (Bộ Tài chính, 2023),"
+},
+{
+"id": "m4",
+"op": "replace",
+"old": "Mẫu bắt đầu từ tháng 6/2009, khi UPCoM bắt đầu có giao dịch.",
+"new": "Mẫu bắt đầu từ tháng 6/2009, khi UPCoM bắt đầu có giao dịch [CẦN XÁC MINH ngày giao dịch đầu tiên của UPCoM trên văn bản của HNX]."
+},
+{
+"id": "m5",
+"op": "replace",
+"old": "chất lượng cao của Thành phố.",
+"new": "chất lượng cao của thành phố Hà Nội."
+},
+{
+"id": "m6",
+"op": "replace",
+"old": "Ho Chi Minh City Stock Exchange",
+"new": "Ho Chi Minh Stock Exchange"
+},
+{
+"id": "m8",
+"op": "replace",
+"old": "Đề tài không thiết kế sản phẩm thứ hai",
+"new": "Đề tài không thiết kế sản phẩm “Trung tâm tài chính quốc tế tại Hà Nội”"
+},
+{
+"id": "m9",
+"op": "replace",
+"old": "trong đó k chạy từ tháng 1/2024 đến tháng 12/2028",
+"new": "trong đó k, khác với k chỉ sàn ở phương trình (1), chạy từ tháng 1/2024 đến tháng 12/2028"
+},
+{
+"id": "m10",
+"op": "replace",
+"old": "độ phi thanh khoản Amihud và chênh lệch Corwin–Schultz.",
+"new": "độ phi thanh khoản Amihud và chênh lệch Corwin–Schultz; tỷ số phương sai và độ trễ giá chỉ chịu biên độ gián tiếp và được kiểm tra bằng phép tính lại khi bỏ chiều hiệu quả thông tin (mục 4.3.4)."
+},
+{
+"id": "m11",
+"op": "replace",
+"old": "[CẦN ĐỐI CHIẾU quy chế giao dịch gốc của HNX và bước giá của HOSE trước ngày 12/9/2016]",
+"new": "[CẦN ĐỐI CHIẾU quy chế giao dịch gốc của HNX (Quyết định số 529/QĐ-SGDHN ngày 25/8/2016) và bước giá của HOSE trước ngày 12/9/2016]"
+},
+{
+"id": "m12",
+"op": "replace",
+"old": "và một đến hai báo cáo hội thảo.",
+"new": "và một đến hai báo cáo hội thảo đăng trong kỷ yếu được Hội đồng Giáo sư nhà nước tính điểm (hội thảo trong nước) hoặc thuộc cơ sở dữ liệu Scopus hoặc Web of Science (hội thảo ở nước ngoài)."
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Kindleberger, 1974; Gehrig, 2000)",
+"new": "(Gehrig, 2000; Kindleberger, 1974)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Moosa và cộng sự, 2016; Eichengreen & Shah, 2020)",
+"new": "(Eichengreen & Shah, 2020; Moosa và cộng sự, 2016)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Nielsson, 2009; Hisada, 2018)",
+"new": "(Hisada, 2018; Nielsson, 2009)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Vo & Phan, 2017; Hoang & Luu, 2024; Goutte và cộng sự, 2025)",
+"new": "(Goutte và cộng sự, 2025; Hoang & Luu, 2024; Vo & Phan, 2017)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Vo & Phan, 2017; Goutte và cộng sự, 2025; Nguyễn & Nguyễn, 2026a)",
+"new": "(Goutte và cộng sự, 2025; Nguyễn & Nguyễn, 2026a; Vo & Phan, 2017)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Lesmond và cộng sự, 1999; Bekaert và cộng sự, 2007)",
+"new": "(Bekaert và cộng sự, 2007; Lesmond và cộng sự, 1999)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Black & Litterman, 1992; Bessler và cộng sự, 2017)",
+"new": "(Bessler và cộng sự, 2017; Black & Litterman, 1992)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Kindleberger, 1974; Gehrig, 2000; Yao, 2012; Lai, 2012)",
+"new": "(Gehrig, 2000; Kindleberger, 1974; Lai, 2012; Yao, 2012)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Markowitz, 1952; Michaud, 1989; Kan & Zhou, 2007)",
+"new": "(Kan & Zhou, 2007; Markowitz, 1952; Michaud, 1989)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Lesmond, 2005; Bekaert và cộng sự, 2007)",
+"new": "(Bekaert và cộng sự, 2007; Lesmond, 2005)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Yao, 2012; Naeem, 2023; Lai, 2012)",
+"new": "(Lai, 2012; Naeem, 2023; Yao, 2012)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Amihud, 2002; Lesmond, 2005; Fong và cộng sự, 2017)",
+"new": "(Amihud, 2002; Fong và cộng sự, 2017; Lesmond, 2005)"
+},
+{
+"id": "m14",
+"op": "replace_all",
+"old": "(Huang & Stoll, 1996; Nielsson, 2009; Hisada, 2018)",
+"new": "(Hisada, 2018; Huang & Stoll, 1996; Nielsson, 2009)"
+},
+{
+"id": "m16",
+"op": "replace",
+"old": "[CẦN XÁC MINH cách HOSE xử lý mã chuyển sàn trong VN-Index và quy chế phân bảng chính thức]",
+"new": "[CẦN XÁC MINH quy chế phân bảng chính thức; cách xử lý mã chuyển sàn trong VN-Index xem nhãn ở mục 4.3.7]"
+},
+{
+"id": "m18",
+"op": "replace",
+"old": "theo Thông báo tuyển sinh năm 2026,",
+"new": "theo Thông báo tuyển sinh năm 2026 [CẦN BỔ SUNG số hiệu, ngày của Thông báo và mục tương ứng trong danh mục tài liệu],"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Đề tài không đề xuất mô hình trung tâm tài chính"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Trong bốn giả thuyết ở mục 4.3.2"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Hiệu quả thông tin được đo bằng"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Dù vậy, không mô hình nào"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Ba khối nối thành một chuỗi"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Giá trị ngưỡng và số ngày hợp lệ tối thiểu"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Phiên bản nghiên cứu sự kiện kiểm tra"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Ba mức chịu cú sốc tương ứng"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Thứ ba, thí sinh tốt nghiệp"
+},
+{
+"id": "split",
+"op": "split_before",
+"anchor": "Thí sinh cam kết thực hiện nghĩa vụ"
+}
+]
