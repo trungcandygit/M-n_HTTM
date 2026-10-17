@@ -54,3 +54,11 @@ Sửa lỗi định dạng có từ v12: đoạn "trong đó A..." dưới phư�
 Kế hoạch chuyển UPCoM; lịch sử biên độ 2009–2025; quy chế gốc HNX và bước giá HOSE trước 12/9/2016; ngày giao dịch đầu tiên của UPCoM; phạm vi sàn bài của thí sinh; cách HOSE xử lý mã chuyển sàn trong chỉ số; bản gốc Coval & Moskowitz, Loughran & Schultz; quy chế phân bảng; Thông báo tuyển sinh 2026; số hiệu, ngày QĐ 737; URL bài Tuổi Trẻ 30/9/2026; số trang Gehrig (2000).
 
 Lưu ý: mục lục và danh mục bảng/hình có số trang tĩnh; mở bằng Word và cập nhật trường (F9) để số trang khớp sau khi rút gọn.
+
+## 6. Cập nhật 17/10/2026: bài mã 19322 đã được đăng trực tuyến
+Theo trang bài của tạp chí (https://malque.pub/ojs/index.php/msj/article/view/19322; Research Article, Accepted Articles, công bố ngày 09/10/2026; tác giả Nguyen Thanh Binh, Nguyen Van Trung, Nguyen Bach Diep, Ha Hong Hanh, Le Hong Minh):
+- Chuyển bài từ Bảng 7 (dòng 1) sang Bảng 6 (dòng 4), trạng thái "Đã được chấp nhận đăng, công bố trực tuyến trong mục Accepted Articles ngày 09/10/2026". Tên tác giả và tên bài giữ như trên trang tạp chí.
+- Ghi chú Bảng 6: các trạng thái tính đến 30/9/2026, riêng bài số 4 cập nhật đến 09/10/2026.
+- Bảng 7 còn 8 bản thảo, đánh số lại 1–8; "chín" thành "tám", "ba bản thảo liên quan trực tiếp" thành "hai".
+- Tham chiếu trong thân bài: bản thảo số 5 thành số 4, số 7 thành số 6 (mục 4.3.5 và 8.2); "bản thảo số 1" thành "bài báo số 4 ở Bảng 6".
+- Validate PASSED; 7 công thức; 8 bảng.

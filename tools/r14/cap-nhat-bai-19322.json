@@ -1,0 +1,9 @@
+[
+{"id":"c1","op":"replace","old":"Trạng thái tính đến ngày 30/9/2026.","new":"Trạng thái tính đến ngày 30/9/2026; riêng bài số 4 cập nhật đến ngày 09/10/2026."},
+{"id":"c2","op":"replace","old":"thí sinh có chín bản thảo đang ở các bước phản biện hoặc xét duyệt (Bảng 7), trong đó ba bản thảo liên quan trực tiếp","new":"thí sinh có tám bản thảo đang ở các bước phản biện hoặc xét duyệt (Bảng 7), trong đó hai bản thảo liên quan trực tiếp"},
+{"id":"c3","op":"replace","old":"tác giả liên hệ của cả chín bản thảo","new":"tác giả liên hệ của cả tám bản thảo"},
+{"id":"c4","op":"replace","old":"các bản thảo số 5 và số 7 ở Bảng 7","new":"các bản thảo số 4 và số 6 ở Bảng 7"},
+{"id":"c5","op":"replace","old":"Bản thảo số 7 ở Bảng 7, về thanh khoản","new":"Bản thảo số 6 ở Bảng 7, về thanh khoản"},
+{"id":"c6","op":"replace","old":"bản thảo số 5, về điểm gãy cấu trúc","new":"bản thảo số 4, về điểm gãy cấu trúc"},
+{"id":"c7","op":"replace","old":"và bản thảo số 1 giúp thí sinh làm quen","new":"và bài báo số 4 ở Bảng 6 giúp thí sinh làm quen"}
+]
