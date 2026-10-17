@@ -1,0 +1,28 @@
+NGUỒN: Thư viện Pháp luật (thuvienphapluat.vn), bản thí sinh dán ngày 17/10/2026. Bậc nguồn: trang thư viện văn bản (bậc 3). Bản trích các phần dùng trong đề cương.
+
+SỞ GIAO DỊCH CHỨNG KHOÁN HÀ NỘI
+Số: 529/QĐ-SGDHN — Hà Nội, ngày 25 tháng 08 năm 2016
+QUYẾT ĐỊNH VỀ VIỆC BAN HÀNH QUY CHẾ GIAO DỊCH CHỨNG KHOÁN NIÊM YẾT TẠI SỞ GIAO DỊCH CHỨNG KHOÁN HÀ NỘI
+...
+Căn cứ Công văn số 4894/UBCK-PTTT ngày 26/07/2016 của Ủy ban Chứng khoán Nhà nước về việc chấp thuận ban hành Quy chế giao dịch tại Sở Giao dịch Chứng khoán Hà Nội;
+Điều 1. Ban hành kèm theo Quyết định này Quy chế Giao dịch Chứng khoán niêm yết tại Sở Giao dịch Chứng khoán Hà Nội.
+Điều 2. Quyết định này có hiệu lực thi hành kể từ ngày 12/09/2016 và thay thế Quyết định số 345/QĐ-SGDHN ngày 29/7/2013 của Tổng Giám đốc Sở Giao dịch Chứng khoán Hà Nội về việc ban hành Quy chế Giao dịch Chứng khoán tại Sở Giao dịch Chứng khoán Hà Nội.
+KT. TỔNG GIÁM ĐỐC — PHÓ TỔNG GIÁM ĐỐC PHỤ TRÁCH — Nguyễn Thị Hoàng Lan
+
+QUY CHẾ (trích)
+Điều 22. Đơn vị giao dịch
+1. Đơn vị giao dịch lô chẵn đối với giao dịch khớp lệnh là 100 cổ phiếu, chứng chỉ quỹ ETF.
+Điều 23. Đơn vị yết giá
+1. Đơn vị yết giá quy định đối với giao dịch khớp lệnh cổ phiếu là 100 đồng;
+2. Đơn vị yết giá quy định đối với giao dịch thỏa thuận cổ phiếu là 1 đồng;
+3. Đơn vị yết giá quy định đối với giao dịch chứng chỉ quỹ ETF là 1 đồng.
+Điều 24. Biên độ dao động giá
+1. SGDCKHN quy định biên độ dao động giá đối với cổ phiếu, chứng chỉ quỹ ETF trong ngày giao dịch sau khi được UBCKNN chấp thuận.
+2. Biên độ dao động giá trong ngày giao dịch đầu tiên của cổ phiếu, chứng chỉ quỹ ETF mới niêm yết và ngày đầu tiên giao dịch trở lại đối với cổ phiếu, chứng chỉ quỹ ETF bị tạm ngừng giao dịch trên hai mươi lăm (25) ngày giao dịch là ±30% so với giá tham chiếu.
+3. Biên độ dao động giá đối với trường hợp trả cổ tức/thưởng bằng cổ phiếu quỹ cho cổ đông hiện hữu trong ngày không hưởng quyền là ±30% so với giá tham chiếu.
+4. SGDCKHN quyết định thay đổi biên độ dao động giá khi cần thiết sau khi được UBCKNN chấp thuận.
+Điều 25. Giới hạn dao động giá
+1. Giá trần = Giá tham chiếu + (Giá tham chiếu x Biên độ dao động giá). Giá sàn = Giá tham chiếu - (Giá tham chiếu x Biên độ dao động giá).
+2. Trường hợp sau khi tính toán, giá trần và giá sàn bằng giá tham chiếu: Giá trần điều chỉnh = Giá tham chiếu + 01 đơn vị yết giá; Giá sàn điều chỉnh = Giá tham chiếu - 01 đơn vị yết giá.
+3. Trường hợp giá tham chiếu bằng 100 đồng: Giá trần điều chỉnh = Giá tham chiếu + 01 đơn vị yết giá; Giá sàn điều chỉnh = Giá tham chiếu.
+(Quy chế không quy định chiều làm tròn giá trần, giá sàn theo đơn vị yết giá.)
