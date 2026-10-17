@@ -79,3 +79,10 @@ Bằng chứng tuân thủ: gọi qua Skill tool panel-data-guide, mostly-harmle
 - mostly-harmless-guide: khác biệt kép là hồi quy hai chiều hiệu ứng cố định với biến xử lý; phiên bản nghiên cứu sự kiện có các biến trước sự kiện để kiểm tra xu hướng: khớp (5), (6).
 - latex-econ-model: "ký hiệu nhất quán trong toàn bài", "chữ dùng làm tên viết thẳng", "tham số là chữ Hy Lạp", "nhân ngầm định".
 Sửa: (7) đổi γᵢ, θₜ, uᵢₜ thành αᵢ, τₜ, εᵢₜ để cùng bộ ký hiệu với (5), (6): Zᵢₜ = αᵢ + τₜ + βSMDᵢₜ + λWᵢₜ + εᵢₜ. "Post" và "SMD" viết chữ đứng. Bổ sung "εᵢₜ là sai số" trong lời giải thích (5) và (7). Validate PASSED.
+
+## 9. Cập nhật 17/10/2026: thí sinh trả lời nhãn
+- Phạm vi sàn bài Nguyễn và Nguyễn (2026a) và bản thảo số 4, số 6: HOSE. Ghi vào mục 4.3.5, gỡ nhãn.
+- Thông báo tuyển sinh: thí sinh quyết không cần số hiệu; gỡ nhãn.
+- URL Tuổi Trẻ Online (2026b): https://tuoitre.vn/toan-bo-co-phieu-tren-hnx-se-chuyen-sang-hose-tu-28-12-100260930201353937.htm; gỡ nhãn.
+- Lưu bài Thời báo Tài chính Việt Nam ngày 30/9/2026 ("Chốt thời điểm chuyển toàn bộ cổ phiếu niêm yết về HOSE") vào ho-so/. Bài khớp lịch VNX đã dẫn; không nêu số hiệu QĐ 737, không nêu lịch UPCoM, không nêu ngày của bài "Chuyển toàn bộ cổ phiếu HNX sang HOSE trong năm 2026…" nên ba nhãn tương ứng giữ nguyên.
+Còn 9 nhãn. Validate PASSED.

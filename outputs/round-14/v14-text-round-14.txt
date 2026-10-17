@@ -181,7 +181,7 @@ M7 | Giảm tỷ trọng rủi ro theo xác suất trạng thái căng thẳng d
 </BẢNG>
 [146] Nguồn: Thí sinh tổng hợp. Ghi chú: cả bảy mô hình là danh mục chỉ mua; trọng số được ước lượng lại hằng tháng trên cửa sổ trượt 104 tuần; xác suất trạng thái trong M5 và M7 là thành phần nội bộ của mô hình, không dùng để xác định giai đoạn căng thẳng.
 [147] Siêu tham số của các mô hình được chọn từ một lưới cho trước, với cùng quy tắc và cùng ngân sách tinh chỉnh. Vì M5 do thí sinh phát triển, kết quả được báo cáo cả khi có lẫn khi không có M5.
-[148] Thí sinh đã dùng dữ liệu Việt Nam trong bài báo Nguyễn và Nguyễn (2026a) và trong các bản thảo số 4 và số 6 ở Bảng 7 [CẦN XÁC MINH phạm vi sàn của từng bài]. Để kiểm soát rủi ro chọn kết quả sau khi xem dữ liệu, thí sinh đăng ký trước kế hoạch phân tích trên OSF Registries trước ngày 28/12/2026, sau khi xin góp ý của người hướng dẫn dự kiến, và khai rõ phạm vi sàn, giai đoạn và chỉ báo đã tính trong các bài trước.
+[148] Thí sinh đã dùng dữ liệu cổ phiếu HOSE trong bài báo Nguyễn và Nguyễn (2026a) và trong các bản thảo số 4 và số 6 ở Bảng 7. Để kiểm soát rủi ro chọn kết quả sau khi xem dữ liệu, thí sinh đăng ký trước kế hoạch phân tích trên OSF Registries trước ngày 28/12/2026, sau khi xin góp ý của người hướng dẫn dự kiến, và khai rõ phạm vi sàn, giai đoạn và chỉ báo đã tính trong các bài trước.
 [149] Tệp đăng ký cố định trước mọi lựa chọn có thể ảnh hưởng tới kết quả: chỉ báo và trọng số; quy tắc lập rổ và ghép đối chứng; chi phí giao dịch và siêu tham số của bảy mô hình; đặc tả các phương trình (5)–(7) và thủ tục suy luận; ngưỡng lợi suất khi tính Amihud; quy tắc chọn cửa sổ trước theo điểm gãy cấu trúc; định nghĩa mức chịu cú sốc và biến trụ sở; mức ý nghĩa và cách hiệu chỉnh so sánh bội. Mọi thay đổi sau ngày đăng ký được ghi là lệch khỏi kế hoạch.
 [150] 4.3.6. Chỉ số khả năng đầu tư
 [151] Đề tài đo hiệu quả ngoài mẫu bằng lợi suất tương đương chắc chắn sau chi phí giao dịch, tức mức lợi suất phi rủi ro mà nhà đầu tư ngại rủi ro coi là ngang giá với danh mục. Tỷ số Sharpe chỉ là thước đo phụ, vì khi lợi suất vượt trội trung bình âm, thường gặp trong giai đoạn căng thẳng, danh mục biến động mạnh hơn lại có tỷ số Sharpe ít âm hơn.
@@ -271,7 +271,7 @@ Kết luận |  | Trả lời ba câu hỏi nghiên cứu; hạn chế (một s�
 </BẢNG>
 [227] Nguồn: Thí sinh đề xuất
 [228] 5. Lý do chọn cơ sở nghiên cứu
-[229] Thí sinh chọn Trường Quốc tế, Đại học Quốc gia Hà Nội vì ba lý do. Thứ nhất, theo Thông báo tuyển sinh năm 2026 [CẦN BỔ SUNG số hiệu, ngày của Thông báo và mục tương ứng trong danh mục tài liệu], chương trình Tiến sĩ Kinh tế và Quản lý có tính liên ngành, tập trung vào kinh tế hành vi và quản lý trong lĩnh vực kinh tế; đề tài thuộc tài chính định lượng và giao thoa với quản lý ở phần định hướng chuyên môn hóa thị trường vốn Hà Nội.
+[229] Thí sinh chọn Trường Quốc tế, Đại học Quốc gia Hà Nội vì ba lý do. Thứ nhất, theo Thông báo tuyển sinh năm 2026, chương trình Tiến sĩ Kinh tế và Quản lý có tính liên ngành, tập trung vào kinh tế hành vi và quản lý trong lĩnh vực kinh tế; đề tài thuộc tài chính định lượng và giao thoa với quản lý ở phần định hướng chuyên môn hóa thị trường vốn Hà Nội.
 [230] Thứ hai, chương trình giảng dạy bằng tiếng Anh hoặc tiếng Việt. Học bằng tiếng Anh thuận lợi cho công bố quốc tế, và thí sinh có chứng chỉ tiếng Anh Bậc 4 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.
 [231] Thứ ba, thí sinh tốt nghiệp ngành Kinh tế, chuyên ngành Đầu tư; theo đối chiếu của thí sinh, ngành này thuộc Nhóm 1 (Kinh tế học) trong Phụ lục 1 của Thông báo, nên thí sinh cần học bổ sung 9 tín chỉ. Nhà trường sẽ xác định điều kiện cuối cùng.
 [232] 6. Mục tiêu và mong muốn đạt được khi đăng ký đi học nghiên cứu sinh
@@ -349,7 +349,7 @@ TT | Tên bài báo | Số tác giả | Tạp chí; ISSN | Trạng thái (mã b�
 [282] Sở Giao dịch Chứng khoán Việt Nam. (2026). Sắp xếp lại thị trường giao dịch cổ phiếu niêm yết theo Thông tư số 139/2025/TT-BTC ngày 30/12/2025 của Bộ Tài chính [Thông báo ngày 30/9/2026]. https://vnx.vn/vi/thong-tin-tu-sgdck/VNX_QLHD/10005421
 [283] Thời báo Tài chính Việt Nam. (2026). Chuyển toàn bộ cổ phiếu HNX sang HOSE trong năm 2026, nghiên cứu giao dịch xuyên trưa và nới biên độ. https://thoibaotaichinhvietnam.vn/chuyen-toan-bo-co-phieu-hnx-sang-hose-trong-nam-2026-nghien-cuu-giao-dich-xuyen-trua-va-noi-bien-do-204943.html
 [284] Tuổi Trẻ Online. (2026a). HOSE dự kiến chia cổ phiếu thành hai bảng Prime Board và Standard Board. https://tuoitre.vn/hose-du-kien-chia-co-phieu-thanh-hai-bang-prime-board-va-standard-board-100261002092239776.htm
-[285] Tuổi Trẻ Online. (2026b). Toàn bộ cổ phiếu trên HNX sẽ chuyển sang HOSE từ 28-12 [Bài báo ngày 30/9/2026] [CẦN BỔ SUNG URL].
+[285] Tuổi Trẻ Online. (2026b). Toàn bộ cổ phiếu trên HNX sẽ chuyển sang HOSE từ 28-12 [Bài báo ngày 30/9/2026]. https://tuoitre.vn/toan-bo-co-phieu-tren-hnx-se-chuyen-sang-hose-tu-28-12-100260930201353937.htm
 [286] Ủy ban nhân dân thành phố Hà Nội. (2026). Quyết định số 1193/QĐ-UBND ngày 18/3/2026 về việc công bố Danh mục các bài toán lớn của thành phố Hà Nội giai đoạn 2026–2030 (đợt 1).
 [287] Tài liệu tiếng Anh
 [288] Amihud, Y. (2002). Illiquidity and stock returns: Cross-section and time-series effects. Journal of Financial Markets, 5(1), 31–56.
