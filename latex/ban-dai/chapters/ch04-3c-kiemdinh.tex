@@ -54,6 +54,13 @@ Nhóm đối chứng chính gồm cổ phiếu HOSE ghép láng giềng gần nh
 \emph{Dễ nghĩ là} ghép càng nhiều tiêu chí thì càng tốt, kể cả ghép theo chính thước đo kết quả. Nhưng nếu một cổ phiếu HOSE được chọn vì tháng 6/2025 nó có độ phi thanh khoản cao bất thường, thì các tháng sau nó có xu hướng trở về mức bình thường của nó, tức thanh khoản \enquote{tốt lên}. Nhóm đối chứng tốt lên do quy luật thống kê này làm $\delta$ bị kéo về 0. Daw và Hatfield (2018) cảnh báo đúng hiện tượng này; đề tài vì vậy báo cáo thêm kết quả khi không ghép theo độ phi thanh khoản.
 \end{delam}
 
+\subsubsection*{Ghép nhóm đối chứng từng bước}
+
+Việc ghép nhóm đối chứng HOSE đi theo bốn bước, đều dùng dữ liệu tại ngày 30/6/2025, trước giai đoạn chuyển tiếp. Bước một chuẩn hóa ba đặc điểm dùng để ghép (logarit vốn hóa, logarit độ phi thanh khoản và ngành) để không đặc điểm nào lấn át chỉ vì đơn vị đo. Bước hai, với mỗi mã chuyển sàn, chỉ xét các mã HOSE cùng ngành, rồi chọn mã có khoảng cách nhỏ nhất theo hai đặc điểm còn lại. Bước ba bỏ những cặp có khoảng cách vượt một ngưỡng ghi trong tệp đăng ký; đó là các mã nằm ngoài vùng hỗ trợ chung. Bước bốn báo cáo bảng cân bằng: trung bình từng đặc điểm của nhóm chuyển sàn và nhóm đối chứng, trước và sau khi ghép, kèm chênh lệch chuẩn hóa.
+
+Bảng cân bằng là bằng chứng đầu tiên mà người đọc nhìn vào để tin nhóm đối chứng. Nếu sau khi ghép, hai nhóm vẫn khác nhau rõ về quy mô, kết quả khác biệt kép cần được đọc thận trọng hơn, và ước lượng chỉ ghép theo vốn hóa và ngành trở nên quan trọng hơn.
+
+
 \subsubsection*{Suy luận khi chỉ có một sự kiện}
 
 Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận chính dựa trên chuỗi $d_t$, là chênh lệch trung bình logarit Amihud giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng ghép cặp trong tháng $t$. Thống kê kiểm định là trung bình của $d_t$ sau sự kiện trừ trung bình trong cửa sổ trước. Giá trị p chính được tính bằng bootstrap tự hồi quy trên $d_t$, với mô hình tự hồi quy ước lượng trên giai đoạn tham chiếu, hệ số được hiệu chỉnh độ chệch, và kích thước kiểm định (xác suất bác bỏ giả thuyết gốc khi thực ra không có tác động) được kiểm tra bằng mô phỏng trước ngày đăng ký.
@@ -158,6 +165,17 @@ trong đó $Z_{it}$ là điểm GFCI của trung tâm $i$ ở kỳ $t$, chuẩn 
 \begin{vidu}
 Giả sử ước lượng được $\beta = 0{,}3$, và $\SMD$ được biểu diễn theo đơn vị độ lệch chuẩn (cách biểu diễn cụ thể sẽ được chốt trong tệp đăng ký). Khi đó, ở đặc tả có hiệu ứng cố định theo trung tâm, khi $\SMD$ của quốc gia chứa một trung tâm cao hơn mức thường lệ của chính quốc gia ấy một độ lệch chuẩn, điểm z GFCI của trung tâm ấy cao hơn mức thường lệ của nó khoảng 0,3, khi thu nhập và thể chế không đổi; chỉ ở đặc tả không có hiệu ứng cố định theo trung tâm, hệ số mới được đọc như so sánh giữa các trung tâm cùng kỳ. Đây là liên hệ có điều kiện, không phải tác động: không nói được rằng phát triển thị trường cổ phiếu \emph{làm} điểm GFCI tăng.
 \end{vidu}
+
+\subsubsection*{Dựng dữ liệu bảng GFCI từng bước}
+
+Dữ liệu cho \HH{1} được dựng theo bốn bước. Bước một số hóa điểm và thứ hạng của từng trung tâm ở từng kỳ từ báo cáo GFCI, nếu Long Finance cho phép, và đối chiếu ngẫu nhiên một phần số liệu với bản gốc để ước lượng tỷ lệ lỗi nhập. Bước hai gắn mỗi trung tâm với quốc gia chứa nó; với quốc gia có nhiều trung tâm, mọi trung tâm của quốc gia đó nhận cùng một giá trị $\SMD$ và $W$. Bước ba lấy các chỉ báo quốc gia của năm liền trước kỳ công bố, vì kỳ GFCI phản ánh thông tin đã có trước khi công bố. Bước bốn chuẩn hóa điểm GFCI thành điểm z trong từng kỳ.
+
+\begin{vidu}[: điểm z trong một kỳ]
+Giả sử trong một kỳ, điểm GFCI trung bình của các trung tâm là 650 và độ lệch chuẩn là 40. Một trung tâm có 690 điểm có $Z = (690 - 650)/40 = 1{,}0$; một trung tâm có 630 điểm có $Z = -0{,}5$. Ở một kỳ khác có trung bình 700 và độ lệch chuẩn 50, trung tâm có 750 điểm cũng có $Z = 1{,}0$. Điểm z cho phép so hai kỳ có thang điểm khác nhau; các con số ở đây là minh họa.
+\end{vidu}
+
+Vì mọi trung tâm trong cùng một quốc gia nhận cùng giá trị $\SMD$, sai số chuẩn được phân cụm theo quốc gia, không theo trung tâm. Nếu phân cụm theo trung tâm, các trung tâm cùng nước sẽ bị coi như những quan sát độc lập về $\SMD$, và sai số chuẩn bị đánh giá thấp.
+
 
 Sai số chuẩn được phân cụm theo quốc gia. Vì mô hình có hiệu ứng cố định theo trung tâm, $\beta$ được xác định từ biến thiên theo thời gian trong từng quốc gia, và biến thiên này nhỏ vì $\SMD$ thay đổi chậm; đề tài báo cáo thêm ước lượng không có hiệu ứng cố định theo trung tâm. Điểm GFCI đã chứa vốn hóa, giá trị và khối lượng giao dịch cổ phiếu từ Liên đoàn các Sở Giao dịch Thế giới (3 trong 144 nhân tố của kỳ GFCI 40; Wardle \& Mainelli, 2026), và trung tâm mạnh có thể kéo theo giao dịch cổ phiếu, nên $\beta$ được gọi là liên hệ có điều kiện. \HH{1} được ủng hộ khi $\beta$ dương với giá trị p nhỏ hơn ngưỡng Holm tương ứng.
 

@@ -172,4 +172,11 @@ Ngày bị đình chỉ giao dịch được loại khỏi mẫu số của tỷ
 
 Winsorize là thay các giá trị quá lớn bằng giá trị ở phân vị 99\% và các giá trị quá nhỏ bằng giá trị ở phân vị 1\%, để vài quan sát cực đoan không chi phối bình quân. Ngưỡng được tính trên mẫu gộp các sàn, không tính riêng từng sàn, vì nếu tính riêng thì một cổ phiếu đổi sàn sẽ gặp ngưỡng khác nhau trước và sau sự kiện, và việc đổi ngưỡng tự nó tạo ra thay đổi giả.
 
+\subsubsection*{Các bước xử lý dữ liệu Việt Nam}
+
+Dữ liệu ba sàn được xử lý theo năm bước, theo cùng một thứ tự cho mọi cổ phiếu. Bước một ghép dữ liệu giá và giao dịch theo mã và ngày, kể cả các mã đã hủy niêm yết hoặc chuyển sàn, và gắn mỗi quan sát với sàn mà mã đang giao dịch ở ngày đó. Bước hai điều chỉnh giá cho chia tách, cổ tức bằng cổ phiếu và phát hành thêm để lợi suất phản ánh đúng thay đổi giá trị của nhà đầu tư. Bước ba đánh dấu ngày bị đình chỉ, ngày chạm biên độ, ngày có lợi suất từ ngưỡng chung trở lên và ngày liền sau đó. Bước bốn tách giá trị giao dịch khớp lệnh khỏi giao dịch thỏa thuận, vì giao dịch thỏa thuận lớn bất thường có thể làm độ phi thanh khoản giảm mà không phản ánh độ khó mua bán của nhà đầu tư thông thường. Bước năm gắn mỗi cổ phiếu với bảng biên độ và bước giá có hiệu lực ở từng thời kỳ, lập trong quý 1 năm thứ nhất (mục~\ref{sec:giathuyet}).
+
+Mỗi bước tạo ra một bảng đếm số quan sát bị loại theo sàn và theo năm. Bảng đếm này giúp phát hiện sớm những thay đổi đột ngột do dữ liệu chứ không do thị trường, chẳng hạn một năm có tỷ lệ ngày đình chỉ cao bất thường ở một sàn.
+
+
 Giai đoạn căng thẳng, chỉ dùng cho phân tích mô tả, gồm đại dịch COVID-19 năm 2020 (Dao và cộng sự, 2021) và biến cố thị trường trái phiếu doanh nghiệp từ quý 4/2022 (International Monetary Fund, 2023; Vu và cộng sự, 2024).

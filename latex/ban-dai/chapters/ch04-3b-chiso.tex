@@ -13,6 +13,52 @@ Chiều hiệu quả thông tin gồm độ lệch của tỷ số phương sai 
 
 Tỷ số phương sai so sánh phương sai của lợi suất nhiều ngày với tổng phương sai của các lợi suất một ngày. Nếu giá đi theo bước ngẫu nhiên, như khi thông tin được phản ánh ngay, tỷ số bằng 1. Tỷ số lệch xa 1 cho thấy giá phản ứng chậm (lệch lên) hoặc phản ứng quá rồi điều chỉnh lại (lệch xuống). Độ trễ giá đo xem lợi suất của cổ phiếu được giải thích thêm bao nhiêu bởi lợi suất thị trường của các tuần trước; cổ phiếu phản ánh thông tin chậm thì độ trễ cao.
 
+\subsubsection*{Cách tính từng chỉ báo}
+
+Phần này ghi công thức chuẩn của sáu chỉ báo, theo tài liệu gốc của từng chỉ báo. Ký hiệu chung: $r_{id}$ là lợi suất ngày $d$ của cổ phiếu $i$, $V_{id}$ là giá trị giao dịch khớp lệnh ngày $d$, $m$ là tháng, $N_{im}$ là số ngày hợp lệ của cổ phiếu $i$ trong tháng $m$. Các lựa chọn chi tiết (số ngày tối thiểu, cách xử lý giá trị âm, số độ trễ) được ghi trong tệp đăng ký.
+
+\paragraph{Độ phi thanh khoản Amihud.} Bình quân theo ngày của lợi suất tuyệt đối trên giá trị giao dịch (Amihud, 2002):
+\[
+\vn{ILLIQ}_{im} = \frac{1}{N_{im}}\sum_{d} \frac{|r_{id}|}{V_{id}}
+\]
+Tổng chạy trên các ngày có giao dịch, có lợi suất tuyệt đối dưới ngưỡng chung và không liền sau ngày có lợi suất tuyệt đối từ ngưỡng trở lên (mục~\ref{sec:giathuyet}). Biến $A_{it}$ trong phương trình \eqref{eq:did} là logarit của chỉ báo này. Lấy logarit vì phân phối của độ phi thanh khoản lệch phải rất mạnh: vài mã ít giao dịch có giá trị lớn gấp hàng trăm lần mã trung vị.
+
+\paragraph{Tỷ lệ ngày lợi suất bằng 0.} Số ngày có lợi suất bằng 0 chia cho số ngày giao dịch trong tháng, sau khi loại ngày bị đình chỉ khỏi mẫu số (Lesmond và cộng sự, 1999):
+\[
+\vn{ZR}_{im} = \frac{\text{số ngày có } r_{id} = 0}{\text{số ngày giao dịch của } i \text{ trong tháng } m}
+\]
+Lập luận của Lesmond và cộng sự là nhà đầu tư có thông tin chỉ giao dịch khi giá trị thông tin vượt chi phí giao dịch; chi phí càng cao thì càng nhiều ngày giá không đổi.
+
+\paragraph{Chênh lệch Corwin--Schultz.} Ước lượng từ giá cao nhất $H$ và thấp nhất $L$ của hai ngày liền nhau (Corwin \& Schultz, 2012). Với hai ngày $d$ và $d+1$:
+\[
+\beta = \Big[\ln\frac{H_d}{L_d}\Big]^2 + \Big[\ln\frac{H_{d+1}}{L_{d+1}}\Big]^2 \qquad
+\gamma = \Big[\ln\frac{\max(H_d,H_{d+1})}{\min(L_d,L_{d+1})}\Big]^2
+\]
+\[
+\alpha = \frac{\sqrt{2\beta}-\sqrt{\beta}}{3-2\sqrt{2}} - \sqrt{\frac{\gamma}{3-2\sqrt{2}}} \qquad
+S = \frac{2(e^{\alpha}-1)}{1+e^{\alpha}}
+\]
+Ý tưởng là biên độ cao--thấp trong ngày gồm hai phần, biến động thật và chênh lệch mua-bán; biến động thật tăng theo độ dài khoảng thời gian, còn chênh lệch thì không, nên so biên độ của một ngày với biên độ của hai ngày gộp lại tách được hai phần. Giá trị của tháng là bình quân các cặp ngày. Ước lượng có thể âm ở từng cặp ngày; cách xử lý giá trị âm được ghi trong tệp đăng ký.
+
+\paragraph{Độ lệch của tỷ số phương sai khỏi 1.} Với lợi suất cộng dồn $q$ ngày $r_{id}(q)$ (Lo \& MacKinlay, 1988):
+\[
+\vn{VR}_{im}(q) = \frac{\operatorname{Var}\big(r_{id}(q)\big)}{q\operatorname{Var}(r_{id})}
+\]
+Chỉ báo đưa vào chỉ số là $|\vn{VR}_{im}(q) - 1|$: càng xa 1, giá càng lệch khỏi bước ngẫu nhiên. Số ngày $q$ được ghi trong tệp đăng ký.
+
+\paragraph{Độ trễ giá.} Hồi quy lợi suất tuần của cổ phiếu theo lợi suất thị trường cùng tuần và bốn tuần trước (Hou \& Moskowitz, 2005):
+\[
+r_{iw} = a_i + b_{i0} R_{w} + \sum_{n=1}^{4} b_{in} R_{w-n} + e_{iw}
+\]
+Độ trễ giá là $1 - R^2_{\vn{hẹp}}/R^2_{\vn{đủ}}$, trong đó $R^2_{\vn{hẹp}}$ là hệ số xác định khi buộc mọi $b_{in}$ với $n \geq 1$ bằng 0. Nếu giá phản ánh thông tin thị trường ngay trong tuần, các tuần trễ không giải thích thêm gì và độ trễ gần 0; nếu giá phản ứng chậm, độ trễ tiến về 1. Vì cần nhiều tuần để ước lượng, chỉ báo này được tính trên cửa sổ trượt dài hơn một tháng; độ dài cửa sổ được ghi trong tệp đăng ký.
+
+\paragraph{Số ngày trễ hạn công bố.} Với mỗi báo cáo tài chính quý, số ngày trễ là số ngày từ hạn công bố theo quy định đến ngày công bố thực tế, bằng 0 nếu công bố đúng hạn. Giá trị của tháng là số ngày trễ của báo cáo quý gần nhất. Đây là thước đo minh bạch đơn giản nhất tính được cho mọi mã trên cả ba sàn từ năm 2009.
+
+\begin{vidu}[: Amihud và tỷ lệ ngày lợi suất bằng 0 trong một tháng]
+Một cổ phiếu có 20 phiên trong tháng, 1 phiên bị đình chỉ, 6 phiên giá không đổi. Tỷ lệ ngày lợi suất bằng 0 là $6/19 \approx 0{,}32$, không phải $6/20 = 0{,}30$, vì ngày bị đình chỉ không phải ngày nhà đầu tư chọn không giao dịch. Nếu 15 phiên hợp lệ cho tổng $|r|/V$ bằng 9 (phần trăm trên tỷ đồng), độ phi thanh khoản Amihud của tháng là $9/15 = 0{,}6$ và logarit của nó là $\ln 0{,}6 \approx -0{,}51$.
+\end{vidu}
+
+
 Các chỉ báo cổ phiếu được gộp lên cấp sàn bằng trung vị có trọng số theo vốn hóa; độ phi thanh khoản Amihud được điều chỉnh theo tổng vốn hóa thị trường so với tháng 6/2025 để chỉ số không thay đổi chỉ vì quy mô danh nghĩa của thị trường.
 
 Điều chỉnh này cần vì độ phi thanh khoản Amihud có giá trị giao dịch ở mẫu số. Khi thị trường lớn lên theo thời gian (giá tăng, nhiều tiền hơn), giá trị giao dịch danh nghĩa tăng và độ phi thanh khoản giảm, dù độ khó mua bán so với quy mô thị trường không đổi. Nhân với tỷ số giữa tổng vốn hóa tháng $t$ và tổng vốn hóa tháng 6/2025 loại bỏ phần thay đổi danh nghĩa này.
@@ -80,6 +126,29 @@ Bảy mô hình có thể xếp theo lượng tham số phải ước lượng. 
 
 Thứ tự này giúp đọc độ phân tán của $G_m$ giữa các mô hình, nhưng không đủ để tách kênh tác động. Khi chi phí giao dịch giảm, mô hình có vòng quay danh mục cao (thường là \MM{3}) được lợi nhiều hơn \MM{1}, nên chênh lệch giữa các mô hình không chỉ phản ánh kênh ước lượng. Ngoài ra, cửa sổ ước lượng của các cửa sổ đánh giá sau sự kiện phần lớn còn nằm trước ngày chuyển sàn. Vì vậy đề tài chỉ báo cáo độ phân tán của $G_m$ và số mô hình có cùng dấu, cùng khoảng cách riêng của \MM{1}, không dùng so sánh giữa các mô hình để kết luận về kênh tác động.
 
+\subsubsection*{Bảy mô hình, từng mô hình một}
+
+Ký hiệu chung: $w$ là véc-tơ trọng số của rổ, $\hat{\mu}$ và $\hat{\Sigma}$ là trung bình và ma trận hiệp phương sai ước lượng trên cửa sổ 104 tuần. Mọi mô hình đều chỉ mua: trọng số không âm và cộng lại bằng 1.
+
+\paragraph{\MM{1}, phân bổ đều.} $w_k = 1/N$ cho mọi cổ phiếu $k$ trong rổ. Không ước lượng gì nên không có sai số ước lượng; đổi lại, mô hình bỏ qua mọi thông tin về rủi ro và lợi suất. DeMiguel và cộng sự (2009) cho thấy với số năm dữ liệu thường gặp, các mô hình tối ưu khó vượt 1/N một cách nhất quán. Trong đề tài, \MM{1} là phép đo sạch nhất vì không phụ thuộc vào dữ liệu trước sự kiện.
+
+\paragraph{\MM{2}, phương sai nhỏ nhất với hiệp phương sai co rút.} Chọn $w$ để phương sai danh mục $w'\hat{\Sigma}w$ nhỏ nhất. Ma trận $\hat{\Sigma}$ là tổ hợp giữa ma trận mẫu và một ma trận có cấu trúc đơn giản, với hệ số co rút chọn theo Ledoit và Wolf (2004). Mô hình không dùng lợi suất kỳ vọng, phần khó ước lượng nhất, nên ổn định hơn \MM{3}.
+
+\paragraph{\MM{3}, trung bình-phương sai với ước lượng mẫu.} Chọn $w$ để $\hat{\mu}'w - (\rho/2)w'\hat{\Sigma}w$ lớn nhất (Markowitz, 1952). Đây là mô hình nhạy nhất với sai số ước lượng: một mã có lợi suất mẫu cao do may mắn sẽ nhận trọng số lớn (Michaud, 1989). Vì vậy \MM{3} là mô hình dễ thấy nhất khác biệt về chất lượng dữ liệu giá giữa hai rổ, và cũng là mô hình có vòng quay danh mục thường cao nhất.
+
+\paragraph{\MM{4}, Black-Litterman.} Bắt đầu từ lợi suất cân bằng suy ra từ danh mục thị trường, rồi điều chỉnh theo quan điểm dự báo, mỗi quan điểm có một mức tin cậy (Black \& Litterman, 1992). Kết quả là lợi suất kỳ vọng nằm giữa cân bằng thị trường và dự báo, nên trọng số ít cực đoan hơn \MM{3}. Mô hình dự báo dùng để tạo quan điểm được cố định trong tệp đăng ký.
+
+\paragraph{\MM{5}, Black-Litterman có chuyển chế độ.} Giống \MM{4}, nhưng tham số thay đổi theo trạng thái thị trường ước lượng bằng mô hình chuyển chế độ Markov (Hamilton, 1989), theo hướng thí sinh đã phát triển trong Nguyễn và Nguyễn (2026a). Vì là mô hình của chính thí sinh, kết quả được báo cáo cả khi bỏ \MM{5}.
+
+\paragraph{\MM{6}, danh mục vững chắc.} Thay vì tin một ước lượng $\hat{\mu}$, nhà đầu tư xét một tập các giá trị lợi suất kỳ vọng có thể đúng và chọn danh mục tốt nhất trong trường hợp xấu nhất của tập ấy (Garlappi và cộng sự, 2007). Khi tập rộng, mô hình tiến gần danh mục phương sai nhỏ nhất; khi tập hẹp, nó tiến gần \MM{3}.
+
+\paragraph{\MM{7}, giảm rủi ro theo trạng thái căng thẳng.} Mô hình ước lượng xác suất thị trường đang ở trạng thái căng thẳng và giảm tỷ trọng tài sản rủi ro khi xác suất này cao (Kritzman và cộng sự, 2012). Xác suất này là thành phần nội bộ của mô hình, không dùng để xác định hai giai đoạn căng thẳng của đề tài.
+
+\begin{delam}
+\emph{Dễ nghĩ là} đề tài muốn tìm mô hình tốt nhất cho cổ phiếu Việt Nam. Không phải. Bảy mô hình là bảy cách mà một nhà đầu tư đa dạng hóa hợp lý có thể dùng. Câu hỏi của đề tài là, với bất kỳ cách nào trong bảy cách ấy, rổ cổ phiếu chuyển sàn có thua rổ HOSE đối sánh hay không, và khoảng thua có thu hẹp sau khi chuyển sàn hay không.
+\end{delam}
+
+
 Siêu tham số của các mô hình được chọn từ một lưới cho trước, với cùng quy tắc và cùng ngân sách tinh chỉnh. Vì \MM{5} do thí sinh phát triển, kết quả được báo cáo cả khi có lẫn khi không có \MM{5}.
 
 \begin{vidao}
@@ -89,6 +158,34 @@ Siêu tham số của các mô hình được chọn từ một lưới cho trư
 Thí sinh đã dùng dữ liệu cổ phiếu HOSE trong bài báo Nguyễn và Nguyễn (2026a) và trong hai bản thảo đang gửi tạp chí, về điểm gãy cấu trúc của thanh khoản và về thanh khoản quanh đợt nâng hạng của FTSE Russell. Để kiểm soát rủi ro chọn kết quả sau khi xem dữ liệu, thí sinh đăng ký trước kế hoạch phân tích trên OSF Registries trước ngày 28/12/2026, sau khi xin góp ý của người hướng dẫn dự kiến, và khai rõ phạm vi sàn, giai đoạn và chỉ báo đã tính trong các bài trước.
 
 Tệp đăng ký cố định trước mọi lựa chọn có thể ảnh hưởng tới kết quả: chỉ báo và trọng số; quy tắc lập rổ và ghép đối chứng; chi phí giao dịch và siêu tham số của bảy mô hình; đặc tả các phương trình \eqref{eq:did}--\eqref{eq:gfci} và thủ tục suy luận; ngưỡng lợi suất khi tính Amihud; quy tắc chọn cửa sổ trước theo điểm gãy cấu trúc; định nghĩa mức chịu cú sốc và biến trụ sở; mức ý nghĩa và cách hiệu chỉnh so sánh bội. Mọi thay đổi sau ngày đăng ký được ghi là lệch khỏi kế hoạch.
+
+\subsubsection*{Tệp đăng ký trước chứa những gì}
+
+Bảng~\ref{tab:dangky} liệt kê từng nội dung của tệp đăng ký, cùng với mục trình bày nội dung đó. Mỗi dòng là một lựa chọn mà nếu để mở đến sau khi thấy dữ liệu thì có thể bị điều chỉnh để kết quả đẹp hơn.
+
+\begin{table}[H]
+\myfloatalign
+\caption{Nội dung tệp đăng ký trước}\label{tab:dangky}
+{\bangnho
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.3\textwidth} L >{\raggedright\arraybackslash}p{0.12\textwidth}@{}}
+\toprule
+Nội dung & Được cố định ở mức nào & Mục\\
+\midrule
+Chỉ báo và trọng số & Sáu chỉ báo, ba chiều trọng số bằng nhau; cách gộp thay thế để kiểm tra độ vững & \ref{sec:mqi}\\
+Ngưỡng lợi suất khi tính Amihud & Giá trị ngưỡng, số ngày hợp lệ tối thiểu mỗi tháng, mức giá tối thiểu & \ref{sec:giathuyet}\\
+Lập rổ và ghép đối chứng & Quy tắc chọn rổ CS, rổ H và nhóm đối chứng; tiêu chí ghép; ngưỡng vùng hỗ trợ chung & \ref{sec:khanangdautu}, \ref{sec:kiemdinh}\\
+Bảy mô hình & Lưới siêu tham số, ngân sách tinh chỉnh, mô hình tạo quan điểm cho \MM{4} và \MM{5} & \ref{sec:mohinh}\\
+Chi phí giao dịch & Tỷ lệ cố định của cấu hình A; thành phần chi phí của cấu hình B & \ref{sec:khanangdautu}\\
+Đặc tả phương trình & Các phương trình \eqref{eq:did}--\eqref{eq:gfci}, biến kiểm soát, tháng gốc & \ref{sec:kiemdinh}\\
+Suy luận & Bootstrap tự hồi quy cho \HH{3}, bootstrap khối dừng cho \HH{2}, phân cụm theo quốc gia cho \HH{1}; số lần lặp; kết quả mô phỏng kích thước kiểm định & \ref{sec:kiemdinh}\\
+Cửa sổ trước & Quy tắc chọn theo điểm gãy cấu trúc; cửa sổ 24 tháng báo cáo kèm & \ref{sec:kiemdinh}\\
+Phân tích phụ & Định nghĩa ba mức chịu cú sốc và biến trụ sở & \ref{sec:kiemdinh}\\
+Mức ý nghĩa & 5\%, một phía, hiệu chỉnh Holm cho \HH{1}--\HH{3} & \ref{sec:tincay}\\
+Hiệu ứng nhỏ nhất phát hiện được & Ước lượng $\sigma$ và $\phi$ từ giai đoạn tham chiếu & \ref{sec:tincay}\\
+Khai báo trước & Phạm vi sàn, giai đoạn và chỉ báo đã dùng trong các bài trước của thí sinh & \ref{sec:mohinh}\\
+\bottomrule
+\end{tabularx}}
+\end{table}
 
 \begin{delam}
 \emph{Dễ nghĩ là} đăng ký trước làm nghiên cứu cứng nhắc, không được sửa gì. Kế hoạch vẫn được sửa, nhưng mọi chỗ sửa được ghi lại và báo cáo là \enquote{lệch khỏi kế hoạch}, kèm lý do. Người đọc vì vậy phân biệt được kết quả nào theo kế hoạch ban đầu và kết quả nào có sau khi đã thấy dữ liệu. Với một sự kiện chỉ xảy ra một lần, việc ghi lại này càng cần, vì không ai lặp lại được nghiên cứu trên một sự kiện khác cùng loại.
@@ -145,6 +242,10 @@ Giả sử sáu mô hình còn lại cho $G_2$ đến $G_7$ lần lượt là 3,
 \bar{G} = \frac{5{,}4 + 3{,}0 + 7{,}1 + 4{,}2 + 4{,}8 + 3{,}6 + 4{,}5}{7} = \frac{32{,}6}{7} \approx 4{,}66
 \]
 Nếu sau chuyển sàn $\bar{G}$ giảm, chẳng hạn xuống 2,5, thì khoảng cách đã thu hẹp khoảng 2,2 điểm phần trăm mỗi năm; đó là điều \HH{4} kỳ vọng. Mọi con số ở đây là minh họa.
+\end{vidu}
+
+\begin{vidu}[: hai cấu hình chi phí]
+Giả sử trong một tháng, danh mục \MM{3} trên rổ CS có vòng quay 40\%, tức 40\% giá trị danh mục được mua hoặc bán lại. Ở cấu hình A, với tỷ lệ cố định 0,3\% (con số minh họa), chi phí tháng đó là $0{,}4 \times 0{,}3\% = 0{,}12\%$ giá trị danh mục, như nhau cho mọi mã. Ở cấu hình B, chi phí của từng mã gồm phí, thuế và một nửa chênh lệch mua-bán của chính mã đó trong tháng: một mã có chênh lệch 1,2\% chịu thêm 0,6\% cho mỗi đồng giao dịch, một mã có chênh lệch 0,2\% chỉ chịu thêm 0,1\%. Nếu chuyển sàn làm chênh lệch mua-bán của rổ CS hẹp lại, cấu hình B ghi nhận phần lợi ích này, còn cấu hình A thì không. So khoảng cách khả năng đầu tư ở hai cấu hình vì vậy cho biết phần nào của thay đổi đến từ chi phí giao dịch.
 \end{vidu}
 
 \subsubsection*{Lập rổ và cửa sổ}
