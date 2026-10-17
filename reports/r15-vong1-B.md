@@ -7,16 +7,24 @@ Skill đã nạp và áp dụng: vina-me (kèm references/giang-bai.md, dau-hieu
 
 Cách làm:
 
-- Đọc toàn bộ nguồn `.tex` (main, macros, frontmatter, 10 tệp chương, phụ lục).
+- Đọc toàn bộ nguồn `.tex` (main, macros, frontmatter, 10 tệp chương, hai tệp phụ lục).
 - Đọc `main.pdf` bằng `pdftotext -layout`, đọc `main.log`.
-- Biên dịch thử trên bản sao ở thư mục tạm (scratchpad), áp bốn sửa đổi trình bày (mục 1, 2, 30, 31 dưới đây) để kiểm tra. Cả bốn chạy được: biên dịch không lỗi, vẫn 78 trang.
+- Biên dịch thử trên bản sao ở thư mục tạm (scratchpad), áp bốn sửa đổi trình bày (mục 1, 30, 31, 32 dưới đây) để kiểm tra. Cả bốn chạy được, biên dịch không lỗi.
 - Không sửa tệp nào trong repo ngoài báo cáo này.
+
+**Phiên bản được rà.** Lượt đọc đầu làm trên commit `b46803e`. Trong lúc rà, repo có thêm hai commit: `ca44536` (bỏ trang trắng có câu trích dẫn) và `a5cba53` (sửa theo vòng 1A, thêm phụ lục E và F). Toàn bộ báo cáo đã được đối chiếu lại với `a5cba53`:
+
+- Mười ba phát hiện mà vòng 1A đã sửa được gỡ khỏi báo cáo: trang danh ngôn, nháy Michaud, Câu hỏi 1 trong tóm tắt, ví dụ bootstrap, cách đọc $\beta$, điểm z, tình huống "chưa đủ cơ sở", gán nguồn Nghị quyết 222, mốc điểm 0 của MQI, câu về trụ sở, "30 mã thanh khoản nhất", "đảm bảo", $\phi$ trong phụ lục A.
+- Ba phát hiện được cập nhật chuỗi CŨ theo văn bản mới (mục 7, 23, 29).
+- Phụ lục E và F mới được rà thêm (mục 31 nâng mức, mục 75 mới).
+
+Mọi chuỗi CŨ còn lại đã được kiểm bằng script: mỗi chuỗi xuất hiện đúng một lần trong các tệp `.tex` ở `a5cba53`. Số thứ tự giữ như lượt đầu nên có chỗ nhảy số. Lúc nộp báo cáo, cây làm việc đang có thay đổi chưa commit ở các tệp chương; báo cáo không đối chiếu với các thay đổi đó.
 
 Quy ước báo cáo: mỗi phát hiện ghi mức (MAJOR hoặc MINOR), vị trí `tệp:dòng` (tính từ `latex/ban-dai/`), mô tả và cặp sửa. Chuỗi **CŨ** chép nguyên từ `.tex` và chỉ xuất hiện một lần trong tệp đó. **MỚI** là chuỗi thay thế. Đề xuất không thêm sự kiện hay số liệu mới, chỉ dùng nội dung đã có ở chỗ khác trong bản dài hoặc trong v14.
 
 Đánh giá chung: văn bản đã sạch hơn nhiều so với các vòng trước. Gần như không còn sáo ngữ hay khuôn câu máy, số thập phân và hàng nghìn viết đúng, H/M/K đều dùng macro chỉ số dưới, công thức viết đúng lối cổ điển, bảng không tô xám. Lỗi còn lại chủ yếu thuộc bốn loại:
 
-- Hai lỗi trình bày nhìn thấy ngay trong PDF: mục "3. Đơn vị công tác" nuốt đoạn văn đi sau, và trang trắng in câu danh ngôn ngẫu nhiên.
+- Hai lỗi trình bày nhìn thấy ngay trong PDF: mục "3. Đơn vị công tác" nuốt đoạn văn đi sau, và nhãn danh sách (nhất là Bảng thuật ngữ ở phụ lục E mới) in toàn chữ thường, mất chỉ số dưới.
 - Vài chỗ tóm tắt hoặc hướng dẫn đọc nói lệch nội dung chính.
 - Một số hộp lặp lại đúng đoạn văn ngay cạnh, hoặc đặt trước khi thuật ngữ được giải thích.
 - Vài câu tối nghĩa do trật tự từ.
@@ -64,11 +72,11 @@ MỚI: \item Từ ba câu trả lời, đề tài tổng hợp định hướng 
 
 ### 7. MAJOR: ch04-3a-khung.tex:13. Hộp tóm tắt 4.3.1 nói mắt xích cuối "chỉ được tổng hợp định tính"
 
-Mắt xích cuối nối cấu trúc sàn với vai trò trung tâm tài chính. Mắt xích này *có* được ước lượng định lượng qua H₁ (phương trình 4.7), chỉ không được kiểm định nhân quả, đúng như thân bài viết ở dòng 18. Hộp tóm tắt vì vậy nói lệch thân bài.
+Mắt xích cuối nối cấu trúc sàn với vai trò trung tâm tài chính. Mắt xích này *có* được ước lượng định lượng qua H₁ (phương trình 4.7), chỉ không được kiểm định nhân quả, đúng như thân bài viết ở dòng 18. Bản `a5cba53` đã viết lại hộp này cho đúng hai mắt xích đầu, nhưng vẫn giữ vế "mắt xích này chỉ được tổng hợp định tính".
 
 ```text
-CŨ: Đề tài kiểm định hai mắt xích đầu; mắt xích cuối chỉ được tổng hợp định tính.
-MỚI: Đề tài kiểm định hai mắt xích đầu; mắt xích cuối chỉ được ước lượng như một liên hệ có điều kiện (\HH{1}) rồi tổng hợp định tính thành hàm ý, không kiểm định quan hệ nhân quả.
+CŨ: và không kiểm định quan hệ nhân quả ở mắt xích cuối; mắt xích này chỉ được tổng hợp định tính.
+MỚI: và không kiểm định quan hệ nhân quả ở mắt xích cuối; mắt xích này chỉ được ước lượng như một liên hệ có điều kiện (\HH{1}) rồi tổng hợp định tính thành hàm ý.
 ```
 
 ### 8. MINOR: ch04-3b-chiso.tex:54. Hộp tóm tắt 4.3.5 gọi \MM{5} là "phức tạp nhất"
@@ -96,7 +104,7 @@ CŨ: khoảng mức giảm 0,25 của logarit Amihud, tức độ phi thanh kho�
 MỚI: logarit Amihud phải giảm khoảng 0,25 trở lên, tức độ phi thanh khoản giảm khoảng 22\%.
 ```
 
-### 10. MINOR: huongdandoc.tex:10 và :40. Hướng dẫn đọc hứa nhiều hơn những gì bản dài có
+### 10. MINOR: huongdandoc.tex:10 và :42. Hướng dẫn đọc hứa nhiều hơn những gì bản dài có
 
 - "Mỗi mục lớn mở bằng một hộp tóm tắt": thực tế mục 4.3 (mở bằng đoạn dẫn), 4.3.9, 4.5 và các chương 5–10 không có hộp tóm tắt.
 - "Phụ lục A có bảng đối chiếu số công thức": phụ lục A chỉ có một câu đối chiếu, không có bảng.
@@ -197,7 +205,9 @@ Các hộp còn lại trả lời đúng câu hỏi của chúng và đặt đú
 
 - Holm: 0,05/3 ≈ 0,0167.
 - Bước giá: 1,25%, 0,125%, 0,33% và 0,17%.
-- Giá trần: 1.210, 10.700, 53.500.
+- Giá trần: 1.210, 10.750, 53.500.
+- Phụ lục F (tính tay): các tỷ số $|r|/V$, bình quân 0,667; 0,283; 0,400; 0,300, các logarit, $d$ = 0,511 và −0,057, hiệu −0,568, $e^{-0,568} - 1 \approx -43\%$.
+- Hộp 4.3.10: xác suất phát hiện tác động 10% "khoảng một phần năm" khớp với giả định $\sigma = 0,2$, $\phi = 0,6$ (tính lại được khoảng 0,19).
 - MQI: −0,2 và 0,3.
 - CE: 2,0% và −3,4%; Ḡ = 32,6/7 ≈ 4,66.
 - DiD: e^−0,25 − 1 ≈ −22%; e^−0,40 − 1 ≈ −33%.
@@ -219,13 +229,13 @@ CŨ: Đợt hợp nhất ở Việt Nam đổi sàn của toàn bộ cổ phiế
 MỚI: Đợt hợp nhất ở Việt Nam đổi sàn cho toàn bộ cổ phiếu niêm yết tại HNX trong cùng một ngày; tính đến phiên 30/9/2026, số cổ phiếu này là 299 mã (Tuổi Trẻ Online, 2026b). Sự kiện này cho phép so sánh cùng các cổ phiếu trước và sau khi đổi sàn với một nhóm đối chứng, tức các cổ phiếu tương đồng nhưng không chuyển sàn, về thanh khoản lẫn khả năng đầu tư.
 ```
 
-### 23. MAJOR: ch04-3a-khung.tex:119. Câu trong hộp có hai cách hiểu, một cách ngược nghĩa
+### 23. MAJOR: ch04-3a-khung.tex:119. Hộp "Chỗ dễ hiểu nhầm" nói ngược nhân quả
 
-"Ở HOSE với biên độ hẹp hơn, hiện tượng dồn này xảy ra nhiều hơn ở HNX" có thể hiểu là hiện tượng xảy ra nhiều hơn *tại HNX*.
+Ở bản đầu, câu này có hai cách hiểu. Bản `a5cba53` viết lại thành "Biên độ ở HOSE hẹp hơn nên hiện tượng dồn này có thể xảy ra nhiều hơn ở HNX", tức bây giờ câu nói sai hẳn. Biên độ hẹp thì giá chạm biên độ thường hơn, nên hiện tượng dồn sang phiên sau xảy ra nhiều hơn *ở HOSE*.
 
 ```text
-CŨ: Ở HOSE với biên độ hẹp hơn, hiện tượng dồn này xảy ra nhiều hơn ở HNX, nên ngày hôm sau cũng mang dấu vết của biên độ.
-MỚI: Biên độ ở HOSE hẹp hơn nên hiện tượng dồn này xảy ra ở HOSE nhiều hơn ở HNX, và ngày hôm sau cũng mang dấu vết của biên độ.
+CŨ: Biên độ ở HOSE hẹp hơn nên hiện tượng dồn này có thể xảy ra nhiều hơn ở HNX,
+MỚI: Biên độ ở HOSE hẹp hơn nên hiện tượng dồn này có thể xảy ra ở HOSE nhiều hơn ở HNX,
 ```
 
 ### 24. MAJOR: ch04-3b-chiso.tex:152. Câu tối nghĩa về thiên lệch khi giữ nguyên thành phần rổ
@@ -253,11 +263,11 @@ MỚI: Đề tài chọn vai trò \enquote{thước đo nền} vì một luận 
 
 ### 29. MINOR: ch04-1-lydo.tex:13 và ch05-10.tex:12. "Sàn … chuyển vào HOSE"
 
-Cổ phiếu chuyển sàn, còn sàn thì không. Hộp tóm tắt cũng viết "chưa ai đo được", mạnh hơn mức khẳng định có giới hạn phạm vi ở mục 4.2. Ngoài ra "tệp đăng ký trước" xuất hiện lần đầu ở đây mà chưa có lời giải nghĩa nào.
+Cổ phiếu chuyển sàn, còn sàn thì không. (Vế "chưa ai đo được" đã được vòng 1A sửa.) Ngoài ra "tệp đăng ký trước" xuất hiện lần đầu ở đây mà chưa có lời giải nghĩa nào.
 
 ```text
-CŨ: và sàn cổ phiếu niêm yết của Hà Nội sắp chuyển hết vào HOSE. Lúc này chưa ai đo được Hà Nội mất hay được gì từ việc đó.
-MỚI: và toàn bộ cổ phiếu niêm yết trên sàn của Hà Nội sắp chuyển sang HOSE. Trong phạm vi tìm kiếm của thí sinh, chưa có nghiên cứu nào đo Hà Nội mất hay được gì từ việc đó.
+CŨ: và sàn cổ phiếu niêm yết của Hà Nội sắp chuyển hết vào HOSE.
+MỚI: và toàn bộ cổ phiếu niêm yết trên sàn của Hà Nội sắp chuyển sang HOSE.
 ```
 ```text
 CŨ: Sản phẩm là hai chỉ số đo được, một tệp đăng ký trước, ba bài báo
@@ -630,16 +640,16 @@ CŨ: \newcommand{\nguon}[1]{\par\vspace{2pt}{\footnotesize #1\par}}
 MỚI: \newcommand{\nguon}[1]{\par\vspace{2pt}{\raggedright\footnotesize #1\par}}
 ```
 
-### 31. MINOR: macros.tex:14. Nhãn danh sách in chữ nhỏ giãn cách làm hỏng chỉ số dưới và chữ thường
+### 31. MAJOR: macros.tex:14. Nhãn danh sách in chữ nhỏ giãn cách hoặc toàn chữ thường, mất chỉ số dưới và tên riêng
 
-Classicthesis in nhãn `description` bằng `\spacedlowsmallcaps`. Hệ quả nhìn thấy trong PDF:
+Classicthesis in nhãn `description` bằng `\spacedlowsmallcaps`, và lệnh này chuyển nhãn về chữ thường trước khi in. Ở `a5cba53`, Phụ lục E mới (`phuluc2.tex:8`) đặt `font=\normalfont\bfseries`. Lựa chọn này bỏ được chữ nhỏ nhưng không bỏ được bước chuyển về chữ thường, nên bản biên dịch thử in "biên độ dao động giá", "chỉ số chất lượng thị trường vốn (mqi)", "chênh lệch mua-bán (cor win–schultz)", "độ phi thanh khoản amihud", "hiệu chỉnh holm". Tên riêng và chữ viết tắt trong Bảng thuật ngữ vì vậy in sai cả loạt; đây là lý do nâng mục này lên MAJOR. Các hệ quả khác nhìn thấy trong PDF:
 
 - Phụ lục D in "H 1 CÓ PHẢI…": mất chỉ số dưới.
 - "UPCOM" mất chữ "o" thường.
 - "CH Í NH", "THIÊN L Ệ CH" bị giãn chữ lệch.
 - Các câu hỏi dài trong phụ lục D và các nhãn "Câu hỏi 1:" ở mục 4.1 khó đọc.
 
-Đã thử: định nghĩa lại nhãn thành chữ đậm thường thì cả ba chỗ (Hướng dẫn đọc, mục 4.1, phụ lục D) đều in đúng.
+Đã thử: định nghĩa lại nhãn thành chữ đậm thường thì cả ba chỗ (Hướng dẫn đọc, mục 4.1, phụ lục D) đều in đúng, đúng chữ hoa và đúng chỉ số dưới. Cách này cũng sửa luôn Phụ lục E, không cần bỏ `font=` ở `phuluc2.tex:8`.
 
 ```text
 CŨ: \newcommand{\Gbar}{\ensuremath{\bar{G}}}
@@ -702,10 +712,9 @@ Không có lỗi, không có Overfull, không có tham chiếu chưa định ngh
 
 1. **Ý "H₄ chỉ ước lượng vì ít cửa sổ" lặp năm lần**: ch04-1:93, ghi chú Bảng 4.2, hộp Holm (ch04-3a:75), ch04-3b:178, ch04-3d:40. Nên giữ lý do đầy đủ ở hộp Holm, các chỗ khác chỉ nêu kết luận. Tương tự, "chưa đủ cơ sở kết luận, không phải bằng chứng không có tác động" xuất hiện ở hộp 4.3.10, tiểu mục ngay sau và phụ lục D (xem mục 17).
 2. **Mục 4.3.7 dài nhất** (trang 24–31). Phần dài nhất là tương tác theo mức chịu cú sốc (dòng 96–125), với hai đoạn ba câu dài về suy luận cho hệ số tương tác. Đoạn đó đã đủ ý. Không cần thêm hộp ở đây.
-3. **Các trang danh ngôn** (mục 2) chiếm khoảng 8 trang. Bỏ đi thì chiều dài thật của văn bản không đổi nhưng người đọc không bị ngắt mạch.
-4. **Bốn chỗ còn khó hiểu, mỗi chỗ nên thêm một câu giải thích:**
+3. **Hai phụ lục mới E và F** có ích cho người tự đọc. Phụ lục F tính đúng từng bước; Phụ lục E nên sửa câu dẫn (mục 75) và nhãn (mục 31).
+4. **Ba chỗ còn khó hiểu, mỗi chỗ nên thêm một câu giải thích:**
    - "hệ số được hiệu chỉnh độ chệch" (ch04-3c:59): vì sao hệ số AR ước lượng trên mẫu ngắn bị chệch về 0. Đây là kiến thức nền, nhưng người đọc tự học sẽ vấp.
-   - "vùng hỗ trợ chung": đã được giải nghĩa, tốt.
    - "trung vị có trọng số theo vốn hóa" (ch04-3b:16): nên nói một câu vì sao dùng trung vị thay vì trung bình, cụ thể là để vài mã cực đoan không chi phối.
    - "cửa sổ" có hai nghĩa: cửa sổ trước/sau của khác biệt kép (theo tháng) và cửa sổ ước lượng/đánh giá của chỉ số khả năng đầu tư (104 tuần, 3 tháng). Nên thêm một câu phân biệt hai nghĩa ở lần đầu dùng trong mục 4.3.6.
 5. **Mục 4.1 hơi dày ở phần thuật ngữ**: đoạn dòng 28 định nghĩa ba khái niệm trong một đoạn. Theo vina-me, mỗi đoạn nên có tối đa một thuật ngữ mới. Có thể tách "Khả năng đầu tư" thành đoạn riêng, rồi đặt hộp "Chỗ dễ hiểu nhầm" ngay sau đoạn đó.
