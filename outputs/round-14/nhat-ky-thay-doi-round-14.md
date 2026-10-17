@@ -72,3 +72,10 @@ Theo yêu cầu của thí sinh (kiểu Yᵢ = β₁ + β₂Xᵢ + εᵢ; chỉ 
 - (7) Zᵢₜ = γᵢ + θₜ + βSMDᵢₜ + λWᵢₜ + uᵢₜ; bỏ chỉ số lồng c(i), y(t)−1, nói bằng lời "đo ở quốc gia chứa trung tâm i, năm liền trước kỳ t".
 - Viết lại các đoạn "trong đó" và các chỗ nhắc ký hiệu (Eₛᵢ, Gₘ, Dᵢ × Postₜ). Không còn chỉ số dưới nào có dấu phẩy. Validate PASSED; 7 công thức; 8 bảng.
 - Bỏ dấu nhân (· và ×): tích viết liền theo kiểu sách kinh tế lượng (DᵢPostₜ, Eₛᵢτₜ).
+
+## 8. Cập nhật 17/10/2026: soát ký hiệu bằng 3 skill kinh tế lượng mới
+Bằng chứng tuân thủ: gọi qua Skill tool panel-data-guide, mostly-harmless-guide, latex-econ-model (cài ở vòng 5 cổng 0).
+- panel-data-guide: ký hiệu dữ liệu bảng Yᵢₜ (chỉ số dưới viết liền), hiệu ứng cố định αᵢ: khớp.
+- mostly-harmless-guide: khác biệt kép là hồi quy hai chiều hiệu ứng cố định với biến xử lý; phiên bản nghiên cứu sự kiện có các biến trước sự kiện để kiểm tra xu hướng: khớp (5), (6).
+- latex-econ-model: "ký hiệu nhất quán trong toàn bài", "chữ dùng làm tên viết thẳng", "tham số là chữ Hy Lạp", "nhân ngầm định".
+Sửa: (7) đổi γᵢ, θₜ, uᵢₜ thành αᵢ, τₜ, εᵢₜ để cùng bộ ký hiệu với (5), (6): Zᵢₜ = αᵢ + τₜ + βSMDᵢₜ + λWᵢₜ + εᵢₜ. "Post" và "SMD" viết chữ đứng. Bổ sung "εᵢₜ là sai số" trong lời giải thích (5) và (7). Validate PASSED.
