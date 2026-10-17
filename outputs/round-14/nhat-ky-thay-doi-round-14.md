@@ -103,3 +103,11 @@ Truy cập trực tiếp các trang báo bị chặn (ENOTFOUND), nên chỉ đ�
 |---|---|---|---|---|
 | Bước giá khớp lệnh cổ phiếu ở HNX là 100 đồng cho mọi mức giá | QĐ 529/QĐ-SGDHN ngày 25/8/2016, Quy chế kèm theo, Điều 23 khoản 1; hiệu lực 12/9/2016, thay QĐ 345/QĐ-SGDHN ngày 29/7/2013 | 3 (thuvienphapluat, do thí sinh dán) | KHỚP | "Đơn vị yết giá quy định đối với giao dịch khớp lệnh cổ phiếu là 100 đồng" |
 Mức 100 đồng hiện hành cũng khớp bản tóm tắt quy định HNX năm 2025 (V3, bộ tài liệu vòng 12). Thêm mục danh mục "Sở Giao dịch Chứng khoán Hà Nội. (2016)", dẫn trong bài (…, 2016, Điều 23). Nhãn thu hẹp còn: bước giá của HOSE trước 12/9/2016 (QĐ 341/QĐ-SGDHCM). Quy chế 529 không quy định chiều làm tròn giá trần/sàn; không ảnh hưởng thiết kế vì ngưỡng Amihud đặt theo quy tắc làm tròn của HOSE. Lưu bản trích ở ho-so/TaiLieu_Vong14_QD529-SGDHN_2016_trich.txt. Validate PASSED.
+
+## 12. Cập nhật 17/10/2026: gỡ hết nhãn (thí sinh giao quyết định)
+- QĐ 737/QĐ-SGDHCM: số 737, ngày 29/9/2026 theo tên tệp công bố của VNX (…20260929_QD737_SGDHCM_QTCS-VNINDEX.pdf), khớp với căn cứ CV 1314/SGDVN-CLPT ngày 25/9/2026 trong văn bản; thêm URL.
+- QĐ 341/QĐ-SGDHCM ngày 22/8/2016 (hiệu lực 12/9/2016, thay QĐ 314/QĐ-SGDHCM; theo thuvienphapluat): thêm vào danh mục; dùng làm mốc đổi bước giá HOSE. Không nêu số bước giá HOSE trước 2016 vì báo chí ghi không thống nhất.
+- Lịch sử biên độ, bước giá: chuyển thành việc của quý 1 năm thứ nhất (lập bảng theo thời kỳ từ quyết định gốc).
+- Lịch chuyển UPCoM, cách HOSE đưa mã chuyển sàn vào chỉ số, quy chế phân bảng: ghi đúng tình trạng (chưa có văn bản đến 17/10/2026) và cách đề tài cập nhật khi có công bố.
+- Chỉ tiêu (6) và mục 4.4: "văn bản xác nhận hoặc cam kết sử dụng kết quả".
+Không còn nhãn [CẦN…]. Validate PASSED. DOI: đang tìm, bổ sung ở bản sau.
