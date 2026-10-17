@@ -86,3 +86,14 @@ Sửa: (7) đổi γᵢ, θₜ, uᵢₜ thành αᵢ, τₜ, εᵢₜ để cùn
 - URL Tuổi Trẻ Online (2026b): https://tuoitre.vn/toan-bo-co-phieu-tren-hnx-se-chuyen-sang-hose-tu-28-12-100260930201353937.htm; gỡ nhãn.
 - Lưu bài Thời báo Tài chính Việt Nam ngày 30/9/2026 ("Chốt thời điểm chuyển toàn bộ cổ phiếu niêm yết về HOSE") vào ho-so/. Bài khớp lịch VNX đã dẫn; không nêu số hiệu QĐ 737, không nêu lịch UPCoM, không nêu ngày của bài "Chuyển toàn bộ cổ phiếu HNX sang HOSE trong năm 2026…" nên ba nhãn tương ứng giữ nguyên.
 Còn 9 nhãn. Validate PASSED.
+
+## 10. Cập nhật 17/10/2026: tìm kiếm web (từ khoá chung, không gửi câu chữ đề cương)
+| Nhãn | Kết quả | Nguồn (bậc) | Xử lý |
+|---|---|---|---|
+| Ngày giao dịch đầu tiên của UPCoM | 24/6/2009, nhiều nguồn khớp | nhadautu.vn, vneconomy.vn, vnexpress.net, BSC (báo chí, công ty chứng khoán) | Gỡ nhãn; ghi "khi UPCoM khai trương (ngày 24/6/2009)" |
+| Bản gốc Coval & Moskowitz (1999), Loughran & Schultz (2005) | Tóm tắt khớp câu dẫn: nhà quản lý quỹ Mỹ ưa cổ phiếu doanh nghiệp có trụ sở gần; doanh nghiệp nông thôn giao dịch ít hơn, ít chuyên gia phân tích hơn, chi phí giao dịch cao hơn | IDEAS/RePEc (tóm tắt) | Gỡ nhãn; thêm DOI 10.1111/0022-1082.00181 cho Coval & Moskowitz |
+| Số trang Gehrig (2000) | 415–445 (đa số nguồn; một nguồn ghi 415–446) | Các bài trích dẫn trên Springer, ScienceDirect | Điền 415–445 |
+| Bước giá HOSE trước 12/9/2016 | Báo chí: 100 đồng (dưới 50.000), 500 đồng (50.000–dưới 100.000), 1.000 đồng (từ 100.000); quyết định 341/QĐ-SGDHCM ngày 22/8/2016 | vnbusiness.vn (báo chí) | Thu hẹp nhãn về hai quy chế gốc |
+| QĐ 737/QĐ-SGDHCM | Không tìm thấy; chỉ thấy QĐ 747/QĐ-SGDHCM (HOSE-Index 4.0, 2025) | thitruongtaichinhtiente.vn | Giữ nhãn; thí sinh đọc bản PDF gốc |
+| Lịch chuyển UPCoM; cách HOSE đưa mã chuyển sàn vào chỉ số; quy chế phân bảng; các lần đổi biên độ 2009–2025 | Không có văn bản chính thức (chỉ có: UPCoM ±15% từ 20/6/2017 theo vneconomy) | | Giữ nhãn |
+Truy cập trực tiếp các trang báo bị chặn (ENOTFOUND), nên chỉ đối chiếu qua kết quả tìm kiếm. Còn 6 nhãn. Validate PASSED.
