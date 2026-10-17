@@ -36,3 +36,7 @@
 
 % csquotes chưa có kiểu cho tiếng Việt và mã T5 nên in sai dấu ngoặc kép; dùng ngoặc kép cong trực tiếp
 \renewcommand*{\enquote}[1]{``#1''}
+
+% Bản đọc trên màn hình: không chèn trang trắng (và câu trích dẫn) để chương bắt đầu ở trang lẻ;
+% ghi đè \cleardoublepage của classicthesis-config.tex
+\renewcommand{\cleardoublepage}{\clearpage}
