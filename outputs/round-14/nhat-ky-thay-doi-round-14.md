@@ -62,3 +62,12 @@ Theo trang bài của tạp chí (https://malque.pub/ojs/index.php/msj/article/v
 - Bảng 7 còn 8 bản thảo, đánh số lại 1–8; "chín" thành "tám", "ba bản thảo liên quan trực tiếp" thành "hai".
 - Tham chiếu trong thân bài: bản thảo số 5 thành số 4, số 7 thành số 6 (mục 4.3.5 và 8.2); "bản thảo số 1" thành "bài báo số 4 ở Bảng 6".
 - Validate PASSED; 7 công thức; 8 bảng.
+
+## 7. Cập nhật 17/10/2026: công thức viết theo kiểu kinh tế lượng cổ điển
+Theo yêu cầu của thí sinh (kiểu Yᵢ = β₁ + β₂Xᵢ + εᵢ; chỉ số dưới viết liền, không dấu phẩy):
+- (1) MQIⱼₜ = (TKⱼₜ + HQⱼₜ + MBⱼₜ)/3 thay cho tổng có trọng số wⱼ = 1/(3·n_d(j)); kết quả không đổi (mỗi chỉ báo vẫn có trọng số 1/9, 1/6 hoặc 1/3). Sàn đổi ký hiệu từ k sang j để k chỉ dùng cho tháng sự kiện ở (6).
+- (2) U = μ − (ρ/2)σ²; (3) Gₘ = Uₘ(H) − Uₘ(CS); (4) Ḡ = (G₁ + G₂ + … + G₇)/7; chỉ số cửa sổ t và rổ b được nói bằng lời.
+- (5) Aᵢₜ = αᵢ + τₜ + δ(Dᵢ × Postₜ) + εᵢₜ.
+- (6) Aᵢₜ = αᵢ + τₜ + Σₖ δₖ(Dᵢ × Tₖₜ) + εᵢₜ; Tₖₜ thay cho 1[t = k]; nhóm các tháng trước 1/2024 nói bằng lời.
+- (7) Zᵢₜ = γᵢ + θₜ + β·SMDᵢₜ + λ·Wᵢₜ + uᵢₜ; bỏ chỉ số lồng c(i), y(t)−1, nói bằng lời "đo ở quốc gia chứa trung tâm i, năm liền trước kỳ t".
+- Viết lại các đoạn "trong đó" và các chỗ nhắc ký hiệu (Eₛᵢ, Gₘ, Dᵢ × Postₜ). Không còn chỉ số dưới nào có dấu phẩy. Validate PASSED; 7 công thức; 8 bảng.
