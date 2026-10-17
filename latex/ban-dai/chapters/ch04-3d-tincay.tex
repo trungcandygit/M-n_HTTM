@@ -4,7 +4,7 @@
 \subsection{Độ tin cậy, giới hạn và khả năng thực hiện}\label{sec:tincay}
 
 \begin{tomtat}
-Với một sự kiện duy nhất, đề tài chỉ phát hiện được tác động đủ lớn: với các giả định minh họa, độ phi thanh khoản phải giảm khoảng 22\% trở lên. Lực kiểm định phụ thuộc vào số tháng trước và sau, độ biến động và mức tự tương quan của chuỗi chênh lệch, và chỉ phụ thuộc yếu vào số cổ phiếu. Kết quả không ủng hộ giả thuyết vẫn được báo cáo đầy đủ. Năm phương án dự phòng được chuẩn bị cho các trục trặc dễ xảy ra nhất (Phụ lục~\ref{pl:ruiro}).
+Với một sự kiện duy nhất, đề tài chỉ phát hiện được tác động đủ lớn: với các giả định minh họa, độ phi thanh khoản phải giảm khoảng 22\% trở lên. Lực kiểm định phụ thuộc vào số tháng trước và sau, độ biến động và mức tự tương quan của chuỗi chênh lệch, và chỉ phụ thuộc yếu vào số cổ phiếu. Kết quả không ủng hộ giả thuyết vẫn được báo cáo đầy đủ. Năm phương án dự phòng được chuẩn bị cho các trục trặc dễ xảy ra nhất (Bảng~\ref{tab:ruiro}).
 \end{tomtat}
 
 \subsubsection*{Lực kiểm định}
@@ -58,3 +58,43 @@ Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, nên đợt
 Nếu cả hai nhóm đối chứng không đạt kiểm tra xu hướng song song, đề tài dùng nhóm đối chứng tổng hợp từ các mã HOSE ngoài danh sách FTSE Russell và mã UPCoM. Nếu dữ liệu sau sự kiện ngắn hơn 24 tháng, đề tài dùng toàn bộ tháng có sẵn; nếu rổ CS có ít hơn 30 cổ phiếu đủ thanh khoản, đề tài dùng rổ 20 cổ phiếu.
 
 Nhóm đối chứng tổng hợp là một tổ hợp có trọng số của nhiều cổ phiếu đối chứng, với trọng số được chọn sao cho tổ hợp đi sát nhất với nhóm chuyển sàn trong giai đoạn trước sự kiện. Phương pháp này chỉ dùng được khi tổ hợp bám sát nhóm chuyển sàn trong giai đoạn trước; bám sát ở giai đoạn trước không bảo đảm xu hướng song song ở giai đoạn sau, nên độ khớp trước sự kiện được báo cáo kèm, và cách lập nhóm cụ thể được ghi trong tệp đăng ký.
+
+Bảng~\ref{tab:ruiro} gom các rủi ro đã nêu trong mục~\ref{sec:phuongphap} và cách đề tài xử lý từng rủi ro; cột cuối ghi tiểu mục trình bày lập luận đầy đủ.
+
+{\bangnho
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.3\textwidth} >{\raggedright\arraybackslash}p{0.5\textwidth} >{\raggedright\arraybackslash}p{0.12\textwidth}@{}}
+\caption{Rủi ro và cách xử lý}\label{tab:ruiro}\\
+\toprule
+Rủi ro & Cách xử lý & Mục\\
+\midrule
+\endfirsthead
+\caption[]{Rủi ro và cách xử lý (tiếp)}\\
+\toprule
+Rủi ro & Cách xử lý & Mục\\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Không số hóa được hoặc không được phép dùng điểm GFCI theo kỳ & Trả lời câu hỏi 1 ở dạng mô tả; không kiểm định \HH{1} & \ref{sec:tincay}\\
+Kỳ GFCI 40 có nhân tố trùng với $\SMD$ & Ước lượng lại \HH{1} trên các kỳ không trùng lặp nếu đủ số kỳ & \ref{sec:tincay}\\
+Biến thiên của $\SMD$ trong từng quốc gia nhỏ & Báo cáo thêm ước lượng không có hiệu ứng cố định theo trung tâm & \ref{sec:kiemdinh}\\
+Chuyển sàn bị lùi hoặc theo nhiều đợt & Dùng ngày thực tế từng nhóm và ước lượng cho xử lý so le (Callaway \& Sant'Anna, 2021) & \ref{sec:tincay}\\
+Sự kiện không diễn ra & Dùng các mã đã tự chuyển từ HNX sang HOSE trước năm 2026 & \ref{sec:tincay}\\
+UPCoM chuyển sang HOSE trước hoặc trong cửa sổ sau & Dùng nhóm đối chứng UPCoM đến tháng liền trước ngày chuyển; dựa vào nhóm đối chứng HOSE; đo cú sốc biên độ bằng thước đo thay thế & \ref{sec:tincay}, \ref{sec:kiemdinh}\\
+Cả hai nhóm đối chứng không đạt xu hướng song song & Dùng nhóm đối chứng tổng hợp từ mã HOSE ngoài danh sách FTSE Russell và mã UPCoM & \ref{sec:tincay}\\
+Dữ liệu sau sự kiện ngắn hơn 24 tháng & Dùng toàn bộ tháng có sẵn & \ref{sec:tincay}\\
+Rổ CS có ít hơn 30 mã đủ thanh khoản & Dùng rổ 20 cổ phiếu & \ref{sec:tincay}\\
+Biên độ hẹp lại làm Amihud giảm cơ học & Tính trên ngày dưới ngưỡng chung, bỏ ngày liền sau; loại mã giá thấp & \ref{sec:giathuyet}\\
+Bước giá nhỏ đi làm tỷ lệ ngày lợi suất bằng 0 giảm cơ học & Báo cáo theo nhóm mức giá; đọc cùng mức giảm bước giá & \ref{sec:giathuyet}\\
+Ghép theo độ phi thanh khoản tạo hồi quy về trung bình & Báo cáo thêm kết quả chỉ ghép theo vốn hóa và ngành & \ref{sec:kiemdinh}\\
+Mã đối chứng vào chỉ số FTSE Russell & Loại khỏi nhóm đối chứng & \ref{sec:did}\\
+Phân bảng của HOSE & Ước lượng thêm với biến giả nhóm bảng & \ref{sec:did}\\
+Nới biên độ, giao dịch xuyên trưa trong cửa sổ sau & Báo cáo thêm ước lượng với cửa sổ sau cắt tại ngày áp dụng & \ref{sec:did}\\
+Thanh khoản lan giữa hai nhóm & Dùng nhóm đối chứng UPCoM làm cận khác & \ref{sec:did}\\
+Rời mẫu liên quan đến sự kiện & Báo cáo tỷ lệ hủy niêm yết; ước lượng lại trên bảng cân bằng & \ref{sec:did}\\
+Sai số chuẩn thông thường bác bỏ quá dễ & Bootstrap tự hồi quy trên $d_t$; kiểm tra kích thước kiểm định bằng mô phỏng & \ref{sec:kiemdinh}\\
+Cửa sổ trước trộn nhiều chế độ & Bắt đầu sau điểm gãy cấu trúc cuối; báo cáo thêm cửa sổ 24 tháng & \ref{sec:kiemdinh}\\
+Chọn kết quả sau khi xem dữ liệu & Đăng ký trước trên OSF; ghi mọi lệch khỏi kế hoạch & \ref{sec:mohinh}\\
+Mô hình \MM{5} của thí sinh kéo kết quả & Báo cáo cả khi có lẫn khi không có \MM{5} & \ref{sec:mohinh}\\
+Kết quả chưa đủ cơ sở kết luận & Báo cáo kích thước hiệu ứng, khoảng tin cậy và hiệu ứng nhỏ nhất phát hiện được & \ref{sec:tincay}\\
+\end{longtable}}
