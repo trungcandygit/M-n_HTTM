@@ -1,0 +1,3207 @@
+                     ĐẠI HỌC QUỐC GIA HÀ NỘI
+                         TRƯỜNG QUỐC TẾ
+
+
+
+
+                              ĐỀ CƯƠNG NGHIÊN CỨU
+
+
+Hợp nhất sàn chứng khoán và chất lượng thị trường:
+              Bằng chứng thực nghiệm từ HNX
+                     và vị thế tài chính Hà Nội
+                     Bản dài để đọc, phát triển từ bản nộp v14
+
+
+
+
+            Chuyên ngành:      Kinh tế và Quản lý
+                    Mã số:     9310116.01QTD
+                  Thí sinh:    N G U Y Ễ N VĂ N T R U N G
+ Người hướng dẫn (dự kiến):    GS.TS. Nguyễn Đức Khương (người hướng dẫn chính)
+                               PGS.TS. Hà Hồng Hạnh, Trường Đại học Kinh tế Quốc dân
+
+
+
+
+                                      Hà Nội – 2026
+H Ư Ớ N G DẪ N Đ Ọ C
+
+
+B Ả N N ÀY L À G Ì
+
+
+Đây là bản dài của đề cương, viết để đọc kỹ chứ không phải để nộp. Bản nộp là v14, đã được
+duyệt. Bản dài giữ nguyên toàn bộ nội dung của v14: cùng tên đề tài, cùng ba câu hỏi, bốn
+giả thuyết, bảy công thức, cùng dữ liệu, mốc thời gian và danh mục tài liệu tham khảo. Phần
+thêm vào chỉ có tác dụng giải thích. Phần lớn các mục và tiểu mục của Chương 4 mở bằng
+một hộp tóm tắt; mỗi công thức có lời giải thích và một ví dụ số; những lập luận bị cắt khi
+rút gọn v14 được viết lại đầy đủ; cuối bản có sáu phụ lục: ký hiệu, mốc thời gian, rủi ro và
+phương án dự phòng, câu hỏi hội đồng có thể đặt ra, bảng thuật ngữ, và một ví dụ tính tay
+từ dữ liệu ngày đến tác động.
+   Bản dài không thêm sự kiện, số liệu hay tài liệu trích dẫn nào ngoài v14 và bộ tài liệu thí
+sinh đã gửi. Các con số trong hộp Ví dụ số minh họa là số tự đặt để minh họa cách tính, không
+phải dữ liệu thị trường, và không được trích lại như kết quả.
+
+C ÂU C H U Y Ệ N C Ủ A Đ Ề TÀ I T R O N G S ÁU C ÂU
+
+
+     1. Hà Nội muốn trở thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế, và đưa
+        câu hỏi làm cách nào để đạt được điều đó thành bài toán số 19 của thành phố.
+
+     2. Đúng lúc đó, toàn bộ cổ phiếu niêm yết tại HNX chuyển sang HOSE: phiên cuối ở HNX
+        là ngày 23/12/2026, phiên đầu ở HOSE là ngày 28/12/2026.
+
+     3. Câu hỏi đầu tiên là trung tâm tài chính ở quốc gia có thị trường cổ phiếu phát triển hơn
+        có điểm GFCI cao hơn hay không, sau khi kiểm soát thể chế và thu nhập; đề tài trả lời
+        bằng dữ liệu bảng GFCI của các trung tâm trên thế giới (H1 ), và kết quả chỉ là liên hệ
+        có điều kiện.
+
+     4. Câu hỏi thứ hai là trước khi hợp nhất, giao dịch cổ phiếu ở HNX kém HOSE bao nhiêu;
+        đề tài trả lời bằng một chỉ số chất lượng thị trường theo tháng từ năm 2009 (H2 ).
+
+     5. Câu hỏi thứ ba là khi chuyển sang HOSE, cùng những cổ phiếu ấy có dễ mua bán hơn
+        không, và nhà đầu tư đa dạng hóa có được lợi không; đề tài trả lời bằng thiết kế khác
+        biệt kép quanh ngày 28/12/2026 (H3 , H4 ).
+
+     6. Từ ba câu trả lời, đề tài tổng hợp định hướng chuyên môn hóa cho những thị trường
+        mà HNX tiếp tục vận hành: trái phiếu, phái sinh và UPCoM.
+
+Đ Ọ C T H E O Đ Ư Ờ N G N ÀO
+
+
+Đọc nhanh trong 20 phút. Đọc hướng dẫn này, các hộp tóm tắt ở đầu mỗi mục của Chương 4,
+     Bảng 4.2 (giả thuyết) và Phụ lục B (mốc thời gian).
+
+Hiểu phương pháp. Đọc mục 4.3.1 đến mục 4.3.10 theo thứ tự, dừng lại ở từng ví dụ số và
+     tự tính lại.
+
+
+
+
+ii
+Chuẩn bị phỏng vấn. Đọc mục 4.1, mục 4.2, mục 4.3.10 và Phụ lục D (các câu hỏi hội đồng
+    có thể đặt ra).
+
+Tra một ký hiệu. Dùng Phụ lục A.
+
+Gặp một thuật ngữ lạ. Dùng Phụ lục E.
+
+Muốn thấy số liệu đi qua từng bước. Đọc Phụ lục F.
+
+Q U Y Ư Ớ C T R Ì N H B ÀY
+
+
+   • Tên giả thuyết viết H1 –H4 ; tên mô hình phân bổ viết M1 –M7 ; tên khoảng trống nghiên
+     cứu viết K1 –K4 .
+
+   • Công thức viết theo lối kinh tế lượng cổ điển: chỉ số dưới viết liền, không có dấu phẩy
+     (Ait , không viết Ai,t ); phép nhân không ghi dấu; tham số là chữ Hy Lạp; tên biến gồm
+     nhiều chữ cái được viết đứng (MQI, Post, SMD).
+
+   • Số thập phân dùng dấu phẩy, số hàng nghìn dùng dấu chấm, theo cách viết tiếng Việt.
+
+   • Đánh số mục giữ nguyên như bản nộp (4.1, 4.3.7. . . ) để đối chiếu hai bản. Bảng, hình
+     và công thức được đánh số theo chương nên khác số thứ tự trong bản nộp; đầu Phụ
+     lục A ghi cách đối chiếu số công thức.
+
+   • Bốn loại hộp: Tóm tắt mục (đọc trước), Ví dụ số minh họa (tính tay được), Vì sao chọn cách
+     này (lý do của một lựa chọn phương pháp) và Chỗ dễ hiểu nhầm.
+
+
+
+
+                                                                                             iii
+M Ụ C LỤ C
+
+Hướng dẫn đọc        ii
+Danh mục chữ viết tắt      vii
+1–3. Thông tin chung       1
+4 Đề cương sơ bộ dự kiến          2
+   4.1 Lý do chọn đề tài        2
+   4.2 Tổng quan những tài liệu liên quan đến tình hình nghiên cứu           7
+   4.3 Phương pháp nghiên cứu / Mô hình lý thuyết           11
+        4.3.1 Khung lý thuyết         11
+        4.3.2 Mô hình nghiên cứu và giả thuyết         12
+        4.3.3 Dữ liệu       16
+        4.3.4 Chỉ số chất lượng thị trường vốn        17
+        4.3.5 Mô hình phân bổ dùng làm công cụ đo và đăng ký trước             19
+        4.3.6 Chỉ số khả năng đầu tư          21
+        4.3.7 Kiểm định giả thuyết          23
+        4.3.8 Thiết kế khác biệt kép quanh ngày chuyển sàn         31
+        4.3.9 Quy trình nghiên cứu           32
+        4.3.10 Độ tin cậy, giới hạn và khả năng thực hiện       33
+   4.4 Đối tượng và phạm vi nghiên cứu            35
+   4.5 Dự kiến bố cục các chương và các tiểu mục đến 3 chữ số         36
+5 Lý do chọn cơ sở nghiên cứu         38
+6 Mục tiêu và mong muốn đạt được khi đăng ký đi học nghiên cứu sinh             39
+7 Những dự định và kế hoạch để đạt được những mục tiêu mong muốn                40
+   7.1 Học phần đào tạo trình độ tiến sĩ         40
+   7.2 Chuyên đề tiến sĩ       40
+   7.3 Phần nghiên cứu khoa học           40
+   7.4 Phần thực hiện luận án         40
+8 Kiến thức chuyên môn của người dự tuyển tiến sĩ         42
+   8.1 Kinh nghiệm trong hoạt động chuyên môn            42
+   8.2 Kiến thức, sự hiểu biết và sự chuẩn bị của thí sinh về vấn đề nghiên cứu      44
+9 Dự kiến việc làm và các hướng nghiên cứu sau khi tốt nghiệp         46
+10 Đề xuất người hướng dẫn         47
+11 Danh mục tài liệu tham khảo         48
+A Bảng tra ký hiệu, biến và công thức         53
+B Mốc pháp lý và thời gian        55
+C Rủi ro và phương án dự phòng           57
+D Câu hỏi hội đồng có thể đặt ra        59
+E Bảng thuật ngữ        61
+F Tính tay từ dữ liệu ngày đến tác động          64
+
+
+
+
+iv
+DA N H M Ụ C B Ả N G
+
+
+Bảng 4.1     Các nhóm nghiên cứu gần nhất và khoảng trống nghiên cứu           10
+Bảng 4.2     Giả thuyết, thước đo và cơ sở lý thuyết     13
+Bảng 4.3     Bảy mô hình phân bổ dùng làm công cụ đo khả năng đầu tư           19
+Bảng 4.4     Ba thay đổi quy tắc khi chuyển sàn và thước đo mức chịu cú sốc     27
+Bảng 4.5     Thay đổi trùng thời gian ở HOSE và cách xử lý      31
+Bảng 4.6     Dự kiến bố cục các chương và tiểu mục của luận án       37
+Bảng 7.1     Kế hoạch thực hiện luận án theo bốn năm và sản phẩm dự kiến        41
+Bảng 8.1     Công trình đã công bố hoặc đã được chấp nhận đăng         43
+Bảng 8.2     Bản thảo đã gửi tạp chí, chưa công bố tại ngày 30/9/2026       44
+
+
+
+
+                                                                                     v
+DA N H M Ụ C H Ì N H
+
+
+Hình 4.1     Khung phân tích: hợp nhất sàn, chất lượng thị trường và khả năng
+             đầu tư     12
+Hình 4.2     Ba giai đoạn thời gian của mẫu dữ liệu Việt Nam      16
+Hình 4.3     Cửa sổ ước lượng, cửa sổ đánh giá và cách tính khoảng cách khả năng
+             đầu tư     23
+Hình 4.4     Quy trình nghiên cứu       32
+
+
+
+
+vi
+DA N H M Ụ C C H Ữ V I Ế T TẮT
+
+
+
+Chữ viết tắt Tiếng Anh                               Tiếng Việt
+
+CS          Không có                                 Rổ cổ phiếu chuyển sàn (ký hiệu của đề
+                                                     tài)
+GDP         Gross Domestic Product                   Tổng sản phẩm trong nước
+GFCI        Global Financial Centres Index           Chỉ số Trung tâm Tài chính Toàn cầu
+H           Không có                                 Rổ cổ phiếu HOSE được ghép với rổ CS
+                                                     (ký hiệu của đề tài, khác với tên giả thuyết
+                                                     H1 –H4 )
+HNX         Hanoi Stock Exchange                     Sở Giao dịch Chứng khoán Hà Nội
+HOSE        Ho Chi Minh Stock Exchange               Sở Giao dịch Chứng khoán Thành phố Hồ
+                                                     Chí Minh
+MQI         Market Quality Index                     Chỉ số chất lượng thị trường vốn
+OECD        Organisation for Economic Co-operation   Tổ chức Hợp tác và Phát triển Kinh tế
+            and Development
+OSF         Open Science Framework                   Nền tảng khoa học mở
+SMD         Stock Market Development                 Chỉ báo phát triển thị trường cổ phiếu
+UPCoM       Unlisted Public Company Market           Thị trường giao dịch cổ phiếu của công ty
+                                                     đại chúng chưa niêm yết
+VNX         Vietnam Exchange                         Sở Giao dịch Chứng khoán Việt Nam
+
+
+
+
+                                                                                              vii
+THÔNG TIN CHUNG
+
+
+1. T Ê N Đ Ề C Ư Ơ N G N G H I Ê N C Ứ U ( K H Ô N G Q UÁ 30 T Ừ ). Hợp nhất sàn chứng khoán
+và chất lượng thị trường: Bằng chứng thực nghiệm từ HNX và vị thế tài chính Hà Nội.
+
+2. N G Ư Ờ I T H Ự C H I Ệ N .   Nguyễn Văn Trung.
+
+3. Đ Ơ N V Ị C Ô N G TÁC .
+
+   Tên đề tài gồm ba vế, và mỗi vế ứng với một phần của đề cương. Hợp nhất sàn chứng khoán
+là sự kiện: toàn bộ cổ phiếu niêm yết tại HNX chuyển sang HOSE ngày 28/12/2026. Chất
+lượng thị trường là thứ được đo: thanh khoản, hiệu quả thông tin, minh bạch, và hệ quả của
+ba chiều này đối với nhà đầu tư đa dạng hóa. Vị thế tài chính Hà Nội là câu hỏi chính sách mà
+kết quả đo phục vụ, tức bài toán số 19 của thành phố.
+
+
+
+
+                                                                                           1
+ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+                                                                                    4
+Chương này là phần chính của đề cương. Nó đi theo trình tự của một nghiên cứu thực
+nghiệm: vì sao câu hỏi đáng hỏi (mục 4.1), người khác đã trả lời đến đâu (mục 4.2), đề tài sẽ
+đo và kiểm định như thế nào (mục 4.3), đo cái gì ở đâu và trong bao lâu (mục 4.4), và kết quả
+sẽ được viết thành luận án ra sao (mục 4.5).
+
+4.1    LÝ D O C H Ọ N Đ Ề TÀ I
+
+
+    TÓM TẮT MỤC
+
+    Hà Nội muốn trở thành trung tâm tài chính chất lượng cao, nhưng trung tâm tài chính
+    quốc tế được đặt ở Thành phố Hồ Chí Minh và Đà Nẵng, và sàn cổ phiếu niêm yết của Hà
+    Nội sắp chuyển hết vào HOSE. Trong phạm vi tìm kiếm của thí sinh đến ngày 30/9/2026,
+    chưa có nghiên cứu nào đo Hà Nội mất hay được gì từ việc đó. Đề tài đo ba thứ: mức
+    phát triển thị trường cổ phiếu liên hệ thế nào với điểm GFCI của trung tâm tài chính (câu
+    hỏi 1), sàn HNX kém HOSE bao nhiêu trước hợp nhất (câu hỏi 2), và việc chuyển sàn làm
+    thanh khoản và khả năng đầu tư của các cổ phiếu chuyển sàn thay đổi bao nhiêu (câu
+    hỏi 3). Sản phẩm là hai chỉ số đo được, một tệp đăng ký trước kế hoạch phân tích, ba bài
+    báo và một báo cáo định hướng cho các thị trường mà HNX tiếp tục vận hành.
+
+
+Bài toán số 19 của Hà Nội
+
+Hà Nội là trung tâm tài chính lớn của cả nước, nhưng hệ thống dịch vụ tài chính chưa đạt
+tầm khu vực. Thành phố đưa vấn đề này vào Danh mục bài toán lớn giai đoạn 2026–2030
+dưới dạng bài toán số 19: “Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính
+và dịch vụ chất lượng cao quốc tế?” (Ủy ban nhân dân thành phố Hà Nội, 2026, Phụ lục, bài
+toán số 19).
+   Bài toán số 19 được chia thành bốn câu hỏi. Câu hỏi số 1 hỏi những mô hình trung tâm
+tài chính nào phù hợp với điều kiện phát triển của Hà Nội. Câu hỏi số 2 hỏi về công nghệ
+tài chính giúp hiện đại hóa hệ thống tài chính đô thị. Câu hỏi số 3 hỏi những nền tảng công
+nghệ nào giúp tăng cường minh bạch và hiệu quả của thị trường tài chính. Câu hỏi số 4 hỏi
+cách phát triển các dịch vụ tài chính thế hệ mới dựa trên công nghệ tài chính và kinh tế số. Đi
+kèm bốn câu hỏi là năm sản phẩm thành phố mong đợi, trong đó có “Trung tâm tài chính
+quốc tế tại Hà Nội” và “Hệ thống dữ liệu tài chính đô thị”.
+   Đề tài không đề xuất mô hình trung tâm tài chính (câu hỏi số 1 của bài toán) hay nền tảng
+công nghệ cho thị trường tài chính (câu hỏi số 3). Đề tài cung cấp thước đo nền cho hai câu
+hỏi này: chất lượng giao dịch cổ phiếu khác nhau thế nào giữa sàn niêm yết của Hà Nội và
+sàn của Thành phố Hồ Chí Minh, và thay đổi thế nào khi cổ phiếu niêm yết chuyển từ Sở
+
+
+
+2
+                                                                    4.1 LÝ D O C H Ọ N Đ Ề TÀ I   3
+
+
+
+Giao dịch Chứng khoán Hà Nội (HNX) sang Sở Giao dịch Chứng khoán Thành phố Hồ Chí
+Minh (HOSE).
+   Đề tài chọn vai trò “thước đo nền” vì một luận án tiến sĩ có thể làm tốt việc đo, còn việc
+chọn mô hình trung tâm tài chính cho một thành phố là quyết định chính sách cần nhiều đầu
+vào khác. Câu hỏi số 1 khó trả lời nếu chưa biết thị trường hiện có của Hà Nội đang ở mức
+nào; câu hỏi số 3 khó trả lời nếu chưa có cách đo “minh bạch và hiệu quả” của thị trường. Đề
+tài cung cấp đúng hai thứ còn thiếu ấy.
+
+Các khái niệm dùng trong đề cương
+
+Đề cương dùng các khái niệm sau với nghĩa cố định. Năng lực cạnh tranh của trung tâm tài
+chính là khả năng giữ và thu hút các tổ chức tài chính và cung cấp dịch vụ đáp ứng nhu cầu
+trong nước và quốc tế (Yao, 2012), đo bằng điểm Chỉ số Trung tâm Tài chính Toàn cầu (GFCI).
+Chất lượng thị trường vốn gồm ba chiều: thanh khoản, hiệu quả thông tin và minh bạch công
+bố. Khả năng đầu tư của một rổ cổ phiếu là lợi suất tương đương chắc chắn sau chi phí giao
+dịch mà nhà đầu tư đa dạng hóa đạt được với rổ đó, tức mức lợi suất phi rủi ro mà nhà đầu
+tư ngại rủi ro coi là ngang giá với danh mục trên rổ ấy, khác với nghĩa giới hạn sở hữu của
+nhà đầu tư nước ngoài (Bae và cộng sự, 2004).
+   Hợp nhất sàn là việc chuyển toàn bộ cổ phiếu niêm yết từ HNX sang HOSE. Thị trường vốn
+Hà Nội là các thị trường do HNX tiếp tục vận hành sau hợp nhất: trái phiếu, chứng khoán
+phái sinh, và thị trường giao dịch cổ phiếu của công ty đại chúng chưa niêm yết (UPCoM)
+khi thị trường này còn do HNX tổ chức.
+
+  CHỖ DỄ HIỂU NHẦM
+
+  Dễ nghĩ là “khả năng đầu tư” ở đây cũng là chữ investability quen thuộc trong tài chính
+  quốc tế, tức nhà đầu tư nước ngoài được phép mua bao nhiêu phần trăm cổ phần. Không
+  phải vậy. Trong đề cương, khả năng đầu tư đo nhà đầu tư thu được bao nhiêu khi đa dạng
+  hóa trên một rổ cổ phiếu, sau khi trừ chi phí giao dịch và tính cả rủi ro. Hai rổ có cùng
+  giới hạn sở hữu nước ngoài vẫn có thể có khả năng đầu tư rất khác nhau nếu một rổ khó
+  mua bán hơn.
+
+
+Vị thế hiện tại của Hà Nội
+
+Theo Nghị quyết số 222/2025/QH15, Trung tâm tài chính quốc tế tại Việt Nam đặt tại Thành
+phố Hồ Chí Minh và thành phố Đà Nẵng (Quốc hội, 2025). Ở kỳ GFCI 40 (tháng 9/2026),
+Thành phố Hồ Chí Minh xếp thứ 67 trên 117 trung tâm, Đà Nẵng lần đầu vào chỉ số ở vị trí
+71, còn Hà Nội không có trong bảng xếp hạng (Wardle & Mainelli, 2026).
+  Hai sự kiện này đặt Hà Nội vào một vị trí khó: thủ đô có quy mô tài chính lớn nhưng
+không có trung tâm tài chính quốc tế theo luật, không có mặt trong chỉ số quốc tế, và sắp
+không còn sàn cổ phiếu niêm yết. Câu hỏi thực tế là Hà Nội còn những lợi thế nào trên thị
+trường vốn và nên dồn sức vào đâu.
+
+Lộ trình hợp nhất
+
+Lộ trình hợp nhất đã bị lùi hai lần: hạn chuyển cổ phiếu niêm yết từ HNX sang HOSE là năm
+2023 theo Thông tư số 57/2021/TT-BTC, hết năm 2025 theo Thông tư số 69/2023/TT-BTC (Bộ
+Tài chính, 2023) và hết ngày 31/12/2026 theo Thông tư số 139/2025/TT-BTC (Bộ Tài chính,
+4   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+    2025). Theo thông báo ngày 30/9/2026 của Sở Giao dịch Chứng khoán Việt Nam (VNX), cổ
+    phiếu niêm yết tại HNX giao dịch phiên cuối ngày 23/12/2026, tạm ngừng hai ngày 24 và
+    25/12/2026, và giao dịch tại HOSE từ ngày 28/12/2026 (Sở Giao dịch Chứng khoán Việt
+    Nam, 2026).
+       Hạn chuyển cổ phiếu UPCoM sang HOSE cũng là hết ngày 31/12/2026, do Thông tư số
+    69/2023/TT-BTC đặt và không bị Thông tư số 139/2025/TT-BTC sửa (Bộ Tài chính, 2023,
+    2025). Tuy vậy, thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết; báo chí cho biết cổ
+    phiếu UPCoM không thuộc diện chuyển trong đợt này (Báo Đầu tư Chứng khoán, 2026). Đến
+    ngày 17/10/2026 chưa có văn bản công bố lịch chuyển cổ phiếu UPCoM; đề tài sẽ cập nhật
+    lịch này khi VNX công bố (mục 4.3.10).
+       Việc lộ trình bị lùi hai lần có hai hệ quả cho thiết kế nghiên cứu. Thứ nhất, thị trường đã
+    biết trước khả năng hợp nhất từ năm 2021, nên một phần phản ứng có thể đã xảy ra trước
+    ngày chuyển sàn; đề tài vì vậy tách riêng giai đoạn chuyển tiếp và kiểm tra phản ứng trước sự
+    kiện (mục 4.3.7). Thứ hai, ngày chuyển sàn vẫn có thể thay đổi; đề tài chuẩn bị sẵn phương
+    án cho trường hợp chuyển theo nhiều đợt hoặc bị lùi tiếp (mục 4.3.10). Các mốc pháp lý được
+    gom lại ở Phụ lục B.
+
+    Lý thuyết nói gì về nhiều trung tâm trong một nước
+
+    Lý thuyết về trung tâm tài chính giải thích vì sao hoạt động tài chính dồn về một vài thành
+    phố: quy mô giao dịch và thông tin tạo lợi thế tích tụ (Gehrig, 2000; Kindleberger, 1974). Khi
+    một quốc gia có nhiều trung tâm, các trung tâm phân vai: ở Trung Quốc, Thượng Hải là
+    trung tâm thương mại, Bắc Kinh là trung tâm chính trị và quản lý, Hồng Kông là trung tâm
+    hải ngoại (Lai, 2012), và Bắc Kinh là trung tâm tài chính lớn dù không có sở giao dịch chứng
+    khoán tầm quốc gia trong phần lớn quá trình phát triển (Naeem, 2023). Với Hà Nội, câu hỏi
+    sau hợp nhất là nên chuyên môn hóa vào những thị trường nào, tương tự cách Yao (2012)
+    phân tích lợi thế của Luxembourg đối với ngành quỹ đầu tư.
+      Trường hợp Bắc Kinh cho thấy mất sàn cổ phiếu chưa chắc là mất vị thế tài chính: một
+    thủ đô có thể giữ vai trò lớn nhờ vai trò trung tâm chính trị và quản lý (Lai, 2012) và lợi thế
+    thông tin (Wang và cộng sự, 2007). Trường hợp Luxembourg cho thấy một trung tâm nhỏ
+    vẫn cạnh tranh được nếu chọn đúng mảng chuyên môn. Đề tài không giả định Hà Nội sẽ đi
+    theo hướng nào; đề tài đo những gì cần đo để lựa chọn có căn cứ.
+
+    Vì sao đây là một cơ hội đo hiếm có
+
+    Đợt hợp nhất ở Việt Nam đổi sàn cho toàn bộ cổ phiếu niêm yết tại HNX trong cùng một
+    ngày; tính đến phiên 30/9/2026, số cổ phiếu này là 299 mã (Tuổi Trẻ Online, 2026b). Sự kiện
+    này cho phép so sánh cùng các cổ phiếu trước và sau khi đổi sàn với một nhóm đối chứng,
+    tức các cổ phiếu tương đồng nhưng không chuyển sàn, về thanh khoản lẫn khả năng đầu tư.
+      Trong nghiên cứu thông thường về sàn giao dịch, doanh nghiệp tự chọn sàn. Doanh nghiệp
+    tự chuyển sang sàn lớn có thể là doanh nghiệp đang tăng trưởng, nên thanh khoản tăng sau
+    khi chuyển có thể do doanh nghiệp tốt lên chứ không do sàn. Ở đợt hợp nhất năm 2026,
+    doanh nghiệp không chọn: mọi mã niêm yết tại HNX đều chuyển, cùng một ngày, theo quyết
+    định hành chính. Thời điểm chuyển sàn vì vậy không do từng doanh nghiệp chọn. Tuy nhiên,
+    nhóm chuyển sàn vẫn là các doanh nghiệp đã chọn niêm yết ở HNX từ trước, và việc chuyển
+    sàn trùng với nhiều thay đổi khác, nên đề tài vẫn cần nhóm đối chứng và các kiểm tra ở
+    mục 4.3.8.
+                                                                    4.1 LÝ D O C H Ọ N Đ Ề TÀ I   5
+
+
+
+Ba vấn đề tài liệu còn để ngỏ
+
+Tài liệu hiện có để ngỏ ba vấn đề. Thứ nhất, 17 yếu tố mà Naeem (2023) dùng để giải thích
+thứ hạng GFCI không có chỉ báo nào về thị trường cổ phiếu, còn các nghiên cứu khác xét
+nhiều nhóm yếu tố cùng lúc nên chưa tách riêng vai trò của thị trường cổ phiếu (Eichengreen
+& Shah, 2020; Moosa và cộng sự, 2016). Thứ hai, bằng chứng về hợp nhất sàn chủ yếu đến từ
+thị trường phát triển, trái chiều theo quy mô doanh nghiệp và chỉ đo thanh khoản (Hisada,
+2018; Nielsson, 2009). Thứ ba, các công trình về Việt Nam tập trung vào HOSE (Goutte và
+cộng sự, 2025; Hoang & Luu, 2024; Vo & Phan, 2017) và chưa có nghiên cứu nào về đợt hợp
+nhất năm 2026.
+
+Câu hỏi nghiên cứu
+
+Từ những vấn đề trên, đề tài đặt ra ba câu hỏi, mỗi câu gắn với câu hỏi tương ứng của bài
+toán số 19 (ghi trong ngoặc):
+
+Câu hỏi 1: Mức phát triển thị trường cổ phiếu liên hệ thế nào với điểm GFCI của trung tâm
+     tài chính, sau khi kiểm soát chất lượng thể chế và thu nhập? (bối cảnh cho câu hỏi số 1
+     của bài toán số 19)
+
+Câu hỏi 2: Trước khi hợp nhất, chất lượng thị trường vốn của sàn niêm yết HNX thấp hơn
+     của HOSE bao nhiêu? (câu hỏi số 3)
+
+Câu hỏi 3: Việc chuyển sàn ngày 28/12/2026 làm thanh khoản và khả năng đầu tư của các
+     cổ phiếu chuyển sàn thay đổi bao nhiêu? (câu hỏi số 1 và số 3)
+
+   Ba câu hỏi đi từ rộng đến hẹp. Câu hỏi 1 nhìn ra thế giới: ở các trung tâm tài chính khác,
+thị trường cổ phiếu phát triển có đi cùng vị thế cao hơn không. Câu hỏi 2 nhìn vào Việt Nam
+trước sự kiện: hai sàn khác nhau đến đâu. Câu hỏi 3 nhìn vào chính sự kiện: khi cùng một cổ
+phiếu đổi sàn, điều gì thay đổi. Câu trả lời của câu hỏi sau có ý nghĩa hơn khi đã có câu trả
+lời của câu hỏi trước.
+
+Mục tiêu nghiên cứu
+
+Mục tiêu tổng quát là đo khoảng cách chất lượng thị trường giữa hai sàn trước hợp nhất và
+lượng hóa tác động của việc chuyển sàn năm 2026 lên thanh khoản và khả năng đầu tư của
+các cổ phiếu chuyển sàn, làm căn cứ cho định hướng chuyên môn hóa của thị trường vốn Hà
+Nội.
+  Bốn mục tiêu cụ thể là:
+
+  (i) ước lượng liên hệ giữa mức phát triển thị trường cổ phiếu và điểm GFCI trên dữ liệu
+      bảng quốc tế;
+
+ (ii) xây dựng Chỉ số chất lượng thị trường vốn theo tháng cho sàn niêm yết HNX, UPCoM
+      và HOSE;
+
+ (iii) ước lượng tác động của việc chuyển sàn lên thanh khoản và khả năng đầu tư, kể cả
+       khác biệt của tác động theo mức cổ phiếu chịu ba thay đổi quy tắc khi chuyển sàn (biên
+       độ hẹp lại, bước giá nhỏ đi, được đưa vào chỉ số của HOSE; mục 4.3.7) và theo trụ sở
+       doanh nghiệp;
+6   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     (iv) tổng hợp định tính các kết quả thành định hướng chuyên môn hóa và hạ tầng dữ liệu
+          cho thị trường vốn Hà Nội.
+
+       Trong bốn giả thuyết ở mục 4.3.2, H3 là kiểm định trọng tâm; H1 cung cấp bối cảnh quốc
+    tế, H2 cung cấp thước đo nền trước sự kiện, và H4 quy đổi tác động sang khả năng đầu tư.
+
+      CHỖ DỄ HIỂU NHẦM
+
+      Dễ nghĩ là bốn giả thuyết có vai trò ngang nhau. Chỉ H3 là kiểm định trọng tâm, vì ở đó
+      việc đổi sàn do quyết định hành chính chứ không do doanh nghiệp chọn, và có cổ phiếu
+      không chuyển sàn để so sánh. H1 chỉ cho kết luận về liên hệ có điều kiện, không phải
+      quan hệ nhân quả. H2 so sánh hai sàn khác nhau ở nhiều điểm ngoài bản thân sàn. H4
+      chỉ được ước lượng vì có quá ít quan sát để kiểm định đáng tin. Khi trình bày, nên giữ
+      đúng thứ bậc này.
+
+
+    Đóng góp dự kiến
+
+    So với Yao (2012), Eichengreen và Shah (2020) và Naeem (2023), đề tài đưa riêng mức phát
+    triển thị trường cổ phiếu vào mô hình điểm GFCI. So với Nielsson (2009) và Hisada (2018),
+    đề tài nghiên cứu hợp nhất hai sàn trong một quốc gia mới nổi, dùng suy luận phù hợp với
+    một sự kiện duy nhất và đo thêm tác động lên khả năng đầu tư. So với các công trình về Việt
+    Nam (Goutte và cộng sự, 2025; Nguyễn & Nguyễn, 2026a; Vo & Phan, 2017), đề tài xây dựng
+    chỉ số so sánh HNX với HOSE và cung cấp bằng chứng đầu tiên, trong phạm vi tìm kiếm của
+    thí sinh, về đợt hợp nhất năm 2026.
+       Về sản phẩm, Chỉ số chất lượng thị trường vốn có thể là một cấu phần của sản phẩm “Hệ
+    thống dữ liệu tài chính đô thị” mà bài toán số 19 nêu, còn báo cáo định hướng chuyên môn
+    hóa là một đầu vào phân tích cho sản phẩm “Trung tâm tài chính quốc tế tại Hà Nội”. Đề
+    tài không thiết kế sản phẩm “Trung tâm tài chính quốc tế tại Hà Nội”, và Nghị quyết số
+    222/2025/QH15 hiện chỉ đặt trung tâm tài chính quốc tế tại Thành phố Hồ Chí Minh và Đà
+    Nẵng. Hai chỉ số (chất lượng thị trường vốn và khả năng đầu tư) cùng tệp đăng ký trước là
+    sản phẩm có được dù kết quả kiểm định ra sao.
+       Điểm cuối cùng quan trọng với người cấp kinh phí. Nếu đề tài chỉ có giá trị khi giả thuyết
+    được ủng hộ, nhà nghiên cứu sẽ có động cơ tìm cách cho giả thuyết được ủng hộ. Ở đây thì
+    khác: thành phố nhận được sản phẩm dùng được dù việc chuyển sàn làm thanh khoản tăng,
+    giảm hay không đổi.
+
+    Sáu chỉ tiêu kiểm chứng
+
+    Kết quả của đề tài được kiểm chứng bằng sáu chỉ tiêu; mỗi chỉ tiêu có mốc thời gian và bằng
+    chứng công khai:
+
+     (1) Tệp đăng ký trước kế hoạch phân tích trên OSF Registries, khóa có dấu thời gian trước
+         ngày 28/12/2026.
+
+     (2) Chỉ số chất lượng thị trường vốn theo tháng cho ba sàn từ tháng 6/2009, công bố cùng
+         mã nguồn trên kho lưu trữ mở.
+
+     (3) Ước lượng tác động của việc chuyển sàn lên thanh khoản với 24 tháng dữ liệu sau sự
+         kiện, kèm hiệu ứng nhỏ nhất phát hiện được và khoảng tin cậy, theo đúng tệp đăng ký.
+             4.2 T Ổ N G Q UA N N H Ữ N G TÀ I L I Ệ U L I Ê N Q UA N Đ Ế N T Ì N H H Ì N H N G H I Ê N C Ứ U   7
+
+
+
+  (4) Chỉ số khả năng đầu tư của rổ cổ phiếu chuyển sàn, cho 20 cửa sổ trước và 8 cửa sổ sau
+      sự kiện.
+
+  (5) Ba bài báo trên tạp chí có phản biện, với mục tiêu ít nhất một bài, do thí sinh là tác giả
+      chính, thuộc cơ sở dữ liệu Web of Science hạng Q1 hoặc Q2, và một đến hai báo cáo hội
+      thảo đăng trong kỷ yếu được Hội đồng Giáo sư nhà nước tính điểm (hội thảo trong
+      nước) hoặc thuộc cơ sở dữ liệu Scopus hoặc Web of Science (hội thảo ở nước ngoài).
+
+  (6) Báo cáo định hướng chuyên môn hóa cho các thị trường do HNX tiếp tục vận hành, gửi
+      Sở Khoa học và Công nghệ Hà Nội trong năm thứ tư, kèm văn bản xác nhận hoặc cam
+      kết sử dụng kết quả của ít nhất một đơn vị, ưu tiên HNX.
+
+  Mỗi chỉ tiêu có thể được người ngoài kiểm tra mà không cần tin lời thí sinh: tệp đăng ký có
+dấu thời gian, chỉ số và mã nguồn công khai, bài báo có DOI, báo cáo có văn bản tiếp nhận.
+Chỉ tiêu (1) có hạn sớm nhất và quan trọng nhất, vì nếu tệp đăng ký được khóa sau ngày
+28/12/2026 thì không còn chứng minh được rằng kế hoạch phân tích có trước dữ liệu.
+
+4.2   T Ổ N G Q UA N N H Ữ N G TÀ I L I Ệ U L I Ê N Q UA N Đ Ế N T Ì N H H Ì N H N G H I Ê N C Ứ U
+
+
+  TÓM TẮT MỤC
+
+  Tài liệu được chia thành năm nhóm. Nhóm (A) giải thích vì sao tài chính tụ về một vài
+  thành phố và các thành phố trong một nước phân vai ra sao. Nhóm (B) cho các thước đo
+  thanh khoản, hiệu quả thông tin và minh bạch. Nhóm (C) cho bằng chứng khi cổ phiếu
+  đổi sàn hoặc khi hai sàn hợp nhất (Tel Aviv, Euronext, Tokyo–Osaka). Nhóm (D) cho bộ
+  công cụ danh mục khi tham số phải ước lượng. Nhóm (E) là nghiên cứu về Việt Nam,
+  gần như chỉ về HOSE. Từ năm nhóm rút ra bốn khoảng trống K1 –K4 (Bảng 4.1), và cả bốn
+  cùng chỉ về một chỗ: trong phạm vi tìm kiếm đến ngày 30/9/2026, vai trò của sàn đối với
+  chất lượng thị trường và khả năng đầu tư chưa được đo cho Việt Nam.
+
+  Năm nhóm tài liệu dưới đây không được chọn theo chủ đề cho đủ, mà theo nhu cầu của
+các giả thuyết. Nhóm (A) phục vụ H1 và phần định hướng cho Hà Nội; nhóm (B) phục vụ H2
+và thước đo của H3 ; nhóm (C) phục vụ H3 ; nhóm (D) phục vụ H4 ; nhóm (E) xác định đề tài
+đứng ở đâu so với các nghiên cứu về Việt Nam.
+
+(A) Trung tâm tài chính: tích tụ, cạnh tranh và phân vai
+
+Kindleberger (1974) và Gehrig (2000) giải thích sự tập trung của hoạt động tài chính bằng lợi
+thế quy mô và thông tin. Lập luận cốt lõi là thông tin tài chính có giá trị nhất khi ở gần nơi nó
+được tạo ra và gần những người dùng nó, nên ngân hàng, quỹ và sàn giao dịch có lợi khi đặt
+cạnh nhau. Lợi thế này tự củng cố: trung tâm càng lớn thì càng hút thêm tổ chức tài chính.
+   Yao (2012) xác định các yếu tố quyết định sức hấp dẫn của trung tâm đối với ngành quỹ
+đầu tư qua trường hợp Luxembourg. Moosa và cộng sự (2016) kiểm tra độ vững của các yếu
+tố quyết định vị thế trung tâm, còn Eichengreen và Shah (2020) xếp các yếu tố thành năm
+nhóm, trong đó có nhóm phát triển tài chính và vốn hóa thị trường.
+   Naeem (2023) hồi quy thứ hạng GFCI của 196 trung tâm giai đoạn 2007–2020 theo 17 yếu
+tố chọn bằng phương pháp cây quyết định, không gồm chỉ báo thị trường cổ phiếu; Cetorelli
+và Peristiani (2013) đo vị thế trung tâm qua mạng lưới niêm yết quốc tế của sàn. Ở Trung
+Quốc, Lai (2012) và Wang và cộng sự (2007) mô tả sự phân vai giữa Bắc Kinh, Thượng Hải và
+8   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+    Hồng Kông, Chen và Chen (2015) nhấn mạnh vai trò dẫn dắt của nhà nước, và Elliott (2011)
+    cho rằng không có công thức chung để xây dựng một trung tâm toàn cầu.
+      Đối với đề tài, nhóm (A) cho hai thứ. Thứ nhất là thiết kế của H1 : Naeem (2023) đã dựng
+    sẵn khung dữ liệu bảng GFCI, nhưng bỏ ngoài chỉ báo thị trường cổ phiếu, nên việc thêm
+    chỉ báo này vào là một bổ sung có thể kiểm tra được. Thứ hai là khung so sánh cho Hà Nội:
+    trường hợp Bắc Kinh, Thượng Hải và Hồng Kông cho thấy các trung tâm trong một nước có
+    thể chia vai thay vì cạnh tranh trên mọi mảng.
+
+    (B) Chất lượng thị trường vốn
+
+    Thanh khoản thường được đo từ dữ liệu ngày bằng độ phi thanh khoản (Amihud, 2002), tỷ
+    lệ ngày có lợi suất bằng 0 (Bekaert và cộng sự, 2007; Lesmond và cộng sự, 1999) và chênh lệch
+    mua-bán ước lượng từ giá cao nhất và thấp nhất (Corwin & Schultz, 2012); Lesmond (2005)
+    và Fong và cộng sự (2017) đánh giá chỉ báo nào đo thanh khoản tốt nhất.
+       Ba thước đo nắm bắt ba mặt khác nhau của “dễ mua bán”. Độ phi thanh khoản Amihud
+    trả lời câu hỏi: một đồng giá trị giao dịch làm giá dịch chuyển bao nhiêu. Tỷ lệ ngày lợi suất
+    bằng 0 trả lời câu hỏi: có bao nhiêu ngày giá không nhúc nhích, thường vì không ai giao dịch
+    hoặc vì chi phí giao dịch lớn hơn lợi ích của việc giao dịch. Chênh lệch Corwin–Schultz trả
+    lời câu hỏi: người mua ngay phải trả cao hơn người bán ngay bao nhiêu. Cả ba đều tính được
+    từ dữ liệu ngày, nên áp dụng được cho cả giai đoạn dài từ năm 2009, mà không cần dữ liệu
+    trong ngày.
+       Hiệu quả thông tin được đo bằng tỷ số phương sai (Lo & MacKinlay, 1988) và độ trễ giá
+    (Hou & Moskowitz, 2005), dù các thước đo này có thể sai lệch khi môi trường thông tin khác
+    nhau (Griffin và cộng sự, 2010). Lang và cộng sự (2012) liên hệ minh bạch với thanh khoản,
+    và Čihák và cộng sự (2012) xây dựng Cơ sở dữ liệu Phát triển Tài chính Toàn cầu. Các thước
+    đo này chưa được quy đổi thành tổn thất của nhà đầu tư đa dạng hóa.
+       Câu cuối là chỗ đề tài bắt đầu. Giả sử biết một sàn có độ phi thanh khoản cao hơn sàn kia
+    30%; con số ấy chưa cho biết nhà đầu tư mất bao nhiêu tiền. Đề tài quy đổi sự khác biệt về
+    chất lượng thị trường thành chênh lệch lợi suất tương đương chắc chắn, một đơn vị mà nhà
+    đầu tư và cơ quan quản lý đều hiểu được (mục 4.3.6).
+
+    (C) Cấu trúc sàn, đổi sàn và hợp nhất sàn
+
+    Huang và Stoll (1996) so sánh chi phí giao dịch của các cặp cổ phiếu tương đồng trên hai
+    sàn, và Christie và Huang (1994) đo thanh khoản của cùng một cổ phiếu khi doanh nghiệp
+    đổi sàn. Hai cách tiếp cận này là hai nửa của thiết kế nghiên cứu ở H3 : so sánh cặp cổ phiếu
+    tương đồng (nhóm đối chứng ghép cặp) và so sánh cùng một cổ phiếu trước và sau khi đổi
+    sàn.
+
+    T E L AV I V.  Khi Sở Giao dịch Chứng khoán Tel Aviv chuyển cổ phiếu sang cơ chế có thêm
+    phiên giao dịch liên tục, lợi suất bất thường tích lũy điều chỉnh theo thị trường đạt khoảng
+    5,5% từ năm ngày trước công bố đến 30 ngày sau khi giao dịch theo cơ chế mới, và thanh
+    khoản tăng cùng giá (Amihud và cộng sự, 1997). Đây là bằng chứng rằng chỉ thay đổi quy tắc
+    giao dịch, trong khi doanh nghiệp giữ nguyên, đã đủ làm thay đổi cả thanh khoản lẫn giá.
+    Bài này còn ghi nhận thanh khoản lan sang cổ phiếu chưa chuyển cơ chế, một hiện tượng đề
+    tài phải tính đến khi chọn nhóm đối chứng (mục 4.3.8).
+              4.2 T Ổ N G Q UA N N H Ữ N G TÀ I L I Ệ U L I Ê N Q UA N Đ Ế N T Ì N H H Ì N H N G H I Ê N C Ứ U   9
+
+
+
+E U R O N E X T.  Việc hình thành Euronext làm thanh khoản tăng ở doanh nghiệp lớn và
+doanh nghiệp có doanh thu nước ngoài, nhưng không tăng ở doanh nghiệp nhỏ (Nielsson,
+2009). Bài học là tác động của hợp nhất không đồng đều: lợi ích dồn vào doanh nghiệp lớn và
+doanh nghiệp có doanh thu nước ngoài. Nếu điều này đúng ở Việt Nam, tác động bình quân
+của việc chuyển sàn sẽ phụ thuộc vào cơ cấu quy mô của các mã chuyển sàn, và mã nhỏ có
+thể được lợi ít; đề tài vì vậy ước lượng tương tác với quy mô.
+
+T O K YO – O S A K A . Sau khi thị trường cổ phiếu của Osaka được hợp nhất vào Tokyo ngày
+16/7/2013, thanh khoản của các cổ phiếu sẵn có trên Sở Giao dịch Chứng khoán Tokyo tăng
+trong ngắn hạn rồi giảm sau một năm, với hiệu ứng tâm lý mạnh hơn ở cổ phiếu nhỏ (Hisada,
+2018); Arnold và cộng sự (1999, dẫn theo Hisada, 2018) cũng thấy hợp nhất sàn làm thanh
+khoản tăng. Trường hợp này gần với Việt Nam hơn Euronext ở chỗ đây là hợp nhất hai sàn
+trong một quốc gia. Cần chú ý Hisada đo cổ phiếu của sàn tiếp nhận (Tokyo), không đo cổ
+phiếu chuyển sang từ Osaka; đề tài đo nhóm ngược lại, tức các cổ phiếu chuyển sàn. Kết quả
+“tăng rồi giảm” cũng là lý do đề tài theo dõi đủ 24 tháng sau sự kiện thay vì vài tháng.
+   Wójcik (2007) phân tích quan hệ hai chiều giữa sàn chứng khoán và trung tâm tài chính.
+Bằng chứng về hợp nhất sàn ở thị trường mới nổi còn ít và chưa đo khả năng đầu tư.
+
+(D) Đa dạng hóa danh mục khi tham số được ước lượng
+
+Tối ưu hóa trung bình–phương sai (Markowitz, 1952) dồn trọng số vào tài sản có sai số ước
+lượng lớn (Michaud, 1989), và hiệu quả ngoài mẫu giảm khi dùng ước lượng mẫu thay tham
+số tổng thể (Kan & Zhou, 2007). Các cách khắc phục gồm co rút ma trận hiệp phương sai
+(Ledoit & Wolf, 2004), mô hình Black-Litterman (Bessler và cộng sự, 2017; Black & Litterman,
+1992) và danh mục vững chắc (Garlappi và cộng sự, 2007).
+  Dù vậy, không mô hình nào vượt quy tắc 1/N một cách nhất quán (DeMiguel và cộng sự,
+2009), và 1/N xấp xỉ tối ưu khi mức mơ hồ về mô hình cao (Pflug và cộng sự, 2012); Ledoit và
+Wolf (2008) kiểm định chênh lệch tỷ số Sharpe giữa hai danh mục. Đề tài dùng nhóm công
+cụ này để đo khả năng đầu tư của một sàn, không để chọn mô hình tốt nhất.
+  Nhóm (D) liên quan đến sàn giao dịch qua một con đường ít được chú ý. Mọi mô hình
+danh mục đều cần ước lượng lợi suất kỳ vọng và hiệp phương sai từ dữ liệu giá. Nếu cổ
+phiếu ít giao dịch, giá đứng yên nhiều ngày, thì ước lượng hiệp phương sai bị méo và sai
+số ước lượng lớn hơn. Một sàn có chất lượng thấp vì vậy không chỉ làm giao dịch đắt hơn,
+mà còn làm nhà đầu tư ước lượng kém hơn. Đề tài đo tổng của hai thiệt hại này qua lợi suất
+tương đương chắc chắn ngoài mẫu.
+
+(E) Nghiên cứu về Việt Nam
+
+Vo và Phan (2017) tìm thấy hành vi bầy đàn trên các công ty niêm yết tại HOSE giai đoạn
+2005–2015, còn Hoang và Luu (2024), trong một bản thảo công bố trực tuyến, phân tích chế
+độ biến động của VN-Index. Về danh mục, Ta và Vuong (2020), Nguyen và cộng sự (2020),
+Goutte và cộng sự (2025) và bài báo của chính thí sinh (Nguyễn & Nguyễn, 2026a) áp dụng
+các mô hình Black-Litterman, co rút hiệp phương sai và ra quyết định đa tiêu chí trên cổ
+phiếu HOSE. Các công trình này chưa so sánh hai sàn.
+10   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     Khoảng trống nghiên cứu
+
+     Bảng 4.1 đối chiếu bốn nhóm công trình gần nhất với đề tài và nêu khoảng trống của từng
+     nhóm; khoảng trống K2 bổ sung cho ba vấn đề nêu ở mục 4.1.
+
+
+                     Bảng 4.1: Các nhóm nghiên cứu gần nhất và khoảng trống nghiên cứu
+
+     Nhóm nghiên cứu             Kết quả đã có                             Khoảng trống
+
+     Trung tâm tài chính      Yếu tố quyết định thứ hạng GFCI     K1 . Các nghiên cứu về GFCI chưa
+     (Lai, 2012; Naeem, 2023; (Naeem: 17 yếu tố, không có chỉ báo xét chất lượng và cấu trúc thị trường
+     Yao, 2012)               thị trường cổ phiếu); phân vai các  cổ phiếu
+                              trung tâm trong một quốc gia
+
+     Chất lượng thị trường  Thước đo thanh khoản, hiệu quả                 K2 . Chưa quy đổi chất lượng thị
+     (Amihud, 2002; Fong và thông tin, minh bạch ở thị trường              trường thành tổn thất của nhà đầu
+     cộng sự, 2017;         mới nổi                                        tư đa dạng hóa
+     Lesmond, 2005)
+
+     Đổi sàn và hợp nhất sàn     Đổi sàn làm thay đổi thanh khoản;         K3 . Bằng chứng về hợp nhất sàn
+     (Hisada, 2018; Huang &      Euronext: lợi ích dồn vào doanh           trong một quốc gia ở thị trường mới
+     Stoll, 1996; Nielsson,      nghiệp lớn; Tokyo–Osaka (cổ phiếu         nổi còn ít, kết quả trái chiều theo
+     2009)                       của sàn tiếp nhận): hiệu ứng tâm lý       quy mô, chưa đo khả năng đầu tư
+                                 mạnh hơn ở cổ phiếu nhỏ
+
+     Việt Nam (Goutte và         Nghiên cứu tập trung vào HOSE và K4 . Chưa so sánh HNX với HOSE;
+     cộng sự, 2025; Nguyễn       VN-Index                         chưa đo tác động của đợt chuyển
+     & Nguyễn, 2026a; Vo &                                        sàn năm 2026
+     Phan, 2017)
+     Nguồn: Thí sinh tổng hợp. Ghi chú: K1 –K4 là các khoảng trống, đánh số riêng để phân biệt với các nhóm tài liệu
+     (A)–(E); phạm vi tìm kiếm nêu ở đoạn ngay dưới bảng.
+
+
+       Bốn khoảng trống cùng chỉ ra một điểm: vai trò của sàn giao dịch đối với chất lượng thị
+     trường và khả năng đầu tư chưa được đo cho Việt Nam, trong khi đợt hợp nhất năm 2026
+     tạo điều kiện đo trực tiếp. Nhận định này dựa trên tìm kiếm trên SSRN, RePEc/IDEAS,
+     ScienceDirect, Oxford Academic, Wiley, Springer, Taylor & Francis, MDPI và arXiv đến ngày
+     30/9/2026, chưa gồm Scopus, Web of Science và các tạp chí trong nước. Thí sinh mới đọc
+     tóm tắt và thông tin thư mục của phần lớn các nguồn; việc đọc toàn văn và mở rộng tìm kiếm
+     nằm trong kế hoạch năm thứ nhất.
+       Mỗi khoảng trống ứng với một giả thuyết: K1 với H1 , K4 với H2 , K3 với H3 , K2 với H4 . Cách
+     ghép này giúp kiểm tra nhanh rằng đề cương không có giả thuyết nào thiếu lý do và không
+     có khoảng trống nào bị bỏ rơi.
+
+       CHỖ DỄ HIỂU NHẦM
+
+       Dễ nghĩ là câu “chưa có nghiên cứu nào” là một khẳng định tuyệt đối. Nó chỉ đúng trong
+       phạm vi tìm kiếm ở đoạn trên. Khi trả lời hội đồng, nên nói “trong phạm vi tìm kiếm đến
+       ngày 30/9/2026”, và sẵn sàng nhận rằng tìm kiếm trên Scopus, Web of Science và tạp chí
+       trong nước là việc của năm thứ nhất.
+                                    4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   11
+
+
+
+4.3   P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T
+
+
+Mục này dài nhất đề cương và được chia thành mười tiểu mục. Bốn tiểu mục đầu dựng nền:
+lý thuyết (4.3.1), giả thuyết (4.3.2), dữ liệu (4.3.3) và Chỉ số chất lượng thị trường vốn (4.3.4).
+Hai tiểu mục tiếp theo dựng thước đo khả năng đầu tư (4.3.5 và 4.3.6). Ba tiểu mục sau trình
+bày cách kiểm định và các giả định của thiết kế (4.3.7, 4.3.8, 4.3.9). Tiểu mục cuối (4.3.10) nói
+rõ đề tài phát hiện được tác động nhỏ đến đâu và làm gì khi kế hoạch gặp trục trặc.
+
+4.3.1 Khung lý thuyết
+
+
+  TÓM TẮT MỤC
+
+  Ba khối lý thuyết nối thành một chuỗi: sàn giao dịch ảnh hưởng chất lượng thị trường (vi
+  cấu trúc thị trường), chất lượng thị trường ảnh hưởng khả năng đầu tư (lý thuyết danh
+  mục có sai số ước lượng), và cấu trúc sàn liên hệ với vai trò của trung tâm tài chính (lý
+  thuyết tích tụ và chuyên môn hóa). Đề tài kiểm định mắt xích đầu qua H3 (tác động gộp
+  của việc đổi sàn lên thanh khoản), chỉ ước lượng mắt xích thứ hai qua H4 (không kiểm
+  định xác nhận), và không kiểm định quan hệ nhân quả ở mắt xích cuối; mắt xích này chỉ
+  được tổng hợp định tính.
+
+   Đề tài dựa trên ba khối lý thuyết. Khối thứ nhất là lý thuyết về tích tụ và chuyên môn hóa
+của trung tâm tài chính (Gehrig, 2000; Kindleberger, 1974; Lai, 2012; Yao, 2012). Khối thứ hai
+là lý thuyết vi cấu trúc thị trường: quy tắc giao dịch và mức tập trung lệnh của một sàn ảnh
+hưởng tới chi phí giao dịch và tốc độ giá phản ánh thông tin (Amihud, 2002; Huang & Stoll,
+1996). Khối thứ ba là lý thuyết danh mục có sai số ước lượng: hiệu quả mà nhà đầu tư đạt
+được phụ thuộc vào chất lượng của tập cổ phiếu đầu tư được (Kan & Zhou, 2007; Markowitz,
+1952; Michaud, 1989).
+   Ba khối nối thành một chuỗi: sàn giao dịch liên hệ với chất lượng thị trường, chất lượng thị
+trường liên hệ với khả năng đầu tư, và cấu trúc sàn liên hệ với vai trò của mỗi trung tâm. Đề
+tài không kiểm định quan hệ nhân quả ở mắt xích cuối.
+   Có thể hình dung chuỗi này qua một cổ phiếu cụ thể. Khi cổ phiếu chuyển từ HNX sang
+HOSE, quy tắc giao dịch của nó đổi (biên độ, bước giá, tư cách vào chỉ số) và nó được giao
+dịch ở nơi tập trung nhiều lệnh hơn. Theo vi cấu trúc thị trường, chi phí mua bán cổ phiếu ấy
+có thể giảm. Khi chi phí giảm và giá phản ánh thông tin nhanh hơn, nhà đầu tư đa dạng hóa
+ước lượng được rủi ro tốt hơn và trả ít phí hơn khi tái cân bằng; theo lý thuyết danh mục, lợi
+suất tương đương chắc chắn của họ tăng. Nếu điều đó xảy ra với hàng trăm cổ phiếu cùng
+lúc, thì câu hỏi về vai trò của mỗi thành phố trong hệ thống tài chính quốc gia trở nên cụ thể
+hơn: sàn nào tạo ra chất lượng nào.
+12   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     4.3.2 Mô hình nghiên cứu và giả thuyết
+
+
+       TÓM TẮT MỤC
+
+       Bốn giả thuyết: H1 (thị trường cổ phiếu phát triển đi cùng điểm GFCI cao hơn), H2 (trước
+       hợp nhất, HNX kém HOSE về chất lượng thị trường), H3 (sau khi chuyển sàn, cổ phiếu
+       chuyển sàn dễ mua bán hơn so với nhóm đối chứng) và H4 (khoảng cách khả năng đầu
+       tư thu hẹp). Mỗi giả thuyết đi kèm một khả năng đối lập. Khó khăn lớn nhất là biên độ
+       và bước giá thay đổi cùng lúc với sàn, có thể làm thước đo thanh khoản thay đổi một cách
+       cơ học; đề tài xử lý bằng một ngưỡng lợi suất chung và bằng việc báo cáo theo nhóm mức
+       giá.
+
+       Từ bốn khoảng trống ở Bảng 4.1, đề tài đề xuất khung phân tích ở Hình 4.1 và bốn giả
+     thuyết ở Bảng 4.2: H1 trả lời câu hỏi 1, H2 trả lời câu hỏi 2, H3 và H4 trả lời câu hỏi 3.
+
+              Bằng chứng quốc tế
+                Điểm GFCI (H1 )
+              Phát triển thị trường
+               Thể chế, thu nhập
+
+                                                                                   Hàm ý cho Hà Nội
+                                                 Sự kiện 28/12/2026
+                Trước hợp nhất                                                        Chuyên môn
+                                                    Chuyển sàn
+               Chỉ số chất lượng                                                     hóa thị trường
+                                                    sang HOSE
+             HNX so với HOSE (H2 )                                                  Trái phiếu, phái
+                                                 Thanh khoản (H3 )
+                6/2009–6/2025                                                        sinh, UPCoM
+                                                Khả năng đầu tư (H4 )
+                                                                                    Hạ tầng dữ liệu
+                                                            khác biệt
+                                                            kép
+                                                  Nhóm đối chứng
+                                                      Cổ phiếu
+                                                   HOSE đối sánh
+                                                  Cổ phiếu UPCoM
+
+              Hình 4.1: Khung phân tích: hợp nhất sàn, chất lượng thị trường và khả năng đầu tư
+     Nguồn: Thí sinh đề xuất. Ghi chú: mũi tên từ ô Trước hợp nhất sang ô Sự kiện chỉ trình tự thời gian; H1 được
+     kiểm định trên dữ liệu bảng quốc tế và chỉ cung cấp bối cảnh; H2 so sánh hai sàn trước hợp nhất; H3 được kiểm
+     định và H4 được ước lượng bằng khác biệt kép quanh ngày 28/12/2026; mũi tên nét đứt chỉ hàm ý chính sách.
+
+
+       Hình 4.1 đọc từ trái sang phải theo thời gian và từ trên xuống dưới theo mức độ gần với sự
+     kiện. Ô trên cùng là bối cảnh quốc tế, không gắn với ngày chuyển sàn. Hai ô ở giữa là trục
+     chính: chất lượng thị trường trước sự kiện, rồi tác động của sự kiện. Ô nhóm đối chứng cho
+     biết tác động được đo so với cái gì. Ô bên phải là nơi các kết quả hội tụ thành hàm ý, và vì
+     phần này không được kiểm định nên mũi tên vào nó là nét đứt.
+                                       4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   13
+
+
+
+
+                            Bảng 4.2: Giả thuyết, thước đo và cơ sở lý thuyết
+
+Giả thuyết                           Thước đo chính                            Cơ sở lý thuyết và phương
+                                                                               pháp
+
+H1 : Các trung tâm tài chính ở       Điểm GFCI chuẩn hóa theo kỳ; chỉ          Naeem (2023); Čihák và
+quốc gia có thị trường cổ phiếu      báo phát triển thị trường cổ phiếu        cộng sự (2012); Kaufmann
+phát triển hơn có điểm GFCI cao      (vòng quay, vốn hóa trên GDP); chỉ        và cộng sự (2011)
+hơn, sau khi kiểm soát chất lượng    số quản trị nhà nước
+thể chế và thu nhập (câu hỏi 1)
+
+H2 : Trong giai đoạn tham chiếu      Chỉ số gộp từ độ phi thanh khoản          Amihud (2002); Lesmond
+từ tháng 6/2009 đến tháng            Amihud, tỷ lệ ngày lợi suất bằng 0,       và cộng sự (1999); Corwin
+6/2025, Chỉ số chất lượng thị        chênh lệch mua-bán ước lượng, tỷ số       và Schultz (2012); Lo và
+trường vốn của sàn niêm yết          phương sai, độ trễ giá, số ngày trễ       MacKinlay (1988); Hou và
+HNX thấp hơn của HOSE (câu           hạn công bố                               Moskowitz (2005); OECD
+hỏi 2)                                                                         (2008)
+
+H3 : Sau ngày 28/12/2026, độ phi     Logarit độ phi thanh khoản Amihud         Amihud và cộng sự (1997);
+thanh khoản Amihud của các cổ        trên các ngày có lợi suất tuyệt đối       Nielsson (2009); Hisada
+phiếu chuyển sàn, tính trên các      dưới ngưỡng chung, loại ngày liền         (2018); Coval và Moskowitz
+ngày có lợi suất tuyệt đối dưới      sau ngày có lợi suất tuyệt đối từ         (1999); Loughran và
+ngưỡng chung và không liền sau       ngưỡng chung trở lên (chính); vòng        Schultz (2005); Conley và
+ngày có lợi suất tuyệt đối từ        quay, tỷ lệ ngày lợi suất bằng 0 (phụ)    Taber (2011); Rambachan
+ngưỡng chung trở lên, giảm so                                                  và Roth (2023)
+với nhóm đối chứng (câu hỏi 3)
+
+H4 (ước lượng, không kiểm định       Chỉ số khả năng đầu tư trước và sau       DeMiguel và cộng sự
+xác nhận): Khoảng cách khả năng      sự kiện, chi phí giao dịch theo cổ        (2009); Ledoit và Wolf
+đầu tư giữa rổ H (rổ cổ phiếu        phiếu và theo tháng; hiệu ứng nhỏ         (2008); Politis và Romano
+HOSE đối sánh, mục 4.3.6) và rổ      nhất phát hiện được                       (1994)
+cổ phiếu chuyển sàn thu hẹp sau
+ngày 28/12/2026 (câu hỏi 3)
+Nguồn: Thí sinh đề xuất. Ghi chú: H1 –H3 là họ kiểm định xác nhận, hiệu chỉnh Holm (1979) ở mức 5%; H4 được
+báo cáo bằng ước lượng và khoảng tin cậy; các tương tác của tác động H3 là phân tích phụ đăng ký trước, không
+đưa vào thủ tục Holm.
+
+
+  V Ì S AO C H Ọ N C ÁC H N ÀY
+
+  Vì sao chỉ ba giả thuyết vào họ kiểm định xác nhận. Khi kiểm định nhiều giả thuyết, xác suất
+  có ít nhất một kết quả “có ý nghĩa” do ngẫu nhiên tăng theo số giả thuyết. Thủ tục Holm
+  (1979) giữ xác suất này ở mức 5% cho cả họ: sắp các giá trị p từ nhỏ đến lớn, so giá trị p
+  nhỏ nhất với 0,05/3, giá trị tiếp theo với 0,05/2, giá trị lớn nhất với 0,05, và dừng ở giá trị
+  đầu tiên không đạt. H4 không vào họ này vì chỉ có 28 cửa sổ đánh giá (28 quý, 20 quý
+  trước và 8 quý sau sự kiện, mục 4.3.6), quá ít để kiểm định có lực; đưa vào sẽ làm ngưỡng
+  của ba giả thuyết kia khắt khe hơn mà không thêm thông tin.
+14   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+       VÍ DỤ SỐ MINH HỌA
+
+       Giả sử giá trị p một phía của H1 , H2 , H3 lần lượt là 0,030; 0,004 và 0,020. Sắp xếp: 0,004
+       (H2 ) so với 0,05/3 ≈ 0,0167, đạt; 0,020 (H3 ) so với 0,05/2 = 0,025, đạt; 0,030 (H1 ) so với
+       0,05, đạt. Cả ba được ủng hộ. Nếu giá trị p của H3 là 0,028 thay vì 0,020, thì ở bước hai
+       0,028 > 0,025, thủ tục dừng: H2 được ủng hộ, còn H3 và H1 đều không, dù riêng giá trị p
+       của H1 nhỏ hơn 0,05.
+
+
+     Khả năng đối lập của từng giả thuyết
+
+     Mỗi giả thuyết đi kèm một khả năng đối lập. Với H1 , điểm GFCI có thể chỉ phản ánh thu
+     nhập và thể chế. Với H2 , chênh lệch có thể do quy mô doanh nghiệp và do biên độ dao
+     động giá, hiện là ±7% ở HOSE, ±10% ở HNX và ±15% ở UPCoM; theo Điều 4 Thông tư số
+     120/2020/TT-BTC, biên độ do VNX quyết định sau khi Ủy ban Chứng khoán Nhà nước chấp
+     thuận, và Ủy ban có thể điều chỉnh khi cần ổn định thị trường (Bộ Tài chính, 2020). Trong
+     quý 1 năm thứ nhất, đề tài lập bảng biên độ và bước giá hiệu lực theo từng thời kỳ 2009–2025
+     từ các quyết định của HOSE, HNX và Ủy ban Chứng khoán Nhà nước, và tính các chỉ báo
+     theo đúng quy định của từng thời kỳ.
+       Vì vậy, Chỉ số chất lượng thị trường vốn của hai sàn được so sánh trên mẫu đối sánh theo
+     quy mô và ngành, và được tính lại khi bỏ hai chỉ báo bị biên độ cắt trực tiếp là độ phi thanh
+     khoản Amihud và chênh lệch Corwin–Schultz; tỷ số phương sai và độ trễ giá chỉ chịu biên
+     độ gián tiếp và được kiểm tra bằng phép tính lại khi bỏ chiều hiệu quả thông tin (mục 4.3.4).
+
+     Bước giá
+
+     Bước giá cũng khác nhau. Với giao dịch khớp lệnh cổ phiếu, bước giá ở HOSE là 10 đồng khi
+     giá dưới 10.000 đồng, 50 đồng khi giá từ 10.000 đến 49.950 đồng và 100 đồng từ 50.000 đồng
+     trở lên (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025), còn ở HNX là 100 đồng
+     cho mọi mức giá (Sở Giao dịch Chứng khoán Hà Nội, 2016, Điều 23). Bảng bước giá hiện
+     hành của HOSE áp dụng từ ngày 12/9/2016 theo quy chế giao dịch ban hành kèm Quyết
+     định số 341/QĐ-SGDHCM (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2016). Khi
+     chuyển sàn, bước giá vì vậy giảm mười lần ở mã giá dưới 10.000 đồng, giảm một nửa ở mã
+     giá từ 10.000 đến 49.950 đồng và không đổi ở mã giá cao hơn.
+
+       VÍ DỤ SỐ MINH HỌA
+
+       Một cổ phiếu giá 8.000 đồng. Ở HNX, bước giá 100 đồng bằng 1,25% giá: muốn đặt giá
+       mua cao hơn người khác, nhà đầu tư phải trả thêm ít nhất 1,25%. Ở HOSE, bước giá
+       10 đồng chỉ bằng 0,125% giá. Với cổ phiếu giá 30.000 đồng, bước giá giảm từ 100 đồng
+       (0,33%) xuống 50 đồng (0,17%). Với cổ phiếu giá 60.000 đồng, bước giá vẫn là 100 đồng
+       (0,17%). Như vậy cổ phiếu giá càng thấp thì cú sốc bước giá khi chuyển sàn càng lớn.
+
+       Vì tỷ lệ ngày lợi suất bằng 0 và chênh lệch Corwin–Schultz phản ánh một phần bước giá,
+     nhất là ở cổ phiếu giá thấp, hai chỉ báo này được báo cáo theo nhóm mức giá, và thay đổi của
+     tỷ lệ ngày lợi suất bằng 0 trong H3 được đọc cùng với mức giảm bước giá khi chuyển sàn.
+       Lý do là khi bước giá lớn so với giá, giá khó nhích lên hoặc xuống một nấc, nên nhiều ngày
+     giá đứng yên dù vẫn có giao dịch. Khi bước giá nhỏ đi, số ngày giá đứng yên giảm một cách
+     cơ học, chưa chắc vì thanh khoản thực sự tốt hơn.
+                                 4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   15
+
+
+
+Biên độ và ngưỡng lợi suất chung khi tính Amihud
+
+Với H3 , biên độ hẹp lại từ ±10% xuống ±7% khi chuyển sàn làm lợi suất tuyệt đối bị cắt ở
+những ngày chạm biên độ, nên độ phi thanh khoản Amihud có thể giảm một cách cơ học.
+Chỉ loại các ngày chạm biên độ thì chưa đủ.
+   Để thấy vấn đề, nhớ rằng độ phi thanh khoản Amihud của một ngày là lợi suất tuyệt đối
+chia cho giá trị giao dịch. Ngày có tin tốt mạnh, giá ở HNX có thể tăng 9%; sau khi sang
+HOSE, cùng mức tin ấy chỉ cho giá tăng tối đa 7%. Tử số bị cắt bớt, nên độ phi thanh khoản
+Amihud giảm, dù độ khó mua bán không đổi. Nếu chỉ bỏ ngày chạm trần, thì trước chuyển
+sàn ngày tăng 9% vẫn nằm trong mẫu (chưa chạm trần 10%), còn sau chuyển sàn ngày tương
+tự bị bỏ (chạm trần 7%). Hai giai đoạn vì vậy được tính trên hai tập ngày khác nhau.
+   Đề tài vì vậy tính Amihud, ở cả hai nhóm và hai giai đoạn, chỉ trên các ngày có lợi suất
+tuyệt đối dưới một ngưỡng chung và không liền sau một ngày có lợi suất tuyệt đối từ ngưỡng
+này trở lên. Ngưỡng thấp hơn mức lợi suất lớn nhất đạt được ở biên độ ±7% với mọi mức giá
+đưa vào phép tính, sau khi giá trần được làm tròn xuống và giá sàn được làm tròn lên theo
+đơn vị yết giá của HOSE (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025). Vì mức
+lợi suất lớn nhất này thấp hơn rõ ở cổ phiếu giá thấp (với giá tham chiếu 1.140 đồng và bước
+giá 10 đồng, giá trần là 1.210 đồng, tức chỉ tăng được 6,14%), các mã có giá dưới một mức
+tối thiểu ghi trong tệp đăng ký được loại khỏi phép tính Amihud và được báo cáo riêng. Vì
+ngưỡng giống nhau cho mọi cổ phiếu và mọi giai đoạn, tập ngày bị loại không đổi theo sàn.
+
+  VÍ DỤ SỐ MINH HỌA
+
+ Theo cách làm tròn nêu trên, mức tăng lớn nhất đạt được trong một phiên ở biên độ ±7%
+ phụ thuộc vào giá tham chiếu:
+
+     • giá 1.140 đồng: 1.140 nhân 1,07 bằng 1.219,8; làm tròn xuống theo bước 10 đồng
+       được 1.210 đồng; mức tăng tối đa là 6,14%;
+
+     • giá 10.050 đồng: 10.050 nhân 1,07 bằng 10.753,5; làm tròn xuống theo bước 50 đồng
+       được 10.750 đồng; mức tăng tối đa là 6,97%;
+
+     • giá 50.000 đồng: 50.000 nhân 1,07 bằng 53.500 đồng, đúng bước 100 đồng; mức tăng
+       tối đa là 7,00%.
+
+ Nếu chọn ngưỡng chung là 6%, mọi ngày có lợi suất tuyệt đối từ 6% trở lên bị loại ở cả
+ HNX lẫn HOSE, trước lẫn sau sự kiện, và ngày liền sau chúng cũng bị loại. Mọi mã có giá
+ đủ cao để đạt được 6% trong biên độ của HOSE đều được tính trên cùng một quy tắc.
+ Con số 6% ở đây chỉ để minh họa; giá trị ngưỡng thật được ghi trong tệp đăng ký.
+
+  CHỖ DỄ HIỂU NHẦM
+
+ Dễ nghĩ là việc bỏ ngày liền sau ngày có lợi suất lớn là thừa. Nhưng khi giá bị biên độ
+ chặn, phần biến động chưa thực hiện được dồn sang phiên hôm sau. Biên độ ở HOSE
+ hẹp hơn nên hiện tượng dồn này có thể xảy ra nhiều hơn ở HNX, và ngày hôm sau cũng
+ mang dấu vết của biên độ. Bỏ cả ngày hôm sau làm hai sàn được so trên những ngày
+ không chịu ảnh hưởng của biên độ.
+
+   Giá trị ngưỡng và số ngày hợp lệ tối thiểu mỗi tháng được ghi trong tệp đăng ký; tỷ lệ ngày
+bị loại được báo cáo theo nhóm và giai đoạn. Giá trị giao dịch chỉ gồm giao dịch khớp lệnh,
+và vòng quay (thước đo không dùng lợi suất) là thước đo đối chiếu.
+16   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     Khả năng đối lập của H4
+
+     Với H4 , quy tắc 1/N có thể xóa khoảng cách vì không cần ước lượng tham số (DeMiguel và
+     cộng sự, 2009), nên đề tài báo cáo khoảng cách riêng cho từng mô hình.
+
+     4.3.3 Dữ liệu
+
+
+       TÓM TẮT MỤC
+
+       Hai bộ dữ liệu: quốc tế (điểm GFCI các kỳ 1–40, chỉ báo thị trường cổ phiếu và quản trị
+       nhà nước) cho H1 , và Việt Nam (dữ liệu giao dịch ngày của HNX, UPCoM, HOSE từ tháng
+       6/2009) cho H2 –H4 . Thời gian được chia thành ba giai đoạn: tham chiếu (6/2009–6/2025),
+       chuyển tiếp (7/2025–12/2026, không dùng trong kiểm định chính) và sau sự kiện (24
+       tháng từ 1/2027).
+
+        Đề tài dùng hai bộ dữ liệu. Bộ dữ liệu quốc tế cho câu hỏi 1 gồm điểm và thứ hạng GFCI
+     các kỳ 1–40, do Z/Yen công bố công khai từ năm 2007. Thí sinh số hóa điểm từ báo cáo từng
+     kỳ nếu Long Finance, nơi đăng tải báo cáo, cho phép (nếu không, xem phương án dự phòng
+     ở mục 4.3.10), rồi ghép với các chỉ báo thị trường cổ phiếu cấp quốc gia (Čihák và cộng sự,
+     2012) và các chỉ số quản trị nhà nước (Kaufmann và cộng sự, 2011).
+        Bộ dữ liệu Việt Nam gồm giá điều chỉnh, khối lượng và giá trị giao dịch theo ngày của cổ
+     phiếu trên sàn niêm yết HNX, UPCoM và HOSE, kể cả mã đã hủy niêm yết hoặc chuyển sàn,
+     cùng các chỉ số thị trường, lợi suất trái phiếu chính phủ kỳ hạn một năm và thời điểm công
+     bố báo cáo tài chính quý. Nguồn là HNX, HOSE và một nhà cung cấp dữ liệu thương mại; dữ
+     liệu không chứa thông tin cá nhân.
+        Việc giữ cả mã đã hủy niêm yết hoặc chuyển sàn là để tránh thiên lệch sống sót. Nếu chỉ
+     dùng các mã còn giao dịch đến nay, mẫu sẽ thiếu những doanh nghiệp yếu đã rời sàn, và
+     chất lượng thị trường trong quá khứ sẽ trông tốt hơn thực tế, nhất là ở sàn có nhiều mã rời đi.
+
+     Ba giai đoạn thời gian
+
+     Mẫu bắt đầu từ tháng 6/2009, khi UPCoM khai trương (ngày 24/6/2009). Vì HNX ngừng
+     tiếp nhận hồ sơ đăng ký niêm yết cổ phiếu mới từ ngày 1/7/2025 (Bộ Tài chính, 2023), giai
+     đoạn tham chiếu kết thúc ngày 30/6/2025. Giai đoạn từ tháng 7/2025 đến tháng 12/2026 là
+     giai đoạn chuyển tiếp, được báo cáo riêng (phiên bản nghiên cứu sự kiện và phần mô tả),
+     không dùng trong các kiểm định chính; giai đoạn sau sự kiện kéo dài 24 tháng từ tháng
+     1/2027.
+
+                                                                                 Chuyển tiếp
+                                                                               7/2025–12/2026
+                              Giai đoạn tham chiếu 6/2009–6/2025
+                                                                                                           năm
+        2009              2013              2017             2021             20252026202720282029
+                                                                                         Sau sự kiện
+                                                                      28/12/2026
+                                                                                       1/2027–12/2028
+
+                           Hình 4.2: Ba giai đoạn thời gian của mẫu dữ liệu Việt Nam
+     Nguồn: Thí sinh đề xuất theo các mốc nêu trong mục 4.3.3. Ghi chú: trục thời gian không theo đúng tỷ lệ; giai
+     đoạn chuyển tiếp (nét đứt) chỉ dùng trong phiên bản nghiên cứu sự kiện và phần mô tả.
+                                  4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   17
+
+
+
+  V Ì S AO C H Ọ N C ÁC H N ÀY
+
+ Vì sao bỏ giai đoạn chuyển tiếp khỏi kiểm định chính. Từ ngày 1/7/2025, HNX không nhận
+ niêm yết mới, và thị trường biết rằng mọi mã niêm yết sẽ sang HOSE. Trong 18 tháng ấy,
+ nhà đầu tư có thể đã mua trước những mã sắp chuyển, hoặc doanh nghiệp có thể đã thay
+ đổi hành vi công bố thông tin. Nếu tính giai đoạn này vào “trước sự kiện”, đề tài sẽ so
+ sánh sau sự kiện với một giai đoạn đã bị sự kiện tác động, và đánh giá thấp tác động thật.
+ Bỏ giai đoạn này khỏi kiểm định chính, nhưng vẫn quan sát nó qua phiên bản nghiên
+ cứu sự kiện, giữ được cả độ sạch của phép so sánh lẫn thông tin về phản ứng sớm.
+
+   Ngày bị đình chỉ giao dịch được loại khỏi mẫu số của tỷ lệ ngày lợi suất bằng 0. Độ phi
+thanh khoản Amihud được winsorize tại phân vị 1% và 99% tính trên mẫu gộp các sàn trong
+từng tháng, để ngưỡng không đổi khi cổ phiếu đổi sàn.
+   Winsorize là thay các giá trị quá lớn bằng giá trị ở phân vị 99% và các giá trị quá nhỏ bằng
+giá trị ở phân vị 1%, để vài quan sát cực đoan không chi phối bình quân. Ngưỡng được tính
+trên mẫu gộp các sàn, không tính riêng từng sàn, vì nếu tính riêng thì một cổ phiếu đổi sàn
+sẽ gặp ngưỡng khác nhau trước và sau sự kiện, và việc đổi ngưỡng tự nó tạo ra thay đổi giả.
+   Giai đoạn căng thẳng, chỉ dùng cho phân tích mô tả, gồm đại dịch COVID-19 năm 2020 (Dao
+và cộng sự, 2021) và biến cố thị trường trái phiếu doanh nghiệp từ quý 4/2022 (International
+Monetary Fund, 2023; Vu và cộng sự, 2024).
+
+4.3.4 Chỉ số chất lượng thị trường vốn
+
+
+  TÓM TẮT MỤC
+
+ Sáu chỉ báo, ba chiều: thanh khoản (Amihud, tỷ lệ ngày lợi suất bằng 0, chênh lệch
+ Corwin–Schultz), hiệu quả thông tin (tỷ số phương sai, độ trễ giá) và minh bạch (số ngày
+ trễ hạn công bố). Mỗi chỉ báo được chuẩn hóa thành điểm z và đổi dấu sao cho cao hơn là
+ tốt hơn; điểm của mỗi chiều là trung bình các điểm z trong chiều; chỉ số là trung bình của
+ ba chiều. H2 được kiểm định trên chuỗi chênh lệch chỉ số giữa HOSE và HNX theo tháng.
+
+   Với mỗi cổ phiếu và mỗi tháng, đề tài tính sáu chỉ báo thuộc ba chiều. Chiều thanh khoản
+gồm độ phi thanh khoản Amihud (Amihud, 2002), tỷ lệ ngày có lợi suất bằng 0 (Lesmond
+và cộng sự, 1999) và chênh lệch mua-bán ước lượng từ giá cao nhất và thấp nhất (Corwin &
+Schultz, 2012). Hai chỉ báo đầu là chỉ báo chính vì đã được dùng rộng rãi ở thị trường mới
+nổi (Bekaert và cộng sự, 2007; Lesmond, 2005) và đã được so sánh với chuẩn tính từ dữ liệu
+trong ngày trên mẫu toàn cầu (Fong và cộng sự, 2017).
+   Chiều hiệu quả thông tin gồm độ lệch của tỷ số phương sai khỏi 1 (Lo & MacKinlay, 1988)
+và độ trễ giá (Hou & Moskowitz, 2005); vì hai thước đo này có thể cho kết luận sai khi môi
+trường thông tin khác nhau (Griffin và cộng sự, 2010), chỉ số được tính lại khi bỏ chiều này.
+Chiều minh bạch là số ngày trễ hạn công bố báo cáo tài chính quý.
+   Tỷ số phương sai so sánh phương sai của lợi suất nhiều ngày với tổng phương sai của các
+lợi suất một ngày. Nếu giá đi theo bước ngẫu nhiên, như khi thông tin được phản ánh ngay,
+tỷ số bằng 1. Tỷ số lệch xa 1 cho thấy giá phản ứng chậm (lệch lên) hoặc phản ứng quá rồi
+điều chỉnh lại (lệch xuống). Độ trễ giá đo xem lợi suất của cổ phiếu được giải thích thêm bao
+nhiêu bởi lợi suất thị trường của các tuần trước; cổ phiếu phản ánh thông tin chậm thì độ trễ
+cao.
+18   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+       Các chỉ báo cổ phiếu được gộp lên cấp sàn bằng trung vị có trọng số theo vốn hóa; độ phi
+     thanh khoản Amihud được điều chỉnh theo tổng vốn hóa thị trường so với tháng 6/2025 để
+     chỉ số không thay đổi chỉ vì quy mô danh nghĩa của thị trường.
+       Điều chỉnh này cần vì độ phi thanh khoản Amihud có giá trị giao dịch ở mẫu số. Khi thị
+     trường lớn lên theo thời gian (giá tăng, nhiều tiền hơn), giá trị giao dịch danh nghĩa tăng và
+     độ phi thanh khoản giảm, dù độ khó mua bán so với quy mô thị trường không đổi. Nhân với
+     tỷ số giữa tổng vốn hóa tháng t và tổng vốn hóa tháng 6/2025 loại bỏ phần thay đổi danh
+     nghĩa này.
+       Các chỉ báo được gộp thành Chỉ số chất lượng thị trường vốn theo hướng dẫn của OECD
+     (2008). Mỗi chỉ báo được chuẩn hóa thành điểm z theo mẫu gộp các sàn trong giai đoạn tham
+     chiếu, để giá trị đã công bố không phải tính lại, rồi đổi dấu sao cho giá trị cao hơn là chất
+     lượng tốt hơn. Với sàn j và tháng t, chỉ số là:
+
+                      TK jt + HQ jt + MB jt
+           MQI jt =                                                                           (4.1)
+                               3
+     trong đó MQI jt là Chỉ số chất lượng thị trường vốn của sàn j (sàn niêm yết HNX, UPCoM
+     hoặc HOSE) trong tháng t; TK jt , HQ jt và MB jt là điểm của ba chiều thanh khoản, hiệu quả
+     thông tin và minh bạch, mỗi điểm bằng trung bình các điểm z của chỉ báo thuộc chiều đó (ba
+     chỉ báo thanh khoản, hai chỉ báo hiệu quả thông tin, một chỉ báo minh bạch). Như vậy ba
+     chiều có trọng số bằng nhau. Trọng số từ thành phần chính thứ nhất và cách gộp bỏ lần lượt
+     từng chiều là kiểm tra độ vững (OECD, 2008).
+
+     Đ Ọ C C Ô N G T H Ứ C (4.1) B Ằ N G L Ờ I .
+                                             Chỉ số của một sàn trong một tháng là trung bình
+     cộng của ba điểm: điểm thanh khoản, điểm hiệu quả thông tin và điểm minh bạch. Mỗi điểm
+     đã được đưa về cùng thang đo (điểm z), nên có thể cộng với nhau. Chỉ số bằng 0 nghĩa là sàn
+     ở mức bình quân của mẫu gộp các sàn trong giai đoạn tham chiếu; chỉ số dương là tốt hơn
+     mức đó, âm là kém hơn.
+
+       VÍ DỤ SỐ MINH HỌA
+
+      Giả sử trong một tháng, sàn HNX có điểm thanh khoản −0,6, điểm hiệu quả thông tin
+      −0,2 và điểm minh bạch 0,2; sàn HOSE có ba điểm tương ứng 0,5; 0,1 và 0,3. Khi đó
+                           −0,6 − 0,2 + 0,2                        0,5 + 0,1 + 0,3
+             MQIHNX =                       = −0,2    MQIHOSE =                    = 0,3
+                                  3                                       3
+      Chênh lệch giữa HOSE và HNX trong tháng này là 0,5 đơn vị điểm z (trung bình của
+      các điểm z, không đúng bằng một độ lệch chuẩn của chỉ số). H2 hỏi xem bình quân của
+      chênh lệch này qua 193 tháng của giai đoạn tham chiếu có dương hay không.
+
+       V Ì S AO C H Ọ N C ÁC H N ÀY
+
+      Vì sao trọng số bằng nhau giữa ba chiều, không giữa sáu chỉ báo. Nếu lấy trung bình của sáu
+      chỉ báo, chiều thanh khoản (ba chỉ báo) sẽ chiếm một nửa chỉ số, còn minh bạch (một chỉ
+      báo) chỉ chiếm một phần sáu, chỉ vì đề tài tình cờ có nhiều thước đo thanh khoản hơn.
+      Trọng số bằng nhau theo chiều phản ánh quan điểm rằng ba chiều quan trọng ngang
+      nhau, và đây là cách gộp đơn giản nhất để người ngoài kiểm tra lại. Các cách gộp khác
+      được báo cáo ở phần kiểm tra độ vững.
+                                       4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   19
+
+
+
+  V Ì S AO C H Ọ N C ÁC H N ÀY
+
+  Vì sao chuẩn hóa theo giai đoạn tham chiếu, không theo toàn bộ mẫu. Nếu chuẩn hóa theo toàn
+  bộ mẫu, mỗi tháng dữ liệu mới làm trung bình và độ lệch chuẩn thay đổi, và mọi giá trị
+  chỉ số đã công bố phải tính lại. Chuẩn hóa một lần theo giai đoạn tham chiếu cố định giữ
+  cho chỉ số đã công bố ổn định, điều cần thiết nếu chỉ số trở thành một cấu phần của hệ
+  thống dữ liệu tài chính đô thị.
+
+  H2 được kiểm định trên chuỗi chênh lệch chỉ số theo tháng giữa HOSE và sàn niêm yết
+HNX, và được ủng hộ khi chênh lệch bình quân trong giai đoạn tham chiếu dương với giá trị
+p bootstrap khối dừng (Politis & Romano, 1994) nhỏ hơn ngưỡng Holm tương ứng. Chênh
+lệch trong giai đoạn chuyển tiếp, chênh lệch giữa HOSE và UPCoM, chênh lệch theo giai
+đoạn căng thẳng và điểm gãy cấu trúc (Bai & Perron, 1998) được báo cáo ở dạng mô tả.
+  Bootstrap khối dừng cần thiết vì chênh lệch tháng này thường gần với chênh lệch tháng
+trước. Nếu coi 193 tháng là 193 quan sát độc lập, sai số chuẩn sẽ quá nhỏ và kiểm định bác
+bỏ quá dễ. Bootstrap khối dừng lấy mẫu lại theo từng khối tháng liên tiếp với độ dài ngẫu
+nhiên, nên giữ được mức tương quan giữa các tháng gần nhau.
+
+4.3.5 Mô hình phân bổ dùng làm công cụ đo và đăng ký trước
+
+
+  TÓM TẮT MỤC
+
+  Khả năng đầu tư được đo bằng bảy mô hình phân bổ (M1 –M7 ), từ mô hình không ước
+  lượng tham số nào (1/N) đến các mô hình ước lượng nhiều tham số. Bảy mô hình là bảy
+  “nhà đầu tư” khác nhau dùng chung một rổ cổ phiếu; đề tài lấy bình quân của họ để kết
+  luận không phụ thuộc vào một mô hình. Mọi lựa chọn có thể ảnh hưởng đến kết quả
+  được khóa trong tệp đăng ký trên OSF trước ngày 28/12/2026.
+
+   Đề tài đo khả năng đầu tư bằng bảy mô hình phân bổ (Bảng 4.3), đại diện cho các hướng
+tiếp cận ở nhóm tài liệu (D) và cho quy tắc có trạng thái thị trường (Hamilton, 1989; Kritzman
+và cộng sự, 2012). Bình quân theo bảy mô hình làm kết luận ít phụ thuộc vào sai số ước lượng
+của một mô hình, còn độ phân tán giữa các mô hình cho biết mức phụ thuộc đó.
+
+
+                Bảng 4.3: Bảy mô hình phân bổ dùng làm công cụ đo khả năng đầu tư
+
+Mã Mô hình                                                                Tài liệu gốc
+
+M1 Phân bổ đều 1/N                                                        DeMiguel và cộng sự (2009)
+M2 Phương sai nhỏ nhất với ma trận hiệp phương sai co rút                 Ledoit và Wolf (2004)
+M3 Trung bình-phương sai với ước lượng mẫu                                Markowitz (1952)
+M4 Black-Litterman với quan điểm từ mô hình dự báo                        Black và Litterman (1992)
+M5 Black-Litterman có chuyển chế độ                                       Mở rộng từ Nguyễn và Nguyễn
+                                                                          (2026a)
+M6 Danh mục vững chắc với nhiều niềm tin tiên nghiệm                      Garlappi và cộng sự (2007)
+M7 Giảm tỷ trọng rủi ro theo xác suất trạng thái căng thẳng do            Kritzman và cộng sự (2012)
+   mô hình tự ước lượng
+Nguồn: Thí sinh tổng hợp. Ghi chú: cả bảy mô hình là danh mục chỉ mua; trọng số được ước lượng lại hằng
+tháng trên cửa sổ trượt 104 tuần; xác suất trạng thái trong M5 và M7 là thành phần nội bộ của mô hình, không
+dùng để xác định giai đoạn căng thẳng.
+20   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+       Bảy mô hình có thể xếp theo lượng tham số phải ước lượng. M1 không ước lượng gì: chia
+     đều tiền cho mọi cổ phiếu. M2 chỉ ước lượng hiệp phương sai, và co rút ước lượng này về
+     một cấu trúc đơn giản để giảm sai số. M3 ước lượng cả lợi suất kỳ vọng lẫn hiệp phương sai
+     từ mẫu, nên nhạy nhất với sai số ước lượng. M4 và M5 bắt đầu từ danh mục thị trường rồi
+     điều chỉnh theo quan điểm dự báo; M5 cho quan điểm thay đổi theo trạng thái thị trường. M6
+     chọn danh mục tốt nhất trong trường hợp xấu nhất của một tập niềm tin. M7 giảm tỷ trọng
+     rủi ro khi mô hình ước lượng xác suất thị trường đang căng thẳng cao.
+       Thứ tự này giúp đọc độ phân tán của Gm giữa các mô hình, nhưng không đủ để tách kênh
+     tác động. Khi chi phí giao dịch giảm, mô hình có vòng quay danh mục cao (thường là M3 )
+     được lợi nhiều hơn M1 , nên chênh lệch giữa các mô hình không chỉ phản ánh kênh ước lượng.
+     Ngoài ra, cửa sổ ước lượng của các cửa sổ đánh giá sau sự kiện phần lớn còn nằm trước ngày
+     chuyển sàn. Vì vậy đề tài chỉ báo cáo độ phân tán của Gm và số mô hình có cùng dấu, cùng
+     khoảng cách riêng của M1 , không dùng so sánh giữa các mô hình để kết luận về kênh tác
+     động.
+       Siêu tham số của các mô hình được chọn từ một lưới cho trước, với cùng quy tắc và cùng
+     ngân sách tinh chỉnh. Vì M5 do thí sinh phát triển, kết quả được báo cáo cả khi có lẫn khi
+     không có M5 .
+
+      V Ì S AO C H Ọ N C ÁC H N ÀY
+
+      Vì sao báo cáo kết quả cả khi bỏ M5 . Người phát triển một mô hình có xu hướng (dù không
+      cố ý) tinh chỉnh nó kỹ hơn các mô hình khác. Nếu M5 được lợi nhiều từ việc tinh chỉnh,
+      bình quân bảy mô hình sẽ bị kéo theo. Báo cáo thêm bình quân sáu mô hình còn lại cho
+      người đọc thấy kết luận có đứng vững khi bỏ mô hình của chính tác giả hay không.
+
+        Thí sinh đã dùng dữ liệu cổ phiếu HOSE trong bài báo Nguyễn và Nguyễn (2026a) và
+     trong các bản thảo số 4 và số 6 ở Bảng 8.2. Để kiểm soát rủi ro chọn kết quả sau khi xem dữ
+     liệu, thí sinh đăng ký trước kế hoạch phân tích trên OSF Registries trước ngày 28/12/2026,
+     sau khi xin góp ý của người hướng dẫn dự kiến, và khai rõ phạm vi sàn, giai đoạn và chỉ báo
+     đã tính trong các bài trước.
+        Tệp đăng ký cố định trước mọi lựa chọn có thể ảnh hưởng tới kết quả: chỉ báo và trọng số;
+     quy tắc lập rổ và ghép đối chứng; chi phí giao dịch và siêu tham số của bảy mô hình; đặc tả
+     các phương trình (4.5)–(4.7) và thủ tục suy luận; ngưỡng lợi suất khi tính Amihud; quy tắc
+     chọn cửa sổ trước theo điểm gãy cấu trúc; định nghĩa mức chịu cú sốc và biến trụ sở; mức ý
+     nghĩa và cách hiệu chỉnh so sánh bội. Mọi thay đổi sau ngày đăng ký được ghi là lệch khỏi kế
+     hoạch.
+
+      CHỖ DỄ HIỂU NHẦM
+
+      Dễ nghĩ là đăng ký trước làm nghiên cứu cứng nhắc, không được sửa gì. Kế hoạch vẫn
+      được sửa, nhưng mọi chỗ sửa được ghi lại và báo cáo là “lệch khỏi kế hoạch”, kèm lý do.
+      Người đọc vì vậy phân biệt được kết quả nào theo kế hoạch ban đầu và kết quả nào có
+      sau khi đã thấy dữ liệu. Với một sự kiện chỉ xảy ra một lần, việc ghi lại này càng cần, vì
+      không ai lặp lại được nghiên cứu trên một sự kiện khác cùng loại.
+                                    4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   21
+
+
+
+4.3.6 Chỉ số khả năng đầu tư
+
+
+  TÓM TẮT MỤC
+
+ Khả năng đầu tư của một rổ là lợi suất tương đương chắc chắn sau chi phí: lợi suất trung
+ bình trừ một khoản phạt cho rủi ro. Với mỗi mô hình, khoảng cách khả năng đầu tư là lợi
+ suất tương đương chắc chắn của rổ HOSE đối sánh (rổ H) trừ của rổ cổ phiếu chuyển sàn
+ (rổ CS). Chỉ số khả năng đầu tư là bình quân khoảng cách của bảy mô hình. Đề tài tính
+ chỉ số cho 20 cửa sổ trước và 8 cửa sổ sau sự kiện, và hỏi xem khoảng cách có thu hẹp sau
+ khi chuyển sàn hay không.
+
+  Đề tài đo hiệu quả ngoài mẫu bằng lợi suất tương đương chắc chắn sau chi phí giao dịch,
+tức mức lợi suất phi rủi ro mà nhà đầu tư ngại rủi ro coi là ngang giá với danh mục. Tỷ số
+Sharpe chỉ là thước đo phụ, vì khi lợi suất vượt trội trung bình âm, thường gặp trong giai
+đoạn căng thẳng, danh mục biến động mạnh hơn lại có tỷ số Sharpe ít âm hơn.
+
+  V Í D Ụ S Ố M I N H H Ọ A : tỷ số Sharpe khi lợi suất âm
+
+ Hai danh mục cùng có lợi suất vượt trội trung bình −5% một năm. Danh mục A có độ
+ lệch chuẩn 10%, danh mục B có độ lệch chuẩn 25%. Tỷ số Sharpe của A là −5/10 = −0,5;
+ của B là −5/25 = −0,2. Theo tỷ số Sharpe, B “tốt hơn”, dù B lỗ như A mà rủi ro gấp hai
+ lần rưỡi. Lợi suất tương đương chắc chắn không mắc lỗi này: rủi ro cao hơn luôn bị trừ
+ nhiều hơn.
+
+   Công thức (4.2) dưới đây dùng ba ký hiệu. Với mỗi mô hình, mỗi rổ (rổ CS gồm cổ phiếu
+chuyển sàn, rổ H gồm cổ phiếu HOSE được ghép với rổ CS) và mỗi cửa sổ đánh giá, µ và σ2
+là trung bình và phương sai mẫu của lợi suất vượt trội tuần sau chi phí, nhân với 52 để quy
+năm; ρ là hệ số ngại rủi ro ấn định trước (giá trị cơ sở bằng 5, kiểm tra độ nhạy ở 3 và 10).
+   Đề tài dùng hai cấu hình chi phí. Cấu hình A dùng tỷ lệ cố định nhân với vòng quay danh
+mục. Cấu hình B dùng chi phí theo cổ phiếu và theo tháng, gồm phí giao dịch, thuế và một
+nửa chênh lệch mua-bán (giá chào đóng cửa nếu có, nếu không thì ước lượng theo Corwin &
+Schultz, 2012), nên đo thêm kênh chi phí giao dịch mà sàn tác động. Lợi suất tương đương
+chắc chắn là:
+            ρ
+     U = µ − σ2                                                                                     (4.2)
+            2
+  Khoảng cách khả năng đầu tư của mô hình m là chênh lệch giữa rổ H và rổ CS:
+
+      Gm = Um (H) − Um (CS)                                                                         (4.3)
+
+  Chỉ số khả năng đầu tư là khoảng cách bình quân theo bảy mô hình:
+
+             G1 + G2 + · · · + G7
+      Ḡ =                                                                                          (4.4)
+                     7
+  Chỉ số khả năng đầu tư Ḡ được tính cho từng cửa sổ đánh giá, bằng điểm phần trăm mỗi
+năm; giá trị dương nghĩa là nhà đầu tư đa dạng hóa đạt lợi suất tương đương chắc chắn thấp
+hơn với rổ CS so với rổ H. Đề tài báo cáo kèm độ phân tán của Gm giữa bảy mô hình.
+
+Đ Ọ C BA CÔ NG T H Ứ C B Ằ NG L Ờ I.   Công thức (4.2): lợi suất mà nhà đầu tư “cảm thấy”
+bằng lợi suất trung bình trừ đi một nửa hệ số ngại rủi ro nhân với phương sai. Nhà đầu tư
+22   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     càng ngại rủi ro (ρ lớn) hoặc danh mục càng biến động (σ2 lớn) thì khoản trừ càng lớn. Công
+     thức (4.3): với cùng một mô hình, rổ HOSE cho nhà đầu tư nhiều hơn rổ chuyển sàn bao
+     nhiêu. Công thức (4.4): lấy bình quân của bảy con số ấy.
+
+       VÍ DỤ SỐ MINH HỌA
+
+       Lấy mô hình M1 trong một cửa sổ đánh giá, với ρ = 5. Rổ H có µ = 12% và σ = 20%, tức
+       σ2 = 0,04:
+                               5
+             U1 (H) = 0,12 −     0,04 = 0,12 − 0,10 = 0,02 = 2,0%
+                               2
+       Rổ CS có µ = 11% và σ = 24%, tức σ2 = 0,0576:
+
+                                5
+             U1 (CS) = 0,11 −     0,0576 = 0,11 − 0,144 = −0,034 = −3,4%
+                                2
+       Khoảng cách của M1 là G1 = 2,0 − (−3,4) = 5,4 điểm phần trăm mỗi năm. Chênh lệch
+       lợi suất trung bình chỉ là 1 điểm phần trăm; phần lớn khoảng cách đến từ rủi ro cao hơn
+       của rổ CS.
+       Giả sử sáu mô hình còn lại cho G2 đến G7 lần lượt là 3,0; 7,1; 4,2; 4,8; 3,6 và 4,5. Khi đó
+                    5,4 + 3,0 + 7,1 + 4,2 + 4,8 + 3,6 + 4,5   32,6
+             Ḡ =                                           =      ≈ 4,66
+                                       7                       7
+
+       Nếu sau chuyển sàn Ḡ giảm, chẳng hạn xuống 2,5, thì khoảng cách đã thu hẹp khoảng
+       2,2 điểm phần trăm mỗi năm; đó là điều H4 kỳ vọng. Mọi con số ở đây là minh họa.
+
+
+     Lập rổ và cửa sổ
+
+     Rổ CS gồm tối đa 30 cổ phiếu chuyển sàn có giá trị giao dịch bình quân ba tháng lớn nhất tại
+     ngày tham chiếu 30/6/2025. Rổ H gồm, cho mỗi mã của rổ CS, cổ phiếu HOSE gần nhất về
+     vốn hóa, ngành và độ phi thanh khoản tại cùng ngày, ghép có hoàn lại. Thành phần hai rổ
+     được giữ nguyên để so sánh cùng các cổ phiếu quanh sự kiện. Cách làm này có hai nguồn
+     thiên lệch: thông tin tại ngày tham chiếu lỗi thời dần ở các cửa sổ xa, và giá trị giao dịch có
+     thể hồi quy về trung bình. Vì hai rổ được lập theo cùng quy tắc, cả hai nguồn thiên lệch này
+     tác động lên cả hai rổ.
+       “Ghép có hoàn lại” nghĩa là một cổ phiếu HOSE có thể được ghép với hai mã CS khác
+     nhau nếu nó là láng giềng gần nhất của cả hai. Cách này cho cặp ghép sát hơn, đổi lại rổ H có
+     thể có ít mã khác nhau hơn 30.
+       Mỗi mô hình được ước lượng trên cửa sổ 104 tuần và đánh giá trên cửa sổ 3 tháng không
+     chồng lấn (Hình 4.3): 20 cửa sổ từ quý 3/2020 đến quý 2/2025 và 8 cửa sổ từ quý 1/2027 đến
+     quý 4/2028. Khoảng cách của M1 , mô hình không cần ước lượng tham số, được báo cáo riêng
+     như phép so sánh sạch nhất.
+                                       4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T    23
+
+
+
+               ô mảnh: cửa sổ ước lượng; ô đậm: cửa sổ đánh giá
+
+                   Cửa sổ 1: ước lượng 104 tuần      3 tháng
+
+                            Cửa sổ 2: ước lượng 104 tuần       3 tháng
+
+                                     Cửa sổ 3: ước lượng 104 tuần        3 tháng
+
+                                                                                     thời gian
+
+       Hình 4.3: Cửa sổ ước lượng, cửa sổ đánh giá và cách tính khoảng cách khả năng đầu tư
+Nguồn: Thí sinh đề xuất. Ghi chú: ở mỗi cửa sổ đánh giá, đề tài tính lợi suất tương đương chắc chắn của bảy mô
+hình trên rổ CS và rổ H, rồi tính khoảng cách Gm .
+
+
+  Hình 4.3 vẽ giản lược mỗi cửa sổ đánh giá với một cửa sổ ước lượng; trên thực tế, trong
+mỗi cửa sổ đánh giá, trọng số vẫn được ước lượng lại hằng tháng trên cửa sổ trượt 104 tuần
+(Bảng 4.3). Các cửa sổ đánh giá nối tiếp nhau không chồng lên nhau. Vì vậy mỗi tháng của
+giai đoạn đánh giá chỉ được dùng một lần để chấm điểm các mô hình.
+
+  CHỖ DỄ HIỂU NHẦM
+
+  Dễ nghĩ là cửa sổ đánh giá đầu tiên sau sự kiện (quý 1/2027) đo hoàn toàn tình trạng sau
+  chuyển sàn. Nhưng cửa sổ ước lượng của nó kéo dài 104 tuần về trước, tức gần như toàn
+  bộ nằm trước ngày 28/12/2026. Các mô hình phải ước lượng tham số vì vậy vẫn dùng dữ
+  liệu của HNX để chọn trọng số cho giai đoạn ở HOSE. M1 không dùng dữ liệu quá khứ
+  để chọn trọng số, nên khoảng cách của M1 phản ánh tình trạng sau sự kiện sạch nhất.
+
+  Vì số cửa sổ ít và lợi suất tương đương chắc chắn có phương sai lớn, H4 được báo cáo ở
+dạng ước lượng, kèm hiệu ứng nhỏ nhất phát hiện được tính trên dữ liệu tham chiếu.
+
+4.3.7 Kiểm định giả thuyết
+
+
+  TÓM TẮT MỤC
+
+  H3 được kiểm định bằng khác biệt kép: so thay đổi thanh khoản của cổ phiếu chuyển
+  sàn với thay đổi của cổ phiếu đối chứng. Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy
+  luận không dựa vào sai số chuẩn thông thường mà dựa vào bootstrap tự hồi quy trên
+  chuỗi chênh lệch theo tháng. Phiên bản nghiên cứu sự kiện kiểm tra xu hướng song song.
+  Các tương tác cho biết tác động khác nhau thế nào theo mức cổ phiếu chịu ba thay đổi
+  quy tắc (biên độ, bước giá, việc vào chỉ số HOSE) và theo trụ sở doanh nghiệp. H4 được
+  báo cáo bằng ước lượng; H1 được kiểm định trên dữ liệu bảng quốc tế.
+
+
+Phương trình khác biệt kép
+
+Đề tài ước lượng tác động của việc chuyển sàn bằng khác biệt kép trên dữ liệu bảng cổ
+phiếu-tháng (H3 ). Với cổ phiếu i và tháng t, phương trình khác biệt kép là:
+
+      Ait = αi + τt + δDi Postt + ε it                                                                  (4.5)
+
+trong đó Ait là logarit của độ phi thanh khoản Amihud của cổ phiếu i trong tháng t, tính
+trên các ngày có lợi suất tuyệt đối dưới ngưỡng chung và không liền sau một ngày có lợi suất
+tuyệt đối từ ngưỡng này trở lên (mục 4.3.2); Di bằng 1 nếu cổ phiếu chuyển sàn, tức mọi cổ
+24   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     phiếu niêm yết tại HNX được chuyển sang HOSE theo lịch của VNX, không chỉ các mã của
+     rổ CS; Postt bằng 1 từ tháng 1/2027; αi và τt là hiệu ứng cố định theo cổ phiếu và theo tháng;
+     δ là tác động của việc chuyển sàn; ε it là sai số.
+
+     Đ Ọ C C Ô N G T H Ứ C (4.5) B Ằ N G L Ờ I .  Thanh khoản của một cổ phiếu trong một tháng
+     gồm bốn phần: một mức riêng của cổ phiếu ấy, không đổi theo thời gian (αi ); một cú sốc
+     chung của tháng ấy, tác động lên mọi cổ phiếu (τt ); phần thay đổi thêm chỉ có ở cổ phiếu
+     chuyển sàn sau ngày chuyển (δ, vì tích Di Postt chỉ bằng 1 khi cả hai điều kiện cùng đúng); và
+     phần còn lại không giải thích được (ε it ). Tác động của việc chuyển sàn là δ.
+       Vì Ait là logarit, khi δ nhỏ thì 100δ xấp xỉ phần trăm thay đổi; chính xác hơn, độ phi thanh
+     khoản thay đổi (eδ − 1) nhân 100 phần trăm. H3 kỳ vọng δ âm, tức cổ phiếu chuyển sàn dễ
+     mua bán hơn.
+
+       V Í D Ụ S Ố M I N H H Ọ A : khác biệt kép trên bốn con số
+
+      Giả sử bình quân logarit Amihud như sau:
+
+                                              Trước sự kiện   Sau sự kiện   Thay đổi
+
+                    Cổ phiếu chuyển sàn            1,80            1,40      −0,40
+                    Cổ phiếu đối chứng             1,20            1,05      −0,15
+                    Khác biệt kép                                            −0,25
+
+      Cổ phiếu chuyển sàn dễ mua bán hơn (−0,40), nhưng cổ phiếu đối chứng cũng dễ mua
+      bán hơn (−0,15), có lẽ vì cả thị trường tốt lên. Phần chỉ do chuyển sàn là −0,40 − (−0,15) =
+      −0,25. Quy ra phần trăm: e−0,25 − 1 ≈ −0,22, tức độ phi thanh khoản giảm khoảng
+      22%. Nếu chỉ so trước và sau ở nhóm chuyển sàn, ta sẽ nói nhầm là giảm khoảng 33%
+      (e−0,40 − 1).
+
+       V Ì S AO C H Ọ N C ÁC H N ÀY
+
+      Vì sao dùng khác biệt kép. Có hai cách đơn giản hơn, và cả hai đều sai theo một cách dễ
+      thấy. So cổ phiếu chuyển sàn trước và sau sự kiện thì lẫn tác động của sàn với mọi thay
+      đổi chung của thị trường trong cùng thời gian (lãi suất, dòng vốn ngoại, nâng hạng). So
+      cổ phiếu chuyển sàn với cổ phiếu HOSE sau sự kiện thì lẫn tác động của sàn với mọi khác
+      biệt sẵn có giữa hai nhóm doanh nghiệp. Khác biệt kép trừ đi cả hai: hiệu ứng cố định
+      theo cổ phiếu loại khác biệt sẵn có, hiệu ứng cố định theo tháng loại thay đổi chung. Cái
+      giá phải trả là giả định xu hướng song song (mục 4.3.8).
+
+         Phương trình (4.5) được ước lượng trên giai đoạn tham chiếu (đến tháng 6/2025) và giai
+     đoạn sau sự kiện (từ tháng 1/2027); các tháng từ 7/2025 đến 12/2026, gồm tháng chuyển
+     sàn, chỉ được đưa vào phương trình (4.6). Vì giai đoạn tham chiếu dài 16 năm, cửa sổ trước
+     của ước lượng chính bắt đầu sau điểm gãy cấu trúc cuối cùng (Bai & Perron, 1998) của chuỗi
+     chênh lệch logarit Amihud theo tháng giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng (chuỗi
+     dt , định nghĩa đầy đủ ở phần suy luận bên dưới), và ước lượng với cửa sổ trước 24 tháng
+     (7/2023–6/2025) được báo cáo kèm.
+         Lý do chọn cửa sổ trước theo điểm gãy cấu trúc là thị trường năm 2010 khác xa thị trường
+     năm 2024. Nếu chênh lệch giữa hai nhóm đã đổi mức ở một thời điểm trong quá khứ, chẳng
+     hạn khi quy chế giao dịch thay đổi, thì dùng toàn bộ 16 năm làm “trước sự kiện” sẽ trộn hai
+                                  4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   25
+
+
+
+chế độ khác nhau. Bắt đầu từ sau điểm gãy cuối cùng giúp cửa sổ trước chủ yếu gồm giai
+đoạn có cùng chế độ với thời điểm ngay trước sự kiện; vì ngày gãy được ước lượng có sai số,
+ước lượng với cửa sổ trước 24 tháng được báo cáo kèm.
+
+Nhóm đối chứng
+
+Nhóm đối chứng chính gồm cổ phiếu HOSE ghép láng giềng gần nhất theo vốn hóa, ngành
+và độ phi thanh khoản tại ngày 30/6/2025, có hoàn lại, trong vùng hỗ trợ chung. Vì ghép
+theo độ phi thanh khoản có thể tạo hồi quy về trung bình, kết quả khi chỉ ghép theo vốn hóa
+và ngành được báo cáo thêm (Daw & Hatfield, 2018). Nhóm đối chứng phụ gồm cổ phiếu
+UPCoM trong thời gian thị trường này còn do HNX vận hành.
+  “Vùng hỗ trợ chung” nghĩa là chỉ giữ những cổ phiếu chuyển sàn tìm được cổ phiếu HOSE
+đủ giống; mã chuyển sàn quá nhỏ hay quá kém thanh khoản, không có cặp tương xứng ở
+HOSE, bị loại khỏi phép so sánh chính.
+
+  CHỖ DỄ HIỂU NHẦM
+
+  Dễ nghĩ là ghép càng nhiều tiêu chí thì càng tốt, kể cả ghép theo chính thước đo kết quả.
+  Nhưng nếu một cổ phiếu HOSE được chọn vì tháng 6/2025 nó có độ phi thanh khoản
+  cao bất thường, thì các tháng sau nó có xu hướng trở về mức bình thường của nó, tức
+  thanh khoản “tốt lên”. Nhóm đối chứng tốt lên do quy luật thống kê này làm δ bị kéo về
+  0. Daw và Hatfield (2018) cảnh báo đúng hiện tượng này; đề tài vì vậy báo cáo thêm kết
+  quả khi không ghép theo độ phi thanh khoản.
+
+
+Suy luận khi chỉ có một sự kiện
+
+Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận chính dựa trên chuỗi dt , là chênh lệch
+trung bình logarit Amihud giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng ghép cặp trong
+tháng t. Thống kê kiểm định là trung bình của dt sau sự kiện trừ trung bình trong cửa sổ
+trước. Giá trị p chính được tính bằng bootstrap tự hồi quy trên dt , với mô hình tự hồi quy ước
+lượng trên giai đoạn tham chiếu, hệ số được hiệu chỉnh độ chệch, và kích thước kiểm định
+(xác suất bác bỏ giả thuyết gốc khi thực ra không có tác động) được kiểm tra bằng mô phỏng
+trước ngày đăng ký.
+26   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+      V Ì S AO C H Ọ N C ÁC H N ÀY
+
+      Vì sao không dùng sai số chuẩn phân cụm theo cổ phiếu. Sai số chuẩn phân cụm theo cổ phiếu
+      giả định rằng các cổ phiếu là những quan sát độc lập. Nhưng ở đây, mọi cổ phiếu chuyển
+      sàn cùng chịu một sự kiện vào cùng một ngày. Cú sốc tác động như nhau lên mọi cổ
+      phiếu đã được hiệu ứng cố định theo tháng τt hấp thụ; vấn đề là những cú sốc theo tháng
+      tác động lên cả nhóm chuyển sàn khác với nhóm đối chứng (một tin chỉ liên quan đến
+      các mã HNX, một đợt bán tháo dồn vào mã nhỏ), làm sai số của các mã chuyển sàn tương
+      quan với nhau trong cùng tháng. Có hàng trăm cổ phiếu nhưng về bản chất chỉ có một
+      lần chuyển sàn. Nếu coi 299 mã là 299 thí nghiệm, sai số chuẩn sẽ nhỏ đến mức gần như
+      mọi khác biệt đều “có ý nghĩa”. Conley và Taber (2011) chỉ ra vấn đề này cho khác biệt
+      kép với ít lần thay đổi chính sách.
+      Cách làm của đề tài là gộp toàn bộ thông tin thành một chuỗi theo tháng, dt , rồi hỏi: nếu
+      không có sự kiện, chuỗi này tự dao động lớn đến đâu? Mô hình tự hồi quy mô tả cách dt
+      dao động trong giai đoạn tham chiếu, kể cả việc tháng này giống tháng trước. Bootstrap
+      tạo ra hàng nghìn chuỗi giả theo đúng quy luật ấy, tính thống kê kiểm định trên mỗi
+      chuỗi, và giá trị p là tỷ lệ chuỗi giả cho thống kê âm hơn thống kê thật.
+
+      V Í D Ụ S Ố M I N H H Ọ A : bootstrap tự hồi quy trong năm bước
+
+         1. Tính dt cho mọi tháng của cửa sổ trước và cửa sổ sau.
+
+         2. Trên giai đoạn tham chiếu, ước lượng mô hình tự hồi quy, ở đây minh họa bằng bậc
+            một: dt = c + ϕdt−1 + ut ; giả sử được ϕ = 0,6 sau khi hiệu chỉnh độ chệch, và giữ
+            lại các phần dư ut đã trừ trung bình.
+
+         3. Tạo một chuỗi giả theo đúng mô hình đã ước lượng, d∗t = c + ϕd∗t−1 + u∗t , với u∗t rút
+            ngẫu nhiên có hoàn lại từ các phần dư, bắt đầu từ một giá trị ban đầu và bỏ một
+            đoạn khởi động. Chuỗi giả trải liên tục qua cửa sổ trước, 18 tháng chuyển tiếp và
+            cửa sổ sau; các tháng chuyển tiếp không vào thống kê nhưng được giữ để tự tương
+            quan giữa hai cửa sổ được tính đúng. Chuỗi giả này “không có sự kiện”.
+
+         4. Trên chuỗi giả, tính trung bình sau trừ trung bình trước.
+
+         5. Lặp lại bước 3–4 chẳng hạn 9.999 lần. Nếu thống kê thật là −0,25 và chỉ 120 trong
+            9.999 chuỗi giả cho giá trị từ −0,25 trở xuống, thì giá trị p một phía xấp xỉ 0,012.
+
+      Số lần lặp và các con số trong ví dụ là minh họa; thủ tục cụ thể được ghi trong tệp đăng
+      ký.
+
+        Suy luận trên các ngày sự kiện giả trong giai đoạn tham chiếu, theo tinh thần của Conley
+     và Taber (2011), chỉ là kiểm tra bổ sung: các cửa sổ giả chồng lấn nhau, chỉ tạo khoảng sáu
+     cửa sổ độc lập, và mô phỏng sơ bộ của thí sinh cho thấy kiểm định này bác bỏ giả thuyết gốc
+     với tần suất cao hơn đáng kể so với mức danh nghĩa. H3 được ủng hộ khi δ âm và giá trị p
+     bootstrap tự hồi quy nhỏ hơn ngưỡng Holm tương ứng.
+        Ý tưởng của ngày sự kiện giả là giả vờ sự kiện xảy ra ở một tháng nào đó trong quá khứ,
+     tính lại thống kê, và xem thống kê thật có cực đoan hơn phần lớn các thống kê giả không.
+     Vấn đề là với cửa sổ sau dài 24 tháng, các ngày giả cách nhau vài tháng cho các cửa sổ gần
+     như trùng nhau; số phép so sánh thật sự độc lập ít hơn nhiều so với số ngày giả, nên kiểm
+     định này dễ bác bỏ sai.
+                                    4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   27
+
+
+
+Phiên bản nghiên cứu sự kiện
+
+Phiên bản nghiên cứu sự kiện kiểm tra xu hướng song song và phản ứng trong giai đoạn
+chuyển tiếp:
+
+      Ait = αi + τt + ∑ δk Di Tkt + ε it                                                            (4.6)
+                        k
+
+trong đó Tkt bằng 1 nếu tháng t là tháng k, với k chạy từ tháng 1/2024 đến tháng 12/2028 và
+bỏ tháng 6/2025 làm tháng gốc; các tháng trước 1/2024 được gộp thành một nhóm. Các hệ
+số δk trong giai đoạn chuyển tiếp cho biết phản ứng trước sự kiện. Đề tài kiểm định đồng
+thời giả thuyết các hệ số δk từ tháng 1/2024 đến tháng 5/2025 bằng 0. Độ nhạy của kết luận
+trước các vi phạm xu hướng song song được đánh giá theo Rambachan và Roth (2023). Vì
+giữa tháng gốc và giai đoạn sau có 18 tháng chuyển tiếp, khoảng tin cậy theo cách này có thể
+rất rộng.
+
+Đ Ọ C C Ô N G T H Ứ C (4.6) B Ằ N G L Ờ I . Thay vì một hệ số δ duy nhất cho toàn bộ giai đoạn
+sau, mỗi tháng có một hệ số riêng δk , đo chênh lệch giữa cổ phiếu chuyển sàn và đối chứng
+trong tháng k so với tháng gốc 6/2025. Vẽ các δk theo thời gian sẽ cho một đồ thị: trước 7/2025
+các điểm nên nằm quanh 0 (xu hướng song song), trong giai đoạn chuyển tiếp có thể bắt đầu
+lệch (phản ứng sớm), sau 1/2027 cho thấy tác động diễn biến ra sao (tăng dần, ổn định hay
+mờ đi như ở Tokyo).
+
+  VÍ DỤ SỐ MINH HỌA
+
+ Giả sử các δk từ 1/2024 đến 5/2025 dao động trong khoảng −0,03 đến 0,04 và kiểm định
+ đồng thời không bác bỏ giả thuyết chúng bằng 0: đây là dấu hiệu ủng hộ xu hướng song
+ song. Nếu ngược lại, các δk giảm đều từ 0 xuống −0,15 trong cùng giai đoạn, thì nhóm
+ chuyển sàn đã có xu hướng tốt lên riêng từ trước, và một phần δ ước lượng được sẽ không
+ phải do chuyển sàn. Phương pháp của Rambachan và Roth (2023) cho biết kết luận còn
+ đứng vững không nếu xu hướng riêng ấy kéo dài sang giai đoạn sau với độ lớn tương tự.
+
+
+Tác động khác nhau theo mức chịu cú sốc
+
+Việc chuyển sàn đổi nhiều quy tắc cùng lúc, trong đó ba quy tắc tác động mạnh yếu khác
+nhau tùy cổ phiếu: biên độ hẹp lại chỉ ràng buộc mã thường có lợi suất ngày lớn; bước giá
+nhỏ đi chủ yếu ở mã giá thấp; việc vào VN-Index và các chỉ số khác của HOSE tạo áp lực cầu
+lớn hơn ở mã có vốn hóa lớn so với giá trị giao dịch (mục 4.3.8).
+  Ba mức chịu cú sốc tương ứng được đo bằng dữ liệu đến ngày 30/6/2025: tỷ lệ ngày có lợi
+suất tuyệt đối từ 7% đến dưới 10%; nghịch đảo của giá đóng cửa bình quân; và tỷ số giữa vốn
+hóa toàn phần và giá trị giao dịch bình quân ngày, vì VN-Index tính trọng số theo vốn hóa
+toàn phần, không điều chỉnh tỷ lệ tự do chuyển nhượng (Sở Giao dịch Chứng khoán Thành
+phố Hồ Chí Minh, 2026).
+
+
+             Bảng 4.4: Ba thay đổi quy tắc khi chuyển sàn và thước đo mức chịu cú sốc
+28   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     Cú sốc               Cổ phiếu chịu mạnh nhất                 Thước đo mức chịu cú sốc
+
+     Biên độ hẹp lại      Mã thường có ngày tăng giảm 7–10%       Tỷ lệ ngày có lợi suất tuyệt đối từ 7%
+                                                                  đến dưới 10%
+     Bước giá nhỏ đi      Mã giá thấp                             Nghịch đảo giá đóng cửa bình quân
+     Vào chỉ số HOSE      Mã vốn hóa lớn so với giá trị giao dịch Vốn hóa toàn phần chia giá trị giao
+                                                                  dịch bình quân ngày
+
+        Bộ quy tắc của FTSE Russell coi cả HOSE và HNX là sàn đủ điều kiện ở Việt Nam (FTSE
+     Russell, 2026a), nên việc đổi sàn tự nó không làm một mã mất hay có thêm tư cách đủ điều
+     kiện và không được coi là một kênh tác động qua chỉ số FTSE. Danh sách cổ phiếu đủ điều
+     kiện, lập với dữ liệu đến ngày 30/6/2026, chỉ gồm mã niêm yết tại HOSE (FTSE Russell,
+     2026b) và được dùng để loại mã khỏi nhóm đối chứng; nếu mã chuyển sàn nào được đưa vào
+     chỉ số ở các kỳ sau, δ được ước lượng thêm khi loại các mã này.
+        Phương trình (4.5) được mở rộng bằng các số hạng Di Postt Esi , trong đó Esi là mức chịu cú
+     sốc s của cổ phiếu i, trừ trung bình và chia cho độ lệch chuẩn giữa các mã chuyển sàn, nên δ
+     là tác động tại mức chịu cú sốc trung bình. Các số hạng Esi τt cho mỗi mức chịu cú sốc một
+     hiệu ứng theo tháng riêng, ước lượng trên mã đối chứng đo được cùng thước đo: mã UPCoM
+     với biên độ, mã HOSE với bước giá và chỉ số. Nếu cổ phiếu UPCoM chuyển sang HOSE trước
+     hoặc trong cửa sổ sau (mục 4.3.10), mức chịu cú sốc biên độ của mọi mã được đo bằng tỷ lệ
+     ngày có lợi suất tuyệt đối từ ngưỡng chung trở lên và hiệu ứng theo tháng tương ứng được
+     ước lượng trên mã HOSE đối chứng; thước đo này chỉ đại diện gần đúng cho mức chịu ràng
+     buộc của biên độ.
+
+       V Í D Ụ S Ố M I N H H Ọ A : đọc hệ số tương tác
+
+       Giả sử δ = −0,20 và hệ số của Di Postt Esi với cú sốc bước giá là −0,08. Vì Esi đã được chuẩn
+       hóa, một mã có mức chịu cú sốc bước giá ở đúng trung bình có tác động −0,20; một mã
+       cao hơn trung bình một độ lệch chuẩn (giá thấp hơn) có tác động −0,20 − 0,08 = −0,28;
+       một mã thấp hơn trung bình một độ lệch chuẩn có tác động −0,12. Kết quả như vậy gợi ý
+       bước giá nhỏ đi là một kênh, nhưng như đoạn dưới giải thích, không tách được riêng tác
+       động của bước giá.
+
+       Giả định nhận dạng là: nếu không chuyển sàn, chênh lệch thanh khoản giữa mã chịu cú
+     sốc mạnh và mã chịu cú sốc yếu trong nhóm chuyển sàn sẽ biến động như ở nhóm đối chứng;
+     giả định này được kiểm tra bằng các hệ số trước sự kiện. Vì các mức chịu cú sốc có thể tương
+     quan với nhau và với quy mô, hệ số tương tác không đo riêng tác động của từng quy tắc; mô
+     hình có thêm tương tác với quy mô và với logarit Amihud ban đầu.
+       Mỗi hệ số tương tác được suy luận như δ, vì sai số chuẩn phân cụm theo cổ phiếu bác bỏ
+     quá thường xuyên khi cú sốc chung theo tháng tác động mạnh hơn lên mã chịu cú sốc mạnh:
+     với từng tháng, đề tài lấy hệ số góc của logarit Amihud theo mức chịu cú sốc ở mã chuyển
+     sàn trừ hệ số góc ở mã đối chứng, rồi áp dụng bootstrap tự hồi quy cho chuỗi này. Các hệ số
+     tương tác, kể cả theo trụ sở, là phân tích phụ đăng ký trước, không đưa vào thủ tục Holm.
+
+     Tác động khác nhau theo trụ sở doanh nghiệp
+
+     Phân tích theo trụ sở kiểm tra xem việc chuyển sàn có tác động khác nhau đến doanh nghiệp
+     có trụ sở tại Hà Nội và doanh nghiệp ở nơi khác hay không. Tài liệu cho thấy nhà quản lý
+     quỹ ưa nắm giữ cổ phiếu của doanh nghiệp có trụ sở gần mình (Coval & Moskowitz, 1999)
+                                   4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   29
+
+
+
+và thanh khoản của cổ phiếu phụ thuộc vào vị trí trụ sở (Loughran & Schultz, 2005), nhưng
+hai bài này nói về khoảng cách giữa nhà đầu tư và doanh nghiệp, không nói về vị trí của sàn.
+Kênh mà đề tài kiểm tra là sự chú ý và thông tin gắn với nơi đặt sàn: nếu kênh này có thật, cổ
+phiếu của doanh nghiệp có trụ sở tại Hà Nội được lợi ít hơn khi chuyển sang HOSE.
+  Chênh lệch này được ước lượng bằng tương tác giữa Di Postt và biến giả trụ sở tại Hà Nội,
+xác định theo địa chỉ đăng ký tại ngày 30/6/2025, kèm tích của biến giả này với hiệu ứng cố
+định theo tháng (ước lượng trên các mã HOSE đối chứng có trụ sở tại Hà Nội) và tương tác
+với quy mô và ngành.
+  Chênh lệch theo trụ sở là ước lượng khác biệt của tác động trong cùng một thiết kế, không
+phải tác động nhân quả của vị trí trụ sở, và không đo lượng thanh khoản mà thị trường vốn
+Hà Nội mất, vì mọi mã đều chuyển sang HOSE. Khoảng tin cậy hẹp quanh 0 sẽ không ủng
+hộ vai trò của vị trí sàn khi giao dịch đã điện tử hóa toàn quốc.
+  Kết quả này có ý nghĩa trực tiếp cho câu hỏi chính sách. Nếu khoảng tin cậy của chênh lệch
+theo trụ sở hẹp quanh 0, kết quả không ủng hộ vai trò của vị trí sàn đối với thanh khoản của
+các mã chuyển sàn; nếu khoảng tin cậy rộng, kết quả chưa đủ cơ sở kết luận. Trong cả hai
+trường hợp, chênh lệch này không đo lượng thanh khoản mà thị trường vốn Hà Nội mất.
+Nếu doanh nghiệp Hà Nội được lợi ít hơn rõ rệt, thì có một kênh địa phương đáng để thành
+phố quan tâm.
+
+Báo cáo H4
+
+H4 được báo cáo bằng chênh lệch của chỉ số khả năng đầu tư bình quân giữa giai đoạn sau
+sự kiện và giai đoạn tham chiếu, kèm khoảng tin cậy bootstrap khối dừng trên chuỗi lợi suất
+tuần của hai rổ, được lấy mẫu lại đồng thời, và số mô hình có cùng dấu. Chênh lệch tỷ số
+Sharpe, một thước đo phụ, được kiểm định theo Ledoit và Wolf (2008).
+  “Lấy mẫu lại đồng thời” nghĩa là mỗi lần bootstrap rút cùng các tuần cho cả rổ H và rổ CS.
+Hai rổ chịu chung cú sốc thị trường trong cùng tuần; rút riêng sẽ làm mất mối tương quan
+này và làm khoảng tin cậy của khoảng cách rộng hơn thực tế. “Số mô hình có cùng dấu” là
+một thước đo đơn giản về độ đồng thuận: nếu cả bảy mô hình đều cho khoảng cách thu hẹp,
+kết luận đáng tin hơn so với khi bốn mô hình thu hẹp còn ba mô hình nới rộng, dù bình quân
+có thể như nhau.
+
+Kiểm định H1
+
+Đề tài kiểm định H1 trên dữ liệu bảng của các trung tâm tài chính, dựa trên cách tiếp cận dữ
+liệu bảng của Naeem (2023), nhưng dùng điểm GFCI chuẩn hóa theo kỳ thay cho thứ hạng.
+Với trung tâm i và kỳ công bố t, phương trình ước lượng là:
+
+      Zit = αi + τt + βSMDit + λWit + ε it                                                         (4.7)
+
+trong đó Zit là điểm GFCI của trung tâm i ở kỳ t, chuẩn hóa thành điểm z trong từng kỳ vì
+điểm GFCI được ước lượng lại mỗi kỳ và số trung tâm thay đổi giữa các kỳ. SMDit là chỉ báo
+phát triển thị trường cổ phiếu, gộp từ tỷ lệ vòng quay và vốn hóa trên GDP (Čihák và cộng
+sự, 2012), còn Wit gồm thu nhập bình quân đầu người và chỉ số quản trị nhà nước (Kaufmann
+và cộng sự, 2011); cả hai được đo ở quốc gia chứa trung tâm i, trong năm liền trước kỳ t. λ là
+véc-tơ hệ số của Wit ; αi và τt là hiệu ứng cố định theo trung tâm và theo kỳ; ε it là sai số. Nếu
+Cơ sở dữ liệu Phát triển Tài chính Toàn cầu không phủ các năm sau 2021, đề tài dùng số liệu
+của Liên đoàn các Sở Giao dịch Thế giới, sau khi kiểm tra độ phủ và điều khoản sử dụng.
+30   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     Đ Ọ C C Ô N G T H Ứ C (4.7) B Ằ N G L Ờ I .
+                                             Điểm GFCI chuẩn hóa của một trung tâm trong một
+     kỳ gồm: mức riêng của trung tâm ấy (αi ), mức chung của kỳ ấy (τt ), phần liên hệ với mức
+     phát triển thị trường cổ phiếu của quốc gia (β), phần liên hệ với thu nhập và thể chế (λ), và
+     phần còn lại. H1 hỏi xem β có dương không.
+
+       V Ì S AO C H Ọ N C ÁC H N ÀY
+
+       Vì sao dùng điểm chuẩn hóa thay cho thứ hạng. Thứ hạng chỉ cho biết thứ tự: khoảng cách
+       giữa hạng 1 và hạng 2 có thể rất lớn, còn giữa hạng 60 và 61 có thể gần bằng 0, nhưng
+       thứ hạng coi chúng như nhau. Thứ hạng cũng thay đổi khi có trung tâm mới vào bảng,
+       như Đà Nẵng ở kỳ 40, dù các trung tâm cũ không đổi gì. Điểm z theo từng kỳ giữ được
+       khoảng cách và đưa các kỳ về cùng thang đo, nhưng vẫn phụ thuộc vào thành phần của
+       bảng: khi có trung tâm vào hoặc ra, trung bình và độ lệch chuẩn của kỳ thay đổi theo. Vì
+       vậy đề tài kiểm tra độ vững trên mẫu các trung tâm có ít nhất năm kỳ và trên mẫu cân
+       bằng (mục 4.3.10).
+
+       VÍ DỤ SỐ MINH HỌA
+
+       Giả sử ước lượng được β = 0,3, và SMD được biểu diễn theo đơn vị độ lệch chuẩn (cách
+       biểu diễn cụ thể sẽ được chốt trong tệp đăng ký). Khi đó, ở đặc tả có hiệu ứng cố định
+       theo trung tâm, khi SMD của quốc gia chứa một trung tâm cao hơn mức thường lệ của
+       chính quốc gia ấy một độ lệch chuẩn, điểm z GFCI của trung tâm ấy cao hơn mức thường
+       lệ của nó khoảng 0,3, khi thu nhập và thể chế không đổi; chỉ ở đặc tả không có hiệu ứng
+       cố định theo trung tâm, hệ số mới được đọc như so sánh giữa các trung tâm cùng kỳ. Đây
+       là liên hệ có điều kiện, không phải tác động: không nói được rằng phát triển thị trường
+       cổ phiếu làm điểm GFCI tăng.
+
+        Sai số chuẩn được phân cụm theo quốc gia. Vì mô hình có hiệu ứng cố định theo trung
+     tâm, β được xác định từ biến thiên theo thời gian trong từng quốc gia, và biến thiên này nhỏ
+     vì SMD thay đổi chậm; đề tài báo cáo thêm ước lượng không có hiệu ứng cố định theo trung
+     tâm. Điểm GFCI đã chứa vốn hóa, giá trị và khối lượng giao dịch cổ phiếu từ Liên đoàn các
+     Sở Giao dịch Thế giới (3 trong 144 nhân tố của kỳ GFCI 40; Wardle & Mainelli, 2026), và trung
+     tâm mạnh có thể kéo theo giao dịch cổ phiếu, nên β được gọi là liên hệ có điều kiện. H1 được
+     ủng hộ khi β dương với giá trị p nhỏ hơn ngưỡng Holm tương ứng.
+
+       CHỖ DỄ HIỂU NHẦM
+
+       Dễ nghĩ là hiệu ứng cố định theo trung tâm luôn làm ước lượng tốt hơn. Nó loại được mọi
+       đặc điểm không đổi của trung tâm (vị trí, ngôn ngữ, lịch sử), nhưng cái giá là β chỉ còn
+       dựa vào phần biến thiên nhỏ của SMD nêu ở đoạn trên. Vì vậy hai đặc tả được đọc cùng
+       nhau.
+                                  4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   31
+
+
+
+4.3.8 Thiết kế khác biệt kép quanh ngày chuyển sàn
+
+
+  TÓM TẮT MỤC
+
+  Khác biệt kép chỉ đúng khi ba giả định đúng: nếu không có sự kiện thì hai nhóm đi song
+  song; nhóm đối chứng không bị sự kiện tác động; và việc cổ phiếu rời mẫu không liên
+  quan đến sự kiện. Mục này nói cách kiểm tra từng giả định, nhất là các thay đổi trùng
+  thời gian ở HOSE (FTSE Russell, phân bảng, VN-Index) và khả năng thanh khoản lan
+  giữa hai nhóm.
+
+  Đề tài kiểm tra ba giả định của thiết kế khác biệt kép. Thứ nhất là xu hướng song song,
+được kiểm tra bằng các hệ số trước sự kiện của phương trình (4.6).
+  Thứ hai, nhóm đối chứng không chịu tác động của sự kiện. Nhóm đối chứng HOSE chịu
+ba thay đổi trùng thời gian: FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số theo bốn đợt từ
+tháng 9/2026 đến tháng 9/2027 (FTSE Russell, 2026b); HOSE dự kiến công bố phân loại cổ
+phiếu vào Bảng Chính và Bảng Tiêu chuẩn lần đầu ngày 28/12/2026, theo dự thảo quy chế
+đang lấy ý kiến (Tuổi Trẻ Online, 2026a); và VN-Index, vốn tự động cập nhật danh mục sau
+ngày giao dịch đầu tiên của cổ phiếu niêm yết mới (Sở Giao dịch Chứng khoán Thành phố
+Hồ Chí Minh, 2026), nhiều khả năng nhận các mã chuyển sàn từ phiên thứ hai trên HOSE.
+Ngày vào chỉ số thực tế của từng mã và quy chế phân bảng chính thức, khi được ban hành,
+được ghi lại từ công bố của HOSE và đưa vào ước lượng.
+  Vì vậy, nhóm đối chứng HOSE loại các mã thuộc danh sách đủ điều kiện của FTSE Russell,
+δ được ước lượng thêm với biến giả nhóm bảng phân loại, và thanh khoản của từng nhóm
+đối chứng được so với xu hướng trước của chính nhóm đó.
+
+
+                     Bảng 4.5: Thay đổi trùng thời gian ở HOSE và cách xử lý
+
+Thay đổi trùng thời gian   Có thể ảnh hưởng                       Cách xử lý
+
+FTSE Russell đưa cổ phiếu Thanh khoản các mã HOSE đủ              Loại các mã đủ điều kiện khỏi
+Việt Nam vào chỉ số (bốn  điều kiện tăng                          nhóm đối chứng; nếu mã chuyển
+đợt, 9/2026–9/2027)                                               sàn được đưa vào, ước lượng thêm
+                                                                  khi loại các mã này
+Phân loại Bảng Chính và    Hai nhóm bảng có thể được nhà          Ước lượng thêm với biến giả nhóm
+Bảng Tiêu chuẩn (dự kiến   đầu tư đối xử khác nhau                bảng
+28/12/2026)
+VN-Index nhận mã chuyển Áp lực cầu lên mã chuyển sàn,             Đo bằng mức chịu cú sốc chỉ số
+sàn                     nhất là mã có vốn hóa lớn so với          (mục 4.3.7)
+                        giá trị giao dịch
+Nới biên độ, giao dịch     Mọi mã HOSE                            Ghi ngày áp dụng; báo cáo thêm
+xuyên trưa (đang nghiên                                           ước lượng với cửa sổ sau cắt tại
+cứu)                                                              ngày đó
+
+   Ủy ban Chứng khoán Nhà nước cũng đang nghiên cứu nới biên độ và giao dịch xuyên
+trưa (Thời báo Tài chính Việt Nam, 2026). Nếu các thay đổi này được áp dụng trong cửa sổ
+sau, ngày áp dụng được ghi là một cú sốc trùng thời gian và ước lượng được báo cáo thêm
+với cửa sổ sau cắt tại ngày đó.
+   Nếu nhóm đối chứng HOSE mất thanh khoản do dòng lệnh chuyển sang cổ phiếu chuyển
+sàn, δ phóng đại tác động, và ước lượng với nhóm đối chứng UPCoM, nếu nhóm này còn dữ
+liệu sau sự kiện, là một cận khác. Ngược lại, nếu thanh khoản lan tỏa dương sang nhóm đối
+32   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+     chứng HOSE, như đã ghi nhận ở Tel Aviv (Amihud và cộng sự, 1997) và quanh đợt hợp nhất
+     Tokyo–Osaka (Hisada, 2018), δ đánh giá thấp tác động.
+
+       V Í D Ụ S Ố M I N H H Ọ A : hai hướng lan tỏa
+
+      Giả sử tác động thật của chuyển sàn là −0,20. Nếu nhà đầu tư rút tiền khỏi các mã HOSE
+      đối chứng để mua mã chuyển sàn, nhóm đối chứng kém thanh khoản đi, chẳng hạn
+      +0,05. Khác biệt kép đo được là −0,20 − 0,05 = −0,25, phóng đại tác động. Nếu ngược
+      lại, sàn HOSE đông giao dịch hơn làm mọi mã cùng dễ mua bán, nhóm đối chứng tốt
+      lên (logarit Amihud giảm 0,05, tức thay đổi −0,05), và khác biệt kép đo được là −0,15,
+      đánh giá thấp tác động. Vì không biết trước hướng nào mạnh hơn, đề tài dùng nhóm đối
+      chứng UPCoM, ít liên quan đến dòng lệnh trên HOSE, làm một cận khác.
+
+       Thứ ba, việc rời mẫu không liên quan đến sự kiện; đề tài báo cáo tỷ lệ mã hủy niêm yết ở
+     từng nhóm và ước lượng lại trên bảng cân bằng. Vì việc chuyển sàn đổi cùng lúc biên độ,
+     bước giá, hệ thống giao dịch và tư cách thành phần chỉ số, δ đo tác động gộp của sàn, không
+     đo riêng từng quy tắc.
+
+     4.3.9 Quy trình nghiên cứu
+
+     Hình 4.4 tóm tắt quy trình gồm bước đăng ký trước (bước 0) và năm bước nghiên cứu: thu
+     thập dữ liệu quốc tế và dữ liệu ba sàn; xây dựng Chỉ số chất lượng thị trường vốn và kiểm
+     định H2 ; kiểm định H1 trên dữ liệu bảng quốc tế; ước lượng tác động của sự kiện chuyển sàn
+     lên thanh khoản (H3 ) và khả năng đầu tư (H4 ); tổng hợp định hướng chuyên môn hóa cho thị
+     trường vốn Hà Nội. Thí sinh đăng ký trước kế hoạch phân tích trước ngày 28/12/2026.
+
+                 Bước 0. Đăng ký trước kế hoạch phân tích trên OSF Registries (trước 28/12/2026)
+
+
+                 Bước 1. Thu thập dữ liệu: điểm GFCI kỳ 1–40, chỉ báo quốc gia; dữ liệu ngày của
+                 HNX, UPCoM, HOSE từ 6/2009
+
+
+                 Bước 2. Xây dựng Chỉ số chất lượng thị trường vốn; kiểm định H2
+
+
+
+                 Bước 3. Kiểm định H1 trên dữ liệu bảng quốc tế
+
+
+
+                 Bước 4. Khác biệt kép quanh 28/12/2026: thanh khoản (H3 ), khả năng đầu tư (H4 )
+
+
+
+                 Bước 5. Tổng hợp định hướng chuyên môn hóa cho thị trường vốn Hà Nội
+
+
+                                          Hình 4.4: Quy trình nghiên cứu
+     Nguồn: Thí sinh đề xuất. Ghi chú: bước 0 là điều kiện của mọi bước sau; bước 2 và bước 3 có thể làm song song.
+
+
+     TỪ BẰNG CHỨNG ĐẾN ĐỊNH HƯỚNG CHO HÀ NỘI.                  Kết quả H1 –H4 được tổng hợp
+     cùng phép so sánh vai trò của Hà Nội với Bắc Kinh và Thượng Hải (Lai, 2012; Wang và cộng
+     sự, 2007) và với Thành phố Hồ Chí Minh, dựa trên văn bản chính sách và dữ liệu công khai,
+                                  4.3 P H Ư Ơ N G P H Á P N G H I Ê N C Ứ U / M Ô H Ì N H LÝ T H U Y Ế T   33
+
+
+
+thành định hướng chuyên môn hóa cho các thị trường mà HNX tiếp tục vận hành. Phần này
+là tổng hợp định tính, không kiểm định giả thuyết.
+   Cách tổng hợp có thể hình dung qua bốn tình huống. Nếu chuyển sàn làm thanh khoản và
+khả năng đầu tư tăng rõ, thì việc chuyển sàn có lợi cho nhà đầu tư vào các mã chuyển sàn,
+và thế mạnh của Hà Nội nên được tìm ở các thị trường khác ngoài cổ phiếu niêm yết. Nếu
+khoảng tin cậy hẹp quanh 0, khác biệt giữa hai sàn ở H2 nhiều khả năng đến từ đặc điểm
+doanh nghiệp hơn là từ sàn; nếu kết quả chưa đủ cơ sở kết luận, đề tài không rút ra hàm ý
+nào về vai trò của sàn. Nếu doanh nghiệp Hà Nội được lợi ít hơn, thì có lý do để thành phố
+quan tâm tới hạ tầng thông tin cho doanh nghiệp địa phương. Nếu H1 được ủng hộ, thì ở cấp
+quốc gia, điểm GFCI đi cùng mức phát triển thị trường cổ phiếu (liên hệ có điều kiện). Vì
+SMD đo ở cấp quốc gia và như nhau với mọi thành phố của Việt Nam, kết quả này không
+cho biết việc giao dịch cổ phiếu tập trung ở Thành phố Hồ Chí Minh có bất lợi cho Hà Nội
+hay không; nó chỉ là bối cảnh cho phần so sánh định tính. Bốn tình huống này chỉ là khung
+đọc kết quả; đề tài không chọn trước tình huống nào.
+
+4.3.10 Độ tin cậy, giới hạn và khả năng thực hiện
+
+
+  TÓM TẮT MỤC
+
+  Với một sự kiện duy nhất, đề tài chỉ phát hiện được tác động đủ lớn: với các giả định
+  minh họa, độ phi thanh khoản phải giảm khoảng 22% trở lên. Lực kiểm định phụ thuộc
+  vào số tháng trước và sau, độ biến động và mức tự tương quan của chuỗi chênh lệch, và
+  chỉ phụ thuộc yếu vào số cổ phiếu. Kết quả không ủng hộ giả thuyết vẫn được báo cáo
+  đầy đủ. Năm phương án dự phòng được chuẩn bị cho các trục trặc dễ xảy ra nhất (Phụ
+  lục C).
+
+
+Lực kiểm định
+
+Lực kiểm định của H3 phụ thuộc chủ yếu vào số tháng trước và sau sự kiện, phương sai và
+mức tự tương quan của chuỗi chênh lệch theo tháng, và chỉ phụ thuộc yếu vào số cổ phiếu.
+   Điều này nghe ngược với trực giác, vì thông thường mẫu càng nhiều quan sát thì càng
+phát hiện được tác động nhỏ. Nhưng như mục 4.3.7 đã giải thích, toàn bộ thông tin được gộp
+thành một chuỗi theo tháng. Thêm cổ phiếu làm mỗi điểm của chuỗi bớt nhiễu riêng lẻ của
+từng mã, nhưng không làm giảm các cú sốc theo tháng tác động khác nhau lên nhóm chuyển
+sàn và nhóm đối chứng; cú sốc tác động như nhau lên mọi mã thì đã triệt tiêu khi lấy chênh
+lệch. Nếu loại cú sốc thứ nhất chiếm phần lớn phương sai của chuỗi, thêm cổ phiếu gần như
+không làm giảm hiệu ứng nhỏ nhất phát hiện được. Thêm tháng thì có tác dụng thật.
+   Giả định chuỗi chênh lệch theo tháng là một quá trình tự hồi quy bậc một có hệ số ϕ và độ
+lệch chuẩn không điều kiện σ, cửa sổ trước dài 193 tháng (6/2009–6/2025), 18 tháng chuyển
+tiếp bị loại và giai đoạn sau dài 24 tháng. Khi đó hiệu ứng nhỏ nhất phát hiện được của δ ở
+lực kiểm định 80% và mức ý nghĩa một phía 0,05/3 xấp xỉ 0,64σ khi ϕ = 0, 1,24σ khi ϕ = 0,6
+và 1,76σ khi ϕ = 0,8. Nếu cửa sổ trước được rút ngắn do điểm gãy cấu trúc, hiệu ứng nhỏ
+nhất phát hiện được tăng lên, khoảng 1,3 lần khi cửa sổ trước chỉ còn 24 tháng.
+   Chẳng hạn, với σ = 0,2 và ϕ = 0,6, đề tài chỉ phát hiện được mức giảm logarit Amihud từ
+khoảng 0,25, tương đương độ phi thanh khoản giảm khoảng 22%. Đây là giả định minh họa;
+σ, ϕ và hiệu ứng nhỏ nhất phát hiện được sẽ được ước lượng lại từ giai đoạn tham chiếu và
+ghi vào tệp đăng ký.
+34   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+       V Í D Ụ S Ố M I N H H Ọ A : đọc bảng hiệu ứng nhỏ nhất phát hiện được
+
+       Với σ = 0,2:
+
+                      ϕ   Theo σ   Theo logarit Amihud   Độ phi thanh khoản giảm
+
+                      0   0,64σ            0,128                khoảng 12%
+                   0,6    1,24σ            0,248                khoảng 22%
+                   0,8    1,76σ            0,352                khoảng 30%
+
+       Cột cuối tính bằng 1 − e− x với x ở cột thứ ba. Chuỗi càng “dính” giữa các tháng (ϕ lớn),
+       mỗi tháng mới càng ít thông tin mới, nên tác động phải lớn hơn mới phát hiện được.
+       Bảng dùng σ = 0,2 chỉ để minh họa.
+
+       CHỖ DỄ HIỂU NHẦM
+
+       Dễ nghĩ là nếu không bác bỏ được giả thuyết gốc thì nghĩa là chuyển sàn không có tác
+       động. Không đúng. Với giả định minh họa σ = 0,2 và ϕ = 0,6, một tác động thật làm độ
+       phi thanh khoản giảm 10% chỉ được phát hiện với xác suất khoảng một phần năm. Cách
+       đọc đúng một kết quả như vậy được trình bày ngay dưới đây.
+
+       H4 có ít cửa sổ nên chỉ được báo cáo ở dạng ước lượng, và so sánh theo hai giai đoạn căng
+     thẳng chỉ ở dạng mô tả. Giá trị p đưa vào thủ tục Holm (1979) ở mức 5% là giá trị p một phía:
+     phân cụm theo quốc gia cho H1 , bootstrap khối dừng cho H2 và bootstrap tự hồi quy cho H3 .
+       Ở H1 , đề tài kiểm tra độ vững trên mẫu các trung tâm có ít nhất năm kỳ và trên mẫu cân
+     bằng. Vì kỳ GFCI 40 đã có nhân tố trùng với SMD (Wardle & Mainelli, 2026), H1 được ước
+     lượng lại trên các kỳ không trùng lặp nếu đủ số kỳ.
+
+     Khi dữ liệu không ủng hộ giả thuyết
+
+     Nếu dữ liệu không ủng hộ giả thuyết, đề tài vẫn trả lời được câu hỏi nghiên cứu bằng kích
+     thước hiệu ứng và khoảng tin cậy; khi khoảng tin cậy chứa cả 0 lẫn những tác động lớn hơn
+     hiệu ứng nhỏ nhất phát hiện được, kết quả được gọi là chưa đủ cơ sở kết luận, không phải
+     bằng chứng về việc không có tác động.
+        Có ba kiểu kết quả cần phân biệt. Khoảng tin cậy nằm hẳn dưới 0: tác động có, và có hướng
+     như H3 kỳ vọng. Khoảng tin cậy hẹp quanh 0, không chứa tác động nào lớn hơn hiệu ứng
+     nhỏ nhất phát hiện được: có bằng chứng rằng tác động, nếu có, là nhỏ. Khoảng tin cậy rộng,
+     chứa cả 0 lẫn tác động lớn: dữ liệu chưa đủ để nói. Kiểu thứ hai cũng là một phát hiện có giá
+     trị chính sách.
+
+     Năm phương án dự phòng
+
+     Kế hoạch có năm phương án dự phòng. Nếu không số hóa được hoặc không được phép
+     dùng điểm GFCI theo kỳ, câu hỏi 1 được trả lời ở dạng mô tả và H1 không được kiểm định.
+     Nếu việc chuyển sàn bị lùi hoặc thực hiện theo nhiều đợt, đề tài dùng ngày thực tế của từng
+     nhóm và bộ ước lượng khác biệt kép cho xử lý so le (Callaway & Sant’Anna, 2021); nếu sự
+     kiện không diễn ra, đề tài trả lời câu hỏi 3 bằng các mã đã tự chuyển từ HNX sang HOSE
+     trước năm 2026.
+       Bộ ước lượng cho xử lý so le cần thiết vì khi các nhóm cổ phiếu chuyển sàn vào những ngày
+     khác nhau, phương trình khác biệt kép thông thường có thể dùng nhóm đã chuyển trước
+                                                       4.4 Đ Ố I T Ư Ợ N G VÀ P H Ạ M V I N G H I Ê N C Ứ U   35
+
+
+
+làm đối chứng cho nhóm chuyển sau, và cho kết quả khó diễn giải. Callaway và Sant’Anna
+(2021) ước lượng tác động riêng cho từng nhóm theo ngày chuyển, chỉ so với các nhóm chưa
+chuyển, rồi mới gộp lại.
+   Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, nên đợt chuyển ngày 28/12/2026
+không gồm UPCoM (Báo Đầu tư Chứng khoán, 2026; Sở Giao dịch Chứng khoán Việt Nam,
+2026). Tuy vậy, hạn chuyển cổ phiếu UPCoM sang HOSE vẫn là hết ngày 31/12/2026 (Bộ Tài
+chính, 2023). UPCoM vì vậy có thể chuyển sàn theo một đợt riêng trước hạn này, tức trước
+cửa sổ sau, hoặc trong cửa sổ sau nếu mốc này được lùi. Khi đó, nhóm đối chứng UPCoM và
+chỉ số của UPCoM chỉ được dùng đến tháng liền trước ngày chuyển, ước lượng chính dựa
+vào nhóm đối chứng HOSE, và tương tác theo biên độ dùng thước đo thay thế ở mục 4.3.7.
+   Nếu cả hai nhóm đối chứng không đạt kiểm tra xu hướng song song, đề tài dùng nhóm
+đối chứng tổng hợp từ các mã HOSE ngoài danh sách FTSE Russell và mã UPCoM. Nếu dữ
+liệu sau sự kiện ngắn hơn 24 tháng, đề tài dùng toàn bộ tháng có sẵn; nếu rổ CS có ít hơn 30
+cổ phiếu đủ thanh khoản, đề tài dùng rổ 20 cổ phiếu.
+   Nhóm đối chứng tổng hợp là một tổ hợp có trọng số của nhiều cổ phiếu đối chứng, với
+trọng số được chọn sao cho tổ hợp đi sát nhất với nhóm chuyển sàn trong giai đoạn trước sự
+kiện. Phương pháp này chỉ dùng được khi tổ hợp bám sát nhóm chuyển sàn trong giai đoạn
+trước; bám sát ở giai đoạn trước không bảo đảm xu hướng song song ở giai đoạn sau, nên độ
+khớp trước sự kiện được báo cáo kèm, và cách lập nhóm cụ thể được ghi trong tệp đăng ký.
+
+4.4     Đ Ố I T Ư Ợ N G VÀ P H Ạ M V I N G H I Ê N C Ứ U
+
+
+  TÓM TẮT MỤC
+
+  Đối tượng là khác biệt chất lượng thị trường giữa các sàn và tác động của việc đổi sàn.
+  Phạm vi gồm ba mẫu ứng với ba câu hỏi, dữ liệu từ 6/2009 đến hết 24 tháng sau sự kiện.
+  Đề tài nói rõ những gì nằm ngoài phạm vi: câu hỏi số 2 và số 4 của bài toán số 19, thị
+  trường trái phiếu và phái sinh (trừ phần định hướng), các chính sách khác và khảo sát
+  nhà đầu tư.
+
+  Đối tượng nghiên cứu là khác biệt chất lượng thị trường giữa các sàn và tác động của việc
+đổi sàn lên thanh khoản và khả năng đầu tư, quan sát qua đợt hợp nhất cổ phiếu niêm yết
+của HNX vào HOSE, đặt trong khung năng lực cạnh tranh của trung tâm tài chính.
+  Phạm vi nghiên cứu (dự kiến):
+
+      + Phạm vi không gian: các trung tâm tài chính có điểm GFCI là mẫu của câu hỏi 1; sàn
+        niêm yết HNX, UPCoM và HOSE là mẫu của câu hỏi 2; các cổ phiếu chuyển từ HNX
+        sang HOSE ngày 28/12/2026 và các nhóm đối chứng là mẫu của câu hỏi 3.
+
+      + Phạm vi thời gian: dữ liệu thị trường từ tháng 6/2009 đến hết 24 tháng sau sự kiện; dữ
+        liệu GFCI từ kỳ 1 đến kỳ mới nhất tại thời điểm phân tích.
+
+      + Phạm vi nội dung: danh mục chỉ mua là cấu hình cơ sở của bảy mô hình phân bổ. Thị
+        trường trái phiếu và phái sinh chỉ được xét trong phần định hướng chuyên môn hóa.
+        Đề tài không đánh giá chính sách nào khác ngoài đợt chuyển sàn và không khảo sát
+        nhà đầu tư.
+
+      + Giới hạn khác: kết luận về H1 là liên hệ có điều kiện; kết luận về H3 là tác động gộp của
+        sàn trong một sự kiện, khi các giả định ở mục 4.3.8 được thỏa mãn; kết luận về H4 chỉ
+        áp dụng cho rổ CS.
+36   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
+
+
+
+
+        Ba giới hạn ở gạch đầu dòng cuối nên được nhắc lại mỗi khi trình bày kết quả. H1 không
+     nói thị trường cổ phiếu gây ra vị thế trung tâm. H3 không tách được biên độ, bước giá và chỉ
+     số ra khỏi nhau, và chỉ đúng cho đợt chuyển sàn này. H4 chỉ đo trên rổ CS (tối đa 30 mã, hoặc
+     20 mã theo phương án dự phòng, có giá trị giao dịch bình quân lớn nhất), nên không nói
+     được gì về các mã nhỏ ít giao dịch.
+        Đề tài không giải quyết trọn bài toán số 19: câu hỏi số 2 và số 4 (về công nghệ tài chính
+     và dịch vụ tài chính thế hệ mới) nằm ngoài phạm vi, và với câu hỏi số 3, đề tài chỉ cung cấp
+     thước đo nền. Người dùng dự kiến của kết quả gồm Sở Khoa học và Công nghệ Hà Nội, cơ
+     quan đầu mối theo dõi và đánh giá kết quả thực hiện Danh mục các bài toán lớn (Ủy ban
+     nhân dân thành phố Hà Nội, 2026, Điều 3), Ủy ban nhân dân thành phố Hà Nội, Ủy ban
+     Chứng khoán Nhà nước, HNX, HOSE và các tổ chức đầu tư.
+        Trước khi nộp hồ sơ đề nghị hỗ trợ, thí sinh sẽ xin văn bản xác nhận hoặc cam kết sử dụng
+     kết quả của ít nhất một đơn vị trong số này, ưu tiên HNX; văn bản này cũng là căn cứ của chỉ
+     tiêu (6).
+        HNX được ưu tiên vì là đơn vị chịu ảnh hưởng trực tiếp nhất của đợt hợp nhất và là đơn
+     vị sẽ vận hành các thị trường mà phần định hướng chuyên môn hóa hướng tới. Chỉ số chất
+     lượng thị trường vốn, nếu được mở rộng sang trái phiếu và phái sinh như nêu ở chương 9, có
+     thể trở thành công cụ theo dõi của chính HNX.
+
+     4.5   D Ự K I Ế N B Ố C Ụ C C ÁC C H Ư Ơ N G VÀ C ÁC T I Ể U M Ụ C Đ Ế N 3 C H Ữ S Ố
+
+
+     Ngoài phần kết luận, danh mục tài liệu tham khảo và phụ lục, luận án dự kiến gồm sáu
+     chương (Bảng 4.6).
+                          4.5 D Ự K I Ế N B Ố C Ụ C C ÁC C H Ư Ơ N G VÀ C ÁC T I Ể U M Ụ C Đ Ế N 3 C H Ữ S Ố   37
+
+
+
+
+                    Bảng 4.6: Dự kiến bố cục các chương và tiểu mục của luận án
+
+Chương      Tên chương                     Các tiểu mục chính (đến ba chữ số)
+
+Chương 1 Giới thiệu nghiên cứu             1.1 Bối cảnh: Hà Nội, bài toán số 19 và đợt hợp nhất sàn năm
+                                           2026; 1.1.1 Trung tâm tài chính quốc tế của Việt Nam; 1.1.2 Lộ
+                                           trình chuyển cổ phiếu niêm yết từ HNX sang HOSE; 1.2 Vấn
+                                           đề nghiên cứu; 1.3 Mục tiêu và câu hỏi nghiên cứu; 1.4 Đối
+                                           tượng và phạm vi; 1.5 Đóng góp dự kiến; 1.6 Kết cấu luận án
+
+Chương 2 Tổng quan tài liệu và             2.1 Tích tụ và phân vai của trung tâm tài chính; 2.1.1 Phân vai
+         khung phân tích                   các trung tâm trong một quốc gia; 2.2 Chất lượng thị trường
+                                           vốn; 2.3 Đổi sàn và hợp nhất sàn; 2.3.1 Bằng chứng từ
+                                           Euronext; 2.4 Đa dạng hóa danh mục khi tham số được ước
+                                           lượng; 2.5 Nghiên cứu về Việt Nam; 2.6 Khoảng trống, khung
+                                           phân tích và giả thuyết
+
+Chương 3 Dữ liệu và phương pháp 3.1 Dữ liệu quốc tế; 3.2 Dữ liệu HNX, UPCoM và HOSE; 3.2.1
+                                Cổ phiếu chuyển sàn và thiên lệch sống sót; 3.2.2 Giai đoạn
+                                căng thẳng; 3.3 Chỉ số chất lượng thị trường vốn; 3.4 Chỉ số
+                                khả năng đầu tư; 3.5 Thiết kế khác biệt kép quanh ngày
+                                28/12/2026; 3.5.1 Nhóm đối chứng và kiểm tra xu hướng
+                                trước sự kiện; 3.6 Đăng ký trước và các lệch khỏi kế hoạch
+
+Chương 4 Phát triển thị trường cổ          4.1 Dữ liệu bảng các trung tâm tài chính; 4.1.1 Số hóa và chuẩn
+         phiếu và năng lực cạnh            hóa điểm GFCI; 4.2 Kiểm định H1 ; 4.3 Kiểm tra độ vững; 4.4
+         tranh của trung tâm tài           Thảo luận: Thành phố Hồ Chí Minh, Đà Nẵng và Hà Nội
+         chính: bằng chứng quốc
+         tế
+
+Chương 5 Chất lượng thị trường             5.1 Các chỉ báo thành phần; 5.1.1 Ảnh hưởng của biên độ dao
+         vốn trước hợp nhất:               động giá; 5.2 Chỉ số theo sàn và kiểm định H2 ; 5.3 Giai đoạn
+         HNX, UPCoM và HOSE                căng thẳng (mô tả); 5.4 Thảo luận
+
+Chương 6 Tác động của việc chuyển 6.1 Thanh khoản quanh ngày 28/12/2026 và kiểm định H3 ;
+         sàn và định hướng cho    6.1.1 Khác biệt của tác động theo mức chịu cú sốc biên độ,
+         thị trường vốn Hà Nội    bước giá và chỉ số; 6.1.2 Khác biệt theo quy mô và theo trụ sở
+                                  doanh nghiệp; 6.2 Khả năng đầu tư trước và sau sự kiện và
+                                  kiểm định H4 ; 6.3 Định hướng chuyên môn hóa cho thị trường
+                                  vốn Hà Nội; 6.4 Đề xuất chính sách và hạ tầng dữ liệu
+
+Kết luận                                   Trả lời ba câu hỏi nghiên cứu; hạn chế (một sự kiện duy nhất,
+                                           độ dài dữ liệu sau sự kiện, các cú sốc trùng thời gian, H1 là
+                                           liên hệ có điều kiện); hướng nghiên cứu tiếp theo
+Nguồn: Thí sinh đề xuất
+
+
+  Thứ tự chương bám theo thứ tự câu hỏi, và mỗi chương thực nghiệm (4, 5, 6) đủ độc lập
+để thành một bài báo: chương 5 thành bài báo 1, chương 6 thành bài báo 2, chương 4 thành
+bài báo 3 (mục 7.3). Chương 6 được đặt cuối dù trả lời câu hỏi trọng tâm, vì nó dùng kết quả
+của chương 5 làm nền trước sự kiện và cần 24 tháng dữ liệu sau sự kiện, nên là chương hoàn
+thành muộn nhất.
+LÝ D O C H Ọ N C Ơ S Ở N G H I Ê N C Ứ U
+                                                                                      5
+Thí sinh chọn Trường Quốc tế, Đại học Quốc gia Hà Nội vì ba lý do. Thứ nhất, theo Thông
+báo tuyển sinh năm 2026, chương trình Tiến sĩ Kinh tế và Quản lý có tính liên ngành, tập
+trung vào kinh tế hành vi và quản lý trong lĩnh vực kinh tế; đề tài thuộc tài chính định lượng
+và liên quan đến quản lý ở phần định hướng chuyên môn hóa thị trường vốn Hà Nội.
+   Thứ hai, chương trình giảng dạy bằng tiếng Anh hoặc tiếng Việt. Học bằng tiếng Anh
+thuận lợi cho công bố quốc tế, và thí sinh có chứng chỉ tiếng Anh Bậc 4 theo Khung năng lực
+ngoại ngữ 6 bậc dùng cho Việt Nam.
+   Thứ ba, thí sinh tốt nghiệp ngành Kinh tế, chuyên ngành Đầu tư; theo đối chiếu của thí
+sinh, ngành này thuộc Nhóm 1 (Kinh tế học) trong Phụ lục 1 của Thông báo, nên thí sinh cần
+học bổ sung 9 tín chỉ. Nhà trường sẽ xác định điều kiện cuối cùng.
+   Ngoài ba lý do trên, đề tài gắn trực tiếp với Hà Nội: câu hỏi chính sách là bài toán số 19 của
+thành phố, sự kiện được nghiên cứu là việc toàn bộ cổ phiếu niêm yết tại HNX chuyển sang
+HOSE, và người dùng dự kiến của kết quả là các cơ quan của thành phố và HNX. Một cơ sở
+đào tạo đặt tại Hà Nội thuận lợi cho việc làm việc với các đơn vị này trong suốt bốn năm.
+
+
+
+
+38
+M Ụ C T I Ê U VÀ M O N G M U Ố N Đ ẠT Đ Ư Ợ C K H I Đ Ă N G K Ý Đ I H Ọ C
+NGHIÊN CỨU SINH
+                                                                                   6
+Mục tiêu đầu tiên của thí sinh là đạt năng lực nghiên cứu độc lập ở trình độ tiến sĩ trong
+tài chính định lượng: thiết kế một nghiên cứu thực nghiệm có đăng ký trước, ước lượng tác
+động của một sự kiện duy nhất với suy luận phù hợp, và báo cáo trung thực cả những kết
+quả chưa đủ cơ sở kết luận. Thí sinh muốn rèn các kỹ năng này trong một môi trường có học
+phần phương pháp, hội thảo định kỳ và cơ chế phản biện nội bộ.
+   Mục tiêu thứ hai là tạo ra bằng chứng có ích cho hai nhóm người dùng: nhà nghiên cứu về
+trung tâm tài chính và cấu trúc thị trường; và Ủy ban nhân dân thành phố Hà Nội, cơ quan
+quản lý thị trường chứng khoán, HNX và các tổ chức đầu tư. Thí sinh mong kết quả của luận
+án là một đóng góp nhỏ, có kiểm chứng, cho câu hỏi số 1 và số 3 của bài toán số 19 (mục 4.1),
+đúng vào thời điểm thị trường vốn Hà Nội thay đổi cấu trúc.
+   Ba kỹ năng ở mục tiêu đầu tiên tương ứng với ba phần khó nhất của đề tài: đăng ký trước
+(mục 4.3.5), suy luận khi chỉ có một sự kiện (mục 4.3.7) và cách báo cáo kết quả chưa đủ cơ sở
+kết luận (mục 4.3.10). Đề tài vì vậy vừa là nội dung nghiên cứu, vừa là môi trường để rèn
+đúng những kỹ năng thí sinh muốn có.
+
+
+
+
+                                                                                           39
+N H Ữ N G D Ự Đ Ị N H VÀ K Ế H OẠC H Đ Ể Đ ẠT Đ Ư Ợ C N H Ữ N G M Ụ C T I Ê U
+MONG MUỐN
+                                                                                    7
+7.1   H Ọ C P H Ầ N Đ ÀO T Ạ O T R Ì N H Đ Ộ T I Ế N S Ĩ
+
+
+Trong hai quý đầu năm thứ nhất, thí sinh hoàn thành 9 tín chỉ học bổ sung (học phần Hành
+vi tổ chức và Lãnh đạo cùng hai học phần tự chọn) và các học phần theo chương trình, ưu
+tiên học phần tự chọn về kinh tế lượng chuỗi thời gian và phương pháp nghiên cứu định
+lượng.
+   Học phần kinh tế lượng chuỗi thời gian được ưu tiên vì phần suy luận chính của H2 và H3
+dựa trên các mô hình chuỗi thời gian: bootstrap khối dừng, mô hình tự hồi quy và điểm gãy
+cấu trúc.
+
+7.2   CHUYÊN ĐỀ TIẾN SĨ
+
+
+Thí sinh dự kiến ba chuyên đề bám theo cấu trúc luận án: (i) tổng quan lý thuyết về trung
+tâm tài chính, cấu trúc sàn và hợp nhất sàn; (ii) chất lượng thị trường vốn của HNX, UPCoM
+và HOSE trước hợp nhất; (iii) tác động của hợp nhất sàn lên thanh khoản và khả năng đầu
+tư. Mỗi chuyên đề đứng độc lập được và làm nền cho một chương của luận án.
+
+7.3   P H Ầ N N G H I Ê N C Ứ U K H OA H Ọ C
+
+
+Thí sinh dự kiến công bố ba bài báo trên tạp chí khoa học có phản biện và trình bày một đến
+hai báo cáo tại hội thảo khoa học. Bài báo 1 trình bày Chỉ số chất lượng thị trường vốn và so
+sánh HNX với HOSE (H2 ); bài báo 2 trình bày tác động của việc chuyển sàn lên thanh khoản
+và khả năng đầu tư (H3 , H4 ); bài báo 3 trình bày bằng chứng quốc tế (H1 ) và so sánh vai trò
+của Hà Nội với các trung tâm trong khu vực. Mục tiêu là ít nhất một bài, do thí sinh là tác giả
+chính, thuộc cơ sở dữ liệu Web of Science hạng Q1 hoặc Q2.
+
+7.4   P H Ầ N T H Ự C H I Ệ N LU Ậ N Á N
+
+
+Thời gian đào tạo đối với người có bằng đại học là bốn năm, theo hình thức tập trung toàn
+thời gian; thời gian này không vượt quá 48 tháng, là thời gian hỗ trợ tối đa theo Điều 13 Nghị
+quyết số 57/2026/NQ-HĐND (Hội đồng nhân dân thành phố Hà Nội, 2026). Bảng 7.1 nêu kế
+hoạch và sản phẩm dự kiến của từng năm.
+
+
+
+
+40
+                                                               7.4 P H Ầ N T H Ự C H I Ệ N L U Ậ N Á N   41
+
+
+
+
+              Bảng 7.1: Kế hoạch thực hiện luận án theo bốn năm và sản phẩm dự kiến
+
+Năm     Nội dung                                                     Sản phẩm
+
+Năm 1 Trước khi nhập học: đăng ký trước kế hoạch phân tích (trước    Tệp đăng ký trước; tổng quan
+      ngày 28/12/2026). Quý 1: xác nhận nguồn và giấy phép dữ        nghiên cứu; chuyên đề 1; Chỉ
+      liệu HNX, UPCoM, HOSE, dữ liệu công bố và báo cáo GFCI.        số chất lượng thị trường vốn
+      Quý 1–2: học bổ sung 9 tín chỉ và các học phần theo chương     bản đầu
+      trình. Quý 2–3: làm sạch dữ liệu 2009–2026, tính các chỉ báo
+      thành phần, tính hiệu ứng nhỏ nhất phát hiện được. Quý 4:
+      xây dựng Chỉ số chất lượng thị trường vốn, kiểm định H2
+
+Năm 2 Quý 1–2: viết bài báo 1 (H2 ); số hóa điểm GFCI và kiểm định Bài báo 1; kết quả giữa kỳ H3 ;
+      H1 . Quý 3–4: ước lượng giữa kỳ cho H3 với 12 tháng dữ liệu báo cáo hội thảo; chuyên đề 2
+      sau sự kiện, báo cáo là kết quả giữa kỳ theo tệp đăng ký
+
+Năm 3 Quý 1–2: hoàn tất 24 tháng dữ liệu sau sự kiện; kiểm định      Bài báo 2; chỉ số khả năng đầu
+      H3 và ước lượng H4 ; viết bài báo 2 (H3 , H4 ). Quý 3–4: so    tư; chuyên đề 3
+      sánh Hà Nội với Bắc Kinh, Thành phố Hồ Chí Minh và các
+      trung tâm khu vực; viết bài báo 3 (H1 )
+
+Năm 4 Quý 1–2: đề xuất định hướng chuyên môn hóa và chính sách Bài báo 3; báo cáo định hướng
+      cho thị trường vốn Hà Nội; công bố mã nguồn hai chỉ số.     chuyên môn hóa gửi Sở Khoa
+      Quý 3–4: hoàn thiện luận án, chỉnh sửa theo góp ý và bảo vệ học và Công nghệ Hà Nội;
+                                                                  luận án; hai chỉ số mã nguồn
+                                                                  mở
+Nguồn: Thí sinh đề xuất
+
+
+  Kế hoạch được sắp xếp theo một ràng buộc không đổi được: dữ liệu sau sự kiện chỉ có dần
+theo thời gian. Mốc 24 tháng sau sự kiện là hết tháng 12/2028, nên kiểm định H3 sớm nhất là
+năm thứ ba. Hai năm đầu vì vậy dành cho những phần không phụ thuộc vào dữ liệu sau sự
+kiện: chỉ số chất lượng thị trường (H2 ) và bằng chứng quốc tế (H1 ). Kết quả giữa kỳ của H3 ở
+năm thứ hai được ghi rõ là giữa kỳ, để không bị nhầm với kết quả theo kế hoạch đăng ký.
+K I Ế N T H Ứ C C H U Y Ê N M Ô N C ỦA N G Ư Ờ I D Ự T U Y Ể N T I Ế N S Ĩ
+                                                                                 8
+8.1   K I N H NG H I Ệ M T RO NG H O Ạ T Đ Ộ NG CH U Y Ê N M Ô N
+
+
+Kinh nghiệm chuyên môn của thí sinh chủ yếu là kinh nghiệm nghiên cứu. Thí sinh chủ
+nhiệm đề tài nghiên cứu khoa học sinh viên “Nâng cao hiệu quả danh mục đầu tư bằng
+mô hình Black-Litterman: Áp dụng cho ngành ngân hàng trên thị trường chứng khoán Việt
+Nam”, đạt Giải Nhất cấp Khoa và Giải Nhì cấp Học viện năm 2026; đề tài đang dự Giải
+thưởng Khoa học và Công nghệ dành cho sinh viên năm 2026 do Bộ Giáo dục và Đào tạo tổ
+chức. Thí sinh còn đạt Giải Nhì nghiên cứu khoa học sinh viên cấp Khoa năm 2025 và Giải
+Khuyến khích cuộc thi Data Explorer. Bảng 8.1 liệt kê các công trình đã công bố hoặc đã được
+chấp nhận đăng.
+
+
+
+
+42
+                                           8.1 K I N H N G H I Ệ M T R O N G H O Ạ T Đ Ộ N G C H U Y Ê N M Ô N   43
+
+
+
+
+                    Bảng 8.1: Công trình đã công bố hoặc đã được chấp nhận đăng
+
+TT Công trình                                             Tạp chí; ISSN                   Trạng thái
+
+1    Nguyễn Thanh Bình, Nguyễn Văn Trung*,                Tạp chí Kinh tế - Luật và    Đã công bố
+     “Tiền gửi không kỳ hạn, hiệu quả hoạt động và        Ngân hàng; ISSN
+     ổn định tài chính ngân hàng: Bằng chứng từ           3030-4199; Tập 28, Số 9, tr.
+     mô hình ngưỡng tại Việt Nam” (Nguyễn &               52–64; DOI 10.59276/3030-
+     Nguyễn, 2026b)                                       4199/jelb.bav.895
+
+2    Nguyễn Thanh Bình, Nguyễn Văn Trung,                 Tạp chí Nghiên cứu Chính Đã công bố
+     “Black-Litterman portfolio optimization using        sách và Phát triển; ISSN
+     regime switching CAPM and ABC-MCMC:                  3030-4091; Tập 3, Số 1, tr.
+     Empirical evidence from the Vietnamese stock         81–99; DOI 10.63640/3030-
+     market period 2019 - 2025” (Nguyễn &                 4091/jpd.apd.194
+     Nguyễn, 2026a)
+
+3    Nguyễn Thanh Bình, Nguyễn Văn Trung*,                International Journal of        Đã được chấp
+     Nguyễn Anh Tuấn, “GRI adoption and                   Management and                  nhận đăng năm
+     corporate brownwashing: Board governance             Sustainability (Conscientia     2026, chưa xuất
+     evidence from ASEAN-5”                               Beam); ISSN 2306-9856           bản tại ngày
+                                                          (bản in), 2306-0662 (bản        30/9/2026
+                                                          trực tuyến); Scopus Q3
+
+4    Nguyen Thanh Binh, Nguyen Van Trung*,                Multidisciplinary Science       Đã được chấp
+     Nguyen Bach Diep, Ha Hong Hanh, Le Hong              Journal (Malque                 nhận đăng, công
+     Minh, “Portfolio optimization with the inverse       Publishing); ISSN               bố trực tuyến
+     Black–Litterman framework and clustering             2675-1240; Scopus Q3            trong mục
+     machine-learning models: Evidence from                                               Accepted Articles
+     Vietnamese bank stocks”                                                              ngày 09/10/2026
+                                                                                          (mã 19322;
+                                                                                          https://malque.p
+                                                                                          ub/ojs/index.php
+                                                                                          /msj/article/vie
+                                                                                          w/19322)
+Ghi chú: (*) Tác giả liên hệ. Tên bài báo bằng tiếng Anh giữ nguyên như khi công bố. Trạng thái tính đến ngày
+30/9/2026; riêng bài số 4 cập nhật đến ngày 09/10/2026.
+
+
+  Ngoài các công trình trên, thí sinh có tám bản thảo đang ở các bước phản biện hoặc xét
+duyệt (Bảng 8.2), trong đó hai bản thảo liên quan trực tiếp đến đề tài.
+44   KIẾN THỨC CHUYÊN MÔN CỦA NGƯỜI DỰ TUYỂN TIẾN SĨ
+
+
+
+
+                         Bảng 8.2: Bản thảo đã gửi tạp chí, chưa công bố tại ngày 30/9/2026
+     TT Tên bài báo                                Số tác giả Tạp chí; ISSN         Trạng thái (mã bài) Liên quan
+                                                                                                        đến đề tài
+
+     1     Tác động của cấu trúc sở hữu lên ổn         2     Tạp chí Kinh tế - Luật Qua 2 vòng phản     Không
+           định tài chính của các ngân hàng                  và Ngân hàng; ISSN     biện, đang chỉnh
+           thương mại Việt Nam                               3030-4199              sửa (mã 3129)
+     2     Limits to arbitrage in the Vietnamese       3     Journal of Economic    Đang sửa vòng 1     Không
+           physical gold market: The failure of              and Banking Studies;   (mã JEBS.1563)
+           short-term momentum                               ISSN 2734-9853
+     3     Corporate Brownwashing and Firm             2     Cogent Business &    Đang phản biện        Không
+           Valuation in ASEAN-5 Disclosure                   Management; ISSN     vòng 1 (mã
+           Regimes                                           2331-1975; Scopus Q2 260865765)
+     4     Structural breaks in Vietnamese stock       6     Asian Journal of       Chờ phân công       Có (chỉ báo
+           market liquidity: Evidence from the               Economics and          phản biện (mã       thanh khoản,
+           Amihud illiquidity measure and                    Banking; ISSN          AJEB-08-2026-       điểm gãy)
+           Bai-Perron regime-shift detection                 2615-9821              0208)
+     5     Nested equity index correlations            4     Asia-Pacific Financial Ban biên tập đang Không
+           overstate true co-movement:                       Markets; ISSN          xem xét (mã
+           Evidence from Vietnam                             1387-2834; Scopus Q2 FEJM-D-26-00726)
+     6     Who gains from a market upgrade?            4     Finance Research     Ban biên tập đang Có (thanh
+           Stock liquidity and prices around                 Open; ISSN 3050-7006 xem xét (mã       khoản thị
+           Vietnam’s FTSE Russell                                                 FINR-D-26-00823) trường)
+           reclassification
+     7     Rated at the peak? Firm valuation           4     Sustainable Finance    Chờ xử lý tại tòa Không
+           around the first LSEG ESG score in                Review; ISSN           soạn (mã
+           five Southeast Asian markets                      2977-7542              SFR-09-2026-0113)
+     8     Sales-based real earnings                   5     Accounting Open;       Ban biên tập đang Không
+           management and the cost of debt:                  ISSN 3050-5461         xem xét (mã
+           Evidence from five ASEAN markets                                         ACCOP-D-26-
+                                                                                    00232)
+     Ghi chú: Thí sinh là tác giả liên hệ của cả tám bản thảo.
+
+
+     8.2     K I Ế N T H Ứ C , S Ự H I Ể U B I Ế T VÀ S Ự C H U Ẩ N B Ị C Ủ A T H Í S I N H V Ề V Ấ N Đ Ề N G H I Ê N
+            CỨU
+
+
+     Thí sinh tốt nghiệp Cử nhân Kinh tế, chuyên ngành Đầu tư, hệ chính quy khóa 2022–2026
+     tại Học viện Chính sách và Phát triển, xếp loại Giỏi (điểm trung bình 3,41/4, tương đương
+     8,06/10). Các học phần gần nhất với đề tài gồm Quản lý danh mục đầu tư (9,9/10), Xác suất
+     và thống kê (10/10), Kinh tế lượng (8,1/10) và Phân tích báo cáo tài chính (8,6/10).
+        Thí sinh đang theo học ngành Kế toán hệ vừa làm vừa học tại Đại học Kinh tế Quốc dân
+     (năm thứ ba), ngành Công nghệ thông tin hệ đào tạo từ xa tại Học viện Công nghệ Bưu chính
+     Viễn thông (năm thứ ba), và chương trình thạc sĩ trực tuyến tại WorldQuant University từ
+     tháng 7/2026.
+        Nếu trúng tuyển, thí sinh cam kết theo học chương trình đào tạo tiến sĩ theo hình thức tập
+     trung toàn thời gian, đáp ứng điều kiện tại khoản 3 Điều 11 Nghị quyết số 57/2026/NQ-
+     HĐND (Hội đồng nhân dân thành phố Hà Nội, 2026), và trước khi nhập học sẽ hoàn thành,
+     bảo lưu hoặc dừng các chương trình đang theo học nêu trên để dành toàn bộ thời gian cho
+     học tập và nghiên cứu.
+        Về ngoại ngữ, thí sinh có chứng chỉ tiếng Anh Bậc 4 (VSTEP, Vietnamese Standardized Test
+     of English Proficiency), điểm tổng 6,5, do Đại học Phenikaa cấp ngày 26/01/2026.
+8.2 K I Ế N T H Ứ C , S Ự H I Ể U B I Ế T VÀ S Ự C H U Ẩ N B Ị C Ủ A T H Í S I N H V Ề V Ấ N Đ Ề N G H I Ê N C Ứ U   45
+
+
+
+  Thí sinh chuẩn bị cho đề tài qua các công việc nghiên cứu đã làm. Bản thảo số 6 ở Bảng 8.2,
+về thanh khoản cổ phiếu quanh đợt nâng hạng thị trường của FTSE Russell, cho thí sinh kinh
+nghiệm với nghiên cứu sự kiện trên thanh khoản, công cụ trực tiếp của H3 ; bản thảo số 4,
+về điểm gãy cấu trúc của thanh khoản, cho thí sinh kinh nghiệm với độ phi thanh khoản
+Amihud và phương pháp Bai–Perron. Bài báo Nguyễn và Nguyễn (2026a) là nền của mô hình
+M5 , và bài báo số 4 ở Bảng 8.1 giúp thí sinh làm quen với việc so sánh nhiều mô hình danh
+mục trên cùng dữ liệu.
+  Cụ thể, điểm gãy cấu trúc dùng để chọn cửa sổ trước của H3 , và nghiên cứu sự kiện trên
+thanh khoản là khung của phương trình (4.6).
+D Ự K I Ế N V I Ệ C L À M VÀ C ÁC H Ư Ớ N G N G H I Ê N C Ứ U S AU K H I T Ố T
+NGHIỆP
+                                                                                   9
+Sau khi tốt nghiệp, thí sinh dự kiến làm nghiên cứu và giảng dạy tài chính tại trường đại học
+hoặc viện nghiên cứu, hoặc làm việc ở bộ phận dữ liệu và phân tích thị trường của sở giao
+dịch hay cơ quan quản lý. Ở cả hai hướng, thí sinh có thể duy trì Chỉ số chất lượng thị trường
+vốn cùng người dùng thực tế.
+   Thí sinh cam kết thực hiện nghĩa vụ tại điểm e khoản 2 Điều 15 Nghị quyết số 57/2026/NQ-
+HĐND: sau khi hoàn thành chương trình đào tạo, tham gia mạng lưới chuyên gia khoa học,
+công nghệ, đổi mới sáng tạo và chuyển đổi số của Thành phố, và tham gia tư vấn, phản biện,
+cung cấp luận cứ khoa học cho bài toán số 19 và các nhiệm vụ khác phù hợp với chuyên môn
+khi được cơ quan có thẩm quyền mời hoặc giao nhiệm vụ (Hội đồng nhân dân thành phố Hà
+Nội, 2026).
+   Về nghiên cứu, thí sinh dự kiến mở rộng Chỉ số chất lượng thị trường vốn sang thị trường
+trái phiếu chính phủ và phái sinh do HNX vận hành, đánh giá tác động dài hạn của đợt hợp
+nhất, và so sánh vai trò của Hà Nội với các thủ đô khác trong khu vực.
+
+
+
+
+46
+Đ Ề X UẤT N G Ư Ờ I H Ư Ớ N G DẪ N
+                                                                       10
+Thí sinh đề xuất hai người hướng dẫn. Người hướng dẫn chính thuộc định hướng nghiên
+cứu “chính sách tài khóa, tài chính tiền tệ, phát triển thị trường tài chính, tái cấu trúc hệ
+thống ngân hàng, quản trị tài chính, quản trị ngân hàng” trong danh mục của Nhà trường
+năm 2026; người hướng dẫn thứ hai là nhà khoa học ngoài Trường.
+  Người hướng dẫn chính (dự kiến): GS.TS. Nguyễn Đức Khương. Hướng nghiên cứu của
+người hướng dẫn gồm thị trường tài chính mới nổi, mô hình biến động và quản trị rủi ro trên
+thị trường vốn quốc tế, trùng với ba cấu phần của đề tài: cấu trúc và chất lượng thị trường
+vốn mới nổi, nghiên cứu sự kiện trên thị trường và quyết định danh mục.
+  Người hướng dẫn thứ hai (dự kiến): PGS.TS. Hà Hồng Hạnh, Trường Đại học Kinh tế Quốc
+dân. Người hướng dẫn hỗ trợ phần hàm ý chính sách và quản trị của đề tài trong bối cảnh
+khung quy định Việt Nam.
+
+
+
+
+                                                                                          47
+DA N H M Ụ C TÀ I L I Ệ U T H A M K H ẢO
+                                                                               11
+TÀ I L I Ệ U T I Ế N G V I Ệ T
+
+
+Báo Đầu tư Chứng khoán. (2026). HNX nhập HOSE, UPCoM còn doanh nghiệp nào đang chia cổ tức
+   tốt với P/E rẻ? [Bài báo ngày 06/10/2026].
+Bộ Tài chính. (2020). Thông tư số 120/2020/TT-BTC ngày 31/12/2020 quy định giao dịch cổ phiếu
+   niêm yết, đăng ký giao dịch và chứng chỉ quỹ, trái phiếu doanh nghiệp, chứng quyền có bảo đảm
+   niêm yết trên hệ thống giao dịch chứng khoán.
+Bộ Tài chính. (2023). Văn bản hợp nhất số 19/VBHN-BTC ngày 25/12/2023 hợp nhất Thông tư quy
+   định lộ trình sắp xếp lại thị trường giao dịch cổ phiếu, thị trường giao dịch trái phiếu, thị trường
+   giao dịch chứng khoán phái sinh và thị trường giao dịch các loại chứng khoán khác (hợp nhất
+   Thông tư số 57/2021/TT-BTC ngày 12/7/2021 và Thông tư số 69/2023/TT-BTC ngày 15/11/2023).
+Bộ Tài chính. (2025). Thông tư số 139/2025/TT-BTC ngày 30/12/2025 sửa đổi, bổ sung một số điều
+   của Thông tư số 57/2021/TT-BTC ngày 12 tháng 7 năm 2021 của Bộ trưởng Bộ Tài chính quy định
+   lộ trình sắp xếp lại thị trường giao dịch cổ phiếu, thị trường giao dịch trái phiếu, thị trường giao
+   dịch chứng khoán phái sinh và thị trường giao dịch các loại chứng khoán khác được sửa đổi, bổ
+   sung bởi Thông tư số 69/2023/TT-BTC ngày 15 tháng 11 năm 2023 của Bộ trưởng Bộ Tài chính.
+Hội đồng nhân dân thành phố Hà Nội. (2026). Nghị quyết số 57/2026/NQ-HĐND ngày 15/6/2026
+   quy định một số chính sách phát triển nguồn nhân lực chất lượng cao của thành phố Hà Nội.
+Nguyễn, T. B., & Nguyễn, V. T. (2026b). Tiền gửi không kỳ hạn, hiệu quả hoạt động và ổn định tài
+  chính ngân hàng: Bằng chứng từ mô hình ngưỡng tại Việt Nam. Tạp chí Kinh tế - Luật và Ngân hàng,
+  28(9), 52–64. https://doi.org/10.59276/3030-4199/jelb.bav.895
+Quốc hội. (2025). Nghị quyết số 222/2025/QH15 ngày 27/6/2025 về Trung tâm tài chính quốc tế tại
+  Việt Nam.
+Sở Giao dịch Chứng khoán Hà Nội. (2016). Quyết định số 529/QĐ-SGDHN ngày 25/8/2016 về việc
+   ban hành Quy chế giao dịch chứng khoán niêm yết tại Sở Giao dịch Chứng khoán Hà Nội.
+Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2016). Quyết định số 341/QĐ-SGDHCM ngày
+   22/8/2016 ban hành Quy chế giao dịch chứng khoán.
+Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2025). Quy định giao dịch đăng website HOSE
+   [Kèm theo Tờ trình số 51/TTr-HTGD ngày 26/4/2025].
+Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2026). Quyết định số 737/QĐ-SGDHCM ngày
+   29/9/2026 ban hành Quy tắc chỉ số VNINDEX phiên bản 1.0. https://stream.vnx.vn/VNX//Artic
+   le/2026100813094820920260929_QD737_SGDHCM_QTCS-VNINDEX.pdf
+Sở Giao dịch Chứng khoán Việt Nam. (2026). Sắp xếp lại thị trường giao dịch cổ phiếu niêm yết theo
+   Thông tư số 139/2025/TT-BTC ngày 30/12/2025 của Bộ Tài chính [Thông báo ngày 30/9/2026].
+   https://vnx.vn/vi/thong-tin-tu-sgdck/VNX_QLHD/10005421
+Thời báo Tài chính Việt Nam. (2026). Chuyển toàn bộ cổ phiếu HNX sang HOSE trong năm 2026,
+   nghiên cứu giao dịch xuyên trưa và nới biên độ. https://thoibaotaichinhvietnam.vn/chuyen-toa
+
+
+
+48
+                                                                 DA N H M Ụ C TÀ I L I Ệ U T H A M K H Ả O    49
+
+
+
+   n-bo-co-phieu-hnx-sang-hose-trong-nam-2026-nghien-cuu-giao-dich-xuyen-trua-va-noi-bien-d
+   o-204943.html
+Tuổi Trẻ Online. (2026a). HOSE dự kiến chia cổ phiếu thành hai bảng Prime Board và Standard Board.
+   https://tuoitre.vn/hose-du-kien-chia-co-phieu-thanh-hai-bang-prime-board-va-standard-board-1
+   00261002092239776.htm
+Tuổi Trẻ Online. (2026b). Toàn bộ cổ phiếu trên HNX sẽ chuyển sang HOSE từ 28-12 [Bài báo ngày
+   30/9/2026]. https://tuoitre.vn/toan-bo-co-phieu-tren-hnx-se-chuyen-sang-hose-tu-28-12-10026
+   0930201353937.htm
+Ủy ban nhân dân thành phố Hà Nội. (2026). Quyết định số 1193/QĐ-UBND ngày 18/3/2026 về việc
+   công bố Danh mục các bài toán lớn của thành phố Hà Nội giai đoạn 2026–2030 (đợt 1).
+
+
+TÀ I L I Ệ U T I Ế N G A N H
+
+
+Amihud, Y. (2002). Illiquidity and stock returns: Cross-section and time-series effects. Journal of
+  Financial Markets, 5(1), 31–56.
+Amihud, Y., Mendelson, H., & Lauterbach, B. (1997). Market microstructure and securities values:
+  Evidence from the Tel Aviv Stock Exchange. Journal of Financial Economics, 45(3), 365–390. https:
+  //doi.org/10.1016/S0304-405X(97)00021-4
+Bae, K.-H., Chan, K., & Ng, A. (2004). Investibility and return volatility. Journal of Financial Economics,
+   71(2), 239–263.
+Bai, J., & Perron, P. (1998). Estimating and testing linear models with multiple structural changes.
+    Econometrica, 66(1), 47–78.
+Bekaert, G., Harvey, C. R., & Lundblad, C. (2007). Liquidity and expected returns: Lessons from
+   emerging markets. The Review of Financial Studies, 20(6), 1783–1831.
+Bessler, W., Opfer, H., & Wolff, D. (2017). Multi-asset portfolio optimization and out-of-sample
+   performance: An evaluation of Black-Litterman, mean-variance, and naı̈ve diversification
+   approaches. The European Journal of Finance, 23(1), 1–30.
+Black, F., & Litterman, R. (1992). Global portfolio optimization. Financial Analysts Journal, 48(5), 28–43.
+Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-differences with multiple time periods. Journal
+    of Econometrics, 225(2), 200–230.
+Cetorelli, N., & Peristiani, S. (2013). Prestigious stock exchanges: A network analysis of international
+   financial centers. Journal of Banking & Finance, 37(5), 1543–1551.
+Chen, K., & Chen, G. (2015). The rise of international financial centers in mainland China. Cities, 47,
+   10–22.
+Christie, W. G., & Huang, R. D. (1994). Market structures and liquidity: A transactions data study of
+   exchange listings. Journal of Financial Intermediation, 3(3), 300–326.
+Čihák, M., Demirgüç-Kunt, A., Feyen, E., & Levine, R. (2012). Benchmarking financial systems around the
+    world (Policy Research Working Paper No. 6175). World Bank.
+Conley, T. G., & Taber, C. R. (2011). Inference with “difference in differences” with a small number of
+   policy changes. The Review of Economics and Statistics, 93(1), 113–125.
+Corwin, S. A., & Schultz, P. (2012). A simple way to estimate bid-ask spreads from daily high and low
+   prices. The Journal of Finance, 67(2), 719–760. https://doi.org/10.1111/j.1540-6261.2012.01729.x
+Coval, J. D., & Moskowitz, T. J. (1999). Home bias at home: Local equity preference in domestic
+   portfolios. The Journal of Finance, 54(6), 2045–2073. https://doi.org/10.1111/0022-1082.00181
+50   DA N H M Ụ C TÀ I L I Ệ U T H A M K H Ả O
+
+
+
+
+     Dao, V. H., Nguyen, T. M. H., & Vu, T. D. (2021). The impact of COVID-19 on stock market returns in
+        Vietnam. Journal of Risk and Financial Management, 14(9), Article 441. https://doi.org/10.3390/jrfm
+        14090441
+     Daw, J. R., & Hatfield, L. A. (2018). Matching and regression to the mean in difference-in-differences
+        analysis. Health Services Research, 53(6), 4138–4156. https://doi.org/10.1111/1475-6773.12993
+     DeMiguel, V., Garlappi, L., & Uppal, R. (2009). Optimal versus naive diversification: How inefficient is
+       the 1/N portfolio strategy? The Review of Financial Studies, 22(5), 1915–1953.
+     Eichengreen, B., & Shah, N. (2020). The correlates of international financial-center status. Review of
+        International Economics, 28(1), 62–81. https://doi.org/10.1111/roie.12441
+     Elliott, D. J. (2011). Building a global financial center in Shanghai: Observations from other centers. Brookings
+         Institution.
+     Fong, K. Y. L., Holden, C. W., & Trzcinka, C. A. (2017). What are the best liquidity proxies for global
+        research? Review of Finance, 21(4), 1355–1401.
+     FTSE Russell. (2026a, September). FTSE Global Equity Index Series ground rules (Version 14.4). LSEG.
+     FTSE Russell. (2026b, August). Reclassification of Vietnam from Frontier to Secondary Emerging market
+        status: Frequently asked questions (Version 1.3). LSEG. https://www.lseg.com/content/dam/ftse-rus
+        sell/en_us/documents/policy-documents/ftse-faq-document-vietnam-reclassification.pdf
+     Garlappi, L., Uppal, R., & Wang, T. (2007). Portfolio selection with parameter and model uncertainty:
+        A multi-prior approach. The Review of Financial Studies, 20(1), 41–81.
+     Gehrig, T. (2000). Cities and the geography of financial centers. In J.-M. Huriot & J.-F. Thisse (Eds.),
+        Economics of cities: Theoretical perspectives (pp. 415–445). Cambridge University Press.
+     Goutte, S., Le, H.-V., Liu, F., & von Mettenheim, H.-J. (2025). MCDA strategies for portfolio
+       optimization: A case study on Vietnamese stock market dynamics. Annals of Operations Research,
+       353(1), 321–351.
+     Griffin, J. M., Kelly, P. J., & Nardari, F. (2010). Do market efficiency measures yield correct inferences?
+         A comparison of developed and emerging markets. The Review of Financial Studies, 23(8), 3225–3277.
+     Hamilton, J. D. (1989). A new approach to the economic analysis of nonstationary time series and the
+       business cycle. Econometrica, 57(2), 357–384.
+     Hisada, T. (2018). The effect of investor sentiment toward an exchange merger on liquidity. International
+        Journal of Economics and Financial Issues, 8(2), 315–318.
+     Hoang, V.-M. D., & Luu, D. T. (2024). Modelling volatility dynamics and identifying regime switching
+       in a frontier stock market: The case of Vietnam (SSRN Working Paper No. 4867203; bản sửa ngày
+       17/9/2025). SSRN.
+     Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of
+        Statistics, 6(2), 65–70.
+     Hou, K., & Moskowitz, T. J. (2005). Market frictions, price delay, and the cross-section of expected
+       returns. The Review of Financial Studies, 18(3), 981–1020.
+     Huang, R. D., & Stoll, H. R. (1996). Dealer versus auction markets: A paired comparison of execution
+       costs on NASDAQ and the NYSE. Journal of Financial Economics, 41(3), 313–357.
+     International Monetary Fund. (2023). Vietnam: 2023 Article IV consultation (IMF Country Report No.
+         23/338). https://www.elibrary.imf.org/view/journals/002/2023/338/article-A001-en.xml
+     Kan, R., & Zhou, G. (2007). Optimal portfolio choice with parameter uncertainty. Journal of Financial
+        and Quantitative Analysis, 42(3), 621–656.
+     Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology
+        and analytical issues. Hague Journal on the Rule of Law, 3(2), 220–246.
+                                                                 DA N H M Ụ C TÀ I L I Ệ U T H A M K H Ả O    51
+
+
+
+Kindleberger, C. P. (1974). The formation of financial centers: A study in comparative economic history
+   (Princeton Studies in International Finance No. 36). Princeton University.
+Kritzman, M., Page, S., & Turkington, D. (2012). Regime shifts: Implications for dynamic strategies.
+    Financial Analysts Journal, 68(3), 22–39.
+Lai, K. P. Y. (2012). Differentiated markets: Shanghai, Beijing and Hong Kong in China’s financial
+    centre network. Urban Studies, 49(6), 1275–1296. https://doi.org/10.1177/0042098011408143
+Lang, M., Lins, K. V., & Maffett, M. (2012). Transparency, liquidity, and valuation: International
+   evidence on when transparency matters most. Journal of Accounting Research, 50(3), 729–774.
+Ledoit, O., & Wolf, M. (2004). A well-conditioned estimator for large-dimensional covariance matrices.
+   Journal of Multivariate Analysis, 88(2), 365–411.
+Ledoit, O., & Wolf, M. (2008). Robust performance hypothesis testing with the Sharpe ratio. Journal of
+   Empirical Finance, 15(5), 850–859.
+Lesmond, D. A. (2005). Liquidity of emerging markets. Journal of Financial Economics, 77(2), 411–452.
+Lesmond, D. A., Ogden, J. P., & Trzcinka, C. A. (1999). A new estimate of transaction costs. The Review
+   of Financial Studies, 12(5), 1113–1141.
+Lo, A. W., & MacKinlay, A. C. (1988). Stock market prices do not follow random walks: Evidence from
+    a simple specification test. The Review of Financial Studies, 1(1), 41–66.
+Loughran, T., & Schultz, P. (2005). Liquidity: Urban versus rural firms. Journal of Financial Economics,
+   78(2), 341–374.
+Markowitz, H. (1952). Portfolio selection. The Journal of Finance, 7(1), 77–91.
+Michaud, R. O. (1989). The Markowitz optimization enigma: Is ‘optimized’ optimal? Financial Analysts
+   Journal, 45(1), 31–42.
+Moosa, I., Li, L., & Jiang, R. (2016). Determinants of the status of an international financial centre. The
+  World Economy, 39(12), 2074–2096.
+Naeem, M. M. F. (2023). What makes an International Financial Centre (IFC) competitive? An empirical study
+   of the determinants responsible for the competitiveness of an IFC [Luận án tiến sĩ Quản trị kinh doanh
+   (DBA), Durham University]. Durham E-Theses. https://etheses.durham.ac.uk/id/eprint/15102/
+Nguyen, N., Nguyen, T., Tran, T., & Mai, A. (2020). Shrinkage model selection for portfolio optimization
+  on Vietnam stock market. The Journal of Asian Finance, Economics and Business, 7(9), 135–145.
+Nguyễn, T. B., & Nguyễn, V. T. (2026a). Black-Litterman portfolio optimization using regime switching
+  CAPM and ABC-MCMC: Empirical evidence from the Vietnamese stock market period 2019–2025.
+  Tạp chí Nghiên cứu Chính sách và Phát triển, 3(1), 81–99. https://doi.org/10.63640/3030-4091/jpd.ap
+  d.194
+Nielsson, U. (2009). Stock exchange merger and liquidity: The case of Euronext. Journal of Financial
+   Markets, 12(2), 229–267.
+OECD. (2008). Handbook on constructing composite indicators: Methodology and user guide. OECD
+  Publishing.
+Pflug, G. C., Pichler, A., & Wozabal, D. (2012). The 1/N investment strategy is optimal under high
+    model ambiguity. Journal of Banking & Finance, 36(2), 410–417.
+Politis, D. N., & Romano, J. P. (1994). The stationary bootstrap. Journal of the American Statistical
+    Association, 89(428), 1303–1313.
+Rambachan, A., & Roth, J. (2023). A more credible approach to parallel trends. The Review of Economic
+   Studies, 90(5), 2555–2591.
+52   DA N H M Ụ C TÀ I L I Ệ U T H A M K H Ả O
+
+
+
+
+     Ta, B. Q., & Vuong, T. (2020). The Black-Litterman model for portfolio optimization on Vietnam stock
+         market. International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 28(Supp01),
+         99–111.
+     Vo, X. V., & Phan, D. B. A. (2017). Further evidence on the herd behavior in Vietnam stock market.
+         Journal of Behavioral and Experimental Finance, 13, 33–41.
+     Vu, T. L., Luong, N. H., & Nguyen, P. N. (2024). Stock crash and how it spreads over the Vietnamese
+        stock market. VNU Journal of Economics and Business, 4(3), 107–116. https://doi.org/10.57110/vnu-j
+        eb.v4i3.339
+     Wang, D. T., Zhao, S. X., & Wang, D. (2007). “Information hinterland”: A base for financial centre
+       development. The case of Beijing versus Shanghai in China. Tijdschrift voor Economische en Sociale
+       Geografie, 98(1), 102–120.
+     Wardle, M., & Mainelli, M. (2026, September). The Global Financial Centres Index 40. Z/Yen Group &
+        China Development Institute. https://www.longfinance.net/media/documents/GFCI_40_Report
+        _2026.09.16_v1.2.pdf
+     Wójcik, D. (2007). Geography and the future of stock exchanges: Between real and virtual space.
+       Growth and Change, 38(2), 200–223.
+     Yao, J.-M. (2012). Compétitivité et attractivité des places financières internationales: Application à l’industrie
+        des fonds d’investissement au Luxembourg [Luận án tiến sĩ Kinh tế học, Université de Strasbourg].
+
+
+
+
+                                                                      Hà Nội, ngày . . . tháng 10 năm 2026
+                                                                              NGƯỜI DỰ TUYỂN
+                                                                             (Ký và ghi rõ họ tên)
+
+
+
+
+                                                                                 Nguyễn Văn Trung
+B Ả N G T R A K Ý H I Ệ U, B I Ế N VÀ C Ô N G T H Ứ C
+                                                                                     A
+Phụ lục này gom mọi ký hiệu dùng trong các công thức. Cột cuối cho biết ký hiệu xuất hiện
+lần đầu ở công thức nào. Công thức được đánh số theo chương: công thức (4.k) trong bản dài
+là công thức (k) trong bản nộp v14, với k từ 1 đến 7.
+
+ Ký hiệu            Ý nghĩa                                                          Công thức
+
+ Chỉ số dưới
+ i                  Cổ phiếu (ở công thức (4.5), (4.6)) hoặc trung tâm tài chính (ở (4.5), (4.7)
+                    công thức (4.7))
+  j                 Sàn: niêm yết HNX, UPCoM hoặc HOSE                               (4.1)
+ t                  Tháng (công thức (4.1), (4.5), (4.6)) hoặc kỳ công bố GFCI       (4.1)
+                    (công thức (4.7))
+ k                  Tháng sự kiện, từ 1/2024 đến 12/2028, tháng gốc 6/2025           (4.6)
+ m                  Mô hình phân bổ M1 –M7                                           (4.3)
+ s                  Loại cú sốc: biên độ, bước giá, chỉ số                           mục 4.3.7
+
+ Chất lượng thị trường
+ MQI jt             Chỉ số chất lượng thị trường vốn của sàn j trong tháng t         (4.1)
+ TK jt              Điểm chiều thanh khoản: trung bình điểm z của Amihud, tỷ (4.1)
+                    lệ ngày lợi suất bằng 0, chênh lệch Corwin–Schultz (đã đổi
+                    dấu)
+ HQ jt              Điểm chiều hiệu quả thông tin: trung bình điểm z của độ          (4.1)
+                    lệch tỷ số phương sai khỏi 1 và độ trễ giá (đã đổi dấu)
+ MB jt              Điểm chiều minh bạch: điểm z của số ngày trễ hạn công bố         (4.1)
+                    báo cáo quý (đã đổi dấu)
+
+ Khả năng đầu tư
+ U                  Lợi suất tương đương chắc chắn sau chi phí, quy năm              (4.2)
+ µ                  Trung bình mẫu của lợi suất vượt trội tuần sau chi phí, nhân (4.2)
+                    52
+ σ2                 Phương sai mẫu của lợi suất vượt trội tuần sau chi phí, nhân (4.2)
+                    52
+ ρ                  Hệ số ngại rủi ro; cơ sở bằng 5, độ nhạy ở 3 và 10               (4.2)
+ Um (H), Um (CS)    Lợi suất tương đương chắc chắn của mô hình m trên rổ H và (4.3)
+                    rổ CS
+  Gm                Khoảng cách khả năng đầu tư của mô hình m                        (4.3)
+  Ḡ                Chỉ số khả năng đầu tư: bình quân Gm theo bảy mô hình            (4.4)
+
+ Khác biệt kép
+
+
+
+
+                                                                                                   53
+54   B Ả N G T R A K Ý H I Ệ U , B I Ế N VÀ C Ô N G T H Ứ C
+
+
+
+
+       Ký hiệu               Ý nghĩa                                                      Công thức
+
+       Ait                   Logarit độ phi thanh khoản Amihud, tính trên các ngày có (4.5)
+                             lợi suất tuyệt đối dưới ngưỡng chung và không liền sau ngày
+                             có lợi suất tuyệt đối từ ngưỡng trở lên
+       Di                    Bằng 1 nếu cổ phiếu chuyển sàn (mọi mã niêm yết tại HNX) (4.5)
+       Postt                 Bằng 1 từ tháng 1/2027                                       (4.5)
+       αi                    Hiệu ứng cố định theo cổ phiếu (hoặc theo trung tâm ở công (4.5)
+                             thức (4.7))
+       τt                    Hiệu ứng cố định theo tháng (hoặc theo kỳ ở công thức (4.7)) (4.5)
+       δ                     Tác động của việc chuyển sàn; H3 kỳ vọng âm                  (4.5)
+       ε it                  Sai số                                                       (4.5)
+       Tkt                   Bằng 1 nếu tháng t là tháng k                                (4.6)
+       δk                    Chênh lệch giữa hai nhóm ở tháng k so với tháng gốc          (4.6)
+       Esi                   Mức chịu cú sốc s của cổ phiếu i, chuẩn hóa trong nhóm       mục 4.3.7
+                             chuyển sàn
+       dt                    Chênh lệch trung bình logarit Amihud giữa mã chuyển sàn      mục 4.3.7
+                             và mã đối chứng ghép cặp trong tháng t
+       ϕ                     Hệ số tự hồi quy bậc một của chuỗi dt (giả định minh họa)    mục 4.3.7,
+                                                                                          4.3.10
+       σ (ở mục 4.3.10)      Độ lệch chuẩn không điều kiện của chuỗi dt                   mục 4.3.10
+
+       Bằng chứng quốc tế
+       Zit                   Điểm GFCI của trung tâm i ở kỳ t, chuẩn hóa thành điểm z     (4.7)
+                             trong từng kỳ
+       SMDit                 Chỉ báo phát triển thị trường cổ phiếu (vòng quay, vốn hóa (4.7)
+                             trên GDP) của quốc gia chứa trung tâm, năm liền trước kỳ t
+       β                     Liên hệ có điều kiện giữa SMD và điểm GFCI; H1 kỳ vọng       (4.7)
+                             dương
+       Wit                   Thu nhập bình quân đầu người và chỉ số quản trị nhà nước     (4.7)
+       λ                     Véc-tơ hệ số của Wit ; λWit hiểu là tích vô hướng của hai    (4.7)
+                             véc-tơ
+
+
+     B Ả Y CÔ NG T H Ứ C T R Ê N M Ộ T T R A NG.
+
+                       TK jt + HQ jt + MB jt
+              MQI jt =                                                         (4.1)
+                                  3
+                        ρ 2
+              U = µ− σ                                                         (4.2)
+                        2
+              Gm = Um (H) − Um (CS)                                            (4.3)
+                   G1 + G2 + · · · + G7
+              Ḡ =                                                             (4.4)
+                             7
+              Ait = αi + τt + δDi Postt + ε it                                 (4.5)
+              Ait = αi + τt + ∑ δk Di Tkt + ε it                               (4.6)
+                                k
+              Zit = αi + τt + βSMDit + λWit + ε it                             (4.7)
+M Ố C P H Á P LÝ VÀ T H Ờ I G I A N
+                                                                                  B
+Các mốc dưới đây được lấy từ chương 4 và danh mục tài liệu tham khảo, xếp theo thời gian.
+Cột cuối cho biết mốc được dùng ở đâu trong thiết kế nghiên cứu.
+
+ Thời điểm       Sự kiện hoặc văn bản                              Vai trò trong đề tài
+
+ 24/6/2009       UPCoM khai trương                                 Bắt đầu mẫu dữ liệu Việt
+                                                                   Nam
+ 22/8/2016       Quyết định số 341/QĐ-SGDHCM ban hành Quy          Bước giá sau chuyển sàn
+                 chế giao dịch của HOSE
+ 25/8/2016       Quyết định số 529/QĐ-SGDHN ban hành Quy chế Bước giá trước chuyển sàn
+                 giao dịch của HNX; bước giá 100 đồng (Điều 23)
+ 12/9/2016       Bảng bước giá 10/50/100 đồng của HOSE bắt đầu Bước giá sau chuyển sàn
+                 áp dụng
+ 31/12/2020      Thông tư số 120/2020/TT-BTC; biên độ do VNX       Biên độ ±7%, ±10%, ±15%
+                 quyết định sau khi Ủy ban Chứng khoán Nhà
+                 nước chấp thuận (Điều 4)
+ 12/7/2021       Thông tư số 57/2021/TT-BTC: hạn chuyển cổ         Lộ trình lần đầu
+                 phiếu niêm yết năm 2023
+ 15/11/2023      Thông tư số 69/2023/TT-BTC: hạn cổ phiếu niêm Lùi lần thứ nhất
+                 yết hết năm 2025; hạn cổ phiếu UPCoM hết ngày
+                 31/12/2026
+ 25/12/2023      Văn bản hợp nhất số 19/VBHN-BTC                   Văn bản dẫn chiếu
+ 27/6/2025       Nghị quyết số 222/2025/QH15: Trung tâm tài        Bối cảnh vị thế Hà Nội
+                 chính quốc tế tại Thành phố Hồ Chí Minh và Đà
+                 Nẵng
+ 30/6/2025       Hết giai đoạn tham chiếu; ngày tham chiếu để lập Mốc đo lường
+                 rổ, ghép đối chứng, đo mức chịu cú sốc và trụ sở
+ 1/7/2025        HNX ngừng tiếp nhận hồ sơ niêm yết cổ phiếu mới Bắt đầu giai đoạn chuyển
+                                                                 tiếp
+ 30/12/2025      Thông tư số 139/2025/TT-BTC: hạn cổ phiếu niêm Lùi lần thứ hai
+                 yết hết ngày 31/12/2026
+ 18/3/2026       Quyết định số 1193/QĐ-UBND công bố Danh           Câu hỏi chính sách
+                 mục bài toán lớn, có bài toán số 19
+ 15/6/2026       Nghị quyết số 57/2026/NQ-HĐND về chính sách Căn cứ hỗ trợ đào tạo
+                 phát triển nguồn nhân lực chất lượng cao
+ 30/6/2026       Dữ liệu lập danh sách cổ phiếu đủ điều kiện của   Loại mã khỏi nhóm đối
+                 FTSE Russell (chỉ gồm mã HOSE)                    chứng
+ 9/2026          Kỳ GFCI 40: Thành phố Hồ Chí Minh thứ 67/117, Bối cảnh H1
+                 Đà Nẵng thứ 71, Hà Nội không có
+
+
+
+
+                                                                                              55
+56   M Ố C P H Á P LÝ VÀ T H Ờ I G I A N
+
+
+
+
+       Thời điểm          Sự kiện hoặc văn bản                              Vai trò trong đề tài
+
+       9/2026–9/2027      FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số     Cú sốc trùng thời gian
+                          theo bốn đợt
+       29/9/2026          Quyết định số 737/QĐ-SGDHCM ban hành Quy          Cách VN-Index nhận mã
+                          tắc chỉ số VNINDEX phiên bản 1.0                  mới
+       30/9/2026          Thông báo của VNX về lịch chuyển sàn; phiên       Ngày công bố lịch chuyển
+                          30/9/2026 có 299 mã niêm yết tại HNX (Tuổi Trẻ    sàn
+                          Online, 2026b)
+       17/10/2026         Chưa có văn bản công bố lịch chuyển cổ phiếu      Theo dõi
+                          UPCoM
+       23/12/2026         Phiên giao dịch cuối của cổ phiếu niêm yết tại    Mốc lịch chuyển sàn
+                          HNX
+       24–25/12/2026      Tạm ngừng giao dịch                               Mốc lịch chuyển sàn
+       Trước              Khóa tệp đăng ký trước trên OSF Registries        Chỉ tiêu (1)
+       28/12/2026
+       28/12/2026         Phiên giao dịch đầu tiên tại HOSE; dự kiến công   Ngày sự kiện
+                          bố phân bảng lần đầu
+       31/12/2026         Hạn chuyển cổ phiếu niêm yết và cổ phiếu          Phương án dự phòng
+                          UPCoM theo các thông tư                           UPCoM
+       1/2027             Bắt đầu giai đoạn sau sự kiện (Postt = 1)         Kiểm định H3
+       Quý                Tám cửa sổ đánh giá sau sự kiện                   Ước lượng H4
+       1/2027–quý
+       4/2028
+       12/2028            Hết 24 tháng dữ liệu sau sự kiện                  Kiểm định H3 cuối cùng
+R Ủ I R O VÀ P H Ư Ơ N G Á N D Ự P H Ò N G
+                                                                                 C
+Bảng dưới gom các rủi ro đã nêu rải rác trong chương 4 và cách đề tài xử lý. Mỗi dòng ghi
+mục gốc để đọc lập luận đầy đủ.
+
+ Rủi ro                         Cách xử lý                                         Mục gốc
+
+ Không số hóa được hoặc         Trả lời câu hỏi 1 ở dạng mô tả; không kiểm định H1 4.3.10
+ không được phép dùng điểm
+ GFCI theo kỳ
+ Kỳ GFCI 40 có nhân tố trùng    Ước lượng lại H1 trên các kỳ không trùng lặp nếu 4.3.10
+ với SMD                        đủ số kỳ
+ Biến thiên của SMD trong       Báo cáo thêm ước lượng không có hiệu ứng cố        4.3.7
+ từng quốc gia nhỏ              định theo trung tâm
+ Chuyển sàn bị lùi hoặc theo    Dùng ngày thực tế từng nhóm và ước lượng cho       4.3.10
+ nhiều đợt                      xử lý so le (Callaway & Sant’Anna, 2021)
+ Sự kiện không diễn ra          Dùng các mã đã tự chuyển từ HNX sang HOSE          4.3.10
+                                trước năm 2026
+ UPCoM chuyển sang HOSE         Dùng nhóm đối chứng UPCoM đến tháng liền           4.3.10, 4.3.7
+ trước hoặc trong cửa sổ sau    trước ngày chuyển; dựa vào nhóm đối chứng
+                                HOSE; đo cú sốc biên độ bằng thước đo thay thế
+ Cả hai nhóm đối chứng không Dùng nhóm đối chứng tổng hợp từ mã HOSE               4.3.10
+ đạt xu hướng song song      ngoài danh sách FTSE Russell và mã UPCoM
+ Dữ liệu sau sự kiện ngắn hơn   Dùng toàn bộ tháng có sẵn                          4.3.10
+ 24 tháng
+ Rổ CS có ít hơn 30 mã đủ       Dùng rổ 20 cổ phiếu                                4.3.10
+ thanh khoản
+ Biên độ hẹp lại làm Amihud     Tính trên ngày dưới ngưỡng chung, bỏ ngày liền     4.3.2
+ giảm cơ học                    sau; loại mã giá thấp
+ Bước giá nhỏ đi làm tỷ lệ ngày Báo cáo theo nhóm mức giá; đọc cùng mức giảm       4.3.2
+ lợi suất bằng 0 giảm cơ học    bước giá
+ Ghép theo độ phi thanh         Báo cáo thêm kết quả chỉ ghép theo vốn hóa và      4.3.7
+ khoản tạo hồi quy về trung     ngành
+ bình
+ Mã đối chứng vào chỉ số FTSE Loại khỏi nhóm đối chứng                             4.3.8
+ Russell
+ Phân bảng của HOSE             Ước lượng thêm với biến giả nhóm bảng              4.3.8
+ Nới biên độ, giao dịch xuyên   Báo cáo thêm ước lượng với cửa sổ sau cắt tại ngày 4.3.8
+ trưa trong cửa sổ sau          áp dụng
+ Thanh khoản lan giữa hai       Dùng nhóm đối chứng UPCoM làm cận khác             4.3.8
+ nhóm
+
+
+
+
+                                                                                                   57
+58   R Ủ I R O VÀ P H Ư Ơ N G Á N D Ự P H Ò N G
+
+
+
+
+       Rủi ro                           Cách xử lý                                           Mục gốc
+
+       Rời mẫu liên quan đến sự kiện Báo cáo tỷ lệ hủy niêm yết; ước lượng lại trên bảng 4.3.8
+                                     cân bằng
+       Sai số chuẩn thông thường        Bootstrap tự hồi quy trên dt ; kiểm tra kích thước   4.3.7
+       bác bỏ quá dễ                    kiểm định bằng mô phỏng
+       Cửa sổ trước trộn nhiều chế      Bắt đầu sau điểm gãy cấu trúc cuối; báo cáo thêm     4.3.7
+       độ                               cửa sổ 24 tháng
+       Chọn kết quả sau khi xem dữ      Đăng ký trước trên OSF; ghi mọi lệch khỏi kế         4.3.5
+       liệu                             hoạch
+       Mô hình M5 của thí sinh kéo      Báo cáo cả khi có lẫn khi không có M5                4.3.5
+       kết quả
+       Kết quả chưa đủ cơ sở kết luận Báo cáo kích thước hiệu ứng, khoảng tin cậy và         4.3.10
+                                      hiệu ứng nhỏ nhất phát hiện được
+C ÂU H Ỏ I H Ộ I Đ Ồ N G C Ó T H Ể Đ ẶT R A
+                                                                           D
+Phụ lục này dùng để tự luyện trước buổi bảo vệ đề cương. Mỗi câu trả lời chỉ dựa vào những
+gì đã viết trong chương 4, và ghi mục để đọc lại.
+
+Đề tài có giải quyết bài toán số 19 không?
+Không trọn vẹn. Đề tài cung cấp thước đo nền cho câu hỏi số 1 và số 3 của bài toán; câu hỏi
+số 2 và số 4 nằm ngoài phạm vi. Sản phẩm gần nhất với danh mục sản phẩm của bài toán là
+Chỉ số chất lượng thị trường vốn, có thể là một cấu phần của “Hệ thống dữ liệu tài chính đô
+thị” (mục 4.1, 4.4).
+
+Trung tâm tài chính quốc tế đặt ở Thành phố Hồ Chí Minh và Đà Nẵng, sao lại nghiên
+cứu cho Hà Nội?
+Chính vì vậy. Theo Nghị quyết số 222/2025/QH15, trung tâm tài chính quốc tế đặt tại Thành
+phố Hồ Chí Minh và Đà Nẵng; Hà Nội không có trong GFCI 40 (Wardle & Mainelli, 2026) và
+sắp không còn sàn cổ phiếu niêm yết. Câu hỏi thực tế là Hà Nội nên chuyên môn hóa vào
+đâu, và câu trả lời cần số đo (mục 4.1).
+
+Vì sao không dùng sai số chuẩn phân cụm theo cổ phiếu?
+Vì mọi cổ phiếu chuyển sàn cùng một ngày, nên về bản chất chỉ có một lần chuyển sàn; coi
+299 mã là 299 quan sát độc lập làm sai số chuẩn quá nhỏ (Conley & Taber, 2011). Suy luận
+chính là bootstrap tự hồi quy trên chuỗi chênh lệch theo tháng (mục 4.3.7).
+
+Nếu không bác bỏ được giả thuyết gốc thì sao?
+Đề tài báo cáo kích thước hiệu ứng và khoảng tin cậy. Nếu khoảng tin cậy chứa cả 0 lẫn tác
+động lớn, kết quả là chưa đủ cơ sở kết luận, không phải bằng chứng không có tác động. Hai
+chỉ số và tệp đăng ký vẫn là sản phẩm dùng được (mục 4.3.10, 4.1).
+
+Đề tài phát hiện được tác động nhỏ đến đâu?
+Với giả định minh họa σ = 0,2 và ϕ = 0,6, logarit Amihud phải giảm khoảng 0,25 trở lên,
+tức độ phi thanh khoản giảm khoảng 22%. Giá trị thật sẽ được ước lượng từ giai đoạn tham
+chiếu và ghi vào tệp đăng ký (mục 4.3.10).
+
+Biên độ và bước giá thay đổi cùng lúc với sàn, làm sao tách ra?
+Không tách được hoàn toàn; δ đo tác động gộp của sàn. Đề tài hạn chế phần thay đổi cơ học
+bằng ngưỡng lợi suất chung khi tính Amihud và báo cáo theo nhóm mức giá, và ước lượng
+tác động khác nhau theo mức chịu cú sốc, nhưng các tương tác không đo riêng tác động của
+từng quy tắc (mục 4.3.2, 4.3.7).
+
+Sao không dùng tỷ số Sharpe cho khả năng đầu tư?
+Vì khi lợi suất vượt trội trung bình âm, danh mục rủi ro hơn lại có tỷ số Sharpe ít âm hơn.
+Lợi suất tương đương chắc chắn luôn phạt rủi ro cao hơn. Tỷ số Sharpe vẫn được báo cáo là
+thước đo phụ (mục 4.3.6).
+
+
+
+                                                                                        59
+60   C ÂU H Ỏ I H Ộ I Đ Ồ N G C Ó T H Ể Đ Ặ T R A
+
+
+
+
+     Vì sao cần bảy mô hình, không dùng một?
+     Để kết luận không phụ thuộc vào sai số của một mô hình. Độ phân tán giữa các mô hình cho
+     biết mức phụ thuộc đó; khoảng cách của M1 , mô hình không cần ước lượng tham số, được
+     báo cáo riêng như phép so sánh sạch nhất (mục 4.3.5, 4.3.6).
+
+     M5 là mô hình của chính thí sinh, có thiên lệch không?
+     Có thể có, nên kết quả được báo cáo cả khi có lẫn khi không có M5 , và mọi mô hình được tinh
+     chỉnh với cùng quy tắc và cùng ngân sách (mục 4.3.5).
+
+     Thí sinh đã dùng dữ liệu HOSE trong các bài trước, làm sao tránh chọn kết quả?
+     Bằng đăng ký trước trên OSF Registries trước ngày 28/12/2026, khai rõ phạm vi sàn, giai
+     đoạn và chỉ báo đã tính trong các bài trước; mọi thay đổi sau đó được ghi là lệch khỏi kế
+     hoạch (mục 4.3.5).
+
+     FTSE Russell nâng hạng cùng thời gian, có làm hỏng thiết kế không?
+     FTSE Russell coi cả HOSE và HNX là sàn đủ điều kiện, nên đổi sàn không đổi tư cách sàng
+     lọc. Danh sách đủ điều kiện chỉ gồm mã HOSE và được dùng để loại mã khỏi nhóm đối
+     chứng (mục 4.3.7, 4.3.8).
+
+     UPCoM thì sao?
+     Đợt chuyển ngày 28/12/2026 không gồm UPCoM, nhưng hạn chuyển UPCoM theo thông
+     tư vẫn là hết ngày 31/12/2026. Nếu UPCoM chuyển, nhóm đối chứng UPCoM chỉ được
+     dùng đến tháng liền trước ngày chuyển, và ước lượng chính dựa vào nhóm đối chứng HOSE
+     (mục 4.3.10).
+
+     H1 có phải quan hệ nhân quả không?
+     Không. Điểm GFCI đã chứa dữ liệu giao dịch cổ phiếu, và trung tâm mạnh có thể kéo theo
+     giao dịch cổ phiếu, nên β chỉ là liên hệ có điều kiện (mục 4.3.7).
+
+     Kết quả giúp gì cho HNX?
+     Chỉ số chất lượng thị trường vốn có thể được mở rộng sang trái phiếu chính phủ và phái sinh,
+     và báo cáo định hướng chuyên môn hóa hướng tới chính các thị trường HNX tiếp tục vận
+     hành. Thí sinh sẽ xin văn bản xác nhận hoặc cam kết sử dụng kết quả, ưu tiên HNX (mục 4.4,
+     chương 9).
+B Ả N G T H UẬT N G Ữ
+                                                                            E
+Các thuật ngữ được xếp theo thứ tự chữ cái. Mỗi mục giải thích bằng lời thường và ghi mục
+đầu tiên dùng thuật ngữ đó.
+
+Biên độ dao động giá
+  Mức tăng hoặc giảm tối đa của giá trong một phiên so với giá tham chiếu: ±7% ở HOSE,
+  ±10% ở HNX, ±15% ở UPCoM. Giá trần và giá sàn được làm tròn theo bước giá (mục 4.3.2).
+Bootstrap
+  Cách ước lượng độ bất định bằng cách lấy mẫu lại nhiều lần từ chính dữ liệu, tính thống
+  kê trên mỗi mẫu giả, rồi xem các thống kê giả phân tán thế nào (mục 4.3.4).
+Bootstrap khối dừng
+  Bootstrap lấy mẫu lại theo từng khối tháng liên tiếp có độ dài ngẫu nhiên, để giữ mức
+  tương quan giữa các tháng gần nhau (Politis & Romano, 1994). Dùng cho H2 và H4
+  (mục 4.3.4).
+Bootstrap tự hồi quy
+  Bootstrap tạo chuỗi giả theo một mô hình tự hồi quy đã ước lượng, với phần dư rút ngẫu
+  nhiên. Dùng cho H3 (mục 4.3.7).
+Bước giá (đơn vị yết giá)
+  Khoảng cách nhỏ nhất giữa hai mức giá được phép đặt lệnh: 100 đồng ở HNX; 10, 50 hoặc
+  100 đồng ở HOSE tùy mức giá (mục 4.3.2).
+Chênh lệch mua-bán (Corwin–Schultz)
+  Khoảng cách giữa giá chào mua và giá chào bán, ước lượng từ giá cao nhất và thấp nhất
+  của hai ngày liên tiếp (Corwin & Schultz, 2012) (mục 4.3.4).
+Chỉ số chất lượng thị trường vốn (MQI)
+  Trung bình của ba điểm chiều (thanh khoản, hiệu quả thông tin, minh bạch) của một sàn
+  trong một tháng (công thức (4.1)).
+Chỉ số khả năng đầu tư (Ḡ)
+  Bình quân theo bảy mô hình của khoảng cách lợi suất tương đương chắc chắn giữa rổ H
+  và rổ CS (công thức (4.4)).
+Cửa sổ ước lượng, cửa sổ đánh giá
+  Đoạn dữ liệu dùng để chọn trọng số (104 tuần) và đoạn dữ liệu dùng để chấm điểm danh
+  mục đã chọn (3 tháng), không chồng lên nhau (mục 4.3.6).
+Danh mục chỉ mua
+  Danh mục không được bán khống, mọi trọng số không âm (Bảng 4.3).
+
+
+
+
+                                                                                      61
+62   BẢNG THUẬT NGỮ
+
+
+
+
+     Đăng ký trước
+       Công bố kế hoạch phân tích, có dấu thời gian, trước khi có dữ liệu kết quả; mọi thay đổi
+       sau đó được ghi là lệch khỏi kế hoạch (mục 4.3.5).
+     Điểm gãy cấu trúc
+       Thời điểm mà mức bình quân hoặc quy luật của một chuỗi thay đổi; ước lượng theo Bai và
+       Perron (1998) (mục 4.3.7).
+     Điểm z
+       Giá trị trừ trung bình rồi chia độ lệch chuẩn, để đưa các chỉ báo khác đơn vị về cùng thang
+       đo (mục 4.3.4).
+     Độ phi thanh khoản Amihud
+       Bình quân của lợi suất tuyệt đối chia giá trị giao dịch theo ngày: một đồng giao dịch làm
+       giá dịch chuyển bao nhiêu. Càng cao càng khó mua bán (Amihud, 2002) (mục 4.2).
+     Độ trễ giá
+       Mức độ lợi suất của cổ phiếu được giải thích thêm bởi lợi suất thị trường các tuần trước;
+       cao nghĩa là phản ánh thông tin chậm (Hou & Moskowitz, 2005) (mục 4.3.4).
+     Ghép láng giềng gần nhất
+       Với mỗi cổ phiếu chuyển sàn, chọn cổ phiếu HOSE giống nhất theo các tiêu chí cho trước;
+       “có hoàn lại” nghĩa là một mã HOSE có thể được chọn nhiều lần (mục 4.3.7).
+     Giá trị p một phía
+       Xác suất, nếu giả thuyết gốc đúng, quan sát được kết quả cực đoan ít nhất như kết quả
+       thật theo đúng hướng giả thuyết kỳ vọng (mục 4.3.10).
+     Hiệu chỉnh Holm
+       Thủ tục so sánh các giá trị p với các ngưỡng tăng dần để giữ xác suất có ít nhất một kết
+       luận sai ở mức 5% cho cả họ giả thuyết (Holm, 1979) (mục 4.3.2).
+     Hiệu ứng cố định
+       Một hằng số riêng cho mỗi cổ phiếu (hoặc trung tâm) và cho mỗi tháng (hoặc kỳ), để loại
+       các khác biệt không đổi theo thời gian và các cú sốc chung (công thức (4.5)).
+     Hiệu ứng nhỏ nhất phát hiện được
+       Tác động nhỏ nhất mà thiết kế phát hiện được với xác suất 80% ở mức ý nghĩa đã chọn
+       (mục 4.3.10).
+     Hồi quy về trung bình
+       Hiện tượng giá trị cực đoan ở một thời điểm có xu hướng trở về mức thường lệ ở thời điểm
+       sau; nguy hiểm khi ghép theo chính thước đo kết quả (Daw & Hatfield, 2018) (mục 4.3.7).
+     Khác biệt kép
+       So thay đổi trước–sau của nhóm chịu sự kiện với thay đổi trước–sau của nhóm đối chứng
+       (công thức (4.5)).
+     Liên hệ có điều kiện
+        Mối liên hệ ước lượng được khi giữ cố định các biến kiểm soát; không phải quan hệ nhân
+        quả (mục 4.3.7).
+     Lợi suất tương đương chắc chắn
+       Lợi suất phi rủi ro mà nhà đầu tư coi là ngang giá với một danh mục rủi ro: lợi suất trung
+       bình trừ khoản phạt cho rủi ro (công thức (4.2)).
+                                                                        BẢNG THUẬT NGỮ        63
+
+
+
+Lợi suất vượt trội
+  Lợi suất của danh mục trừ lợi suất phi rủi ro (mục 4.3.6).
+Lực kiểm định
+  Xác suất bác bỏ giả thuyết gốc khi có tác động thật với độ lớn cho trước (mục 4.3.10).
+Mức chịu cú sốc
+ Thước đo cho biết một cổ phiếu chịu ảnh hưởng mạnh đến đâu của một thay đổi quy tắc
+ khi chuyển sàn: biên độ, bước giá, chỉ số (mục 4.3.7).
+Nghiên cứu sự kiện
+  Ước lượng một hệ số riêng cho từng tháng quanh sự kiện để xem tác động diễn biến theo
+  thời gian (công thức (4.6)).
+Nhóm đối chứng tổng hợp
+  Tổ hợp có trọng số của nhiều cổ phiếu đối chứng, chọn để bám sát nhóm chịu sự kiện
+  trong giai đoạn trước (mục 4.3.10).
+Thiên lệch sống sót
+  Sai lệch khi mẫu chỉ gồm các đơn vị còn tồn tại đến nay, bỏ sót các đơn vị đã rời đi
+  (mục 4.3.3).
+Tỷ lệ ngày lợi suất bằng 0
+  Tỷ lệ số ngày giá đóng cửa không đổi trên tổng số ngày giao dịch (Lesmond và cộng sự,
+  1999) (mục 4.3.4).
+Tỷ số phương sai
+  Phương sai của lợi suất nhiều ngày chia tổng phương sai lợi suất một ngày; bằng 1 khi giá
+  đi theo bước ngẫu nhiên (Lo & MacKinlay, 1988) (mục 4.3.4).
+Tỷ số Sharpe
+  Lợi suất vượt trội trung bình chia độ lệch chuẩn; chỉ là thước đo phụ trong đề tài
+  (mục 4.3.6).
+Tự hồi quy bậc một
+  Mô hình trong đó giá trị tháng này bằng một hằng số cộng với ϕ lần giá trị tháng trước
+  cộng nhiễu (mục 4.3.7).
+Vòng quay
+  Giá trị giao dịch chia vốn hóa; thước đo thanh khoản không dùng lợi suất (mục 4.3.2).
+Vùng hỗ trợ chung
+  Phần mẫu mà nhóm chịu sự kiện tìm được đối chứng đủ giống (mục 4.3.7).
+Winsorize
+  Thay giá trị quá lớn và quá nhỏ bằng giá trị ở một phân vị cho trước (ở đây 1% và 99%)
+  (mục 4.3.3).
+Xu hướng song song
+  Giả định rằng nếu không có sự kiện, chênh lệch giữa nhóm chịu sự kiện và nhóm đối
+  chứng không đổi theo thời gian (mục 4.3.8).
+T Í N H TAY T Ừ D Ữ L I Ệ U N G ÀY Đ Ế N TÁC Đ Ộ N G
+                                                                                               F
+Phụ lục này đi trọn đường của H3 trên một bộ số liệu giả lập rất nhỏ: một cổ phiếu chuyển
+sàn (gọi là X), một cổ phiếu đối chứng HOSE (gọi là Y), mỗi mã năm ngày của một tháng
+trước và một tháng sau sự kiện. Mọi con số là tự đặt để minh họa; nghiên cứu thật dùng
+khoảng 20 ngày mỗi tháng, hàng trăm mã và nhiều tháng. Ngưỡng lợi suất chung trong ví
+dụ là 6%.
+
+B Ư Ớ C 1. L Ợ I S U Ấ T T U Y Ệ T Đ Ố I C H I A G I Á T R Ị G I AO D Ị C H , T Ừ N G N G ÀY
+
+
+Với mỗi ngày, lấy lợi suất tuyệt đối (tính bằng phần trăm) chia giá trị giao dịch khớp lệnh
+(tính bằng tỷ đồng). Ngày có lợi suất tuyệt đối từ 6% trở lên bị loại; ngày liền sau ngày đó
+cũng bị loại.
+
+              Mã Tháng Ngày Lợi suất (%) Giá trị (tỷ đồng) |r |/V
+
+              X    trước         1          +1,0                 2,0 0,50
+              X    trước         2          −8,0                 4,0 loại (từ 6% trở lên)
+              X    trước         3          +2,0                 2,0 loại (liền sau ngày 2)
+              X    trước         4          −1,5                 1,5 1,00
+              X    trước         5          +0,5                 1,0 0,50
+
+              X    sau           1          +1,0                 4,0 0,25
+              X    sau           2          +0,8                 2,0 0,40
+              X    sau           3          −0,6                 3,0 0,20
+              X    sau           4          +6,5                 5,0 loại (từ 6% trở lên)
+              X    sau           5          −1,2                 4,0 loại (liền sau ngày 4)
+
+              Y    trước         1          +1,0                 2,5 0,40
+              Y    trước         2          +0,5                 1,0 0,50
+              Y    trước         3          −1,2                 2,0 0,60
+              Y    trước         4          +0,9                 3,0 0,30
+              Y    trước         5          −0,4                 2,0 0,20
+
+              Y    sau           1          +0,8                 2,0 0,40
+              Y    sau           2          −0,6                 2,0 0,30
+              Y    sau           3          +1,0                 4,0 0,25
+              Y    sau           4          −0,3                 1,0 0,30
+              Y    sau           5          +0,5                 2,0 0,25
+
+
+
+
+64
+                                                  T Í N H TAY T Ừ D Ữ L I Ệ U N G ÀY Đ Ế N TÁC Đ Ộ N G   65
+
+
+
+B Ư Ớ C 2. Đ Ộ P H I T H A N H K H O Ả N C Ủ A T H Á N G VÀ L O G A R I T
+
+
+Độ phi thanh khoản Amihud của tháng là bình quân các ngày hợp lệ; Ait là logarit của nó.
+
+                 Mã Tháng Ngày hợp lệ              Bình quân |r |/V            Ait
+
+                 X     trước       1, 4, 5   (0,50 + 1,00 + 0,50)/3 = 0,667   −0,405
+                 X     sau         1, 2, 3   (0,25 + 0,40 + 0,20)/3 = 0,283   −1,261
+                 Y     trước         1–5             2,00/5 = 0,400           −0,916
+                 Y     sau           1–5             1,50/5 = 0,300           −1,204
+
+   Trong nghiên cứu thật, ở bước này còn hai việc: winsorize tại phân vị 1% và 99% của mẫu
+gộp các sàn trong tháng (mục 4.3.3), và kiểm tra tháng có đủ số ngày hợp lệ tối thiểu ghi
+trong tệp đăng ký.
+
+B Ư Ớ C 3. C H U Ỗ I C H Ê N H L Ệ C H d t
+
+
+Với mỗi tháng, dt là chênh lệch logarit Amihud giữa mã chuyển sàn và mã đối chứng ghép
+cặp (trong nghiên cứu thật là chênh lệch trung bình trên mọi cặp):
+
+      dtrc = −0,405 − (−0,916) = 0,511          dsau = −1,261 − (−1,204) = −0,057
+
+Trước sự kiện, X kém thanh khoản hơn Y (d dương). Sau sự kiện, X gần bằng Y.
+
+B Ư Ớ C 4. T H Ố N G K Ê K I Ể M Đ Ị N H VÀ TÁC Đ Ộ N G
+
+
+Thống kê kiểm định là trung bình dt sau sự kiện trừ trung bình dt trong cửa sổ trước. Ở đây
+mỗi giai đoạn chỉ có một tháng:
+
+      −0,057 − 0,511 = −0,568
+
+Quy ra phần trăm: e−0,568 − 1 ≈ −0,43, tức độ phi thanh khoản của X giảm khoảng 43% so
+với Y. Đây cũng là δ của phương trình (4.5) khi chỉ có hai mã và hai tháng.
+
+B Ư Ớ C 5. G I Á T R Ị P
+
+
+Với một tháng mỗi phía thì không tính được giá trị p. Trong nghiên cứu thật, chuỗi dt có
+hàng chục tháng trước và 24 tháng sau; mô hình tự hồi quy được ước lượng trên giai đoạn
+tham chiếu và bootstrap tự hồi quy cho biết một giá trị như −0,568 có hiếm gặp khi không có
+sự kiện hay không (mục 4.3.7).
+
+Đ I Ề U V Í D Ụ N ÀY C H O T H Ấ Y
+
+
+   • Ngưỡng chung làm X mất hai ngày ở mỗi tháng, ở cả trước lẫn sau, theo cùng một quy
+     tắc. Nếu không có ngưỡng, ngày −8% ở HNX vẫn được tính, còn một ngày tương tự ở
+     HOSE sẽ bị chặn ở 7%; hai tháng sẽ được tính trên hai cơ sở khác nhau.
+
+   • Y cũng tốt lên (−1,204 so với −0,916): nếu chỉ nhìn X trước và sau, ta sẽ gán cả phần cải
+     thiện chung của thị trường cho việc chuyển sàn.
+66   T Í N H TAY T Ừ D Ữ L I Ệ U N G ÀY Đ Ế N TÁC Đ Ộ N G
+
+
+
+
+        • Kết quả từ hai mã và mười ngày không nói lên điều gì về thực tế; phụ lục này chỉ để
+          thấy từng bước tính.
+
