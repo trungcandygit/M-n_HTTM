@@ -25,27 +25,7 @@ Hợp nhất sàn chứng khoán và chất lượng thị trường:
 
 
                                       Hà Nội – 2026
-H Ư Ớ N G DẪ N Đ Ọ C
-
-
-B Ả N N ÀY L À G Ì
-
-
-Đây là bản dài của đề cương, viết để đọc kỹ chứ không phải để nộp. Bản nộp là v14, đã được
-duyệt. Bản dài chỉ giữ phần nội dung nghiên cứu của v14 (mục 4 và danh mục tài liệu tham
-khảo); các mục hành chính 1–3 và 5–10 (cơ sở đào tạo, mục tiêu cá nhân, kế hoạch học tập, lý
-lịch khoa học, việc làm, người hướng dẫn) được bỏ. Phần giữ lại có cùng tên đề tài, cùng ba
-câu hỏi, bốn giả thuyết, bảy công thức, cùng dữ liệu, mốc thời gian và danh mục tài liệu tham
-khảo. Phần thêm vào chỉ có tác dụng giải thích. Phần lớn các mục và tiểu mục của Chương 4
-mở bằng một hộp tóm tắt; mỗi công thức có lời giải thích và một ví dụ số; những lập luận bị
-cắt khi rút gọn v14 được viết lại đầy đủ; cuối bản có sáu phụ lục: ký hiệu, mốc thời gian, rủi
-ro và phương án dự phòng, câu hỏi hội đồng có thể đặt ra, bảng thuật ngữ, và một ví dụ tính
-tay từ dữ liệu ngày đến tác động.
-   Bản dài không thêm sự kiện, số liệu hay tài liệu trích dẫn nào ngoài v14 và bộ tài liệu thí
-sinh đã gửi. Các con số trong hộp Ví dụ số minh họa là số tự đặt để minh họa cách tính, không
-phải dữ liệu thị trường, và không được trích lại như kết quả.
-
-C ÂU C H U Y Ệ N C Ủ A Đ Ề TÀ I T R O N G S ÁU C ÂU
+T Ó M TẮT Đ Ề TÀ I
 
 
      1. Hà Nội muốn trở thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế, và đưa
@@ -69,140 +49,93 @@ C ÂU C H U Y Ệ N C Ủ A Đ Ề TÀ I T R O N G S ÁU C ÂU
      6. Từ ba câu trả lời, đề tài tổng hợp định hướng chuyên môn hóa cho những thị trường
         mà HNX tiếp tục vận hành: trái phiếu, phái sinh và UPCoM.
 
-Đ Ọ C T H E O Đ Ư Ờ N G N ÀO
-
-
-Đọc nhanh trong 20 phút. Đọc hướng dẫn này, các hộp tóm tắt ở đầu mỗi mục của Chương 4,
-     Bảng 4.2 (giả thuyết) và Phụ lục B (mốc thời gian).
-
 
 
 
 ii
-Hiểu phương pháp. Đọc mục 4.3.1 đến mục 4.3.10 theo thứ tự, dừng lại ở từng ví dụ số và
-     tự tính lại.
-
-Chuẩn bị phỏng vấn. Đọc mục 4.1, mục 4.2, mục 4.3.10 và Phụ lục D (các câu hỏi hội đồng
-    có thể đặt ra).
-
-Tra một ký hiệu. Dùng Phụ lục A.
-
-Gặp một thuật ngữ lạ. Dùng Phụ lục E.
-
-Muốn thấy số liệu đi qua từng bước. Đọc Phụ lục F.
-
-Q U Y Ư Ớ C T R Ì N H B ÀY
-
-
-   • Tên giả thuyết viết H1 –H4 ; tên mô hình phân bổ viết M1 –M7 ; tên khoảng trống nghiên
-     cứu viết K1 –K4 .
-
-   • Công thức viết theo lối kinh tế lượng cổ điển: chỉ số dưới viết liền, không có dấu phẩy
-     (Ait , không viết Ai,t ); phép nhân không ghi dấu; tham số là chữ Hy Lạp; tên biến gồm
-     nhiều chữ cái được viết đứng (MQI, Post, SMD).
-
-   • Số thập phân dùng dấu phẩy, số hàng nghìn dùng dấu chấm, theo cách viết tiếng Việt.
-
-   • Đánh số mục giữ nguyên như bản nộp (4.1, 4.3.7. . . ) để đối chiếu hai bản. Bảng, hình
-     và công thức được đánh số theo chương nên khác số thứ tự trong bản nộp; đầu Phụ
-     lục A ghi cách đối chiếu số công thức.
-
-   • Bốn loại hộp: Tóm tắt mục (đọc trước), Ví dụ số minh họa (tính tay được), Vì sao chọn cách
-     này (lý do của một lựa chọn phương pháp) và Chỗ dễ hiểu nhầm.
-
-
-
-
-                                                                                             iii
 M Ụ C LỤ C
 
-Hướng dẫn đọc        ii
-Danh mục chữ viết tắt      vii
-4 Đề cương sơ bộ dự kiến         1
-  4.1 Lý do chọn đề tài        1
-  4.2 Tổng quan những tài liệu liên quan đến tình hình nghiên cứu      6
-  4.3 Phương pháp nghiên cứu / Mô hình lý thuyết         10
-       4.3.1 Khung lý thuyết         10
-       4.3.2 Mô hình nghiên cứu và giả thuyết        11
-       4.3.3 Dữ liệu        15
-       4.3.4 Chỉ số chất lượng thị trường vốn      16
-       4.3.5 Mô hình phân bổ dùng làm công cụ đo và đăng ký trước          18
-       4.3.6 Chỉ số khả năng đầu tư          20
-       4.3.7 Kiểm định giả thuyết          22
-       4.3.8 Thiết kế khác biệt kép quanh ngày chuyển sàn      30
-       4.3.9 Quy trình nghiên cứu          31
-       4.3.10 Độ tin cậy, giới hạn và khả năng thực hiện    32
-  4.4 Đối tượng và phạm vi nghiên cứu           34
-  4.5 Dự kiến bố cục các chương và các tiểu mục đến 3 chữ số      35
-Danh mục tài liệu tham khảo       37
-A Bảng tra ký hiệu, biến và công thức       42
-B Mốc pháp lý và thời gian       44
-C Rủi ro và phương án dự phòng          46
-D Câu hỏi hội đồng có thể đặt ra      48
-E Bảng thuật ngữ        50
-F Tính tay từ dữ liệu ngày đến tác động        53
+
+Tóm tắt đề tài     ii
+Danh mục bảng, hình và chữ viết tắt         iv
+4 Đề cương sơ bộ dự kiến          1
+  4.1 Lý do chọn đề tài         1
+  4.2 Tổng quan những tài liệu liên quan đến tình hình nghiên cứu       6
+  4.3 Phương pháp nghiên cứu / Mô hình lý thuyết          10
+        4.3.1 Khung lý thuyết         10
+        4.3.2 Mô hình nghiên cứu và giả thuyết        11
+        4.3.3 Dữ liệu       15
+        4.3.4 Chỉ số chất lượng thị trường vốn       16
+        4.3.5 Mô hình phân bổ dùng làm công cụ đo và đăng ký trước          18
+        4.3.6 Chỉ số khả năng đầu tư           20
+        4.3.7 Kiểm định giả thuyết          22
+        4.3.8 Thiết kế khác biệt kép quanh ngày chuyển sàn      30
+        4.3.9 Quy trình nghiên cứu           31
+        4.3.10 Độ tin cậy, giới hạn và khả năng thực hiện    32
+  4.4 Đối tượng và phạm vi nghiên cứu             34
+  4.5 Dự kiến bố cục các chương và các tiểu mục đến 3 chữ số       35
+Danh mục tài liệu tham khảo        37
+A Bảng tra ký hiệu, biến và công thức         42
+B Mốc pháp lý và thời gian        44
+C Rủi ro và phương án dự phòng           46
+D Câu hỏi hội đồng có thể đặt ra       48
+E Bảng thuật ngữ       50
+F Tính tay từ dữ liệu ngày đến tác động          53
+
+
+
+
+                                                                                 iii
+DA N H M Ụ C B Ả N G , H Ì N H VÀ C H Ữ V I Ế T TẮT
+
+
+Danh mục bảng
+
+Số         Tên                                                                                Trang
+
+Bảng 4.1   Các nhóm nghiên cứu gần nhất và khoảng trống nghiên cứu                                   9
+Bảng 4.2   Giả thuyết, thước đo và cơ sở lý thuyết                                                  12
+Bảng 4.3   Bảy mô hình phân bổ dùng làm công cụ đo khả năng đầu tư                                  18
+Bảng 4.4   Ba thay đổi quy tắc khi chuyển sàn và thước đo mức chịu cú sốc                           26
+Bảng 4.5   Thay đổi trùng thời gian ở HOSE và cách xử lý                                            30
+Bảng 4.6   Dự kiến bố cục các chương và tiểu mục của luận án                                        36
+Danh mục hình
+
+
+Số         Tên                                                                                Trang
+
+Hình 4.1   Khung phân tích: hợp nhất sàn, chất lượng thị trường và khả năng đầu tư                  11
+Hình 4.2   Ba giai đoạn thời gian của mẫu dữ liệu Việt Nam                                          15
+Hình 4.3   Cửa sổ ước lượng, cửa sổ đánh giá và cách tính khoảng cách khả năng đầu tư               22
+Hình 4.4   Quy trình nghiên cứu                                                                     31
+Danh mục chữ viết tắt
+
+
+Chữ viết tắt   Tiếng Anh                                   Tiếng Việt
+
+CS             Không có                                    Rổ cổ phiếu chuyển sàn (ký hiệu của đề
+                                                           tài)
+GDP            Gross Domestic Product                      Tổng sản phẩm trong nước
+GFCI           Global Financial Centres Index              Chỉ số Trung tâm Tài chính Toàn cầu
+H              Không có                                    Rổ cổ phiếu HOSE được ghép với rổ CS
+                                                           (ký hiệu của đề tài, khác với tên giả
+                                                           thuyết H1 –H4 )
+HNX            Hanoi Stock Exchange                        Sở Giao dịch Chứng khoán Hà Nội
+HOSE           Ho Chi Minh Stock Exchange                  Sở Giao dịch Chứng khoán Thành phố
+                                                           Hồ Chí Minh
+MQI            Market Quality Index                        Chỉ số chất lượng thị trường vốn
+OECD           Organisation for Economic Co-operation      Tổ chức Hợp tác và Phát triển Kinh tế
+               and Development
+OSF            Open Science Framework                      Nền tảng khoa học mở
+SMD            Stock Market Development                    Chỉ báo phát triển thị trường cổ phiếu
+UPCoM          Unlisted Public Company Market              Thị trường giao dịch cổ phiếu của công ty
+                                                           đại chúng chưa niêm yết
+VNX            Vietnam Exchange                            Sở Giao dịch Chứng khoán Việt Nam
 
 
 
 
 iv
-DA N H M Ụ C B Ả N G
-
-
-Bảng 4.1     Các nhóm nghiên cứu gần nhất và khoảng trống nghiên cứu          9
-Bảng 4.2     Giả thuyết, thước đo và cơ sở lý thuyết     12
-Bảng 4.3     Bảy mô hình phân bổ dùng làm công cụ đo khả năng đầu tư          18
-Bảng 4.4     Ba thay đổi quy tắc khi chuyển sàn và thước đo mức chịu cú sốc    26
-Bảng 4.5     Thay đổi trùng thời gian ở HOSE và cách xử lý      30
-Bảng 4.6     Dự kiến bố cục các chương và tiểu mục của luận án       36
-
-
-
-
-                                                                                    v
-DA N H M Ụ C H Ì N H
-
-
-Hình 4.1     Khung phân tích: hợp nhất sàn, chất lượng thị trường và khả năng
-             đầu tư     11
-Hình 4.2     Ba giai đoạn thời gian của mẫu dữ liệu Việt Nam      15
-Hình 4.3     Cửa sổ ước lượng, cửa sổ đánh giá và cách tính khoảng cách khả năng
-             đầu tư     22
-Hình 4.4     Quy trình nghiên cứu       31
-
-
-
-
-vi
-DA N H M Ụ C C H Ữ V I Ế T TẮT
-
-
-
-Chữ viết tắt Tiếng Anh                               Tiếng Việt
-
-CS          Không có                                 Rổ cổ phiếu chuyển sàn (ký hiệu của đề
-                                                     tài)
-GDP         Gross Domestic Product                   Tổng sản phẩm trong nước
-GFCI        Global Financial Centres Index           Chỉ số Trung tâm Tài chính Toàn cầu
-H           Không có                                 Rổ cổ phiếu HOSE được ghép với rổ CS
-                                                     (ký hiệu của đề tài, khác với tên giả thuyết
-                                                     H1 –H4 )
-HNX         Hanoi Stock Exchange                     Sở Giao dịch Chứng khoán Hà Nội
-HOSE        Ho Chi Minh Stock Exchange               Sở Giao dịch Chứng khoán Thành phố Hồ
-                                                     Chí Minh
-MQI         Market Quality Index                     Chỉ số chất lượng thị trường vốn
-OECD        Organisation for Economic Co-operation   Tổ chức Hợp tác và Phát triển Kinh tế
-            and Development
-OSF         Open Science Framework                   Nền tảng khoa học mở
-SMD         Stock Market Development                 Chỉ báo phát triển thị trường cổ phiếu
-UPCoM       Unlisted Public Company Market           Thị trường giao dịch cổ phiếu của công ty
-                                                     đại chúng chưa niêm yết
-VNX         Vietnam Exchange                         Sở Giao dịch Chứng khoán Việt Nam
-
-
-
-
-                                                                                              vii
 ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
                                                                                     4
 Chương này là phần chính của đề cương. Nó đi theo trình tự của một nghiên cứu thực
@@ -974,18 +907,17 @@ giai đoạn chuyển tiếp, được báo cáo riêng (phiên bản nghiên c�
 không dùng trong các kiểm định chính; giai đoạn sau sự kiện kéo dài 24 tháng từ tháng
 1/2027.
 
-                                                                            Chuyển tiếp
-                                                                          7/2025–12/2026
+                                                                    Chuyển tiếp            Sau sự kiện
+                                                                 7/2025–12/2026            1/2027–12/2028
+
+
                          Giai đoạn tham chiếu 6/2009–6/2025
-                                                                                                      năm
-   2009              2013              2017             2021             20252026202720282029
-                                                                                    Sau sự kiện
-                                                                 28/12/2026
-                                                                                  1/2027–12/2028
+                                                                                                     năm
+ 2009               2013              2017              2021               2025              2029
+                                                                          Chuyển sàn 28/12/2026
 
                       Hình 4.2: Ba giai đoạn thời gian của mẫu dữ liệu Việt Nam
-Nguồn: Thí sinh đề xuất theo các mốc nêu trong mục 4.3.3. Ghi chú: trục thời gian không theo đúng tỷ lệ; giai
-đoạn chuyển tiếp (nét đứt) chỉ dùng trong phiên bản nghiên cứu sự kiện và phần mô tả.
+Ghi chú: ô nét đứt là giai đoạn chuyển tiếp, chỉ dùng trong phiên bản nghiên cứu sự kiện và phần mô tả.
 16   ĐỀ CƯƠNG SƠ BỘ DỰ KIẾN
 
 

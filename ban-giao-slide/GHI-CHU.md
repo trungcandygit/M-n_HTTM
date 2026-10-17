@@ -19,7 +19,7 @@ Lập ngày 17/10/2026.
 | `1-de-cuong/de-cuong-v14-BAN-NOP.docx` | **Bản nộp chính thức, đã chốt.** Mọi số liệu, mốc, trích dẫn và công thức lấy ở đây. | Gốc, ưu tiên số 1 |
 | `1-de-cuong/de-cuong-v14-BAN-NOP.pdf` | PDF xuất bằng LibreOffice từ file docx trên, để xem nhanh. Hình SmartArt và công thức có thể hiển thị lệch so với Word. | Chỉ để xem |
 | `1-de-cuong/de-cuong-v14-BAN-NOP.txt` | Văn bản thô của v14, dễ cho AI đọc. Bảng ghi giữa hai thẻ `<BẢNG>`, cột cách nhau bằng dấu `\|`. Công thức không có trong bản txt (xem mục 4 dưới đây). | Gốc |
-| `1-de-cuong/de-cuong-v15-BAN-DAI.pdf` và `.txt` | **Bản dài để đọc** (62 trang, LaTeX, đã qua 1 vòng rà soát). Chỉ gồm phần nội dung nghiên cứu (mục 4) của v14, thêm lời giải thích, ví dụ số, hộp "Vì sao chọn cách này" và 6 phụ lục tra cứu; không có các mục hành chính 1–3 và 5–10 (xem v14 cho các mục đó). | Để hiểu, không lấy số từ đây |
+| `1-de-cuong/de-cuong-v15-BAN-DAI.pdf` và `.txt` | **Bản dài để đọc** (59 trang, LaTeX, đã qua 1 vòng rà soát). Chỉ gồm phần nội dung nghiên cứu (mục 4) của v14, thêm lời giải thích, ví dụ số, hộp "Vì sao chọn cách này" và 6 phụ lục tra cứu; không có các mục hành chính 1–3 và 5–10 (xem v14 cho các mục đó). | Để hiểu, không lấy số từ đây |
 | `2-tai-lieu-nguon/` | Tài liệu nguồn thí sinh gửi: Nghị quyết 57 và Quyết định 1193 (PDF), các file txt gộp bài báo và văn bản về hợp nhất HNX–HOSE, trích Quyết định 529/QĐ-SGDHN, bài TBTCO ngày 30/9/2026, đề cương gốc ban đầu (`de-cuong-goc.docx`, bản cũ, **không dùng**). | Nguồn gốc, dùng để đối chiếu |
 
 **Lưu ý quan trọng cho AI làm slide**
