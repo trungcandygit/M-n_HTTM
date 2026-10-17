@@ -42,7 +42,7 @@ Cổ phiếu chuyển sàn dễ mua bán hơn ($-0{,}40$), nhưng cổ phiếu �
 
 Phương trình \eqref{eq:did} được ước lượng trên giai đoạn tham chiếu (đến tháng 6/2025) và giai đoạn sau sự kiện (từ tháng 1/2027); các tháng từ 7/2025 đến 12/2026, gồm tháng chuyển sàn, chỉ được đưa vào phương trình \eqref{eq:es}. Vì giai đoạn tham chiếu dài 16 năm, cửa sổ trước của ước lượng chính bắt đầu sau điểm gãy cấu trúc cuối cùng của chuỗi chênh lệch theo tháng định nghĩa ở đoạn sau (Bai \& Perron, 1998), và ước lượng với cửa sổ trước 24 tháng (7/2023--6/2025) được báo cáo kèm.
 
-Lý do chọn cửa sổ trước theo điểm gãy cấu trúc là thị trường năm 2010 khác xa thị trường năm 2024. Nếu chênh lệch giữa hai nhóm đã đổi mức ở một thời điểm trong quá khứ, chẳng hạn khi quy chế giao dịch thay đổi, thì dùng toàn bộ 16 năm làm \enquote{trước sự kiện} sẽ trộn hai chế độ khác nhau. Bắt đầu từ sau điểm gãy cuối cùng đảm bảo cửa sổ trước chỉ gồm giai đoạn có cùng chế độ với thời điểm ngay trước sự kiện.
+Lý do chọn cửa sổ trước theo điểm gãy cấu trúc là thị trường năm 2010 khác xa thị trường năm 2024. Nếu chênh lệch giữa hai nhóm đã đổi mức ở một thời điểm trong quá khứ, chẳng hạn khi quy chế giao dịch thay đổi, thì dùng toàn bộ 16 năm làm \enquote{trước sự kiện} sẽ trộn hai chế độ khác nhau. Bắt đầu từ sau điểm gãy cuối cùng giúp cửa sổ trước chủ yếu gồm giai đoạn có cùng chế độ với thời điểm ngay trước sự kiện; vì ngày gãy được ước lượng có sai số, ước lượng với cửa sổ trước 24 tháng được báo cáo kèm.
 
 \subsubsection*{Nhóm đối chứng}
 
@@ -59,7 +59,7 @@ Nhóm đối chứng chính gồm cổ phiếu HOSE ghép láng giềng gần nh
 Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận chính dựa trên chuỗi $d_t$, là chênh lệch trung bình logarit Amihud giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng ghép cặp trong tháng $t$. Thống kê kiểm định là trung bình của $d_t$ sau sự kiện trừ trung bình trong cửa sổ trước. Giá trị p chính được tính bằng bootstrap tự hồi quy trên $d_t$, với mô hình tự hồi quy ước lượng trên giai đoạn tham chiếu, hệ số được hiệu chỉnh độ chệch, và kích thước kiểm định được kiểm tra bằng mô phỏng trước ngày đăng ký.
 
 \begin{vidao}
-\emph{Vì sao không dùng sai số chuẩn phân cụm theo cổ phiếu.} Sai số chuẩn phân cụm theo cổ phiếu giả định rằng các cổ phiếu là những quan sát độc lập. Nhưng ở đây, mọi cổ phiếu chuyển sàn cùng chịu một sự kiện vào cùng một ngày, và mọi cú sốc của tháng (một đợt bán tháo, một tin chính sách) tác động lên tất cả cùng lúc. Có hàng trăm cổ phiếu nhưng về bản chất chỉ có \emph{một} lần chuyển sàn. Nếu coi 299 mã là 299 thí nghiệm, sai số chuẩn sẽ nhỏ đến mức gần như mọi khác biệt đều \enquote{có ý nghĩa}. Conley và Taber (2011) chỉ ra vấn đề này cho khác biệt kép với ít lần thay đổi chính sách.
+\emph{Vì sao không dùng sai số chuẩn phân cụm theo cổ phiếu.} Sai số chuẩn phân cụm theo cổ phiếu giả định rằng các cổ phiếu là những quan sát độc lập. Nhưng ở đây, mọi cổ phiếu chuyển sàn cùng chịu một sự kiện vào cùng một ngày. Cú sốc tác động như nhau lên mọi cổ phiếu đã được hiệu ứng cố định theo tháng $\tau_t$ hấp thụ; vấn đề là những cú sốc theo tháng tác động lên cả nhóm chuyển sàn khác với nhóm đối chứng (một tin chỉ liên quan đến các mã HNX, một đợt bán tháo dồn vào mã nhỏ), làm sai số của các mã chuyển sàn tương quan với nhau trong cùng tháng. Có hàng trăm cổ phiếu nhưng về bản chất chỉ có \emph{một} lần chuyển sàn. Nếu coi 299 mã là 299 thí nghiệm, sai số chuẩn sẽ nhỏ đến mức gần như mọi khác biệt đều \enquote{có ý nghĩa}. Conley và Taber (2011) chỉ ra vấn đề này cho khác biệt kép với ít lần thay đổi chính sách.
 
 Cách làm của đề tài là gộp toàn bộ thông tin thành một chuỗi theo tháng, $d_t$, rồi hỏi: nếu không có sự kiện, chuỗi này tự dao động lớn đến đâu? Mô hình tự hồi quy mô tả cách $d_t$ dao động trong giai đoạn tham chiếu, kể cả việc tháng này giống tháng trước. Bootstrap tạo ra hàng nghìn chuỗi giả theo đúng quy luật ấy, tính thống kê kiểm định trên mỗi chuỗi, và giá trị p là tỷ lệ chuỗi giả cho thống kê âm hơn thống kê thật.
 \end{vidao}
@@ -67,8 +67,8 @@ Cách làm của đề tài là gộp toàn bộ thông tin thành một chuỗi
 \begin{vidu}[: bootstrap tự hồi quy trong năm bước]
 \begin{enumerate}
 \item Tính $d_t$ cho mọi tháng của cửa sổ trước và cửa sổ sau.
-\item Trên cửa sổ trước, ước lượng $d_t = c + \phi d_{t-1} + u_t$; giả sử được $\phi = 0{,}6$ sau khi hiệu chỉnh độ chệch, và giữ lại các phần dư $u_t$.
-\item Tạo một chuỗi giả dài bằng chuỗi thật bằng cách bắt đầu từ một giá trị ban đầu và mỗi tháng cộng thêm một phần dư rút ngẫu nhiên có hoàn lại; chuỗi giả này \enquote{không có sự kiện}.
+\item Trên giai đoạn tham chiếu, ước lượng mô hình tự hồi quy, ở đây minh họa bằng bậc một: $d_t = c + \phi d_{t-1} + u_t$; giả sử được $\phi = 0{,}6$ sau khi hiệu chỉnh độ chệch, và giữ lại các phần dư $u_t$ đã trừ trung bình.
+\item Tạo một chuỗi giả theo đúng mô hình đã ước lượng, $d^*_t = c + \phi d^*_{t-1} + u^*_t$, với $u^*_t$ rút ngẫu nhiên có hoàn lại từ các phần dư, bắt đầu từ một giá trị ban đầu và bỏ một đoạn khởi động. Chuỗi giả trải liên tục qua cửa sổ trước, 18 tháng chuyển tiếp và cửa sổ sau; các tháng chuyển tiếp không vào thống kê nhưng được giữ để tự tương quan giữa hai cửa sổ được tính đúng. Chuỗi giả này \enquote{không có sự kiện}.
 \item Trên chuỗi giả, tính trung bình sau trừ trung bình trước.
 \item Lặp lại bước 3--4 chẳng hạn 9.999 lần. Nếu thống kê thật là $-0{,}25$ và chỉ 120 trong 9.999 chuỗi giả cho giá trị từ $-0{,}25$ trở xuống, thì giá trị p một phía xấp xỉ 0,012.
 \end{enumerate}
@@ -132,7 +132,7 @@ Chênh lệch này được ước lượng bằng tương tác giữa $D_i\Post
 
 Chênh lệch theo trụ sở là ước lượng khác biệt của tác động trong cùng một thiết kế, không phải tác động nhân quả của vị trí trụ sở, và không đo lượng thanh khoản mà thị trường vốn Hà Nội mất, vì mọi mã đều chuyển sang HOSE. Khoảng tin cậy hẹp quanh 0 sẽ không ủng hộ vai trò của vị trí sàn khi giao dịch đã điện tử hóa toàn quốc.
 
-Kết quả này có ý nghĩa trực tiếp cho câu hỏi chính sách. Nếu doanh nghiệp Hà Nội không được lợi ít hơn, thì vị trí địa lý của sàn cổ phiếu không còn quan trọng với thanh khoản, và việc Hà Nội mất sàn cổ phiếu niêm yết không phải là mất mát lớn về mặt này. Nếu doanh nghiệp Hà Nội được lợi ít hơn rõ rệt, thì có một kênh địa phương đáng để thành phố quan tâm.
+Kết quả này có ý nghĩa trực tiếp cho câu hỏi chính sách. Nếu khoảng tin cậy của chênh lệch theo trụ sở hẹp quanh 0, kết quả không ủng hộ vai trò của vị trí sàn đối với thanh khoản của các mã chuyển sàn; nếu khoảng tin cậy rộng, kết quả chưa đủ cơ sở kết luận. Trong cả hai trường hợp, chênh lệch này không đo lượng thanh khoản mà thị trường vốn Hà Nội mất. Nếu doanh nghiệp Hà Nội được lợi ít hơn rõ rệt, thì có một kênh địa phương đáng để thành phố quan tâm.
 
 \subsubsection*{Báo cáo \HH{4}}
 
@@ -151,11 +151,11 @@ trong đó $Z_{it}$ là điểm GFCI của trung tâm $i$ ở kỳ $t$, chuẩn 
 \paragraph{Đọc công thức \eqref{eq:gfci} bằng lời.} Điểm GFCI chuẩn hóa của một trung tâm trong một kỳ gồm: mức riêng của trung tâm ấy ($\alpha_i$), mức chung của kỳ ấy ($\tau_t$), phần liên hệ với mức phát triển thị trường cổ phiếu của quốc gia ($\beta$), phần liên hệ với thu nhập và thể chế ($\lambda$), và phần còn lại. \HH{1} hỏi xem $\beta$ có dương không.
 
 \begin{vidao}
-\emph{Vì sao dùng điểm chuẩn hóa thay cho thứ hạng.} Thứ hạng chỉ cho biết thứ tự: khoảng cách giữa hạng 1 và hạng 2 có thể rất lớn, còn giữa hạng 60 và 61 có thể gần bằng 0, nhưng thứ hạng coi chúng như nhau. Thứ hạng cũng thay đổi khi có trung tâm mới vào bảng, như Đà Nẵng ở kỳ 40, dù các trung tâm cũ không đổi gì. Điểm z theo từng kỳ giữ được khoảng cách và không bị ảnh hưởng bởi số trung tâm trong bảng.
+\emph{Vì sao dùng điểm chuẩn hóa thay cho thứ hạng.} Thứ hạng chỉ cho biết thứ tự: khoảng cách giữa hạng 1 và hạng 2 có thể rất lớn, còn giữa hạng 60 và 61 có thể gần bằng 0, nhưng thứ hạng coi chúng như nhau. Thứ hạng cũng thay đổi khi có trung tâm mới vào bảng, như Đà Nẵng ở kỳ 40, dù các trung tâm cũ không đổi gì. Điểm z theo từng kỳ giữ được khoảng cách và đưa các kỳ về cùng thang đo, nhưng vẫn phụ thuộc vào thành phần của bảng: khi có trung tâm vào hoặc ra, trung bình và độ lệch chuẩn của kỳ thay đổi theo. Vì vậy đề tài kiểm tra độ vững trên mẫu các trung tâm có ít nhất năm kỳ và trên mẫu cân bằng (mục~\ref{sec:tincay}).
 \end{vidao}
 
 \begin{vidu}
-Giả sử ước lượng được $\beta = 0{,}3$, và $\SMD$ được biểu diễn theo đơn vị độ lệch chuẩn (cách biểu diễn cụ thể sẽ được chốt trong tệp đăng ký). Khi đó, một trung tâm ở quốc gia có mức phát triển thị trường cổ phiếu tăng thêm một độ lệch chuẩn có điểm GFCI cao hơn trung bình 0,3 độ lệch chuẩn so với các trung tâm cùng kỳ, khi thu nhập và thể chế không đổi. Đây là liên hệ có điều kiện, không phải tác động: không nói được rằng phát triển thị trường cổ phiếu \emph{làm} điểm GFCI tăng.
+Giả sử ước lượng được $\beta = 0{,}3$, và $\SMD$ được biểu diễn theo đơn vị độ lệch chuẩn (cách biểu diễn cụ thể sẽ được chốt trong tệp đăng ký). Khi đó, ở đặc tả có hiệu ứng cố định theo trung tâm, khi $\SMD$ của quốc gia chứa một trung tâm cao hơn mức thường lệ của chính quốc gia ấy một độ lệch chuẩn, điểm z GFCI của trung tâm ấy cao hơn mức thường lệ của nó khoảng 0,3, khi thu nhập và thể chế không đổi; chỉ ở đặc tả không có hiệu ứng cố định theo trung tâm, hệ số mới được đọc như so sánh giữa các trung tâm cùng kỳ. Đây là liên hệ có điều kiện, không phải tác động: không nói được rằng phát triển thị trường cổ phiếu \emph{làm} điểm GFCI tăng.
 \end{vidu}
 
 Sai số chuẩn được phân cụm theo quốc gia. Vì mô hình có hiệu ứng cố định theo trung tâm, $\beta$ được xác định từ biến thiên theo thời gian trong từng quốc gia, và biến thiên này nhỏ vì $\SMD$ thay đổi chậm; đề tài báo cáo thêm ước lượng không có hiệu ứng cố định theo trung tâm. Điểm GFCI đã chứa vốn hóa, giá trị và khối lượng giao dịch cổ phiếu từ Liên đoàn các Sở Giao dịch Thế giới (3 trong 144 nhân tố của kỳ GFCI 40; Wardle \& Mainelli, 2026), và trung tâm mạnh có thể kéo theo giao dịch cổ phiếu, nên $\beta$ được gọi là liên hệ có điều kiện. \HH{1} được ủng hộ khi $\beta$ dương với giá trị p nhỏ hơn ngưỡng Holm tương ứng.
@@ -186,8 +186,8 @@ Thay đổi trùng thời gian & Có thể ảnh hưởng & Cách xử lý\\
 \midrule
 FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số (bốn đợt, 9/2026--9/2027) & Thanh khoản các mã HOSE đủ điều kiện tăng & Loại các mã đủ điều kiện khỏi nhóm đối chứng; nếu mã chuyển sàn được đưa vào, ước lượng thêm khi loại các mã này\\
 Phân loại Bảng Chính và Bảng Tiêu chuẩn (dự kiến 28/12/2026) & Hai nhóm bảng có thể được nhà đầu tư đối xử khác nhau & Ước lượng thêm với biến giả nhóm bảng\\
-VN-Index nhận mã chuyển sàn & Áp lực cầu lên mã chuyển sàn, nhất là mã vốn hóa lớn & Đo bằng mức chịu cú sốc chỉ số (mục~\ref{sec:kiemdinh})\\
-Nới biên độ, giao dịch xuyên trưa (đang nghiên cứu) & Mọi mã HOSE & Ghi ngày áp dụng, cắt cửa sổ sau tại ngày đó\\
+VN-Index nhận mã chuyển sàn & Áp lực cầu lên mã chuyển sàn, nhất là mã có vốn hóa lớn so với giá trị giao dịch & Đo bằng mức chịu cú sốc chỉ số (mục~\ref{sec:kiemdinh})\\
+Nới biên độ, giao dịch xuyên trưa (đang nghiên cứu) & Mọi mã HOSE & Ghi ngày áp dụng; báo cáo thêm ước lượng với cửa sổ sau cắt tại ngày đó\\
 \bottomrule
 \end{tabularx}}
 \end{center}
@@ -204,7 +204,7 @@ Thứ ba, việc rời mẫu không liên quan đến sự kiện; đề tài b�
 
 \paragraph{Từ bằng chứng đến định hướng cho Hà Nội.} Kết quả \HH{1}--\HH{4} được tổng hợp cùng phép so sánh vai trò của Hà Nội với Bắc Kinh và Thượng Hải (Lai, 2012; Wang và cộng sự, 2007) và với Thành phố Hồ Chí Minh, dựa trên văn bản chính sách và dữ liệu công khai, thành định hướng chuyên môn hóa cho các thị trường mà HNX tiếp tục vận hành. Phần này là tổng hợp định tính, không kiểm định giả thuyết.
 
-Cách tổng hợp có thể hình dung qua bốn tình huống. Nếu chuyển sàn làm thanh khoản và khả năng đầu tư tăng rõ, thì hợp nhất có lợi cho nhà đầu tư, và thế mạnh của Hà Nội nên được tìm ở các thị trường khác ngoài cổ phiếu niêm yết. Nếu tác động nhỏ hoặc chưa đủ cơ sở kết luận, thì khác biệt giữa hai sàn chủ yếu do doanh nghiệp chứ không do sàn, và câu hỏi chuyên môn hóa ít phụ thuộc vào việc mất sàn cổ phiếu. Nếu doanh nghiệp Hà Nội được lợi ít hơn, thì có lý do để thành phố quan tâm tới hạ tầng thông tin cho doanh nghiệp địa phương. Nếu \HH{1} được ủng hộ, thì vị thế trung tâm tài chính đi cùng thị trường cổ phiếu phát triển, và việc thị trường cổ phiếu tập trung ở Thành phố Hồ Chí Minh là một bất lợi cần được bù bằng chuyên môn hóa ở mảng khác. Bốn tình huống này chỉ là khung đọc kết quả; đề tài không chọn trước tình huống nào.
+Cách tổng hợp có thể hình dung qua bốn tình huống. Nếu chuyển sàn làm thanh khoản và khả năng đầu tư tăng rõ, thì việc chuyển sàn có lợi cho nhà đầu tư vào các mã chuyển sàn, và thế mạnh của Hà Nội nên được tìm ở các thị trường khác ngoài cổ phiếu niêm yết. Nếu khoảng tin cậy hẹp quanh 0, khác biệt giữa hai sàn ở \HH{2} nhiều khả năng đến từ đặc điểm doanh nghiệp hơn là từ sàn; nếu kết quả chưa đủ cơ sở kết luận, đề tài không rút ra hàm ý nào về vai trò của sàn. Nếu doanh nghiệp Hà Nội được lợi ít hơn, thì có lý do để thành phố quan tâm tới hạ tầng thông tin cho doanh nghiệp địa phương. Nếu \HH{1} được ủng hộ, thì ở cấp quốc gia, điểm GFCI đi cùng mức phát triển thị trường cổ phiếu (liên hệ có điều kiện). Vì $\SMD$ đo ở cấp quốc gia và như nhau với mọi thành phố của Việt Nam, kết quả này không cho biết việc giao dịch cổ phiếu tập trung ở Thành phố Hồ Chí Minh có bất lợi cho Hà Nội hay không; nó chỉ là bối cảnh cho phần so sánh định tính. Bốn tình huống này chỉ là khung đọc kết quả; đề tài không chọn trước tình huống nào.
 
 %-------------------------------------------------------
 \subsection{Quy trình nghiên cứu}\label{sec:quytrinh}

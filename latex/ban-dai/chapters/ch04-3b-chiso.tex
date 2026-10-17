@@ -23,7 +23,7 @@ Các chỉ báo được gộp thành Chỉ số chất lượng thị trường
 \end{equation}
 trong đó $\MQI_{jt}$ là Chỉ số chất lượng thị trường vốn của sàn $j$ (sàn niêm yết HNX, UPCoM hoặc HOSE) trong tháng $t$; $\vn{TK}_{jt}$, $\vn{HQ}_{jt}$ và $\vn{MB}_{jt}$ là điểm của ba chiều thanh khoản, hiệu quả thông tin và minh bạch, mỗi điểm bằng trung bình các điểm z của chỉ báo thuộc chiều đó (ba chỉ báo thanh khoản, hai chỉ báo hiệu quả thông tin, một chỉ báo minh bạch). Như vậy ba chiều có trọng số bằng nhau. Trọng số từ thành phần chính thứ nhất và cách gộp bỏ lần lượt từng chiều là kiểm tra độ vững (OECD, 2008).
 
-\paragraph{Đọc công thức \eqref{eq:mqi} bằng lời.} Chỉ số của một sàn trong một tháng là trung bình cộng của ba điểm: điểm thanh khoản, điểm hiệu quả thông tin và điểm minh bạch. Mỗi điểm đã được đưa về cùng thang đo (điểm z), nên có thể cộng với nhau. Chỉ số bằng 0 nghĩa là sàn ở đúng mức bình quân của giai đoạn tham chiếu; chỉ số dương là tốt hơn mức đó, âm là kém hơn.
+\paragraph{Đọc công thức \eqref{eq:mqi} bằng lời.} Chỉ số của một sàn trong một tháng là trung bình cộng của ba điểm: điểm thanh khoản, điểm hiệu quả thông tin và điểm minh bạch. Mỗi điểm đã được đưa về cùng thang đo (điểm z), nên có thể cộng với nhau. Chỉ số bằng 0 nghĩa là sàn ở mức bình quân của mẫu gộp các sàn trong giai đoạn tham chiếu; chỉ số dương là tốt hơn mức đó, âm là kém hơn.
 
 \begin{vidu}
 Giả sử trong một tháng, sàn HNX có điểm thanh khoản $-0{,}6$, điểm hiệu quả thông tin $-0{,}2$ và điểm minh bạch $0{,}2$; sàn HOSE có ba điểm tương ứng $0{,}5$; $0{,}1$ và $0{,}3$. Khi đó
@@ -31,7 +31,7 @@ Giả sử trong một tháng, sàn HNX có điểm thanh khoản $-0{,}6$, đi�
 \MQI_{\vn{HNX}} = \frac{-0{,}6 - 0{,}2 + 0{,}2}{3} = -0{,}2 \qquad
 \MQI_{\vn{HOSE}} = \frac{0{,}5 + 0{,}1 + 0{,}3}{3} = 0{,}3
 \]
-Chênh lệch giữa HOSE và HNX trong tháng này là $0{,}5$ độ lệch chuẩn. \HH{2} hỏi xem bình quân của chênh lệch này qua 193 tháng của giai đoạn tham chiếu có dương hay không.
+Chênh lệch giữa HOSE và HNX trong tháng này là $0{,}5$ đơn vị điểm z (trung bình của các điểm z, không đúng bằng một độ lệch chuẩn của chỉ số). \HH{2} hỏi xem bình quân của chênh lệch này qua 193 tháng của giai đoạn tham chiếu có dương hay không.
 \end{vidu}
 
 \begin{vidao}
@@ -78,7 +78,7 @@ Mã & Mô hình & Tài liệu gốc\\
 
 Bảy mô hình có thể xếp theo lượng tham số phải ước lượng. \MM{1} không ước lượng gì: chia đều tiền cho mọi cổ phiếu. \MM{2} chỉ ước lượng hiệp phương sai, và co rút ước lượng này về một cấu trúc đơn giản để giảm sai số. \MM{3} ước lượng cả lợi suất kỳ vọng lẫn hiệp phương sai từ mẫu, nên nhạy nhất với sai số ước lượng. \MM{4} và \MM{5} bắt đầu từ danh mục thị trường rồi điều chỉnh theo quan điểm dự báo; \MM{5} cho quan điểm thay đổi theo trạng thái thị trường. \MM{6} chọn danh mục tốt nhất trong trường hợp xấu nhất của một tập niềm tin. \MM{7} giảm tỷ trọng rủi ro khi mô hình ước lượng xác suất thị trường đang căng thẳng cao.
 
-Ý nghĩa của thứ tự này với đề tài: nếu chuyển sàn làm dữ liệu giá sạch hơn, thì các mô hình phải ước lượng nhiều (\MM{3}, \MM{4}, \MM{5}) sẽ được lợi nhiều hơn \MM{1}. Ngược lại, nếu chỉ chi phí giao dịch giảm, thì mọi mô hình được lợi gần như nhau. So sánh khoảng cách giữa các mô hình vì vậy cho biết kênh nào đang hoạt động.
+Thứ tự này giúp đọc độ phân tán của $G_m$ giữa các mô hình, nhưng không đủ để tách kênh tác động. Khi chi phí giao dịch giảm, mô hình có vòng quay danh mục cao (thường là \MM{3}) được lợi nhiều hơn \MM{1}, nên chênh lệch giữa các mô hình không chỉ phản ánh kênh ước lượng. Ngoài ra, cửa sổ ước lượng của các cửa sổ đánh giá sau sự kiện phần lớn còn nằm trước ngày chuyển sàn. Vì vậy đề tài chỉ báo cáo độ phân tán của $G_m$ và số mô hình có cùng dấu, cùng khoảng cách riêng của \MM{1}, không dùng so sánh giữa các mô hình để kết luận về kênh tác động.
 
 Siêu tham số của các mô hình được chọn từ một lưới cho trước, với cùng quy tắc và cùng ngân sách tinh chỉnh. Vì \MM{5} do thí sinh phát triển, kết quả được báo cáo cả khi có lẫn khi không có \MM{5}.
 
@@ -169,7 +169,7 @@ Mỗi mô hình được ước lượng trên cửa sổ 104 tuần và đánh 
 \nguon{Nguồn: Thí sinh đề xuất. Ghi chú: ở mỗi cửa sổ đánh giá, đề tài tính lợi suất tương đương chắc chắn của bảy mô hình trên rổ CS và rổ H, rồi tính khoảng cách $G_m$.}
 \end{figure}
 
-Hình~\ref{fig:cuaso} cho thấy cửa sổ ước lượng trượt về phía trước ba tháng mỗi lần, và các cửa sổ đánh giá nối tiếp nhau không chồng lên nhau. Vì vậy mỗi tháng của giai đoạn đánh giá chỉ được dùng một lần để chấm điểm các mô hình.
+Hình~\ref{fig:cuaso} vẽ giản lược mỗi cửa sổ đánh giá với một cửa sổ ước lượng; trên thực tế, trong mỗi cửa sổ đánh giá, trọng số vẫn được ước lượng lại hằng tháng trên cửa sổ trượt 104 tuần (Bảng~\ref{tab:baymohinh}). Các cửa sổ đánh giá nối tiếp nhau không chồng lên nhau. Vì vậy mỗi tháng của giai đoạn đánh giá chỉ được dùng một lần để chấm điểm các mô hình.
 
 \begin{delam}
 \emph{Dễ nghĩ là} cửa sổ đánh giá đầu tiên sau sự kiện (quý 1/2027) đo hoàn toàn tình trạng sau chuyển sàn. Nhưng cửa sổ ước lượng của nó kéo dài 104 tuần về trước, tức gần như toàn bộ nằm trước ngày 28/12/2026. Các mô hình phải ước lượng tham số vì vậy vẫn dùng dữ liệu của HNX để chọn trọng số cho giai đoạn ở HOSE. \MM{1} không dùng dữ liệu quá khứ để chọn trọng số, nên khoảng cách của \MM{1} phản ánh tình trạng sau sự kiện sạch nhất.

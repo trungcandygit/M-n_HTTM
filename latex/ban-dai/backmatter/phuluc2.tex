@@ -1,0 +1,138 @@
+%*******************************************************
+% Phụ lục E: thuật ngữ; Phụ lục F: tính tay từ đầu đến cuối
+%*******************************************************
+\chapter{Bảng thuật ngữ}\label{pl:thuatngu}
+
+Các thuật ngữ được xếp theo thứ tự chữ cái. Mỗi mục giải thích bằng lời thường và ghi mục đầu tiên dùng thuật ngữ đó.
+
+\begin{description}[style=nextline, leftmargin=1.2em, itemsep=3pt, font=\normalfont\bfseries]
+\item[Biên độ dao động giá] Mức tăng hoặc giảm tối đa của giá trong một phiên so với giá tham chiếu: ±7\% ở HOSE, ±10\% ở HNX, ±15\% ở UPCoM. Giá trần và giá sàn được làm tròn theo bước giá (mục~\ref{sec:giathuyet}).
+\item[Bootstrap] Cách ước lượng độ bất định bằng cách lấy mẫu lại nhiều lần từ chính dữ liệu, tính thống kê trên mỗi mẫu giả, rồi xem các thống kê giả phân tán thế nào (mục~\ref{sec:mqi}).
+\item[Bootstrap khối dừng] Bootstrap lấy mẫu lại theo từng khối tháng liên tiếp có độ dài ngẫu nhiên, để giữ mức tương quan giữa các tháng gần nhau (Politis \& Romano, 1994). Dùng cho \HH{2} và \HH{4} (mục~\ref{sec:mqi}).
+\item[Bootstrap tự hồi quy] Bootstrap tạo chuỗi giả theo một mô hình tự hồi quy đã ước lượng, với phần dư rút ngẫu nhiên. Dùng cho \HH{3} (mục~\ref{sec:kiemdinh}).
+\item[Bước giá (đơn vị yết giá)] Khoảng cách nhỏ nhất giữa hai mức giá được phép đặt lệnh: 100 đồng ở HNX; 10, 50 hoặc 100 đồng ở HOSE tùy mức giá (mục~\ref{sec:giathuyet}).
+\item[Chênh lệch mua-bán (Corwin--Schultz)] Khoảng cách giữa giá chào mua và giá chào bán, ước lượng từ giá cao nhất và thấp nhất của hai ngày liên tiếp (Corwin \& Schultz, 2012) (mục~\ref{sec:mqi}).
+\item[Chỉ số chất lượng thị trường vốn (MQI)] Trung bình của ba điểm chiều (thanh khoản, hiệu quả thông tin, minh bạch) của một sàn trong một tháng (công thức~\eqref{eq:mqi}).
+\item[Chỉ số khả năng đầu tư ($\bar{G}$)] Bình quân theo bảy mô hình của khoảng cách lợi suất tương đương chắc chắn giữa rổ H và rổ CS (công thức~\eqref{eq:gbar}).
+\item[Cửa sổ ước lượng, cửa sổ đánh giá] Đoạn dữ liệu dùng để chọn trọng số (104 tuần) và đoạn dữ liệu dùng để chấm điểm danh mục đã chọn (3 tháng), không chồng lên nhau (mục~\ref{sec:khanangdautu}).
+\item[Danh mục chỉ mua] Danh mục không được bán khống, mọi trọng số không âm (Bảng~\ref{tab:baymohinh}).
+\item[Đăng ký trước] Công bố kế hoạch phân tích, có dấu thời gian, trước khi có dữ liệu kết quả; mọi thay đổi sau đó được ghi là lệch khỏi kế hoạch (mục~\ref{sec:mohinh}).
+\item[Điểm gãy cấu trúc] Thời điểm mà mức bình quân hoặc quy luật của một chuỗi thay đổi; ước lượng theo Bai và Perron (1998) (mục~\ref{sec:kiemdinh}).
+\item[Điểm z] Giá trị trừ trung bình rồi chia độ lệch chuẩn, để đưa các chỉ báo khác đơn vị về cùng thang đo (mục~\ref{sec:mqi}).
+\item[Độ phi thanh khoản Amihud] Bình quân của lợi suất tuyệt đối chia giá trị giao dịch theo ngày: một đồng giao dịch làm giá dịch chuyển bao nhiêu. Càng cao càng khó mua bán (Amihud, 2002) (mục~\ref{sec:tongquan}).
+\item[Độ trễ giá] Mức độ lợi suất của cổ phiếu được giải thích thêm bởi lợi suất thị trường các tuần trước; cao nghĩa là phản ánh thông tin chậm (Hou \& Moskowitz, 2005) (mục~\ref{sec:mqi}).
+\item[Ghép láng giềng gần nhất] Với mỗi cổ phiếu chuyển sàn, chọn cổ phiếu HOSE giống nhất theo các tiêu chí cho trước; \enquote{có hoàn lại} nghĩa là một mã HOSE có thể được chọn nhiều lần (mục~\ref{sec:kiemdinh}).
+\item[Giá trị p một phía] Xác suất, nếu giả thuyết gốc đúng, quan sát được kết quả cực đoan ít nhất như kết quả thật theo đúng hướng giả thuyết kỳ vọng (mục~\ref{sec:tincay}).
+\item[Hiệu chỉnh Holm] Thủ tục so sánh các giá trị p với các ngưỡng tăng dần để giữ xác suất có ít nhất một kết luận sai ở mức 5\% cho cả họ giả thuyết (Holm, 1979) (mục~\ref{sec:giathuyet}).
+\item[Hiệu ứng cố định] Một hằng số riêng cho mỗi cổ phiếu (hoặc trung tâm) và cho mỗi tháng (hoặc kỳ), để loại các khác biệt không đổi theo thời gian và các cú sốc chung (công thức~\eqref{eq:did}).
+\item[Hiệu ứng nhỏ nhất phát hiện được] Tác động nhỏ nhất mà thiết kế phát hiện được với xác suất 80\% ở mức ý nghĩa đã chọn (mục~\ref{sec:tincay}).
+\item[Hồi quy về trung bình] Hiện tượng giá trị cực đoan ở một thời điểm có xu hướng trở về mức thường lệ ở thời điểm sau; nguy hiểm khi ghép theo chính thước đo kết quả (Daw \& Hatfield, 2018) (mục~\ref{sec:kiemdinh}).
+\item[Khác biệt kép] So thay đổi trước--sau của nhóm chịu sự kiện với thay đổi trước--sau của nhóm đối chứng (công thức~\eqref{eq:did}).
+\item[Liên hệ có điều kiện] Mối liên hệ ước lượng được khi giữ cố định các biến kiểm soát; không phải quan hệ nhân quả (mục~\ref{sec:kiemdinh}).
+\item[Lợi suất tương đương chắc chắn] Lợi suất phi rủi ro mà nhà đầu tư coi là ngang giá với một danh mục rủi ro: lợi suất trung bình trừ khoản phạt cho rủi ro (công thức~\eqref{eq:ce}).
+\item[Lợi suất vượt trội] Lợi suất của danh mục trừ lợi suất phi rủi ro (mục~\ref{sec:khanangdautu}).
+\item[Lực kiểm định] Xác suất bác bỏ giả thuyết gốc khi có tác động thật với độ lớn cho trước (mục~\ref{sec:tincay}).
+\item[Mức chịu cú sốc] Thước đo cho biết một cổ phiếu chịu ảnh hưởng mạnh đến đâu của một thay đổi quy tắc khi chuyển sàn: biên độ, bước giá, chỉ số (mục~\ref{sec:kiemdinh}).
+\item[Nghiên cứu sự kiện] Ước lượng một hệ số riêng cho từng tháng quanh sự kiện để xem tác động diễn biến theo thời gian (công thức~\eqref{eq:es}).
+\item[Nhóm đối chứng tổng hợp] Tổ hợp có trọng số của nhiều cổ phiếu đối chứng, chọn để bám sát nhóm chịu sự kiện trong giai đoạn trước (mục~\ref{sec:tincay}).
+\item[Thiên lệch sống sót] Sai lệch khi mẫu chỉ gồm các đơn vị còn tồn tại đến nay, bỏ sót các đơn vị đã rời đi (mục~\ref{sec:dulieu}).
+\item[Tỷ lệ ngày lợi suất bằng 0] Tỷ lệ số ngày giá đóng cửa không đổi trên tổng số ngày giao dịch (Lesmond và cộng sự, 1999) (mục~\ref{sec:mqi}).
+\item[Tỷ số phương sai] Phương sai của lợi suất nhiều ngày chia tổng phương sai lợi suất một ngày; bằng 1 khi giá đi theo bước ngẫu nhiên (Lo \& MacKinlay, 1988) (mục~\ref{sec:mqi}).
+\item[Tỷ số Sharpe] Lợi suất vượt trội trung bình chia độ lệch chuẩn; chỉ là thước đo phụ trong đề tài (mục~\ref{sec:khanangdautu}).
+\item[Tự hồi quy bậc một] Mô hình trong đó giá trị tháng này bằng một hằng số cộng với $\phi$ lần giá trị tháng trước cộng nhiễu (mục~\ref{sec:kiemdinh}).
+\item[Vòng quay] Giá trị giao dịch chia vốn hóa; thước đo thanh khoản không dùng lợi suất (mục~\ref{sec:giathuyet}).
+\item[Vùng hỗ trợ chung] Phần mẫu mà nhóm chịu sự kiện tìm được đối chứng đủ giống (mục~\ref{sec:kiemdinh}).
+\item[Winsorize] Thay giá trị quá lớn và quá nhỏ bằng giá trị ở một phân vị cho trước (ở đây 1\% và 99\%) (mục~\ref{sec:dulieu}).
+\item[Xu hướng song song] Giả định rằng nếu không có sự kiện, chênh lệch giữa nhóm chịu sự kiện và nhóm đối chứng không đổi theo thời gian (mục~\ref{sec:did}).
+\end{description}
+
+%=======================================================
+\chapter{Tính tay từ dữ liệu ngày đến tác động}\label{pl:tinhtay}
+
+Phụ lục này đi trọn đường của \HH{3} trên một bộ số liệu giả lập rất nhỏ: một cổ phiếu chuyển sàn (gọi là X), một cổ phiếu đối chứng HOSE (gọi là Y), mỗi mã năm ngày của một tháng trước và một tháng sau sự kiện. Mọi con số là \textbf{tự đặt để minh họa}; nghiên cứu thật dùng khoảng 20 ngày mỗi tháng, hàng trăm mã và nhiều tháng. Ngưỡng lợi suất chung trong ví dụ là 6\%.
+
+\section*{Bước 1. Lợi suất tuyệt đối chia giá trị giao dịch, từng ngày}
+
+Với mỗi ngày, lấy lợi suất tuyệt đối (tính bằng phần trăm) chia giá trị giao dịch khớp lệnh (tính bằng tỷ đồng). Ngày có lợi suất tuyệt đối từ 6\% trở lên bị loại; ngày liền sau ngày đó cũng bị loại.
+
+\begin{center}
+{\bangnho
+\begin{tabular}{@{}llrrrl@{}}
+\toprule
+Mã & Tháng & Ngày & Lợi suất (\%) & Giá trị (tỷ đồng) & $|r|/V$\\
+\midrule
+X & trước & 1 & $+1{,}0$ & 2,0 & 0,50\\
+X & trước & 2 & $-8{,}0$ & 4,0 & loại (từ 6\% trở lên)\\
+X & trước & 3 & $+2{,}0$ & 2,0 & loại (liền sau ngày 2)\\
+X & trước & 4 & $-1{,}5$ & 1,5 & 1,00\\
+X & trước & 5 & $+0{,}5$ & 1,0 & 0,50\\
+\addlinespace
+X & sau & 1 & $+1{,}0$ & 4,0 & 0,25\\
+X & sau & 2 & $+0{,}8$ & 2,0 & 0,40\\
+X & sau & 3 & $-0{,}6$ & 3,0 & 0,20\\
+X & sau & 4 & $+6{,}5$ & 5,0 & loại (từ 6\% trở lên)\\
+X & sau & 5 & $-1{,}2$ & 4,0 & loại (liền sau ngày 4)\\
+\addlinespace
+Y & trước & 1 & $+1{,}0$ & 2,5 & 0,40\\
+Y & trước & 2 & $+0{,}5$ & 1,0 & 0,50\\
+Y & trước & 3 & $-1{,}2$ & 2,0 & 0,60\\
+Y & trước & 4 & $+0{,}9$ & 3,0 & 0,30\\
+Y & trước & 5 & $-0{,}4$ & 2,0 & 0,20\\
+\addlinespace
+Y & sau & 1 & $+0{,}8$ & 2,0 & 0,40\\
+Y & sau & 2 & $-0{,}6$ & 2,0 & 0,30\\
+Y & sau & 3 & $+1{,}0$ & 4,0 & 0,25\\
+Y & sau & 4 & $-0{,}3$ & 1,0 & 0,30\\
+Y & sau & 5 & $+0{,}5$ & 2,0 & 0,25\\
+\bottomrule
+\end{tabular}}
+\end{center}
+
+\section*{Bước 2. Độ phi thanh khoản của tháng và logarit}
+
+Độ phi thanh khoản Amihud của tháng là bình quân các ngày hợp lệ; $A_{it}$ là logarit của nó.
+
+\begin{center}
+{\bangnho
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Mã & Tháng & Ngày hợp lệ & Bình quân $|r|/V$ & $A_{it}$\\
+\midrule
+X & trước & 1, 4, 5 & $(0{,}50 + 1{,}00 + 0{,}50)/3 = 0{,}667$ & $-0{,}405$\\
+X & sau & 1, 2, 3 & $(0{,}25 + 0{,}40 + 0{,}20)/3 = 0{,}283$ & $-1{,}261$\\
+Y & trước & 1--5 & $2{,}00/5 = 0{,}400$ & $-0{,}916$\\
+Y & sau & 1--5 & $1{,}50/5 = 0{,}300$ & $-1{,}204$\\
+\bottomrule
+\end{tabular}}
+\end{center}
+
+Trong nghiên cứu thật, ở bước này còn hai việc: winsorize tại phân vị 1\% và 99\% của mẫu gộp các sàn trong tháng (mục~\ref{sec:dulieu}), và kiểm tra tháng có đủ số ngày hợp lệ tối thiểu ghi trong tệp đăng ký.
+
+\section*{Bước 3. Chuỗi chênh lệch $d_t$}
+
+Với mỗi tháng, $d_t$ là chênh lệch logarit Amihud giữa mã chuyển sàn và mã đối chứng ghép cặp (trong nghiên cứu thật là chênh lệch trung bình trên mọi cặp):
+\[
+d_{\vn{trước}} = -0{,}405 - (-0{,}916) = 0{,}511 \qquad
+d_{\vn{sau}} = -1{,}261 - (-1{,}204) = -0{,}057
+\]
+Trước sự kiện, X kém thanh khoản hơn Y ($d$ dương). Sau sự kiện, X gần bằng Y.
+
+\section*{Bước 4. Thống kê kiểm định và tác động}
+
+Thống kê kiểm định là trung bình $d_t$ sau sự kiện trừ trung bình $d_t$ trong cửa sổ trước. Ở đây mỗi giai đoạn chỉ có một tháng:
+\[
+-0{,}057 - 0{,}511 = -0{,}568
+\]
+Quy ra phần trăm: $e^{-0{,}568} - 1 \approx -0{,}43$, tức độ phi thanh khoản của X giảm khoảng 43\% so với Y. Đây cũng là $\delta$ của phương trình \eqref{eq:did} khi chỉ có hai mã và hai tháng.
+
+\section*{Bước 5. Giá trị p}
+
+Với một tháng mỗi phía thì không tính được giá trị p. Trong nghiên cứu thật, chuỗi $d_t$ có hàng chục tháng trước và 24 tháng sau; mô hình tự hồi quy được ước lượng trên giai đoạn tham chiếu và bootstrap tự hồi quy cho biết một giá trị như $-0{,}568$ có hiếm gặp khi không có sự kiện hay không (mục~\ref{sec:kiemdinh}).
+
+\section*{Điều ví dụ này cho thấy}
+
+\begin{itemize}
+\item Ngưỡng chung làm X mất hai ngày ở mỗi tháng, ở cả trước lẫn sau, theo cùng một quy tắc. Nếu không có ngưỡng, ngày $-8\%$ ở HNX vẫn được tính, còn một ngày tương tự ở HOSE sẽ bị chặn ở 7\%; hai tháng sẽ được tính trên hai cơ sở khác nhau.
+\item Y cũng tốt lên ($-1{,}204$ so với $-0{,}916$): nếu chỉ nhìn X trước và sau, ta sẽ gán cả phần cải thiện chung của thị trường cho việc chuyển sàn.
+\item Kết quả từ hai mã và mười ngày không nói lên điều gì về thực tế; phụ lục này chỉ để thấy từng bước tính.
+\end{itemize}

@@ -11,7 +11,7 @@ Với một sự kiện duy nhất, đề tài chỉ phát hiện được tác 
 
 Lực kiểm định của \HH{3} phụ thuộc chủ yếu vào số tháng trước và sau sự kiện, phương sai và mức tự tương quan của chuỗi chênh lệch theo tháng, và chỉ phụ thuộc yếu vào số cổ phiếu.
 
-Điều này nghe ngược với trực giác, vì thông thường mẫu càng nhiều quan sát thì càng phát hiện được tác động nhỏ. Nhưng như mục~\ref{sec:kiemdinh} đã giải thích, toàn bộ thông tin được gộp thành một chuỗi theo tháng. Thêm cổ phiếu làm mỗi điểm của chuỗi bớt nhiễu riêng lẻ, nhưng không làm giảm các cú sốc chung của tháng, vốn chiếm phần lớn biến động của chuỗi. Thêm tháng thì có tác dụng thật.
+Điều này nghe ngược với trực giác, vì thông thường mẫu càng nhiều quan sát thì càng phát hiện được tác động nhỏ. Nhưng như mục~\ref{sec:kiemdinh} đã giải thích, toàn bộ thông tin được gộp thành một chuỗi theo tháng. Thêm cổ phiếu làm mỗi điểm của chuỗi bớt nhiễu riêng lẻ của từng mã, nhưng không làm giảm các cú sốc theo tháng tác động khác nhau lên nhóm chuyển sàn và nhóm đối chứng; cú sốc tác động như nhau lên mọi mã thì đã triệt tiêu khi lấy chênh lệch. Nếu loại cú sốc thứ nhất chiếm phần lớn phương sai của chuỗi, thêm cổ phiếu gần như không làm giảm hiệu ứng nhỏ nhất phát hiện được. Thêm tháng thì có tác dụng thật.
 
 Với giả định chuỗi chênh lệch theo tháng là một quá trình tự hồi quy bậc một có hệ số $\phi$ và độ lệch chuẩn không điều kiện $\sigma$, cửa sổ trước dài 193 tháng (6/2009--6/2025), 18 tháng chuyển tiếp bị loại và giai đoạn sau dài 24 tháng, hiệu ứng nhỏ nhất phát hiện được của $\delta$ ở lực kiểm định 80\% và mức ý nghĩa một phía 0,05/3 xấp xỉ $0{,}64\sigma$ khi $\phi = 0$, $1{,}24\sigma$ khi $\phi = 0{,}6$ và $1{,}76\sigma$ khi $\phi = 0{,}8$. Nếu cửa sổ trước được rút ngắn do điểm gãy cấu trúc, hiệu ứng nhỏ nhất phát hiện được tăng lên, khoảng 1,3 lần khi cửa sổ trước chỉ còn 24 tháng.
 
@@ -34,7 +34,7 @@ Cột cuối tính bằng $1 - e^{-x}$ với $x$ ở cột thứ ba. Chuỗi cà
 \end{vidu}
 
 \begin{delam}
-\emph{Dễ nghĩ là} nếu không bác bỏ được giả thuyết gốc thì nghĩa là chuyển sàn không có tác động. Không đúng. Với lực kiểm định như trên, một tác động thật bằng 10\% rất có thể không được phát hiện. Kết luận đúng trong trường hợp ấy là \enquote{chưa đủ cơ sở kết luận}, kèm khoảng tin cậy cho biết những tác động nào còn phù hợp với dữ liệu.
+\emph{Dễ nghĩ là} nếu không bác bỏ được giả thuyết gốc thì nghĩa là chuyển sàn không có tác động. Không đúng. Với giả định minh họa $\sigma = 0{,}2$ và $\phi = 0{,}6$, một tác động thật làm độ phi thanh khoản giảm 10\% chỉ được phát hiện với xác suất khoảng một phần năm. Kết luận đúng trong trường hợp ấy là \enquote{chưa đủ cơ sở kết luận}, kèm khoảng tin cậy cho biết những tác động nào còn phù hợp với dữ liệu.
 \end{delam}
 
 \HH{4} có ít cửa sổ nên chỉ được báo cáo ở dạng ước lượng, và so sánh theo hai giai đoạn căng thẳng chỉ ở dạng mô tả. Giá trị p đưa vào thủ tục Holm (1979) ở mức 5\% là giá trị p một phía: phân cụm theo quốc gia cho \HH{1}, bootstrap khối dừng cho \HH{2} và bootstrap tự hồi quy cho \HH{3}.
@@ -57,4 +57,4 @@ Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, nên đợt
 
 Nếu cả hai nhóm đối chứng không đạt kiểm tra xu hướng song song, đề tài dùng nhóm đối chứng tổng hợp từ các mã HOSE ngoài danh sách FTSE Russell và mã UPCoM. Nếu dữ liệu sau sự kiện ngắn hơn 24 tháng hoặc rổ CS có ít hơn 30 cổ phiếu đủ thanh khoản, đề tài dùng, tương ứng, toàn bộ tháng có sẵn hoặc rổ 20 cổ phiếu.
 
-Nhóm đối chứng tổng hợp là một tổ hợp có trọng số của nhiều cổ phiếu đối chứng, với trọng số được chọn sao cho tổ hợp đi sát nhất với nhóm chuyển sàn trong giai đoạn trước sự kiện. Nếu không có nhóm có sẵn nào đi song song, phương pháp này tạo ra một nhóm như vậy từ dữ liệu.
+Nhóm đối chứng tổng hợp là một tổ hợp có trọng số của nhiều cổ phiếu đối chứng, với trọng số được chọn sao cho tổ hợp đi sát nhất với nhóm chuyển sàn trong giai đoạn trước sự kiện. Phương pháp này chỉ dùng được khi tổ hợp bám sát nhóm chuyển sàn trong giai đoạn trước; bám sát ở giai đoạn trước không bảo đảm xu hướng song song ở giai đoạn sau, nên độ khớp trước sự kiện được báo cáo kèm, và cách lập nhóm cụ thể được ghi trong tệp đăng ký.

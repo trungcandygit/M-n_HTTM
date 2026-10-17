@@ -41,7 +41,7 @@ $G_m$ & Khoảng cách khả năng đầu tư của mô hình $m$ & \eqref{eq:ga
 $\bar{G}$ & Chỉ số khả năng đầu tư: bình quân $G_m$ theo bảy mô hình & \eqref{eq:gbar}\\
 \addlinespace
 \multicolumn{3}{@{}l}{\emph{Khác biệt kép}}\\
-$A_{it}$ & Logarit độ phi thanh khoản Amihud, tính trên ngày dưới ngưỡng chung & \eqref{eq:did}\\
+$A_{it}$ & Logarit độ phi thanh khoản Amihud, tính trên các ngày có lợi suất tuyệt đối dưới ngưỡng chung và không liền sau ngày có lợi suất tuyệt đối từ ngưỡng trở lên & \eqref{eq:did}\\
 $D_i$ & Bằng 1 nếu cổ phiếu chuyển sàn (mọi mã niêm yết tại HNX) & \eqref{eq:did}\\
 $\Post_t$ & Bằng 1 từ tháng 1/2027 & \eqref{eq:did}\\
 $\alpha_i$ & Hiệu ứng cố định theo cổ phiếu (hoặc theo trung tâm ở công thức \eqref{eq:gfci}) & \eqref{eq:did}\\
@@ -52,7 +52,7 @@ $T_{kt}$ & Bằng 1 nếu tháng $t$ là tháng $k$ & \eqref{eq:es}\\
 $\delta_k$ & Chênh lệch giữa hai nhóm ở tháng $k$ so với tháng gốc & \eqref{eq:es}\\
 $E_{si}$ & Mức chịu cú sốc $s$ của cổ phiếu $i$, chuẩn hóa trong nhóm chuyển sàn & mục~\ref{sec:kiemdinh}\\
 $d_t$ & Chênh lệch trung bình logarit Amihud giữa mã chuyển sàn và mã đối chứng ghép cặp trong tháng $t$ & mục~\ref{sec:kiemdinh}\\
-$\phi$ & Hệ số tự hồi quy bậc một của chuỗi $d_t$ & mục~\ref{sec:tincay}\\
+$\phi$ & Hệ số tự hồi quy bậc một của chuỗi $d_t$ (giả định minh họa) & mục~\ref{sec:kiemdinh}, \ref{sec:tincay}\\
 $\sigma$ (ở mục~\ref{sec:tincay}) & Độ lệch chuẩn không điều kiện của chuỗi $d_t$ & mục~\ref{sec:tincay}\\
 \addlinespace
 \multicolumn{3}{@{}l}{\emph{Bằng chứng quốc tế}}\\
@@ -60,7 +60,7 @@ $Z_{it}$ & Điểm GFCI của trung tâm $i$ ở kỳ $t$, chuẩn hóa thành �
 $\SMD_{it}$ & Chỉ báo phát triển thị trường cổ phiếu (vòng quay, vốn hóa trên GDP) của quốc gia chứa trung tâm, năm liền trước kỳ $t$ & \eqref{eq:gfci}\\
 $\beta$ & Liên hệ có điều kiện giữa $\SMD$ và điểm GFCI; \HH{1} kỳ vọng dương & \eqref{eq:gfci}\\
 $W_{it}$ & Thu nhập bình quân đầu người và chỉ số quản trị nhà nước & \eqref{eq:gfci}\\
-$\lambda$ & Véc-tơ hệ số của $W_{it}$ & \eqref{eq:gfci}\\
+$\lambda$ & Véc-tơ hệ số của $W_{it}$; $\lambda W_{it}$ hiểu là tích vô hướng của hai véc-tơ & \eqref{eq:gfci}\\
 \end{longtable}}
 
 \paragraph{Bảy công thức trên một trang.}
@@ -109,7 +109,7 @@ Thời điểm & Sự kiện hoặc văn bản & Vai trò trong đề tài\\
 9/2026 & Kỳ GFCI 40: Thành phố Hồ Chí Minh thứ 67/117, Đà Nẵng thứ 71, Hà Nội không có & Bối cảnh \HH{1}\\
 9/2026--9/2027 & FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số theo bốn đợt & Cú sốc trùng thời gian\\
 29/9/2026 & Quyết định số 737/QĐ-SGDHCM ban hành Quy tắc chỉ số VNINDEX phiên bản 1.0 & Cách VN-Index nhận mã mới\\
-30/9/2026 & Thông báo của VNX về lịch chuyển sàn; 299 mã niêm yết tại HNX & Ngày sự kiện\\
+30/9/2026 & Thông báo của VNX về lịch chuyển sàn; phiên 30/9/2026 có 299 mã niêm yết tại HNX (Tuổi Trẻ Online, 2026b) & Ngày công bố lịch chuyển sàn\\
 17/10/2026 & Chưa có văn bản công bố lịch chuyển cổ phiếu UPCoM & Theo dõi\\
 23/12/2026 & Phiên giao dịch cuối của cổ phiếu niêm yết tại HNX & ---\\
 24--25/12/2026 & Tạm ngừng giao dịch & ---\\
@@ -152,7 +152,7 @@ Bước giá nhỏ đi làm tỷ lệ ngày lợi suất bằng 0 giảm cơ h�
 Ghép theo độ phi thanh khoản tạo hồi quy về trung bình & Báo cáo thêm kết quả chỉ ghép theo vốn hóa và ngành & \ref{sec:kiemdinh}\\
 Mã đối chứng vào chỉ số FTSE Russell & Loại khỏi nhóm đối chứng & \ref{sec:did}\\
 Phân bảng của HOSE & Ước lượng thêm với biến giả nhóm bảng & \ref{sec:did}\\
-Nới biên độ, giao dịch xuyên trưa trong cửa sổ sau & Cắt cửa sổ sau tại ngày áp dụng & \ref{sec:did}\\
+Nới biên độ, giao dịch xuyên trưa trong cửa sổ sau & Báo cáo thêm ước lượng với cửa sổ sau cắt tại ngày áp dụng & \ref{sec:did}\\
 Thanh khoản lan giữa hai nhóm & Dùng nhóm đối chứng UPCoM làm cận khác & \ref{sec:did}\\
 Rời mẫu liên quan đến sự kiện & Báo cáo tỷ lệ hủy niêm yết; ước lượng lại trên bảng cân bằng & \ref{sec:did}\\
 Sai số chuẩn thông thường bác bỏ quá dễ & Bootstrap tự hồi quy trên $d_t$; kiểm tra kích thước bằng mô phỏng & \ref{sec:kiemdinh}\\
@@ -170,7 +170,7 @@ Phụ lục này dùng để tự luyện trước buổi bảo vệ đề cươ
 \begin{description}[style=nextline, leftmargin=0pt]
 \item[Đề tài có giải quyết bài toán số 19 không?] Không trọn vẹn. Đề tài cung cấp thước đo nền cho câu hỏi số 1 và số 3 của bài toán; câu hỏi số 2 và số 4 nằm ngoài phạm vi. Sản phẩm gần nhất với danh mục sản phẩm của bài toán là Chỉ số chất lượng thị trường vốn, có thể là một cấu phần của \enquote{Hệ thống dữ liệu tài chính đô thị} (mục~\ref{sec:lydo}, \ref{sec:phamvi}).
 
-\item[Trung tâm tài chính quốc tế đặt ở Thành phố Hồ Chí Minh và Đà Nẵng, sao lại nghiên cứu cho Hà Nội?] Chính vì vậy. Theo Nghị quyết số 222/2025/QH15, Hà Nội không có trung tâm tài chính quốc tế, không có trong GFCI 40 và sắp không còn sàn cổ phiếu niêm yết. Câu hỏi thực tế là Hà Nội nên chuyên môn hóa vào đâu, và câu trả lời cần số đo (mục~\ref{sec:lydo}).
+\item[Trung tâm tài chính quốc tế đặt ở Thành phố Hồ Chí Minh và Đà Nẵng, sao lại nghiên cứu cho Hà Nội?] Chính vì vậy. Theo Nghị quyết số 222/2025/QH15, trung tâm tài chính quốc tế đặt tại Thành phố Hồ Chí Minh và Đà Nẵng; Hà Nội không có trong GFCI 40 (Wardle \& Mainelli, 2026) và sắp không còn sàn cổ phiếu niêm yết. Câu hỏi thực tế là Hà Nội nên chuyên môn hóa vào đâu, và câu trả lời cần số đo (mục~\ref{sec:lydo}).
 
 \item[Vì sao không dùng sai số chuẩn phân cụm theo cổ phiếu?] Vì mọi cổ phiếu chuyển sàn cùng một ngày, nên về bản chất chỉ có một lần chuyển sàn; coi 299 mã là 299 quan sát độc lập làm sai số chuẩn quá nhỏ (Conley \& Taber, 2011). Suy luận chính là bootstrap tự hồi quy trên chuỗi chênh lệch theo tháng (mục~\ref{sec:kiemdinh}).
 
@@ -182,7 +182,7 @@ Phụ lục này dùng để tự luyện trước buổi bảo vệ đề cươ
 
 \item[Sao không dùng tỷ số Sharpe cho khả năng đầu tư?] Vì khi lợi suất vượt trội trung bình âm, danh mục rủi ro hơn lại có tỷ số Sharpe ít âm hơn. Lợi suất tương đương chắc chắn luôn phạt rủi ro cao hơn. Tỷ số Sharpe vẫn được báo cáo là thước đo phụ (mục~\ref{sec:khanangdautu}).
 
-\item[Vì sao cần bảy mô hình, không dùng một?] Để kết luận không phụ thuộc vào sai số của một mô hình. Độ phân tán giữa các mô hình cho biết mức phụ thuộc đó, và so sánh mô hình ước lượng nhiều với \MM{1} cho biết kênh ước lượng hay kênh chi phí đang hoạt động (mục~\ref{sec:mohinh}).
+\item[Vì sao cần bảy mô hình, không dùng một?] Để kết luận không phụ thuộc vào sai số của một mô hình. Độ phân tán giữa các mô hình cho biết mức phụ thuộc đó; khoảng cách của \MM{1}, mô hình không cần ước lượng tham số, được báo cáo riêng như phép so sánh sạch nhất (mục~\ref{sec:mohinh}, \ref{sec:khanangdautu}).
 
 \item[\MM{5} là mô hình của chính thí sinh, có thiên lệch không?] Có thể có, nên kết quả được báo cáo cả khi có lẫn khi không có \MM{5}, và mọi mô hình được tinh chỉnh với cùng quy tắc và cùng ngân sách (mục~\ref{sec:mohinh}).
 
