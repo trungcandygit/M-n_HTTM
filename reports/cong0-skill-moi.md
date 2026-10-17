@@ -73,3 +73,16 @@ Tìm trên GitHub bằng từ khóa chung ("claude skill Vietnamese academic wri
 | latex-thesis-zh và nhóm | bahayonghang/academic-writing-skills @ 8183f08 | – | – | Liệt kê tệp | – | Không cài | Luận án tiếng Trung, LaTeX |
 
 Còn thiếu: skill định dạng theo quy chế ĐHQGHN và Trường Quốc tế. Chỉ viết được khi có văn bản quy chế.
+
+## Vòng 5 (17/10/2026): skill ký hiệu kinh tế lượng và toán
+
+Tìm bằng từ khoá chung ("github claude skill econometrics SKILL.md", "github claude skill math notation LaTeX equations SKILL.md"); không gửi câu chữ đề cương ra ngoài. Clone chỉ đọc vào scratchpad.
+
+| Skill | Nguồn (commit) | Giấy phép | Tệp đã đọc hết | Quét curl/wget/requests/subprocess/eval/exec/rm -rf/token/api key | Quyết định |
+|---|---|---|---|---|---|
+| panel-data-guide | brycewang-stanford/Awesome-Agent-Skills-for-Empirical-Research @e0b0c13 (wentor-research-plugins) | CC BY-SA 4.0 | SKILL.md | Không có; chỉ chứa ví dụ mã Stata/R/Python trong khối code, không có script chạy | CÀI |
+| mostly-harmless-guide | như trên | CC BY-SA 4.0 | SKILL.md | Không có; một URL nguồn trong metadata | CÀI |
+| latex-econ-model | meleantonio/awesome-econ-ai-stuff @dd890d5 | CC0 1.0 | SKILL.md, index.md (bản trùng) | Không có; ba URL tài liệu tham khảo | CÀI |
+| math-reasoning | lingzhi227/agent-research-skills @9e6c085 | Không có tệp giấy phép | SKILL.md, references/notation-guide.md, references/proof-templates.md | Không có | KHÔNG CÀI (không rõ giấy phép; nội dung thiên về ký hiệu học máy) |
+
+Không skill nào gửi nội dung đề cương qua mạng.
