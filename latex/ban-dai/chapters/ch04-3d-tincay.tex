@@ -4,7 +4,7 @@
 \subsection{Độ tin cậy, giới hạn và khả năng thực hiện}\label{sec:tincay}
 
 \begin{tomtat}
-Với một sự kiện duy nhất, đề tài chỉ phát hiện được tác động đủ lớn: với các giả định minh họa, khoảng mức giảm 22\% của độ phi thanh khoản. Lực kiểm định phụ thuộc vào số tháng trước và sau, độ biến động và mức tự tương quan của chuỗi chênh lệch, gần như không phụ thuộc vào số cổ phiếu. Kết quả không ủng hộ giả thuyết vẫn được báo cáo đầy đủ. Năm phương án dự phòng được chuẩn bị cho các trục trặc dễ xảy ra nhất (Phụ lục~\ref{pl:ruiro}).
+Với một sự kiện duy nhất, đề tài chỉ phát hiện được tác động đủ lớn: với các giả định minh họa, độ phi thanh khoản phải giảm khoảng 22\% trở lên. Lực kiểm định phụ thuộc vào số tháng trước và sau, độ biến động và mức tự tương quan của chuỗi chênh lệch, và chỉ phụ thuộc yếu vào số cổ phiếu. Kết quả không ủng hộ giả thuyết vẫn được báo cáo đầy đủ. Năm phương án dự phòng được chuẩn bị cho các trục trặc dễ xảy ra nhất (Phụ lục~\ref{pl:ruiro}).
 \end{tomtat}
 
 \subsubsection*{Lực kiểm định}
@@ -13,7 +13,7 @@ Lực kiểm định của \HH{3} phụ thuộc chủ yếu vào số tháng tr�
 
 Điều này nghe ngược với trực giác, vì thông thường mẫu càng nhiều quan sát thì càng phát hiện được tác động nhỏ. Nhưng như mục~\ref{sec:kiemdinh} đã giải thích, toàn bộ thông tin được gộp thành một chuỗi theo tháng. Thêm cổ phiếu làm mỗi điểm của chuỗi bớt nhiễu riêng lẻ của từng mã, nhưng không làm giảm các cú sốc theo tháng tác động khác nhau lên nhóm chuyển sàn và nhóm đối chứng; cú sốc tác động như nhau lên mọi mã thì đã triệt tiêu khi lấy chênh lệch. Nếu loại cú sốc thứ nhất chiếm phần lớn phương sai của chuỗi, thêm cổ phiếu gần như không làm giảm hiệu ứng nhỏ nhất phát hiện được. Thêm tháng thì có tác dụng thật.
 
-Với giả định chuỗi chênh lệch theo tháng là một quá trình tự hồi quy bậc một có hệ số $\phi$ và độ lệch chuẩn không điều kiện $\sigma$, cửa sổ trước dài 193 tháng (6/2009--6/2025), 18 tháng chuyển tiếp bị loại và giai đoạn sau dài 24 tháng, hiệu ứng nhỏ nhất phát hiện được của $\delta$ ở lực kiểm định 80\% và mức ý nghĩa một phía 0,05/3 xấp xỉ $0{,}64\sigma$ khi $\phi = 0$, $1{,}24\sigma$ khi $\phi = 0{,}6$ và $1{,}76\sigma$ khi $\phi = 0{,}8$. Nếu cửa sổ trước được rút ngắn do điểm gãy cấu trúc, hiệu ứng nhỏ nhất phát hiện được tăng lên, khoảng 1,3 lần khi cửa sổ trước chỉ còn 24 tháng.
+Giả định chuỗi chênh lệch theo tháng là một quá trình tự hồi quy bậc một có hệ số $\phi$ và độ lệch chuẩn không điều kiện $\sigma$, cửa sổ trước dài 193 tháng (6/2009--6/2025), 18 tháng chuyển tiếp bị loại và giai đoạn sau dài 24 tháng. Khi đó hiệu ứng nhỏ nhất phát hiện được của $\delta$ ở lực kiểm định 80\% và mức ý nghĩa một phía 0,05/3 xấp xỉ $0{,}64\sigma$ khi $\phi = 0$, $1{,}24\sigma$ khi $\phi = 0{,}6$ và $1{,}76\sigma$ khi $\phi = 0{,}8$. Nếu cửa sổ trước được rút ngắn do điểm gãy cấu trúc, hiệu ứng nhỏ nhất phát hiện được tăng lên, khoảng 1,3 lần khi cửa sổ trước chỉ còn 24 tháng.
 
 Chẳng hạn, với $\sigma = 0{,}2$ và $\phi = 0{,}6$, đề tài chỉ phát hiện được mức giảm logarit Amihud từ khoảng 0,25, tương đương độ phi thanh khoản giảm khoảng 22\%. Đây là giả định minh họa; $\sigma$, $\phi$ và hiệu ứng nhỏ nhất phát hiện được sẽ được ước lượng lại từ giai đoạn tham chiếu và ghi vào tệp đăng ký.
 
@@ -34,7 +34,7 @@ Cột cuối tính bằng $1 - e^{-x}$ với $x$ ở cột thứ ba. Chuỗi cà
 \end{vidu}
 
 \begin{delam}
-\emph{Dễ nghĩ là} nếu không bác bỏ được giả thuyết gốc thì nghĩa là chuyển sàn không có tác động. Không đúng. Với giả định minh họa $\sigma = 0{,}2$ và $\phi = 0{,}6$, một tác động thật làm độ phi thanh khoản giảm 10\% chỉ được phát hiện với xác suất khoảng một phần năm. Kết luận đúng trong trường hợp ấy là \enquote{chưa đủ cơ sở kết luận}, kèm khoảng tin cậy cho biết những tác động nào còn phù hợp với dữ liệu.
+\emph{Dễ nghĩ là} nếu không bác bỏ được giả thuyết gốc thì nghĩa là chuyển sàn không có tác động. Không đúng. Với giả định minh họa $\sigma = 0{,}2$ và $\phi = 0{,}6$, một tác động thật làm độ phi thanh khoản giảm 10\% chỉ được phát hiện với xác suất khoảng một phần năm. Cách đọc đúng một kết quả như vậy được trình bày ngay dưới đây.
 \end{delam}
 
 \HH{4} có ít cửa sổ nên chỉ được báo cáo ở dạng ước lượng, và so sánh theo hai giai đoạn căng thẳng chỉ ở dạng mô tả. Giá trị p đưa vào thủ tục Holm (1979) ở mức 5\% là giá trị p một phía: phân cụm theo quốc gia cho \HH{1}, bootstrap khối dừng cho \HH{2} và bootstrap tự hồi quy cho \HH{3}.
@@ -53,8 +53,8 @@ Kế hoạch có năm phương án dự phòng. Nếu không số hóa được 
 
 Bộ ước lượng cho xử lý so le cần thiết vì khi các nhóm cổ phiếu chuyển sàn vào những ngày khác nhau, phương trình khác biệt kép thông thường có thể dùng nhóm đã chuyển trước làm đối chứng cho nhóm chuyển sau, và cho kết quả khó diễn giải. Callaway và Sant'Anna (2021) ước lượng tác động riêng cho từng nhóm theo ngày chuyển, chỉ so với các nhóm chưa chuyển, rồi mới gộp lại.
 
-Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, nên đợt chuyển ngày 28/12/2026 không gồm UPCoM (Báo Đầu tư Chứng khoán, 2026; Sở Giao dịch Chứng khoán Việt Nam, 2026), nhưng hạn chuyển cổ phiếu UPCoM sang HOSE vẫn là hết ngày 31/12/2026 (Bộ Tài chính, 2023), nên UPCoM có thể chuyển sàn theo một đợt riêng trước hết ngày 31/12/2026, tức trước cửa sổ sau, hoặc trong cửa sổ sau nếu mốc này được lùi. Khi đó, nhóm đối chứng UPCoM và chỉ số của UPCoM chỉ được dùng đến tháng liền trước ngày chuyển, ước lượng chính dựa vào nhóm đối chứng HOSE, và tương tác theo biên độ dùng thước đo thay thế ở mục~\ref{sec:kiemdinh}.
+Thông báo của VNX chỉ áp dụng cho cổ phiếu niêm yết, nên đợt chuyển ngày 28/12/2026 không gồm UPCoM (Báo Đầu tư Chứng khoán, 2026; Sở Giao dịch Chứng khoán Việt Nam, 2026). Tuy vậy, hạn chuyển cổ phiếu UPCoM sang HOSE vẫn là hết ngày 31/12/2026 (Bộ Tài chính, 2023). UPCoM vì vậy có thể chuyển sàn theo một đợt riêng trước hạn này, tức trước cửa sổ sau, hoặc trong cửa sổ sau nếu mốc này được lùi. Khi đó, nhóm đối chứng UPCoM và chỉ số của UPCoM chỉ được dùng đến tháng liền trước ngày chuyển, ước lượng chính dựa vào nhóm đối chứng HOSE, và tương tác theo biên độ dùng thước đo thay thế ở mục~\ref{sec:kiemdinh}.
 
-Nếu cả hai nhóm đối chứng không đạt kiểm tra xu hướng song song, đề tài dùng nhóm đối chứng tổng hợp từ các mã HOSE ngoài danh sách FTSE Russell và mã UPCoM. Nếu dữ liệu sau sự kiện ngắn hơn 24 tháng hoặc rổ CS có ít hơn 30 cổ phiếu đủ thanh khoản, đề tài dùng, tương ứng, toàn bộ tháng có sẵn hoặc rổ 20 cổ phiếu.
+Nếu cả hai nhóm đối chứng không đạt kiểm tra xu hướng song song, đề tài dùng nhóm đối chứng tổng hợp từ các mã HOSE ngoài danh sách FTSE Russell và mã UPCoM. Nếu dữ liệu sau sự kiện ngắn hơn 24 tháng, đề tài dùng toàn bộ tháng có sẵn; nếu rổ CS có ít hơn 30 cổ phiếu đủ thanh khoản, đề tài dùng rổ 20 cổ phiếu.
 
 Nhóm đối chứng tổng hợp là một tổ hợp có trọng số của nhiều cổ phiếu đối chứng, với trọng số được chọn sao cho tổ hợp đi sát nhất với nhóm chuyển sàn trong giai đoạn trước sự kiện. Phương pháp này chỉ dùng được khi tổ hợp bám sát nhóm chuyển sàn trong giai đoạn trước; bám sát ở giai đoạn trước không bảo đảm xu hướng song song ở giai đoạn sau, nên độ khớp trước sự kiện được báo cáo kèm, và cách lập nhóm cụ thể được ghi trong tệp đăng ký.

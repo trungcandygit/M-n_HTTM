@@ -4,7 +4,7 @@
 \subsection{Kiểm định giả thuyết}\label{sec:kiemdinh}
 
 \begin{tomtat}
-\HH{3} được kiểm định bằng khác biệt kép: so thay đổi thanh khoản của cổ phiếu chuyển sàn với thay đổi của cổ phiếu đối chứng. Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận không dựa vào sai số chuẩn thông thường mà dựa vào bootstrap tự hồi quy trên chuỗi chênh lệch theo tháng. Phiên bản nghiên cứu sự kiện kiểm tra xu hướng song song. Các tương tác cho biết tác động khác nhau thế nào theo mức chịu cú sốc biên độ, bước giá, chỉ số và theo trụ sở doanh nghiệp. \HH{4} được báo cáo bằng ước lượng; \HH{1} được kiểm định trên dữ liệu bảng quốc tế.
+\HH{3} được kiểm định bằng khác biệt kép: so thay đổi thanh khoản của cổ phiếu chuyển sàn với thay đổi của cổ phiếu đối chứng. Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận không dựa vào sai số chuẩn thông thường mà dựa vào bootstrap tự hồi quy trên chuỗi chênh lệch theo tháng. Phiên bản nghiên cứu sự kiện kiểm tra xu hướng song song. Các tương tác cho biết tác động khác nhau thế nào theo mức cổ phiếu chịu ba thay đổi quy tắc (biên độ, bước giá, việc vào chỉ số HOSE) và theo trụ sở doanh nghiệp. \HH{4} được báo cáo bằng ước lượng; \HH{1} được kiểm định trên dữ liệu bảng quốc tế.
 \end{tomtat}
 
 \subsubsection*{Phương trình khác biệt kép}
@@ -17,7 +17,7 @@ trong đó $A_{it}$ là logarit của độ phi thanh khoản Amihud của cổ 
 
 \paragraph{Đọc công thức \eqref{eq:did} bằng lời.} Thanh khoản của một cổ phiếu trong một tháng gồm bốn phần: một mức riêng của cổ phiếu ấy, không đổi theo thời gian ($\alpha_i$); một cú sốc chung của tháng ấy, tác động lên mọi cổ phiếu ($\tau_t$); phần thay đổi thêm chỉ có ở cổ phiếu chuyển sàn sau ngày chuyển ($\delta$, vì tích $D_i\Post_t$ chỉ bằng 1 khi cả hai điều kiện cùng đúng); và phần còn lại không giải thích được ($\varepsilon_{it}$). Tác động của việc chuyển sàn là $\delta$.
 
-Vì $A_{it}$ là logarit, $\delta$ đọc gần đúng như phần trăm thay đổi khi nhỏ; chính xác hơn, độ phi thanh khoản thay đổi $(e^{\delta} - 1)$ nhân 100 phần trăm. \HH{3} kỳ vọng $\delta$ âm, tức cổ phiếu chuyển sàn dễ mua bán hơn.
+Vì $A_{it}$ là logarit, khi $\delta$ nhỏ thì $100\delta$ xấp xỉ phần trăm thay đổi; chính xác hơn, độ phi thanh khoản thay đổi $(e^{\delta} - 1)$ nhân 100 phần trăm. \HH{3} kỳ vọng $\delta$ âm, tức cổ phiếu chuyển sàn dễ mua bán hơn.
 
 \begin{vidu}[: khác biệt kép trên bốn con số]
 Giả sử bình quân logarit Amihud như sau:
@@ -40,7 +40,7 @@ Cổ phiếu chuyển sàn dễ mua bán hơn ($-0{,}40$), nhưng cổ phiếu �
 \emph{Vì sao dùng khác biệt kép.} Có hai cách đơn giản hơn, và cả hai đều sai theo một cách dễ thấy. So cổ phiếu chuyển sàn trước và sau sự kiện thì lẫn tác động của sàn với mọi thay đổi chung của thị trường trong cùng thời gian (lãi suất, dòng vốn ngoại, nâng hạng). So cổ phiếu chuyển sàn với cổ phiếu HOSE sau sự kiện thì lẫn tác động của sàn với mọi khác biệt sẵn có giữa hai nhóm doanh nghiệp. Khác biệt kép trừ đi cả hai: hiệu ứng cố định theo cổ phiếu loại khác biệt sẵn có, hiệu ứng cố định theo tháng loại thay đổi chung. Cái giá phải trả là giả định xu hướng song song (mục~\ref{sec:did}).
 \end{vidao}
 
-Phương trình \eqref{eq:did} được ước lượng trên giai đoạn tham chiếu (đến tháng 6/2025) và giai đoạn sau sự kiện (từ tháng 1/2027); các tháng từ 7/2025 đến 12/2026, gồm tháng chuyển sàn, chỉ được đưa vào phương trình \eqref{eq:es}. Vì giai đoạn tham chiếu dài 16 năm, cửa sổ trước của ước lượng chính bắt đầu sau điểm gãy cấu trúc cuối cùng của chuỗi chênh lệch theo tháng định nghĩa ở đoạn sau (Bai \& Perron, 1998), và ước lượng với cửa sổ trước 24 tháng (7/2023--6/2025) được báo cáo kèm.
+Phương trình \eqref{eq:did} được ước lượng trên giai đoạn tham chiếu (đến tháng 6/2025) và giai đoạn sau sự kiện (từ tháng 1/2027); các tháng từ 7/2025 đến 12/2026, gồm tháng chuyển sàn, chỉ được đưa vào phương trình \eqref{eq:es}. Vì giai đoạn tham chiếu dài 16 năm, cửa sổ trước của ước lượng chính bắt đầu sau điểm gãy cấu trúc cuối cùng (Bai \& Perron, 1998) của chuỗi chênh lệch logarit Amihud theo tháng giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng (chuỗi $d_t$, định nghĩa đầy đủ ở phần suy luận bên dưới), và ước lượng với cửa sổ trước 24 tháng (7/2023--6/2025) được báo cáo kèm.
 
 Lý do chọn cửa sổ trước theo điểm gãy cấu trúc là thị trường năm 2010 khác xa thị trường năm 2024. Nếu chênh lệch giữa hai nhóm đã đổi mức ở một thời điểm trong quá khứ, chẳng hạn khi quy chế giao dịch thay đổi, thì dùng toàn bộ 16 năm làm \enquote{trước sự kiện} sẽ trộn hai chế độ khác nhau. Bắt đầu từ sau điểm gãy cuối cùng giúp cửa sổ trước chủ yếu gồm giai đoạn có cùng chế độ với thời điểm ngay trước sự kiện; vì ngày gãy được ước lượng có sai số, ước lượng với cửa sổ trước 24 tháng được báo cáo kèm.
 
@@ -56,7 +56,7 @@ Nhóm đối chứng chính gồm cổ phiếu HOSE ghép láng giềng gần nh
 
 \subsubsection*{Suy luận khi chỉ có một sự kiện}
 
-Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận chính dựa trên chuỗi $d_t$, là chênh lệch trung bình logarit Amihud giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng ghép cặp trong tháng $t$. Thống kê kiểm định là trung bình của $d_t$ sau sự kiện trừ trung bình trong cửa sổ trước. Giá trị p chính được tính bằng bootstrap tự hồi quy trên $d_t$, với mô hình tự hồi quy ước lượng trên giai đoạn tham chiếu, hệ số được hiệu chỉnh độ chệch, và kích thước kiểm định được kiểm tra bằng mô phỏng trước ngày đăng ký.
+Vì mọi cổ phiếu chuyển sàn cùng một ngày, suy luận chính dựa trên chuỗi $d_t$, là chênh lệch trung bình logarit Amihud giữa cổ phiếu chuyển sàn và cổ phiếu đối chứng ghép cặp trong tháng $t$. Thống kê kiểm định là trung bình của $d_t$ sau sự kiện trừ trung bình trong cửa sổ trước. Giá trị p chính được tính bằng bootstrap tự hồi quy trên $d_t$, với mô hình tự hồi quy ước lượng trên giai đoạn tham chiếu, hệ số được hiệu chỉnh độ chệch, và kích thước kiểm định (xác suất bác bỏ giả thuyết gốc khi thực ra không có tác động) được kiểm tra bằng mô phỏng trước ngày đăng ký.
 
 \begin{vidao}
 \emph{Vì sao không dùng sai số chuẩn phân cụm theo cổ phiếu.} Sai số chuẩn phân cụm theo cổ phiếu giả định rằng các cổ phiếu là những quan sát độc lập. Nhưng ở đây, mọi cổ phiếu chuyển sàn cùng chịu một sự kiện vào cùng một ngày. Cú sốc tác động như nhau lên mọi cổ phiếu đã được hiệu ứng cố định theo tháng $\tau_t$ hấp thụ; vấn đề là những cú sốc theo tháng tác động lên cả nhóm chuyển sàn khác với nhóm đối chứng (một tin chỉ liên quan đến các mã HNX, một đợt bán tháo dồn vào mã nhỏ), làm sai số của các mã chuyển sàn tương quan với nhau trong cùng tháng. Có hàng trăm cổ phiếu nhưng về bản chất chỉ có \emph{một} lần chuyển sàn. Nếu coi 299 mã là 299 thí nghiệm, sai số chuẩn sẽ nhỏ đến mức gần như mọi khác biệt đều \enquote{có ý nghĩa}. Conley và Taber (2011) chỉ ra vấn đề này cho khác biệt kép với ít lần thay đổi chính sách.
@@ -75,7 +75,7 @@ Cách làm của đề tài là gộp toàn bộ thông tin thành một chuỗi
 Số lần lặp và các con số trong ví dụ là minh họa; thủ tục cụ thể được ghi trong tệp đăng ký.
 \end{vidu}
 
-Suy luận trên các ngày sự kiện giả định trong giai đoạn tham chiếu, theo tinh thần của Conley và Taber (2011), chỉ là kiểm tra bổ sung: các cửa sổ giả chồng lấn nhau, chỉ tạo khoảng sáu cửa sổ độc lập, và mô phỏng sơ bộ của thí sinh cho thấy kiểm định này bác bỏ giả thuyết gốc với tần suất cao hơn đáng kể so với mức danh nghĩa. \HH{3} được ủng hộ khi $\delta$ âm và giá trị p bootstrap tự hồi quy nhỏ hơn ngưỡng Holm tương ứng.
+Suy luận trên các ngày sự kiện giả trong giai đoạn tham chiếu, theo tinh thần của Conley và Taber (2011), chỉ là kiểm tra bổ sung: các cửa sổ giả chồng lấn nhau, chỉ tạo khoảng sáu cửa sổ độc lập, và mô phỏng sơ bộ của thí sinh cho thấy kiểm định này bác bỏ giả thuyết gốc với tần suất cao hơn đáng kể so với mức danh nghĩa. \HH{3} được ủng hộ khi $\delta$ âm và giá trị p bootstrap tự hồi quy nhỏ hơn ngưỡng Holm tương ứng.
 
 Ý tưởng của ngày sự kiện giả là giả vờ sự kiện xảy ra ở một tháng nào đó trong quá khứ, tính lại thống kê, và xem thống kê thật có cực đoan hơn phần lớn các thống kê giả không. Vấn đề là với cửa sổ sau dài 24 tháng, các ngày giả cách nhau vài tháng cho các cửa sổ gần như trùng nhau; số phép so sánh thật sự độc lập ít hơn nhiều so với số ngày giả, nên kiểm định này dễ bác bỏ sai.
 
@@ -97,9 +97,10 @@ Giả sử các $\delta_k$ từ 1/2024 đến 5/2025 dao động trong khoảng 
 
 Việc chuyển sàn đổi nhiều quy tắc cùng lúc, trong đó ba quy tắc tác động mạnh yếu khác nhau tùy cổ phiếu: biên độ hẹp lại chỉ ràng buộc mã thường có lợi suất ngày lớn; bước giá nhỏ đi chủ yếu ở mã giá thấp; việc vào VN-Index và các chỉ số khác của HOSE tạo áp lực cầu lớn hơn ở mã có vốn hóa lớn so với giá trị giao dịch (mục~\ref{sec:did}).
 
-Ba mức chịu cú sốc tương ứng được đo bằng dữ liệu đến ngày 30/6/2025: tỷ lệ ngày có lợi suất tuyệt đối từ 7\% đến dưới 10\%; nghịch đảo của giá đóng cửa bình quân; và tỷ số giữa vốn hóa toàn phần và giá trị giao dịch bình quân ngày, vì VN-Index không điều chỉnh tỷ lệ tự do chuyển nhượng (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2026).
+Ba mức chịu cú sốc tương ứng được đo bằng dữ liệu đến ngày 30/6/2025: tỷ lệ ngày có lợi suất tuyệt đối từ 7\% đến dưới 10\%; nghịch đảo của giá đóng cửa bình quân; và tỷ số giữa vốn hóa toàn phần và giá trị giao dịch bình quân ngày, vì VN-Index tính trọng số theo vốn hóa toàn phần, không điều chỉnh tỷ lệ tự do chuyển nhượng (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2026).
 
 \begin{center}
+\captionof{table}{Ba thay đổi quy tắc khi chuyển sàn và thước đo mức chịu cú sốc}\label{tab:cusoc}
 {\bangnho
 \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.2\textwidth} L L@{}}
 \toprule
@@ -112,7 +113,7 @@ Vào chỉ số HOSE & Mã vốn hóa lớn so với giá trị giao dịch & V�
 \end{tabularx}}
 \end{center}
 
-Bộ quy tắc của FTSE Russell coi cả HOSE và HNX là sàn đủ điều kiện ở Việt Nam (FTSE Russell, 2026a), nên việc đổi sàn tự nó không thay đổi tư cách được sàng lọc của một mã và không được coi là một kênh tác động qua chỉ số FTSE. Danh sách cổ phiếu đủ điều kiện, lập với dữ liệu đến ngày 30/6/2026, chỉ gồm mã niêm yết tại HOSE (FTSE Russell, 2026b) và được dùng để loại mã khỏi nhóm đối chứng; nếu mã chuyển sàn nào được đưa vào chỉ số ở các kỳ sau, $\delta$ được ước lượng thêm khi loại các mã này.
+Bộ quy tắc của FTSE Russell coi cả HOSE và HNX là sàn đủ điều kiện ở Việt Nam (FTSE Russell, 2026a), nên việc đổi sàn tự nó không làm một mã mất hay có thêm tư cách đủ điều kiện và không được coi là một kênh tác động qua chỉ số FTSE. Danh sách cổ phiếu đủ điều kiện, lập với dữ liệu đến ngày 30/6/2026, chỉ gồm mã niêm yết tại HOSE (FTSE Russell, 2026b) và được dùng để loại mã khỏi nhóm đối chứng; nếu mã chuyển sàn nào được đưa vào chỉ số ở các kỳ sau, $\delta$ được ước lượng thêm khi loại các mã này.
 
 Phương trình \eqref{eq:did} được mở rộng bằng các số hạng $D_i\Post_tE_{si}$, trong đó $E_{si}$ là mức chịu cú sốc $s$ của cổ phiếu $i$, trừ trung bình và chia cho độ lệch chuẩn giữa các mã chuyển sàn, nên $\delta$ là tác động tại mức chịu cú sốc trung bình. Các số hạng $E_{si}\tau_t$ cho mỗi mức chịu cú sốc một hiệu ứng theo tháng riêng, ước lượng trên mã đối chứng đo được cùng thước đo: mã UPCoM với biên độ, mã HOSE với bước giá và chỉ số. Nếu cổ phiếu UPCoM chuyển sang HOSE trước hoặc trong cửa sổ sau (mục~\ref{sec:tincay}), mức chịu cú sốc biên độ của mọi mã được đo bằng tỷ lệ ngày có lợi suất tuyệt đối từ ngưỡng chung trở lên và hiệu ứng theo tháng tương ứng được ước lượng trên mã HOSE đối chứng; thước đo này chỉ đại diện gần đúng cho mức chịu ràng buộc của biên độ.
 
@@ -126,7 +127,7 @@ Mỗi hệ số tương tác được suy luận như $\delta$, vì sai số chu
 
 \subsubsection*{Tác động khác nhau theo trụ sở doanh nghiệp}
 
-Phân tích theo trụ sở kiểm tra xem việc chuyển sàn có tác động khác nhau đến doanh nghiệp có trụ sở tại Hà Nội và doanh nghiệp ở nơi khác hay không. Văn liệu cho thấy nhà quản lý quỹ ưa nắm giữ cổ phiếu của doanh nghiệp có trụ sở gần mình (Coval \& Moskowitz, 1999) và thanh khoản của cổ phiếu phụ thuộc vào vị trí trụ sở (Loughran \& Schultz, 2005), nhưng hai bài này nói về khoảng cách giữa nhà đầu tư và doanh nghiệp, không nói về vị trí của sàn. Kênh mà đề tài kiểm tra là sự chú ý và thông tin gắn với nơi đặt sàn: nếu kênh này có thật, cổ phiếu của doanh nghiệp có trụ sở tại Hà Nội được lợi ít hơn khi chuyển sang HOSE.
+Phân tích theo trụ sở kiểm tra xem việc chuyển sàn có tác động khác nhau đến doanh nghiệp có trụ sở tại Hà Nội và doanh nghiệp ở nơi khác hay không. Tài liệu cho thấy nhà quản lý quỹ ưa nắm giữ cổ phiếu của doanh nghiệp có trụ sở gần mình (Coval \& Moskowitz, 1999) và thanh khoản của cổ phiếu phụ thuộc vào vị trí trụ sở (Loughran \& Schultz, 2005), nhưng hai bài này nói về khoảng cách giữa nhà đầu tư và doanh nghiệp, không nói về vị trí của sàn. Kênh mà đề tài kiểm tra là sự chú ý và thông tin gắn với nơi đặt sàn: nếu kênh này có thật, cổ phiếu của doanh nghiệp có trụ sở tại Hà Nội được lợi ít hơn khi chuyển sang HOSE.
 
 Chênh lệch này được ước lượng bằng tương tác giữa $D_i\Post_t$ và biến giả trụ sở tại Hà Nội, xác định theo địa chỉ đăng ký tại ngày 30/6/2025, kèm tích của biến giả này với hiệu ứng cố định theo tháng (ước lượng trên các mã HOSE đối chứng có trụ sở tại Hà Nội) và tương tác với quy mô và ngành.
 
@@ -161,7 +162,7 @@ Giả sử ước lượng được $\beta = 0{,}3$, và $\SMD$ được biểu 
 Sai số chuẩn được phân cụm theo quốc gia. Vì mô hình có hiệu ứng cố định theo trung tâm, $\beta$ được xác định từ biến thiên theo thời gian trong từng quốc gia, và biến thiên này nhỏ vì $\SMD$ thay đổi chậm; đề tài báo cáo thêm ước lượng không có hiệu ứng cố định theo trung tâm. Điểm GFCI đã chứa vốn hóa, giá trị và khối lượng giao dịch cổ phiếu từ Liên đoàn các Sở Giao dịch Thế giới (3 trong 144 nhân tố của kỳ GFCI 40; Wardle \& Mainelli, 2026), và trung tâm mạnh có thể kéo theo giao dịch cổ phiếu, nên $\beta$ được gọi là liên hệ có điều kiện. \HH{1} được ủng hộ khi $\beta$ dương với giá trị p nhỏ hơn ngưỡng Holm tương ứng.
 
 \begin{delam}
-\emph{Dễ nghĩ là} hiệu ứng cố định theo trung tâm luôn làm ước lượng tốt hơn. Nó loại được mọi đặc điểm không đổi của trung tâm (vị trí, ngôn ngữ, lịch sử), nhưng cũng loại luôn phần lớn biến thiên của $\SMD$, vì mức phát triển thị trường cổ phiếu của một nước ít thay đổi giữa các kỳ GFCI. Khi đó $\beta$ được ước lượng từ rất ít thông tin và có sai số lớn. Đề tài vì vậy báo cáo cả hai đặc tả, có và không có hiệu ứng cố định theo trung tâm, và đọc chúng cùng nhau.
+\emph{Dễ nghĩ là} hiệu ứng cố định theo trung tâm luôn làm ước lượng tốt hơn. Nó loại được mọi đặc điểm không đổi của trung tâm (vị trí, ngôn ngữ, lịch sử), nhưng cái giá là $\beta$ chỉ còn dựa vào phần biến thiên nhỏ của $\SMD$ nêu ở đoạn trên. Vì vậy hai đặc tả được đọc cùng nhau.
 \end{delam}
 
 %-------------------------------------------------------
@@ -179,6 +180,7 @@ Thứ hai, nhóm đối chứng không chịu tác động của sự kiện. Nh
 Vì vậy, nhóm đối chứng HOSE loại các mã thuộc danh sách đủ điều kiện của FTSE Russell, $\delta$ được ước lượng thêm với biến giả nhóm bảng phân loại, và thanh khoản của từng nhóm đối chứng được so với xu hướng trước của chính nhóm đó.
 
 \begin{center}
+\captionof{table}{Thay đổi trùng thời gian ở HOSE và cách xử lý}\label{tab:trungthoigian}
 {\bangnho
 \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.27\textwidth} L L@{}}
 \toprule
@@ -197,20 +199,16 @@ Nới biên độ, giao dịch xuyên trưa (đang nghiên cứu) & Mọi mã HO
 Nếu nhóm đối chứng HOSE mất thanh khoản do dòng lệnh chuyển sang cổ phiếu chuyển sàn, $\delta$ phóng đại tác động, và ước lượng với nhóm đối chứng UPCoM, nếu nhóm này còn dữ liệu sau sự kiện, là một cận khác. Ngược lại, nếu thanh khoản lan tỏa dương sang nhóm đối chứng HOSE, như đã ghi nhận ở Tel Aviv (Amihud và cộng sự, 1997) và quanh đợt hợp nhất Tokyo--Osaka (Hisada, 2018), $\delta$ đánh giá thấp tác động.
 
 \begin{vidu}[: hai hướng lan tỏa]
-Giả sử tác động thật của chuyển sàn là $-0{,}20$. Nếu nhà đầu tư rút tiền khỏi các mã HOSE đối chứng để mua mã chuyển sàn, nhóm đối chứng kém thanh khoản đi, chẳng hạn $+0{,}05$. Khác biệt kép đo được là $-0{,}20 - 0{,}05 = -0{,}25$, phóng đại tác động. Nếu ngược lại, sàn HOSE đông giao dịch hơn làm mọi mã cùng dễ mua bán, nhóm đối chứng tốt lên $-0{,}05$, và khác biệt kép đo được là $-0{,}15$, đánh giá thấp tác động. Vì không biết trước hướng nào mạnh hơn, đề tài dùng nhóm đối chứng UPCoM, ít liên quan đến dòng lệnh trên HOSE, làm một cận khác.
+Giả sử tác động thật của chuyển sàn là $-0{,}20$. Nếu nhà đầu tư rút tiền khỏi các mã HOSE đối chứng để mua mã chuyển sàn, nhóm đối chứng kém thanh khoản đi, chẳng hạn $+0{,}05$. Khác biệt kép đo được là $-0{,}20 - 0{,}05 = -0{,}25$, phóng đại tác động. Nếu ngược lại, sàn HOSE đông giao dịch hơn làm mọi mã cùng dễ mua bán, nhóm đối chứng tốt lên (logarit Amihud giảm 0,05, tức thay đổi $-0{,}05$), và khác biệt kép đo được là $-0{,}15$, đánh giá thấp tác động. Vì không biết trước hướng nào mạnh hơn, đề tài dùng nhóm đối chứng UPCoM, ít liên quan đến dòng lệnh trên HOSE, làm một cận khác.
 \end{vidu}
 
 Thứ ba, việc rời mẫu không liên quan đến sự kiện; đề tài báo cáo tỷ lệ mã hủy niêm yết ở từng nhóm và ước lượng lại trên bảng cân bằng. Vì việc chuyển sàn đổi cùng lúc biên độ, bước giá, hệ thống giao dịch và tư cách thành phần chỉ số, $\delta$ đo tác động gộp của sàn, không đo riêng từng quy tắc.
-
-\paragraph{Từ bằng chứng đến định hướng cho Hà Nội.} Kết quả \HH{1}--\HH{4} được tổng hợp cùng phép so sánh vai trò của Hà Nội với Bắc Kinh và Thượng Hải (Lai, 2012; Wang và cộng sự, 2007) và với Thành phố Hồ Chí Minh, dựa trên văn bản chính sách và dữ liệu công khai, thành định hướng chuyên môn hóa cho các thị trường mà HNX tiếp tục vận hành. Phần này là tổng hợp định tính, không kiểm định giả thuyết.
-
-Cách tổng hợp có thể hình dung qua bốn tình huống. Nếu chuyển sàn làm thanh khoản và khả năng đầu tư tăng rõ, thì việc chuyển sàn có lợi cho nhà đầu tư vào các mã chuyển sàn, và thế mạnh của Hà Nội nên được tìm ở các thị trường khác ngoài cổ phiếu niêm yết. Nếu khoảng tin cậy hẹp quanh 0, khác biệt giữa hai sàn ở \HH{2} nhiều khả năng đến từ đặc điểm doanh nghiệp hơn là từ sàn; nếu kết quả chưa đủ cơ sở kết luận, đề tài không rút ra hàm ý nào về vai trò của sàn. Nếu doanh nghiệp Hà Nội được lợi ít hơn, thì có lý do để thành phố quan tâm tới hạ tầng thông tin cho doanh nghiệp địa phương. Nếu \HH{1} được ủng hộ, thì ở cấp quốc gia, điểm GFCI đi cùng mức phát triển thị trường cổ phiếu (liên hệ có điều kiện). Vì $\SMD$ đo ở cấp quốc gia và như nhau với mọi thành phố của Việt Nam, kết quả này không cho biết việc giao dịch cổ phiếu tập trung ở Thành phố Hồ Chí Minh có bất lợi cho Hà Nội hay không; nó chỉ là bối cảnh cho phần so sánh định tính. Bốn tình huống này chỉ là khung đọc kết quả; đề tài không chọn trước tình huống nào.
 
 %-------------------------------------------------------
 \subsection{Quy trình nghiên cứu}\label{sec:quytrinh}
 %-------------------------------------------------------
 
-Hình~\ref{fig:quytrinh} tóm tắt năm bước của quy trình: thu thập dữ liệu quốc tế và dữ liệu ba sàn; xây dựng Chỉ số chất lượng thị trường vốn và kiểm định \HH{2}; kiểm định \HH{1} trên dữ liệu bảng quốc tế; ước lượng tác động của sự kiện chuyển sàn lên thanh khoản (\HH{3}) và khả năng đầu tư (\HH{4}); tổng hợp định hướng chuyên môn hóa cho thị trường vốn Hà Nội. Thí sinh đăng ký trước kế hoạch phân tích trước ngày 28/12/2026.
+Hình~\ref{fig:quytrinh} tóm tắt quy trình gồm bước đăng ký trước (bước 0) và năm bước nghiên cứu: thu thập dữ liệu quốc tế và dữ liệu ba sàn; xây dựng Chỉ số chất lượng thị trường vốn và kiểm định \HH{2}; kiểm định \HH{1} trên dữ liệu bảng quốc tế; ước lượng tác động của sự kiện chuyển sàn lên thanh khoản (\HH{3}) và khả năng đầu tư (\HH{4}); tổng hợp định hướng chuyên môn hóa cho thị trường vốn Hà Nội. Thí sinh đăng ký trước kế hoạch phân tích trước ngày 28/12/2026.
 
 \begin{figure}[H]
 \myfloatalign
@@ -228,3 +226,8 @@ Hình~\ref{fig:quytrinh} tóm tắt năm bước của quy trình: thu thập d�
 \caption{Quy trình nghiên cứu}\label{fig:quytrinh}
 \nguon{Nguồn: Thí sinh đề xuất. Ghi chú: bước 0 là điều kiện của mọi bước sau; bước 2 và bước 3 có thể làm song song.}
 \end{figure}
+
+\paragraph{Từ bằng chứng đến định hướng cho Hà Nội.} Kết quả \HH{1}--\HH{4} được tổng hợp cùng phép so sánh vai trò của Hà Nội với Bắc Kinh và Thượng Hải (Lai, 2012; Wang và cộng sự, 2007) và với Thành phố Hồ Chí Minh, dựa trên văn bản chính sách và dữ liệu công khai, thành định hướng chuyên môn hóa cho các thị trường mà HNX tiếp tục vận hành. Phần này là tổng hợp định tính, không kiểm định giả thuyết.
+
+Cách tổng hợp có thể hình dung qua bốn tình huống. Nếu chuyển sàn làm thanh khoản và khả năng đầu tư tăng rõ, thì việc chuyển sàn có lợi cho nhà đầu tư vào các mã chuyển sàn, và thế mạnh của Hà Nội nên được tìm ở các thị trường khác ngoài cổ phiếu niêm yết. Nếu khoảng tin cậy hẹp quanh 0, khác biệt giữa hai sàn ở \HH{2} nhiều khả năng đến từ đặc điểm doanh nghiệp hơn là từ sàn; nếu kết quả chưa đủ cơ sở kết luận, đề tài không rút ra hàm ý nào về vai trò của sàn. Nếu doanh nghiệp Hà Nội được lợi ít hơn, thì có lý do để thành phố quan tâm tới hạ tầng thông tin cho doanh nghiệp địa phương. Nếu \HH{1} được ủng hộ, thì ở cấp quốc gia, điểm GFCI đi cùng mức phát triển thị trường cổ phiếu (liên hệ có điều kiện). Vì $\SMD$ đo ở cấp quốc gia và như nhau với mọi thành phố của Việt Nam, kết quả này không cho biết việc giao dịch cổ phiếu tập trung ở Thành phố Hồ Chí Minh có bất lợi cho Hà Nội hay không; nó chỉ là bối cảnh cho phần so sánh định tính. Bốn tình huống này chỉ là khung đọc kết quả; đề tài không chọn trước tình huống nào.
+

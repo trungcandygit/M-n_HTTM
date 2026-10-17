@@ -15,7 +15,7 @@ Tỷ số phương sai so sánh phương sai của lợi suất nhiều ngày v�
 
 Các chỉ báo cổ phiếu được gộp lên cấp sàn bằng trung vị có trọng số theo vốn hóa; độ phi thanh khoản Amihud được điều chỉnh theo tổng vốn hóa thị trường so với tháng 6/2025 để chỉ số không thay đổi chỉ vì quy mô danh nghĩa của thị trường.
 
-Điều chỉnh này cần vì độ phi thanh khoản Amihud có giá trị giao dịch ở mẫu số. Khi thị trường lớn lên theo thời gian (giá tăng, nhiều tiền hơn), giá trị giao dịch danh nghĩa tăng và độ phi thanh khoản giảm, dù độ khó mua bán so với quy mô thị trường không đổi. Nhân với tỷ số giữa tổng vốn hóa tháng t và tổng vốn hóa tháng 6/2025 loại bỏ phần thay đổi danh nghĩa này.
+Điều chỉnh này cần vì độ phi thanh khoản Amihud có giá trị giao dịch ở mẫu số. Khi thị trường lớn lên theo thời gian (giá tăng, nhiều tiền hơn), giá trị giao dịch danh nghĩa tăng và độ phi thanh khoản giảm, dù độ khó mua bán so với quy mô thị trường không đổi. Nhân với tỷ số giữa tổng vốn hóa tháng $t$ và tổng vốn hóa tháng 6/2025 loại bỏ phần thay đổi danh nghĩa này.
 
 Các chỉ báo được gộp thành Chỉ số chất lượng thị trường vốn theo hướng dẫn của OECD (2008). Mỗi chỉ báo được chuẩn hóa thành điểm z theo mẫu gộp các sàn trong giai đoạn tham chiếu, để giá trị đã công bố không phải tính lại, rồi đổi dấu sao cho giá trị cao hơn là chất lượng tốt hơn. Với sàn $j$ và tháng $t$, chỉ số là:
 \begin{equation}\label{eq:mqi}
@@ -51,7 +51,7 @@ Bootstrap khối dừng cần thiết vì chênh lệch tháng này thường g�
 %-------------------------------------------------------
 
 \begin{tomtat}
-Khả năng đầu tư được đo bằng bảy mô hình phân bổ (\MM{1}--\MM{7}), từ đơn giản nhất (1/N) đến phức tạp nhất (Black-Litterman có chuyển chế độ). Bảy mô hình là bảy \enquote{nhà đầu tư} khác nhau dùng chung một rổ cổ phiếu; đề tài lấy bình quân của họ để kết luận không phụ thuộc vào một mô hình. Mọi lựa chọn có thể ảnh hưởng đến kết quả được khóa trong tệp đăng ký trên OSF trước ngày 28/12/2026.
+Khả năng đầu tư được đo bằng bảy mô hình phân bổ (\MM{1}--\MM{7}), từ mô hình không ước lượng tham số nào (1/N) đến các mô hình ước lượng nhiều tham số. Bảy mô hình là bảy \enquote{nhà đầu tư} khác nhau dùng chung một rổ cổ phiếu; đề tài lấy bình quân của họ để kết luận không phụ thuộc vào một mô hình. Mọi lựa chọn có thể ảnh hưởng đến kết quả được khóa trong tệp đăng ký trên OSF trước ngày 28/12/2026.
 \end{tomtat}
 
 Đề tài đo khả năng đầu tư bằng bảy mô hình phân bổ (Bảng~\ref{tab:baymohinh}), đại diện cho các hướng tiếp cận ở nhóm tài liệu (D) và cho quy tắc có trạng thái thị trường (Hamilton, 1989; Kritzman và cộng sự, 2012). Bình quân theo bảy mô hình làm kết luận ít phụ thuộc vào sai số ước lượng của một mô hình, còn độ phân tán giữa các mô hình cho biết mức phụ thuộc đó.
@@ -91,7 +91,7 @@ Thí sinh đã dùng dữ liệu cổ phiếu HOSE trong bài báo Nguyễn và 
 Tệp đăng ký cố định trước mọi lựa chọn có thể ảnh hưởng tới kết quả: chỉ báo và trọng số; quy tắc lập rổ và ghép đối chứng; chi phí giao dịch và siêu tham số của bảy mô hình; đặc tả các phương trình \eqref{eq:did}--\eqref{eq:gfci} và thủ tục suy luận; ngưỡng lợi suất khi tính Amihud; quy tắc chọn cửa sổ trước theo điểm gãy cấu trúc; định nghĩa mức chịu cú sốc và biến trụ sở; mức ý nghĩa và cách hiệu chỉnh so sánh bội. Mọi thay đổi sau ngày đăng ký được ghi là lệch khỏi kế hoạch.
 
 \begin{delam}
-\emph{Dễ nghĩ là} đăng ký trước làm nghiên cứu cứng nhắc, không được sửa gì. Thực ra vẫn được sửa, nhưng mọi chỗ sửa được ghi lại và báo cáo là \enquote{lệch khỏi kế hoạch}, kèm lý do. Người đọc vì vậy phân biệt được kết quả nào theo kế hoạch ban đầu và kết quả nào có sau khi đã thấy dữ liệu. Với một sự kiện chỉ xảy ra một lần, điều này đặc biệt quan trọng, vì không ai lặp lại được nghiên cứu trên một sự kiện khác cùng loại.
+\emph{Dễ nghĩ là} đăng ký trước làm nghiên cứu cứng nhắc, không được sửa gì. Kế hoạch vẫn được sửa, nhưng mọi chỗ sửa được ghi lại và báo cáo là \enquote{lệch khỏi kế hoạch}, kèm lý do. Người đọc vì vậy phân biệt được kết quả nào theo kế hoạch ban đầu và kết quả nào có sau khi đã thấy dữ liệu. Với một sự kiện chỉ xảy ra một lần, việc ghi lại này càng cần, vì không ai lặp lại được nghiên cứu trên một sự kiện khác cùng loại.
 \end{delam}
 
 %-------------------------------------------------------
@@ -108,14 +108,14 @@ Khả năng đầu tư của một rổ là lợi suất tương đương chắc
 Hai danh mục cùng có lợi suất vượt trội trung bình $-5\%$ một năm. Danh mục A có độ lệch chuẩn 10\%, danh mục B có độ lệch chuẩn 25\%. Tỷ số Sharpe của A là $-5/10 = -0{,}5$; của B là $-5/25 = -0{,}2$. Theo tỷ số Sharpe, B \enquote{tốt hơn}, dù B lỗ như A mà rủi ro gấp hai lần rưỡi. Lợi suất tương đương chắc chắn không mắc lỗi này: rủi ro cao hơn luôn bị trừ nhiều hơn.
 \end{vidu}
 
-Với mỗi mô hình, mỗi rổ (rổ CS gồm cổ phiếu chuyển sàn, rổ H gồm cổ phiếu HOSE được ghép với rổ CS) và mỗi cửa sổ đánh giá, $\mu$ và $\sigma^2$ là trung bình và phương sai mẫu của lợi suất vượt trội tuần sau chi phí, nhân với 52 để quy năm; $\rho$ là hệ số ngại rủi ro ấn định trước (giá trị cơ sở bằng 5, kiểm tra độ nhạy ở 3 và 10).
+Công thức \eqref{eq:ce} dưới đây dùng ba ký hiệu. Với mỗi mô hình, mỗi rổ (rổ CS gồm cổ phiếu chuyển sàn, rổ H gồm cổ phiếu HOSE được ghép với rổ CS) và mỗi cửa sổ đánh giá, $\mu$ và $\sigma^2$ là trung bình và phương sai mẫu của lợi suất vượt trội tuần sau chi phí, nhân với 52 để quy năm; $\rho$ là hệ số ngại rủi ro ấn định trước (giá trị cơ sở bằng 5, kiểm tra độ nhạy ở 3 và 10).
 
 Đề tài dùng hai cấu hình chi phí. Cấu hình A dùng tỷ lệ cố định nhân với vòng quay danh mục. Cấu hình B dùng chi phí theo cổ phiếu và theo tháng, gồm phí giao dịch, thuế và một nửa chênh lệch mua-bán (giá chào đóng cửa nếu có, nếu không thì ước lượng theo Corwin \& Schultz, 2012), nên đo thêm kênh chi phí giao dịch mà sàn tác động. Lợi suất tương đương chắc chắn là:
 \begin{equation}\label{eq:ce}
 U = \mu - \frac{\rho}{2}\sigma^2
 \end{equation}
 
-Khoảng cách khả năng đầu tư của mô hình $m$ là chênh lệch giữa rổ H và rổ cổ phiếu chuyển sàn:
+Khoảng cách khả năng đầu tư của mô hình $m$ là chênh lệch giữa rổ H và rổ CS:
 \begin{equation}\label{eq:gap}
 G_m = U_m(\vn{H}) - U_m(\vn{CS})
 \end{equation}
@@ -149,11 +149,11 @@ Nếu sau chuyển sàn $\bar{G}$ giảm, chẳng hạn xuống 2,5, thì khoả
 
 \subsubsection*{Lập rổ và cửa sổ}
 
-Rổ CS gồm tối đa 30 cổ phiếu chuyển sàn có giá trị giao dịch bình quân ba tháng lớn nhất tại ngày tham chiếu 30/6/2025. Rổ H gồm, cho mỗi mã của rổ CS, cổ phiếu HOSE gần nhất về vốn hóa, ngành và độ phi thanh khoản tại cùng ngày, ghép có hoàn lại. Thành phần hai rổ được giữ nguyên để so sánh cùng các cổ phiếu quanh sự kiện; vì hai rổ được lập theo cùng quy tắc, thiên lệch do thông tin tại ngày tham chiếu lỗi thời ở các cửa sổ xa hay do hồi quy về trung bình tác động lên cả hai rổ.
+Rổ CS gồm tối đa 30 cổ phiếu chuyển sàn có giá trị giao dịch bình quân ba tháng lớn nhất tại ngày tham chiếu 30/6/2025. Rổ H gồm, cho mỗi mã của rổ CS, cổ phiếu HOSE gần nhất về vốn hóa, ngành và độ phi thanh khoản tại cùng ngày, ghép có hoàn lại. Thành phần hai rổ được giữ nguyên để so sánh cùng các cổ phiếu quanh sự kiện. Cách làm này có hai nguồn thiên lệch: thông tin tại ngày tham chiếu lỗi thời dần ở các cửa sổ xa, và giá trị giao dịch có thể hồi quy về trung bình. Vì hai rổ được lập theo cùng quy tắc, cả hai nguồn thiên lệch này tác động lên cả hai rổ.
 
 \enquote{Ghép có hoàn lại} nghĩa là một cổ phiếu HOSE có thể được ghép với hai mã CS khác nhau nếu nó là láng giềng gần nhất của cả hai. Cách này cho cặp ghép sát hơn, đổi lại rổ H có thể có ít mã khác nhau hơn 30.
 
-Mỗi mô hình được ước lượng trên cửa sổ 104 tuần và đánh giá trên cửa sổ 3 tháng không chồng lấn (Hình~\ref{fig:cuaso}): 20 cửa sổ từ quý 3/2020 đến quý 2/2025 và 8 cửa sổ từ quý 1/2027 đến quý 4/2028. Cửa sổ ước lượng sau sự kiện vẫn chứa dữ liệu trước ngày chuyển sàn, nên khoảng cách của \MM{1}, mô hình không cần ước lượng tham số, được báo cáo riêng như phép so sánh sạch nhất.
+Mỗi mô hình được ước lượng trên cửa sổ 104 tuần và đánh giá trên cửa sổ 3 tháng không chồng lấn (Hình~\ref{fig:cuaso}): 20 cửa sổ từ quý 3/2020 đến quý 2/2025 và 8 cửa sổ từ quý 1/2027 đến quý 4/2028. Khoảng cách của \MM{1}, mô hình không cần ước lượng tham số, được báo cáo riêng như phép so sánh sạch nhất.
 
 \begin{figure}[H]
 \myfloatalign
