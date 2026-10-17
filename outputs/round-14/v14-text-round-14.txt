@@ -146,7 +146,7 @@ H4 (ước lượng, không kiểm định xác nhận): Khoảng cách khả n�
 </BẢNG>
 [120] Nguồn: Thí sinh đề xuất. Ghi chú: H1–H3 là họ kiểm định xác nhận, hiệu chỉnh Holm (1979) ở mức 5%; H4 được báo cáo bằng ước lượng và khoảng tin cậy; các tương tác của tác động H3 là phân tích phụ đăng ký trước, không đưa vào thủ tục Holm.
 [121] Mỗi giả thuyết đi kèm một khả năng đối lập. Với H1, điểm GFCI có thể chỉ phản ánh thu nhập và thể chế. Với H2, chênh lệch có thể do quy mô doanh nghiệp và do biên độ dao động giá, hiện là ±7% ở HOSE, ±10% ở HNX và ±15% ở UPCoM; theo Điều 4 Thông tư số 120/2020/TT-BTC, biên độ do VNX quyết định sau khi Ủy ban Chứng khoán Nhà nước chấp thuận, và Ủy ban có thể điều chỉnh khi cần ổn định thị trường (Bộ Tài chính, 2020) [CẦN XÁC MINH các lần thay đổi biên độ trong giai đoạn 2009–2025]. Vì vậy, chỉ số được so sánh trên mẫu đối sánh theo quy mô và ngành, và được tính lại khi bỏ hai chỉ báo bị biên độ cắt trực tiếp là độ phi thanh khoản Amihud và chênh lệch Corwin–Schultz; tỷ số phương sai và độ trễ giá chỉ chịu biên độ gián tiếp và được kiểm tra bằng phép tính lại khi bỏ chiều hiệu quả thông tin (mục 4.3.4).
-[122] Bước giá cũng khác nhau. Với giao dịch khớp lệnh cổ phiếu, bước giá ở HOSE là 10 đồng khi giá dưới 10.000 đồng, 50 đồng khi giá từ 10.000 đến 49.950 đồng và 100 đồng từ 50.000 đồng trở lên (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025), còn ở HNX là 100 đồng cho mọi mức giá [CẦN ĐỐI CHIẾU quy chế giao dịch gốc của HNX (Quyết định số 529/QĐ-SGDHN ngày 25/8/2016) và của HOSE (Quyết định số 341/QĐ-SGDHCM ngày 22/8/2016)]. Khi chuyển sàn, bước giá vì vậy giảm mười lần ở mã giá dưới 10.000 đồng, giảm một nửa ở mã giá từ 10.000 đến 49.950 đồng và không đổi ở mã giá cao hơn.
+[122] Bước giá cũng khác nhau. Với giao dịch khớp lệnh cổ phiếu, bước giá ở HOSE là 10 đồng khi giá dưới 10.000 đồng, 50 đồng khi giá từ 10.000 đến 49.950 đồng và 100 đồng từ 50.000 đồng trở lên (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025), còn ở HNX là 100 đồng cho mọi mức giá (Sở Giao dịch Chứng khoán Hà Nội, 2016, Điều 23) [CẦN ĐỐI CHIẾU bước giá của HOSE trước ngày 12/9/2016 trên Quyết định số 341/QĐ-SGDHCM ngày 22/8/2016]. Khi chuyển sàn, bước giá vì vậy giảm mười lần ở mã giá dưới 10.000 đồng, giảm một nửa ở mã giá từ 10.000 đến 49.950 đồng và không đổi ở mã giá cao hơn.
 [123] Vì tỷ lệ ngày lợi suất bằng 0 và chênh lệch Corwin–Schultz phản ánh một phần bước giá, nhất là ở cổ phiếu giá thấp, hai chỉ báo này được báo cáo theo nhóm mức giá, và thay đổi của tỷ lệ ngày lợi suất bằng 0 trong H3 được đọc cùng với mức giảm bước giá khi chuyển sàn.
 [124] Với H3, biên độ hẹp lại từ ±10% xuống ±7% khi chuyển sàn làm lợi suất tuyệt đối bị cắt ở những ngày chạm biên độ, nên độ phi thanh khoản Amihud có thể giảm một cách cơ học. Chỉ loại các ngày chạm biên độ thì chưa đủ, vì sau khi chuyển sàn mọi ngày lẽ ra có lợi suất tuyệt đối khoảng 7% đến 10% đều thành ngày chạm biên độ và bị loại.
 [125] Đề tài vì vậy tính Amihud, ở cả hai nhóm và hai giai đoạn, chỉ trên các ngày có lợi suất tuyệt đối dưới một ngưỡng chung và không liền sau một ngày có lợi suất tuyệt đối từ ngưỡng này trở lên. Ngưỡng thấp hơn mức lợi suất lớn nhất đạt được ở biên độ ±7% với mọi mức giá đưa vào phép tính, sau khi giá trần được làm tròn xuống và giá sàn được làm tròn lên theo đơn vị yết giá của HOSE (Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh, 2025). Vì mức lợi suất lớn nhất này thấp hơn rõ ở cổ phiếu giá thấp (với giá tham chiếu 1.140 đồng và bước giá 10 đồng, giá trần là 1.210 đồng, tức chỉ tăng được 6,14%), các mã có giá dưới một mức tối thiểu ghi trong tệp đăng ký được loại khỏi phép tính Amihud và được báo cáo riêng. Vì ngưỡng giống nhau cho mọi cổ phiếu và mọi giai đoạn, tập ngày bị loại không đổi theo sàn.
@@ -344,81 +344,82 @@ TT | Tên bài báo | Số tác giả | Tạp chí; ISSN | Trạng thái (mã b�
 [277] Hội đồng nhân dân thành phố Hà Nội. (2026). Nghị quyết số 57/2026/NQ-HĐND ngày 15/6/2026 quy định một số chính sách phát triển nguồn nhân lực chất lượng cao của thành phố Hà Nội.
 [278] Nguyễn, T. B., & Nguyễn, V. T. (2026b). Tiền gửi không kỳ hạn, hiệu quả hoạt động và ổn định tài chính ngân hàng: Bằng chứng từ mô hình ngưỡng tại Việt Nam. Tạp chí Kinh tế - Luật và Ngân hàng, 28(9), 52–64. https://doi.org/10.59276/3030-4199/jelb.bav.895
 [279] Quốc hội. (2025). Nghị quyết số 222/2025/QH15 ngày 27/6/2025 về Trung tâm tài chính quốc tế tại Việt Nam.
-[280] Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2025). Quy định giao dịch đăng website HOSE [Kèm theo Tờ trình số 51/TTr-HTGD ngày 26/4/2025].
-[281] Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2026). Quyết định số 737/QĐ-SGDHCM ngày 29/9/2026 ban hành Quy tắc chỉ số VNINDEX phiên bản 1.0 [CẦN XÁC MINH số hiệu và ngày trên bản gốc; bản OCR chỉ đọc được tháng 9/2026].
-[282] Sở Giao dịch Chứng khoán Việt Nam. (2026). Sắp xếp lại thị trường giao dịch cổ phiếu niêm yết theo Thông tư số 139/2025/TT-BTC ngày 30/12/2025 của Bộ Tài chính [Thông báo ngày 30/9/2026]. https://vnx.vn/vi/thong-tin-tu-sgdck/VNX_QLHD/10005421
-[283] Thời báo Tài chính Việt Nam. (2026). Chuyển toàn bộ cổ phiếu HNX sang HOSE trong năm 2026, nghiên cứu giao dịch xuyên trưa và nới biên độ. https://thoibaotaichinhvietnam.vn/chuyen-toan-bo-co-phieu-hnx-sang-hose-trong-nam-2026-nghien-cuu-giao-dich-xuyen-trua-va-noi-bien-do-204943.html
-[284] Tuổi Trẻ Online. (2026a). HOSE dự kiến chia cổ phiếu thành hai bảng Prime Board và Standard Board. https://tuoitre.vn/hose-du-kien-chia-co-phieu-thanh-hai-bang-prime-board-va-standard-board-100261002092239776.htm
-[285] Tuổi Trẻ Online. (2026b). Toàn bộ cổ phiếu trên HNX sẽ chuyển sang HOSE từ 28-12 [Bài báo ngày 30/9/2026]. https://tuoitre.vn/toan-bo-co-phieu-tren-hnx-se-chuyen-sang-hose-tu-28-12-100260930201353937.htm
-[286] Ủy ban nhân dân thành phố Hà Nội. (2026). Quyết định số 1193/QĐ-UBND ngày 18/3/2026 về việc công bố Danh mục các bài toán lớn của thành phố Hà Nội giai đoạn 2026–2030 (đợt 1).
-[287] Tài liệu tiếng Anh
-[288] Amihud, Y. (2002). Illiquidity and stock returns: Cross-section and time-series effects. Journal of Financial Markets, 5(1), 31–56.
-[289] Amihud, Y., Mendelson, H., & Lauterbach, B. (1997). Market microstructure and securities values: Evidence from the Tel Aviv Stock Exchange. Journal of Financial Economics, 45(3), 365–390. https://doi.org/10.1016/S0304-405X(97)00021-4
-[290] Bae, K.-H., Chan, K., & Ng, A. (2004). Investibility and return volatility. Journal of Financial Economics, 71(2), 239–263.
-[291] Bai, J., & Perron, P. (1998). Estimating and testing linear models with multiple structural changes. Econometrica, 66(1), 47–78.
-[292] Bekaert, G., Harvey, C. R., & Lundblad, C. (2007). Liquidity and expected returns: Lessons from emerging markets. The Review of Financial Studies, 20(6), 1783–1831.
-[293] Bessler, W., Opfer, H., & Wolff, D. (2017). Multi-asset portfolio optimization and out-of-sample performance: An evaluation of Black-Litterman, mean-variance, and naïve diversification approaches. The European Journal of Finance, 23(1), 1–30.
-[294] Black, F., & Litterman, R. (1992). Global portfolio optimization. Financial Analysts Journal, 48(5), 28–43.
-[295] Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-differences with multiple time periods. Journal of Econometrics, 225(2), 200–230.
-[296] Cetorelli, N., & Peristiani, S. (2013). Prestigious stock exchanges: A network analysis of international financial centers. Journal of Banking & Finance, 37(5), 1543–1551.
-[297] Chen, K., & Chen, G. (2015). The rise of international financial centers in mainland China. Cities, 47, 10–22.
-[298] Christie, W. G., & Huang, R. D. (1994). Market structures and liquidity: A transactions data study of exchange listings. Journal of Financial Intermediation, 3(3), 300–326.
-[299] Čihák, M., Demirgüç-Kunt, A., Feyen, E., & Levine, R. (2012). Benchmarking financial systems around the world (Policy Research Working Paper No. 6175). World Bank.
-[300] Conley, T. G., & Taber, C. R. (2011). Inference with "difference in differences" with a small number of policy changes. The Review of Economics and Statistics, 93(1), 113–125.
-[301] Corwin, S. A., & Schultz, P. (2012). A simple way to estimate bid-ask spreads from daily high and low prices. The Journal of Finance, 67(2), 719–760. https://doi.org/10.1111/j.1540-6261.2012.01729.x
-[302] Coval, J. D., & Moskowitz, T. J. (1999). Home bias at home: Local equity preference in domestic portfolios. The Journal of Finance, 54(6), 2045–2073. https://doi.org/10.1111/0022-1082.00181
-[303] Dao, V. H., Nguyen, T. M. H., & Vu, T. D. (2021). The impact of COVID-19 on stock market returns in Vietnam. Journal of Risk and Financial Management, 14(9), Article 441. https://doi.org/10.3390/jrfm14090441
-[304] Daw, J. R., & Hatfield, L. A. (2018). Matching and regression to the mean in difference-in-differences analysis. Health Services Research, 53(6), 4138–4156. https://doi.org/10.1111/1475-6773.12993
-[305] DeMiguel, V., Garlappi, L., & Uppal, R. (2009). Optimal versus naive diversification: How inefficient is the 1/N portfolio strategy? The Review of Financial Studies, 22(5), 1915–1953.
-[306] Eichengreen, B., & Shah, N. (2020). The correlates of international financial-center status. Review of International Economics, 28(1), 62–81. https://doi.org/10.1111/roie.12441
-[307] Elliott, D. J. (2011). Building a global financial center in Shanghai: Observations from other centers. Brookings Institution.
-[308] Fong, K. Y. L., Holden, C. W., & Trzcinka, C. A. (2017). What are the best liquidity proxies for global research? Review of Finance, 21(4), 1355–1401.
-[309] FTSE Russell. (2026a, September). FTSE Global Equity Index Series ground rules (Version 14.4). LSEG.
-[310] FTSE Russell. (2026b, August). Reclassification of Vietnam from Frontier to Secondary Emerging market status: Frequently asked questions (Version 1.3). LSEG. https://www.lseg.com/content/dam/ftse-russell/en_us/documents/policy-documents/ftse-faq-document-vietnam-reclassification.pdf
-[311] Garlappi, L., Uppal, R., & Wang, T. (2007). Portfolio selection with parameter and model uncertainty: A multi-prior approach. The Review of Financial Studies, 20(1), 41–81.
-[312] Gehrig, T. (2000). Cities and the geography of financial centers. In J.-M. Huriot & J.-F. Thisse (Eds.), Economics of cities: Theoretical perspectives (pp. 415–445). Cambridge University Press.
-[313] Goutte, S., Le, H.-V., Liu, F., & von Mettenheim, H.-J. (2025). MCDA strategies for portfolio optimization: A case study on Vietnamese stock market dynamics. Annals of Operations Research, 353(1), 321–351.
-[314] Griffin, J. M., Kelly, P. J., & Nardari, F. (2010). Do market efficiency measures yield correct inferences? A comparison of developed and emerging markets. The Review of Financial Studies, 23(8), 3225–3277.
-[315] Hamilton, J. D. (1989). A new approach to the economic analysis of nonstationary time series and the business cycle. Econometrica, 57(2), 357–384.
-[316] Hisada, T. (2018). The effect of investor sentiment toward an exchange merger on liquidity. International Journal of Economics and Financial Issues, 8(2), 315–318.
-[317] Hoang, V.-M. D., & Luu, D. T. (2024). Modelling volatility dynamics and identifying regime switching in a frontier stock market: The case of Vietnam (SSRN Working Paper No. 4867203; bản sửa ngày 17/9/2025). SSRN.
-[318] Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65–70.
-[319] Hou, K., & Moskowitz, T. J. (2005). Market frictions, price delay, and the cross-section of expected returns. The Review of Financial Studies, 18(3), 981–1020.
-[320] Huang, R. D., & Stoll, H. R. (1996). Dealer versus auction markets: A paired comparison of execution costs on NASDAQ and the NYSE. Journal of Financial Economics, 41(3), 313–357.
-[321] International Monetary Fund. (2023). Vietnam: 2023 Article IV consultation (IMF Country Report No. 23/338). https://www.elibrary.imf.org/view/journals/002/2023/338/article-A001-en.xml
-[322] Kan, R., & Zhou, G. (2007). Optimal portfolio choice with parameter uncertainty. Journal of Financial and Quantitative Analysis, 42(3), 621–656.
-[323] Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. Hague Journal on the Rule of Law, 3(2), 220–246.
-[324] Kindleberger, C. P. (1974). The formation of financial centers: A study in comparative economic history (Princeton Studies in International Finance No. 36). Princeton University.
-[325] Kritzman, M., Page, S., & Turkington, D. (2012). Regime shifts: Implications for dynamic strategies. Financial Analysts Journal, 68(3), 22–39.
-[326] Lai, K. P. Y. (2012). Differentiated markets: Shanghai, Beijing and Hong Kong in China’s financial centre network. Urban Studies, 49(6), 1275–1296. https://doi.org/10.1177/0042098011408143
-[327] Lang, M., Lins, K. V., & Maffett, M. (2012). Transparency, liquidity, and valuation: International evidence on when transparency matters most. Journal of Accounting Research, 50(3), 729–774.
-[328] Ledoit, O., & Wolf, M. (2004). A well-conditioned estimator for large-dimensional covariance matrices. Journal of Multivariate Analysis, 88(2), 365–411.
-[329] Ledoit, O., & Wolf, M. (2008). Robust performance hypothesis testing with the Sharpe ratio. Journal of Empirical Finance, 15(5), 850–859.
-[330] Lesmond, D. A. (2005). Liquidity of emerging markets. Journal of Financial Economics, 77(2), 411–452.
-[331] Lesmond, D. A., Ogden, J. P., & Trzcinka, C. A. (1999). A new estimate of transaction costs. The Review of Financial Studies, 12(5), 1113–1141.
-[332] Lo, A. W., & MacKinlay, A. C. (1988). Stock market prices do not follow random walks: Evidence from a simple specification test. The Review of Financial Studies, 1(1), 41–66.
-[333] Loughran, T., & Schultz, P. (2005). Liquidity: Urban versus rural firms. Journal of Financial Economics, 78(2), 341–374.
-[334] Markowitz, H. (1952). Portfolio selection. The Journal of Finance, 7(1), 77–91.
-[335] Michaud, R. O. (1989). The Markowitz optimization enigma: Is 'optimized' optimal? Financial Analysts Journal, 45(1), 31–42.
-[336] Moosa, I., Li, L., & Jiang, R. (2016). Determinants of the status of an international financial centre. The World Economy, 39(12), 2074–2096.
-[337] Naeem, M. M. F. (2023). What makes an International Financial Centre (IFC) competitive? An empirical study of the determinants responsible for the competitiveness of an IFC [Luận án Tiến sĩ Quản trị kinh doanh (DBA), Durham University]. Durham E-Theses. https://etheses.durham.ac.uk/id/eprint/15102/
-[338] Nguyen, N., Nguyen, T., Tran, T., & Mai, A. (2020). Shrinkage model selection for portfolio optimization on Vietnam stock market. The Journal of Asian Finance, Economics and Business, 7(9), 135–145.
-[339] Nguyễn, T. B., & Nguyễn, V. T. (2026a). Black-Litterman portfolio optimization using regime switching CAPM and ABC-MCMC: Empirical evidence from the Vietnamese stock market period 2019–2025. Tạp chí Nghiên cứu Chính sách và Phát triển, 3(1), 81–99. https://doi.org/10.63640/3030-4091/jpd.apd.194
-[340] Nielsson, U. (2009). Stock exchange merger and liquidity: The case of Euronext. Journal of Financial Markets, 12(2), 229–267.
-[341] OECD. (2008). Handbook on constructing composite indicators: Methodology and user guide. OECD Publishing.
-[342] Pflug, G. C., Pichler, A., & Wozabal, D. (2012). The 1/N investment strategy is optimal under high model ambiguity. Journal of Banking & Finance, 36(2), 410–417.
-[343] Politis, D. N., & Romano, J. P. (1994). The stationary bootstrap. Journal of the American Statistical Association, 89(428), 1303–1313.
-[344] Rambachan, A., & Roth, J. (2023). A more credible approach to parallel trends. The Review of Economic Studies, 90(5), 2555–2591.
-[345] Ta, B. Q., & Vuong, T. (2020). The Black-Litterman model for portfolio optimization on Vietnam stock market. International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 28(Supp01), 99–111.
-[346] Vo, X. V., & Phan, D. B. A. (2017). Further evidence on the herd behavior in Vietnam stock market. Journal of Behavioral and Experimental Finance, 13, 33–41.
-[347] Vu, T. L., Luong, N. H., & Nguyen, P. N. (2024). Stock crash and how it spreads over the Vietnamese stock market. VNU Journal of Economics and Business, 4(3), 107–116. https://doi.org/10.57110/vnu-jeb.v4i3.339
-[348] Wang, D. T., Zhao, S. X., & Wang, D. (2007). "Information hinterland": A base for financial centre development. The case of Beijing versus Shanghai in China. Tijdschrift voor Economische en Sociale Geografie, 98(1), 102–120.
-[349] Wardle, M., & Mainelli, M. (2026, September). The Global Financial Centres Index 40. Z/Yen Group & China Development Institute. https://www.longfinance.net/media/documents/GFCI_40_Report_2026.09.16_v1.2.pdf
-[350] Wójcik, D. (2007). Geography and the future of stock exchanges: Between real and virtual space. Growth and Change, 38(2), 200–223.
-[351] Yao, J.-M. (2012). Compétitivité et attractivité des places financières internationales: Application à l’industrie des fonds d’investissement au Luxembourg [Luận án tiến sĩ Kinh tế học, Université de Strasbourg].
-[352] 
-[353] Hà Nội, ngày … tháng 10 năm 2026
-[354] NGƯỜI DỰ TUYỂN
-[355] (Ký và ghi rõ họ tên)
-[356] Nguyễn Văn Trung
-[357] 
+[280] Sở Giao dịch Chứng khoán Hà Nội. (2016). Quyết định số 529/QĐ-SGDHN ngày 25/8/2016 về việc ban hành Quy chế giao dịch chứng khoán niêm yết tại Sở Giao dịch Chứng khoán Hà Nội.
+[281] Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2025). Quy định giao dịch đăng website HOSE [Kèm theo Tờ trình số 51/TTr-HTGD ngày 26/4/2025].
+[282] Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh. (2026). Quyết định số 737/QĐ-SGDHCM ngày 29/9/2026 ban hành Quy tắc chỉ số VNINDEX phiên bản 1.0 [CẦN XÁC MINH số hiệu và ngày trên bản gốc; bản OCR chỉ đọc được tháng 9/2026].
+[283] Sở Giao dịch Chứng khoán Việt Nam. (2026). Sắp xếp lại thị trường giao dịch cổ phiếu niêm yết theo Thông tư số 139/2025/TT-BTC ngày 30/12/2025 của Bộ Tài chính [Thông báo ngày 30/9/2026]. https://vnx.vn/vi/thong-tin-tu-sgdck/VNX_QLHD/10005421
+[284] Thời báo Tài chính Việt Nam. (2026). Chuyển toàn bộ cổ phiếu HNX sang HOSE trong năm 2026, nghiên cứu giao dịch xuyên trưa và nới biên độ. https://thoibaotaichinhvietnam.vn/chuyen-toan-bo-co-phieu-hnx-sang-hose-trong-nam-2026-nghien-cuu-giao-dich-xuyen-trua-va-noi-bien-do-204943.html
+[285] Tuổi Trẻ Online. (2026a). HOSE dự kiến chia cổ phiếu thành hai bảng Prime Board và Standard Board. https://tuoitre.vn/hose-du-kien-chia-co-phieu-thanh-hai-bang-prime-board-va-standard-board-100261002092239776.htm
+[286] Tuổi Trẻ Online. (2026b). Toàn bộ cổ phiếu trên HNX sẽ chuyển sang HOSE từ 28-12 [Bài báo ngày 30/9/2026]. https://tuoitre.vn/toan-bo-co-phieu-tren-hnx-se-chuyen-sang-hose-tu-28-12-100260930201353937.htm
+[287] Ủy ban nhân dân thành phố Hà Nội. (2026). Quyết định số 1193/QĐ-UBND ngày 18/3/2026 về việc công bố Danh mục các bài toán lớn của thành phố Hà Nội giai đoạn 2026–2030 (đợt 1).
+[288] Tài liệu tiếng Anh
+[289] Amihud, Y. (2002). Illiquidity and stock returns: Cross-section and time-series effects. Journal of Financial Markets, 5(1), 31–56.
+[290] Amihud, Y., Mendelson, H., & Lauterbach, B. (1997). Market microstructure and securities values: Evidence from the Tel Aviv Stock Exchange. Journal of Financial Economics, 45(3), 365–390. https://doi.org/10.1016/S0304-405X(97)00021-4
+[291] Bae, K.-H., Chan, K., & Ng, A. (2004). Investibility and return volatility. Journal of Financial Economics, 71(2), 239–263.
+[292] Bai, J., & Perron, P. (1998). Estimating and testing linear models with multiple structural changes. Econometrica, 66(1), 47–78.
+[293] Bekaert, G., Harvey, C. R., & Lundblad, C. (2007). Liquidity and expected returns: Lessons from emerging markets. The Review of Financial Studies, 20(6), 1783–1831.
+[294] Bessler, W., Opfer, H., & Wolff, D. (2017). Multi-asset portfolio optimization and out-of-sample performance: An evaluation of Black-Litterman, mean-variance, and naïve diversification approaches. The European Journal of Finance, 23(1), 1–30.
+[295] Black, F., & Litterman, R. (1992). Global portfolio optimization. Financial Analysts Journal, 48(5), 28–43.
+[296] Callaway, B., & Sant’Anna, P. H. C. (2021). Difference-in-differences with multiple time periods. Journal of Econometrics, 225(2), 200–230.
+[297] Cetorelli, N., & Peristiani, S. (2013). Prestigious stock exchanges: A network analysis of international financial centers. Journal of Banking & Finance, 37(5), 1543–1551.
+[298] Chen, K., & Chen, G. (2015). The rise of international financial centers in mainland China. Cities, 47, 10–22.
+[299] Christie, W. G., & Huang, R. D. (1994). Market structures and liquidity: A transactions data study of exchange listings. Journal of Financial Intermediation, 3(3), 300–326.
+[300] Čihák, M., Demirgüç-Kunt, A., Feyen, E., & Levine, R. (2012). Benchmarking financial systems around the world (Policy Research Working Paper No. 6175). World Bank.
+[301] Conley, T. G., & Taber, C. R. (2011). Inference with "difference in differences" with a small number of policy changes. The Review of Economics and Statistics, 93(1), 113–125.
+[302] Corwin, S. A., & Schultz, P. (2012). A simple way to estimate bid-ask spreads from daily high and low prices. The Journal of Finance, 67(2), 719–760. https://doi.org/10.1111/j.1540-6261.2012.01729.x
+[303] Coval, J. D., & Moskowitz, T. J. (1999). Home bias at home: Local equity preference in domestic portfolios. The Journal of Finance, 54(6), 2045–2073. https://doi.org/10.1111/0022-1082.00181
+[304] Dao, V. H., Nguyen, T. M. H., & Vu, T. D. (2021). The impact of COVID-19 on stock market returns in Vietnam. Journal of Risk and Financial Management, 14(9), Article 441. https://doi.org/10.3390/jrfm14090441
+[305] Daw, J. R., & Hatfield, L. A. (2018). Matching and regression to the mean in difference-in-differences analysis. Health Services Research, 53(6), 4138–4156. https://doi.org/10.1111/1475-6773.12993
+[306] DeMiguel, V., Garlappi, L., & Uppal, R. (2009). Optimal versus naive diversification: How inefficient is the 1/N portfolio strategy? The Review of Financial Studies, 22(5), 1915–1953.
+[307] Eichengreen, B., & Shah, N. (2020). The correlates of international financial-center status. Review of International Economics, 28(1), 62–81. https://doi.org/10.1111/roie.12441
+[308] Elliott, D. J. (2011). Building a global financial center in Shanghai: Observations from other centers. Brookings Institution.
+[309] Fong, K. Y. L., Holden, C. W., & Trzcinka, C. A. (2017). What are the best liquidity proxies for global research? Review of Finance, 21(4), 1355–1401.
+[310] FTSE Russell. (2026a, September). FTSE Global Equity Index Series ground rules (Version 14.4). LSEG.
+[311] FTSE Russell. (2026b, August). Reclassification of Vietnam from Frontier to Secondary Emerging market status: Frequently asked questions (Version 1.3). LSEG. https://www.lseg.com/content/dam/ftse-russell/en_us/documents/policy-documents/ftse-faq-document-vietnam-reclassification.pdf
+[312] Garlappi, L., Uppal, R., & Wang, T. (2007). Portfolio selection with parameter and model uncertainty: A multi-prior approach. The Review of Financial Studies, 20(1), 41–81.
+[313] Gehrig, T. (2000). Cities and the geography of financial centers. In J.-M. Huriot & J.-F. Thisse (Eds.), Economics of cities: Theoretical perspectives (pp. 415–445). Cambridge University Press.
+[314] Goutte, S., Le, H.-V., Liu, F., & von Mettenheim, H.-J. (2025). MCDA strategies for portfolio optimization: A case study on Vietnamese stock market dynamics. Annals of Operations Research, 353(1), 321–351.
+[315] Griffin, J. M., Kelly, P. J., & Nardari, F. (2010). Do market efficiency measures yield correct inferences? A comparison of developed and emerging markets. The Review of Financial Studies, 23(8), 3225–3277.
+[316] Hamilton, J. D. (1989). A new approach to the economic analysis of nonstationary time series and the business cycle. Econometrica, 57(2), 357–384.
+[317] Hisada, T. (2018). The effect of investor sentiment toward an exchange merger on liquidity. International Journal of Economics and Financial Issues, 8(2), 315–318.
+[318] Hoang, V.-M. D., & Luu, D. T. (2024). Modelling volatility dynamics and identifying regime switching in a frontier stock market: The case of Vietnam (SSRN Working Paper No. 4867203; bản sửa ngày 17/9/2025). SSRN.
+[319] Holm, S. (1979). A simple sequentially rejective multiple test procedure. Scandinavian Journal of Statistics, 6(2), 65–70.
+[320] Hou, K., & Moskowitz, T. J. (2005). Market frictions, price delay, and the cross-section of expected returns. The Review of Financial Studies, 18(3), 981–1020.
+[321] Huang, R. D., & Stoll, H. R. (1996). Dealer versus auction markets: A paired comparison of execution costs on NASDAQ and the NYSE. Journal of Financial Economics, 41(3), 313–357.
+[322] International Monetary Fund. (2023). Vietnam: 2023 Article IV consultation (IMF Country Report No. 23/338). https://www.elibrary.imf.org/view/journals/002/2023/338/article-A001-en.xml
+[323] Kan, R., & Zhou, G. (2007). Optimal portfolio choice with parameter uncertainty. Journal of Financial and Quantitative Analysis, 42(3), 621–656.
+[324] Kaufmann, D., Kraay, A., & Mastruzzi, M. (2011). The Worldwide Governance Indicators: Methodology and analytical issues. Hague Journal on the Rule of Law, 3(2), 220–246.
+[325] Kindleberger, C. P. (1974). The formation of financial centers: A study in comparative economic history (Princeton Studies in International Finance No. 36). Princeton University.
+[326] Kritzman, M., Page, S., & Turkington, D. (2012). Regime shifts: Implications for dynamic strategies. Financial Analysts Journal, 68(3), 22–39.
+[327] Lai, K. P. Y. (2012). Differentiated markets: Shanghai, Beijing and Hong Kong in China’s financial centre network. Urban Studies, 49(6), 1275–1296. https://doi.org/10.1177/0042098011408143
+[328] Lang, M., Lins, K. V., & Maffett, M. (2012). Transparency, liquidity, and valuation: International evidence on when transparency matters most. Journal of Accounting Research, 50(3), 729–774.
+[329] Ledoit, O., & Wolf, M. (2004). A well-conditioned estimator for large-dimensional covariance matrices. Journal of Multivariate Analysis, 88(2), 365–411.
+[330] Ledoit, O., & Wolf, M. (2008). Robust performance hypothesis testing with the Sharpe ratio. Journal of Empirical Finance, 15(5), 850–859.
+[331] Lesmond, D. A. (2005). Liquidity of emerging markets. Journal of Financial Economics, 77(2), 411–452.
+[332] Lesmond, D. A., Ogden, J. P., & Trzcinka, C. A. (1999). A new estimate of transaction costs. The Review of Financial Studies, 12(5), 1113–1141.
+[333] Lo, A. W., & MacKinlay, A. C. (1988). Stock market prices do not follow random walks: Evidence from a simple specification test. The Review of Financial Studies, 1(1), 41–66.
+[334] Loughran, T., & Schultz, P. (2005). Liquidity: Urban versus rural firms. Journal of Financial Economics, 78(2), 341–374.
+[335] Markowitz, H. (1952). Portfolio selection. The Journal of Finance, 7(1), 77–91.
+[336] Michaud, R. O. (1989). The Markowitz optimization enigma: Is 'optimized' optimal? Financial Analysts Journal, 45(1), 31–42.
+[337] Moosa, I., Li, L., & Jiang, R. (2016). Determinants of the status of an international financial centre. The World Economy, 39(12), 2074–2096.
+[338] Naeem, M. M. F. (2023). What makes an International Financial Centre (IFC) competitive? An empirical study of the determinants responsible for the competitiveness of an IFC [Luận án Tiến sĩ Quản trị kinh doanh (DBA), Durham University]. Durham E-Theses. https://etheses.durham.ac.uk/id/eprint/15102/
+[339] Nguyen, N., Nguyen, T., Tran, T., & Mai, A. (2020). Shrinkage model selection for portfolio optimization on Vietnam stock market. The Journal of Asian Finance, Economics and Business, 7(9), 135–145.
+[340] Nguyễn, T. B., & Nguyễn, V. T. (2026a). Black-Litterman portfolio optimization using regime switching CAPM and ABC-MCMC: Empirical evidence from the Vietnamese stock market period 2019–2025. Tạp chí Nghiên cứu Chính sách và Phát triển, 3(1), 81–99. https://doi.org/10.63640/3030-4091/jpd.apd.194
+[341] Nielsson, U. (2009). Stock exchange merger and liquidity: The case of Euronext. Journal of Financial Markets, 12(2), 229–267.
+[342] OECD. (2008). Handbook on constructing composite indicators: Methodology and user guide. OECD Publishing.
+[343] Pflug, G. C., Pichler, A., & Wozabal, D. (2012). The 1/N investment strategy is optimal under high model ambiguity. Journal of Banking & Finance, 36(2), 410–417.
+[344] Politis, D. N., & Romano, J. P. (1994). The stationary bootstrap. Journal of the American Statistical Association, 89(428), 1303–1313.
+[345] Rambachan, A., & Roth, J. (2023). A more credible approach to parallel trends. The Review of Economic Studies, 90(5), 2555–2591.
+[346] Ta, B. Q., & Vuong, T. (2020). The Black-Litterman model for portfolio optimization on Vietnam stock market. International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 28(Supp01), 99–111.
+[347] Vo, X. V., & Phan, D. B. A. (2017). Further evidence on the herd behavior in Vietnam stock market. Journal of Behavioral and Experimental Finance, 13, 33–41.
+[348] Vu, T. L., Luong, N. H., & Nguyen, P. N. (2024). Stock crash and how it spreads over the Vietnamese stock market. VNU Journal of Economics and Business, 4(3), 107–116. https://doi.org/10.57110/vnu-jeb.v4i3.339
+[349] Wang, D. T., Zhao, S. X., & Wang, D. (2007). "Information hinterland": A base for financial centre development. The case of Beijing versus Shanghai in China. Tijdschrift voor Economische en Sociale Geografie, 98(1), 102–120.
+[350] Wardle, M., & Mainelli, M. (2026, September). The Global Financial Centres Index 40. Z/Yen Group & China Development Institute. https://www.longfinance.net/media/documents/GFCI_40_Report_2026.09.16_v1.2.pdf
+[351] Wójcik, D. (2007). Geography and the future of stock exchanges: Between real and virtual space. Growth and Change, 38(2), 200–223.
+[352] Yao, J.-M. (2012). Compétitivité et attractivité des places financières internationales: Application à l’industrie des fonds d’investissement au Luxembourg [Luận án tiến sĩ Kinh tế học, Université de Strasbourg].
+[353] 
+[354] Hà Nội, ngày … tháng 10 năm 2026
+[355] NGƯỜI DỰ TUYỂN
+[356] (Ký và ghi rõ họ tên)
+[357] Nguyễn Văn Trung
+[358] 

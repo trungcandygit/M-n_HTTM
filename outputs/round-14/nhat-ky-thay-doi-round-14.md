@@ -97,3 +97,9 @@ Còn 9 nhãn. Validate PASSED.
 | QĐ 737/QĐ-SGDHCM | Không tìm thấy; chỉ thấy QĐ 747/QĐ-SGDHCM (HOSE-Index 4.0, 2025) | thitruongtaichinhtiente.vn | Giữ nhãn; thí sinh đọc bản PDF gốc |
 | Lịch chuyển UPCoM; cách HOSE đưa mã chuyển sàn vào chỉ số; quy chế phân bảng; các lần đổi biên độ 2009–2025 | Không có văn bản chính thức (chỉ có: UPCoM ±15% từ 20/6/2017 theo vneconomy) | | Giữ nhãn |
 Truy cập trực tiếp các trang báo bị chặn (ENOTFOUND), nên chỉ đối chiếu qua kết quả tìm kiếm. Còn 6 nhãn. Validate PASSED.
+
+## 11. Cập nhật 17/10/2026: đối chiếu QĐ 529/QĐ-SGDHN (skill vn-legal-verify)
+| Khẳng định (4.3.2) | Văn bản & điều khoản | Bậc nguồn | Trạng thái | Trích nguyên văn |
+|---|---|---|---|---|
+| Bước giá khớp lệnh cổ phiếu ở HNX là 100 đồng cho mọi mức giá | QĐ 529/QĐ-SGDHN ngày 25/8/2016, Quy chế kèm theo, Điều 23 khoản 1; hiệu lực 12/9/2016, thay QĐ 345/QĐ-SGDHN ngày 29/7/2013 | 3 (thuvienphapluat, do thí sinh dán) | KHỚP | "Đơn vị yết giá quy định đối với giao dịch khớp lệnh cổ phiếu là 100 đồng" |
+Mức 100 đồng hiện hành cũng khớp bản tóm tắt quy định HNX năm 2025 (V3, bộ tài liệu vòng 12). Thêm mục danh mục "Sở Giao dịch Chứng khoán Hà Nội. (2016)", dẫn trong bài (…, 2016, Điều 23). Nhãn thu hẹp còn: bước giá của HOSE trước 12/9/2016 (QĐ 341/QĐ-SGDHCM). Quy chế 529 không quy định chiều làm tròn giá trần/sàn; không ảnh hưởng thiết kế vì ngưỡng Amihud đặt theo quy tắc làm tròn của HOSE. Lưu bản trích ở ho-so/TaiLieu_Vong14_QD529-SGDHN_2016_trich.txt. Validate PASSED.
