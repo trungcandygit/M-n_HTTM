@@ -22,7 +22,7 @@ set(0, 'defaultFigurePaperSize', [figureWidth,figureHeight]);
 %% Set default properties for axes
 
 set(0, 'defaultAxesFontName', 'Helvetica')
-set(0, 'defaultAxesFontSize', 20)
+set(0, 'defaultAxesFontSize', 16)
 set(0, 'defaultAxesXColor', 'k')
 set(0, 'defaultAxesYColor', 'k')
 set(0, 'defaultAxesLineWidth', 1)
@@ -127,8 +127,13 @@ plot(time(post), data3(post), purpleDashed{:})
 plot(time, data2, orangeLine{:})
 plot(time, data1, purpleLine{:})
 
-% Nhãn không ghi ở đây: template ghi nhãn sau khi xuất hình (Keynote);
-% trong deck, nhãn tiếng Việt được đặt bằng LaTeX lên trên hình, nên không lỗi phông.
+% Annotate: nhãn nhỏ đặt cạnh đường, như figures.pdf của template
+labelSize = 14;
+text(2023.15, 1.10, 'Mã chuyển sàn', 'Color', purpleColor, 'FontSize', labelSize)
+text(2023.15, 0.25, 'Mã HOSE đối sánh', 'Color', orangeColor, 'FontSize', labelSize)
+text(2027.15, 1.17, 'Nếu không chuyển sàn', 'Color', purpleColor, 'FontSize', labelSize)
+text(2027.9, 0.74, 'Tác động', 'Color', purpleColor, 'FontSize', labelSize)
+text(2025.6, 1.33, 'Chuyển tiếp (loại)', 'Color', 0.4*[1 1 1], 'FontSize', labelSize)
 
 %Populate axes
 set(gca, xAxis{:}, yAxis{:})
