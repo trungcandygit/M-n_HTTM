@@ -7,7 +7,7 @@
 \usefonttheme{professionalfonts}
 
 % Select text font
-\PassOptionsToPackage{}{fontspec}\RequirePackage{fontspec}\defaultfontfeatures{Ligatures={NoCommon, TeX}} % [VN] tắt ghép chữ f như bản gốc
+\PassOptionsToPackage{no-math}{fontspec}\RequirePackage{fontspec}\defaultfontfeatures{Ligatures={NoCommon, TeX}} % [VN] tắt ghép chữ f như bản gốc; no-math để mathastext giữ chữ số và dấu toán như bản gốc
 \usepackage{sourcesanspro}
 % [VN] Dưới XeLaTeX gói sourcesanspro không khai báo kiểu semibold; khai báo lại để \sbseries in Semibold như bản gốc
 \setsansfont{SourceSansPro}[Extension=.otf, UprightFont=*-Regular, ItalicFont=*-RegularIt, BoldFont=*-Bold, BoldItalicFont=*-BoldIt, FontFace={sb}{n}{*-Semibold}, FontFace={sb}{it}{*-SemiboldIt}]

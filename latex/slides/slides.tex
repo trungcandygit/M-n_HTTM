@@ -23,9 +23,6 @@
 \newcommand{\SMD}{\vn{SMD}}
 \newcommand{\nguon}[1]{{\usebeamerfont{caption}\usebeamercolor[fg]{caption}#1}}
 \newcolumntype{L}{>{\raggedright\arraybackslash}X}
-\tikzset{box/.style={draw=black!70, rounded corners=2pt, align=center, font=\small, inner sep=5pt},
-         arr/.style={-{Stealth[length=2.2mm]}, thick, black!70},
-         darr/.style={-{Stealth[length=2.2mm]}, thick, dashed, black!70}}
 
 \title{Hợp nhất sàn chứng khoán và chất lượng thị trường: Bằng chứng thực nghiệm từ HNX và vị thế tài chính Hà Nội}
 \author{Nguyễn Văn Trung}
@@ -40,21 +37,22 @@
 %=================================================================== MỞ ĐẦU
 \begin{frame}
 \frametitle{Ngày 28/12/2026, toàn bộ cổ phiếu niêm yết HNX chuyển sang HOSE}
-\begin{figure}
-\begin{tikzpicture}[x=0.96cm]
-\draw[arr] (0,0) -- (12.6,0) node[right, font=\small]{thời gian};
-\foreach \x/\a/\b in {0.4/2021/{TT 57: hạn năm 2023}, 3.2/2023/{TT 69: lùi đến hết 2025}, 6.0/2025/{TT 139: lùi đến 31/12/2026}, 8.8/{30/9/2026}/{VNX công bố lịch}}
-  {\draw[thick] (\x,0.12) -- (\x,-0.12); \node[above=4pt, font=\small\sbseries] at (\x,0.1){\a}; \node[below=4pt, font=\footnotesize, text width=2.2cm, align=center] at (\x,-0.1){\b};}
-\draw[very thick, RubineRed] (11.3,0.25) -- (11.3,-0.25);
-\node[above=4pt, font=\small\sbseries, RubineRed] at (11.3,0.2){28/12/2026};
-\node[below=4pt, font=\footnotesize, text width=2.4cm, align=center, RubineRed] at (11.3,-0.2){phiên đầu tại HOSE};
-\end{tikzpicture}
-\end{figure}
 \begin{itemize}
-\item \al{299 mã} (tính đến phiên 30/9/2026), chuyển \al{cùng một ngày} theo lịch của VNX
-\item Thời điểm chuyển không do từng doanh nghiệp chọn
-\item Phiên cuối ở HNX 23/12; tạm ngừng 24--25/12/2026; lộ trình đã \al{lùi hai lần}; UPCoM không thuộc đợt này
+\item \al{299 mã} (tính đến phiên 30/9/2026) chuyển \al{cùng một ngày}; UPCoM không thuộc đợt này
+\item Ngày chuyển do cơ quan quản lý ấn định, không do từng doanh nghiệp chọn \so so sánh được chính các cổ phiếu ấy trước và sau, với một nhóm đối chứng
 \end{itemize}
+\begin{table}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ll}
+\toprule
+Mốc & Nội dung\\
+\midrule
+2021 & Thông tư 57: hạn chuyển sàn năm 2023\\
+2023 & Thông tư 69: \al{lùi} đến hết năm 2025\\
+2025 & Thông tư 139: \al{lùi} đến 31/12/2026\\
+30/9/2026 & VNX công bố lịch: phiên cuối ở HNX 23/12, phiên đầu ở HOSE 28/12/2026\\
+\bottomrule
+\end{tabular*}
+\end{table}
 \end{frame}
 
 \begin{frame}
@@ -67,7 +65,7 @@
 \vspace{3mm}
 \begin{itemize}
 \item NQ 222/2025/QH15: trung tâm tài chính quốc tế tại TP.HCM và Đà Nẵng
-\item Chưa có nghiên cứu so sánh chất lượng thị trường HNX với HOSE
+\item Trong phạm vi tìm kiếm, chưa có nghiên cứu so sánh chất lượng thị trường HNX với HOSE
 \end{itemize}
 \column{0.45\textwidth}
 \begin{table}
@@ -83,6 +81,19 @@ Hà Nội & \al{không có}\\
 \caption{Nguồn: Wardle và Mainelli (2026).}
 \end{table}
 \end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Sau hợp nhất, Hà Nội cần chọn thị trường để chuyên môn hóa}
+\begin{itemize}
+\item Hoạt động tài chính dồn về nơi có quy mô giao dịch và thông tin (Gehrig, 2000; Kindleberger, 1974)
+\item Các trung tâm trong một nước phân vai (Lai, 2012); Bắc Kinh là trung tâm tài chính lớn dù phần lớn thời gian không có sở giao dịch tầm quốc gia (Naeem, 2023)
+\item Trung tâm nhỏ vẫn cạnh tranh được nếu chọn đúng mảng: Luxembourg với ngành quỹ (Yao, 2012)
+\item Sau hợp nhất, HNX còn vận hành trái phiếu, phái sinh và UPCoM
+\end{itemize}
+\begin{remark}[Vai trò của đề tài]
+Đề tài không chọn hướng thay cho Hà Nội. Đề tài đo chất lượng thị trường để việc chọn mảng chuyên môn hóa có căn cứ.
+\end{remark}
 \end{frame}
 
 \begin{frame}
@@ -122,19 +133,12 @@ Việt Nam & Tập trung vào HOSE & So sánh HNX với HOSE; đo đợt hợp n
 
 \begin{frame}
 \frametitle{Khung phân tích: từ đo chất lượng đến hàm ý cho Hà Nội}
-\begin{figure}
-\begin{tikzpicture}[node distance=5mm and 10mm, every node/.append style={inner sep=4pt}]
-\node[box, text width=3.3cm] (a) {\textsb{Trước hợp nhất}\\HNX so với HOSE (\HH{2})\\6/2009--6/2025};
-\node[box, text width=3.3cm, right=of a, draw=RubineRed, very thick] (b) {\textsb{Sự kiện 28/12/2026}\\Thanh khoản (\HH{3})\\Khả năng đầu tư (\HH{4})};
-\node[box, text width=3.3cm, right=of b] (c) {\textsb{Hàm ý cho Hà Nội}\\Chuyên môn hóa thị trường\\Hạ tầng dữ liệu};
-\node[box, text width=3.3cm, below=of b] (d) {\textsb{Nhóm đối chứng}\\Cổ phiếu HOSE đối sánh\\Cổ phiếu UPCoM};
-\node[box, text width=3.3cm] (e) at (c |- d) {\textsb{Bằng chứng quốc tế}\\Điểm GFCI (\HH{1})\\Thể chế, thu nhập};
-\draw[arr] (a) -- (b); \draw[darr] (b) -- (c);
-\draw[arr] (d) -- node[right, font=\footnotesize]{khác biệt kép} (b);
-\draw[darr] (e) -- node[right, font=\footnotesize]{bối cảnh} (c);
-\end{tikzpicture}
-\caption{Mũi tên từ ô Trước hợp nhất: trình tự thời gian. Mũi tên khác biệt kép: ước lượng \HH{3}, \HH{4}. Nét đứt: tổng hợp định tính.}
-\end{figure}
+\begin{enumerate}
+\item \textsb{Sàn \then chất lượng thị trường:} quy tắc giao dịch và mức tập trung lệnh của sàn quyết định chi phí giao dịch và tốc độ giá phản ánh thông tin (\HH{2}, \HH{3})
+\item \textsb{Chất lượng \then khả năng đầu tư:} giao dịch đắt và kém thanh khoản làm nhà đầu tư đa dạng hóa nhận lợi suất tương đương chắc chắn thấp hơn (\HH{4})
+\item \textsb{Thị trường cổ phiếu \then vị thế trung tâm tài chính:} chỉ là liên hệ có điều kiện, không kiểm định nhân quả (\HH{1})
+\item \textsb{Hàm ý:} Bắc Kinh lớn mạnh dù không có sàn cổ phiếu tầm quốc gia (Naeem, 2023) \so Hà Nội chọn chuyên môn hóa: trái phiếu, phái sinh, UPCoM, dữ liệu
+\end{enumerate}
 \end{frame}
 
 %=================================================================== DỮ LIỆU, ĐO LƯỜNG
@@ -144,21 +148,19 @@ Việt Nam & Tập trung vào HOSE & So sánh HNX với HOSE; đo đợt hợp n
 
 \begin{frame}
 \frametitle{Ba giai đoạn: tham chiếu, chuyển tiếp bị loại, 24 tháng sau sự kiện}
-\begin{figure}
-\begin{tikzpicture}[x=0.62cm, y=0.9cm]
-\draw[arr] (0,0) -- (21,0) node[right, font=\small]{năm};
-\foreach \y/\l in {0/2009,4/2013,8/2017,12/2021,16/2025,20/2029}{\draw (\y,0.1)--(\y,-0.1) node[below, font=\footnotesize]{\l};}
-\draw[thick, fill=LightGray] (0.5,0.45) rectangle (16.5,1.25); \node[font=\small] at (8.5,0.85){Tham chiếu 6/2009--6/2025};
-\draw[thick, dashed] (16.5,0.45) rectangle (18,1.25);
-\draw[thick, fill=RubineRed!15] (18,0.45) rectangle (20,1.25);
-\draw[very thick] (18,-0.15) -- (18,1.6);
-\node[anchor=south east, font=\footnotesize, align=right] at (17.2,1.7){chuyển tiếp\\7/2025--12/2026};
-\node[anchor=south west, font=\footnotesize, align=left] at (18.8,1.7){sau sự kiện\\1/2027--12/2028};
-\end{tikzpicture}
-\end{figure}
+\begin{table}
+\begin{tabularx}{\textwidth}{@{}l l L@{}}
+\toprule
+Giai đoạn & Thời gian & Dùng để\\
+\midrule
+Tham chiếu & 6/2009--6/2025 & \HH{2}; cửa sổ trước của \HH{3}, \HH{4}\\
+Chuyển tiếp & 7/2025--12/2026 & \al{bị loại}: HNX ngừng niêm yết mới, giá có thể phản ứng sớm\\
+Sau sự kiện & 1/2027--12/2028 & cửa sổ sau 24 tháng của \HH{3}, \HH{4}\\
+\bottomrule
+\end{tabularx}
+\end{table}
 \begin{itemize}
 \item Dữ liệu ngày HNX, UPCoM, HOSE (sở giao dịch, nhà cung cấp thương mại), \al{kể cả mã đã hủy niêm yết}
-\item Chuyển tiếp bị loại: từ 1/7/2025 HNX ngừng nhận niêm yết mới, giá có thể phản ứng trước
 \item Quốc tế: GFCI kỳ 1--40 (Z/Yen); thị trường cổ phiếu (Čihák và cộng sự, 2012); quản trị (Kaufmann và cộng sự, 2011)
 \end{itemize}
 \end{frame}
@@ -179,23 +181,32 @@ Hiệu quả thông tin (HQ) & độ lệch tỷ số phương sai khỏi 1; đ�
 Minh bạch (MB) & số ngày trễ hạn công bố báo cáo quý\\
 \bottomrule
 \end{tabularx}
-\caption{Mỗi chỉ báo đổi thành điểm z theo mẫu gộp giai đoạn tham chiếu. \HH{2}: chênh lệch HOSE -- HNX theo tháng, giá trị p bằng bootstrap khối dừng.}
+\caption{Mỗi chỉ báo đổi thành điểm z theo mẫu gộp giai đoạn tham chiếu. \HH{2}: chênh lệch HOSE trừ HNX theo tháng, giá trị p bằng bootstrap khối dừng.}
 \end{table}
 \end{frame}
 
 \begin{frame}
-\frametitle{Thách thức: biên độ và bước giá đổi cùng lúc với sàn}
-\begin{figure}
-\only<1>{\input{hinh/buocgia.tex}}%
-\only<2>{\input{hinh/tran.tex}}%
-\caption{\only<1>{Bước giá chia cho giá. HNX: 100 đồng mọi mức giá; HOSE: 10, 50 hoặc 100 đồng tùy giá. Nguồn: quy chế giao dịch HNX (2016) và HOSE (2025).}\only<2>{Lợi suất tăng tối đa trong một phiên, sau khi làm tròn giá trần xuống theo bước giá.}}
-\end{figure}
+\frametitle{Thách thức: đổi sàn kéo theo bốn thay đổi cùng lúc}
+\begin{table}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth} L L@{}}
+\toprule
+Thay đổi & Vì sao thanh khoản có thể đổi & Mã chịu mạnh nhất\\
+\midrule
+Bước giá: 100 đồng $\rightarrow$ 10, 50 hoặc 100 đồng & Chi phí giao dịch đổi; tỷ lệ ngày lợi suất 0 và Corwin--Schultz phản ánh một phần bước giá & Mã giá dưới 10.000 đồng: bước giá giảm mười lần\\
+Biên độ: $\pm$10\% $\rightarrow$ $\pm$7\% & Lợi suất bị cắt ở ngày chạm biên độ \so Amihud có thể giảm cơ học & Mã hay tăng giảm 7--10\%\\
+Vào VN-Index và chỉ số HOSE & Áp lực cầu lớn hơn & Mã vốn hóa lớn so với giá trị giao dịch\\
+Nơi đặt sàn & Sự chú ý và thông tin gắn với nơi đặt sàn & Nếu kênh này có thật: mã có trụ sở Hà Nội được lợi ít hơn\\
+\bottomrule
+\end{tabularx}
+\caption{Quy tắc giao dịch và mức tập trung lệnh của sàn ảnh hưởng chi phí giao dịch và tốc độ giá phản ánh thông tin (Amihud, 2002; Huang \& Stoll, 1996). Bằng chứng quốc tế trái chiều theo quy mô doanh nghiệp (Hisada, 2018; Nielsson, 2009).}
+\end{table}
 \end{frame}
 
 \begin{frame}
 \frametitle{Xử lý: tính Amihud trên các ngày dưới một ngưỡng lợi suất chung}
 \begin{itemize}
-\item Biên độ hẹp \so lợi suất bị cắt \so Amihud \al{có thể giảm cơ học}
+\item Chỉ bỏ ngày chạm biên độ chưa đủ: sau chuyển sàn, mọi ngày lẽ ra tăng giảm 7--10\% đều thành ngày chạm biên độ
 \item Chỉ tính trên ngày có $|r|$ \al{dưới một ngưỡng chung}, bỏ ngày liền sau ngày vượt ngưỡng
 \item Ngưỡng thấp hơn mức tăng tối đa ở $\pm$7\% với mọi mức giá đưa vào: giá 1.140 đồng chỉ tăng được \al{6,14\%}
 \item Loại mã giá dưới mức tối thiểu ghi trong tệp đăng ký; báo cáo theo nhóm giá
@@ -214,13 +225,14 @@ Minh bạch (MB) & số ngày trễ hạn công bố báo cáo quý\\
 A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}
 \]
 \begin{assumption}[Xu hướng song song]
-Nếu không chuyển sàn, chênh lệch log Amihud giữa hai nhóm không đổi theo thời gian:
+Nếu không chuyển sàn, chênh lệch log Amihud bình quân giữa hai nhóm không đổi theo thời gian:
 \[
 E[\varepsilon_{it} \mid D_i, \Post_t, \alpha_i, \tau_t] = 0
 \]
 \end{assumption}
 \begin{itemize}
 \item $A_{it}$: log Amihud; $D_i = 1$: mã chuyển sàn; $\Post_t = 1$ từ 1/2027; \HH{3}: $\delta < 0$
+\item $\alpha_i$ loại khác biệt sẵn có giữa hai nhóm; $\tau_t$ loại thay đổi chung của thị trường (lãi suất, dòng vốn ngoại, nâng hạng)
 \item Cửa sổ trước: sau điểm gãy cấu trúc cuối (Bai \& Perron, 1998); báo cáo kèm 7/2023--6/2025
 \end{itemize}
 \end{frame}
@@ -229,7 +241,7 @@ E[\varepsilon_{it} \mid D_i, \Post_t, \alpha_i, \tau_t] = 0
 \frametitle{Tác động là khoảng cách so với đường nếu không chuyển sàn}
 \begin{figure}
 \input{hinh/did.tex}
-\caption{Hình minh họa thiết kế, không phải dữ liệu. $\delta$ đo tác động gộp của sàn: biên độ, bước giá, hệ thống giao dịch, chỉ số.}
+\caption{Hình minh họa thiết kế, không phải dữ liệu; lược bỏ 18 tháng chuyển tiếp trước 1/2027. $\delta$ đo tác động gộp của sàn: biên độ, bước giá, hệ thống giao dịch, chỉ số.}
 \end{figure}
 \end{frame}
 
@@ -252,7 +264,7 @@ Cú sốc trùng thời gian & Xử lý\\
 \midrule
 FTSE Russell (9/2026--9/2027) & Loại mã đủ điều kiện khỏi đối chứng\\
 Phân bảng HOSE & Thêm biến giả nhóm bảng\\
-VN-Index nhận mã mới & Đo mức chịu cú sốc chỉ số\\
+VN-Index nhận mã chuyển sàn & Ghi ngày vào chỉ số từng mã; đo mức chịu cú sốc\\
 Nới biên độ, xuyên trưa & Cắt cửa sổ sau (phụ)\\
 \bottomrule
 \end{tabularx}
@@ -276,24 +288,33 @@ Nới biên độ, xuyên trưa & Cắt cửa sổ sau (phụ)\\
 \item Kích thước kiểm định kiểm tra bằng mô phỏng trước ngày đăng ký
 \end{itemize}
 \column{0.48\textwidth}
-\begin{figure}
-\begin{tikzpicture}[node distance=3mm, every node/.append style={font=\footnotesize, inner sep=3pt}]
-\node[box, text width=5cm] (s1) {Ước lượng AR trên giai đoạn tham chiếu, hiệu chỉnh độ chệch};
-\node[box, text width=5cm, below=of s1] (s2) {Tạo chuỗi giả theo mô hình AR, rút phần dư có hoàn lại};
-\node[box, text width=5cm, below=of s2] (s3) {Tính thống kê trên mỗi chuỗi giả};
-\node[box, text width=5cm, below=of s3, draw=RubineRed, very thick] (s4) {Giá trị p một phía = tỷ lệ chuỗi giả có thống kê nhỏ hơn hoặc bằng giá trị thật};
-\draw[arr] (s1)--(s2); \draw[arr] (s2)--(s3); \draw[arr] (s3)--(s4);
-\end{tikzpicture}
-\end{figure}
+\textsb{Ý tưởng:} giá trị thật có hiếm không, so với các chuỗi giả không có sự kiện
+\begin{enumerate}
+\item Ước lượng mô hình AR của $d_t$ trên giai đoạn tham chiếu, hiệu chỉnh độ chệch
+\item Tạo chuỗi giả theo mô hình AR, rút phần dư có hoàn lại
+\item Tính thống kê trên mỗi chuỗi giả
+\item Giá trị p một phía: tỷ lệ chuỗi giả có thống kê nhỏ hơn hoặc bằng giá trị thật
+\end{enumerate}
 \end{columns}
 \end{frame}
 
 \begin{frame}
 \frametitle{Lực kiểm định phụ thuộc chủ yếu vào số tháng, ít vào số mã}
-\begin{figure}
-\input{hinh/mde.tex}
-\caption{Hiệu ứng nhỏ nhất phát hiện được của $\delta$: lực 80\%, mức một phía 0,05/3; $\sigma_d = 0{,}2$ minh họa; chuyển tiếp 18 tháng bị loại, sau 24 tháng. Bằng $0{,}64\sigma_d$, $1{,}24\sigma_d$, $1{,}76\sigma_d$ khi $\phi = 0$; 0,6; 0,8.}
-\end{figure}
+\begin{itemize}
+\item Mọi mã chịu chung một cú sốc mỗi tháng \so thêm mã không làm nhiễu chung nhỏ đi, thêm tháng thì có
+\item Chuỗi chênh lệch càng tự tương quan, mỗi tháng mới càng ít thông tin \so hiệu ứng nhỏ nhất phát hiện được tăng
+\end{itemize}
+\begin{table}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lccc}
+\toprule
+Tự tương quan $\phi$ của $d_t$ & 0 & 0,6 & 0,8\\
+\midrule
+Hiệu ứng nhỏ nhất phát hiện được & $0{,}64\sigma_d$ & $1{,}24\sigma_d$ & $1{,}76\sigma_d$\\
+Với $\sigma_d = 0{,}2$ (log Amihud) & 0,13 & \al{0,25} & 0,35\\
+\bottomrule
+\end{tabular*}
+\caption{Lực 80\%, mức một phía 0,05/3; cửa sổ trước 193 tháng, 18 tháng chuyển tiếp bị loại, sau 24 tháng. $\sigma_d = 0{,}2$ là giả định minh họa; 0,25 log tương ứng Amihud giảm khoảng 22\%. Nếu cửa sổ trước chỉ còn 24 tháng, các mức trên tăng khoảng 1,3 lần.}
+\end{table}
 \end{frame}
 
 \begin{frame}
@@ -307,7 +328,7 @@ Nới biên độ, xuyên trưa & Cắt cửa sổ sau (phụ)\\
 Một sự kiện duy nhất & Bootstrap tự hồi quy trên chuỗi theo tháng; báo cáo hiệu ứng nhỏ nhất phát hiện được và khoảng tin cậy\\
 Biên độ, bước giá, hệ thống giao dịch, chỉ số đổi cùng lúc & $\delta$ là tác động gộp của sàn; tương tác theo mức chịu cú sốc là phân tích phụ\\
 Cú sốc trùng thời gian ở đối chứng HOSE & Loại mã FTSE Russell; biến giả nhóm bảng; đối chứng UPCoM là một cận khác\\
-Dữ liệu sau sự kiện chỉ 24 tháng & Không bác bỏ được gọi là chưa đủ cơ sở kết luận, không phải không có tác động\\
+Dữ liệu sau sự kiện chỉ 24 tháng & Khoảng tin cậy chứa cả 0 lẫn tác động lớn hơn hiệu ứng nhỏ nhất: gọi là chưa đủ cơ sở kết luận, không phải không có tác động\\
 \bottomrule
 \end{tabularx}
 \caption{$\sigma_d$, $\phi$ thật được ước lượng lại từ giai đoạn tham chiếu và ghi vào tệp đăng ký.}
@@ -327,7 +348,7 @@ Dữ liệu sau sự kiện chỉ 24 tháng & Không bác bỏ được gọi l�
 G_m &= U_m(\vn{H}) - U_m(\vn{CS})\\
 \bar{G} &= \frac{1}{7}\sum_{m=1}^{7} G_m
 \end{align*}
-{\small $U = \mu - \rho\sigma^2/2$: lợi suất tương đương chắc chắn sau chi phí ($\rho = 5$); rổ CS: tối đa 30 mã chuyển sàn; rổ H: mã HOSE ghép cặp}
+{\small $U = \mu - \rho\sigma^2/2$: lợi suất chắc chắn mà nhà đầu tư ngại rủi ro coi là ngang giá với danh mục, sau chi phí ($\rho = 5$); rổ CS: tối đa 30 mã chuyển sàn; rổ H: mã HOSE ghép cặp; $\bar{G} > 0$: rổ CS thiệt hơn rổ H}
 \column{0.46\textwidth}
 \begin{itemize}
 \item \al{7 mô hình phân bổ} \MM{1}--\MM{7}: từ 1/N đến các mô hình có trạng thái thị trường
@@ -372,6 +393,7 @@ GFCI đã chứa dữ liệu giao dịch cổ phiếu; $\SMD$ ít đổi theo th
 \item Chỉ báo, ngưỡng, quy tắc ghép
 \item Đặc tả phương trình, suy luận
 \item Mức ý nghĩa, hiệu chỉnh Holm
+\item Khai rõ sàn, giai đoạn, chỉ báo đã dùng trong các bài trước
 \item Mọi thay đổi sau đó ghi là lệch kế hoạch
 \end{itemize}
 \column{0.52\textwidth}
@@ -385,6 +407,8 @@ Chuyển sàn lùi, nhiều đợt & Callaway và Sant'Anna (2021)\\
 UPCoM chuyển sớm & Dựa vào đối chứng HOSE\\
 Không song song & Đối chứng gộp: HOSE ngoài FTSE và UPCoM\\
 Không dùng được GFCI & \HH{1} ở dạng mô tả\\
+Sau sự kiện dưới 24 tháng; rổ CS dưới 30 mã & Dùng mọi tháng có sẵn; rổ 20 mã\\
+Dữ liệu sau ngắn, rổ CS ít mã & Dùng mọi tháng có sẵn; rổ 20 mã\\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -415,19 +439,38 @@ Năm & Việc chính\\
 \item Ước lượng \HH{3} kèm khoảng tin cậy
 \item Chỉ số khả năng đầu tư
 \item Ba bài báo; mục tiêu $\geq 1$ bài WoS Q1/Q2
-\item Báo cáo gửi Sở KH\&CN Hà Nội
+\item Báo cáo gửi Sở KH\&CN Hà Nội, kèm cam kết sử dụng
 \end{enumerate}
 \end{columns}
 \end{frame}
 
+\begin{frame}
+\frametitle{Chuẩn bị: các công trình đã có dùng công cụ của đề tài}
+\begin{table}
+\small
+\begin{tabularx}{\textwidth}{@{}L L@{}}
+\toprule
+Công trình & Kinh nghiệm dùng cho đề tài\\
+\midrule
+Bản thảo về điểm gãy cấu trúc của thanh khoản & Amihud và Bai--Perron: chọn cửa sổ trước cho \HH{3}\\
+Bản thảo về thanh khoản quanh đợt nâng hạng FTSE Russell & Nghiên cứu sự kiện trên thanh khoản, công cụ trực tiếp của \HH{3}\\
+Nguyễn và Nguyễn (2026a) & Nền của mô hình \MM{5}\\
+Bài về Black--Litterman ngược trên cổ phiếu ngân hàng & So sánh nhiều mô hình danh mục trên cùng dữ liệu\\
+\bottomrule
+\end{tabularx}
+\caption{Thí sinh có 4 công trình đã công bố hoặc được chấp nhận đăng và 8 bản thảo đang phản biện hoặc xét duyệt; trạng thái tính đến 30/9/2026, một bài cập nhật đến 9/10/2026.}
+\end{table}
+\end{frame}
+
 %=================================================================== KẾT
 \begin{frame}
-\frametitle{Một sự kiện đo được; phát hiện được tác động từ khoảng 22\%}
+\frametitle{Một sự kiện đo được; ngưỡng phát hiện khoảng 22\% là minh họa}
 \begin{enumerate}
 \item \textsb{Một sự kiện đo được:} 299 mã đổi sàn cùng ngày; thời điểm không do từng doanh nghiệp chọn
 \item \textsb{Thiết kế:} khác biệt kép, ngưỡng lợi suất chung, bootstrap tự hồi quy trên chuỗi theo tháng, đăng ký trước
 \item \textsb{Lực kiểm định:} với giả định minh họa, phát hiện được Amihud giảm từ khoảng 22\%
-\item \textsb{Sản phẩm có được dù kết quả ra sao:} hai chỉ số và tệp đăng ký trước, kèm báo cáo định hướng cho Hà Nội
+\item \textsb{Sản phẩm có được dù kết quả ra sao:} hai chỉ số và tệp đăng ký trước
+\item \textsb{Hàm ý cho Hà Nội:} chỉ số chất lượng là một cấu phần của hệ thống dữ liệu tài chính đô thị; định hướng chuyên môn hóa cho các thị trường HNX tiếp tục vận hành
 \end{enumerate}
 \end{frame}
 
@@ -551,16 +594,16 @@ Vào chỉ số HOSE & Mã vốn hóa lớn so với giao dịch & Vốn hóa / 
 \end{itemize}
 \column{0.48\textwidth}
 \begin{table}
-\begin{tabular}{@{}lccl@{}}
+\begin{tabular}{@{}lll@{}}
 \toprule
- & p & Ngưỡng & Kết quả\\
+Thứ tự & Ngưỡng & Dừng: số ủng hộ\\
 \midrule
-\HH{2} & 0,004 & 0,0167 & đạt\\
-\HH{3} & 0,020 & 0,025 & đạt\\
-\HH{1} & 0,030 & 0,050 & đạt\\
+$p_{(1)}$ & 0,05/3 & 0\\
+$p_{(2)}$ & 0,05/2 & 1\\
+$p_{(3)}$ & 0,05 & 2\\
 \bottomrule
 \end{tabular}
-\caption{Giá trị p minh họa.}
+\caption{Giá trị p một phía: phân cụm theo quốc gia (\HH{1}), bootstrap khối dừng (\HH{2}), bootstrap tự hồi quy (\HH{3}).}
 \end{table}
 \end{columns}
 \end{frame}
