@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+\begin{axis}[mau, xmin=0, xmax=0.9, ymin=0, ymax=0.7,
+  xtick={0,0.2,0.4,0.6,0.8}, ytick={0,0.1,0.2,0.3,0.4,0.5,0.6,0.7},
+  xticklabel style={/pgf/number format/fixed}, yticklabel style={/pgf/number format/fixed, /pgf/number format/precision=1},
+  xlabel={Tự tương quan $\phi$ của chuỗi chênh lệch theo tháng}, ylabel={Hiệu ứng nhỏ nhất (log Amihud)}]
+\addplot[Cam, no markers] table[x=phi, y=ngan]{hinh/mde.dat};
+\addplot[Tim, no markers] table[x=phi, y=dai]{hinh/mde.dat};
+\addplot[only marks, mark=*, mark size=2.2pt, Tim] coordinates {(0,0.129) (0.6,0.248) (0.8,0.352)};
+\draw[Hong, dashed, thin] (axis cs:0.6,0) -- (axis cs:0.6,0.248) -- (axis cs:0,0.248);
+\node[Hong, anchor=south west, font=\small] at (axis cs:0.01,0.25) {0,25 log $\approx$ Amihud giảm 22\%};
+\node[Tim, anchor=north east, font=\small] at (axis cs:0.89,0.20) {cửa sổ trước 193 tháng};
+\node[Cam, anchor=south east, font=\small] at (axis cs:0.80,0.52) {cửa sổ trước 24 tháng};
+\end{axis}
+\end{tikzpicture}

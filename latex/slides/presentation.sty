@@ -3,15 +3,13 @@
 % Bản này dùng fontspec: ưu tiên Source Sans 3; nếu máy không có thì dùng Inter.
 \usefonttheme{professionalfonts}
 \usepackage{fontspec}
-\IfFontExistsTF{Source Sans 3}{%
-  \setsansfont{Source Sans 3}[BoldFont={* Bold}, ItalicFont={* Italic}, BoldItalicFont={* Bold Italic}]%
-  \setmainfont{Source Sans 3}[BoldFont={* Bold}, ItalicFont={* Italic}, BoldItalicFont={* Bold Italic}]%
-  \DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}%
-}{%
-  \setsansfont{Inter}[UprightFont={* Light}, BoldFont={* SemiBold}, ItalicFont={* Light Italic}, BoldItalicFont={* SemiBold Italic}]%
-  \setmainfont{Inter}[UprightFont={* Light}, BoldFont={* SemiBold}, ItalicFont={* Light Italic}, BoldItalicFont={* SemiBold Italic}]%
-  \DeclareRobustCommand{\sbseries}{\bfseries}%
-}
+% Source Sans Pro (phông của template gốc) để kèm trong thư mục fonts/
+\defaultfontfeatures{Ligatures=TeX}
+\setsansfont{SourceSansPro}[Path=fonts/, Extension=.otf, UprightFont=*-Regular, ItalicFont=*-RegularIt, BoldFont=*-Bold, BoldItalicFont=*-BoldIt, FontFace={sb}{n}{*-Semibold}, FontFace={sb}{it}{*-SemiboldIt}]
+\setmainfont{SourceSansPro}[Path=fonts/, Extension=.otf, UprightFont=*-Regular, ItalicFont=*-RegularIt, BoldFont=*-Bold, BoldItalicFont=*-BoldIt, FontFace={sb}{n}{*-Semibold}, FontFace={sb}{it}{*-SemiboldIt}]
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+% Chữ hoa giãn cách thay cho chữ hoa nhỏ của bản gốc (\scshape + \MakeLowercase làm vỡ chữ Việt có dấu)
+\DeclareRobustCommand{\capsfont}{\addfontfeatures{LetterSpace=6}}
 \DeclareTextFontCommand{\textsb}{\sbseries}
 \urlstyle{same}
 
@@ -60,11 +58,11 @@
 \setbeamerfont{date}{size=\large}
 
 % Set frame title font
-\setbeamerfont{frametitle}{size=\Large, series=\sbseries}
+\setbeamerfont{frametitle}{size=\large, series=\sbseries}
 
 % Ensure uniform capitalization of frame title, and lower title
 % Tiếng Việt: bỏ chữ hoa nhỏ và \MakeLowercase (làm vỡ chữ có dấu); tiêu đề viết hoa đầu câu
-\setbeamertemplate{frametitle}{\vskip3mm\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}\insertframetitle\par}
+\setbeamertemplate{frametitle}{\vskip3mm\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}\capsfont\MakeUppercase{\insertframetitle}\par}
 
 % Format continuation count for multipage slides
 \setbeamertemplate{frametitle continuation}{[\insertcontinuationcount]}
@@ -125,7 +123,7 @@
 \newcommand*{\paperurl}[1]{\renewcommand*{\inserturl}{#1}} % URL defined in preamble
 
 \setbeamertemplate{title page}{%
-{\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}%
+{\usebeamerfont{title}\usebeamercolor[fg]{title}\capsfont\MakeUppercase{\inserttitle}\par}%
 {\color{BlackGray}\rule{\textwidth}{1.5pt}\par}%
 \vspace{1.5cm}%
 {\usebeamerfont{author}\insertauthor\par}%
@@ -198,7 +196,7 @@
 
 % ---- Create section slide ----
 
-\newcommand*{\heading}[1]{\LARGE\sbseries\color{BlackGray}\singlespacing #1}
+\newcommand*{\heading}[1]{\LARGE\sbseries\color{BlackGray}\singlespacing\capsfont\MakeUppercase{#1}}
 
 % ---- Create last slide ----
 

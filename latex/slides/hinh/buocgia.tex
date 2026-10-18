@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\begin{axis}[mau, xmode=log, log basis x=10, xmin=1, xmax=80, ymin=0, ymax=10.5,
+  xtick={1,2,5,10,20,50,80}, xticklabels={1,2,5,10,20,50,80},
+  ytick={0,2,4,6,8,10}, yticklabel={\pgfmathprintnumber{\tick}\%},
+  xlabel={Giá cổ phiếu (nghìn đồng, thang log)}, ylabel={Bước giá / giá}]
+\addplot[Cam, no markers] table[x=gia, y=hnx]{hinh/buocgia.dat};
+\addplot[Tim, no markers, const plot] table[x=gia, y=hose]{hinh/buocgia.dat};
+\node[Cam, anchor=south west, font=\small] at (axis cs:2.6,3.9) {HNX: 100 đồng mọi mức giá};
+\node[Tim, anchor=south west, font=\small] at (axis cs:1.05,1.2) {HOSE: 10 / 50 / 100 đồng};
+\end{axis}
+\end{tikzpicture}

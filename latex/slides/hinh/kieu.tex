@@ -1,0 +1,17 @@
+% Kiểu biểu đồ theo figures.pdf của template: bảng màu Dark2, lưới xám nhạt, nhãn đặt trên đường, không chú giải
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{fillbetween}
+\definecolor{Tim}{HTML}{7570B3}
+\definecolor{Cam}{HTML}{D95F02}
+\definecolor{Hong}{HTML}{E7298A}
+\pgfplotsset{mau/.style={
+  width=10.5cm, height=6.2cm, scale only axis=false,
+  axis lines=left, axis line style={black!70, thin}, tick style={black!70},
+  tick align=outside, major tick length=2pt,
+  grid=major, grid style={black!12, thin},
+  ticklabel style={font=\small, color=black!85}, label style={font=\small, color=black!85},
+  every axis plot/.append style={line width=1.25pt, line join=round},
+  /pgf/number format/use comma, /pgf/number format/1000 sep={.},
+  clip=false, enlargelimits=false}}
+\newcommand{\nhan}[1]{\footnotesize #1}
