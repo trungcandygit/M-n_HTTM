@@ -1,19 +1,21 @@
-% Hình minh họa thiết kế khác biệt kép, vẽ theo kiểu figures.pdf của template: đường vẽ theo hàm, không phải dữ liệu
+% Hình minh họa thiết kế khác biệt kép, kiểu figures.pdf của template.
+% Chuỗi trong did.dat sinh bằng hàm tất định (hinh/taodulieu.py), KHÔNG phải dữ liệu.
 \begin{tikzpicture}
-\begin{axis}[mau, xmin=2024, xmax=2029, ymin=0.2, ymax=1.5,
+\begin{axis}[mau, xmin=2024, xmax=2029, ymin=0.2, ymax=1.4,
   xtick={2024,2025,2026,2027,2028,2029}, xticklabel style={/pgf/number format/1000 sep={}},
-  ytick=\empty, ylabel={Log Amihud}, grid=none]
-\fill[black!15] (axis cs:2025.5,0.2) rectangle (axis cs:2027,1.5);
-\node[black!60, anchor=north, font=\footnotesize, align=center] at (axis cs:2026.25,1.47) {chuyển tiếp\\(loại)};
-\fill[Tim, opacity=0.15] (axis cs:2027,0.99) -- (axis cs:2029,0.95) -- (axis cs:2029,0.65) -- (axis cs:2027,0.69) -- cycle;
-\addplot[Tim, domain=2024:2027, samples=2] {1.05 - 0.02*(x-2024)};
-\addplot[Tim, domain=2027:2029, samples=2] {0.75 - 0.02*(x-2024)};
-\addplot[Tim, dashed, line width=0.8pt, domain=2027:2029, samples=2] {1.05 - 0.02*(x-2024)};
-\addplot[Cam, domain=2024:2029, samples=2] {0.55 - 0.02*(x-2024)};
-\draw[Tim, thin, -{Stealth[length=1.6mm]}] (axis cs:2027.9,1.27) -- (axis cs:2028.1,0.85);
-\node[Tim, anchor=south, font=\small] at (axis cs:2027.9,1.27) {Tác động $\delta$};
-\node[Tim, anchor=west, font=\small] at (axis cs:2029,0.95) {Nếu không chuyển sàn};
-\node[Tim, anchor=west, font=\small] at (axis cs:2029,0.65) {Chuyển sàn};
-\node[Cam, anchor=west, font=\small] at (axis cs:2029,0.45) {Đối chứng HOSE};
+  ytick={0.4,0.6,0.8,1.0,1.2}, yticklabels={}, major tick length=0pt, xmajorgrids=false,
+  ylabel={Độ phi thanh khoản (log)}]
+\fill[black!15] (axis cs:2025.5,0.2) rectangle (axis cs:2027,1.4);
+\node[black!60, anchor=north, font=\footnotesize, align=center] at (axis cs:2026.25,1.38) {chuyển tiếp\\(loại)};
+\addplot[draw=none, name path=thuc, domain=2027:2029, samples=2] {0.75-0.02*(x-2024)};
+\addplot[Tim, dashed, line width=0.8pt, name path=phanthuc, domain=2027:2029, samples=2] {1.05-0.02*(x-2024)};
+\addplot[Tim, opacity=0.15, draw=none] fill between[of=phanthuc and thuc];
+\addplot[Cam] table[x=t, y=doichung]{hinh/did.dat};
+\addplot[Tim] table[x=t, y=chuyen]{hinh/did.dat};
+\draw[Tim, thin, -{Stealth[length=1.6mm]}] (axis cs:2027.75,1.22) -- (axis cs:2028.1,0.86);
+\node[Tim, anchor=south, font=\small] at (axis cs:2027.75,1.21) {Tác động $\delta$};
+\node[Tim, anchor=west, font=\small] at (axis cs:2029,0.95) {nếu không chuyển sàn};
+\node[Tim, anchor=west, font=\small] at (axis cs:2029,0.70) {Chuyển sàn};
+\node[Cam, anchor=west, font=\small] at (axis cs:2029,0.43) {Đối chứng HOSE};
 \end{axis}
 \end{tikzpicture}
