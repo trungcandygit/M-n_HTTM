@@ -102,14 +102,8 @@ purpleDotted = [fieldnames(obj), struct2cell(obj)]';
 %% Predefine properties for areas
 
 clear obj
-obj.FaceColor = lightGray;
 obj.EdgeColor = 'none';
-periodArea = [fieldnames(obj), struct2cell(obj)]';
-
-clear obj
-obj.FaceColor = lightPurple;
-obj.EdgeColor = 'none';
-purpleArea = [fieldnames(obj), struct2cell(obj)]';
+noEdge = [fieldnames(obj), struct2cell(obj)]';
 
 %% Create a plot with a gray period area and a higher-lower area
 
@@ -120,10 +114,10 @@ clf
 hold on
 
 % Paint period area
-fill([startPeriod endPeriod endPeriod startPeriod], [0 0 1.4 1.4], periodArea{:});
+fill([startPeriod endPeriod endPeriod startPeriod], [0 0 1.4 1.4], lightGray, noEdge{:});
 
 % Paint higher-lower area
-fill([time(post); flipud(time(post))], [data3(post); flipud(data1(post))], purpleArea{:});
+fill([time(post); flipud(time(post))], [data3(post); flipud(data1(post))], lightPurple, noEdge{:});
 
 % Plot data
 plot(time(post), data3(post), purpleDotted{:})
