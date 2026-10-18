@@ -59,11 +59,11 @@ Mốc & Nội dung\\
 \frametitle{Hà Nội cần thước đo chất lượng thị trường sau hợp nhất}
 \begin{columns}[T]
 \column{0.50\textwidth}
-\textsb{Bài toán số 19 của Hà Nội}\\[1mm]
-``Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế?''\\[1mm]
-\nguon{Nguồn: QĐ 1193/QĐ-UBND (2026).}
-\vspace{3mm}
 \begin{itemize}
+\item Bài toán số 19 của Hà Nội (QĐ 1193/QĐ-UBND, 2026):
+\begin{itemize}
+\item ``Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế?''
+\end{itemize}
 \item NQ 222/2025/QH15: trung tâm tài chính quốc tế tại TP.HCM và Đà Nẵng
 \item Trong phạm vi tìm kiếm, chưa có nghiên cứu so sánh chất lượng thị trường HNX với HOSE
 \end{itemize}
@@ -134,10 +134,10 @@ Việt Nam & Tập trung vào HOSE & So sánh HNX với HOSE; đo đợt hợp n
 \begin{frame}
 \frametitle{Khung phân tích: từ đo chất lượng đến hàm ý cho Hà Nội}
 \begin{enumerate}
-\item \textsb{Sàn \then chất lượng thị trường:} quy tắc giao dịch và mức tập trung lệnh của sàn quyết định chi phí giao dịch và tốc độ giá phản ánh thông tin (\HH{2}, \HH{3})
-\item \textsb{Chất lượng \then khả năng đầu tư:} giao dịch đắt và kém thanh khoản làm nhà đầu tư đa dạng hóa nhận lợi suất tương đương chắc chắn thấp hơn (\HH{4})
-\item \textsb{Thị trường cổ phiếu \then vị thế trung tâm tài chính:} chỉ là liên hệ có điều kiện, không kiểm định nhân quả (\HH{1})
-\item \textsb{Hàm ý:} Bắc Kinh lớn mạnh dù không có sàn cổ phiếu tầm quốc gia (Naeem, 2023) \so Hà Nội chọn chuyên môn hóa: trái phiếu, phái sinh, UPCoM, dữ liệu
+\item Sàn \then chất lượng thị trường: quy tắc giao dịch và mức tập trung lệnh của sàn quyết định chi phí giao dịch và tốc độ giá phản ánh thông tin (\HH{2}, \HH{3})
+\item Chất lượng \then khả năng đầu tư: giao dịch đắt và kém thanh khoản làm nhà đầu tư đa dạng hóa nhận lợi suất tương đương chắc chắn thấp hơn (\HH{4})
+\item Thị trường cổ phiếu \then vị thế trung tâm tài chính: chỉ là liên hệ có điều kiện, không kiểm định nhân quả (\HH{1})
+\item Hàm ý: Bắc Kinh lớn mạnh dù không có sàn cổ phiếu tầm quốc gia (Naeem, 2023) \so Hà Nội chọn chuyên môn hóa: trái phiếu, phái sinh, UPCoM, dữ liệu
 \end{enumerate}
 \end{frame}
 
@@ -249,10 +249,12 @@ E[\varepsilon_{it} \mid D_i, \Post_t, \alpha_i, \tau_t] = 0
 \frametitle{Đối chứng là mã HOSE ghép cặp; mỗi cú sốc trùng có cách xử lý}
 \begin{columns}[T]
 \column{0.42\textwidth}
-\textsb{Đối chứng}
+\begin{itemize}
+\item Nhóm đối chứng:
 \begin{itemize}
 \item Chính: mã HOSE ghép theo vốn hóa, ngành, Amihud tại 30/6/2025
 \item Phụ: mã UPCoM
+\end{itemize}
 \item Xu hướng song song: nghiên cứu sự kiện; độ nhạy theo Rambachan và Roth (2023)
 \end{itemize}
 \column{0.54\textwidth}
@@ -276,19 +278,21 @@ Nới biên độ, xuyên trưa & Cắt cửa sổ sau (phụ)\\
 \frametitle{Chỉ có một sự kiện, nên suy luận bằng bootstrap tự hồi quy}
 \begin{columns}[T]
 \column{0.48\textwidth}
-\textsb{Vấn đề}
+\begin{itemize}
+\item Vấn đề:
 \begin{itemize}
 \item 299 mã, chỉ \al{một lần} chuyển sàn
 \item Coi mã là độc lập \so sai số chuẩn quá nhỏ (Conley \& Taber, 2011)
 \end{itemize}
-\textsb{Cách làm}
+\item Cách làm:
 \begin{itemize}
 \item Chuỗi $d_t$: chênh lệch log Amihud, chuyển sàn trừ đối chứng
 \item Thống kê: $\bar{d}_\text{sau} - \bar{d}_\text{trước}$
 \item Kích thước kiểm định kiểm tra bằng mô phỏng trước ngày đăng ký
 \end{itemize}
+\end{itemize}
 \column{0.48\textwidth}
-\textsb{Ý tưởng:} giá trị thật có hiếm không, so với các chuỗi giả không có sự kiện
+Ý tưởng: giá trị thật có hiếm không, so với các chuỗi giả không có sự kiện
 \begin{enumerate}
 \item Ước lượng mô hình AR của $d_t$ trên giai đoạn tham chiếu, hiệu chỉnh độ chệch
 \item Tạo chuỗi giả theo mô hình AR, rút phần dư có hoàn lại
@@ -388,12 +392,14 @@ GFCI đã chứa dữ liệu giao dịch cổ phiếu; $\SMD$ ít đổi theo th
 \frametitle{Kế hoạch phân tích được khóa trước ngày 28/12/2026}
 \begin{columns}[T]
 \column{0.44\textwidth}
-\textsb{Đăng ký trước trên OSF Registries}
+\begin{itemize}
+\item Đăng ký trước trên OSF Registries:
 \begin{itemize}
 \item Chỉ báo, ngưỡng, quy tắc ghép
 \item Đặc tả phương trình, suy luận
 \item Mức ý nghĩa, hiệu chỉnh Holm
 \item Khai rõ sàn, giai đoạn, chỉ báo đã dùng trong các bài trước
+\end{itemize}
 \item Mọi thay đổi sau đó ghi là lệch kế hoạch
 \end{itemize}
 \column{0.52\textwidth}
@@ -466,11 +472,11 @@ Bài về Black--Litterman ngược trên cổ phiếu ngân hàng & So sánh nh
 \begin{frame}
 \frametitle{Một sự kiện đo được; ngưỡng phát hiện khoảng 22\% là minh họa}
 \begin{enumerate}
-\item \textsb{Một sự kiện đo được:} 299 mã đổi sàn cùng ngày; thời điểm không do từng doanh nghiệp chọn
-\item \textsb{Thiết kế:} khác biệt kép, ngưỡng lợi suất chung, bootstrap tự hồi quy trên chuỗi theo tháng, đăng ký trước
-\item \textsb{Lực kiểm định:} với giả định minh họa, phát hiện được Amihud giảm từ khoảng 22\%
-\item \textsb{Sản phẩm có được dù kết quả ra sao:} hai chỉ số và tệp đăng ký trước
-\item \textsb{Hàm ý cho Hà Nội:} chỉ số chất lượng là một cấu phần của hệ thống dữ liệu tài chính đô thị; định hướng chuyên môn hóa cho các thị trường HNX tiếp tục vận hành
+\item Một sự kiện đo được: 299 mã đổi sàn cùng ngày; thời điểm không do từng doanh nghiệp chọn
+\item Thiết kế: khác biệt kép, ngưỡng lợi suất chung, bootstrap tự hồi quy trên chuỗi theo tháng, đăng ký trước
+\item Lực kiểm định: với giả định minh họa, phát hiện được Amihud giảm từ khoảng 22\%
+\item Sản phẩm có được dù kết quả ra sao: hai chỉ số và tệp đăng ký trước
+\item Hàm ý cho Hà Nội: chỉ số chất lượng là một cấu phần của hệ thống dữ liệu tài chính đô thị; định hướng chuyên môn hóa cho các thị trường HNX tiếp tục vận hành
 \end{enumerate}
 \end{frame}
 
