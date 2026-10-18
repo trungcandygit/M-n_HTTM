@@ -24,7 +24,7 @@
 - Beamer, XeLaTeX, template pmichaillat/latex-presentation (MIT). Giống template mẫu 100%: phông, cỡ chữ, màu chữ, khoảng cách, cách đặt hình và chú thích (figure/table + \caption xám), khung định lý nền xám, \heading, \lastslide, mức tối giản. Bản gốc template ở repo GitHub pmichaillat/latex-presentation; sty chỉ sửa tối thiểu, đánh dấu [VN].
 - Khoảng 30 phút, không ghi chú người nói. Tiêu đề nêu kết luận, nằm trên 1 dòng.
 - Tối giản như template: mỗi slide khoảng 4–5 ý ngắn (≤ 1–2 dòng), \al tối đa 1 lần mỗi slide, phần chính tối đa khoảng 4 bảng; chi tiết đưa xuống slide dự phòng.
-- Dùng đúng cấu trúc danh sách phân cấp của template: • / – / □ cho gạch đầu dòng; 1. / a. / i. cho danh sách đánh số; mục cha kết thúc bằng dấu hai chấm, mục con lồng bên dưới.
+- Dùng đúng cấu trúc danh sách phân cấp của template: • / – / □ cho gạch đầu dòng; 1. / a. / i. cho danh sách đánh số; mục cha kết thúc bằng dấu hai chấm, mục con lồng bên dưới. Giữ cấp □ cho ví dụ cụ thể (Bắc Kinh, Luxembourg; Euronext, Tokyo–Osaka); không gộp hay bỏ khi viết lại.
 - Slide có hình chỉ có hình (cộng tối đa một \caption xám). Slide có khung xám: chỉ khung xám, hoặc khung xám và tối đa 3 gạch đầu dòng bên dưới. Công thức chính đặt trong khung xám như slide Theorem/Lemma của mẫu.
 - Slide có bảng chỉ có một bảng kiểu "Basic table with note": trải hết bề ngang (tabular* + \extracolsep\fill), chữ cỡ thường, ô ngắn, nhóm hàng ngăn bằng \midrule, một dòng \caption xám ngắn bên dưới; không kèm gạch đầu dòng.
 - Hình vẽ như figures.pdf: tô vùng giữa các đường, mũi tên chỉ vùng có nhãn, giá trị cuối đường ghi bên phải, dải xám cho giai đoạn đặc biệt; chỉ vẽ khi giúp người nghe hiểu nhanh hơn chữ.
@@ -43,4 +43,4 @@
 - Cần tài liệu, ảnh hay thứ gì phải cài thì báo người dùng.
 - Khi người dùng chỉ hỏi ý kiến, trả lời và đề xuất; không tự gửi yêu cầu mới cho agent đang chạy khi chưa được đồng ý.
 - Tiết kiệm token nhưng vẫn đủ và mạnh nhất: không đọc lại tệp đã biết, báo cáo gọn, chỉ ghi phát hiện có giá trị.
-- Từ vòng 3: agent rà soát chỉ đọc `reports/so-tay-kiem-tra.md` (sổ tay rút từ đủ 24 skill, template, Shapiro và tệp này), không đọc lại từng skill. Main tự chạy kiểm tra máy (biên dịch, tràn, tiêu đề 1 dòng, phông) và đưa kết quả cho agent. Agent chỉ rà các slide thay đổi, kèm đoạn v14 liên quan.
+- Từ vòng 3: agent rà soát chỉ đọc `reports/so-tay-kiem-tra.md` và `reports/so-tay-bo-sung-van.md` (sổ tay rút từ đủ 24 skill, template, Shapiro và tệp này), không đọc lại từng skill. Main tự chạy kiểm tra máy (biên dịch, tràn, tiêu đề 1 dòng, phông) và đưa kết quả cho agent. Agent chỉ rà các slide thay đổi, kèm đoạn v14 liên quan.
