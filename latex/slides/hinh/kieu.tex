@@ -1,17 +1,21 @@
-% Kiểu biểu đồ theo figures.pdf của template: bảng màu Dark2, lưới xám nhạt, nhãn đặt trên đường, không chú giải
+% Kiểu hình theo pmichaillat/matlab-figures (nguồn của figures.pdf trong template):
+% khung 4:3, phông Helvetica (thay bằng Liberation Sans, cùng số đo, có chữ Việt), trục trái-dưới không đóng hộp,
+% vạch chia hướng ra ngoài, lưới ngang mờ, bảng màu Dark2, nhãn đặt cạnh đường, không chú giải
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
 \usepgfplotslibrary{fillbetween}
+\newfontfamily\hinhfont{Liberation Sans}
 \definecolor{Tim}{HTML}{7570B3}
 \definecolor{Cam}{HTML}{D95F02}
 \definecolor{Hong}{HTML}{E7298A}
 \pgfplotsset{mau/.style={
-  width=9.6cm, height=5.6cm, scale only axis=false,
-  axis lines*=left, axis line style={black, thin}, tick style={black},
+  scale only axis, width=6.2cm, height=4.65cm,
+  axis lines*=left, axis line style={black, line width=0.5pt}, tick style={black, line width=0.5pt},
   tick align=outside, major tick length=2pt,
-  ymajorgrids, grid style={black!15, thin},
-  ticklabel style={font=\small, color=black}, label style={font=\small, color=black},
-  every axis plot/.append style={line width=1.25pt, line join=round},
-  /pgf/number format/use comma, /pgf/number format/1000 sep={.},
+  ymajorgrids, xmajorgrids=false, grid style={black!15, line width=0.4pt},
+  every tick label/.append style={font=\hinhfont\footnotesize, color=black},
+  every axis label/.append style={font=\hinhfont\footnotesize, color=black},
+  every node/.append style={font=\hinhfont\footnotesize},
+  every axis plot/.append style={line width=1.2pt, line join=round},
+  /pgf/number format/use comma, /pgf/number format/1000 sep={},
   clip=false, enlargelimits=false}}
-\newcommand{\nhan}[1]{\footnotesize #1}
