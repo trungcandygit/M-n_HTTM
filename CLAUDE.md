@@ -41,5 +41,6 @@
 - Phát hiện chia CRITICAL / MAJOR / MINOR, kèm cặp CŨ/MỚI (MỚI chỉ chứa văn bản thay thế). Agent không sửa repo; main sửa một lần sau khi cả 2 agent xong.
 - Chạy các vòng đến khi hết CRITICAL và MAJOR (điểm rubric ≥ 90). Sau mỗi vòng gửi file PDF cho người dùng kiểm tra rồi mới chạy tiếp.
 - Cần tài liệu, ảnh hay thứ gì phải cài thì báo người dùng.
+- Khi người dùng chỉ hỏi ý kiến, trả lời và đề xuất; không tự gửi yêu cầu mới cho agent đang chạy khi chưa được đồng ý.
 - Tiết kiệm token nhưng vẫn đủ và mạnh nhất: không đọc lại tệp đã biết, báo cáo gọn, chỉ ghi phát hiện có giá trị.
 - Từ vòng 3: agent rà soát chỉ đọc `reports/so-tay-kiem-tra.md` (sổ tay rút từ đủ 24 skill, template, Shapiro và tệp này), không đọc lại từng skill. Main tự chạy kiểm tra máy (biên dịch, tràn, tiêu đề 1 dòng, phông) và đưa kết quả cho agent. Agent chỉ rà các slide thay đổi, kèm đoạn v14 liên quan.
