@@ -10,7 +10,7 @@
 - Không bịa trích dẫn, số liệu, DOI. Số minh họa phải ghi rõ "minh họa". Không đưa các số minh họa trong `ban-giao-slide/GHI-CHU.md` (δ = −0,25; Ḡ = 4,66; MQI = 0,3) lên slide như kết quả.
 - Không chạy script nào của skill khi chưa đọc hết nó.
 - Cổng 0 trước khi cài skill mới: đọc toàn bộ tệp; quét lời gọi mạng, exec, secret; ghi kết quả vào `reports/cong0-skill-moi.md`.
-- Không render ảnh (không chuyển PDF thành ảnh để xem) khi người dùng chưa cho phép; kiểm bố cục bằng pdftotext -bbox, pdffonts, log.
+- Được render ảnh trang PDF (người dùng đã cho phép) để so trực tiếp với mẫu.
 
 ## Văn phong và định dạng
 - Văn học thuật tiếng Việt, tự nhiên (vina-me, vietnamese-human-writing).

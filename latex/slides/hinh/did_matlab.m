@@ -129,11 +129,11 @@ plot(time, data1, purpleLine{:})
 
 % Annotate: nhãn nhỏ đặt cạnh đường, như figures.pdf của template
 labelSize = 14;
-text(2023.15, 1.10, 'Mã chuyển sàn', 'Color', purpleColor, 'FontSize', labelSize)
-text(2023.15, 0.25, 'Mã HOSE đối sánh', 'Color', orangeColor, 'FontSize', labelSize)
-text(2027.15, 1.17, 'Nếu không chuyển sàn', 'Color', purpleColor, 'FontSize', labelSize)
-text(2027.9, 0.74, 'Tác động', 'Color', purpleColor, 'FontSize', labelSize)
-text(2025.6, 1.33, 'Chuyển tiếp (loại)', 'Color', 0.4*[1 1 1], 'FontSize', labelSize)
+text(2023.15, 1.10, 'Switchers', 'Color', purpleColor, 'FontSize', labelSize)
+text(2023.15, 0.25, 'HOSE control', 'Color', orangeColor, 'FontSize', labelSize)
+text(2027.15, 1.17, 'No switch', 'Color', purpleColor, 'FontSize', labelSize)
+text(2027.9, 0.74, 'Effect', 'Color', purpleColor, 'FontSize', labelSize)
+text(2025.6, 1.33, 'Transition', 'Color', 0.4*[1 1 1], 'FontSize', labelSize)
 
 %Populate axes
 set(gca, xAxis{:}, yAxis{:})
