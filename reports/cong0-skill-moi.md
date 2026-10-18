@@ -86,3 +86,17 @@ Tìm bằng từ khoá chung ("github claude skill econometrics SKILL.md", "gith
 | math-reasoning | lingzhi227/agent-research-skills @9e6c085 | Không có tệp giấy phép | SKILL.md, references/notation-guide.md, references/proof-templates.md | Không có | KHÔNG CÀI (không rõ giấy phép; nội dung thiên về ký hiệu học máy) |
 
 Không skill nào gửi nội dung đề cương qua mạng.
+
+## Vòng 6 (18/10/2026): skill làm slide
+
+Phương pháp: clone `--depth 1` vào thư mục tạm, đọc toàn bộ file sẽ cài, quét `curl|wget|requests|urllib|subprocess|os.system|eval|exec|rm -rf|api key|token|http`.
+
+| Skill | Nguồn, commit | Giấy phép | Kết quả quét | Quyết định |
+|---|---|---|---|---|
+| beamer | Noi1r/beamer-skill @f3d62c0 | MIT | Chỉ lệnh cục bộ (xelatex, bibtex, pdfinfo, pdftoppm, PyMuPDF); không gọi mạng, không khóa API | CÀI (SKILL.md + references/) |
+| beamer-presentation | JonasWeinert/EconAgentSkills @c1b8b1e | CC0 | Chỉ mẫu LaTeX và link tài liệu; không script | CÀI (SKILL.md, reference.md, examples/) |
+| beamer-presentation (bản 1.0) | meleantonio/awesome-econ-ai-stuff @dd890d5 | CC0 | Sạch | KHÔNG CÀI (trùng, cũ hơn bản Jonas) |
+| beamer-check | aspi6246/Claude-Code-Skills-for-Academics @8a8f112 | Không có giấy phép | Script dùng subprocess gọi pdflatex cục bộ | KHÔNG CÀI (không có giấy phép) |
+| scientific-slides | K-Dense-AI/claude-scientific-writer @529b9f7 | MIT | scripts/ gọi OpenRouter, cần OPENROUTER_API_KEY (gửi nội dung ra ngoài) | CHỈ LẤY 2 tài liệu tham khảo (slide_design_principles.md, common_pitfalls.md) thành skill `slide-design-principles`; không lấy script |
+
+Template giao diện: pmichaillat/latex-presentation (MIT), đã đọc presentation.sty và presentation.tex; không có \write18, không gọi mạng.
