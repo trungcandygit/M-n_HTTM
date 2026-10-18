@@ -100,3 +100,5 @@ Phương pháp: clone `--depth 1` vào thư mục tạm, đọc toàn bộ file 
 | scientific-slides | K-Dense-AI/claude-scientific-writer @529b9f7 | MIT | scripts/ gọi OpenRouter, cần OPENROUTER_API_KEY (gửi nội dung ra ngoài) | CHỈ LẤY 2 tài liệu tham khảo (slide_design_principles.md, common_pitfalls.md) thành skill `slide-design-principles`; không lấy script |
 
 Template giao diện: pmichaillat/latex-presentation (MIT), đã đọc presentation.sty và presentation.tex; không có \write18, không gọi mạng.
+
+Cập nhật 18/10/2026: theo quyết định của người dùng (dùng cá nhân), cài thêm `beamer-check` (aspi6246 @8a8f112). Đã đọc hết SKILL.md và scripts/beamer_check.py; script chỉ gọi lệnh cục bộ (pdflatex, pdfinfo, pdftk, pdftoppm, convert), không gọi mạng. Repo gốc không có giấy phép; ghi chú gỡ ra nếu repo dự án chuyển công khai.
