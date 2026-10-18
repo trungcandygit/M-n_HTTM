@@ -25,6 +25,8 @@
 - Khoảng 30 phút, không ghi chú người nói. Tiêu đề nêu kết luận, nằm trên 1 dòng.
 - Tối giản như template: mỗi slide khoảng 4–5 ý ngắn (≤ 1–2 dòng), \al tối đa 1 lần mỗi slide, phần chính tối đa khoảng 4 bảng; chi tiết đưa xuống slide dự phòng.
 - Dùng đúng cấu trúc danh sách phân cấp của template: • / – / □ cho gạch đầu dòng; 1. / a. / i. cho danh sách đánh số; mục cha kết thúc bằng dấu hai chấm, mục con lồng bên dưới.
+- Slide có hình chỉ có hình (cộng tối đa một \caption xám). Slide có khung xám: chỉ khung xám, hoặc khung xám và tối đa 3 gạch đầu dòng bên dưới. Công thức chính đặt trong khung xám như slide Theorem/Lemma của mẫu.
+- Hình vẽ như figures.pdf: tô vùng giữa các đường, mũi tên chỉ vùng có nhãn, giá trị cuối đường ghi bên phải, dải xám cho giai đoạn đặc biệt; chỉ vẽ khi giúp người nghe hiểu nhanh hơn chữ.
 - Ưu tiên thêm phần định tính (cơ chế, trực giác, hàm ý) có nguồn trong đề cương. Chỉ vẽ hình khi thật sự cần; hình vẽ theo kiểu figures.pdf của template (Dark2: #7570b3, #d95f02, #e7298a; nhãn trên đường, không chú giải).
 - Chuẩn nội dung: đề cương v14, Shapiro "How to Give an Applied Micro Talk" (`ho-so/tham-khao/`).
 
