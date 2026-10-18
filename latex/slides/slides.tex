@@ -56,36 +56,19 @@
 
 \begin{frame}
 \frametitle{Hà Nội cần thước đo chất lượng thị trường sau hợp nhất}
-\begin{columns}[T]
-\column{0.60\textwidth}
-\begin{itemize}
-\item Bài toán số 19 (QĐ 1193/QĐ-UBND, 2026):
-\begin{itemize}
-\item Trung tâm tài chính, dịch vụ chất lượng cao quốc tế
-\end{itemize}
-\item NQ 222/2025/QH15:
-\begin{itemize}
-\item Trung tâm tài chính quốc tế: TP.HCM, Đà Nẵng
-\end{itemize}
-\item Khoảng trống:
-\begin{itemize}
-\item Chưa thấy nghiên cứu so sánh chất lượng HNX với HOSE
-\end{itemize}
-\end{itemize}
-\column{0.36\textwidth}
 \begin{table}
-\begin{tabular}{@{}lr@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcl}
 \toprule
-GFCI 40 (9/2026) & Hạng / 117\\
+ & Hạng GFCI 40 & Vị trí trong chính sách\\
 \midrule
-TP. Hồ Chí Minh & 67\\
-Đà Nẵng & 71\\
-Hà Nội & \al{không có}\\
+TP. Hồ Chí Minh & 67 & Trung tâm tài chính quốc tế\\
+Đà Nẵng & 71 & Trung tâm tài chính quốc tế\\
+\midrule
+Hà Nội & \al{không có} & Bài toán số 19: tìm phương thức\\
 \bottomrule
-\end{tabular}
-\caption{Nguồn: Wardle và Mainelli (2026).}
+\end{tabular*}
+\caption{Hạng trên 117 trung tâm, 9/2026. Nguồn: Wardle và Mainelli (2026); NQ 222/2025/QH15; QĐ 1193/QĐ-UBND.}
 \end{table}
-\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -327,23 +310,17 @@ A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad E[\vare
 
 \begin{frame}
 \frametitle{Lực kiểm định phụ thuộc chủ yếu vào số tháng, ít vào số mã}
-\begin{itemize}
-\item Nhiễu của chuỗi tháng $d_t$:
-\begin{itemize}
-\item Cú sốc như nhau với mọi mã: triệt tiêu khi lấy chênh lệch
-\item Cú sốc khác nhau giữa hai nhóm: thêm mã không giảm, thêm tháng thì giảm
-\end{itemize}
-\end{itemize}
 \begin{table}
 \begin{tabular*}{\textwidth}{@{\extracolsep\fill}lccc}
 \toprule
 Tự tương quan $\phi$ của $d_t$ & 0 & 0,6 & 0,8\\
 \midrule
-Hiệu ứng nhỏ nhất phát hiện được & $0{,}64\sigma_d$ & $1{,}24\sigma_d$ & $1{,}76\sigma_d$\\
-Với $\sigma_d = 0{,}2$ (log Amihud) & 0,13 & \al{0,25} & 0,35\\
+Hiệu ứng nhỏ nhất (bội số $\sigma_d$) & 0,64 & 1,24 & 1,76\\
+Khi $\sigma_d = 0{,}2$: log Amihud & 0,13 & \al{0,25} & 0,35\\
+Khi $\sigma_d = 0{,}2$: Amihud giảm & 12\% & 22\% & 30\%\\
 \bottomrule
 \end{tabular*}
-\caption{Lực 80\%, mức một phía 0,05/3; trước 193 tháng, sau 24 tháng. $\sigma_d = 0{,}2$ là giả định minh họa; 0,25 log ứng với Amihud giảm khoảng 22\%.}
+\caption{Cú sốc chung triệt tiêu khi lấy chênh lệch; cú sốc riêng của nhóm chỉ giảm khi thêm tháng. Lực 80\%, một phía 0,05/3; $\sigma_d$ minh họa.}
 \end{table}
 \end{frame}
 
@@ -512,38 +489,39 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \begin{frame}
 \frametitle{Phụ lục: các công trình đã có dùng công cụ của đề tài}
 \begin{table}
-\small
-\begin{tabularx}{\textwidth}{@{}L L@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ll}
 \toprule
-Công trình & Kinh nghiệm dùng cho đề tài\\
+Công trình & Dùng cho đề tài\\
 \midrule
-Bản thảo về điểm gãy cấu trúc của thanh khoản & Amihud và Bai--Perron: chọn cửa sổ trước cho \HH{3}\\
-Bản thảo về thanh khoản quanh đợt nâng hạng FTSE Russell & Nghiên cứu sự kiện trên thanh khoản, công cụ trực tiếp của \HH{3}\\
-Nguyễn và Nguyễn (2026a) & Nền của mô hình \MM{5}\\
-Bài về Black--Litterman ngược trên cổ phiếu ngân hàng & So sánh nhiều mô hình danh mục trên cùng dữ liệu\\
+Bản thảo: điểm gãy cấu trúc của thanh khoản & Chọn cửa sổ trước cho \HH{3}\\
+Bản thảo: thanh khoản quanh nâng hạng FTSE & Nghiên cứu sự kiện cho \HH{3}\\
+\midrule
+Nguyễn và Nguyễn (2026a) & Nền của \MM{5}\\
+Black--Litterman ngược, cổ phiếu ngân hàng & So sánh mô hình danh mục\\
 \bottomrule
-\end{tabularx}
-\caption{Thí sinh có 4 công trình đã công bố hoặc được chấp nhận đăng và 8 bản thảo đang phản biện hoặc xét duyệt; trạng thái tính đến 30/9/2026, một bài cập nhật đến 9/10/2026.}
+\end{tabular*}
+\caption{4 công trình đã công bố hoặc được chấp nhận và 8 bản thảo; trạng thái đến 30/9/2026 (một bài đến 9/10/2026).}
 \end{table}
 \end{frame}
 
 \begin{frame}
 \frametitle{Phụ lục: bảy mô hình phân bổ}
 \begin{table}
-\small
-\begin{tabularx}{\textwidth}{@{}l L l@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lll}
 \toprule
-Mã & Mô hình & Nguồn\\
+ & Mô hình & Nguồn\\
 \midrule
 \MM{1} & Phân bổ đều 1/N & DeMiguel và cộng sự (2009)\\
-\MM{2} & Phương sai nhỏ nhất, hiệp phương sai co rút & Ledoit và Wolf (2004)\\
-\MM{3} & Trung bình-phương sai, ước lượng mẫu & Markowitz (1952)\\
+\MM{2} & Phương sai nhỏ nhất, co rút & Ledoit và Wolf (2004)\\
+\MM{3} & Trung bình--phương sai & Markowitz (1952)\\
+\midrule
 \MM{4} & Black--Litterman & Black và Litterman (1992)\\
-\MM{5} & Black--Litterman có chuyển chế độ & Mở rộng từ Nguyễn và Nguyễn (2026a)\\
-\MM{6} & Danh mục vững chắc, nhiều niềm tin tiên nghiệm & Garlappi và cộng sự (2007)\\
-\MM{7} & Giảm rủi ro theo xác suất trạng thái căng thẳng & Kritzman và cộng sự (2012)\\
+\MM{5} & Black--Litterman chuyển chế độ & Mở rộng Nguyễn và Nguyễn (2026a)\\
+\midrule
+\MM{6} & Vững chắc, nhiều tiên nghiệm & Garlappi và cộng sự (2007)\\
+\MM{7} & Giảm rủi ro khi căng thẳng & Kritzman và cộng sự (2012)\\
 \bottomrule
-\end{tabularx}
+\end{tabular*}
 \caption{Danh mục chỉ mua; ước lượng lại hằng tháng trên cửa sổ 104 tuần; báo cáo cả khi bỏ \MM{5}.}
 \end{table}
 \end{frame}
@@ -588,17 +566,16 @@ A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
 \begin{frame}
 \frametitle{Phụ lục: tác động theo mức chịu ba cú sốc và theo trụ sở}
 \begin{table}
-\small
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth} L L@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lll}
 \toprule
-Thay đổi khi chuyển sàn & Mã chịu tác động mạnh nhất & Thước đo (dữ liệu đến 30/6/2025)\\
+Thay đổi & Mã chịu mạnh nhất & Thước đo $E_{si}$\\
 \midrule
 Biên độ $\pm$10\% $\rightarrow$ $\pm$7\% & Mã hay tăng giảm 7--10\% & Tỷ lệ ngày $|r|$ từ 7\% đến dưới 10\%\\
-Bước giá nhỏ đi & Mã giá thấp & Nghịch đảo giá đóng cửa bình quân\\
-Vào chỉ số HOSE & Mã vốn hóa lớn so với giao dịch & Vốn hóa / giá trị giao dịch bình quân ngày\\
+Bước giá nhỏ đi & Mã giá thấp & Nghịch đảo giá bình quân\\
+Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá trị giao dịch\\
 \bottomrule
-\end{tabularx}
-\caption{Tương tác $D_i\Post_tE_{si}$, $E_{si}$: mức chịu cú sốc $s$ của mã $i$; phân tích phụ, ngoài Holm; không đo riêng tác động của từng quy tắc. Chênh lệch theo trụ sở tại Hà Nội không phải tác động nhân quả của trụ sở.}
+\end{tabular*}
+\caption{Tương tác $D_i\Post_tE_{si}$, đo đến 30/6/2025: phân tích phụ, ngoài Holm, không tách riêng từng quy tắc. Chênh lệch theo trụ sở Hà Nội không phải tác động nhân quả.}
 \end{table}
 \end{frame}
 
@@ -616,47 +593,37 @@ Vào chỉ số HOSE & Mã vốn hóa lớn so với giao dịch & Vốn hóa / 
 
 \begin{frame}
 \frametitle{Phụ lục: hiệu chỉnh Holm cho \HH{1}--\HH{3}}
-\begin{columns}[T]
-\column{0.48\textwidth}
-\begin{itemize}
-\item Sắp giá trị p từ nhỏ đến lớn
-\item So lần lượt với 0,05/3; 0,05/2; 0,05
-\item Dừng ở giá trị đầu tiên không đạt
-\item \HH{4} ngoài họ: chỉ 28 cửa sổ
-\end{itemize}
-\column{0.48\textwidth}
 \begin{table}
-\begin{tabular}{@{}lll@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcc}
 \toprule
-Thứ tự & Ngưỡng & Dừng: số ủng hộ\\
+Giá trị p (sắp tăng dần) & Ngưỡng & Dừng ở đây: số giả thuyết được ủng hộ\\
 \midrule
 $p_{(1)}$ & 0,05/3 & 0\\
 $p_{(2)}$ & 0,05/2 & 1\\
 $p_{(3)}$ & 0,05 & 2\\
 \bottomrule
-\end{tabular}
-\caption{Giá trị p một phía: phân cụm theo quốc gia (\HH{1}), bootstrap khối dừng (\HH{2}), bootstrap tự hồi quy (\HH{3}).}
+\end{tabular*}
+\caption{Giá trị p một phía: phân cụm theo quốc gia (\HH{1}), bootstrap khối dừng (\HH{2}), bootstrap tự hồi quy (\HH{3}). \HH{4} ngoài họ: chỉ 28 cửa sổ.}
 \end{table}
-\end{columns}
 \end{frame}
 
 \begin{frame}
 \frametitle{Phụ lục: mốc pháp lý}
 \begin{table}
-\small
-\begin{tabularx}{\textwidth}{@{}l L@{}}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ll}
 \toprule
 Thời điểm & Sự kiện\\
 \midrule
-2016 & Quy chế giao dịch HOSE (QĐ 341) và HNX (QĐ 529): bước giá\\
-2021--2025 & TT 57/2021, 69/2023, 139/2025: hạn chuyển sàn lùi đến 31/12/2026\\
+2016 & Quy chế giao dịch HOSE (QĐ 341), HNX (QĐ 529): bước giá\\
+2021--2025 & TT 57/2021, 69/2023, 139/2025: hạn lùi đến 31/12/2026\\
 1/7/2025 & HNX ngừng nhận hồ sơ niêm yết mới\\
-9/2026--9/2027 & FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số theo bốn đợt\\
+\midrule
+9/2026--9/2027 & FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số, bốn đợt\\
 30/9/2026 & VNX công bố lịch chuyển sàn\\
 28/12/2026 & Phiên đầu tại HOSE\\
 1/2027--12/2028 & 24 tháng sau sự kiện\\
 \bottomrule
-\end{tabularx}
+\end{tabular*}
 \end{table}
 \end{frame}
 
