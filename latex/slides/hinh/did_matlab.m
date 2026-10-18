@@ -22,9 +22,7 @@ set(0, 'defaultFigurePaperSize', [figureWidth,figureHeight]);
 %% Set default properties for axes
 
 set(0, 'defaultAxesFontName', 'Helvetica')
-set(0, 'defaultTextFontName', 'Helvetica')
 set(0, 'defaultAxesFontSize', 24)
-set(0, 'defaultTextFontSize', 24)
 set(0, 'defaultAxesXColor', 'k')
 set(0, 'defaultAxesYColor', 'k')
 set(0, 'defaultAxesLineWidth', 1)
@@ -96,8 +94,8 @@ orangeLine = [fieldnames(obj), struct2cell(obj)]';
 clear obj
 obj.Color = purpleColor;
 obj.LineWidth = 3;
-obj.LineStyle = ':';
-purpleDotted = [fieldnames(obj), struct2cell(obj)]';
+obj.LineStyle = '--';
+purpleDashed = [fieldnames(obj), struct2cell(obj)]';
 
 %% Predefine properties for areas
 
@@ -120,18 +118,16 @@ fill([startPeriod endPeriod endPeriod startPeriod], [0 0 1.4 1.4], lightGray, no
 fill([time(post); flipud(time(post))], [data3(post); flipud(data1(post))], lightPurple, noEdge{:});
 
 % Plot data
-plot(time(post), data3(post), purpleDotted{:})
+plot(time(post), data3(post), purpleDashed{:})
 plot(time, data2, orangeLine{:})
 plot(time, data1, purpleLine{:})
 
-% Annotate (template annotates in Keynote; a few short labels here)
-text(2023.1, 1.05, 'Mã chuyển sàn', 'Color', purpleColor)
-text(2023.1, 0.22, 'Mã HOSE đối sánh', 'Color', orangeColor)
-text(2027.1, 1.25, 'Nếu không chuyển sàn', 'Color', purpleColor)
-text(2027.6, 0.80, 'Tác động', 'Color', purpleColor)
+% Nhãn không ghi ở đây: template ghi nhãn sau khi xuất hình (Keynote);
+% trong deck, nhãn tiếng Việt được đặt bằng LaTeX lên trên hình, nên không lỗi phông.
 
 %Populate axes
 set(gca, xAxis{:}, yAxis{:})
+set(gca, 'GridColor', 'k', 'GridAlpha', 0.15)  % lưới mờ như mặc định MATLAB của template
 ylabel('Amihud (log)')
 
 %Print figure
