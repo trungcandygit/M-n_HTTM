@@ -72,26 +72,19 @@ Hà Nội & \al{không có} & Bài toán số 19: tìm phương thức\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Ba khối lý thuyết nối chất lượng sàn với vị thế của Hà Nội}
-\begin{itemize}
-\item Tích tụ (Gehrig, 2000; Kindleberger, 1974):
-\begin{itemize}
-\item Tài chính dồn về nơi có quy mô giao dịch và thông tin
-\item Các trung tâm trong một nước phân vai (Lai, 2012):
-\begin{itemize}
-\item Bắc Kinh: trung tâm lớn, phần lớn thời gian không có sàn quốc gia (Naeem, 2023)
-\item Luxembourg chuyên môn hóa vào ngành quỹ (Yao, 2012)
-\end{itemize}
-\end{itemize}
-\item Vi cấu trúc (Amihud, 2002; Huang \& Stoll, 1996):
-\begin{itemize}
-\item Quy tắc giao dịch và mức tập trung lệnh quyết định \al{chi phí giao dịch}
-\end{itemize}
-\item Danh mục (Kan \& Zhou, 2007; Markowitz, 1952):
-\begin{itemize}
-\item Hiệu quả đầu tư phụ thuộc chất lượng tập cổ phiếu đầu tư được
-\end{itemize}
-\end{itemize}
+\frametitle{Hai kênh lý thuyết nối cấu trúc sàn với vị thế của Hà Nội}
+\begin{enumerate}
+\item Sàn \then chất lượng thị trường \then khả năng đầu tư:
+\begin{enumerate}
+\item Vi cấu trúc: quy tắc giao dịch, mức tập trung lệnh quyết định chi phí giao dịch (Amihud, 2002; Huang \& Stoll, 1996)
+\item Danh mục: chất lượng tập cổ phiếu quyết định hiệu quả đầu tư đạt được (Kan \& Zhou, 2007; Markowitz, 1952)
+\end{enumerate}
+\item Cấu trúc sàn \then vai trò trung tâm tài chính:
+\begin{enumerate}
+\item Tích tụ: tài chính dồn về nơi có quy mô giao dịch và thông tin (Gehrig, 2000; Kindleberger, 1974)
+\item Phân vai: Bắc Kinh lớn mạnh dù \al{phần lớn quá trình} không có sàn quốc gia (Lai, 2012; Naeem, 2023)
+\end{enumerate}
+\end{enumerate}
 \end{frame}
 
 \begin{frame}
@@ -146,7 +139,7 @@ Hà Nội & \al{không có} & Bài toán số 19: tìm phương thức\\
 \begin{enumerate}
 \item Tham chiếu, 6/2009--6/2025:
 \begin{enumerate}
-\item \HH{2}; cửa sổ trước của \HH{3}, \HH{4}
+\item So sánh HNX với HOSE; mốc trước khi chuyển sàn
 \end{enumerate}
 \item Chuyển tiếp, 7/2025--12/2026:
 \begin{enumerate}
@@ -154,7 +147,7 @@ Hà Nội & \al{không có} & Bài toán số 19: tìm phương thức\\
 \end{enumerate}
 \item Sau sự kiện, 1/2027--12/2028:
 \begin{enumerate}
-\item Cửa sổ sau 24 tháng của \HH{3}, \HH{4}
+\item 24 tháng đo tác động lên thanh khoản, khả năng đầu tư
 \end{enumerate}
 \end{enumerate}
 \column{0.46\textwidth}
@@ -244,7 +237,7 @@ A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad E[\vare
 \end{assumption}
 \begin{itemize}
 \item $A_{it}$: log Amihud; $D_i = 1$: mã chuyển sàn; $\Post_t = 1$ từ 1/2027
-\item $\alpha_i$: khác biệt sẵn có; $\tau_t$: cú sốc chung; \HH{3}: $\delta < 0$
+\item $\alpha_i$: khác biệt sẵn có; $\tau_t$: cú sốc chung; kỳ vọng $\delta < 0$
 \item Đối chứng: mã HOSE ghép theo vốn hóa, ngành, Amihud tại 30/6/2025
 \end{itemize}
 \end{frame}
@@ -359,13 +352,13 @@ Lợi suất tương đương chắc chắn của mô hình $m$: $U_m = \mu - \r
 \begin{itemize}
 \item Rổ CS: tối đa 30 mã chuyển sàn; rổ H: mã HOSE ghép cặp
 \item $\mu$, $\sigma^2$: trung bình, phương sai lợi suất vượt trội sau chi phí; $\rho = 5$
-\item \HH{4}: $\bar{G}$ thu hẹp; 20 cửa sổ trước, 8 sau: \al{chỉ ước lượng}
+\item Kỳ vọng: $\bar{G}$ thu hẹp sau chuyển sàn; 20 cửa sổ trước, 8 sau: \al{chỉ ước lượng}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
 \frametitle{Thị trường cổ phiếu và điểm GFCI: liên hệ có điều kiện}
-\begin{dinhnghia}[Mô hình cho \HH{1}]
+\begin{dinhnghia}[Mô hình cho điểm GFCI]
 Điểm GFCI chuẩn hóa $Z_{it}$ của trung tâm $i$ ở kỳ $t$:
 \[
 Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
@@ -373,7 +366,7 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \end{dinhnghia}
 \begin{itemize}
 \item $\SMD$: vòng quay, vốn hóa / GDP; $W$: thu nhập, quản trị nhà nước
-\item $\alpha_i$, $\tau_t$: hiệu ứng cố định trung tâm, kỳ; cụm theo quốc gia; \HH{1}: $\beta > 0$
+\item $\alpha_i$, $\tau_t$: hiệu ứng cố định trung tâm, kỳ; cụm theo quốc gia; kỳ vọng $\beta > 0$
 \item GFCI có nhân tố giao dịch cổ phiếu: $\beta$ \al{không là tác động nhân quả}
 \end{itemize}
 \end{frame}
@@ -396,7 +389,7 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \begin{itemize}
 \item Chuyển sàn lùi, nhiều đợt: Callaway và Sant'Anna (2021)
 \item Không song song: đối chứng gộp HOSE ngoài FTSE và UPCoM
-\item Không dùng được GFCI: \HH{1} ở dạng mô tả
+\item Không dùng được GFCI: so sánh quốc tế ở dạng mô tả
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -408,15 +401,15 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \begin{enumerate}
 \item Năm 1:
 \begin{enumerate}
-\item Đăng ký trước; chỉ số; \HH{2}
+\item Đăng ký trước; chỉ số chất lượng; so sánh HNX--HOSE
 \end{enumerate}
 \item Năm 2:
 \begin{enumerate}
-\item Bài báo 1 (\HH{2}); \HH{1}; giữa kỳ \HH{3}
+\item Bài báo 1: HNX so với HOSE; mô hình GFCI; kết quả giữa kỳ
 \end{enumerate}
 \item Năm 3:
 \begin{enumerate}
-\item Bài báo 2 (\HH{3}, \HH{4}), bài báo 3 (\HH{1})
+\item Bài báo 2: tác động chuyển sàn; bài báo 3: GFCI
 \end{enumerate}
 \item Năm 4:
 \begin{enumerate}
@@ -429,7 +422,7 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \begin{itemize}
 \item Tệp đăng ký trước có dấu thời gian
 \item Chỉ số chất lượng, mã nguồn mở
-\item Ước lượng \HH{3} kèm khoảng tin cậy
+\item Ước lượng tác động lên thanh khoản, kèm khoảng tin cậy
 \item Chỉ số khả năng đầu tư
 \item Ba bài báo, \al{ít nhất một} WoS Q1/Q2
 \item Báo cáo gửi Sở KH\&CN Hà Nội
@@ -446,8 +439,8 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \toprule
 Công trình & Dùng cho đề tài\\
 \midrule
-Bản thảo: điểm gãy cấu trúc của thanh khoản & Chọn cửa sổ trước cho \HH{3}\\
-Bản thảo: thanh khoản quanh nâng hạng FTSE & Nghiên cứu sự kiện cho \HH{3}\\
+Bản thảo: điểm gãy cấu trúc của thanh khoản & Chọn mốc trước khi chuyển sàn\\
+Bản thảo: thanh khoản quanh nâng hạng FTSE & Nghiên cứu sự kiện về thanh khoản\\
 \midrule
 Nguyễn và Nguyễn (2026a) & Nền của \MM{5}\\
 Black--Litterman ngược, cổ phiếu ngân hàng & So sánh mô hình danh mục\\
