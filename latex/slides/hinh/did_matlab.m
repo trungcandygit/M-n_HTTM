@@ -22,11 +22,11 @@ set(0, 'defaultFigurePaperSize', [figureWidth,figureHeight]);
 %% Set default properties for axes
 
 set(0, 'defaultAxesFontName', 'Helvetica')
-set(0, 'defaultAxesFontSize', 24)
+set(0, 'defaultAxesFontSize', 20)
 set(0, 'defaultAxesXColor', 'k')
 set(0, 'defaultAxesYColor', 'k')
 set(0, 'defaultAxesLineWidth', 1)
-set(0, 'defaultAxesYGrid', 'on')
+set(0, 'defaultAxesYGrid', 'off')   % lưới vẽ tay màu xám nhạt bên dưới (Octave không nhận GridAlpha)
 set(0, 'defaultAxesXGrid', 'off')
 set(0, 'defaultAxesTickDir', 'out')
 set(0, 'defaultAxesTickLength',[0.005, 0.005])
@@ -111,7 +111,12 @@ figure(iFigure)
 clf
 hold on
 
-% Paint period area
+% Light horizontal grid (= lưới mặc định MATLAB, độ đậm 0.15)
+for y = 0.2:0.2:1.4
+    plot([2023 2029], [y y], 'Color', 0.85*[1 1 1], 'LineWidth', 1)
+end
+
+% Paint period area (vẽ sau lưới để dải xám phủ lên lưới)
 fill([startPeriod endPeriod endPeriod startPeriod], [0 0 1.4 1.4], lightGray, noEdge{:});
 
 % Paint higher-lower area
@@ -127,8 +132,8 @@ plot(time, data1, purpleLine{:})
 
 %Populate axes
 set(gca, xAxis{:}, yAxis{:})
-set(gca, 'GridColor', 'k', 'GridAlpha', 0.15)  % lưới mờ như mặc định MATLAB của template
 ylabel('Amihud (log)')
 
 %Print figure
 print('-dpdf', 'did.pdf')
+print('-dpng', '-r300', 'did.png')   % bản PNG nét đậm hơn nếu PDF của Octave bị mảnh
