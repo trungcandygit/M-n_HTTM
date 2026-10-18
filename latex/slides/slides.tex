@@ -8,6 +8,7 @@
 \documentclass[11pt, xcolor={dvipsnames}, aspectratio=169, usepdftitle=false]{beamer}
 \usepackage{presentation}
 \newtheorem{dinhnghia}{Định nghĩa} % [VN]
+\newtheorem*{baitoan}{Bài toán số 19} % [VN]
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning, calc}
 \usepackage{tabularx}
@@ -27,7 +28,7 @@
 
 \title{Hợp nhất sàn chứng khoán và chất lượng thị trường: Bằng chứng thực nghiệm từ HNX và vị thế tài chính Hà Nội}
 \author{Nguyễn Văn Trung}
-\date{Đề cương nghiên cứu sinh, Trường Quốc tế, ĐHQGHN, Hà Nội, 2026}
+\date{Đề cương nghiên cứu sinh, Trường Quốc tế, ĐHQGHN, Hà Nội, 2026\\Bài toán số 19 (QĐ 1193/QĐ-UBND); Nghị quyết 57/2026/NQ-HĐND}
 
 \begin{document}
 
@@ -72,19 +73,35 @@ Hà Nội & \al{không có} & Bài toán số 19: tìm phương thức\\
 \end{frame}
 
 \begin{frame}
+\frametitle{Đề tài cung cấp thước đo nền cho hai câu hỏi của bài toán số 19}
+\begin{baitoan}[QĐ 1193/QĐ-UBND, 18/3/2026]
+Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế?
+\end{baitoan}
+\begin{itemize}
+\item Câu hỏi số 1 (mô hình trung tâm), số 3 (nền tảng cho thị trường): đề tài đo, \al{không thiết kế}
+\item Câu hỏi số 2, số 4 (công nghệ tài chính, dịch vụ thế hệ mới): ngoài phạm vi
+\item Nghị quyết 57/2026/NQ-HĐND: học tập trung 4 năm, trong 48 tháng hỗ trợ; sau tốt nghiệp tư vấn cho bài toán số 19 khi được mời
+\end{itemize}
+\end{frame}
+
+\begin{frame}
 \frametitle{Hai kênh lý thuyết nối cấu trúc sàn với vị thế của Hà Nội}
-\begin{enumerate}
+\begin{itemize}
 \item Sàn \then chất lượng thị trường \then khả năng đầu tư:
-\begin{enumerate}
+\begin{itemize}
 \item Vi cấu trúc: quy tắc giao dịch, mức tập trung lệnh quyết định chi phí giao dịch (Amihud, 2002; Huang \& Stoll, 1996)
-\item Danh mục: chất lượng tập cổ phiếu quyết định hiệu quả đầu tư đạt được (Kan \& Zhou, 2007; Markowitz, 1952)
-\end{enumerate}
+\item Danh mục: chất lượng tập cổ phiếu quyết định hiệu quả đầu tư (Kan \& Zhou, 2007; Markowitz, 1952)
+\end{itemize}
 \item Cấu trúc sàn \then vai trò trung tâm tài chính:
-\begin{enumerate}
+\begin{itemize}
 \item Tích tụ: tài chính dồn về nơi có quy mô giao dịch và thông tin (Gehrig, 2000; Kindleberger, 1974)
-\item Phân vai: Bắc Kinh lớn mạnh dù \al{phần lớn quá trình} không có sàn quốc gia (Lai, 2012; Naeem, 2023)
-\end{enumerate}
-\end{enumerate}
+\item Phân vai giữa các trung tâm trong một nước (Lai, 2012):
+\begin{itemize}
+\item Bắc Kinh: trung tâm lớn dù \al{phần lớn quá trình} không có sàn quốc gia (Naeem, 2023)
+\item Luxembourg: chuyên môn hóa vào ngành quỹ (Yao, 2012)
+\end{itemize}
+\end{itemize}
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -116,7 +133,11 @@ Hà Nội & \al{không có} & Bài toán số 19: tìm phương thức\\
 \end{itemize}
 \item Hợp nhất sàn:
 \begin{itemize}
-\item Đã có: Euronext (Nielsson, 2009), Tokyo--Osaka (Hisada, 2018), chỉ đo thanh khoản
+\item Đã có: chỉ đo thanh khoản, ở thị trường phát triển:
+\begin{itemize}
+\item Euronext (Nielsson, 2009)
+\item Tokyo--Osaka (Hisada, 2018)
+\end{itemize}
 \item Bổ sung: thị trường mới nổi; suy luận cho \al{một sự kiện}; thêm khả năng đầu tư
 \end{itemize}
 \item Việt Nam:
@@ -395,40 +416,44 @@ Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
 \end{frame}
 
 \begin{frame}
-\frametitle{Bốn năm, sáu chỉ tiêu kiểm chứng được}
-\begin{columns}[T]
-\column{0.46\textwidth}
+\frametitle{Mỗi sản phẩm cho Hà Nội có người dùng và mốc thời gian}
+\begin{table}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lll}
+\toprule
+Sản phẩm & Mốc & Người dùng dự kiến\\
+\midrule
+Chỉ số chất lượng, ba sàn & Năm 1; mã nguồn năm 4 & Sở KH\&CN, HNX\\
+Tác động lên thanh khoản & Năm 2 giữa kỳ, năm 3 & UBCKNN, HNX, HOSE\\
+Chỉ số khả năng đầu tư & Năm 3 & Tổ chức đầu tư\\
+Báo cáo định hướng chuyên môn hóa & Năm 4 & Sở KH\&CN, \al{HNX}\\
+\midrule
+Ba bài báo, ít nhất một WoS Q1/Q2 & Năm 2--4 & Nhà nghiên cứu\\
+\bottomrule
+\end{tabular*}
+\caption{Chỉ số chất lượng có thể là cấu phần của Hệ thống dữ liệu tài chính đô thị (bài toán số 19).}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Mỗi kiểu kết quả có cách đọc định trước cho Hà Nội}
 \begin{enumerate}
-\item Năm 1:
+\item Thanh khoản, khả năng đầu tư tăng rõ:
 \begin{enumerate}
-\item Đăng ký trước; chỉ số chất lượng; so sánh HNX--HOSE
+\item Tìm thế mạnh của Hà Nội ở các thị trường ngoài cổ phiếu niêm yết
 \end{enumerate}
-\item Năm 2:
+\item Khoảng tin cậy hẹp quanh 0:
 \begin{enumerate}
-\item Bài báo 1: HNX so với HOSE; mô hình GFCI; kết quả giữa kỳ
+\item Tác động nếu có là nhỏ; khác biệt hai sàn nhiều khả năng do doanh nghiệp
 \end{enumerate}
-\item Năm 3:
+\item Khoảng tin cậy rộng, chứa cả 0 lẫn tác động lớn:
 \begin{enumerate}
-\item Bài báo 2: tác động chuyển sàn; bài báo 3: GFCI
+\item Chưa đủ cơ sở kết luận: \al{không rút hàm ý} về vai trò của sàn
 \end{enumerate}
-\item Năm 4:
+\item Doanh nghiệp có trụ sở ở Hà Nội được lợi ít hơn:
 \begin{enumerate}
-\item Báo cáo cho Hà Nội; luận án
+\item Thành phố có lý do quan tâm hạ tầng thông tin cho doanh nghiệp địa phương
 \end{enumerate}
 \end{enumerate}
-\column{0.50\textwidth}
-\begin{itemize}
-\item Sáu chỉ tiêu:
-\begin{itemize}
-\item Tệp đăng ký trước có dấu thời gian
-\item Chỉ số chất lượng, mã nguồn mở
-\item Ước lượng tác động lên thanh khoản, kèm khoảng tin cậy
-\item Chỉ số khả năng đầu tư
-\item Ba bài báo, \al{ít nhất một} WoS Q1/Q2
-\item Báo cáo gửi Sở KH\&CN Hà Nội
-\end{itemize}
-\end{itemize}
-\end{columns}
 \end{frame}
 
 %=================================================================== KẾT
@@ -468,10 +493,8 @@ Black--Litterman ngược, cổ phiếu ngân hàng & So sánh mô hình danh m�
 \end{enumerate}
 \item Hàm ý cho Hà Nội:
 \begin{enumerate}
-\item Căn cứ để chọn mảng chuyên môn hóa cho thị trường HNX còn vận hành:
-\begin{enumerate}
-\item Trái phiếu, phái sinh, UPCoM
-\end{enumerate}
+\item Mất sàn cổ phiếu chưa chắc là mất vị thế tài chính, như Bắc Kinh
+\item Căn cứ chọn mảng chuyên môn hóa: trái phiếu, phái sinh, UPCoM
 \end{enumerate}
 \end{enumerate}
 \end{frame}
