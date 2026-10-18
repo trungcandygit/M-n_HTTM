@@ -189,7 +189,7 @@ Với sàn $j$ và tháng $t$, mỗi chiều là trung bình điểm z của cá
 \item Hạ tầng và chỉ số:
 \begin{itemize}
 \item Hệ thống giao dịch của HOSE
-\item Vào VN-Index: cầu tăng nhiều ở mã vốn hóa lớn so với giao dịch
+\item Vào VN-Index: cầu tăng nhiều ở mã có vốn hóa lớn so với giá trị giao dịch
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -220,7 +220,7 @@ Với sàn $j$ và tháng $t$, mỗi chiều là trung bình điểm z của cá
 \begin{assumption}[Xu hướng song song]
 Nếu không chuyển sàn, chênh lệch log Amihud giữa hai nhóm không đổi theo thời gian:
 \[
-A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad E[\varepsilon_{it} \mid D_i, \Post_t, \alpha_i, \tau_t] = 0
+A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad \mathbb{E}[\varepsilon_{it} \mid D_i, \Post_t, \alpha_i, \tau_t] = 0
 \]
 \end{assumption}
 \begin{itemize}
@@ -259,12 +259,16 @@ A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad E[\vare
 
 \begin{frame}[label=suyLuan]
 \frametitle{Chỉ có một sự kiện, nên suy luận bằng bootstrap tự hồi quy}
-\begin{enumerate}
+\begin{dinhnghia}[Thống kê kiểm định]
+Với $d_t$ là chênh lệch log Amihud theo tháng giữa mã chuyển sàn và mã đối chứng:
+\[
+\bar{d}_{\vn{sau}} - \bar{d}_{\vn{trước}}
+\]
+\end{dinhnghia}
+\begin{itemize}
 \item 299 mã chỉ chịu \al{một lần} chuyển sàn: coi mã độc lập thì sai số chuẩn quá nhỏ (Conley \& Taber, 2011)
-\item Chuỗi chuyển sàn trừ đối chứng: $d_t$ là chênh lệch log Amihud theo tháng
-\item Thống kê kiểm định: $\bar{d}_\text{sau} - \bar{d}_\text{trước}$
 \item Giá trị p một phía: so với thống kê trên các chuỗi giả không có sự kiện
-\end{enumerate}
+\end{itemize}
 \hyperlink{baBuoc}{\beamergotobutton{Ba bước bootstrap}}
 \hyperlink{khongCum}{\beamergotobutton{Vì sao không phân cụm theo mã}}
 \end{frame}
@@ -310,7 +314,7 @@ Khi $\sigma_d = 0{,}2$: Amihud giảm & 12\% & 22\% & 30\%\\
 \heading{Khả năng đầu tư và bằng chứng quốc tế}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=khaNang]
 \frametitle{Khả năng đầu tư: rổ chuyển sàn kém rổ HOSE bao nhiêu}
 \begin{dinhnghia}[Khoảng cách khả năng đầu tư]
 Lợi suất tương đương chắc chắn của mô hình $m$: $U_m = \mu - \rho\sigma^2/2$; trung bình trên 7 mô hình:
@@ -319,10 +323,11 @@ Lợi suất tương đương chắc chắn của mô hình $m$: $U_m = \mu - \r
 \]
 \end{dinhnghia}
 \begin{itemize}
-\item Đo nhà đầu tư đa dạng hóa thu được bao nhiêu sau chi phí giao dịch, có tính rủi ro
+\item $\bar{G}$: lợi suất tương đương chắc chắn mất đi khi giữ rổ CS thay vì rổ H, sau chi phí
 \item Rổ CS: tối đa 30 mã chuyển sàn; rổ H: mã HOSE ghép cặp; $\rho = 5$
 \item Kỳ vọng: $\bar{G}$ thu hẹp sau chuyển sàn; 20 cửa sổ trước, 8 sau: \al{chỉ ước lượng}
 \end{itemize}
+\hyperlink{uocLuongG}{\beamergotobutton{Cách ước lượng}}
 \end{frame}
 
 \begin{frame}
@@ -485,14 +490,14 @@ Thời điểm & Sự kiện\\
 \begin{table}
 \begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcc}
 \toprule
-Giá trị p (sắp tăng dần) & Ngưỡng & Dừng ở đây: số giả thuyết được ủng hộ\\
+Giá trị p tăng dần & Ngưỡng & Nếu dừng: số được ủng hộ\\
 \midrule
 $p_{(1)}$ & 0,05/3 & 0\\
 $p_{(2)}$ & 0,05/2 & 1\\
 $p_{(3)}$ & 0,05 & 2\\
 \bottomrule
 \end{tabular*}
-\caption{Giá trị p một phía: GFCI phân cụm theo quốc gia; chỉ số chất lượng thị trường bootstrap khối dừng; Amihud bootstrap tự hồi quy. Khả năng đầu tư ngoài họ: chỉ 28 cửa sổ.}
+\caption{Giá trị p một phía của \HH{1}--\HH{3}; \HH{4} chỉ ước lượng, ngoài Holm.}
 \end{table}
 \hyperlink{giaThuyet}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
@@ -539,12 +544,13 @@ $p_{(3)}$ & 0,05 & 2\\
 
 \begin{frame}[label=suKien]
 \frametitle{Phụ lục: nghiên cứu sự kiện kiểm tra xu hướng song song}
-\begin{itemize}
-\item Đặc tả:
-\begin{equation*}
+\begin{dinhnghia}[Đặc tả nghiên cứu sự kiện]
+$T_{kt} = 1$ nếu tháng $t$ là tháng $k$, với $k$ từ 1/2024 đến 12/2028; gốc 6/2025; trước 1/2024 gộp:
+\[
 A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
-\end{equation*}
-\item $T_{kt} = 1$ nếu tháng $t$ là $k$; $k$ từ 1/2024 đến 12/2028; gốc 6/2025; trước 1/2024 gộp
+\]
+\end{dinhnghia}
+\begin{itemize}
 \item Kiểm định đồng thời $\delta_k = 0$ từ 1/2024 đến 5/2025
 \item Độ nhạy trước vi phạm xu hướng song song: Rambachan và Roth (2023)
 \item 18 tháng chuyển tiếp giữa tháng gốc và giai đoạn sau: khoảng tin cậy có thể rộng
@@ -587,23 +593,23 @@ A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
 \end{frame}
 
 \begin{frame}[label=mucChiu]
-\frametitle{Phụ lục: tác động theo mức chịu ba cú sốc và theo trụ sở}
+\frametitle{Phụ lục: tác động theo mức chịu ba thay đổi quy tắc}
 \begin{table}
 \begin{tabular*}{\textwidth}{@{\extracolsep\fill}lll}
 \toprule
 Thay đổi & Mã chịu mạnh nhất & Thước đo $E_{si}$\\
 \midrule
-Biên độ $\pm$10\% xuống $\pm$7\% & Mã hay tăng giảm 7--10\% & Tỷ lệ ngày $|r|$ từ 7\% đến dưới 10\%\\
+Biên độ $\pm$10\% xuống $\pm$7\% & Mã hay tăng giảm 7--10\% & Tỷ lệ ngày 7\% $\leq |r| <$ 10\%\\
 Bước giá nhỏ đi & Mã giá thấp & Nghịch đảo giá bình quân\\
 Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá trị giao dịch\\
 \bottomrule
 \end{tabular*}
-\caption{Tương tác $D_i\Post_tE_{si}$, đo đến 30/6/2025: phân tích phụ, ngoài Holm, không tách riêng từng quy tắc. Chênh lệch theo trụ sở Hà Nội không phải tác động nhân quả.}
+\caption{Tương tác $D_i \Post_t E_{si}$, $E_{si}$ đo đến 30/6/2025: phân tích phụ, ngoài Holm.}
 \end{table}
 \hyperlink{diemYeu}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=uocLuongG]
 \frametitle{Phụ lục: khả năng đầu tư chỉ ước lượng, kèm khoảng tin cậy}
 \begin{itemize}
 \item $\mu$, $\sigma^2$: lợi suất vượt trội tuần sau chi phí, nhân 52; $\rho = 5$, độ nhạy ở 3 và 10
@@ -612,6 +618,7 @@ Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá
 \item Khoảng tin cậy: bootstrap khối dừng trên lợi suất tuần của hai rổ, lấy mẫu đồng thời
 \item Cửa sổ sau còn chứa dữ liệu trước: \MM{1} là phép so sánh sạch nhất; Sharpe là thước đo phụ (Ledoit \& Wolf, 2008)
 \end{itemize}
+\hyperlink{khaNang}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=banThao]
@@ -630,7 +637,7 @@ Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá
 \end{frame}
 
 \begin{frame}[label=dungCho]
-\frametitle{Phụ lục: bốn công trình cho thí sinh công cụ dùng trong đề tài}
+\frametitle{Phụ lục: bốn công trình chuẩn bị công cụ cho đề tài}
 \begin{enumerate}
 \item Bản thảo 6, thanh khoản quanh nâng hạng FTSE: nghiên cứu sự kiện trên thanh khoản
 \item Bản thảo 4, điểm gãy cấu trúc: độ phi thanh khoản Amihud, phương pháp Bai--Perron
