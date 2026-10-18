@@ -1,0 +1,581 @@
+%****************************************************************************************************
+% Slide trình bày đề cương (khoảng 30 phút) — template Michaillat (MIT), biên dịch XeLaTeX
+% xelatex slides && xelatex slides
+% Quy ước: tiêu đề slide nêu kết luận; mọi số liệu lấy từ đề cương v14; số minh họa ghi rõ "minh họa".
+%****************************************************************************************************
+\documentclass[11pt, xcolor={dvipsnames}, aspectratio=169, usepdftitle=false]{beamer}
+\usepackage{presentation}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, calc}
+\usepackage{tabularx}
+\hypersetup{pdfpagemode=UseNone, hidelinks, pdfdisplaydoctitle=true,
+  pdftitle={Hợp nhất sàn chứng khoán và chất lượng thị trường}}
+
+% Ký hiệu
+\newcommand{\HH}[1]{H\textsubscript{#1}}
+\newcommand{\MM}[1]{M\textsubscript{#1}}
+\newcommand{\vn}[1]{\mathrm{#1}}
+\newcommand{\Post}{\vn{Post}}
+\newcommand{\MQI}{\vn{MQI}}
+\newcommand{\SMD}{\vn{SMD}}
+% Nhấn mạnh dùng \al{} của template (một màu nhấn duy nhất)
+\definecolor{cbBlue}{HTML}{0173B2}
+\definecolor{cbOrange}{HTML}{DE8F05}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\tikzset{box/.style={draw=black!70, rounded corners=2pt, align=center, font=\small, inner sep=5pt},
+         arr/.style={-{Stealth[length=2.2mm]}, thick, black!70},
+         darr/.style={-{Stealth[length=2.2mm]}, thick, dashed, black!70}}
+
+\title{Hợp nhất sàn chứng khoán và chất lượng thị trường:\\ Bằng chứng thực nghiệm từ HNX và vị thế tài chính Hà Nội}
+\author{Nguyễn Văn Trung\\[1mm]{\normalsize Đề cương nghiên cứu sinh, ngành Kinh tế và Quản lý, Trường Quốc tế, ĐHQGHN}}
+\date{Hà Nội, 2026}
+
+\begin{document}
+\frame{\titlepage}
+
+%=================================================================== MỞ ĐẦU
+\begin{frame}
+\frametitle{Ngày 28/12/2026, toàn bộ cổ phiếu niêm yết HNX chuyển sang HOSE}
+\begin{center}
+\begin{tikzpicture}[x=0.96cm]
+\draw[arr] (0,0) -- (12.6,0) node[right, font=\small]{thời gian};
+\foreach \x/\a/\b in {0.4/2021/TT 57: hạn năm 2023, 3.2/2023/TT 69: lùi đến hết 2025, 6.0/2025/TT 139: lùi đến 31/12/2026, 8.8/30/9/2026/VNX công bố lịch}
+  {\draw[thick] (\x,0.12) -- (\x,-0.12); \node[above=4pt, font=\small\sbseries] at (\x,0.1){\a}; \node[below=4pt, font=\footnotesize, text width=2.2cm, align=center] at (\x,-0.1){\b};}
+\draw[very thick, RubineRed] (11.3,0.25) -- (11.3,-0.25);
+\node[above=4pt, font=\small\sbseries, RubineRed] at (11.3,0.2){28/12/2026};
+\node[below=4pt, font=\footnotesize, text width=2.4cm, align=center, RubineRed] at (11.3,-0.2){phiên đầu tại HOSE};
+\end{tikzpicture}
+\end{center}
+\vspace{2mm}
+\begin{itemize}
+\item \al{299 mã}, chuyển \al{cùng một ngày}, theo quyết định hành chính (doanh nghiệp không tự chọn)
+\item Phiên cuối ở HNX 23/12; tạm ngừng 24--25/12/2026
+\item Lộ trình đã \al{lùi hai lần}; UPCoM không thuộc đợt này
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Hà Nội cần biết mất gì, được gì khi không còn sàn cổ phiếu niêm yết}
+\begin{columns}[T]
+\column{0.50\textwidth}
+\textsb{Bài toán số 19 của Hà Nội}\\[1mm]
+{\small ``Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính và dịch vụ chất lượng cao quốc tế?''}\\[1mm]
+{\footnotesize QĐ 1193/QĐ-UBND, 2026}
+\vspace{4mm}
+\begin{itemize}
+\item NQ 222/2025/QH15: trung tâm tài chính quốc tế tại TP.HCM và Đà Nẵng
+\item Chưa có số đo về chất lượng thị trường của Hà Nội
+\end{itemize}
+\column{0.45\textwidth}
+\textsb{GFCI 40 (9/2026)}\\[2mm]
+\begin{tabular}{@{}lr@{}}
+\toprule
+Trung tâm & Hạng / 117\\
+\midrule
+TP. Hồ Chí Minh & 67\\
+Đà Nẵng & 71\\
+Hà Nội & \al{không có}\\
+\bottomrule
+\end{tabular}\\[1mm]
+{\footnotesize Wardle \& Mainelli (2026)}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ba câu hỏi, bốn giả thuyết; trọng tâm là tác động của việc chuyển sàn}
+\begin{center}
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.33\textwidth} L l@{}}
+\toprule
+Câu hỏi & Giả thuyết & Vai trò\\
+\midrule
+1. Thị trường cổ phiếu phát triển có đi cùng điểm GFCI cao hơn? & \HH{1}: liên hệ dương, sau khi kiểm soát thể chế, thu nhập & bối cảnh\\
+2. Trước hợp nhất, HNX kém HOSE bao nhiêu? & \HH{2}: chỉ số chất lượng HNX thấp hơn HOSE (6/2009--6/2025) & thước đo nền\\
+3. Chuyển sàn thay đổi thanh khoản và khả năng đầu tư bao nhiêu? & \HH{3}: độ phi thanh khoản giảm so với đối chứng & \al{trọng tâm}\\
+ & \HH{4}: khoảng cách khả năng đầu tư thu hẹp & ước lượng\\
+\bottomrule
+\end{tabularx}}
+\end{center}
+\vspace{1mm}
+{\small \HH{1}--\HH{3}: kiểm định xác nhận, hiệu chỉnh Holm 5\%. \HH{4}: chỉ ước lượng (ít cửa sổ).}
+\end{frame}
+
+\begin{frame}
+\frametitle{Đóng góp: đo vai trò của sàn ở một thị trường mới nổi, bằng một sự kiện ngoại sinh}
+\begin{center}
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.27\textwidth} L L@{}}
+\toprule
+Nhóm tài liệu & Đã có & Đề tài bổ sung\\
+\midrule
+Trung tâm tài chính & Naeem (2023): 17 yếu tố, không có thị trường cổ phiếu & Đưa riêng thị trường cổ phiếu vào mô hình GFCI\\
+Hợp nhất sàn & Euronext, Tokyo--Osaka: thị trường phát triển, chỉ đo thanh khoản & Thị trường mới nổi; suy luận cho \al{một sự kiện}; thêm khả năng đầu tư\\
+Việt Nam & Tập trung vào HOSE & So sánh HNX với HOSE; đo đợt hợp nhất 2026\\
+\bottomrule
+\end{tabularx}}\\[1mm]
+{\footnotesize Trong phạm vi tìm kiếm đến 30/9/2026.}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Khung phân tích: từ chất lượng trước hợp nhất đến hàm ý cho Hà Nội}
+\begin{center}
+\begin{tikzpicture}[node distance=5mm and 10mm, every node/.append style={inner sep=4pt}]
+\node[box, text width=3.3cm] (a) {\textsb{Trước hợp nhất}\\HNX so với HOSE (\HH{2})\\6/2009--6/2025};
+\node[box, text width=3.3cm, right=of a, draw=RubineRed, very thick] (b) {\textsb{Sự kiện 28/12/2026}\\Thanh khoản (\HH{3})\\Khả năng đầu tư (\HH{4})};
+\node[box, text width=3.3cm, right=of b] (c) {\textsb{Hàm ý cho Hà Nội}\\Chuyên môn hóa thị trường\\Hạ tầng dữ liệu};
+\node[box, text width=3.3cm, below=of b] (d) {\textsb{Nhóm đối chứng}\\Cổ phiếu HOSE đối sánh\\Cổ phiếu UPCoM};
+\node[box, text width=3.3cm, below=of c] (e) {\textsb{Bằng chứng quốc tế}\\Điểm GFCI (\HH{1})\\Thể chế, thu nhập};
+\draw[arr] (a) -- (b); \draw[darr] (b) -- (c);
+\draw[arr] (d) -- node[right, font=\footnotesize]{khác biệt kép} (b);
+\draw[darr] (e) -- node[right, font=\footnotesize]{bối cảnh} (c);
+\end{tikzpicture}
+\end{center}
+{\footnotesize Nét liền: kiểm định hoặc ước lượng. Nét đứt: tổng hợp định tính.}
+\end{frame}
+
+%=================================================================== DỮ LIỆU, ĐO LƯỜNG
+\begin{frame}
+\heading{Dữ liệu và đo lường}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ba giai đoạn: tham chiếu, chuyển tiếp bị loại, 24 tháng sau sự kiện}
+\begin{center}
+\begin{tikzpicture}[x=0.62cm, y=0.9cm]
+\draw[arr] (0,0) -- (21,0) node[right, font=\small]{năm};
+\foreach \y/\l in {0/2009,4/2013,8/2017,12/2021,16/2025,20/2029}{\draw (\y,0.1)--(\y,-0.1) node[below, font=\footnotesize]{\l};}
+\draw[thick, fill=LightGray] (0.5,0.45) rectangle (16.5,1.25); \node[font=\small] at (8.5,0.85){Tham chiếu 6/2009--6/2025};
+\draw[thick, dashed] (16.5,0.45) rectangle (18,1.25);
+\draw[thick, fill=RubineRed!15] (18,0.45) rectangle (20,1.25);
+\draw[very thick] (18,-0.15) -- (18,1.6);
+\node[anchor=south east, font=\footnotesize, align=right] at (17.2,1.7){chuyển tiếp\\7/2025--12/2026};
+\node[anchor=south west, font=\footnotesize, align=left] at (18.8,1.7){sau sự kiện\\1/2027--12/2028};
+\end{tikzpicture}
+\end{center}
+\begin{itemize}
+\item Dữ liệu ngày của sàn niêm yết HNX, UPCoM, HOSE, \al{kể cả mã đã hủy niêm yết} (tránh thiên lệch sống sót)
+\item Chuyển tiếp bị loại khỏi kiểm định chính: thị trường đã biết trước sự kiện từ 1/7/2025
+\item Quốc tế: điểm GFCI kỳ 1--40, chỉ báo thị trường cổ phiếu, quản trị nhà nước
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Chỉ số chất lượng thị trường vốn: ba chiều, sáu chỉ báo, trọng số bằng nhau}
+\[
+\MQI_{jt} = \frac{\vn{TK}_{jt} + \vn{HQ}_{jt} + \vn{MB}_{jt}}{3}
+\]
+\begin{center}
+{\small
+\begin{tabularx}{0.92\textwidth}{@{}l L@{}}
+\toprule
+Chiều & Chỉ báo\\
+\midrule
+Thanh khoản (TK) & độ phi thanh khoản Amihud; tỷ lệ ngày lợi suất 0; chênh lệch Corwin--Schultz\\
+Hiệu quả thông tin (HQ) & độ lệch tỷ số phương sai khỏi 1; độ trễ giá\\
+Minh bạch (MB) & số ngày trễ hạn công bố báo cáo quý\\
+\bottomrule
+\end{tabularx}}
+\end{center}
+\begin{itemize}
+\item Mỗi chỉ báo đổi thành điểm z theo mẫu gộp các sàn trong giai đoạn tham chiếu
+\item \HH{2}: chênh lệch HOSE -- HNX theo tháng; giá trị p bằng bootstrap khối dừng
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Thách thức: biên độ và bước giá đổi cùng lúc với sàn}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textsb{Quy tắc thay đổi khi chuyển sàn}\\[2mm]
+{\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+ & HNX & HOSE\\
+\midrule
+Biên độ & ±10\% & ±7\%\\
+Bước giá & 100 đ & 10 / 50 / 100 đ\\
+\bottomrule
+\end{tabular}}\\[3mm]
+{\small Biên độ hẹp $\Rightarrow$ lợi suất bị cắt $\Rightarrow$ Amihud \al{giảm cơ học}}
+\column{0.48\textwidth}
+\textsb{Cách xử lý}
+\begin{itemize}
+\item Tính Amihud trên ngày có $|r|$ \al{dưới một ngưỡng chung}, bỏ ngày liền sau
+\item Ngưỡng dưới mức tăng tối đa ở ±7\%: giá 1.140 đ chỉ tăng được \al{6,14\%}
+\item Loại mã giá quá thấp; báo cáo theo nhóm giá
+\end{itemize}
+\end{columns}
+\end{frame}
+
+%=================================================================== NHẬN DẠNG
+\begin{frame}
+\heading{Thiết kế nhận dạng}
+\end{frame}
+
+\begin{frame}
+\frametitle{Khác biệt kép: so cổ phiếu chuyển sàn với cổ phiếu HOSE đối sánh}
+\[
+A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}
+\]
+\begin{columns}[T]
+\column{0.50\textwidth}
+\begin{itemize}
+\item $A_{it}$: log Amihud (ngày dưới ngưỡng chung)
+\item $D_i = 1$: mã chuyển sàn; $\Post_t = 1$ từ 1/2027
+\item $\alpha_i,\ \tau_t$: hiệu ứng cố định mã, tháng
+\item \HH{3}: $\delta < 0$
+\end{itemize}
+\column{0.46\textwidth}
+\textsb{Ví dụ minh họa}\\[1mm]
+{\small
+\begin{tabular}{@{}lccc@{}}
+\toprule
+ & Trước & Sau & Đổi\\
+\midrule
+Chuyển sàn & 1,80 & 1,40 & $-0{,}40$\\
+Đối chứng & 1,20 & 1,05 & $-0{,}15$\\
+\midrule
+$\delta$ & & & \al{$-0{,}25$}\\
+\bottomrule
+\end{tabular}}\\[1mm]
+{\small $e^{-0{,}25} - 1 \approx -22\%$}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Nhóm đối chứng và các cú sốc trùng thời gian được xử lý riêng}
+\begin{columns}[T]
+\column{0.42\textwidth}
+\textsb{Đối chứng}
+\begin{itemize}
+\item Chính: mã HOSE ghép theo vốn hóa, ngành, Amihud tại 30/6/2025
+\item Phụ: mã UPCoM
+\item Kiểm tra xu hướng song song bằng nghiên cứu sự kiện; độ nhạy theo Rambachan \& Roth (2023)
+\end{itemize}
+\column{0.54\textwidth}
+\textsb{Cú sốc trùng thời gian}\\[1mm]
+{\small
+\begin{tabularx}{\linewidth}{@{}L L@{}}
+\toprule
+Cú sốc & Xử lý\\
+\midrule
+FTSE Russell (9/2026--9/2027) & Loại mã đủ điều kiện khỏi đối chứng\\
+Phân bảng HOSE & Thêm biến giả nhóm bảng\\
+VN-Index nhận mã mới & Đo mức chịu cú sốc chỉ số\\
+Nới biên độ, xuyên trưa & Cắt cửa sổ sau (phụ)\\
+\bottomrule
+\end{tabularx}}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Chỉ có một sự kiện, nên suy luận bằng bootstrap tự hồi quy}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\textsb{Vấn đề}
+\begin{itemize}
+\item 299 mã nhưng chỉ \al{một lần} chuyển sàn
+\item Coi mã là độc lập $\Rightarrow$ sai số chuẩn quá nhỏ\\{\footnotesize (Conley \& Taber, 2011)}
+\end{itemize}
+\textsb{Cách làm}
+\begin{itemize}
+\item Chuỗi $d_t$: chênh lệch log Amihud, chuyển sàn trừ đối chứng
+\item Thống kê: trung bình $d_t$ sau trừ trước
+\end{itemize}
+\column{0.48\textwidth}
+\begin{center}
+\begin{tikzpicture}[node distance=3mm, every node/.append style={font=\footnotesize, inner sep=3pt}]
+\node[box, text width=5cm] (s1) {Ước lượng AR trên giai đoạn tham chiếu};
+\node[box, text width=5cm, below=of s1] (s2) {Tạo chuỗi giả theo mô hình AR, rút phần dư có hoàn lại};
+\node[box, text width=5cm, below=of s2] (s3) {Tính thống kê trên mỗi chuỗi giả};
+\node[box, text width=5cm, below=of s3, draw=RubineRed, very thick] (s4) {Giá trị p = tỷ lệ chuỗi giả cực đoan hơn};
+\draw[arr] (s1)--(s2); \draw[arr] (s2)--(s3); \draw[arr] (s3)--(s4);
+\end{tikzpicture}
+\end{center}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Lực kiểm định phụ thuộc vào số tháng, không phụ thuộc vào số mã}
+\begin{columns}[T]
+\column{0.50\textwidth}
+\vspace{2mm}
+\textsb{Hiệu ứng nhỏ nhất phát hiện được}\\[1mm]
+{\small (lực 80\%, mức một phía 0,05/3; $\sigma = 0{,}2$ minh họa)}\\[2mm]
+{\small
+\begin{tabular}{@{}cccc@{}}
+\toprule
+$\phi$ & Theo $\sigma$ & Log Amihud & Amihud giảm\\
+\midrule
+0 & 0,64 & 0,13 & 12\%\\
+0,6 & 1,24 & 0,25 & \al{22\%}\\
+0,8 & 1,76 & 0,35 & 30\%\\
+\bottomrule
+\end{tabular}}
+\column{0.46\textwidth}
+\begin{itemize}
+\item $\phi$: tự tương quan của $d_t$; chuỗi càng ``dính'', cần tác động càng lớn
+\item Cửa sổ trước rút còn 24 tháng $\Rightarrow$ ngưỡng tăng khoảng 1,3 lần
+\item Không bác bỏ $\neq$ không có tác động: báo cáo khoảng tin cậy
+\item $\sigma$, $\phi$ thật ước lượng lại, ghi vào tệp đăng ký
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tác động được tách theo ba kênh và theo trụ sở doanh nghiệp}
+\vspace{2mm}
+\begin{center}
+{\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.22\textwidth} L L@{}}
+\toprule
+Thay đổi khi chuyển sàn & Mã chịu mạnh nhất & Thước đo (dữ liệu đến 30/6/2025)\\
+\midrule
+Biên độ ±10\% $\rightarrow$ ±7\% & Mã hay tăng giảm 7--10\% & Tỷ lệ ngày $|r|$ từ 7\% đến dưới 10\%\\
+Bước giá nhỏ đi & Mã giá thấp & Nghịch đảo giá đóng cửa bình quân\\
+Vào chỉ số HOSE & Mã vốn hóa lớn so với giao dịch & Vốn hóa / giá trị giao dịch bình quân ngày\\
+\bottomrule
+\end{tabularx}}
+\end{center}
+\begin{itemize}
+\item Tương tác $D_i\Post_t E_{si}$; suy luận cùng cách với $\delta$; là phân tích phụ, ngoài thủ tục Holm
+\item Trụ sở tại Hà Nội: kiểm tra kênh chú ý và thông tin gắn với nơi đặt sàn
+\end{itemize}
+\end{frame}
+
+%=================================================================== KHẢ NĂNG ĐẦU TƯ, H1
+\begin{frame}
+\heading{Khả năng đầu tư và bằng chứng quốc tế}
+\end{frame}
+
+\begin{frame}
+\frametitle{Khả năng đầu tư: nhà đầu tư thiệt bao nhiêu với rổ cổ phiếu chuyển sàn}
+\begin{columns}[T]
+\column{0.50\textwidth}
+\vspace{-2mm}
+\begin{align*}
+U &= \mu - \frac{\rho}{2}\sigma^2\\
+G_m &= U_m(\vn{H}) - U_m(\vn{CS})\\
+\bar{G} &= \frac{G_1 + G_2 + \dots + G_7}{7}
+\end{align*}
+{\small $U$: lợi suất tương đương chắc chắn sau chi phí; rổ CS: tối đa 30 mã chuyển sàn; rổ H: mã HOSE ghép cặp}
+\column{0.46\textwidth}
+\begin{itemize}
+\item \al{7 mô hình phân bổ} \MM{1}--\MM{7}: từ 1/N đến Black-Litterman chuyển chế độ
+\item Bình quân để không phụ thuộc một mô hình
+\item 20 cửa sổ trước, 8 cửa sổ sau
+\item \HH{4}: $\bar{G}$ thu hẹp sau sự kiện (ước lượng)
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bằng chứng quốc tế: thị trường cổ phiếu và điểm GFCI là liên hệ có điều kiện}
+\[
+Z_{it} = \alpha_i + \tau_t + \beta \SMD_{it} + \lambda W_{it} + \varepsilon_{it}
+\]
+\begin{columns}[T]
+\column{0.50\textwidth}
+\begin{itemize}
+\item $Z_{it}$: điểm GFCI chuẩn hóa theo kỳ
+\item $\SMD_{it}$: vòng quay, vốn hóa / GDP
+\item $W_{it}$: thu nhập, quản trị nhà nước
+\item \HH{1}: $\beta > 0$; sai số phân cụm theo quốc gia
+\end{itemize}
+\column{0.46\textwidth}
+\textsb{Giới hạn nêu thẳng}
+\begin{itemize}
+\item GFCI đã chứa dữ liệu giao dịch cổ phiếu
+\item $\SMD$ ít đổi theo thời gian
+\item $\Rightarrow$ không gọi là tác động nhân quả
+\end{itemize}
+\end{columns}
+\end{frame}
+
+%=================================================================== KẾ HOẠCH, SẢN PHẨM
+\begin{frame}
+\heading{Kế hoạch và sản phẩm}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kế hoạch phân tích được khóa trước ngày 28/12/2026}
+\begin{columns}[T]
+\column{0.46\textwidth}
+\textsb{Đăng ký trước trên OSF Registries}
+\begin{itemize}
+\item Chỉ báo, ngưỡng, quy tắc ghép
+\item Đặc tả phương trình, suy luận
+\item Mức ý nghĩa, hiệu chỉnh Holm
+\item Mọi thay đổi sau đó ghi là lệch kế hoạch
+\end{itemize}
+\column{0.50\textwidth}
+\textsb{Phương án dự phòng}\\[1mm]
+{\small
+\begin{tabularx}{\linewidth}{@{}L L@{}}
+\toprule
+Rủi ro & Xử lý\\
+\midrule
+Chuyển sàn lùi, nhiều đợt & Callaway \& Sant'Anna (2021)\\
+UPCoM chuyển sớm & Dựa vào đối chứng HOSE\\
+Không song song & Đối chứng tổng hợp\\
+Không dùng được GFCI & \HH{1} ở dạng mô tả\\
+\bottomrule
+\end{tabularx}}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bốn năm, sáu chỉ tiêu kiểm chứng được}
+\begin{columns}[T]
+\column{0.52\textwidth}
+{\small
+\begin{tabularx}{\linewidth}{@{}l L@{}}
+\toprule
+Năm & Việc chính\\
+\midrule
+1 & Đăng ký trước; dữ liệu; chỉ số chất lượng; \HH{2}\\
+2 & Bài báo 1; \HH{1}; kết quả giữa kỳ \HH{3}\\
+3 & 24 tháng sau sự kiện; \HH{3}, \HH{4}; bài báo 2, 3\\
+4 & Báo cáo định hướng cho Hà Nội; luận án\\
+\bottomrule
+\end{tabularx}}
+\column{0.44\textwidth}
+\textsb{Sản phẩm}
+\begin{itemize}
+\item Tệp đăng ký trước có dấu thời gian
+\item Chỉ số chất lượng thị trường và chỉ số khả năng đầu tư, mã nguồn mở
+\item Ba bài báo, ít nhất một bài WoS Q1/Q2
+\item Báo cáo cho Sở KH\&CN Hà Nội, ưu tiên HNX dùng
+\end{itemize}
+\end{columns}
+\end{frame}
+
+%=================================================================== KẾT
+\begin{frame}
+\frametitle{Ba điều cần nhớ}
+\vspace{4mm}
+\begin{enumerate}
+\item \textsb{Cơ hội đo hiếm có:} 299 mã đổi sàn cùng ngày, không do doanh nghiệp chọn
+\item \textsb{Thiết kế chặt:} khác biệt kép, ngưỡng lợi suất chung, bootstrap cho một sự kiện, đăng ký trước
+\item \textsb{Sản phẩm dùng được dù kết quả ra sao:} hai chỉ số và báo cáo định hướng cho thị trường vốn Hà Nội
+\end{enumerate}
+\vspace{6mm}
+{\small Câu hỏi còn mở: Hà Nội nên chuyên môn hóa vào trái phiếu, phái sinh hay UPCoM?}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tài liệu chính}
+{\small
+\begin{itemize}
+\item Amihud, Y. (2002). Illiquidity and stock returns. \emph{Journal of Financial Markets, 5}(1), 31--56.
+\item Conley, T. G., \& Taber, C. R. (2011). Inference with ``difference in differences'' with a small number of policy changes. \emph{Review of Economics and Statistics, 93}(1), 113--125.
+\item Hisada, T. (2018). The effect of investor sentiment toward an exchange merger on liquidity. \emph{International Journal of Economics and Financial Issues, 8}(2), 315--318.
+\item Naeem, M. M. F. (2023). What makes an International Financial Centre (IFC) competitive? [Luận án tiến sĩ, Durham University].
+\item Nielsson, U. (2009). Stock exchange merger and liquidity: The case of Euronext. \emph{Journal of Financial Markets, 12}(2), 229--267.
+\item Rambachan, A., \& Roth, J. (2023). A more credible approach to parallel trends. \emph{Review of Economic Studies, 90}(5), 2555--2591.
+\end{itemize}}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+{\LARGE\sbseries Xin cảm ơn}\\[4mm]
+Nguyễn Văn Trung
+\end{center}
+\end{frame}
+
+\lastslide
+
+%=================================================================== PHỤ LỤC
+\appendix
+\begin{frame}
+\begin{center}{\Large\sbseries Slide phụ lục}\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Phụ lục: bảy mô hình phân bổ}
+{\small
+\begin{tabularx}{\textwidth}{@{}l L l@{}}
+\toprule
+Mã & Mô hình & Nguồn\\
+\midrule
+\MM{1} & Phân bổ đều 1/N & DeMiguel và cộng sự (2009)\\
+\MM{2} & Phương sai nhỏ nhất, hiệp phương sai co rút & Ledoit \& Wolf (2004)\\
+\MM{3} & Trung bình-phương sai, ước lượng mẫu & Markowitz (1952)\\
+\MM{4} & Black-Litterman & Black \& Litterman (1992)\\
+\MM{5} & Black-Litterman có chuyển chế độ & Nguyễn \& Nguyễn (2026a)\\
+\MM{6} & Danh mục vững chắc, nhiều niềm tin tiên nghiệm & Garlappi và cộng sự (2007)\\
+\MM{7} & Giảm rủi ro theo xác suất trạng thái căng thẳng & Kritzman và cộng sự (2012)\\
+\bottomrule
+\end{tabularx}}\\[2mm]
+{\small Danh mục chỉ mua; ước lượng lại hằng tháng trên cửa sổ 104 tuần; báo cáo cả khi bỏ \MM{5}.}
+\end{frame}
+
+\begin{frame}
+\frametitle{Phụ lục: nghiên cứu sự kiện kiểm tra xu hướng song song}
+\[
+A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
+\]
+\begin{itemize}
+\item $k$ từ 1/2024 đến 12/2028; tháng gốc 6/2025; trước 1/2024 gộp một nhóm
+\item Kiểm định đồng thời $\delta_k = 0$ từ 1/2024 đến 5/2025
+\item Độ nhạy trước vi phạm xu hướng song song: Rambachan \& Roth (2023)
+\item 18 tháng chuyển tiếp giữa tháng gốc và giai đoạn sau $\Rightarrow$ khoảng tin cậy có thể rộng
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Phụ lục: vì sao không dùng sai số chuẩn phân cụm theo mã}
+\begin{itemize}
+\item Mọi mã cùng chịu một sự kiện, cùng một ngày
+\item Cú sốc tác động như nhau lên mọi mã: đã nằm trong $\tau_t$
+\item Cú sốc tác động khác nhau lên hai nhóm: làm sai số của các mã chuyển sàn tương quan trong cùng tháng
+\item Thêm mã không làm giảm loại cú sốc này $\Rightarrow$ thông tin nằm ở số tháng
+\item Kiểm tra bổ sung: ngày sự kiện giả trong giai đoạn tham chiếu (Conley \& Taber, 2011); chỉ khoảng sáu cửa sổ độc lập nên không dùng làm suy luận chính
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Phụ lục: hiệu chỉnh Holm cho \HH{1}--\HH{3}}
+\begin{columns}[T]
+\column{0.48\textwidth}
+\begin{itemize}
+\item Sắp giá trị p từ nhỏ đến lớn
+\item So lần lượt với 0,05/3; 0,05/2; 0,05
+\item Dừng ở giá trị đầu tiên không đạt
+\item \HH{4} ngoài họ: chỉ 28 cửa sổ
+\end{itemize}
+\column{0.48\textwidth}
+\textsb{Ví dụ minh họa}\\[1mm]
+{\small
+\begin{tabular}{@{}lccl@{}}
+\toprule
+ & p & Ngưỡng & Kết quả\\
+\midrule
+\HH{2} & 0,004 & 0,0167 & đạt\\
+\HH{3} & 0,020 & 0,025 & đạt\\
+\HH{1} & 0,030 & 0,050 & đạt\\
+\bottomrule
+\end{tabular}}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Phụ lục: mốc pháp lý}
+{\small
+\begin{tabularx}{\textwidth}{@{}l L@{}}
+\toprule
+Thời điểm & Sự kiện\\
+\midrule
+2016 & Quy chế giao dịch HOSE (QĐ 341) và HNX (QĐ 529): bước giá\\
+2021--2025 & TT 57/2021, 69/2023, 139/2025: hạn chuyển sàn lùi đến 31/12/2026\\
+1/7/2025 & HNX ngừng nhận hồ sơ niêm yết mới\\
+9/2026--9/2027 & FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số theo bốn đợt\\
+30/9/2026 & VNX công bố lịch chuyển sàn\\
+28/12/2026 & Phiên đầu tại HOSE\\
+1/2027--12/2028 & 24 tháng sau sự kiện\\
+\bottomrule
+\end{tabularx}}
+\end{frame}
+
+\end{document}
