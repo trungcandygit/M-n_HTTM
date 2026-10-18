@@ -3,7 +3,7 @@
 % xelatex slides && xelatex slides
 % Quy ước: tiêu đề slide nêu kết luận; mọi số liệu lấy từ đề cương v14; số và hình minh họa ghi rõ "minh họa".
 % Bố cục: mỗi frame chép một kiểu slide của presentation.tex (danh sách, bảng, hình, khung định lý, nút);
-% không dùng columns, tabularx; chi tiết đưa xuống slide dự phòng sau \lastslide, nối bằng \beamergotobutton.
+% không dùng columns, tabularx; chi tiết đưa xuống slide dự phòng sau \lastslide, chỉ slide bài báo có nút như "Slide with buttons" của mẫu.
 %****************************************************************************************************
 \documentclass[11pt, xcolor={dvipsnames}, aspectratio=169, usepdftitle=false]{beamer}
 \usepackage{presentation}
@@ -43,7 +43,6 @@
 \item Hạn chuyển sàn bị lùi hai lần: năm 2023, hết năm 2025, rồi hết 31/12/2026
 \item Sau đó HNX còn vận hành trái phiếu, phái sinh, UPCoM (chưa có lịch chuyển UPCoM)
 \end{enumerate}
-\hyperlink{phapLy}{\beamergotobutton{Mốc pháp lý}}
 \end{frame}
 
 \begin{frame}
@@ -112,8 +111,6 @@ Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính v
 \item \HH{4}: khoảng cách lợi suất sau chi phí giữa rổ HOSE và rổ chuyển sàn thu hẹp (chỉ ước lượng)
 \end{enumerate}
 \end{enumerate}
-\hyperlink{holm}{\beamergotobutton{Hiệu chỉnh Holm}}
-\hyperlink{bayMoHinh}{\beamergotobutton{Bảy mô hình phân bổ}}
 \end{frame}
 
 \begin{frame}
@@ -160,7 +157,6 @@ Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính v
 \item Đo thanh khoản, khả năng đầu tư của mã chuyển sàn
 \end{enumerate}
 \end{enumerate}
-\hyperlink{duLieu}{\beamergotobutton{Dữ liệu ngày và GFCI}}
 \end{frame}
 
 \begin{frame}
@@ -253,8 +249,6 @@ A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad \mathbb
 \item Cửa sổ trước bắt đầu sau điểm gãy cuối (Bai \& Perron, 1998)
 \end{enumerate}
 \end{enumerate}
-\hyperlink{suKien}{\beamergotobutton{Nghiên cứu sự kiện}}
-\hyperlink{saiLech}{\beamergotobutton{Hướng sai lệch}}
 \end{frame}
 
 \begin{frame}[label=suyLuan]
@@ -269,8 +263,6 @@ Với $d_t$ là chênh lệch log Amihud theo tháng giữa mã chuyển sàn v�
 \item 299 mã chỉ chịu \al{một lần} chuyển sàn: coi mã độc lập thì sai số chuẩn quá nhỏ (Conley \& Taber, 2011)
 \item Giá trị p một phía: so với thống kê trên các chuỗi giả không có sự kiện
 \end{itemize}
-\hyperlink{baBuoc}{\beamergotobutton{Ba bước bootstrap}}
-\hyperlink{khongCum}{\beamergotobutton{Vì sao không phân cụm theo mã}}
 \end{frame}
 
 \begin{frame}
@@ -306,7 +298,6 @@ Khi $\sigma_d = 0{,}2$: Amihud giảm & 12\% & 22\% & 30\%\\
 \item Khoảng tin cậy chứa cả 0 lẫn tác động lớn: chưa đủ cơ sở kết luận
 \end{enumerate}
 \end{enumerate}
-\hyperlink{mucChiu}{\beamergotobutton{Phân tích phụ theo mức chịu cú sốc}}
 \end{frame}
 
 %=================================================================== KHẢ NĂNG ĐẦU TƯ, H1
@@ -327,7 +318,6 @@ Lợi suất tương đương chắc chắn của mô hình $m$: $U_m = \mu - \r
 \item Rổ CS: tối đa 30 mã chuyển sàn; rổ H: mã HOSE ghép cặp; $\rho = 5$
 \item Kỳ vọng: $\bar{G}$ thu hẹp sau chuyển sàn; 20 cửa sổ trước, 8 sau: \al{chỉ ước lượng}
 \end{itemize}
-\hyperlink{uocLuongG}{\beamergotobutton{Cách ước lượng}}
 \end{frame}
 
 \begin{frame}
@@ -482,7 +472,6 @@ Thời điểm & Sự kiện\\
 \bottomrule
 \end{tabular*}
 \end{table}
-\hyperlink{moDau}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=holm]
@@ -499,7 +488,6 @@ $p_{(3)}$ & 0,05 & 2\\
 \end{tabular*}
 \caption{Giá trị p một phía của \HH{1}--\HH{3}; \HH{4} chỉ ước lượng, ngoài Holm.}
 \end{table}
-\hyperlink{giaThuyet}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=bayMoHinh]
@@ -522,7 +510,6 @@ $p_{(3)}$ & 0,05 & 2\\
 \end{tabular*}
 \caption{Danh mục chỉ mua; ước lượng lại hằng tháng trên cửa sổ 104 tuần; báo cáo cả khi bỏ \MM{5}.}
 \end{table}
-\hyperlink{giaThuyet}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=duLieu]
@@ -539,7 +526,6 @@ $p_{(3)}$ & 0,05 & 2\\
 \item Quản trị nhà nước (Kaufmann và cộng sự, 2011)
 \end{itemize}
 \end{itemize}
-\hyperlink{giaiDoan}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=suKien]
@@ -555,7 +541,6 @@ A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
 \item Độ nhạy trước vi phạm xu hướng song song: Rambachan và Roth (2023)
 \item 18 tháng chuyển tiếp giữa tháng gốc và giai đoạn sau: khoảng tin cậy có thể rộng
 \end{itemize}
-\hyperlink{cuSoc}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=saiLech]
@@ -567,7 +552,6 @@ A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
 \item Rời mẫu: báo cáo tỷ lệ hủy niêm yết từng nhóm, ước lượng lại trên bảng cân bằng
 \item Ghép theo Amihud có thể hồi quy về trung bình: báo cáo thêm khi chỉ ghép theo vốn hóa, ngành (Daw \& Hatfield, 2018)
 \end{itemize}
-\hyperlink{cuSoc}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=baBuoc]
@@ -577,7 +561,6 @@ A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
 \item Tạo chuỗi giả không có sự kiện: rút phần dư có hoàn lại
 \item Giá trị p một phía: tỷ lệ thống kê giả $\leq$ giá trị thật
 \end{enumerate}
-\hyperlink{suyLuan}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=khongCum]
@@ -589,7 +572,6 @@ A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
 \item Thêm mã không làm giảm loại cú sốc này: thông tin nằm ở số tháng
 \item Kiểm tra bổ sung: ngày sự kiện giả (Conley \& Taber, 2011); chỉ khoảng sáu cửa sổ độc lập, không dùng làm suy luận chính
 \end{itemize}
-\hyperlink{suyLuan}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=mucChiu]
@@ -606,7 +588,6 @@ Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá
 \end{tabular*}
 \caption{Tương tác $D_i \Post_t E_{si}$, $E_{si}$ đo đến 30/6/2025: phân tích phụ, ngoài Holm.}
 \end{table}
-\hyperlink{diemYeu}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=uocLuongG]
@@ -618,7 +599,6 @@ Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá
 \item Khoảng tin cậy: bootstrap khối dừng trên lợi suất tuần của hai rổ, lấy mẫu đồng thời
 \item Cửa sổ sau còn chứa dữ liệu trước: \MM{1} là phép so sánh sạch nhất; Sharpe là thước đo phụ (Ledoit \& Wolf, 2008)
 \end{itemize}
-\hyperlink{khaNang}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}[label=banThao]
