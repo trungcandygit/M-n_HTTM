@@ -2,8 +2,8 @@
 % Slide trình bày đề cương (khoảng 30 phút) — template Michaillat (MIT), biên dịch XeLaTeX
 % xelatex slides && xelatex slides
 % Quy ước: tiêu đề slide nêu kết luận; mọi số liệu lấy từ đề cương v14; số và hình minh họa ghi rõ "minh họa".
-% Bố cục theo presentation.tex của template: hình và bảng đặt trong figure/table, ghi chú bằng \caption;
-% khung xám dùng môi trường định lý; slide mục dùng \heading; kết thúc bằng \lastslide, slide dự phòng sau đó.
+% Bố cục: mỗi frame chép một kiểu slide của presentation.tex (danh sách, bảng, hình, khung định lý, nút);
+% không dùng columns, tabularx; chi tiết đưa xuống slide dự phòng sau \lastslide, nối bằng \beamergotobutton.
 %****************************************************************************************************
 \documentclass[11pt, xcolor={dvipsnames}, aspectratio=169, usepdftitle=false]{beamer}
 \usepackage{presentation}
@@ -11,7 +11,6 @@
 \newtheorem*{baitoan}{Bài toán số 19} % [VN]
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning, calc}
-\usepackage{tabularx}
 \input{hinh/kieu.tex}
 \hypersetup{pdfpagemode=UseNone, hidelinks, pdfdisplaydoctitle=true,
   pdftitle={Hợp nhất sàn chứng khoán và chất lượng thị trường}}
@@ -23,8 +22,6 @@
 \newcommand{\Post}{\vn{Post}}
 \newcommand{\MQI}{\vn{MQI}}
 \newcommand{\SMD}{\vn{SMD}}
-\newcommand{\nguon}[1]{{\usebeamerfont{caption}\usebeamercolor[fg]{caption}#1}}
-\newcolumntype{L}{>{\raggedright\arraybackslash}X}
 
 \title{Hợp nhất sàn chứng khoán và chất lượng thị trường: Bằng chứng thực nghiệm từ HNX và vị thế tài chính Hà Nội}
 \author{Nguyễn Văn Trung -- Hướng dẫn: PGS.TS. Hà Hồng Hạnh (Đại học Kinh tế Quốc dân)}
@@ -32,28 +29,21 @@
 
 \begin{document}
 
-\begin{frame}
-\titlepage
-\end{frame}
+\frame{\titlepage}
 
 %=================================================================== MỞ ĐẦU
-\begin{frame}
+\begin{frame}[label=moDau]
 \frametitle{Ngày 28/12/2026, toàn bộ cổ phiếu niêm yết HNX chuyển sang HOSE}
-\begin{itemize}
+\begin{enumerate}
 \item Đợt chuyển sàn:
-\begin{itemize}
+\begin{enumerate}
 \item \al{299 mã} (đến 30/9/2026) chuyển cùng một ngày, do cơ quan quản lý ấn định
 \item Lịch VNX: phiên cuối ở HNX 23/12, phiên đầu ở HOSE 28/12
-\end{itemize}
-\item Hạn chuyển sàn bị lùi hai lần:
-\begin{itemize}
-\item Năm 2023 (TT 57/2021), hết năm 2025 (TT 69/2023), hết 31/12/2026 (TT 139/2025)
-\end{itemize}
-\item Sau đó HNX còn vận hành:
-\begin{itemize}
-\item Trái phiếu, phái sinh, UPCoM (chưa có lịch chuyển UPCoM)
-\end{itemize}
-\end{itemize}
+\end{enumerate}
+\item Hạn chuyển sàn bị lùi hai lần: năm 2023, hết năm 2025, rồi hết 31/12/2026
+\item Sau đó HNX còn vận hành trái phiếu, phái sinh, UPCoM (chưa có lịch chuyển UPCoM)
+\end{enumerate}
+\hyperlink{phapLy}{\beamergotobutton{Mốc pháp lý}}
 \end{frame}
 
 \begin{frame}
@@ -105,7 +95,7 @@ Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính v
 \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=giaThuyet]
 \frametitle{Ba câu hỏi, bốn giả thuyết; trọng tâm là tác động của chuyển sàn}
 \begin{enumerate}
 \item Bối cảnh quốc tế:
@@ -122,6 +112,8 @@ Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính v
 \item \HH{4}: khoảng cách lợi suất sau chi phí giữa rổ HOSE và rổ chuyển sàn thu hẹp (chỉ ước lượng)
 \end{enumerate}
 \end{enumerate}
+\hyperlink{holm}{\beamergotobutton{Hiệu chỉnh Holm}}
+\hyperlink{bayMoHinh}{\beamergotobutton{Bảy mô hình phân bổ}}
 \end{frame}
 
 \begin{frame}
@@ -152,10 +144,8 @@ Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính v
 \heading{Dữ liệu và đo lường}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=giaiDoan]
 \frametitle{Ba giai đoạn: tham chiếu, chuyển tiếp bị loại, 24 tháng sau sự kiện}
-\begin{columns}[T]
-\column{0.50\textwidth}
 \begin{enumerate}
 \item Tham chiếu, 6/2009--6/2025:
 \begin{enumerate}
@@ -170,20 +160,7 @@ Phương thức nào để xây dựng Hà Nội thành trung tâm tài chính v
 \item Đo thanh khoản, khả năng đầu tư của mã chuyển sàn
 \end{enumerate}
 \end{enumerate}
-\column{0.46\textwidth}
-\begin{itemize}
-\item Ba sàn, theo ngày, cả mã đã hủy niêm yết:
-\begin{itemize}
-\item Giá, khối lượng, giá trị giao dịch
-\item Ngày công bố báo cáo quý
-\end{itemize}
-\item GFCI kỳ 1--40 (Z/Yen), ghép với:
-\begin{itemize}
-\item Phát triển thị trường cổ phiếu (Čihák và cộng sự, 2012)
-\item Quản trị nhà nước (Kaufmann và cộng sự, 2011)
-\end{itemize}
-\end{itemize}
-\end{columns}
+\hyperlink{duLieu}{\beamergotobutton{Dữ liệu ngày và GFCI}}
 \end{frame}
 
 \begin{frame}
@@ -261,46 +238,35 @@ A_{it} = \alpha_i + \tau_t + \delta D_i\Post_t + \varepsilon_{it}, \quad E[\vare
 \end{figure}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=cuSoc]
 \frametitle{Mỗi cú sốc trùng thời gian ở đối chứng HOSE có cách xử lý}
-\begin{itemize}
+\begin{enumerate}
 \item Cú sốc trùng thời gian:
-\begin{itemize}
+\begin{enumerate}
 \item FTSE Russell (9/2026--9/2027): loại mã đủ điều kiện khỏi đối chứng
 \item Phân bảng HOSE: biến giả nhóm bảng
 \item VN-Index nhận mã chuyển sàn: ghi ngày vào chỉ số từng mã
-\end{itemize}
+\end{enumerate}
 \item Xu hướng song song:
-\begin{itemize}
+\begin{enumerate}
 \item Nghiên cứu sự kiện; độ nhạy theo Rambachan và Roth (2023)
 \item Cửa sổ trước bắt đầu sau điểm gãy cuối (Bai \& Perron, 1998)
-\end{itemize}
-\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\hyperlink{suKien}{\beamergotobutton{Nghiên cứu sự kiện}}
+\hyperlink{saiLech}{\beamergotobutton{Hướng sai lệch}}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=suyLuan]
 \frametitle{Chỉ có một sự kiện, nên suy luận bằng bootstrap tự hồi quy}
-\begin{columns}[T]
-\column{0.48\textwidth}
-\begin{itemize}
-\item Vấn đề (Conley \& Taber, 2011):
-\begin{itemize}
-\item 299 mã, chỉ \al{một lần} chuyển sàn
-\item Coi mã độc lập: sai số chuẩn quá nhỏ
-\end{itemize}
-\item Chuỗi chuyển sàn trừ đối chứng:
-\begin{itemize}
-\item $d_t$: chênh lệch log Amihud theo tháng
-\item Thống kê: $\bar{d}_\text{sau} - \bar{d}_\text{trước}$
-\end{itemize}
-\end{itemize}
-\column{0.48\textwidth}
 \begin{enumerate}
-\item Ước lượng mô hình AR của $d_t$ trên tham chiếu, hiệu chỉnh độ chệch
-\item Tạo chuỗi giả không có sự kiện: rút phần dư có hoàn lại
-\item Giá trị p một phía: tỷ lệ thống kê giả $\leq$ giá trị thật
+\item 299 mã chỉ chịu \al{một lần} chuyển sàn: coi mã độc lập thì sai số chuẩn quá nhỏ (Conley \& Taber, 2011)
+\item Chuỗi chuyển sàn trừ đối chứng: $d_t$ là chênh lệch log Amihud theo tháng
+\item Thống kê kiểm định: $\bar{d}_\text{sau} - \bar{d}_\text{trước}$
+\item Giá trị p một phía: so với thống kê trên các chuỗi giả không có sự kiện
 \end{enumerate}
-\end{columns}
+\hyperlink{baBuoc}{\beamergotobutton{Ba bước bootstrap}}
+\hyperlink{khongCum}{\beamergotobutton{Vì sao không phân cụm theo mã}}
 \end{frame}
 
 \begin{frame}
@@ -319,23 +285,24 @@ Khi $\sigma_d = 0{,}2$: Amihud giảm & 12\% & 22\% & 30\%\\
 \end{table}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=diemYeu]
 \frametitle{Điểm yếu lớn nhất: một sự kiện, đo tác động gộp của sàn}
-\begin{itemize}
+\begin{enumerate}
 \item Biên độ, bước giá, hệ thống, chỉ số đổi cùng lúc:
-\begin{itemize}
-\item $\delta$ là \al{tác động gộp}, không tách từng quy tắc; theo mức chịu cú sốc là phân tích phụ
-\end{itemize}
+\begin{enumerate}
+\item $\delta$ là \al{tác động gộp}, không tách được từng quy tắc
+\end{enumerate}
 \item Cú sốc trùng ở đối chứng HOSE:
-\begin{itemize}
+\begin{enumerate}
 \item Đối chứng UPCoM cho một cận khác
-\end{itemize}
+\end{enumerate}
 \item Ít tháng dữ liệu:
-\begin{itemize}
+\begin{enumerate}
 \item Cửa sổ trước chỉ còn 24 tháng: hiệu ứng nhỏ nhất phát hiện được tăng khoảng 1,3 lần
 \item Khoảng tin cậy chứa cả 0 lẫn tác động lớn: chưa đủ cơ sở kết luận
-\end{itemize}
-\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\hyperlink{mucChiu}{\beamergotobutton{Phân tích phụ theo mức chịu cú sốc}}
 \end{frame}
 
 %=================================================================== KHẢ NĂNG ĐẦU TƯ, H1
@@ -439,63 +406,16 @@ Ba bài báo, ít nhất một WoS Q1/Q2 & Năm 2--4 & Nhà nghiên cứu\\
 
 
 %=================================================================== KẾT
-\begin{frame}
-\frametitle{Chuẩn bị: các công trình đã có dùng công cụ của đề tài}
-\begin{table}
-\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ll}
-\toprule
-Công trình & Dùng cho đề tài\\
-\midrule
-Bản thảo: điểm gãy cấu trúc của thanh khoản & Chọn mốc trước khi chuyển sàn\\
-Bản thảo: thanh khoản quanh nâng hạng FTSE & Nghiên cứu sự kiện về thanh khoản\\
-\midrule
-Nguyễn và Nguyễn (2026a) & Một trong bảy mô hình danh mục\\
-Black--Litterman ngược, cổ phiếu ngân hàng & So sánh mô hình danh mục\\
-\bottomrule
-\end{tabular*}
-\caption{4 công trình đã công bố hoặc được chấp nhận và 8 bản thảo; trạng thái đến 30/9/2026 (một bài đến 9/10/2026).}
-\end{table}
-\end{frame}
-
-\begin{frame}
-\frametitle{Bốn công trình đã công bố hoặc được chấp nhận đăng}
-\begin{table}
-\begin{tabularx}{\textwidth}{@{}L L l@{}}
-\toprule
-Chủ đề & Tạp chí & Trạng thái\\
-\midrule
-Tiền gửi không kỳ hạn, ổn định ngân hàng & Kinh tế -- Luật và Ngân hàng, 28(9) & Đã công bố\\
-Black--Litterman chuyển chế độ & Nghiên cứu Chính sách và Phát triển, 3(1) & Đã công bố\\
-\midrule
-GRI và brownwashing, ASEAN-5 & Int. J. Manag. Sust. (Scopus Q3) & Chấp nhận 2026\\
-Black--Litterman ngược, cổ phiếu ngân hàng & Multidiscip. Sci. J. (Scopus Q3) & Trực tuyến 9/10/2026\\
-\bottomrule
-\end{tabularx}
-\caption{Thí sinh là tác giả liên hệ ở bài 1, 3, 4. Trạng thái đến 30/9/2026; bài 4 cập nhật đến 9/10/2026.}
-\end{table}
-\end{frame}
-
-\begin{frame}
-\frametitle{Tám bản thảo đang phản biện, hai bài gắn trực tiếp với đề tài}
-\begin{table}
-\small
-\begin{tabularx}{\textwidth}{@{}L L l@{}}
-\toprule
-Chủ đề & Tạp chí & Trạng thái\\
-\midrule
-Điểm gãy cấu trúc của thanh khoản & Asian J. of Economics and Banking & Chờ phản biện\\
-Thanh khoản quanh nâng hạng FTSE & Finance Research Open & Biên tập xem xét\\
-\midrule
-Sở hữu và ổn định ngân hàng & Kinh tế -- Luật và Ngân hàng & Đang sửa sau 2 vòng\\
-Giới hạn kinh doanh chênh lệch vàng & J. of Economic and Banking Studies & Đang sửa vòng 1\\
-Brownwashing và giá trị doanh nghiệp & Cogent Business \& Management (Q2) & Phản biện vòng 1\\
-Tương quan chỉ số lồng nhau & Asia-Pacific Financial Markets (Q2) & Biên tập xem xét\\
-Điểm ESG LSEG đầu tiên và định giá & Sustainable Finance Review & Chờ xử lý\\
-Quản trị lợi nhuận thực và chi phí nợ & Accounting Open & Biên tập xem xét\\
-\bottomrule
-\end{tabularx}
-\caption{Hai dòng đầu liên quan trực tiếp đến đề tài. Thí sinh là tác giả liên hệ của cả tám bản thảo; trạng thái đến 30/9/2026.}
-\end{table}
+\begin{frame}[label=congTrinh]
+\frametitle{Bốn công trình đã công bố hoặc đã được chấp nhận đăng}
+\begin{enumerate}
+\item Nguyễn và Nguyễn (2026b), tiền gửi không kỳ hạn và ổn định ngân hàng, Kinh tế -- Luật và Ngân hàng, 28(9): đã công bố
+\item Nguyễn và Nguyễn (2026a), Black--Litterman chuyển chế độ, Nghiên cứu Chính sách và Phát triển, 3(1): đã công bố
+\item Nguyễn và cộng sự (2026), GRI và brownwashing ở ASEAN-5, Int. J. Manag. Sust. (Scopus Q3): chấp nhận năm 2026
+\item Nguyen và cộng sự (2026), Black--Litterman ngược, cổ phiếu ngân hàng, Multidiscip. Sci. J. (Scopus Q3): trực tuyến 9/10/2026
+\end{enumerate}
+\hyperlink{banThao}{\beamergotobutton{Tám bản thảo đang phản biện}}
+\hyperlink{dungCho}{\beamergotobutton{Công trình dùng cho đề tài}}
 \end{frame}
 
 \begin{frame}
@@ -531,17 +451,53 @@ Quản trị lợi nhuận thực và chi phí nợ & Accounting Open & Biên t�
 \item Nielsson, U. (2009). Stock exchange merger and liquidity: The case of Euronext. \emph{Journal of Financial Markets, 12}(2), 229--267.
 \item Rambachan, A., \& Roth, J. (2023). A more credible approach to parallel trends. \emph{The Review of Economic Studies, 90}(5), 2555--2591.
 \item Wardle, M., \& Mainelli, M. (2026, September). \emph{The Global Financial Centres Index 40}. Z/Yen Group \& China Development Institute.
+\item Các nguồn khác: danh mục tài liệu tham khảo của đề cương
 \end{itemize}
-\nguon{Các nguồn khác: xem danh mục tài liệu tham khảo của đề cương.}
 \end{frame}
 
 \lastslide
 
 %=================================================================== SLIDE DỰ PHÒNG
-\appendix
 
+\begin{frame}[label=phapLy]
+\frametitle{Phụ lục: mốc pháp lý}
+\begin{table}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ll}
+\toprule
+Thời điểm & Sự kiện\\
+\midrule
+2016 & Quy chế giao dịch HOSE (QĐ 341), HNX (QĐ 529): bước giá\\
+2021--2025 & TT 57/2021, 69/2023, 139/2025: hạn lùi đến 31/12/2026\\
+1/7/2025 & HNX ngừng nhận hồ sơ niêm yết mới\\
+\midrule
+9/2026--9/2027 & FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số, bốn đợt\\
+30/9/2026 & VNX công bố lịch chuyển sàn\\
+28/12/2026 & Phiên đầu tại HOSE\\
+1/2027--12/2028 & 24 tháng sau sự kiện\\
+\bottomrule
+\end{tabular*}
+\end{table}
+\hyperlink{moDau}{\beamergotobutton{Quay lại slide chính}}
+\end{frame}
 
-\begin{frame}
+\begin{frame}[label=holm]
+\frametitle{Phụ lục: hiệu chỉnh Holm cho ba kiểm định chính}
+\begin{table}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcc}
+\toprule
+Giá trị p (sắp tăng dần) & Ngưỡng & Dừng ở đây: số giả thuyết được ủng hộ\\
+\midrule
+$p_{(1)}$ & 0,05/3 & 0\\
+$p_{(2)}$ & 0,05/2 & 1\\
+$p_{(3)}$ & 0,05 & 2\\
+\bottomrule
+\end{tabular*}
+\caption{Giá trị p một phía: GFCI phân cụm theo quốc gia; chỉ số chất lượng thị trường bootstrap khối dừng; Amihud bootstrap tự hồi quy. Khả năng đầu tư ngoài họ: chỉ 28 cửa sổ.}
+\end{table}
+\hyperlink{giaThuyet}{\beamergotobutton{Quay lại slide chính}}
+\end{frame}
+
+\begin{frame}[label=bayMoHinh]
 \frametitle{Phụ lục: bảy mô hình phân bổ}
 \begin{table}
 \begin{tabular*}{\textwidth}{@{\extracolsep\fill}lll}
@@ -561,46 +517,76 @@ Quản trị lợi nhuận thực và chi phí nợ & Accounting Open & Biên t�
 \end{tabular*}
 \caption{Danh mục chỉ mua; ước lượng lại hằng tháng trên cửa sổ 104 tuần; báo cáo cả khi bỏ \MM{5}.}
 \end{table}
+\hyperlink{giaThuyet}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
-\begin{frame}
-\frametitle{Phụ lục: khả năng đầu tư chỉ được ước lượng, kèm khoảng tin cậy bootstrap}
+\begin{frame}[label=duLieu]
+\frametitle{Phụ lục: dữ liệu ngày của ba sàn và GFCI kỳ 1--40}
 \begin{itemize}
-\item $\mu$, $\sigma^2$: lợi suất vượt trội tuần sau chi phí, nhân 52; $\rho = 5$, độ nhạy ở 3 và 10
-\item Chi phí A: tỷ lệ cố định nhân vòng quay; chi phí B: phí, thuế, nửa chênh lệch mua-bán
-\item $\bar{G} > 0$: rổ CS có lợi suất tương đương chắc chắn thấp hơn rổ H
-\item Khoảng tin cậy: bootstrap khối dừng trên lợi suất tuần của hai rổ, lấy mẫu đồng thời
-\item Cửa sổ sau còn chứa dữ liệu trước: \MM{1} là phép so sánh sạch nhất
-\item Tỷ số Sharpe là thước đo phụ, kiểm định theo Ledoit và Wolf (2008)
+\item Ba sàn, theo ngày, cả mã đã hủy niêm yết:
+\begin{itemize}
+\item Giá, khối lượng, giá trị giao dịch
+\item Ngày công bố báo cáo quý
 \end{itemize}
+\item GFCI kỳ 1--40 (Z/Yen), ghép với:
+\begin{itemize}
+\item Phát triển thị trường cổ phiếu (Čihák và cộng sự, 2012)
+\item Quản trị nhà nước (Kaufmann và cộng sự, 2011)
+\end{itemize}
+\end{itemize}
+\hyperlink{giaiDoan}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=suKien]
 \frametitle{Phụ lục: nghiên cứu sự kiện kiểm tra xu hướng song song}
-\[
-A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
-\]
 \begin{itemize}
+\item Đặc tả:
+\begin{equation*}
+A_{it} = \alpha_i + \tau_t + \sum_k \delta_k D_i T_{kt} + \varepsilon_{it}
+\end{equation*}
 \item $T_{kt} = 1$ nếu tháng $t$ là $k$; $k$ từ 1/2024 đến 12/2028; gốc 6/2025; trước 1/2024 gộp
 \item Kiểm định đồng thời $\delta_k = 0$ từ 1/2024 đến 5/2025
 \item Độ nhạy trước vi phạm xu hướng song song: Rambachan và Roth (2023)
 \item 18 tháng chuyển tiếp giữa tháng gốc và giai đoạn sau: khoảng tin cậy có thể rộng
 \end{itemize}
+\hyperlink{cuSoc}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=saiLech]
 \frametitle{Phụ lục: hướng sai lệch nếu giả định khác biệt kép bị vi phạm}
 \begin{itemize}
 \item Nhóm chuyển sàn đã chọn HNX từ trước: $\alpha_i$ hấp thụ khác biệt cố định, không hấp thụ khác biệt xu hướng
 \item Đối chứng HOSE mất thanh khoản vì dòng lệnh chuyển sang mã chuyển sàn: $|\delta|$ phóng đại
 \item Lan tỏa dương sang HOSE (Amihud và cộng sự, 1997; Hisada, 2018): $|\delta|$ bị đánh giá thấp
-\item Đối chứng UPCoM là một cận khác
 \item Rời mẫu: báo cáo tỷ lệ hủy niêm yết từng nhóm, ước lượng lại trên bảng cân bằng
 \item Ghép theo Amihud có thể hồi quy về trung bình: báo cáo thêm khi chỉ ghép theo vốn hóa, ngành (Daw \& Hatfield, 2018)
 \end{itemize}
+\hyperlink{cuSoc}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[label=baBuoc]
+\frametitle{Phụ lục: ba bước bootstrap tự hồi quy}
+\begin{enumerate}
+\item Ước lượng mô hình AR của $d_t$ trên giai đoạn tham chiếu, hiệu chỉnh độ chệch
+\item Tạo chuỗi giả không có sự kiện: rút phần dư có hoàn lại
+\item Giá trị p một phía: tỷ lệ thống kê giả $\leq$ giá trị thật
+\end{enumerate}
+\hyperlink{suyLuan}{\beamergotobutton{Quay lại slide chính}}
+\end{frame}
+
+\begin{frame}[label=khongCum]
+\frametitle{Phụ lục: không phân cụm theo mã vì thông tin nằm ở số tháng}
+\begin{itemize}
+\item Mọi mã cùng chịu một sự kiện, cùng một ngày
+\item Cú sốc tác động như nhau lên mọi mã: đã nằm trong $\tau_t$
+\item Cú sốc tác động khác nhau lên hai nhóm: làm sai số của các mã chuyển sàn tương quan trong cùng tháng
+\item Thêm mã không làm giảm loại cú sốc này: thông tin nằm ở số tháng
+\item Kiểm tra bổ sung: ngày sự kiện giả (Conley \& Taber, 2011); chỉ khoảng sáu cửa sổ độc lập, không dùng làm suy luận chính
+\end{itemize}
+\hyperlink{suyLuan}{\beamergotobutton{Quay lại slide chính}}
+\end{frame}
+
+\begin{frame}[label=mucChiu]
 \frametitle{Phụ lục: tác động theo mức chịu ba cú sốc và theo trụ sở}
 \begin{table}
 \begin{tabular*}{\textwidth}{@{\extracolsep\fill}lll}
@@ -614,54 +600,44 @@ Vào chỉ số HOSE & Vốn hóa lớn so với giao dịch & Vốn hóa / giá
 \end{tabular*}
 \caption{Tương tác $D_i\Post_tE_{si}$, đo đến 30/6/2025: phân tích phụ, ngoài Holm, không tách riêng từng quy tắc. Chênh lệch theo trụ sở Hà Nội không phải tác động nhân quả.}
 \end{table}
+\hyperlink{diemYeu}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \begin{frame}
-\frametitle{Phụ lục: không phân cụm theo mã vì thông tin nằm ở số tháng}
+\frametitle{Phụ lục: khả năng đầu tư chỉ ước lượng, kèm khoảng tin cậy}
 \begin{itemize}
-\item Mọi mã cùng chịu một sự kiện, cùng một ngày
-\item Cú sốc tác động như nhau lên mọi mã: đã nằm trong $\tau_t$
-\item Cú sốc tác động khác nhau lên hai nhóm: làm sai số của các mã chuyển sàn tương quan trong cùng tháng
-\item Thêm mã không làm giảm loại cú sốc này: thông tin nằm ở số tháng
-\item Kiểm tra bổ sung: ngày sự kiện giả (Conley \& Taber, 2011)
-\item Chỉ khoảng sáu cửa sổ độc lập: không dùng làm suy luận chính
+\item $\mu$, $\sigma^2$: lợi suất vượt trội tuần sau chi phí, nhân 52; $\rho = 5$, độ nhạy ở 3 và 10
+\item Chi phí A: tỷ lệ cố định nhân vòng quay; chi phí B: phí, thuế, nửa chênh lệch mua-bán
+\item $\bar{G} > 0$: rổ CS có lợi suất tương đương chắc chắn thấp hơn rổ H
+\item Khoảng tin cậy: bootstrap khối dừng trên lợi suất tuần của hai rổ, lấy mẫu đồng thời
+\item Cửa sổ sau còn chứa dữ liệu trước: \MM{1} là phép so sánh sạch nhất; Sharpe là thước đo phụ (Ledoit \& Wolf, 2008)
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{Phụ lục: hiệu chỉnh Holm cho \HH{1}--\HH{3}}
-\begin{table}
-\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcc}
-\toprule
-Giá trị p (sắp tăng dần) & Ngưỡng & Dừng ở đây: số giả thuyết được ủng hộ\\
-\midrule
-$p_{(1)}$ & 0,05/3 & 0\\
-$p_{(2)}$ & 0,05/2 & 1\\
-$p_{(3)}$ & 0,05 & 2\\
-\bottomrule
-\end{tabular*}
-\caption{Giá trị p một phía: phân cụm theo quốc gia (\HH{1}), bootstrap khối dừng (\HH{2}), bootstrap tự hồi quy (\HH{3}). \HH{4} ngoài họ: chỉ 28 cửa sổ.}
-\end{table}
+\begin{frame}[label=banThao]
+\frametitle{Phụ lục: tám bản thảo đang phản biện}
+\begin{enumerate}
+\item Sở hữu và ổn định ngân hàng, Kinh tế -- Luật và Ngân hàng: đang sửa sau 2 vòng
+\item Giới hạn kinh doanh chênh lệch vàng, J. Econ. Bank. Stud.: đang sửa vòng 1
+\item Brownwashing và giá trị doanh nghiệp, Cogent Bus. Manag. (Q2): phản biện vòng 1
+\item Điểm gãy cấu trúc của thanh khoản, Asian J. Econ. Bank.: chờ phản biện; gắn với đề tài
+\item Tương quan chỉ số lồng nhau, Asia-Pacific Financial Markets (Q2): biên tập xem xét
+\item Thanh khoản quanh nâng hạng FTSE, Finance Research Open: biên tập xem xét; gắn với đề tài
+\item Điểm ESG LSEG đầu tiên và định giá, Sustainable Finance Review: chờ xử lý
+\item Quản trị lợi nhuận thực và chi phí nợ, Accounting Open: biên tập xem xét
+\end{enumerate}
+\hyperlink{congTrinh}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
-\begin{frame}
-\frametitle{Phụ lục: mốc pháp lý}
-\begin{table}
-\begin{tabular*}{\textwidth}{@{\extracolsep\fill}ll}
-\toprule
-Thời điểm & Sự kiện\\
-\midrule
-2016 & Quy chế giao dịch HOSE (QĐ 341), HNX (QĐ 529): bước giá\\
-2021--2025 & TT 57/2021, 69/2023, 139/2025: hạn lùi đến 31/12/2026\\
-1/7/2025 & HNX ngừng nhận hồ sơ niêm yết mới\\
-\midrule
-9/2026--9/2027 & FTSE Russell đưa cổ phiếu Việt Nam vào chỉ số, bốn đợt\\
-30/9/2026 & VNX công bố lịch chuyển sàn\\
-28/12/2026 & Phiên đầu tại HOSE\\
-1/2027--12/2028 & 24 tháng sau sự kiện\\
-\bottomrule
-\end{tabular*}
-\end{table}
+\begin{frame}[label=dungCho]
+\frametitle{Phụ lục: bốn công trình cho thí sinh công cụ dùng trong đề tài}
+\begin{enumerate}
+\item Bản thảo 6, thanh khoản quanh nâng hạng FTSE: nghiên cứu sự kiện trên thanh khoản
+\item Bản thảo 4, điểm gãy cấu trúc: độ phi thanh khoản Amihud, phương pháp Bai--Perron
+\item Nguyễn và Nguyễn (2026a): nền của mô hình \MM{5}
+\item Bài báo 4, Black--Litterman ngược: so sánh nhiều mô hình danh mục trên cùng dữ liệu
+\end{enumerate}
+\hyperlink{congTrinh}{\beamergotobutton{Quay lại slide chính}}
 \end{frame}
 
 \end{document}
