@@ -1,6 +1,6 @@
 % Bản sửa tối thiểu của presentation.sty (pmichaillat/latex-presentation, MIT) để chạy XeLaTeX cho tiếng Việt.
-% Chỉ khác bản gốc ở ba chỗ, đánh dấu [VN]: bỏ fontenc T1; tắt ghép chữ f bằng fontspec thay cho microtype;
-% nạp fontspec trước sourcesanspro để đặt tùy chọn phông. Mọi thiết lập khác giữ nguyên.
+% Chỉ khác bản gốc ở các chỗ đánh dấu [VN]: bỏ fontenc T1; tắt ghép chữ f bằng fontspec thay cho microtype;
+% nạp fontspec trước sourcesanspro; khai báo semibold; tên định lý tiếng Việt. Mọi thiết lập khác giữ nguyên.
 % ---- Select text fonts -----
 
 % Apply sophisticated fonts
@@ -9,6 +9,8 @@
 % Select text font
 \PassOptionsToPackage{}{fontspec}\RequirePackage{fontspec}\defaultfontfeatures{Ligatures={NoCommon, TeX}} % [VN] tắt ghép chữ f như bản gốc
 \usepackage{sourcesanspro}
+% [VN] Dưới XeLaTeX gói sourcesanspro không khai báo kiểu semibold; khai báo lại để \sbseries in Semibold như bản gốc
+\setsansfont{SourceSansPro}[Extension=.otf, UprightFont=*-Regular, ItalicFont=*-RegularIt, BoldFont=*-Bold, BoldItalicFont=*-BoldIt, FontFace={sb}{n}{*-Semibold}, FontFace={sb}{it}{*-SemiboldIt}]
 
 % Define semibold font series
 \DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
@@ -214,9 +216,9 @@
 \setbeamertemplate{blocks}[rounded][shadow=false]
 
 % Define additional theorems
-\newtheorem{proposition}{Proposition}
-\newtheorem{assumption}{Assumption}
-\newtheorem{remark}{Remark}
+\newtheorem{proposition}{Mệnh đề} % [VN] tên tiếng Việt
+\newtheorem{assumption}{Giả định}
+\newtheorem{remark}{Nhận xét}
 
 % ---- Create section slide ----
 

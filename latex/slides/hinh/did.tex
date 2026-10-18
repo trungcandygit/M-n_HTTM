@@ -1,0 +1,19 @@
+% Hình minh họa thiết kế khác biệt kép: đường vẽ theo hàm, không phải dữ liệu
+\begin{tikzpicture}
+\begin{axis}[mau, xmin=-12, xmax=12, ymin=0, ymax=1.5, samples=2, domain=-12:12,
+  xtick={0}, xticklabels={1/2027}, ytick=\empty,
+  xlabel={Tháng}, ylabel={Log Amihud}]
+\fill[black!6] (axis cs:-12,0) rectangle (axis cs:0,1.5);
+\addplot[Tim, domain=-12:0] {1.05 - 0.008*x};
+\addplot[Tim, domain=0:12] {0.75 - 0.008*x};
+\addplot[Tim, dashed, line width=0.8pt, domain=0:12] {1.05 - 0.008*x};
+\addplot[Cam] {0.55 - 0.008*x};
+\draw[black!70, thin] (axis cs:0,0) -- (axis cs:0,1.5);
+\draw[Hong, thick, {Stealth[length=2mm]}-{Stealth[length=2mm]}] (axis cs:8,0.986) -- (axis cs:8,0.686);
+\node[Hong, anchor=west, font=\small] at (axis cs:8.3,0.836) {$\delta$};
+\node[Tim, anchor=south west, font=\small] at (axis cs:-11.5,1.16) {Cổ phiếu chuyển sàn};
+\node[Tim, anchor=south, font=\small] at (axis cs:4,1.03) {nếu không chuyển sàn};
+\node[Cam, anchor=north west, font=\small] at (axis cs:-11.5,0.6) {Cổ phiếu HOSE đối sánh};
+\node[black!60, anchor=north, font=\small] at (axis cs:-6,1.48) {trước sự kiện};
+\end{axis}
+\end{tikzpicture}

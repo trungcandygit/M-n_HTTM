@@ -1,51 +1,58 @@
 # Rà soát hình thức slide, vòng 1, người rà soát A
 
-Đối tượng: `latex/slides/slides.tex` (md5 `77a85cc5…`) và `latex/slides/presentation.sty` (md5 `89ee2119…`). Đây là bản đang có trong cây làm việc lúc 03:24 UTC ngày 18/10/2026: main đã chuyển sang Source Sans Pro (`fonts/`) và đã viết hoa tiêu đề bằng `\capsfont\MakeUppercase`. Báo cáo không đề xuất lại hai thay đổi này.
+**Bản được rà soát:** `latex/slides/slides.tex` (md5 `77a85cc5…`) và `latex/slides/presentation.sty` (md5 `9cbceb58…`, commit `ea6eef5`).
+- Ở bản này, presentation.sty đã về sát bản gốc template. Chỉ có ba chỗ đánh dấu [VN]: bỏ T1, tắt ghép chữ f bằng fontspec, nạp fontspec trước sourcesanspro. Tiêu đề dùng `\scshape\MakeLowercase` như template, với chữ hoa nhỏ thật của Source Sans Pro.
+- Trong lúc tôi rà, sty đổi hai lần (Inter, rồi Source Sans Pro với chữ hoa giãn cách, rồi bản hiện tại). Mọi số đo và cặp sửa dưới đây đều làm lại trên bản hiện tại.
+- Báo cáo không đề xuất lại việc chọn phông Source Sans Pro và cách viết hoa tiêu đề.
 
-Skill đã nạp: `beamer` (gồm audit, tikz, validate, rubric 100, Hard Rules), `beamer-check` (chỉ dùng phần phân tích log, vì script gọi pdflatex), `slide-design-principles` (đọc cả hai tệp trong references/), `latex-econ-model`.
+**Skill đã nạp:** `beamer` (gồm audit, tikz, validate, rubric 100, Hard Rules), `beamer-check` (chỉ dùng phần phân tích log, vì script gọi pdflatex), `slide-design-principles` (đọc cả hai tệp trong references/), `latex-econ-model`.
 
-Cách làm, theo quy tắc không render ảnh:
-- Biên dịch bản sao `/tmp/sA` bằng `xelatex` hai lần.
+**Cách làm** (tuân thủ quy tắc không render ảnh):
+- Biên dịch bản sao bằng `xelatex` hai lần.
 - Đọc log bằng các regex của `beamer_check.py`.
-- Đo tọa độ chữ bằng `pdftotext -bbox` (trang 453,54 × 255,12 pt; lề chữ 14,17–439,37 pt; `\textheight` = 252,07 pt). Từ đó tính số dòng tiêu đề, mép dưới của nội dung, chữ vượt lề phải và chữ chồng nhau.
-- Đọc chữ bằng `pdftotext -layout`.
-- Đối chiếu với bản gốc của template: `presentation.tex`, `wide.tex`, `presentation.sty`, `README.md`. Hai tệp `presentation.pdf` và `figures.pdf` chỉ đọc được phần chữ vì không được render ảnh.
+- Đo tọa độ chữ bằng `pdftotext -bbox`. Trang 453,54 × 255,12 pt; lề chữ 14,17–439,37 pt; `\textheight` = 252,07 pt. Từ đó tính số dòng tiêu đề, mép dưới nội dung, chữ vượt lề và chữ chồng nhau.
+- Dùng `pdffonts` theo từng trang để biết phông thật được nhúng, và fontTools để kiểm bảng chữ hoa nhỏ (smcp) của Source Sans Pro.
+- Đối chiếu với `presentation.tex`, `wide.tex`, `presentation.sty`, `README.md` của template gốc. Hai tệp `presentation.pdf` và `figures.pdf` chỉ đọc phần chữ.
 
-**Đã kiểm chứng các cặp sửa.** Tôi áp toàn bộ cặp CŨ/MỚI trong báo cáo (trừ S3, vì S3 và S7 là hai cách sửa cùng một dòng) vào bản sao `/tmp/sF`, rồi biên dịch XeLaTeX hai lần:
-- Mã thoát 0; không có Overfull, Underfull hay lỗi nào.
-- Mọi tiêu đề nằm trên 1 dòng và không vượt x = 432 pt.
-- Mép dưới cao nhất là 240,2 pt (slide tài liệu); trang tiêu đề còn 231,9 pt.
-- Trục thời gian ở slide 2 hiện đủ "30/9/2026", "VNX công bố lịch" và "TT 139: lùi đến 31/12/2026".
-- Mỗi chuỗi CŨ đều xuất hiện đúng 1 lần trong tệp gốc (đã đếm bằng script), nên các cặp áp được theo thứ tự bất kỳ.
+**Các cặp sửa đã được kiểm chứng.** Tôi áp toàn bộ cặp CŨ/MỚI trong báo cáo vào bản sao `/tmp/sG`, rồi biên dịch XeLaTeX hai lần:
+- Mã thoát 0; không còn Overfull, Underfull hay cảnh báo phông.
+- Mọi tiêu đề nằm trên 1 dòng và không vượt x = 430 pt.
+- Không trang nào còn dùng LMRoman.
+- Mép dưới cao nhất là 240,2 pt (slide tài liệu); trang tiêu đề kết thúc ở 229,7 pt.
+- Trục thời gian ở slide 2 hiện đủ nhãn.
+- Mỗi chuỗi CŨ xuất hiện đúng 1 lần trong tệp hiện tại (đã đếm bằng script), nên các cặp áp được theo thứ tự bất kỳ.
+- Bản thử còn có thêm hai cặp rút gọn tiêu đề slide 3 và slide 15. Ở bản hiện tại hai tiêu đề này đã vừa 1 dòng (x ≤ 428,5 pt) nên tôi không đưa thành phát hiện.
 
 ## Validate (skill beamer, mục 2.10)
 
 | Kiểm tra | Kết quả | Trạng thái |
 |---|---|---|
-| Số trang | 32 trang. Phần chính có 25 trang (gồm 19 slide nội dung, 4 slide mục, trang tiêu đề, slide cảm ơn), thêm `\lastslide` và 6 trang phụ lục. Với 30 phút là khoảng 1,6 phút một slide nội dung, khớp mức 1,5–2 phút của skill (khoảng 17–22 slide nếu nội suy giữa mốc 20 và 45 phút) | OK |
+| Số trang | 32 trang. Phần chính có 25 trang (19 slide nội dung, 4 slide mục, trang tiêu đề, slide cảm ơn), thêm `\lastslide` và 6 trang phụ lục. Với 30 phút là khoảng 1,6 phút một slide nội dung, khớp mức 1,5–2 phút của skill | OK |
 | Tỷ lệ khung | 453,54 × 255,12 pt (16:9) | OK |
-| Dung lượng tệp | 67,9 KB | OK |
-| Overfull/Underfull hbox, vbox | 0 / 0 | OK |
+| Dung lượng tệp | 73,7 KB | OK |
+| Overfull hbox / vbox | 0 / **1** (trang tiêu đề, 4,65 pt, dòng 34) | **CRITICAL** |
 | Lệnh chưa định nghĩa, trích dẫn chưa định nghĩa, nhãn trùng | 0 | OK |
-| Cảnh báo khác | 1: hyperref "Token not allowed … `\translate`" ở dòng 491, sinh ra từ `\appendix`. Không ảnh hưởng hiển thị | OK |
-| Lệnh overlay (`\pause`, `\only`, `\onslide`, `\uncover`) | 0 | OK |
+| Cảnh báo phông | **30** (thiếu semibold, LaTeX tự thay bằng bold) | **FAIL** |
+| Cảnh báo khác | 1: hyperref `\translate` ở dòng 491, sinh ra từ `\appendix`. Không ảnh hưởng hiển thị | OK |
+| Lệnh overlay | 0 | OK |
 | Slide có hơn 2 khung màu | 0 (deck chưa có khung nào) | OK |
 | `\tiny` | 0 | OK |
-| Slide tài liệu tham khảo | Có (slide 24, đứng ngay trước slide cảm ơn) | OK |
+| Slide tài liệu tham khảo | Có (slide 24) | OK |
 | Bảng tô nền xám | 0 | OK |
-| Slide chỉ có chữ (không công thức, bảng hay hình) | 1/19 trong phần chính (slide 23, "Ba điều cần nhớ") | OK |
+| Slide chỉ có chữ | 1/19 trong phần chính (slide 23) | OK |
 | Log sạch nhưng lỗi vẫn hiện trên slide | Có: trục thời gian slide 2 bị cắt nhãn (A1) | **FAIL** |
 
-Kết luận validate: **FAIL**. Deck biên dịch sạch, nhưng có một lỗi hiển thị mà log không báo.
+Kết luận validate: **FAIL**.
 
 ## Số đo bố cục (bản hiện tại)
 
-- Tiêu đề xuống 2 dòng ở 6 slide: 4, 5, 6, 9, 18, 19. Ba slide 3, 15, 19 có tiêu đề kéo đến x ≥ 436 pt, sát lề phải 439,4 pt.
-- Mép dưới của nội dung: slide 1 ở 246,1 pt, slide 24 ở 240,3, slide 9 ở 240,3, slide 4 ở 239,4. Không slide nào vượt `\textheight`. Không có chữ nào chồng nhau, kể cả nhãn TikZ ở slide 2, 6, 8 và 14.
-- TikZ slide 6: nhãn "khác biệt kép" và "bối cảnh" nằm gọn trong khe giữa hai hộp, cách viền hộp 2–3 pt. Không chồng, nhưng sát.
-- Cỡ chữ nhỏ nhất ngoài chỉ số dưới là \footnotesize (9 pt), dùng cho dòng nguồn ở slide 3, 5, 6, 14 và nhãn TikZ ở slide 2, 6, 8. Hard Rule 13 đặt mức tối thiểu cho chú thích là \small, nhưng template để caption ở footnotesize. Vì người dùng yêu cầu bám sát template, các phát hiện nhóm B chuyển những dòng này thành caption kiểu template (footnotesize, màu xám) thay vì tăng lên \small.
+- **Trang tiêu đề:** chữ chiếm từ y = 10,0 đến 258,1 pt, tức vượt mép dưới trang 3 pt (N3).
+- **Tiêu đề slide:** ở cỡ \Large chữ hoa nhỏ, có 6 slide xuống 2 dòng: 4, 5, 6, 9, 18, 19. Hai dòng cách nhau 17 pt, khung chữ cao 20,4 pt vì có dấu thanh chồng. Script báo hai dòng chồng 3,5 pt theo khung chữ. Chữ hoa nhỏ không có phần chân chữ, nên trên thực tế dấu ở dòng dưới chỉ còn cách dòng trên khoảng 2–3 pt: chưa đè nhưng rất sát.
+- **Mép dưới nội dung:** slide 24 ở 240,2 pt, slide 9 ở 240,0, slide 4 ở 238,9. Không slide nội dung nào vượt `\textheight`. Không có chữ hay nhãn TikZ nào chồng nhau (đã kiểm slide 2, 6, 8, 14).
+- **Chữ hoa nhỏ:** `pdftotext` xuất "THị", "NGHiỆM", tức chữ "i" ra chữ thường. Kiểm bằng fontTools: bảng `smcp` của Source Sans Pro có ánh xạ đủ i, í, ì, ỉ, ĩ, ị (i → I.s, ị → uni1ECA.s). Đây chỉ là lỗi khi trích chữ, không phải lỗi hiển thị.
+- **Cỡ chữ:** nhỏ nhất ngoài chỉ số dưới là \footnotesize (dòng nguồn ở slide 3, 5, 6, 14; nhãn TikZ ở slide 2, 6, 8). Template để caption ở cỡ footnotesize, màu DarkGray. Vì yêu cầu là bám sát template, nhóm B chuyển các dòng nguồn này sang kiểu caption của template thay vì nâng lên \small như Hard Rule 13.
 
-## 1. Lỗi hiển thị và tràn
+## 1. Lỗi hiển thị, tràn và phông
 
 ### A1. [CRITICAL] Slide 2, dòng slides.tex 42
 
@@ -57,9 +64,42 @@ CŨ: \foreach \x/\a/\b in {0.4/2021/TT 57: hạn năm 2023, 3.2/2023/TT 69: lùi
 MỚI: \foreach \x/\a/\b in {0.4/2021/{TT 57: hạn năm 2023}, 3.2/2023/{TT 69: lùi đến hết 2025}, 6.0/2025/{TT 139: lùi đến 31/12/2026}, 8.8/{30/9/2026}/{VNX công bố lịch}}
 ```
 
-### A2. [MAJOR] Slide 1, dòng slides.tex 29
+### N3. [CRITICAL] Slide 1, dòng slides.tex 30–31
 
-Trang tiêu đề kín từ trên xuống dưới: tên đề tài viết hoa ở \LARGE xuống 4 dòng, dòng 1 lẻ "TRƯỜNG:", dòng 4 lẻ "CHÍNH HÀ NỘI"; chữ bắt đầu ở y=12,7 pt, dòng ngày kết thúc ở y=246,1 pt (cách mép dưới 9 pt). Sửa: tự ngắt thành 4 dòng cân nhau (chữ giữ nguyên, chỉ thêm `\\`) và giảm cỡ tiêu đề (cặp S7 bên dưới). Có cả hai cặp thì trang chiếm y=16,4–231,9 pt.
+Trang tiêu đề tràn khỏi trang: dòng "Hà Nội, 2026" nằm ở y=241,1–258,1 pt, mà trang chỉ cao 255,12 pt. Log báo `Overfull \vbox (4.64793pt too high) detected at line 34`. Nguyên nhân: tên đề tài ở \huge xuống 4 dòng, cộng với khối tác giả 2 dòng và dòng ngày. Sửa trong slides.tex, không đụng sty: đưa "Hà Nội, 2026" lên dòng tên theo mẫu "Location -- Date" của template và để `\date` trống. Đã thử: không còn Overfull, trang kết thúc ở y=229,7 pt, không mất chữ nào.
+
+```text
+FILE: latex/slides/slides.tex
+CŨ: \author{Nguyễn Văn Trung\\[1mm]{\normalsize Đề cương nghiên cứu sinh, ngành Kinh tế và Quản lý, Trường Quốc tế, ĐHQGHN}}
+\date{Hà Nội, 2026}
+MỚI: \author{Nguyễn Văn Trung -- Hà Nội, 2026\\[1mm]{\normalsize Đề cương nghiên cứu sinh, ngành Kinh tế và Quản lý, Trường Quốc tế, ĐHQGHN}}
+\date{}
+```
+
+### N1. [MAJOR] Slide mọi slide có `\textsb`, tiêu đề khung, nút TikZ `\sbseries`, dòng sty 10–11
+
+Dưới XeLaTeX, gói `sourcesanspro` không khai báo kiểu chữ semibold: log có 30 cảnh báo `Font shape TU/SourceSansPro(0)/sb/n undefined, using b/n instead`, và pdffonts chỉ thấy SourceSansPro-Bold, không có Semibold. Vì vậy mọi `\textsb{...}` (đầu cột ở slide 3, 10, 12–15, 18, 19, 21–23), tiêu đề khung và nhãn TikZ đều in đậm hẳn (Bold), không phải Semibold như template. Cặp này khai báo lại phông với `FontFace={sb}`. Đã thử: hết cảnh báo, PDF có SourceSansPro-Semibold, chữ hoa nhỏ ở tiêu đề vẫn giữ.
+
+```text
+FILE: latex/slides/presentation.sty
+CŨ: \usepackage{sourcesanspro}
+MỚI: \usepackage{sourcesanspro}
+\setsansfont{SourceSansPro}[Extension=.otf, UprightFont=*-Regular, ItalicFont=*-RegularIt, BoldFont=*-Bold, BoldItalicFont=*-BoldIt, FontFace={sb}{n}{*-Semibold}, FontFace={sb}{it}{*-SemiboldIt}]
+```
+
+### N2. [MAJOR] Slide 9, 12, 16, 18, 19, dòng slides.tex 17
+
+Tên biến nhiều chữ viết đứng ($\MQI$, TK, HQ, MB, $\Post$, $\SMD$, H, CS) dùng `\mathrm`, mà mathastext không đổi `\mathrm`, nên các chữ này in bằng Latin Modern có chân (pdffonts thấy LMRoman10 ở đúng các slide 9, 12, 16, 18, 19), lạc giữa chữ không chân Source Sans Pro. Template lấy chữ trong công thức theo phông văn bản. Đã thử: hết LMRoman, chỉ số dưới vẫn co đúng cỡ.
+
+```text
+FILE: latex/slides/slides.tex
+CŨ: \newcommand{\vn}[1]{\mathrm{#1}}
+MỚI: \newcommand{\vn}[1]{\text{\normalfont #1}}
+```
+
+### A2. [MINOR] Slide 1, dòng slides.tex 29
+
+Tên đề tài ở \huge, chữ hoa nhỏ, xuống 4 dòng; dòng 2 chỉ có "TRƯỜNG:", dòng 4 là "CHÍNH HÀ NỘI". Ngắt tay thành 4 dòng cân nhau (giữ nguyên từng chữ, chỉ thêm `\\`). Lỗi tràn trang tiêu đề là N3; cặp này chỉ để bố cục đẹp hơn.
 
 ```text
 FILE: latex/slides/slides.tex
@@ -67,32 +107,12 @@ CŨ: \title{Hợp nhất sàn chứng khoán và chất lượng thị trường
 MỚI: \title{Hợp nhất sàn chứng khoán\\ và chất lượng thị trường:\\ Bằng chứng thực nghiệm từ HNX\\ và vị thế tài chính Hà Nội}
 ```
 
-### S7. [MAJOR] Slide 1, dòng sty 52
-
-Thay cho S3, đi cùng A2: bỏ semibold và giảm xuống \Large để trang tiêu đề có lề dưới khoảng 23 pt. Đây là lệch khỏi \huge của template, nhưng với tên đề tài viết hoa dài 4 dòng thì \huge (hoặc \LARGE) đẩy dòng ngày sát mép dưới.
-
-```text
-FILE: latex/slides/presentation.sty
-CŨ: \setbeamerfont{title}{size=\LARGE, series=\sbseries}
-MỚI: \setbeamerfont{title}{size=\Large}
-```
-
 
 ## 2. Tiêu đề quá dài (xuống 2 dòng hoặc sát lề phải)
 
-### A3. [MINOR] Slide 3, dòng slides.tex 58
-
-Tiêu đề viết hoa dài đến x=436,1 pt, sát lề phải (439,4 pt). Bỏ "cần biết" thì vẫn giữ được kết luận.
-
-```text
-FILE: latex/slides/slides.tex
-CŨ: \frametitle{Hà Nội cần biết mất gì, được gì khi không còn sàn cổ phiếu niêm yết}
-MỚI: \frametitle{Hà Nội mất gì, được gì khi không còn sàn cổ phiếu niêm yết}
-```
-
 ### A4. [MINOR] Slide 4, dòng slides.tex 85
 
-Tiêu đề xuống 2 dòng nên bảng bị đẩy xuống, chân bảng tới y=239,4 pt.
+Tiêu đề xuống 2 dòng nên bảng bị đẩy xuống, chân bảng tới y=238,9 pt.
 
 ```text
 FILE: latex/slides/slides.tex
@@ -122,22 +142,12 @@ MỚI: \frametitle{Khung phân tích: từ đo chất lượng đến hàm ý ch
 
 ### A7. [MINOR] Slide 9, dòng slides.tex 164
 
-Tiêu đề xuống 2 dòng; slide có công thức, bảng và 2 ý nên chân tới y=240,3 pt.
+Tiêu đề xuống 2 dòng; slide có công thức, bảng và 2 ý nên chân tới y=240,0 pt.
 
 ```text
 FILE: latex/slides/slides.tex
 CŨ: \frametitle{Chỉ số chất lượng thị trường vốn: ba chiều, sáu chỉ báo, trọng số bằng nhau}
 MỚI: \frametitle{Chỉ số chất lượng: ba chiều, sáu chỉ báo, trọng số bằng nhau}
-```
-
-### A8. [MINOR] Slide 15, dòng slides.tex 300
-
-Tiêu đề dài đến x=438,8 pt, chỉ còn 0,6 pt là tới lề.
-
-```text
-FILE: latex/slides/slides.tex
-CŨ: \frametitle{Lực kiểm định phụ thuộc vào số tháng, không phụ thuộc vào số mã}
-MỚI: \frametitle{Lực kiểm định phụ thuộc số tháng, không phụ thuộc số mã}
 ```
 
 ### A9. [MINOR] Slide 18, dòng slides.tex 353
@@ -601,19 +611,7 @@ CŨ: \definecolor{cbBlue}{HTML}{0173B2}
 MỚI: 
 ```
 
-### S1. [MINOR] Slide toàn bộ, dòng sty 20
-
-Template có `\MTsetmathskips{y}` và `{j}` để chỉnh khoảng cách chữ nghiêng; bản dự án bỏ mất, mà deck dùng $j$ trong $\MQI_{jt}$. Thêm lại. Lưu ý thêm: tùy chọn `eulergreek` của template không dùng được ở máy này (thiếu phông `zeur`, đã thử) nên chữ Hy Lạp vẫn lấy từ Computer Modern; nếu máy chính có eulervm thì nên thêm `eulergreek`.
-
-```text
-FILE: latex/slides/presentation.sty
-CŨ: \usepackage[italic, nolessnomore, noparenthesis, noplusnominus, noequal, nohbar]{mathastext}
-MỚI: \usepackage[italic, nolessnomore, noparenthesis, noplusnominus, noequal, nohbar]{mathastext}
-\MTsetmathskips{y}{2mu}{0mu}
-\MTsetmathskips{j}{2mu}{0mu}
-```
-
-### S2. [MINOR] Slide toàn bộ, dòng sty 193–195
+### S2. [MINOR] Slide toàn bộ, dòng sty 217–219
 
 Tên môi trường theorem do template định nghĩa vẫn bằng tiếng Anh, nếu dùng sẽ in "Proposition", "Assumption" trên slide tiếng Việt.
 
@@ -627,84 +625,62 @@ MỚI: \newtheorem{proposition}{Mệnh đề}
 \newtheorem{remark}{Nhận xét}
 ```
 
-### S3. [MINOR] Slide 1, dòng sty 52
+## Mức khớp template sau commit `ea6eef5`
 
-Template để tên deck ở cỡ \huge, nét thường (`shape=\scshape`, không semibold). Bản dự án dùng `series=\sbseries`. Cặp S3 chỉ bỏ semibold. Nếu áp S7 thì không áp S3 (hai cặp sửa cùng một dòng).
+presentation.sty đã khớp bản gốc, chỉ trừ ba chỗ [VN] và hai lỗi XeLaTeX ở trên (N1 thiếu semibold, N2 `\mathrm` in phông Latin Modern). Phần còn lệch nằm trong slides.tex:
 
-```text
-FILE: latex/slides/presentation.sty
-CŨ: \setbeamerfont{title}{size=\LARGE, series=\sbseries}
-MỚI: \setbeamerfont{title}{size=\LARGE}
-```
+| Mặt | Template | Deck hiện tại | Phát hiện |
+|---|---|---|---|
+| Chú thích hình, bảng | `figure`/`table` + `\caption`, chữ footnotesize màu DarkGray, căn giữa | Dòng `{\small ...}` hoặc `{\footnotesize ...}` màu đen, căn trái | B1–B11 |
+| Khung theorem nền LightGray | Có ở slide theorem, lemma, proposition, corollary | Không slide nào dùng | G1, S2 |
+| Ký hiệu `\so`, `\then` | Dùng cho quan hệ suy ra | Gõ tay `$\Rightarrow$` | E1–E5, C2 |
+| Cỡ chữ bảng | Cỡ thường | `\small` ở mọi bảng | F1–F4 (bảng dài vẫn giữ `\small`) |
+| Slide cuối | `\lastslide`, rồi slide dự phòng ngay sau | Slide "Xin cảm ơn", `\lastslide`, rồi trang "Slide phụ lục" kiểu riêng | H1, H2 |
+| Màu | Chỉ RubineRed qua `\al` | Có thêm `cbBlue`, `cbOrange` không dùng | H3 |
+| Slide mục `\heading` | 4 slide, kiểu chuẩn | Khớp | — |
+| Khoảng cách, lề, màu chữ, gạch đầu dòng | Theo sty | Khớp (sty là bản gốc) | — |
 
-### S4. [MINOR] Slide tất cả slide có tiêu đề, dòng sty 61
+## Đề xuất hình pgfplots (Dark2: tím #7570b3, cam #d95f02, hồng #e7298a; nhãn trên đường, không chú giải)
 
-Template: tiêu đề slide nét thường (`shape=\scshape`, không có series). Bản dự án thêm `series=\sbseries`. Bỏ semibold cho giống template; chữ hoa giãn cách vẫn giữ nguyên. Đã thử: mọi tiêu đề vẫn nằm trên 1 dòng.
+Thư mục `latex/slides/hinh/` đã có `mde.tex`, `tran.tex`, `buocgia.tex` (kiểu `mau` trong `kieu.tex`), nhưng slides.tex chưa `\input` tệp nào. Gợi ý cách gắn hình và những slide nên đổi sang hình, theo thứ tự ưu tiên:
 
-```text
-FILE: latex/slides/presentation.sty
-CŨ: \setbeamerfont{frametitle}{size=\large, series=\sbseries}
-MỚI: \setbeamerfont{frametitle}{size=\large}
-```
+1. **Slide 15:** thay bảng 3 dòng bằng `hinh/mde.tex`, đặt trong `figure` với `\caption{Lực 80\%, mức một phía 0,05/3; $\sigma_d = 0{,}2$ minh họa.}`. Bỏ dòng `{\small (lực 80\%...)}` vì caption đã thay nó.
+2. **Slide 10:** thay bảng biên độ và bước giá bằng `hinh/tran.tex` (lợi suất trần theo giá, HNX so với HOSE). Có thể thêm `hinh/buocgia.tex`, nhưng mỗi slide chỉ nên có một hình như `figures.pdf`; hình bước giá nên sang slide phụ lục.
+3. **Slide 12 (khác biệt kép):** thay bảng "Ví dụ minh họa" bằng hình DiD. Trục hoành là tháng, có vạch ở 28/12/2026. Đường tím là mã chuyển sàn, đường cam là mã đối chứng, đường tím nét đứt là phản thực. Mũi tên ghi $\delta$ đặt giữa đường thật và phản thực. Caption: "Số liệu minh họa". Xem thêm lưu ý về −0,25 ở mục dưới.
+4. **Slide 14:** đặt cạnh lưu đồ một histogram thống kê trên chuỗi giả (tím). Vạch cam là giá trị quan sát. Đuôi tô hồng là giá trị p.
+5. **Slide 2 và 8:** giữ trục thời gian TikZ (tối giản, không khung), chỉ cần sửa A1.
 
-### S5. [MINOR] Slide 7, 11, 17, 20, dòng sty 199
+Không nên đổi sang hình: bảng GFCI ở slide 3 (chỉ có 2 số), bảng giả thuyết ở slide 4, bảng rủi ro ở slide 21.
 
-Template: `\heading` dùng `\LARGE\scshape`, nét thường. Bản dự án thêm `\sbseries`.
+## Ngoài phạm vi hình thức (để main cân nhắc, không tính điểm)
 
-```text
-FILE: latex/slides/presentation.sty
-CŨ: \newcommand*{\heading}[1]{\LARGE\sbseries\color{BlackGray}\singlespacing\capsfont\MakeUppercase{#1}}
-MỚI: \newcommand*{\heading}[1]{\LARGE\color{BlackGray}\singlespacing\capsfont\MakeUppercase{#1}}
-```
-
-### S6. [MINOR] Slide toàn bộ, dòng sty 7
-
-Template bỏ chữ ghép f (`\DisableLigatures[f]`, chỉ chạy với pdfTeX). Với fontspec thì làm tương đương bằng `Ligatures=NoCommon`.
-
-```text
-FILE: latex/slides/presentation.sty
-CŨ: \defaultfontfeatures{Ligatures=TeX}
-MỚI: \defaultfontfeatures{Ligatures={TeX, NoCommon}}
-```
-
-## Đề xuất hình pgfplots (bảng Dark2: tím #7570b3, cam #d95f02, hồng #e7298a; nhãn đặt trên đường, không dùng chú giải)
-
-Theo `figures.pdf`, mỗi hình của template chiếm gần trọn slide (`scale=0.25` trong `wide.tex`) và có `\caption` xám bên dưới. Những slide nên đổi bảng hoặc chữ sang hình, xếp theo thứ tự ưu tiên:
-
-1. **Slide 12 (khác biệt kép).** Thay bảng "Ví dụ minh họa" bằng hình kinh điển của DiD. Trục hoành là tháng, có vạch đứng ở 28/12/2026. Đường tím là mã chuyển sàn, đường cam là mã đối chứng, đường tím nét đứt là phản thực. Mũi tên giữa đường thật và đường phản thực ghi $\delta$. Caption: "Số liệu minh họa, không phải ước lượng". Lưu ý thêm ở mục dưới về con số −0,25.
-2. **Slide 15 (lực kiểm định).** Thay bảng 3 dòng bằng hình hiệu ứng nhỏ nhất phát hiện được (theo log Amihud) tại $\phi$ = 0; 0,6; 0,8, vẽ 3 điểm nối liền màu tím. Nhãn "12%", "22%", "30%" đặt ngay trên từng điểm. Thêm một điểm cam cho trường hợp cửa sổ trước rút còn 24 tháng (×1,3).
-3. **Slide 10 (biên độ cắt lợi suất).** Vẽ một phân phối lợi suất ngày. Phần đuôi vượt ±7% tô hồng là "bị cắt". Vạch đứng tím ở ngưỡng chung, nhãn ghi ngay trên vạch. Cách này cho thấy vì sao Amihud "giảm cơ học" mà không cần thêm chữ.
-4. **Slide 14 (bootstrap tự hồi quy).** Đặt cạnh lưu đồ 4 bước một histogram của thống kê trên chuỗi giả (tím). Vạch cam là giá trị quan sát. Phần đuôi tô hồng là giá trị p.
-5. **Slide 2 và 8 (trục thời gian):** giữ TikZ, vì hình hiện tại đúng kiểu template (tối giản, không khung). Chỉ cần sửa A1.
-
-Không nên thay: bảng GFCI ở slide 3 (chỉ có 2 con số), bảng giả thuyết ở slide 4 và bảng rủi ro ở slide 21 (nội dung là chữ).
-
-## Ngoài phạm vi hình thức (ghi lại để main cân nhắc, không tính điểm)
-
-- Slide 12 dùng $\delta = -0{,}25$ (và $-22\%$) trong bảng "Ví dụ minh họa". `ban-giao-slide/GHI-CHU.md` mục 1 ghi rõ "Ví dụ không được dùng: … δ = −0,25". Slide có ghi chữ "minh họa", nhưng con số này lại trùng với hiệu ứng nhỏ nhất phát hiện được 0,25/22% ở slide 15, nên dễ bị hiểu là kết quả. Nên đổi sang số khác hoặc dùng hình ở đề xuất 1 mà không ghi số.
-- Màu nhấn RubineRed (dvipsnames) trên nền trắng có độ tương phản khoảng 4,3:1, thấp hơn một chút so với mức WCAG AA 4,5:1. Đây là màu của template nên giữ nguyên, nhưng không nên dùng \al{} cho chữ \small hay chữ nhỏ hơn.
-- Slide 31: cảnh báo hyperref về `\translate` đến từ `\appendix`. Nếu áp H2 và bỏ luôn `\appendix` thì cảnh báo mất, nhưng skill beamer (Hard Rule 14) lại khuyên giữ `\appendix`. Tôi không đề xuất cặp sửa cho điểm này.
+- Slide 12 dùng $\delta = -0{,}25$ và $-22\%$ trong bảng minh họa. `ban-giao-slide/GHI-CHU.md` mục 1 ghi "Ví dụ không được dùng: … δ = −0,25". Con số này lại trùng với hiệu ứng nhỏ nhất 0,25/22% ở slide 15, nên dễ bị đọc thành kết quả.
+- RubineRed trên nền trắng có độ tương phản khoảng 4,3:1, thấp hơn mức WCAG AA 4,5:1. Đây là màu của template nên giữ nguyên, nhưng tránh dùng `\al{}` cho chữ nhỏ.
+- Cảnh báo hyperref `\translate` đến từ `\appendix`. Template không có `\appendix`, nhưng Hard Rule 14 của skill khuyên giữ, nên tôi không đề xuất sửa.
+- Tùy chọn `eulergreek` và `mathalpha` trong sty đã chạy được ở máy này (pdffonts thấy EURM10, MnSymbol10). Phần này không cần sửa.
 
 ## Chấm điểm theo rubric 100 của skill beamer (bản hiện tại)
 
 | Mục trừ | Áp vào | Điểm |
 |---|---|---|
-| Lỗi hiển thị nghiêm trọng mà log không báo. Rubric không có mục riêng; ánh xạ vào mức Critical −15, ngang "undefined" | A1, slide 2 | −15 |
-| Trang tiêu đề kín đến mép dưới (Major, ánh xạ như nội dung sát tràn) | A2/S7, slide 1 | −5 |
-| Ký hiệu không nhất quán (σ hai nghĩa) | D2–D4 | −3 |
-| Vượt ≤2 công thức trưng bày (Major, ánh xạ như vi phạm mật độ) | D1, slide 18 | −3 |
+| Nội dung tràn khỏi trang. Ánh xạ vào mức Critical "Overfull > 10pt" vì chữ bị cắt ở mép trang dù chỉ thừa 4,65 pt | N3, slide 1 | −10 |
+| Lỗi hiển thị mà log không báo. Ánh xạ vào mức Critical −15 | A1, slide 2 | −15 |
+| Ký hiệu không nhất quán: σ mang hai nghĩa | D2–D4 | −3 |
+| Công thức in sai phông (Latin Modern lẫn trong Source Sans), tính như không nhất quán ký hiệu | N2 | −3 |
+| Thiếu semibold, LaTeX thay bằng bold (Major, ánh xạ) | N1 | −3 |
+| Hơn 2 công thức trưng bày trên một slide (Major, ánh xạ) | D1, slide 18 | −3 |
 | Giảm cỡ chữ (\footnotesize cho chữ thường), −1 mỗi slide | slide 3, 5, 6, 14 | −4 |
 | Tiêu đề xuống 2 dòng làm chật slide (Minor, ánh xạ), −1 mỗi slide | slide 4, 5, 6, 9, 18, 19 | −6 |
-| Các điểm lệch template còn lại (nhóm 4 trừ B, C2) | không có mục tương ứng trong rubric | 0 |
-| **Tổng** | | **64/100** |
+| Các điểm lệch template khác (nhóm 4) | rubric không có mục tương ứng | 0 |
+| **Tổng** | | **53/100** |
 
-Ngưỡng của skill: dưới 80 là "Must fix". Nếu áp đủ các cặp ở trên (đã kiểm chứng trên `/tmp/sF`), các mục trừ đều hết; phần còn lại chỉ là `\small` ở các bảng `tabularx` dài, ước tính **≥ 95/100**.
+Ngưỡng của skill: dưới 80 là "Must fix". Nếu áp đủ các cặp (đã kiểm chứng trên `/tmp/sG`), mọi mục trừ đều hết; phần còn lại chỉ là `\small` ở các bảng `tabularx` dài, ước tính **≥ 95/100**.
 
 ## Bảng đếm
 
 | Mức | Số phát hiện | Mã |
 |---|---|---|
-| CRITICAL | 1 | A1 |
-| MAJOR | 4 | A2, S7 (hai cặp cho cùng lỗi trang tiêu đề; áp S7 thì bỏ S3), D1, D2 (gồm D3, D4) |
-| MINOR | 35 | A3–A10; B1/B2, B3/B4, B5, B6/B7, B8, B9, B10/B11; C1–C6; D5, D6; E1 (gồm E2, E4, E5); F1 (gồm F2–F4); G1; H1–H3; S1–S6 |
-| **Tổng** | **40** | (các cặp ghi "Tiếp theo"/"Như" không tính thành phát hiện riêng) |
+| CRITICAL | 2 | A1, N3 |
+| MAJOR | 4 | N1, N2, D1, D2 (gồm D3, D4) |
+| MINOR | 29 | A2, A4–A7, A9, A10; B1/B2, B3/B4, B5, B6/B7, B8, B9, B10/B11; C1–C6; D5, D6; E1 (gồm E2, E4, E5); F1 (gồm F2–F4); G1; H1–H3; S2 |
+| **Tổng** | **35** | (các cặp ghi "Tiếp theo"/"Như" không tính thành phát hiện riêng) |
