@@ -31,6 +31,8 @@
 - Ưu tiên thêm phần định tính (cơ chế, trực giác, hàm ý) có nguồn trong đề cương. Chỉ vẽ hình khi thật sự cần; hình vẽ theo kiểu figures.pdf của template (Dark2: #7570b3, #d95f02, #e7298a; nhãn trên đường, không chú giải).
 - Chuẩn nội dung: đề cương v14, Shapiro "How to Give an Applied Micro Talk" (`ho-so/tham-khao/`).
 
+- QUY TẮC GỐC VỀ BỐ CỤC: mỗi frame phải là bản sao một kiểu slide có trong presentation.tex của template (Generic, Nested lists, Numbered/Nested numbered, Alerts, Math, Figure/Figure with note, Basic table/Table with note, Theorem/Lemma/Proposition/Corollary, Slide with buttons + backup slide có nút quay lại, Long reference list, Pictograms, \heading, \lastslide). Không dùng columns, tabularx, tiêu đề phụ in đậm hay bố cục template không có. Chi tiết dài đưa xuống slide dự phòng, nối bằng \hyperlink + \beamergotobutton.
+
 ## Quy trình rà soát theo vòng
 - Tối đa 2 agent chạy cùng lúc, nhưng mỗi agent phải nạp ĐỦ bộ skill mạnh nhất (cả hình thức lẫn nội dung):
   beamer, beamer-check (chỉ phần phân tích log), beamer-presentation, slide-design-principles, latex-econ-model,
